@@ -1,0 +1,695 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Mon Jun 27 12:21:48 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-06-27 12:22:00.246 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-06-27 12:22:00.250 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-06-27 12:22:00.257 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-06-27 12:22:00.608 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-06-27 12:22:00.946 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-06-27 12:22:00.947 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-06-27 12:22:00.947 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-06-27 12:22:00.951 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-06-27 12:22:01.009 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-06-27 12:22:01.009 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-06-27 12:22:01.009 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-06-27 12:22:01.010 ServerApp] http://r2i0n17:8877/lab
+[I 2022-06-27 12:22:01.010 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-06-27 12:22:01.010 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-06-27 12:22:03.261 ServerApp] 404 GET /api/kernels/d148c5ff-bd99-4645-a01c-068f0b87a957?1656332523225 (10.148.1.145): Kernel does not exist: d148c5ff-bd99-4645-a01c-068f0b87a957
+[W 2022-06-27 12:22:03.261 ServerApp] Kernel does not exist: d148c5ff-bd99-4645-a01c-068f0b87a957
+[W 2022-06-27 12:22:03.261 ServerApp] 404 GET /api/kernels/d148c5ff-bd99-4645-a01c-068f0b87a957?1656332523225 (10.148.1.145) 0.76ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:03.423 ServerApp] 404 GET /api/kernels/d148c5ff-bd99-4645-a01c-068f0b87a957/channels?session_id=f2e55743-7b22-4d69-8a2e-169f0334ce23 (10.148.1.145): Kernel does not exist: d148c5ff-bd99-4645-a01c-068f0b87a957
+[W 2022-06-27 12:22:03.464 ServerApp] 404 GET /api/kernels/d148c5ff-bd99-4645-a01c-068f0b87a957/channels?session_id=f2e55743-7b22-4d69-8a2e-169f0334ce23 (10.148.1.145) 42.62ms referer=None
+[W 2022-06-27 12:22:03.484 ServerApp] 404 GET /api/kernels/d148c5ff-bd99-4645-a01c-068f0b87a957?1656332523448 (10.148.1.145): Kernel does not exist: d148c5ff-bd99-4645-a01c-068f0b87a957
+[W 2022-06-27 12:22:03.485 ServerApp] Kernel does not exist: d148c5ff-bd99-4645-a01c-068f0b87a957
+[W 2022-06-27 12:22:03.485 ServerApp] 404 GET /api/kernels/d148c5ff-bd99-4645-a01c-068f0b87a957?1656332523448 (10.148.1.145) 0.68ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:04.719 ServerApp] 404 GET /api/kernels/d148c5ff-bd99-4645-a01c-068f0b87a957/channels?session_id=f2e55743-7b22-4d69-8a2e-169f0334ce23 (10.148.1.145): Kernel does not exist: d148c5ff-bd99-4645-a01c-068f0b87a957
+[W 2022-06-27 12:22:04.720 ServerApp] 404 GET /api/kernels/d148c5ff-bd99-4645-a01c-068f0b87a957/channels?session_id=f2e55743-7b22-4d69-8a2e-169f0334ce23 (10.148.1.145) 1.49ms referer=None
+[W 2022-06-27 12:22:04.835 ServerApp] 404 GET /api/kernels/d148c5ff-bd99-4645-a01c-068f0b87a957?1656332524798 (10.148.1.145): Kernel does not exist: d148c5ff-bd99-4645-a01c-068f0b87a957
+[W 2022-06-27 12:22:04.835 ServerApp] Kernel does not exist: d148c5ff-bd99-4645-a01c-068f0b87a957
+[W 2022-06-27 12:22:04.835 ServerApp] 404 GET /api/kernels/d148c5ff-bd99-4645-a01c-068f0b87a957?1656332524798 (10.148.1.145) 0.68ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:06.234 ServerApp] 404 GET /api/kernels/4bb49fd4-7fa7-4b7e-95d4-35d8ae29d887?1656332526197 (10.148.1.145): Kernel does not exist: 4bb49fd4-7fa7-4b7e-95d4-35d8ae29d887
+[W 2022-06-27 12:22:06.234 ServerApp] Kernel does not exist: 4bb49fd4-7fa7-4b7e-95d4-35d8ae29d887
+[W 2022-06-27 12:22:06.235 ServerApp] 404 GET /api/kernels/4bb49fd4-7fa7-4b7e-95d4-35d8ae29d887?1656332526197 (10.148.1.145) 1.00ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:06.699 ServerApp] 404 GET /api/kernels/4bb49fd4-7fa7-4b7e-95d4-35d8ae29d887/channels?session_id=c7704ede-c73a-42bd-b91f-d4889d7ba706 (10.148.1.145): Kernel does not exist: 4bb49fd4-7fa7-4b7e-95d4-35d8ae29d887
+[W 2022-06-27 12:22:06.700 ServerApp] 404 GET /api/kernels/4bb49fd4-7fa7-4b7e-95d4-35d8ae29d887/channels?session_id=c7704ede-c73a-42bd-b91f-d4889d7ba706 (10.148.1.145) 1.57ms referer=None
+[W 2022-06-27 12:22:06.737 ServerApp] 404 GET /api/kernels/4bb49fd4-7fa7-4b7e-95d4-35d8ae29d887?1656332526700 (10.148.1.145): Kernel does not exist: 4bb49fd4-7fa7-4b7e-95d4-35d8ae29d887
+[W 2022-06-27 12:22:06.737 ServerApp] Kernel does not exist: 4bb49fd4-7fa7-4b7e-95d4-35d8ae29d887
+[W 2022-06-27 12:22:06.737 ServerApp] 404 GET /api/kernels/4bb49fd4-7fa7-4b7e-95d4-35d8ae29d887?1656332526700 (10.148.1.145) 0.68ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:07.228 ServerApp] 404 GET /api/kernels/e5c4908a-ae6c-490e-aa89-bc05b760b665?1656332527191 (10.148.1.145): Kernel does not exist: e5c4908a-ae6c-490e-aa89-bc05b760b665
+[W 2022-06-27 12:22:07.228 ServerApp] Kernel does not exist: e5c4908a-ae6c-490e-aa89-bc05b760b665
+[W 2022-06-27 12:22:07.229 ServerApp] 404 GET /api/kernels/e5c4908a-ae6c-490e-aa89-bc05b760b665?1656332527191 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:07.242 ServerApp] 404 GET /api/kernels/d148c5ff-bd99-4645-a01c-068f0b87a957/channels?session_id=f2e55743-7b22-4d69-8a2e-169f0334ce23 (10.148.1.145): Kernel does not exist: d148c5ff-bd99-4645-a01c-068f0b87a957
+[W 2022-06-27 12:22:07.243 ServerApp] 404 GET /api/kernels/d148c5ff-bd99-4645-a01c-068f0b87a957/channels?session_id=f2e55743-7b22-4d69-8a2e-169f0334ce23 (10.148.1.145) 1.46ms referer=None
+[W 2022-06-27 12:22:07.267 ServerApp] 404 GET /api/kernels/70a62b0f-7d51-4e5e-aaf3-645400b3fabf?1656332527230 (10.148.1.145): Kernel does not exist: 70a62b0f-7d51-4e5e-aaf3-645400b3fabf
+[W 2022-06-27 12:22:07.267 ServerApp] Kernel does not exist: 70a62b0f-7d51-4e5e-aaf3-645400b3fabf
+[W 2022-06-27 12:22:07.268 ServerApp] 404 GET /api/kernels/70a62b0f-7d51-4e5e-aaf3-645400b3fabf?1656332527230 (10.148.1.145) 0.68ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:07.276 ServerApp] 404 GET /api/kernels/15e070c9-ce07-4d5e-98cb-4850a72e84f5?1656332527240 (10.148.1.145): Kernel does not exist: 15e070c9-ce07-4d5e-98cb-4850a72e84f5
+[W 2022-06-27 12:22:07.276 ServerApp] Kernel does not exist: 15e070c9-ce07-4d5e-98cb-4850a72e84f5
+[W 2022-06-27 12:22:07.276 ServerApp] 404 GET /api/kernels/15e070c9-ce07-4d5e-98cb-4850a72e84f5?1656332527240 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:07.328 ServerApp] 404 GET /api/kernels/d148c5ff-bd99-4645-a01c-068f0b87a957?1656332527290 (10.148.1.145): Kernel does not exist: d148c5ff-bd99-4645-a01c-068f0b87a957
+[W 2022-06-27 12:22:07.328 ServerApp] Kernel does not exist: d148c5ff-bd99-4645-a01c-068f0b87a957
+[W 2022-06-27 12:22:07.328 ServerApp] 404 GET /api/kernels/d148c5ff-bd99-4645-a01c-068f0b87a957?1656332527290 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:07.632 ServerApp] 404 GET /api/kernels/4bb49fd4-7fa7-4b7e-95d4-35d8ae29d887/channels?session_id=c7704ede-c73a-42bd-b91f-d4889d7ba706 (10.148.1.145): Kernel does not exist: 4bb49fd4-7fa7-4b7e-95d4-35d8ae29d887
+[W 2022-06-27 12:22:07.632 ServerApp] 404 GET /api/kernels/4bb49fd4-7fa7-4b7e-95d4-35d8ae29d887/channels?session_id=c7704ede-c73a-42bd-b91f-d4889d7ba706 (10.148.1.145) 1.47ms referer=None
+[W 2022-06-27 12:22:07.716 ServerApp] 404 GET /api/kernels/4bb49fd4-7fa7-4b7e-95d4-35d8ae29d887?1656332527681 (10.148.1.145): Kernel does not exist: 4bb49fd4-7fa7-4b7e-95d4-35d8ae29d887
+[W 2022-06-27 12:22:07.717 ServerApp] Kernel does not exist: 4bb49fd4-7fa7-4b7e-95d4-35d8ae29d887
+[W 2022-06-27 12:22:07.717 ServerApp] 404 GET /api/kernels/4bb49fd4-7fa7-4b7e-95d4-35d8ae29d887?1656332527681 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:07.817 ServerApp] 404 GET /api/kernels/e5c4908a-ae6c-490e-aa89-bc05b760b665/channels?session_id=af095eda-c55f-43b5-973f-16c9a28aa17d (10.148.1.145): Kernel does not exist: e5c4908a-ae6c-490e-aa89-bc05b760b665
+[W 2022-06-27 12:22:07.817 ServerApp] 404 GET /api/kernels/e5c4908a-ae6c-490e-aa89-bc05b760b665/channels?session_id=af095eda-c55f-43b5-973f-16c9a28aa17d (10.148.1.145) 1.45ms referer=None
+[W 2022-06-27 12:22:07.877 ServerApp] 404 GET /api/kernels/e5c4908a-ae6c-490e-aa89-bc05b760b665?1656332527840 (10.148.1.145): Kernel does not exist: e5c4908a-ae6c-490e-aa89-bc05b760b665
+[W 2022-06-27 12:22:07.877 ServerApp] Kernel does not exist: e5c4908a-ae6c-490e-aa89-bc05b760b665
+[W 2022-06-27 12:22:07.877 ServerApp] 404 GET /api/kernels/e5c4908a-ae6c-490e-aa89-bc05b760b665?1656332527840 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:07.886 ServerApp] 404 GET /api/kernels/15e070c9-ce07-4d5e-98cb-4850a72e84f5/channels?session_id=e305d13f-0e2f-412b-afe9-db5540622241 (10.148.1.145): Kernel does not exist: 15e070c9-ce07-4d5e-98cb-4850a72e84f5
+[W 2022-06-27 12:22:07.887 ServerApp] 404 GET /api/kernels/15e070c9-ce07-4d5e-98cb-4850a72e84f5/channels?session_id=e305d13f-0e2f-412b-afe9-db5540622241 (10.148.1.145) 1.45ms referer=None
+[W 2022-06-27 12:22:07.934 ServerApp] 404 GET /api/kernels/15e070c9-ce07-4d5e-98cb-4850a72e84f5?1656332527897 (10.148.1.145): Kernel does not exist: 15e070c9-ce07-4d5e-98cb-4850a72e84f5
+[W 2022-06-27 12:22:07.934 ServerApp] Kernel does not exist: 15e070c9-ce07-4d5e-98cb-4850a72e84f5
+[W 2022-06-27 12:22:07.934 ServerApp] 404 GET /api/kernels/15e070c9-ce07-4d5e-98cb-4850a72e84f5?1656332527897 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:08.176 ServerApp] 404 GET /api/kernels/70a62b0f-7d51-4e5e-aaf3-645400b3fabf/channels?session_id=9bb9821b-e2d8-439b-b244-f823e8be1132 (10.148.1.145): Kernel does not exist: 70a62b0f-7d51-4e5e-aaf3-645400b3fabf
+[W 2022-06-27 12:22:08.177 ServerApp] 404 GET /api/kernels/70a62b0f-7d51-4e5e-aaf3-645400b3fabf/channels?session_id=9bb9821b-e2d8-439b-b244-f823e8be1132 (10.148.1.145) 1.48ms referer=None
+[W 2022-06-27 12:22:08.228 ServerApp] 404 GET /api/kernels/70a62b0f-7d51-4e5e-aaf3-645400b3fabf?1656332528191 (10.148.1.145): Kernel does not exist: 70a62b0f-7d51-4e5e-aaf3-645400b3fabf
+[W 2022-06-27 12:22:08.228 ServerApp] Kernel does not exist: 70a62b0f-7d51-4e5e-aaf3-645400b3fabf
+[W 2022-06-27 12:22:08.228 ServerApp] 404 GET /api/kernels/70a62b0f-7d51-4e5e-aaf3-645400b3fabf?1656332528191 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:08.411 ServerApp] 404 GET /api/kernels/e5c4908a-ae6c-490e-aa89-bc05b760b665/channels?session_id=af095eda-c55f-43b5-973f-16c9a28aa17d (10.148.1.145): Kernel does not exist: e5c4908a-ae6c-490e-aa89-bc05b760b665
+[W 2022-06-27 12:22:08.411 ServerApp] 404 GET /api/kernels/e5c4908a-ae6c-490e-aa89-bc05b760b665/channels?session_id=af095eda-c55f-43b5-973f-16c9a28aa17d (10.148.1.145) 1.45ms referer=None
+[W 2022-06-27 12:22:08.482 ServerApp] 404 GET /api/kernels/e5c4908a-ae6c-490e-aa89-bc05b760b665?1656332528444 (10.148.1.145): Kernel does not exist: e5c4908a-ae6c-490e-aa89-bc05b760b665
+[W 2022-06-27 12:22:08.482 ServerApp] Kernel does not exist: e5c4908a-ae6c-490e-aa89-bc05b760b665
+[W 2022-06-27 12:22:08.482 ServerApp] 404 GET /api/kernels/e5c4908a-ae6c-490e-aa89-bc05b760b665?1656332528444 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:09.674 ServerApp] 404 GET /api/kernels/70a62b0f-7d51-4e5e-aaf3-645400b3fabf/channels?session_id=9bb9821b-e2d8-439b-b244-f823e8be1132 (10.148.1.145): Kernel does not exist: 70a62b0f-7d51-4e5e-aaf3-645400b3fabf
+[W 2022-06-27 12:22:09.674 ServerApp] 404 GET /api/kernels/70a62b0f-7d51-4e5e-aaf3-645400b3fabf/channels?session_id=9bb9821b-e2d8-439b-b244-f823e8be1132 (10.148.1.145) 1.66ms referer=None
+[W 2022-06-27 12:22:09.693 ServerApp] 404 GET /api/kernels/15e070c9-ce07-4d5e-98cb-4850a72e84f5/channels?session_id=e305d13f-0e2f-412b-afe9-db5540622241 (10.148.1.145): Kernel does not exist: 15e070c9-ce07-4d5e-98cb-4850a72e84f5
+[W 2022-06-27 12:22:09.694 ServerApp] 404 GET /api/kernels/15e070c9-ce07-4d5e-98cb-4850a72e84f5/channels?session_id=e305d13f-0e2f-412b-afe9-db5540622241 (10.148.1.145) 1.44ms referer=None
+[W 2022-06-27 12:22:09.709 ServerApp] 404 GET /api/kernels/70a62b0f-7d51-4e5e-aaf3-645400b3fabf?1656332529672 (10.148.1.145): Kernel does not exist: 70a62b0f-7d51-4e5e-aaf3-645400b3fabf
+[W 2022-06-27 12:22:09.709 ServerApp] Kernel does not exist: 70a62b0f-7d51-4e5e-aaf3-645400b3fabf
+[W 2022-06-27 12:22:09.709 ServerApp] 404 GET /api/kernels/70a62b0f-7d51-4e5e-aaf3-645400b3fabf?1656332529672 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:09.771 ServerApp] 404 GET /api/kernels/15e070c9-ce07-4d5e-98cb-4850a72e84f5?1656332529734 (10.148.1.145): Kernel does not exist: 15e070c9-ce07-4d5e-98cb-4850a72e84f5
+[W 2022-06-27 12:22:09.771 ServerApp] Kernel does not exist: 15e070c9-ce07-4d5e-98cb-4850a72e84f5
+[W 2022-06-27 12:22:09.771 ServerApp] 404 GET /api/kernels/15e070c9-ce07-4d5e-98cb-4850a72e84f5?1656332529734 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:25.268 ServerApp] 404 GET /api/kernels/70a62b0f-7d51-4e5e-aaf3-645400b3fabf?1656332545231 (10.148.1.145): Kernel does not exist: 70a62b0f-7d51-4e5e-aaf3-645400b3fabf
+[W 2022-06-27 12:22:25.269 ServerApp] Kernel does not exist: 70a62b0f-7d51-4e5e-aaf3-645400b3fabf
+[W 2022-06-27 12:22:25.269 ServerApp] 404 GET /api/kernels/70a62b0f-7d51-4e5e-aaf3-645400b3fabf?1656332545231 (10.148.1.145) 1.03ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:26.255 ServerApp] 404 GET /api/kernels/9ba44625-cddc-4d31-8a94-b19fcb3506f2?1656332546217 (10.148.1.145): Kernel does not exist: 9ba44625-cddc-4d31-8a94-b19fcb3506f2
+[W 2022-06-27 12:22:26.255 ServerApp] Kernel does not exist: 9ba44625-cddc-4d31-8a94-b19fcb3506f2
+[W 2022-06-27 12:22:26.255 ServerApp] 404 GET /api/kernels/9ba44625-cddc-4d31-8a94-b19fcb3506f2?1656332546217 (10.148.1.145) 0.74ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:26.308 ServerApp] 404 GET /api/kernels/6b4a0f21-8857-420c-aa08-a8a68a57fc60?1656332546271 (10.148.1.145): Kernel does not exist: 6b4a0f21-8857-420c-aa08-a8a68a57fc60
+[W 2022-06-27 12:22:26.308 ServerApp] Kernel does not exist: 6b4a0f21-8857-420c-aa08-a8a68a57fc60
+[W 2022-06-27 12:22:26.308 ServerApp] 404 GET /api/kernels/6b4a0f21-8857-420c-aa08-a8a68a57fc60?1656332546271 (10.148.1.145) 0.66ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:26.453 ServerApp] 404 GET /api/kernels/9ba44625-cddc-4d31-8a94-b19fcb3506f2/channels?session_id=7a352307-1440-4e5d-b9aa-916a95f28c9b (10.148.1.145): Kernel does not exist: 9ba44625-cddc-4d31-8a94-b19fcb3506f2
+[W 2022-06-27 12:22:26.454 ServerApp] 404 GET /api/kernels/9ba44625-cddc-4d31-8a94-b19fcb3506f2/channels?session_id=7a352307-1440-4e5d-b9aa-916a95f28c9b (10.148.1.145) 1.90ms referer=None
+[W 2022-06-27 12:22:26.519 ServerApp] 404 GET /api/kernels/9ba44625-cddc-4d31-8a94-b19fcb3506f2?1656332546482 (10.148.1.145): Kernel does not exist: 9ba44625-cddc-4d31-8a94-b19fcb3506f2
+[W 2022-06-27 12:22:26.519 ServerApp] Kernel does not exist: 9ba44625-cddc-4d31-8a94-b19fcb3506f2
+[W 2022-06-27 12:22:26.519 ServerApp] 404 GET /api/kernels/9ba44625-cddc-4d31-8a94-b19fcb3506f2?1656332546482 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:26.621 ServerApp] 404 GET /api/kernels/9ba44625-cddc-4d31-8a94-b19fcb3506f2/channels?session_id=7a352307-1440-4e5d-b9aa-916a95f28c9b (10.148.1.145): Kernel does not exist: 9ba44625-cddc-4d31-8a94-b19fcb3506f2
+[W 2022-06-27 12:22:26.622 ServerApp] 404 GET /api/kernels/9ba44625-cddc-4d31-8a94-b19fcb3506f2/channels?session_id=7a352307-1440-4e5d-b9aa-916a95f28c9b (10.148.1.145) 1.47ms referer=None
+[W 2022-06-27 12:22:26.677 ServerApp] 404 GET /api/kernels/9ba44625-cddc-4d31-8a94-b19fcb3506f2?1656332546640 (10.148.1.145): Kernel does not exist: 9ba44625-cddc-4d31-8a94-b19fcb3506f2
+[W 2022-06-27 12:22:26.677 ServerApp] Kernel does not exist: 9ba44625-cddc-4d31-8a94-b19fcb3506f2
+[W 2022-06-27 12:22:26.678 ServerApp] 404 GET /api/kernels/9ba44625-cddc-4d31-8a94-b19fcb3506f2?1656332546640 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:27.079 ServerApp] 404 GET /api/kernels/6b4a0f21-8857-420c-aa08-a8a68a57fc60/channels?session_id=d397cb51-842b-4f78-9377-68350700b47e (10.148.1.145): Kernel does not exist: 6b4a0f21-8857-420c-aa08-a8a68a57fc60
+[W 2022-06-27 12:22:27.079 ServerApp] 404 GET /api/kernels/6b4a0f21-8857-420c-aa08-a8a68a57fc60/channels?session_id=d397cb51-842b-4f78-9377-68350700b47e (10.148.1.145) 1.47ms referer=None
+[W 2022-06-27 12:22:27.152 ServerApp] 404 GET /api/kernels/6b4a0f21-8857-420c-aa08-a8a68a57fc60?1656332547115 (10.148.1.145): Kernel does not exist: 6b4a0f21-8857-420c-aa08-a8a68a57fc60
+[W 2022-06-27 12:22:27.152 ServerApp] Kernel does not exist: 6b4a0f21-8857-420c-aa08-a8a68a57fc60
+[W 2022-06-27 12:22:27.153 ServerApp] 404 GET /api/kernels/6b4a0f21-8857-420c-aa08-a8a68a57fc60?1656332547115 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:27.752 ServerApp] 404 GET /api/kernels/6b4a0f21-8857-420c-aa08-a8a68a57fc60/channels?session_id=d397cb51-842b-4f78-9377-68350700b47e (10.148.1.145): Kernel does not exist: 6b4a0f21-8857-420c-aa08-a8a68a57fc60
+[W 2022-06-27 12:22:27.752 ServerApp] 404 GET /api/kernels/6b4a0f21-8857-420c-aa08-a8a68a57fc60/channels?session_id=d397cb51-842b-4f78-9377-68350700b47e (10.148.1.145) 1.48ms referer=None
+[W 2022-06-27 12:22:27.788 ServerApp] 404 GET /api/kernels/6b4a0f21-8857-420c-aa08-a8a68a57fc60?1656332547751 (10.148.1.145): Kernel does not exist: 6b4a0f21-8857-420c-aa08-a8a68a57fc60
+[W 2022-06-27 12:22:27.788 ServerApp] Kernel does not exist: 6b4a0f21-8857-420c-aa08-a8a68a57fc60
+[W 2022-06-27 12:22:27.788 ServerApp] 404 GET /api/kernels/6b4a0f21-8857-420c-aa08-a8a68a57fc60?1656332547751 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:27.855 ServerApp] 404 GET /api/kernels/9ba44625-cddc-4d31-8a94-b19fcb3506f2/channels?session_id=7a352307-1440-4e5d-b9aa-916a95f28c9b (10.148.1.145): Kernel does not exist: 9ba44625-cddc-4d31-8a94-b19fcb3506f2
+[W 2022-06-27 12:22:27.856 ServerApp] 404 GET /api/kernels/9ba44625-cddc-4d31-8a94-b19fcb3506f2/channels?session_id=7a352307-1440-4e5d-b9aa-916a95f28c9b (10.148.1.145) 1.47ms referer=None
+[W 2022-06-27 12:22:27.927 ServerApp] 404 GET /api/kernels/9ba44625-cddc-4d31-8a94-b19fcb3506f2?1656332547890 (10.148.1.145): Kernel does not exist: 9ba44625-cddc-4d31-8a94-b19fcb3506f2
+[W 2022-06-27 12:22:27.928 ServerApp] Kernel does not exist: 9ba44625-cddc-4d31-8a94-b19fcb3506f2
+[W 2022-06-27 12:22:27.928 ServerApp] 404 GET /api/kernels/9ba44625-cddc-4d31-8a94-b19fcb3506f2?1656332547890 (10.148.1.145) 0.68ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-27 12:22:30.068 ServerApp] 404 GET /api/kernels/9ba44625-cddc-4d31-8a94-b19fcb3506f2/channels?session_id=7a352307-1440-4e5d-b9aa-916a95f28c9b (10.148.1.145): Kernel does not exist: 9ba44625-cddc-4d31-8a94-b19fcb3506f2
+[W 2022-06-27 12:22:30.069 ServerApp] 404 GET /api/kernels/9ba44625-cddc-4d31-8a94-b19fcb3506f2/channels?session_id=7a352307-1440-4e5d-b9aa-916a95f28c9b (10.148.1.145) 1.47ms referer=None
+[W 2022-06-27 12:22:30.131 ServerApp] 404 GET /api/kernels/9ba44625-cddc-4d31-8a94-b19fcb3506f2?1656332550094 (10.148.1.145): Kernel does not exist: 9ba44625-cddc-4d31-8a94-b19fcb3506f2
+[W 2022-06-27 12:22:30.131 ServerApp] Kernel does not exist: 9ba44625-cddc-4d31-8a94-b19fcb3506f2
+[W 2022-06-27 12:22:30.132 ServerApp] 404 GET /api/kernels/9ba44625-cddc-4d31-8a94-b19fcb3506f2?1656332550094 (10.148.1.145) 0.69ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[I 2022-06-27 12:22:55.440 ServerApp] Saving file at /m2_2022/sandbox/diag_std_ind.ipynb
+[E 2022-06-27 12:24:19.692 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-06-27 12:24:20.129 LabApp] Build is up to date
+[I 2022-06-27 12:24:25.600 ServerApp] Kernel started: 3be4dc43-f550-4227-8d44-4c62bdf28ab3
+[I 2022-06-27 12:24:25.601 ServerApp] Kernel started: e27f65ba-bc61-4db4-b197-22c02fdf18a4
+[I 2022-06-27 12:24:25.603 ServerApp] Kernel started: bb5f9878-13d8-421b-bd4f-efde6fdd3e84
+[I 2022-06-27 12:24:25.618 ServerApp] Kernel started: 8fa107b1-c039-4000-8ee4-294edc85914a
+[I 2022-06-27 12:24:26.886 ServerApp] Kernel started: d11e3c8f-85e2-4e14-8560-bbb8e9919c61
+[I 2022-06-27 12:24:26.887 ServerApp] Kernel started: 1aa6f817-db2e-41c3-bf5e-4f2ecab1d6f4
+[I 2022-06-27 12:24:27.010 ServerApp] Kernel started: 29edc33a-3831-4c66-9ea3-b2665ec08dfb
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 15, in <module>
+    from ipykernel import kernelapp as app
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/__init__.py", line 1, in <module>
+    from ._version import __version__  # noqa
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/_version.py", line 4, in <module>
+    import re
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/re.py", line 125, in <module>
+    import sre_compile
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/sre_compile.py", line 14, in <module>
+    import sre_parse
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 934, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1033, in get_data
+KeyboardInterrupt
+[I 2022-06-27 12:24:30.320 ServerApp] Kernel restarted: 29edc33a-3831-4c66-9ea3-b2665ec08dfb
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4fd7c606-4ecd-499f-9235-7aad6846244d
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] WARNING | No such comm: 334bf096-52d4-48b3-8eb1-877dc26fb017
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 79c4d0ab-c0ee-4eed-81f4-c178101ca8d7
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3f180796-699d-40a6-a0cc-06d60f128daa
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 95c5c07a-d36f-47de-a922-486f9c46e07a
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a02736d1-353d-481c-bad8-fef498ec3220
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-f70txdp5', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-3xavm5gb', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-nzjt8vwx', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-p4d4l2mz', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-2h4dsrv8', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-eb5903oa', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-hjell4rg', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-xt18sszp', purging
+[I 2022-06-27 12:26:23.756 ServerApp] Saving file at /m2_2022/sandbox/diag_std_ind.ipynb
+[I 2022-06-27 12:28:24.625 ServerApp] Saving file at /m2_2022/sandbox/diag_std_ind.ipynb
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker_memory - WARNING - Worker is at 85% memory usage. Pausing worker.  Process memory: 10.64 GiB -- Worker memory limit: 12.50 GiB
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker_memory - WARNING - Worker is at 85% memory usage. Pausing worker.  Process memory: 10.71 GiB -- Worker memory limit: 12.50 GiB
+distributed.worker_memory - WARNING - Worker is at 85% memory usage. Pausing worker.  Process memory: 10.64 GiB -- Worker memory limit: 12.50 GiB
+[I 2022-06-27 12:29:07.879 ServerApp] Kernel restarted: 29edc33a-3831-4c66-9ea3-b2665ec08dfb
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f7b0b49c-4254-433c-a96e-4cb365db4ed9
+[I 2022-06-27 12:30:25.850 ServerApp] Saving file at /m2_2022/sandbox/diag_std_ind.ipynb
+[I 2022-06-27 12:36:26.104 ServerApp] Saving file at /m2_2022/sandbox/diag_std_ind.ipynb
+[I 2022-06-27 12:38:26.322 ServerApp] Saving file at /m2_2022/sandbox/diag_std_ind.ipynb
+[I 2022-06-27 12:42:19.576 ServerApp] Kernel interrupted: 3be4dc43-f550-4227-8d44-4c62bdf28ab3
+[I 2022-06-27 12:42:20.000 ServerApp] Kernel interrupted: 3be4dc43-f550-4227-8d44-4c62bdf28ab3
+[I 2022-06-27 12:42:27.166 ServerApp] Saving file at /m2_2022/sandbox/diag_std_ind.ipynb
+[I 2022-06-27 12:43:04.051 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 12:45:04.342 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 12:46:56.551 ServerApp] Kernel restarted: 3be4dc43-f550-4227-8d44-4c62bdf28ab3
+[I 2022-06-27 12:46:56.557 ServerApp] Starting buffering for 3be4dc43-f550-4227-8d44-4c62bdf28ab3:06e67264-ff13-4fe1-937c-59a983522f81
+[I 2022-06-27 12:46:56.566 ServerApp] Restoring connection for 3be4dc43-f550-4227-8d44-4c62bdf28ab3:06e67264-ff13-4fe1-937c-59a983522f81
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-06-27 12:47:04.598 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 0b32f91c-dca3-4dc5-ac90-1b66863053bb
+[I 2022-06-27 12:49:04.936 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 12:53:05.287 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 12:57:04.018 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-06-27 12:59:05.527 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:01:05.794 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:03:06.031 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:07:06.339 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:09:07.451 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:13:07.673 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:15:07.872 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:17:04.044 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-06-27 13:19:04.078 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-06-27 13:19:08.140 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:24:39.666 ServerApp] Kernel restarted: 3be4dc43-f550-4227-8d44-4c62bdf28ab3
+[I 2022-06-27 13:24:39.672 ServerApp] Starting buffering for 3be4dc43-f550-4227-8d44-4c62bdf28ab3:06e67264-ff13-4fe1-937c-59a983522f81
+[I 2022-06-27 13:24:39.679 ServerApp] Restoring connection for 3be4dc43-f550-4227-8d44-4c62bdf28ab3:06e67264-ff13-4fe1-937c-59a983522f81
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 62ebe897-bba7-4523-aba5-1f818a0532b7
+[I 2022-06-27 13:25:08.677 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:27:08.974 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:33:09.277 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:35:09.529 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:37:09.786 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:41:10.101 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:43:10.359 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:45:10.579 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:47:10.762 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:49:11.002 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:51:11.272 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:53:11.564 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:54:36.990 ServerApp] Kernel restarted: 3be4dc43-f550-4227-8d44-4c62bdf28ab3
+[I 2022-06-27 13:54:36.995 ServerApp] Starting buffering for 3be4dc43-f550-4227-8d44-4c62bdf28ab3:06e67264-ff13-4fe1-937c-59a983522f81
+[I 2022-06-27 13:54:37.001 ServerApp] Restoring connection for 3be4dc43-f550-4227-8d44-4c62bdf28ab3:06e67264-ff13-4fe1-937c-59a983522f81
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 954f4336-4b9c-4e8d-89d5-c2981debbeb1
+[I 2022-06-27 13:55:11.799 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:55:59.329 ServerApp] Kernel interrupted: 3be4dc43-f550-4227-8d44-4c62bdf28ab3
+[I 2022-06-27 13:57:12.027 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 13:59:12.264 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 14:03:12.483 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 14:04:44.842 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-06-27 14:05:12.332 ServerApp] Kernel restarted: 3be4dc43-f550-4227-8d44-4c62bdf28ab3
+[I 2022-06-27 14:05:12.342 ServerApp] Starting buffering for 3be4dc43-f550-4227-8d44-4c62bdf28ab3:06e67264-ff13-4fe1-937c-59a983522f81
+[I 2022-06-27 14:05:12.347 ServerApp] Restoring connection for 3be4dc43-f550-4227-8d44-4c62bdf28ab3:06e67264-ff13-4fe1-937c-59a983522f81
+[I 2022-06-27 14:05:12.674 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2bf349dc-7330-4d17-a445-b3897ac7f4fa
+[I 2022-06-27 14:07:12.979 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 14:09:13.288 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 14:11:13.647 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 14:13:14.032 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 14:15:14.417 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 14:17:14.853 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 14:19:15.226 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 14:21:15.626 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 14:23:16.007 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 14:25:16.397 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[W 2022-06-27 14:28:18.359 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-06-27 14:28:18.449 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-06-27 14:28:19.385 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-06-27 14:28:20.756 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-06-27 14:28:21.088 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-06-27 14:28:21.088 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-06-27 14:28:23.361 ServerApp] Starting buffering for 8fa107b1-c039-4000-8ee4-294edc85914a:d90f15b2-57ec-44fc-8a05-f61982d2c733
+[I 2022-06-27 14:28:24.386 ServerApp] Starting buffering for bb5f9878-13d8-421b-bd4f-efde6fdd3e84:143c55d7-b3b2-4672-9020-e67ff948d93a
+[I 2022-06-27 14:28:25.758 ServerApp] Starting buffering for e27f65ba-bc61-4db4-b197-22c02fdf18a4:4aab844e-c25b-4a5f-bec5-824c393d1b60
+[I 2022-06-27 14:28:26.089 ServerApp] Starting buffering for 1aa6f817-db2e-41c3-bf5e-4f2ecab1d6f4:d365c0a4-ad38-4fca-88fd-274fe86e0af4
+[W 2022-06-27 14:28:37.899 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-06-27 14:28:42.347 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-06-27 14:28:42.900 ServerApp] Starting buffering for 29edc33a-3831-4c66-9ea3-b2665ec08dfb:3360f670-bd50-4446-b54a-b196230012cb
+[I 2022-06-27 14:28:47.348 ServerApp] Starting buffering for 3be4dc43-f550-4227-8d44-4c62bdf28ab3:06e67264-ff13-4fe1-937c-59a983522f81
+[W 2022-06-27 14:28:48.184 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-06-27 14:28:53.185 ServerApp] Starting buffering for d11e3c8f-85e2-4e14-8560-bbb8e9919c61:779b4ba6-54a3-4fbf-9e86-764378720a06
+[E 2022-06-27 14:50:46.249 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-06-27 14:50:46.846 LabApp] Build is up to date
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a9df42c6-f559-4c30-bf8e-fd2c55a8d5ca
+[IPKernelApp] WARNING | No such comm: b7dbee2c-8350-4455-85b5-259576a06cad
+[IPKernelApp] WARNING | No such comm: f83d6d27-6eee-4b83-a0b1-4a3c02274c4a
+[IPKernelApp] WARNING | No such comm: e76a23b4-4057-4216-84ec-217bcb158bb3
+[IPKernelApp] WARNING | No such comm: 7892ab5a-70d1-4e41-a0a7-f887e154e115
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 63301942-1d4e-4e5e-bc59-873c82fc1974
+[IPKernelApp] WARNING | No such comm: 0c67019c-98c4-47da-a8b8-280b1370c3ef
+[I 2022-06-27 14:52:48.838 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 14:54:51.046 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 14:56:51.378 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 14:58:51.770 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 15:06:52.117 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 15:08:52.524 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 15:10:52.945 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 15:12:24.933 ServerApp] Kernel restarted: 3be4dc43-f550-4227-8d44-4c62bdf28ab3
+[I 2022-06-27 15:12:24.939 ServerApp] Starting buffering for 3be4dc43-f550-4227-8d44-4c62bdf28ab3:e1447e5a-6406-4f79-86eb-d687acbab578
+[I 2022-06-27 15:12:24.946 ServerApp] Restoring connection for 3be4dc43-f550-4227-8d44-4c62bdf28ab3:e1447e5a-6406-4f79-86eb-d687acbab578
+[W 2022-06-27 15:12:29.457 ServerApp] Nudge: attempt 10 on kernel 3be4dc43-f550-4227-8d44-4c62bdf28ab3
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3a45e023-9823-4bdc-8eef-ad3d43039e57
+[I 2022-06-27 15:12:53.272 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 15:14:06.130 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-06-27 15:14:53.499 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 15:15:04.683 ServerApp] Kernel restarted: 3be4dc43-f550-4227-8d44-4c62bdf28ab3
+[I 2022-06-27 15:15:04.703 ServerApp] Starting buffering for 3be4dc43-f550-4227-8d44-4c62bdf28ab3:e1447e5a-6406-4f79-86eb-d687acbab578
+[I 2022-06-27 15:15:04.711 ServerApp] Restoring connection for 3be4dc43-f550-4227-8d44-4c62bdf28ab3:e1447e5a-6406-4f79-86eb-d687acbab578
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3a9b195b-c0c2-4984-a29e-900d5c28857d
+[I 2022-06-27 15:16:53.681 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 15:18:53.767 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 15:20:53.942 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-27 15:26:03.527 ServerApp] Kernel restarted: bb5f9878-13d8-421b-bd4f-efde6fdd3e84
+[I 2022-06-27 15:26:03.531 ServerApp] Starting buffering for bb5f9878-13d8-421b-bd4f-efde6fdd3e84:c4bce21c-58b7-4ce8-a5fb-3508f0a09343
+[I 2022-06-27 15:26:03.538 ServerApp] Restoring connection for bb5f9878-13d8-421b-bd4f-efde6fdd3e84:c4bce21c-58b7-4ce8-a5fb-3508f0a09343
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 67d0109b-bf57-4123-b7c4-7079cf39fa3b
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-f1eqglw4', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-ga9vz58l', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-314ud1qq', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-kyauv9qu', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-s11ydl4_', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-91j3lxg1', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-3ijibyg3', purging
+[I 2022-06-27 15:26:48.746 ServerApp] Saving file at /m2_2022/sandbox/diag_std_dist.ipynb
+[I 2022-06-27 15:26:54.049 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:36139
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/tasks.py", line 465, in wait_for
+    fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/core.py", line 327, in connect
+    await asyncio.wait_for(comm.write(local_info), time_left())
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/tasks.py", line 467, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 2949, in gather_dep
+    response = await get_data_from_worker(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 4173, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/utils_comm.py", line 386, in retry_operation
+    return await retry(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/utils_comm.py", line 371, in retry
+    return await coro()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 4150, in _get_data
+    comm = await rpc.connect(worker)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 1146, in connect
+    return await connect_attempt
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 1082, in _connect
+    comm = await connect(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/core.py", line 331, in connect
+    raise OSError(
+OSError: Timed out during handshake while connecting to tcp://127.0.0.1:36139 after 10 s
+distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:40799
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/tasks.py", line 465, in wait_for
+    fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/core.py", line 327, in connect
+    await asyncio.wait_for(comm.write(local_info), time_left())
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/tasks.py", line 467, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 2949, in gather_dep
+    response = await get_data_from_worker(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 4173, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/utils_comm.py", line 386, in retry_operation
+    return await retry(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/utils_comm.py", line 371, in retry
+    return await coro()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 4150, in _get_data
+    comm = await rpc.connect(worker)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 1146, in connect
+    return await connect_attempt
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 1082, in _connect
+    comm = await connect(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/core.py", line 331, in connect
+    raise OSError(
+OSError: Timed out during handshake while connecting to tcp://127.0.0.1:40799 after 10 s
+distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:36139
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/tasks.py", line 465, in wait_for
+    fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/core.py", line 327, in connect
+    await asyncio.wait_for(comm.write(local_info), time_left())
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/tasks.py", line 467, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 2949, in gather_dep
+    response = await get_data_from_worker(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 4173, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/utils_comm.py", line 386, in retry_operation
+    return await retry(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/utils_comm.py", line 371, in retry
+    return await coro()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 4150, in _get_data
+    comm = await rpc.connect(worker)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 1146, in connect
+    return await connect_attempt
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 1082, in _connect
+    comm = await connect(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/core.py", line 331, in connect
+    raise OSError(
+OSError: Timed out during handshake while connecting to tcp://127.0.0.1:36139 after 10 s
+distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:40799
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/tasks.py", line 465, in wait_for
+    fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/core.py", line 327, in connect
+    await asyncio.wait_for(comm.write(local_info), time_left())
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/tasks.py", line 467, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 2949, in gather_dep
+    response = await get_data_from_worker(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 4173, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/utils_comm.py", line 386, in retry_operation
+    return await retry(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/utils_comm.py", line 371, in retry
+    return await coro()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 4150, in _get_data
+    comm = await rpc.connect(worker)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 1146, in connect
+    return await connect_attempt
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 1082, in _connect
+    comm = await connect(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/core.py", line 331, in connect
+    raise OSError(
+OSError: Timed out during handshake while connecting to tcp://127.0.0.1:40799 after 10 s
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:36139
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/tasks.py", line 465, in wait_for
+    fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/core.py", line 327, in connect
+    await asyncio.wait_for(comm.write(local_info), time_left())
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/tasks.py", line 467, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 2949, in gather_dep
+    response = await get_data_from_worker(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 4173, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/utils_comm.py", line 386, in retry_operation
+    return await retry(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/utils_comm.py", line 371, in retry
+    return await coro()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 4150, in _get_data
+    comm = await rpc.connect(worker)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 1146, in connect
+    return await connect_attempt
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 1082, in _connect
+    comm = await connect(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/core.py", line 331, in connect
+    raise OSError(
+OSError: Timed out during handshake while connecting to tcp://127.0.0.1:36139 after 10 s
+distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:40799
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/tasks.py", line 465, in wait_for
+    fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/core.py", line 327, in connect
+    await asyncio.wait_for(comm.write(local_info), time_left())
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/tasks.py", line 467, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 2949, in gather_dep
+    response = await get_data_from_worker(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 4173, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/utils_comm.py", line 386, in retry_operation
+    return await retry(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/utils_comm.py", line 371, in retry
+    return await coro()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 4150, in _get_data
+    comm = await rpc.connect(worker)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 1146, in connect
+    return await connect_attempt
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 1082, in _connect
+    comm = await connect(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/core.py", line 331, in connect
+    raise OSError(
+OSError: Timed out during handshake while connecting to tcp://127.0.0.1:40799 after 10 s
+distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:36139
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/tasks.py", line 465, in wait_for
+    fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/core.py", line 327, in connect
+    await asyncio.wait_for(comm.write(local_info), time_left())
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/tasks.py", line 467, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 2949, in gather_dep
+    response = await get_data_from_worker(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 4173, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/utils_comm.py", line 386, in retry_operation
+    return await retry(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/utils_comm.py", line 371, in retry
+    return await coro()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 4150, in _get_data
+    comm = await rpc.connect(worker)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 1146, in connect
+    return await connect_attempt
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 1082, in _connect
+    comm = await connect(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/core.py", line 331, in connect
+    raise OSError(
+OSError: Timed out during handshake while connecting to tcp://127.0.0.1:36139 after 10 s
+distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:40799
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/tasks.py", line 465, in wait_for
+    fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/core.py", line 327, in connect
+    await asyncio.wait_for(comm.write(local_info), time_left())
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/tasks.py", line 467, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 2949, in gather_dep
+    response = await get_data_from_worker(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 4173, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/utils_comm.py", line 386, in retry_operation
+    return await retry(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/utils_comm.py", line 371, in retry
+    return await coro()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 4150, in _get_data
+    comm = await rpc.connect(worker)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 1146, in connect
+    return await connect_attempt
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 1082, in _connect
+    comm = await connect(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/core.py", line 331, in connect
+    raise OSError(
+OSError: Timed out during handshake while connecting to tcp://127.0.0.1:40799 after 10 s
+[I 2022-06-27 15:28:49.023 ServerApp] Saving file at /m2_2022/sandbox/diag_std_dist.ipynb
+[I 2022-06-27 15:30:49.344 ServerApp] Saving file at /m2_2022/sandbox/diag_std_dist.ipynb
+[W 2022-06-27 15:31:39.252 ServerApp] delete /m2_2022/sandbox/dask-worker.o816772
+[W 2022-06-27 15:31:39.491 ServerApp] delete /m2_2022/sandbox/dask-worker.o816773
+[W 2022-06-27 15:31:39.495 ServerApp] delete /m2_2022/sandbox/dask-worker.o816849
+[W 2022-06-27 15:31:39.547 ServerApp] delete /m2_2022/sandbox/dask-worker.o817345
+[W 2022-06-27 15:31:39.555 ServerApp] delete /m2_2022/sandbox/dask-worker.o816850
+[W 2022-06-27 15:31:39.559 ServerApp] delete /m2_2022/sandbox/dask-worker.o817346
+[W 2022-06-27 15:31:39.563 ServerApp] delete /m2_2022/sandbox/dask-worker.o816941
+[W 2022-06-27 15:31:39.567 ServerApp] delete /m2_2022/sandbox/dask-worker.o816940
+[W 2022-06-27 15:31:39.571 ServerApp] delete /m2_2022/sandbox/dask-worker.o817613
+[W 2022-06-27 15:31:39.576 ServerApp] delete /m2_2022/sandbox/dask-worker.o817614
+[W 2022-06-27 15:31:39.580 ServerApp] delete /m2_2022/sandbox/dask-worker.o817703
+[W 2022-06-27 15:31:39.603 ServerApp] delete /m2_2022/sandbox/dask-worker.o817704
+[W 2022-06-27 15:31:39.606 ServerApp] delete /m2_2022/sandbox/dask-worker.o819135
+[W 2022-06-27 15:31:39.610 ServerApp] delete /m2_2022/sandbox/dask-worker.o819136
+[W 2022-06-27 15:31:39.630 ServerApp] delete /m2_2022/sandbox/dask-worker.o819184
+[W 2022-06-27 15:31:39.634 ServerApp] delete /m2_2022/sandbox/dask-worker.o819185
+[I 2022-06-27 15:32:49.658 ServerApp] Saving file at /m2_2022/sandbox/diag_std_dist.ipynb
+[I 2022-06-27 15:36:30.965 ServerApp] Saving file at /m2_2022/sandbox/diag_std_dist.ipynb
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+[I 2022-06-27 15:36:49.599 ServerApp] Saving file at /m2_2022/sandbox/diag_std_dist.ipynb
+[I 2022-06-27 15:36:49.824 ServerApp] Starting buffering for bb5f9878-13d8-421b-bd4f-efde6fdd3e84:c4bce21c-58b7-4ce8-a5fb-3508f0a09343
+[I 2022-06-27 15:37:16.554 ServerApp] Starting buffering for 1aa6f817-db2e-41c3-bf5e-4f2ecab1d6f4:64333978-b89e-4877-a131-ff5c58272dee
+[I 2022-06-27 15:37:19.659 ServerApp] Starting buffering for e27f65ba-bc61-4db4-b197-22c02fdf18a4:36b6bfef-839e-49f8-a573-9f3e0b4f87a9
+[I 2022-06-27 15:41:44.481 ServerApp] Starting buffering for 3be4dc43-f550-4227-8d44-4c62bdf28ab3:e1447e5a-6406-4f79-86eb-d687acbab578
+[I 2022-06-27 15:41:44.481 ServerApp] Starting buffering for 8fa107b1-c039-4000-8ee4-294edc85914a:6c7e3942-74ab-456f-96a0-0fe1e6fc3e9e
+[I 2022-06-27 15:41:44.482 ServerApp] Starting buffering for 29edc33a-3831-4c66-9ea3-b2665ec08dfb:91f978f3-995c-40a4-8dcd-277a4e6021bf
+[I 2022-06-27 15:41:44.482 ServerApp] Starting buffering for d11e3c8f-85e2-4e14-8560-bbb8e9919c61:ff17d95d-3928-43bf-b631-af1e879e90e2
+[C 2022-06-27 15:47:06.318 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-06-27 15:47:06.417 ServerApp] Shutting down 3 extensions
+[I 2022-06-27 15:47:06.417 ServerApp] Shutting down 7 kernels
+[I 2022-06-27 15:47:06.418 ServerApp] Kernel shutdown: 3be4dc43-f550-4227-8d44-4c62bdf28ab3
+[I 2022-06-27 15:47:06.418 ServerApp] Kernel shutdown: e27f65ba-bc61-4db4-b197-22c02fdf18a4
+[I 2022-06-27 15:47:06.419 ServerApp] Kernel shutdown: d11e3c8f-85e2-4e14-8560-bbb8e9919c61
+[I 2022-06-27 15:47:06.419 ServerApp] Kernel shutdown: 8fa107b1-c039-4000-8ee4-294edc85914a
+[I 2022-06-27 15:47:06.419 ServerApp] Kernel shutdown: 29edc33a-3831-4c66-9ea3-b2665ec08dfb
+[I 2022-06-27 15:47:06.419 ServerApp] Kernel shutdown: bb5f9878-13d8-421b-bd4f-efde6fdd3e84
+[I 2022-06-27 15:47:06.420 ServerApp] Kernel shutdown: 1aa6f817-db2e-41c3-bf5e-4f2ecab1d6f4
+[I 2022-06-27 15:47:09.139 ServerApp] Shutting down 0 terminals

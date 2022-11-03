@@ -1,0 +1,279 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Tue Jun  7 09:42:28 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-06-07 09:42:31.882 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-06-07 09:42:31.894 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-06-07 09:42:31.901 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-06-07 09:42:35.395 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-06-07 09:42:35.787 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-06-07 09:42:35.789 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-06-07 09:42:35.789 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-06-07 09:42:35.794 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-06-07 09:42:35.801 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-06-07 09:42:35.801 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-06-07 09:42:35.801 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-06-07 09:42:35.801 ServerApp] http://r1i3n34:8877/lab
+[I 2022-06-07 09:42:35.801 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-06-07 09:42:35.801 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-06-07 09:43:22.390 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[E 2022-06-07 09:44:07.284 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-06-07 09:44:07.473 LabApp] Build is up to date
+[W 2022-06-07 09:44:08.808 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-07 09:44:11.096 ServerApp] Kernel started: 10d02f21-3e6b-4c7d-afdc-e2dbadf523f8
+[I 2022-06-07 09:44:11.097 ServerApp] Kernel started: 9522bcef-62ef-47e8-932d-394492e0db0d
+[I 2022-06-07 09:44:11.098 ServerApp] Kernel started: b0bcc90e-2d04-448b-8132-44c640579928
+[I 2022-06-07 09:44:11.188 ServerApp] Kernel started: 813c0631-6e46-4953-b088-2b027476d3c6
+[I 2022-06-07 09:44:32.512 ServerApp] Kernel interrupted: 813c0631-6e46-4953-b088-2b027476d3c6
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 15, in <module>
+    from ipykernel import kernelapp as app
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 18, in <module>
+    from IPython.core.application import (
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/__init__.py", line 52, in <module>
+    from .terminal.embed import embed
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/terminal/embed.py", line 16, in <module>
+    from IPython.terminal.interactiveshell import TerminalInteractiveShell
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/terminal/interactiveshell.py", line 29, in <module>
+    from prompt_toolkit.auto_suggest import AutoSuggestFromHistory
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/prompt_toolkit/__init__.py", line 16, in <module>
+    from .application import Application
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/prompt_toolkit/application/__init__.py", line 1, in <module>
+    from .application import Application
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 54, in <module>
+    from prompt_toolkit.input.base import Input
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/prompt_toolkit/input/__init__.py", line 1, in <module>
+    from .base import DummyInput, Input, PipeInput
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 934, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1032, in get_data
+KeyboardInterrupt
+[I 2022-06-07 09:44:34.307 ServerApp] Kernel interrupted: 813c0631-6e46-4953-b088-2b027476d3c6
+[I 2022-06-07 09:44:34.998 ServerApp] Kernel interrupted: 813c0631-6e46-4953-b088-2b027476d3c6
+[I 2022-06-07 09:44:35.094 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[I 2022-06-07 09:44:37.045 ServerApp] Kernel interrupted: 813c0631-6e46-4953-b088-2b027476d3c6
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/subprocess.py", line 64, in <module>
+    import msvcrt
+ModuleNotFoundError: No module named 'msvcrt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 15, in <module>
+    from ipykernel import kernelapp as app
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/__init__.py", line 5, in <module>
+    from .connect import *  # noqa
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/connect.py", line 8, in <module>
+    from subprocess import PIPE, Popen
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/subprocess.py", line 71, in <module>
+    import selectors
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 934, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1032, in get_data
+KeyboardInterrupt
+[I 2022-06-07 09:44:37.522 ServerApp] Kernel interrupted: 813c0631-6e46-4953-b088-2b027476d3c6
+[I 2022-06-07 09:44:37.844 ServerApp] Kernel interrupted: 813c0631-6e46-4953-b088-2b027476d3c6
+[I 2022-06-07 09:44:38.313 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (2/5), keep random ports
+[I 2022-06-07 09:44:38.681 ServerApp] Kernel interrupted: 813c0631-6e46-4953-b088-2b027476d3c6
+Fatal Python error: init_import_size: Failed to import the site module
+Python runtime state: initialized
+Traceback (most recent call last):
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 934, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1032, in get_data
+KeyboardInterrupt
+[I 2022-06-07 09:44:38.922 ServerApp] Kernel interrupted: 813c0631-6e46-4953-b088-2b027476d3c6
+[I 2022-06-07 09:44:41.410 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (3/5), keep random ports
+[I 2022-06-07 09:44:42.813 ServerApp] Kernel interrupted: 813c0631-6e46-4953-b088-2b027476d3c6
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 15, in <module>
+    from ipykernel import kernelapp as app
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/__init__.py", line 5, in <module>
+    from .connect import *  # noqa
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/connect.py", line 8, in <module>
+    from subprocess import PIPE, Popen
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/subprocess.py", line 51, in <module>
+    import threading
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 934, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1032, in get_data
+KeyboardInterrupt
+[I 2022-06-07 09:44:44.554 ServerApp] Kernel restarted: 813c0631-6e46-4953-b088-2b027476d3c6
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[W 2022-06-07 09:44:54.231 ServerApp] Replacing stale connection: 813c0631-6e46-4953-b088-2b027476d3c6:e8fc7dbb-4ff8-423e-9051-20fdead435a0
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d832599d-2b52-4fa7-bc6b-e8c6fb2c80c9
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b7be0c33-f15d-40a9-b3ed-715fe5c303c1
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: da55295e-4ade-4bdd-a062-4173c9828f34
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-06-07 09:46:09.099 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 09:52:09.222 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[W 2022-06-07 10:10:54.332 ServerApp] WebSocket ping timeout after 90000 ms.
+[I 2022-06-07 10:10:59.334 ServerApp] Starting buffering for 10d02f21-3e6b-4c7d-afdc-e2dbadf523f8:e78ce5ed-a06a-4235-9ab4-811f08e03782
+[W 2022-06-07 10:11:24.190 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-06-07 10:11:24.227 ServerApp] WebSocket ping timeout after 119997 ms.
+[W 2022-06-07 10:11:24.682 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-06-07 10:11:24.684 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-06-07 10:11:24.688 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-06-07 10:11:29.192 ServerApp] Starting buffering for 9522bcef-62ef-47e8-932d-394492e0db0d:04ac05ad-b21e-41c0-aaa8-feb809b64e43
+[I 2022-06-07 10:11:29.229 ServerApp] Starting buffering for b0bcc90e-2d04-448b-8132-44c640579928:f8ae1dda-b3fe-4a85-b5a7-eef574967710
+[I 2022-06-07 10:11:29.689 ServerApp] Starting buffering for 813c0631-6e46-4953-b088-2b027476d3c6:e8fc7dbb-4ff8-423e-9051-20fdead435a0
+[I 2022-06-07 11:13:38.253 ServerApp] Restoring connection for b0bcc90e-2d04-448b-8132-44c640579928:f8ae1dda-b3fe-4a85-b5a7-eef574967710
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 735a7f4e-6273-471d-a5a0-b4830d3f348b
+[I 2022-06-07 11:13:45.543 ServerApp] Restoring connection for 10d02f21-3e6b-4c7d-afdc-e2dbadf523f8:e78ce5ed-a06a-4235-9ab4-811f08e03782
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ccfd6614-0067-412a-b626-b178bc69c316
+[I 2022-06-07 11:13:48.489 ServerApp] Restoring connection for 9522bcef-62ef-47e8-932d-394492e0db0d:04ac05ad-b21e-41c0-aaa8-feb809b64e43
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b8b67408-0349-42cf-9055-8c6d623f452f
+[I 2022-06-07 11:14:03.218 ServerApp] Starting buffering for 9522bcef-62ef-47e8-932d-394492e0db0d:04ac05ad-b21e-41c0-aaa8-feb809b64e43
+[I 2022-06-07 11:14:03.219 ServerApp] Starting buffering for 10d02f21-3e6b-4c7d-afdc-e2dbadf523f8:e78ce5ed-a06a-4235-9ab4-811f08e03782
+[I 2022-06-07 11:14:03.219 ServerApp] Starting buffering for b0bcc90e-2d04-448b-8132-44c640579928:f8ae1dda-b3fe-4a85-b5a7-eef574967710
+[I 2022-06-07 11:14:03.220 ServerApp] Starting buffering for 813c0631-6e46-4953-b088-2b027476d3c6:e8fc7dbb-4ff8-423e-9051-20fdead435a0
+[E 2022-06-07 11:14:05.178 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-06-07 11:14:05.274 LabApp] Build is up to date
+[W 2022-06-07 11:14:05.328 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 947e70f9-684b-4f91-b001-43b9d5ce63a9
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d75b2ada-6a70-449a-b3e1-675b3d98f454
+[IPKernelApp] WARNING | No such comm: d889be85-a126-4d99-aec2-656c34282dbc
+[I 2022-06-07 11:16:05.517 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 11:51:54.489 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 11:55:54.607 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 11:59:34.687 ServerApp] Kernel interrupted: 813c0631-6e46-4953-b088-2b027476d3c6
+[I 2022-06-07 11:59:35.269 ServerApp] Kernel interrupted: 813c0631-6e46-4953-b088-2b027476d3c6
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 12868c91-7bfe-4511-9a2a-3510d98c8785
+[I 2022-06-07 11:59:54.764 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 12:03:47.305 ServerApp] Kernel restarted: 813c0631-6e46-4953-b088-2b027476d3c6
+[I 2022-06-07 12:03:47.312 ServerApp] Starting buffering for 813c0631-6e46-4953-b088-2b027476d3c6:2c2446cf-8dcf-4c12-87cd-7e51810d7e93
+[I 2022-06-07 12:03:47.319 ServerApp] Restoring connection for 813c0631-6e46-4953-b088-2b027476d3c6:2c2446cf-8dcf-4c12-87cd-7e51810d7e93
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-06-07 12:03:54.868 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e9751432-bf57-40be-994f-7994d19600e8
+[I 2022-06-07 12:05:54.936 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 12:07:55.070 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 12:09:18.541 ServerApp] Kernel interrupted: 813c0631-6e46-4953-b088-2b027476d3c6
+[I 2022-06-07 12:09:21.327 ServerApp] Kernel interrupted: 813c0631-6e46-4953-b088-2b027476d3c6
+[I 2022-06-07 12:09:55.231 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 12:15:14.874 ServerApp] Kernel restarted: 813c0631-6e46-4953-b088-2b027476d3c6
+[I 2022-06-07 12:15:14.877 ServerApp] Starting buffering for 813c0631-6e46-4953-b088-2b027476d3c6:2c2446cf-8dcf-4c12-87cd-7e51810d7e93
+[I 2022-06-07 12:15:14.883 ServerApp] Restoring connection for 813c0631-6e46-4953-b088-2b027476d3c6:2c2446cf-8dcf-4c12-87cd-7e51810d7e93
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 20fd1a3c-185d-450e-9601-99351ba3f763
+[I 2022-06-07 12:15:55.392 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 12:17:55.506 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 12:19:55.770 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 12:25:55.882 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 12:26:00.812 ServerApp] Kernel interrupted: 813c0631-6e46-4953-b088-2b027476d3c6
+[I 2022-06-07 12:26:01.512 ServerApp] Kernel interrupted: 813c0631-6e46-4953-b088-2b027476d3c6
+[W 2022-06-07 12:26:53.287 ServerApp] delete /m2_2022/sandbox/dask-worker.o575281
+[W 2022-06-07 12:26:53.290 ServerApp] delete /m2_2022/sandbox/dask-worker.o575282
+[W 2022-06-07 12:26:53.293 ServerApp] delete /m2_2022/sandbox/dask-worker.o575280
+[W 2022-06-07 12:26:53.296 ServerApp] delete /m2_2022/sandbox/dask-worker.o575568
+[W 2022-06-07 12:26:53.300 ServerApp] delete /m2_2022/sandbox/dask-worker.o575569
+[W 2022-06-07 12:26:53.304 ServerApp] delete /m2_2022/sandbox/dask-worker.o575570
+[W 2022-06-07 12:26:53.307 ServerApp] delete /m2_2022/sandbox/dask-worker.o575283
+[W 2022-06-07 12:26:53.310 ServerApp] delete /m2_2022/sandbox/dask-worker.o575567
+[W 2022-06-07 12:26:53.313 ServerApp] delete /m2_2022/sandbox/dask-worker.o575284
+[W 2022-06-07 12:26:53.315 ServerApp] delete /m2_2022/sandbox/dask-worker.o575571
+[W 2022-06-07 12:26:53.320 ServerApp] delete /m2_2022/sandbox/dask-worker.o575823
+[W 2022-06-07 12:26:53.325 ServerApp] delete /m2_2022/sandbox/dask-worker.o575824
+[W 2022-06-07 12:26:53.328 ServerApp] delete /m2_2022/sandbox/dask-worker.o575825
+[W 2022-06-07 12:26:53.331 ServerApp] delete /m2_2022/sandbox/dask-worker.o575826
+[W 2022-06-07 12:26:53.335 ServerApp] delete /m2_2022/sandbox/dask-worker.o575827
+[W 2022-06-07 12:26:53.338 ServerApp] delete /m2_2022/sandbox/dask-worker.o575828
+[W 2022-06-07 12:26:53.343 ServerApp] delete /m2_2022/sandbox/dask-worker.o575829
+[W 2022-06-07 12:26:53.361 ServerApp] delete /m2_2022/sandbox/dask-worker.o575911
+[W 2022-06-07 12:26:53.374 ServerApp] delete /m2_2022/sandbox/dask-worker.o575912
+[W 2022-06-07 12:26:53.395 ServerApp] delete /m2_2022/sandbox/dask-worker.o575913
+[W 2022-06-07 12:26:53.399 ServerApp] delete /m2_2022/sandbox/dask-worker.o575914
+[W 2022-06-07 12:26:53.416 ServerApp] delete /m2_2022/sandbox/dask-worker.o575915
+[W 2022-06-07 12:26:53.420 ServerApp] delete /m2_2022/sandbox/dask-worker.o575916
+[W 2022-06-07 12:26:53.425 ServerApp] delete /m2_2022/sandbox/dask-worker.o579633
+[W 2022-06-07 12:26:53.428 ServerApp] delete /m2_2022/sandbox/dask-worker.o579634
+[W 2022-06-07 12:26:53.449 ServerApp] delete /m2_2022/sandbox/dask-worker.o579635
+[W 2022-06-07 12:26:53.452 ServerApp] delete /m2_2022/sandbox/dask-worker.o579638
+[W 2022-06-07 12:26:53.455 ServerApp] delete /m2_2022/sandbox/dask-worker.o579639
+[W 2022-06-07 12:26:53.459 ServerApp] delete /m2_2022/sandbox/dask-worker.o579640
+[W 2022-06-07 12:27:00.688 ServerApp] delete /m2_2022/sandbox/dask-worker.o579781
+[W 2022-06-07 12:27:00.692 ServerApp] delete /m2_2022/sandbox/dask-worker.o579782
+[W 2022-06-07 12:27:00.696 ServerApp] delete /m2_2022/sandbox/dask-worker.o579783
+[I 2022-06-07 12:27:10.848 ServerApp] Kernel restarted: 813c0631-6e46-4953-b088-2b027476d3c6
+[I 2022-06-07 12:27:10.855 ServerApp] Starting buffering for 813c0631-6e46-4953-b088-2b027476d3c6:2c2446cf-8dcf-4c12-87cd-7e51810d7e93
+[I 2022-06-07 12:27:10.864 ServerApp] Restoring connection for 813c0631-6e46-4953-b088-2b027476d3c6:2c2446cf-8dcf-4c12-87cd-7e51810d7e93
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-06-07 12:27:19.289 ServerApp] Kernel interrupted: 813c0631-6e46-4953-b088-2b027476d3c6
+[I 2022-06-07 12:27:19.834 ServerApp] Kernel interrupted: 813c0631-6e46-4953-b088-2b027476d3c6
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a9a5b31d-3c6f-4198-aa8c-f6fafecef7a1
+[I 2022-06-07 12:27:56.032 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 12:29:56.152 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 12:31:56.280 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 12:35:56.407 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 12:38:30.089 ServerApp] Saving file at /m2_2022/m2lib22/aviso.py
+[I 2022-06-07 12:38:36.510 ServerApp] Kernel started: 2fc99f03-72ba-4159-b05b-3d4c8e3af1a1
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 0d7c4d6b-7e57-43d3-81d6-8b8cb36e446e
+[I 2022-06-07 12:40:30.109 ServerApp] Saving file at /m2_2022/m2lib22/aviso.py
+[I 2022-06-07 12:44:30.130 ServerApp] Saving file at /m2_2022/m2lib22/aviso.py
+[I 2022-06-07 12:45:56.513 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 12:54:53.146 ServerApp] Kernel interrupted: 813c0631-6e46-4953-b088-2b027476d3c6
+[I 2022-06-07 12:55:11.918 ServerApp] Kernel shutdown: 10d02f21-3e6b-4c7d-afdc-e2dbadf523f8
+[I 2022-06-07 12:55:11.921 ServerApp] Kernel shutdown: 9522bcef-62ef-47e8-932d-394492e0db0d
+[I 2022-06-07 12:55:11.921 ServerApp] Kernel shutdown: b0bcc90e-2d04-448b-8132-44c640579928
+[I 2022-06-07 12:55:11.923 ServerApp] Kernel shutdown: 813c0631-6e46-4953-b088-2b027476d3c6
+[I 2022-06-07 12:55:11.924 ServerApp] Kernel shutdown: 2fc99f03-72ba-4159-b05b-3d4c8e3af1a1
+[I 2022-06-07 12:55:14.576 ServerApp] Shutting down on /api/shutdown request.
+[I 2022-06-07 12:55:14.577 ServerApp] Shutting down 3 extensions
+[I 2022-06-07 12:55:14.578 ServerApp] Shutting down 0 kernels
+[I 2022-06-07 12:55:14.578 ServerApp] Shutting down 0 terminals
+Terminated

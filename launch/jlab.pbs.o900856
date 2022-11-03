@@ -1,0 +1,70 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Tue Jul  5 14:05:00 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-07-05 14:05:08.955 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-07-05 14:05:08.973 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-07-05 14:05:08.981 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-07-05 14:05:13.103 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-07-05 14:05:13.616 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-07-05 14:05:13.617 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-07-05 14:05:13.617 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-07-05 14:05:13.621 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-07-05 14:05:13.707 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-07-05 14:05:13.708 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-07-05 14:05:13.708 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-07-05 14:05:13.708 ServerApp] http://r1i5n25:8877/lab
+[I 2022-07-05 14:05:13.708 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-07-05 14:05:13.708 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-07-05 14:08:15.882 LabApp] Build is up to date
+[I 2022-07-05 14:08:21.219 ServerApp] Kernel started: d448aab2-57c7-4634-b00c-2f8d8fe4edc5
+[I 2022-07-05 14:08:21.220 ServerApp] Kernel started: 264c685b-cb39-49b2-9b98-e81277668b04
+[I 2022-07-05 14:08:21.220 ServerApp] Kernel started: 7bfbd160-171d-420c-b416-6c4d1a0d8400
+[I 2022-07-05 14:08:21.222 ServerApp] Kernel started: 5639795c-b799-4735-a2a9-f4710c5960c8
+[I 2022-07-05 14:08:21.347 ServerApp] Kernel started: 90096c5f-68fa-4eb0-9dbd-a5e4ba94aa14
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: be5da5d0-c5df-4198-87ab-2c406223c720
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: cc5076ae-b0fd-4bde-b975-037f5a781c86
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: fc8356cc-c00c-494d-ab10-df647c785ccc
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a1b8f474-3120-4afe-a11d-f9f2557d6e4f
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 077086c4-3f99-48d8-b6db-c4033c8708ae
+[I 2022-07-05 14:11:01.040 ServerApp] Starting buffering for 7bfbd160-171d-420c-b416-6c4d1a0d8400:754663e8-e331-4ed1-8eba-b982d9ea0ba4
+[I 2022-07-05 14:11:01.915 ServerApp] Starting buffering for 5639795c-b799-4735-a2a9-f4710c5960c8:5f8e764d-fb49-4ed4-9374-bc6e22c3f2a8
+[I 2022-07-05 14:11:03.555 ServerApp] Starting buffering for d448aab2-57c7-4634-b00c-2f8d8fe4edc5:e88fc3fb-34da-454f-9db2-cba69065800b
+[I 2022-07-05 14:11:07.339 ServerApp] Creating new notebook in /m2_2022/sandbox
+[I 2022-07-05 14:11:07.843 ServerApp] Kernel started: 46ddf93b-ed20-41e1-91c2-1609eb587024
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: fbd4dde3-5e29-4016-b8ee-9494efab6a61
+[I 2022-07-05 14:13:07.806 ServerApp] Saving file at /m2_2022/sandbox/diag_sla_corr.ipynb
+[I 2022-07-05 14:15:08.925 ServerApp] Saving file at /m2_2022/sandbox/diag_sla_corr.ipynb
+[I 2022-07-05 14:17:09.050 ServerApp] Saving file at /m2_2022/sandbox/diag_sla_corr.ipynb
+[I 2022-07-05 14:19:09.213 ServerApp] Saving file at /m2_2022/sandbox/diag_sla_corr.ipynb
+[I 2022-07-05 14:21:09.451 ServerApp] Saving file at /m2_2022/sandbox/diag_sla_corr.ipynb
+[I 2022-07-05 14:23:01.827 ServerApp] Saving file at /m2_2022/sandbox/diag_sla_corr.ipynb
+[I 2022-07-05 14:23:03.613 ServerApp] Starting buffering for 46ddf93b-ed20-41e1-91c2-1609eb587024:e8ffb97f-7e56-4bd2-bd82-555f250f924d
+[I 2022-07-05 14:23:09.477 ServerApp] Starting buffering for 264c685b-cb39-49b2-9b98-e81277668b04:97a650f0-a780-4f1e-bef5-5fe41ad1dd30
+[I 2022-07-05 14:23:09.478 ServerApp] Starting buffering for 90096c5f-68fa-4eb0-9dbd-a5e4ba94aa14:f28580ce-5bd3-4faf-b11b-05e12c137a1e
+Terminated
+[C 2022-07-05 14:23:28.834 ServerApp] received signal 15, stopping
+[I 2022-07-05 14:23:28.886 ServerApp] Shutting down 3 extensions
+[I 2022-07-05 14:23:28.886 ServerApp] Shutting down 6 kernels
+[I 2022-07-05 14:23:28.887 ServerApp] Kernel shutdown: 264c685b-cb39-49b2-9b98-e81277668b04
+[I 2022-07-05 14:23:28.887 ServerApp] Kernel shutdown: 5639795c-b799-4735-a2a9-f4710c5960c8
+[I 2022-07-05 14:23:28.887 ServerApp] Kernel shutdown: 7bfbd160-171d-420c-b416-6c4d1a0d8400
+[I 2022-07-05 14:23:28.888 ServerApp] Kernel shutdown: 46ddf93b-ed20-41e1-91c2-1609eb587024
+[I 2022-07-05 14:23:28.888 ServerApp] Kernel shutdown: 90096c5f-68fa-4eb0-9dbd-a5e4ba94aa14
+[I 2022-07-05 14:23:28.888 ServerApp] Kernel shutdown: d448aab2-57c7-4634-b00c-2f8d8fe4edc5
+[I 2022-07-05 14:23:31.503 ServerApp] Shutting down 0 terminals

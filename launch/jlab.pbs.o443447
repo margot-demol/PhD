@@ -1,0 +1,50 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Tue May 24 14:43:40 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-05-24 14:43:46.113 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-05-24 14:43:46.117 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-05-24 14:43:46.124 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-05-24 14:43:48.024 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-05-24 14:43:48.362 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-05-24 14:43:48.364 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-05-24 14:43:48.364 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-05-24 14:43:48.368 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-05-24 14:43:48.374 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-05-24 14:43:48.375 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-05-24 14:43:48.375 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-05-24 14:43:48.375 ServerApp] http://r1i0n31:8877/lab
+[I 2022-05-24 14:43:48.375 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-05-24 14:43:48.375 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 2022-05-24 14:44:31.275 LabApp] Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+    {"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+    {"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+    
+[I 2022-05-24 14:44:31.396 LabApp] Build is up to date
+[W 2022-05-24 14:44:34.252 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-24 14:44:35.819 ServerApp] Kernel started: cf12aafd-c4a6-4509-b006-9624ba9882a2
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ebff2dc3-5982-42df-89aa-50288f162ff5
+[I 2022-05-24 14:46:35.436 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-24 14:46:35.437 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-24 14:48:35.881 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-24 14:48:35.882 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-24 14:50:36.397 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-24 14:50:36.398 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-24 14:52:36.914 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-24 14:52:36.914 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-24 14:53:50.473 ServerApp] Starting buffering for cf12aafd-c4a6-4509-b006-9624ba9882a2:0226dcb9-0775-469a-b3d3-e86d8f910b1f
+[C 2022-05-24 14:54:06.592 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-05-24 14:54:06.594 ServerApp] Shutting down 3 extensions
+[I 2022-05-24 14:54:06.594 ServerApp] Shutting down 1 kernel
+[I 2022-05-24 14:54:06.595 ServerApp] Kernel shutdown: cf12aafd-c4a6-4509-b006-9624ba9882a2
+[I 2022-05-24 14:54:08.110 ServerApp] Shutting down 0 terminals

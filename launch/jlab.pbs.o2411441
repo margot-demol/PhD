@@ -1,0 +1,44 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu Oct 20 12:00:55 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/t_env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-10-20 12:00:59.276 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-10-20 12:00:59.280 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-20 12:00:59.288 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-10-20 12:00:59.653 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-10-20 12:00:59.975 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-10-20 12:00:59.976 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/t_env/lib/python3.8/site-packages/jupyterlab
+[I 2022-10-20 12:00:59.976 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/t_env/share/jupyter/lab
+[I 2022-10-20 12:00:59.980 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-10-20 12:00:59.987 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-10-20 12:00:59.987 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-10-20 12:00:59.987 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-10-20 12:00:59.987 ServerApp] http://r1i0n9:8877/lab
+[I 2022-10-20 12:00:59.987 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-10-20 12:00:59.987 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-10-20 12:04:41.303 LabApp] Build is up to date
+[W 2022-10-20 12:04:42.406 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-20 12:04:43.567 ServerApp] Kernel started: ce4ba234-863c-460e-897e-726510e7fcaf
+[I 2022-10-20 12:04:43.577 ServerApp] Kernel started: a0835853-72dd-4c54-97cf-d03f624e9fe5
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f083798c-2804-40b9-9b99-f89aa4cf41fe
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 399822f2-ff1f-4f97-949e-6b4f6e15cec3
+[I 2022-10-20 12:06:42.965 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-20 12:06:42.967 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[C 2022-10-20 12:08:25.722 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-10-20 12:08:25.781 ServerApp] Shutting down 3 extensions
+[I 2022-10-20 12:08:25.781 ServerApp] Shutting down 2 kernels
+[I 2022-10-20 12:08:25.781 ServerApp] Kernel shutdown: a0835853-72dd-4c54-97cf-d03f624e9fe5
+[I 2022-10-20 12:08:25.782 ServerApp] Kernel shutdown: ce4ba234-863c-460e-897e-726510e7fcaf
+[I 2022-10-20 12:08:26.396 ServerApp] Shutting down 0 terminals

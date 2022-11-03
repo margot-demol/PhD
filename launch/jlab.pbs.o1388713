@@ -1,0 +1,172 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Mon Aug  8 08:11:40 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-08-08 08:12:06.081 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-08-08 08:12:06.110 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-08-08 08:12:06.117 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-08-08 08:12:11.271 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-08-08 08:12:11.921 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-08-08 08:12:11.922 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-08-08 08:12:11.922 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-08-08 08:12:11.926 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-08-08 08:12:12.099 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-08-08 08:12:12.100 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-08-08 08:12:12.100 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-08-08 08:12:12.100 ServerApp] http://r1i3n20:8877/lab
+[I 2022-08-08 08:12:12.100 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-08-08 08:12:12.100 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-08-08 08:14:08.945 ServerApp] 404 GET /apple-touch-icon-precomposed.png (10.148.1.145) 126.72ms referer=None
+[W 2022-08-08 08:14:12.545 ServerApp] 404 GET /apple-touch-icon.png (10.148.1.145) 1.99ms referer=None
+[I 2022-08-08 08:14:15.744 LabApp] Build is up to date
+[I 2022-08-08 08:15:20.113 ServerApp] Kernel started: 8091617d-7912-486e-b54b-0f1ac4c24f47
+[I 2022-08-08 08:15:20.283 ServerApp] Kernel started: 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[I 2022-08-08 08:15:23.209 ServerApp] Kernel started: 73f1efd8-41f0-4f64-908e-992ff31d4f30
+[I 2022-08-08 08:15:26.645 ServerApp] Kernel started: b100a377-4baa-4c3d-a849-cb8b210188af
+[I 2022-08-08 08:15:27.415 ServerApp] Kernel started: 1cfb136c-b916-42c3-a349-346705a9578b
+[I 2022-08-08 08:15:31.599 ServerApp] Kernel started: 0c7fa2e1-ad59-4481-a90a-bf2c9955d7ab
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2e83209a-70c9-4d53-b4a7-b9e4cebfe6b8
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: cff47611-be9b-4fd4-9909-9e985e6097d1
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 0bae773b-bba7-425d-9ed5-effee7db50cf
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 60471a86-689d-4875-9e43-cedee90cbcb7
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: bdf81d7c-8b5c-4e5c-b3f5-d32c6137162b
+[W 2022-08-08 08:16:16.590 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-08 08:16:20.155 ServerApp] Kernel started: b4445ebb-16fa-4dc1-9c36-fe6b0ad9b135
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e2209368-4475-46c1-abaf-018955de4b80
+[W 2022-08-08 08:16:23.319 ServerApp] Timeout waiting for kernel_info reply from 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:16:27.833 ServerApp] Nudge: attempt 10 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:16:27.833 ServerApp] Nudge: attempt 10 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:16:32.844 ServerApp] Nudge: attempt 20 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:16:32.845 ServerApp] Nudge: attempt 20 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:16:37.857 ServerApp] Nudge: attempt 30 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:16:37.858 ServerApp] Nudge: attempt 30 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:16:42.868 ServerApp] Nudge: attempt 40 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:16:42.868 ServerApp] Nudge: attempt 40 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:16:47.880 ServerApp] Nudge: attempt 50 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:16:47.880 ServerApp] Nudge: attempt 50 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:16:52.892 ServerApp] Nudge: attempt 60 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:16:52.893 ServerApp] Nudge: attempt 60 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:16:57.905 ServerApp] Nudge: attempt 70 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:16:57.905 ServerApp] Nudge: attempt 70 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:17:02.915 ServerApp] Nudge: attempt 80 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:17:02.915 ServerApp] Nudge: attempt 80 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:17:07.927 ServerApp] Nudge: attempt 90 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:17:07.927 ServerApp] Nudge: attempt 90 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:17:12.938 ServerApp] Nudge: attempt 100 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:17:12.938 ServerApp] Nudge: attempt 100 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:17:17.949 ServerApp] Nudge: attempt 110 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:17:17.950 ServerApp] Nudge: attempt 110 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:17:22.961 ServerApp] Nudge: attempt 120 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[W 2022-08-08 08:17:22.961 ServerApp] Nudge: attempt 120 on kernel 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[E 2022-08-08 08:17:23.321 ServerApp] Uncaught exception GET /api/kernels/9ca8e825-df8d-4baf-a8c6-8b34c375e174/channels?session_id=63b18dda-1b8f-41b8-b36a-1d9066bf23e7 (10.148.1.145)
+    HTTPServerRequest(protocol='http', host='localhost:8877', method='GET', uri='/api/kernels/9ca8e825-df8d-4baf-a8c6-8b34c375e174/channels?session_id=63b18dda-1b8f-41b8-b36a-1d9066bf23e7', version='HTTP/1.1', remote_ip='10.148.1.145')
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/websocket.py", line 956, in _accept_connection
+        await open_result
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+        future.result()
+    tornado.util.TimeoutError: Timeout
+[E 2022-08-08 08:17:23.349 ServerApp] Uncaught exception GET /api/kernels/9ca8e825-df8d-4baf-a8c6-8b34c375e174/channels?session_id=bafc78e6-7912-4338-ad2e-27edce125df2 (10.148.1.145)
+    HTTPServerRequest(protocol='http', host='localhost:8877', method='GET', uri='/api/kernels/9ca8e825-df8d-4baf-a8c6-8b34c375e174/channels?session_id=bafc78e6-7912-4338-ad2e-27edce125df2', version='HTTP/1.1', remote_ip='10.148.1.145')
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/websocket.py", line 956, in _accept_connection
+        await open_result
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+        future.result()
+    tornado.util.TimeoutError: Timeout
+[W 2022-08-08 08:17:23.628 ServerApp] Replacing stale connection: 9ca8e825-df8d-4baf-a8c6-8b34c375e174:63b18dda-1b8f-41b8-b36a-1d9066bf23e7
+[W 2022-08-08 08:17:23.632 ServerApp] Replacing stale connection: 9ca8e825-df8d-4baf-a8c6-8b34c375e174:bafc78e6-7912-4338-ad2e-27edce125df2
+[I 2022-08-08 08:18:28.376 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-08 08:18:28.377 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-08 08:20:38.370 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-08 08:20:38.371 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-08 08:21:59.002 ServerApp] Kernel restarted: b4445ebb-16fa-4dc1-9c36-fe6b0ad9b135
+[I 2022-08-08 08:21:59.080 ServerApp] Starting buffering for b4445ebb-16fa-4dc1-9c36-fe6b0ad9b135:1c183e93-6b8c-4318-87ac-0ebabc8df3e3
+[I 2022-08-08 08:21:59.205 ServerApp] Restoring connection for b4445ebb-16fa-4dc1-9c36-fe6b0ad9b135:1c183e93-6b8c-4318-87ac-0ebabc8df3e3
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b421a492-8976-40c3-ac4d-8b863b1a4f21
+[I 2022-08-08 08:22:48.922 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-08 08:22:48.923 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-08 08:39:04.126 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-08 08:39:04.126 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[W 2022-08-08 08:45:26.148 ServerApp] WebSocket ping timeout after 119920 ms.
+[W 2022-08-08 08:45:26.298 ServerApp] WebSocket ping timeout after 119939 ms.
+[W 2022-08-08 08:45:26.299 ServerApp] WebSocket ping timeout after 119881 ms.
+[W 2022-08-08 08:45:26.324 ServerApp] WebSocket ping timeout after 119904 ms.
+[W 2022-08-08 08:45:26.535 ServerApp] WebSocket ping timeout after 119940 ms.
+[W 2022-08-08 08:45:26.536 ServerApp] WebSocket ping timeout after 119883 ms.
+[W 2022-08-08 08:45:26.537 ServerApp] WebSocket ping timeout after 119882 ms.
+[W 2022-08-08 08:45:26.605 ServerApp] WebSocket ping timeout after 119890 ms.
+[W 2022-08-08 08:45:26.684 ServerApp] WebSocket ping timeout after 119910 ms.
+[W 2022-08-08 08:45:26.694 ServerApp] WebSocket ping timeout after 119918 ms.
+[W 2022-08-08 08:45:29.205 ServerApp] WebSocket ping timeout after 119723 ms.
+[I 2022-08-08 08:45:31.149 ServerApp] Starting buffering for 8091617d-7912-486e-b54b-0f1ac4c24f47:17f5c21b-ee73-4038-a1d2-86713d889554
+[I 2022-08-08 08:45:31.300 ServerApp] Starting buffering for 73f1efd8-41f0-4f64-908e-992ff31d4f30:378815b3-1157-43cd-9fc4-0fe588714e75
+[I 2022-08-08 08:45:31.325 ServerApp] Starting buffering for b100a377-4baa-4c3d-a849-cb8b210188af:2c3c15fb-ef90-4d09-a063-8f27f5ae5fa9
+[I 2022-08-08 08:45:31.538 ServerApp] Starting buffering for 1cfb136c-b916-42c3-a349-346705a9578b:b841f873-86f4-4f9d-bd40-6c9b79af32b9
+[I 2022-08-08 08:45:31.695 ServerApp] Starting buffering for 0c7fa2e1-ad59-4481-a90a-bf2c9955d7ab:6922ad93-383c-4d4e-9dc6-16b0530a5fef
+[I 2022-08-08 08:45:34.207 ServerApp] Starting buffering for b4445ebb-16fa-4dc1-9c36-fe6b0ad9b135:1c183e93-6b8c-4318-87ac-0ebabc8df3e3
+[I 2022-08-08 08:45:51.230 ServerApp] Starting buffering for 9ca8e825-df8d-4baf-a8c6-8b34c375e174:bafc78e6-7912-4338-ad2e-27edce125df2
+[C 2022-08-08 09:07:18.490 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-08-08 09:07:18.543 ServerApp] Shutting down 3 extensions
+[I 2022-08-08 09:07:18.543 ServerApp] Shutting down 7 kernels
+[I 2022-08-08 09:07:18.544 ServerApp] Kernel shutdown: b100a377-4baa-4c3d-a849-cb8b210188af
+[I 2022-08-08 09:07:18.544 ServerApp] Kernel shutdown: 9ca8e825-df8d-4baf-a8c6-8b34c375e174
+[I 2022-08-08 09:07:18.544 ServerApp] Kernel shutdown: 8091617d-7912-486e-b54b-0f1ac4c24f47
+[I 2022-08-08 09:07:18.545 ServerApp] Kernel shutdown: 1cfb136c-b916-42c3-a349-346705a9578b
+[I 2022-08-08 09:07:18.545 ServerApp] Kernel shutdown: b4445ebb-16fa-4dc1-9c36-fe6b0ad9b135
+[I 2022-08-08 09:07:18.545 ServerApp] Kernel shutdown: 73f1efd8-41f0-4f64-908e-992ff31d4f30
+[I 2022-08-08 09:07:18.546 ServerApp] Kernel shutdown: 0c7fa2e1-ad59-4481-a90a-bf2c9955d7ab
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 17, in <module>
+    app.launch_new_instance()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.initialize(argv)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 88, in inner
+    return method(app, *args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 661, in initialize
+    self.init_sockets()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 322, in init_sockets
+    self.init_iopub(context)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 349, in init_iopub
+    self.iopub_port = self._bind_socket(self.iopub_socket, self.iopub_port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 244, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 220, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/sugar/socket.py", line 214, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 540, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 395, in close
+    self.context.term()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/sugar/context.py", line 190, in term
+    return super(Context, self).term()
+  File "zmq/backend/cython/context.pyx", line 82, in zmq.backend.cython.context.Context.term
+  File "zmq/backend/cython/checkrc.pxd", line 13, in zmq.backend.cython.checkrc._check_rc
+KeyboardInterrupt
+[I 2022-08-08 09:07:21.165 ServerApp] Shutting down 0 terminals

@@ -1,0 +1,133 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Wed Jun 29 13:51:36 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-06-29 13:51:39.958 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-06-29 13:51:39.963 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-06-29 13:51:39.970 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-06-29 13:51:40.320 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-06-29 13:51:40.636 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-06-29 13:51:40.637 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-06-29 13:51:40.637 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-06-29 13:51:40.641 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-06-29 13:51:40.648 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-06-29 13:51:40.648 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-06-29 13:51:40.648 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-06-29 13:51:40.648 ServerApp] http://r1i1n23:8877/lab
+[I 2022-06-29 13:51:40.648 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-06-29 13:51:40.648 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-06-29 13:53:21.052 ServerApp] 404 GET /api/kernels/5eb2dcbe-2c15-4d09-ba94-66d184ee7db1?1656510800975 (10.148.1.145): Kernel does not exist: 5eb2dcbe-2c15-4d09-ba94-66d184ee7db1
+[W 2022-06-29 13:53:21.053 ServerApp] Kernel does not exist: 5eb2dcbe-2c15-4d09-ba94-66d184ee7db1
+[W 2022-06-29 13:53:21.053 ServerApp] 404 GET /api/kernels/5eb2dcbe-2c15-4d09-ba94-66d184ee7db1?1656510800975 (10.148.1.145) 1.25ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_overview.ipynb
+[I 2022-06-29 13:54:12.886 LabApp] Build is up to date
+[W 2022-06-29 13:54:14.551 ServerApp] Notebook m2_2022/sandbox/projections.ipynb is not trusted
+[I 2022-06-29 13:54:16.998 ServerApp] Kernel started: 19550b49-fb89-4f94-b9d6-1fe20e0dfb50
+[I 2022-06-29 13:54:16.999 ServerApp] Kernel started: e6693979-134f-4d5b-b8c2-1853c5b3c7ff
+[I 2022-06-29 13:54:17.001 ServerApp] Kernel started: e45338df-eae4-4f2b-9abe-6610fa975942
+[I 2022-06-29 13:54:17.937 ServerApp] Kernel started: d1b00173-ffbc-4308-a0fd-7d6049006242
+[I 2022-06-29 13:54:18.125 ServerApp] Kernel started: 4a3a47ca-b096-4d5b-b6f8-fe098b2f1689
+[I 2022-06-29 13:54:18.127 ServerApp] Kernel started: ce821615-d09e-4238-adc2-cb811681f628
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 15, in <module>
+    from ipykernel import kernelapp as app
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/__init__.py", line 5, in <module>
+    from .connect import *  # noqa
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/connect.py", line 10, in <module>
+    import jupyter_client
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_client/__init__.py", line 6, in <module>
+    from .asynchronous import AsyncKernelClient  # noqa
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_client/asynchronous/__init__.py", line 1, in <module>
+    from .client import AsyncKernelClient  # noqa
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_client/asynchronous/client.py", line 6, in <module>
+    from jupyter_client.channels import HBChannel
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_client/channels.py", line 4, in <module>
+    import asyncio
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/__init__.py", line 18, in <module>
+    from .subprocess import *
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 934, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1032, in get_data
+KeyboardInterrupt
+[I 2022-06-29 13:54:23.523 ServerApp] Kernel restarted: e6693979-134f-4d5b-b8c2-1853c5b3c7ff
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[W 2022-06-29 13:54:59.800 ServerApp] Replacing stale connection: e6693979-134f-4d5b-b8c2-1853c5b3c7ff:bef95487-2054-4469-8bc7-865f45ada5b7
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e61cc742-de51-4fd7-9c52-f2d8c121b70b
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 270887e1-9852-468e-ae9f-44fb38941aa1
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2a3323ff-52f9-46f7-8352-609f336058da
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 0992786a-f855-44b0-85cf-3fc23f12a399
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-06-29 13:55:00.474 ServerApp] Starting buffering for e6693979-134f-4d5b-b8c2-1853c5b3c7ff:bef95487-2054-4469-8bc7-865f45ada5b7
+[I 2022-06-29 13:55:00.474 ServerApp] Restoring connection for e6693979-134f-4d5b-b8c2-1853c5b3c7ff:bef95487-2054-4469-8bc7-865f45ada5b7
+[I 2022-06-29 13:55:00.479 ServerApp] Replaying 3 buffered messages
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2b379efc-7b4a-4fe7-8849-c0333d1e787c
+[I 2022-06-29 13:56:14.933 ServerApp] Saving file at /m2_2022/sandbox/diag_overview.ipynb
+[I 2022-06-29 13:57:13.733 ServerApp] Kernel interrupted: e6693979-134f-4d5b-b8c2-1853c5b3c7ff
+[I 2022-06-29 13:57:14.322 ServerApp] Kernel interrupted: e6693979-134f-4d5b-b8c2-1853c5b3c7ff
+[I 2022-06-29 13:58:15.244 ServerApp] Saving file at /m2_2022/sandbox/diag_overview.ipynb
+[W 2022-06-29 13:59:54.819 ServerApp] delete /m2_2022/sandbox/dask-worker.o840063
+[W 2022-06-29 13:59:54.824 ServerApp] delete /m2_2022/sandbox/dask-worker.o840064
+[W 2022-06-29 13:59:54.828 ServerApp] delete /m2_2022/sandbox/dask-worker.o840249
+[W 2022-06-29 13:59:54.833 ServerApp] delete /m2_2022/sandbox/dask-worker.o840298
+[W 2022-06-29 13:59:54.837 ServerApp] delete /m2_2022/sandbox/dask-worker.o840250
+[W 2022-06-29 13:59:54.841 ServerApp] delete /m2_2022/sandbox/dask-worker.o840389
+[W 2022-06-29 13:59:54.845 ServerApp] delete /m2_2022/sandbox/dask-worker.o840255
+[W 2022-06-29 13:59:54.850 ServerApp] delete /m2_2022/sandbox/dask-worker.o840256
+[W 2022-06-29 13:59:54.854 ServerApp] delete /m2_2022/sandbox/dask-worker.o840297
+[W 2022-06-29 13:59:54.859 ServerApp] delete /m2_2022/sandbox/dask-worker.o840390
+[W 2022-06-29 13:59:54.863 ServerApp] delete /m2_2022/sandbox/dask-worker.o840440
+[W 2022-06-29 13:59:54.867 ServerApp] delete /m2_2022/sandbox/dask-worker.o840441
+[W 2022-06-29 13:59:54.871 ServerApp] delete /m2_2022/sandbox/dask-worker.o840596
+[W 2022-06-29 13:59:54.875 ServerApp] delete /m2_2022/sandbox/dask-worker.o840597
+[W 2022-06-29 13:59:54.879 ServerApp] delete /m2_2022/sandbox/dask-worker.o840636
+[W 2022-06-29 13:59:54.884 ServerApp] delete /m2_2022/sandbox/dask-worker.o840637
+[I 2022-06-29 14:00:15.355 ServerApp] Saving file at /m2_2022/sandbox/diag_overview.ipynb
+[I 2022-06-29 14:02:15.471 ServerApp] Saving file at /m2_2022/sandbox/diag_overview.ipynb
+[I 2022-06-29 14:04:15.673 ServerApp] Saving file at /m2_2022/sandbox/diag_overview.ipynb
+[I 2022-06-29 14:06:15.857 ServerApp] Saving file at /m2_2022/sandbox/diag_overview.ipynb
+[I 2022-06-29 14:08:15.691 ServerApp] Saving file at /m2_2022/sandbox/repartition_1D_pdfs.ipynb
+[I 2022-06-29 14:08:16.111 ServerApp] Saving file at /m2_2022/sandbox/diag_overview.ipynb
+[I 2022-06-29 14:10:16.327 ServerApp] Saving file at /m2_2022/sandbox/diag_overview.ipynb
+[I 2022-06-29 14:12:16.582 ServerApp] Saving file at /m2_2022/sandbox/diag_overview.ipynb
+[I 2022-06-29 14:14:16.810 ServerApp] Saving file at /m2_2022/sandbox/diag_overview.ipynb
+[I 2022-06-29 14:16:16.998 ServerApp] Saving file at /m2_2022/sandbox/diag_overview.ipynb
+[I 2022-06-29 14:18:17.197 ServerApp] Saving file at /m2_2022/sandbox/diag_overview.ipynb
+[I 2022-06-29 14:20:17.470 ServerApp] Saving file at /m2_2022/sandbox/diag_overview.ipynb
+[I 2022-06-29 14:22:17.723 ServerApp] Saving file at /m2_2022/sandbox/diag_overview.ipynb
+[I 2022-06-29 14:24:17.989 ServerApp] Saving file at /m2_2022/sandbox/diag_overview.ipynb
+[I 2022-06-29 14:26:18.141 ServerApp] Saving file at /m2_2022/sandbox/diag_overview.ipynb
+[I 2022-06-29 14:27:45.218 ServerApp] Copying m2_2022/sandbox/diag_overview.ipynb to /m2_2022/sandbox
+[I 2022-06-29 14:28:18.323 ServerApp] Saving file at /m2_2022/sandbox/diag_overview.ipynb
+Terminated
+[C 2022-06-29 14:31:33.466 ServerApp] received signal 15, stopping
+[I 2022-06-29 14:31:33.479 ServerApp] Shutting down 3 extensions
+[I 2022-06-29 14:31:33.479 ServerApp] Shutting down 6 kernels
+[I 2022-06-29 14:31:33.479 ServerApp] Kernel shutdown: 19550b49-fb89-4f94-b9d6-1fe20e0dfb50
+[I 2022-06-29 14:31:33.479 ServerApp] Kernel shutdown: d1b00173-ffbc-4308-a0fd-7d6049006242
+[I 2022-06-29 14:31:33.480 ServerApp] Kernel shutdown: e6693979-134f-4d5b-b8c2-1853c5b3c7ff
+[I 2022-06-29 14:31:33.480 ServerApp] Kernel shutdown: 4a3a47ca-b096-4d5b-b6f8-fe098b2f1689
+[I 2022-06-29 14:31:33.480 ServerApp] Kernel shutdown: ce821615-d09e-4238-adc2-cb811681f628
+[I 2022-06-29 14:31:33.480 ServerApp] Kernel shutdown: e45338df-eae4-4f2b-9abe-6610fa975942
+[I 2022-06-29 14:31:36.094 ServerApp] Shutting down 0 terminals

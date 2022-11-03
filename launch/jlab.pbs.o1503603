@@ -1,0 +1,58 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Wed Aug 17 14:12:01 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-08-17 14:12:14.631 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-08-17 14:12:14.653 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-08-17 14:12:14.660 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-08-17 14:12:17.727 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-08-17 14:12:18.050 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-08-17 14:12:18.051 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-08-17 14:12:18.051 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-08-17 14:12:18.055 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-08-17 14:12:18.220 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-08-17 14:12:18.220 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-08-17 14:12:18.220 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-08-17 14:12:18.220 ServerApp] http://r1i1n16:8877/lab
+[I 2022-08-17 14:12:18.220 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-08-17 14:12:18.221 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-08-17 14:13:44.257 LabApp] Build is up to date
+[I 2022-08-17 14:13:48.214 ServerApp] Kernel started: 225059ee-96ce-4396-83c6-af903425db6f
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4c6dbefb-76d7-4ee2-88e1-d4ab9005dfca
+[W 2022-08-17 14:13:55.359 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-17 14:13:57.612 ServerApp] Kernel started: a5792a3e-45ac-42b3-9002-e5ace938c1f6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c5e1958c-6e52-4f13-aed6-e3e3078f09ef
+[I 2022-08-17 14:15:57.194 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-17 14:15:57.195 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-17 14:17:58.680 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-17 14:17:58.681 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-17 14:20:01.032 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-17 14:20:01.033 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-17 14:22:01.998 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-17 14:22:01.998 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-17 14:24:02.790 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-17 14:24:02.791 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-17 14:26:03.972 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-17 14:26:03.973 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-17 14:27:32.910 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-17 14:27:32.911 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-17 14:27:36.737 ServerApp] Starting buffering for a5792a3e-45ac-42b3-9002-e5ace938c1f6:e57acf24-2fab-407f-94aa-8170cb2c6def
+[I 2022-08-17 14:27:36.738 ServerApp] Starting buffering for 225059ee-96ce-4396-83c6-af903425db6f:bb3eed8c-6dc0-41b5-b271-f0c9d4ef5b3d
+[C 2022-08-17 14:28:07.432 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-08-17 14:28:07.484 ServerApp] Shutting down 3 extensions
+[I 2022-08-17 14:28:07.484 ServerApp] Shutting down 2 kernels
+[I 2022-08-17 14:28:07.485 ServerApp] Kernel shutdown: 225059ee-96ce-4396-83c6-af903425db6f
+[I 2022-08-17 14:28:07.485 ServerApp] Kernel shutdown: a5792a3e-45ac-42b3-9002-e5ace938c1f6
+[I 2022-08-17 14:28:09.102 ServerApp] Shutting down 0 terminals

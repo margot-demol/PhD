@@ -1,0 +1,91 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Wed Oct 19 11:56:57 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-10-19 11:57:25.081 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-10-19 11:57:25.091 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-19 11:57:25.098 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-10-19 11:57:31.531 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-10-19 11:57:32.221 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-10-19 11:57:32.223 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-10-19 11:57:32.223 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-10-19 11:57:32.227 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-10-19 11:57:32.340 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-10-19 11:57:32.340 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-10-19 11:57:32.340 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-10-19 11:57:32.340 ServerApp] http://r1i1n35:8877/lab
+[I 2022-10-19 11:57:32.340 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-10-19 11:57:32.340 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-10-19 11:59:29.068 LabApp] Build is up to date
+[W 2022-10-19 11:59:31.761 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-19 11:59:33.758 ServerApp] Kernel started: e88eafca-6977-430e-9cdf-5931b95620e3
+[I 2022-10-19 11:59:33.759 ServerApp] Kernel started: 4bd30cf6-bda1-4b43-80de-6ef4221ca3aa
+[I 2022-10-19 11:59:33.762 ServerApp] Kernel started: e5c2f025-70d1-436f-9843-aafab6f7ccbc
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 7510a4e7-a3ed-49d0-8f3e-538b3f99a258
+readline: /etc/inputrc: line 19: term: unknown variable name
+[W 2022-10-19 12:00:05.506 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x2aaab4515250>
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 84ac5e7d-25e4-4e3b-956e-bb202d032eaf
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d87c94a7-cb95-464c-9001-1d9aacbfdf36
+[I 2022-10-19 12:00:21.920 ServerApp] Copying drifters_stats/sandbox/errors_analysis.ipynb to /m2_2022/sandbox
+[I 2022-10-19 12:26:44.644 ServerApp] Kernel started: e87ca321-4cb3-40e3-8bcf-e68d917f4490
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: dc389ecd-4444-41f6-9eee-49f8eac7d489
+[I 2022-10-19 12:26:46.208 ServerApp] Starting buffering for 4bd30cf6-bda1-4b43-80de-6ef4221ca3aa:abe35e88-a1e5-4bde-a033-9b40d3001204
+[I 2022-10-19 12:27:16.507 ServerApp] Kernel shutdown: e87ca321-4cb3-40e3-8bcf-e68d917f4490
+[W 2022-10-19 12:27:16.739 ServerApp] delete /m2_2022/sandbox/errors_analysis.ipynb
+[W 2022-10-19 12:27:37.290 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2356882
+[W 2022-10-19 12:27:37.294 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2356881
+[W 2022-10-19 12:27:37.297 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2362221
+[W 2022-10-19 12:27:37.310 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2362222
+[W 2022-10-19 12:27:37.314 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2356883
+[W 2022-10-19 12:27:37.316 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2356885
+[W 2022-10-19 12:27:37.319 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2362220
+[W 2022-10-19 12:27:37.322 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2356884
+[W 2022-10-19 12:27:37.325 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2362223
+[W 2022-10-19 12:27:37.328 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2362224
+[W 2022-10-19 12:27:37.332 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2375696
+[W 2022-10-19 12:27:37.352 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2375697
+[W 2022-10-19 12:27:37.355 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2375698
+[W 2022-10-19 12:27:37.358 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2375699
+[W 2022-10-19 12:27:37.361 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2375700
+[W 2022-10-19 12:33:05.446 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-19 12:33:05.446 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-19 12:33:05.481 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-19 12:33:10.449 ServerApp] Starting buffering for e5c2f025-70d1-436f-9843-aafab6f7ccbc:8229d023-3ec3-4f77-a5c9-2c9adfebcfb4
+[I 2022-10-19 12:33:10.482 ServerApp] Starting buffering for e88eafca-6977-430e-9cdf-5931b95620e3:58a2acce-3300-4b91-b213-955fb430f9e8
+[I 2022-10-19 12:43:06.207 ServerApp] Restoring connection for e88eafca-6977-430e-9cdf-5931b95620e3:58a2acce-3300-4b91-b213-955fb430f9e8
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 9d9cdc83-0eaf-488a-9f5d-c7769724c354
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4fac7a16-0967-4350-827d-f10c73e38d62
+[W 2022-10-19 12:51:06.206 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-19 12:51:06.208 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-10-19 12:51:06.210 ServerApp] WebSocket ping timeout after 119999 ms.
+[I 2022-10-19 12:51:11.209 ServerApp] Starting buffering for e88eafca-6977-430e-9cdf-5931b95620e3:58a2acce-3300-4b91-b213-955fb430f9e8
+[I 2022-10-19 12:51:11.211 ServerApp] Starting buffering for e5c2f025-70d1-436f-9843-aafab6f7ccbc:8229d023-3ec3-4f77-a5c9-2c9adfebcfb4
+[I 2022-10-19 13:03:07.352 ServerApp] Restoring connection for e88eafca-6977-430e-9cdf-5931b95620e3:58a2acce-3300-4b91-b213-955fb430f9e8
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1414d47f-7497-4b16-97a6-a6349cef622b
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5b7a29eb-70f0-4d39-8405-26de4ddf83ef
+[C 2022-10-19 13:03:12.300 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-10-19 13:03:12.325 ServerApp] Shutting down 3 extensions
+[I 2022-10-19 13:03:12.325 ServerApp] Shutting down 3 kernels
+[I 2022-10-19 13:03:12.325 ServerApp] Kernel shutdown: e5c2f025-70d1-436f-9843-aafab6f7ccbc
+[I 2022-10-19 13:03:12.325 ServerApp] Kernel shutdown: 4bd30cf6-bda1-4b43-80de-6ef4221ca3aa
+[I 2022-10-19 13:03:12.326 ServerApp] Kernel shutdown: e88eafca-6977-430e-9cdf-5931b95620e3
+[I 2022-10-19 13:03:14.940 ServerApp] Shutting down 0 terminals

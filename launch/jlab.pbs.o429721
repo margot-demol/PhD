@@ -1,0 +1,117 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Mon May 23 14:39:25 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-05-23 14:39:27.822 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-05-23 14:39:27.826 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-05-23 14:39:27.833 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-05-23 14:39:28.180 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-05-23 14:39:28.527 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-05-23 14:39:28.528 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-05-23 14:39:28.528 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-05-23 14:39:28.532 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-05-23 14:39:28.538 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-05-23 14:39:28.539 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-05-23 14:39:28.539 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-05-23 14:39:28.539 ServerApp] http://r1i0n5:8877/lab
+[I 2022-05-23 14:39:28.539 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-05-23 14:39:28.539 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-05-23 14:40:41.412 LabApp] Build is up to date
+[W 2022-05-23 14:40:42.307 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 14:40:43.849 ServerApp] Kernel started: bebc5852-8fa2-4445-b2ce-7d52b60ad532
+[I 2022-05-23 14:40:43.851 ServerApp] Kernel started: 1cafe1eb-ce5a-4449-8d44-499c60596b3f
+[I 2022-05-23 14:40:43.856 ServerApp] Kernel started: 40bf956a-c58e-4cb1-a6fc-229bcec563c6
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2909e23d-2216-4158-9e7a-5306d6c68994
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: bb1885cf-c148-49c6-918d-dc702113012f
+[IPKernelApp] WARNING | No such comm: a984b5e4-b897-4a19-9c4b-37bb8ad81c73
+[I 2022-05-23 14:42:43.839 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 14:42:43.840 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 14:43:05.973 ServerApp] Kernel restarted: 1cafe1eb-ce5a-4449-8d44-499c60596b3f
+[I 2022-05-23 14:43:06.004 ServerApp] Starting buffering for 1cafe1eb-ce5a-4449-8d44-499c60596b3f:c46bcb88-df3a-4280-84f2-1e878fe73334
+[I 2022-05-23 14:43:06.053 ServerApp] Restoring connection for 1cafe1eb-ce5a-4449-8d44-499c60596b3f:c46bcb88-df3a-4280-84f2-1e878fe73334
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f39ccf20-b964-47b1-8c80-ba6f29b5ef7c
+[I 2022-05-23 14:44:44.313 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 14:44:44.314 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 14:46:44.620 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 14:46:44.620 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 14:48:44.890 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 14:48:44.890 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 14:50:45.229 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 14:50:45.229 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 14:52:45.794 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 14:52:45.795 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 14:54:46.395 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 14:54:46.395 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 14:56:46.709 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 14:56:46.709 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 14:58:47.373 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 14:58:47.374 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 15:00:52.497 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 15:00:52.498 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 15:01:51.118 ServerApp] Starting buffering for 1cafe1eb-ce5a-4449-8d44-499c60596b3f:c46bcb88-df3a-4280-84f2-1e878fe73334
+[I 2022-05-23 15:01:51.119 ServerApp] Starting buffering for bebc5852-8fa2-4445-b2ce-7d52b60ad532:75d3269d-9d5c-4a03-a3b7-7903221661ea
+[I 2022-05-23 15:01:51.120 ServerApp] Starting buffering for 40bf956a-c58e-4cb1-a6fc-229bcec563c6:64002bc1-e00b-4957-91b8-db800ef55769
+[I 2022-05-23 15:03:20.473 ServerApp] Restoring connection for bebc5852-8fa2-4445-b2ce-7d52b60ad532:75d3269d-9d5c-4a03-a3b7-7903221661ea
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 99128463-b6a2-4c13-a826-f48f295df6de
+[I 2022-05-23 15:03:28.755 ServerApp] Restoring connection for 1cafe1eb-ce5a-4449-8d44-499c60596b3f:c46bcb88-df3a-4280-84f2-1e878fe73334
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 25398d41-70e3-4f16-9cf5-f19fca301b5d
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1bc55be4-1b0f-482e-8084-97173a05c046
+[I 2022-05-23 15:04:54.052 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 15:04:54.053 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 15:06:55.467 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 15:06:55.468 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 15:08:58.125 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 15:08:58.125 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 15:10:59.299 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 15:10:59.300 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 15:13:00.491 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 15:13:00.492 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 15:15:01.582 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 15:15:01.583 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 15:17:03.004 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 15:17:03.005 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 15:19:03.593 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 15:19:03.594 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 15:21:04.263 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 15:21:04.264 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 15:23:04.758 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 15:23:04.759 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 15:25:05.249 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 15:25:05.250 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 15:27:05.774 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 15:27:05.774 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-23 15:29:16.017 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-23 15:29:16.017 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[W 2022-05-23 15:32:20.475 ServerApp] WebSocket ping timeout after 119964 ms.
+[I 2022-05-23 15:32:25.477 ServerApp] Starting buffering for bebc5852-8fa2-4445-b2ce-7d52b60ad532:75d3269d-9d5c-4a03-a3b7-7903221661ea
+[W 2022-05-23 15:32:28.758 ServerApp] WebSocket ping timeout after 119975 ms.
+[W 2022-05-23 15:32:30.421 ServerApp] WebSocket ping timeout after 119966 ms.
+[I 2022-05-23 15:32:33.760 ServerApp] Starting buffering for 1cafe1eb-ce5a-4449-8d44-499c60596b3f:c46bcb88-df3a-4280-84f2-1e878fe73334
+[W 2022-05-23 15:32:41.608 ServerApp] WebSocket ping timeout after 119972 ms.
+[I 2022-05-23 15:32:46.612 ServerApp] Starting buffering for 40bf956a-c58e-4cb1-a6fc-229bcec563c6:64002bc1-e00b-4957-91b8-db800ef55769
+[C 2022-05-23 15:39:00.386 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-05-23 15:39:00.444 ServerApp] Shutting down 3 extensions
+[I 2022-05-23 15:39:00.445 ServerApp] Shutting down 3 kernels
+[I 2022-05-23 15:39:00.445 ServerApp] Kernel shutdown: 40bf956a-c58e-4cb1-a6fc-229bcec563c6
+[I 2022-05-23 15:39:00.445 ServerApp] Kernel shutdown: bebc5852-8fa2-4445-b2ce-7d52b60ad532
+[I 2022-05-23 15:39:00.446 ServerApp] Kernel shutdown: 1cafe1eb-ce5a-4449-8d44-499c60596b3f
+[I 2022-05-23 15:39:03.063 ServerApp] Shutting down 0 terminals

@@ -1,0 +1,421 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Tue Oct 18 14:46:07 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-10-18 14:48:46.420 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-10-18 14:48:46.424 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-18 14:48:46.431 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-10-18 14:48:46.828 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-10-18 14:48:47.151 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-10-18 14:48:47.152 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-10-18 14:48:47.152 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-10-18 14:48:47.156 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-10-18 14:48:47.162 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-10-18 14:48:47.162 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-10-18 14:48:47.162 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-10-18 14:48:47.162 ServerApp] http://r1i2n17:8877/lab
+[I 2022-10-18 14:48:47.162 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-10-18 14:48:47.162 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 2022-10-18 14:49:07.033 LabApp] Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+    {"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+    {"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+    
+[I 2022-10-18 14:49:07.121 LabApp] Build is up to date
+[W 2022-10-18 14:49:07.821 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-18 14:49:09.211 ServerApp] Kernel started: 1ae7a6d0-4560-4541-8752-00877dec4d9f
+[I 2022-10-18 14:49:09.221 ServerApp] Kernel started: 18ae88d5-b56e-44c0-9511-eb093424ffa3
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 980f85db-2a91-4663-b602-b1c9181ae549
+[W 2022-10-18 14:49:21.694 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x2aaab45267f0>
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1e4891da-a33b-4bc0-9860-a928a379fc02
+[I 2022-10-18 14:49:26.239 ServerApp] Copying drifters_stats/sandbox/errors_analysis.ipynb to /drifters_stats/sandbox
+[I 2022-10-18 14:49:29.735 ServerApp] Kernel started: bec8a356-71b9-40f7-bd8a-c5a5c11868d9
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: aab8e9fa-6948-4c59-8ed2-a757a68a6c6c
+[I 2022-10-18 14:51:28.483 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-18 14:53:28.725 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-18 14:55:29.053 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-18 14:57:29.291 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-18 14:59:29.540 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+[I 2022-10-18 15:01:14.653 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-18 15:01:15.150 ServerApp] Kernel restarted: bec8a356-71b9-40f7-bd8a-c5a5c11868d9
+[I 2022-10-18 15:01:15.156 ServerApp] Starting buffering for bec8a356-71b9-40f7-bd8a-c5a5c11868d9:b321c1a5-866b-4a3e-9b4c-ffb8bef4fb94
+[I 2022-10-18 15:01:15.179 ServerApp] Restoring connection for bec8a356-71b9-40f7-bd8a-c5a5c11868d9:b321c1a5-866b-4a3e-9b4c-ffb8bef4fb94
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1e88ae4a-649b-45fc-af26-f6fdad76e2ae
+[I 2022-10-18 15:03:14.866 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-18 15:05:15.061 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-18 15:07:15.315 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-18 15:10:36.713 ServerApp] Kernel interrupted: bec8a356-71b9-40f7-bd8a-c5a5c11868d9
+[I 2022-10-18 15:10:37.048 ServerApp] Kernel interrupted: bec8a356-71b9-40f7-bd8a-c5a5c11868d9
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 911, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/process.py", line 175, in _run
+    target(*args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 918, in _run
+    loop.run_sync(do_stop)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 911, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/process.py", line 175, in _run
+    target(*args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 918, in _run
+    loop.run_sync(do_stop)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 911, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/process.py", line 175, in _run
+    target(*args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 918, in _run
+    loop.run_sync(do_stop)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 911, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/process.py", line 175, in _run
+    target(*args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 918, in _run
+    loop.run_sync(do_stop)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 911, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/process.py", line 175, in _run
+    target(*args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 918, in _run
+    loop.run_sync(do_stop)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 911, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/process.py", line 175, in _run
+    target(*args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 918, in _run
+    loop.run_sync(do_stop)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 911, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/process.py", line 175, in _run
+    target(*args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 918, in _run
+    loop.run_sync(do_stop)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 911, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/process.py", line 175, in _run
+    target(*args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 918, in _run
+    loop.run_sync(do_stop)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+[I 2022-10-18 15:10:37.275 ServerApp] Kernel interrupted: bec8a356-71b9-40f7-bd8a-c5a5c11868d9
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+[I 2022-10-18 15:11:15.577 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-18 15:13:15.868 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-18 15:15:16.147 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-18 15:17:16.412 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-18 15:19:16.657 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-18 15:21:16.891 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-18 15:23:17.175 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-18 15:25:17.526 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-18 15:27:17.819 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[W 2022-10-18 15:32:15.180 ServerApp] WebSocket ping timeout after 119997 ms.
+[I 2022-10-18 15:32:20.183 ServerApp] Starting buffering for bec8a356-71b9-40f7-bd8a-c5a5c11868d9:b321c1a5-866b-4a3e-9b4c-ffb8bef4fb94
+[W 2022-10-18 15:32:21.599 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-18 15:32:21.641 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-10-18 15:32:21.641 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-18 15:32:26.601 ServerApp] Starting buffering for 1ae7a6d0-4560-4541-8752-00877dec4d9f:4a1d0e6b-5906-4988-9f7b-27bf0d25a884
+[I 2022-10-18 15:32:26.642 ServerApp] Starting buffering for 18ae88d5-b56e-44c0-9511-eb093424ffa3:25751860-c0f3-4b9b-88ae-5f0ffd1c0af5
+[I 2022-10-18 15:33:56.507 ServerApp] Restoring connection for bec8a356-71b9-40f7-bd8a-c5a5c11868d9:b321c1a5-866b-4a3e-9b4c-ffb8bef4fb94
+[I 2022-10-18 15:33:56.518 ServerApp] Restoring connection for 1ae7a6d0-4560-4541-8752-00877dec4d9f:4a1d0e6b-5906-4988-9f7b-27bf0d25a884
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 99e032c1-e5c1-4bb8-8fa8-be4b165a34b7
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 7d0582b0-2c02-43ef-b581-61a89c9ffc07
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2cfed8bc-51c7-4dcb-8e9d-21fdda74e16c
+[E 2022-10-18 15:33:59.237 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-10-18 15:33:59.245 LabApp] Build is up to date
+[I 2022-10-18 15:34:06.001 ServerApp] Starting buffering for bec8a356-71b9-40f7-bd8a-c5a5c11868d9:b321c1a5-866b-4a3e-9b4c-ffb8bef4fb94
+[I 2022-10-18 15:34:06.001 ServerApp] Starting buffering for 1ae7a6d0-4560-4541-8752-00877dec4d9f:4a1d0e6b-5906-4988-9f7b-27bf0d25a884
+[I 2022-10-18 15:34:06.002 ServerApp] Starting buffering for 18ae88d5-b56e-44c0-9511-eb093424ffa3:25751860-c0f3-4b9b-88ae-5f0ffd1c0af5
+[C 2022-10-19 06:42:22.412 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-10-19 06:42:22.451 ServerApp] Shutting down 3 extensions
+[I 2022-10-19 06:42:22.451 ServerApp] Shutting down 3 kernels
+[I 2022-10-19 06:42:22.451 ServerApp] Kernel shutdown: 18ae88d5-b56e-44c0-9511-eb093424ffa3
+[I 2022-10-19 06:42:22.452 ServerApp] Kernel shutdown: bec8a356-71b9-40f7-bd8a-c5a5c11868d9
+[I 2022-10-19 06:42:22.452 ServerApp] Kernel shutdown: 1ae7a6d0-4560-4541-8752-00877dec4d9f
+[I 2022-10-19 06:42:25.065 ServerApp] Shutting down 0 terminals

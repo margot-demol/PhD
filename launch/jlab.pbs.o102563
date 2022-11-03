@@ -1,0 +1,48 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Sun May  1 12:58:15 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-05-01 12:58:44.758 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-05-01 12:58:44.771 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-05-01 12:58:44.778 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-05-01 12:58:51.650 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-05-01 12:58:52.337 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-05-01 12:58:52.338 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-05-01 12:58:52.338 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-05-01 12:58:52.342 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-05-01 12:58:52.500 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-05-01 12:58:52.501 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-05-01 12:58:52.501 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-05-01 12:58:52.501 ServerApp] http://r1i0n33:8877/lab
+[I 2022-05-01 12:58:52.501 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-05-01 12:58:52.501 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 2022-05-01 12:59:33.364 LabApp] Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+    {"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+    {"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+    
+[I 2022-05-01 12:59:34.126 LabApp] Build is up to date
+[W 2022-05-01 12:59:36.236 ServerApp] 404 GET /api/contents/m2_2022/m2lib22/Untitled.ipynb?content=0&1651409976091 (10.148.1.145): No such file or directory: m2_2022/m2lib22/Untitled.ipynb
+[W 2022-05-01 12:59:36.236 ServerApp] No such file or directory: m2_2022/m2lib22/Untitled.ipynb
+[W 2022-05-01 12:59:36.236 ServerApp] 404 GET /api/contents/m2_2022/m2lib22/Untitled.ipynb?content=0&1651409976091 (10.148.1.145) 13.18ms referer=http://localhost:8877/lab?
+[I 2022-05-01 12:59:39.712 ServerApp] Kernel started: 8f899168-1aae-49c4-acb4-9f341e29b183
+[I 2022-05-01 12:59:39.713 ServerApp] Kernel started: ca759f90-7776-4eb2-819b-7fc2593b6657
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a48434e9-7899-4ba5-a77a-8e5b5b3b06d0
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1797fb1e-6cd1-4f6d-a499-738924f828bc
+[I 2022-05-01 13:00:28.692 ServerApp] Kernel shutdown: 8f899168-1aae-49c4-acb4-9f341e29b183
+[I 2022-05-01 13:00:28.694 ServerApp] Kernel shutdown: ca759f90-7776-4eb2-819b-7fc2593b6657
+[I 2022-05-01 13:00:29.515 ServerApp] Shutting down on /api/shutdown request.
+[I 2022-05-01 13:00:29.517 ServerApp] Shutting down 3 extensions
+[I 2022-05-01 13:00:29.517 ServerApp] Shutting down 0 kernels
+[I 2022-05-01 13:00:29.517 ServerApp] Shutting down 0 terminals
+Terminated

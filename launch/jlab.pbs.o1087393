@@ -1,0 +1,118 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Sun Jul 17 08:07:46 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-07-17 08:07:48.401 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-07-17 08:07:48.405 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-07-17 08:07:48.412 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-07-17 08:07:48.704 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-07-17 08:07:48.757 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-07-17 08:07:48.758 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-07-17 08:07:48.758 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-07-17 08:07:48.762 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-07-17 08:07:48.768 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-07-17 08:07:48.769 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-07-17 08:07:48.769 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-07-17 08:07:48.769 ServerApp] http://r1i0n9:8877/lab
+[I 2022-07-17 08:07:48.769 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-07-17 08:07:48.769 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 2022-07-17 08:08:47.223 LabApp] Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+    {"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+    {"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+    
+[I 2022-07-17 08:08:47.430 LabApp] Build is up to date
+[I 2022-07-17 08:08:51.484 ServerApp] Kernel started: 006afcad-4726-48b4-bd5f-c8dcfeb22fd4
+[I 2022-07-17 08:08:51.492 ServerApp] Kernel started: 37aa4347-79a9-45f1-bab2-0659ba9a6981
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 15, in <module>
+    from ipykernel import kernelapp as app
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 18, in <module>
+    from IPython.core.application import (
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/__init__.py", line 52, in <module>
+    from .terminal.embed import embed
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/terminal/embed.py", line 14, in <module>
+    from IPython.core.magic import Magics, magics_class, line_magic
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/magic.py", line 20, in <module>
+    from . import oinspect
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/oinspect.py", line 29, in <module>
+    from IPython.core import page
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/page.py", line 28, in <module>
+    from IPython.display import display
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/display.py", line 44, in <module>
+    from IPython.lib.display import *
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 934, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1032, in get_data
+KeyboardInterrupt
+[I 2022-07-17 08:08:55.574 ServerApp] Kernel restarted: 006afcad-4726-48b4-bd5f-c8dcfeb22fd4
+[W 2022-07-17 08:08:55.715 ServerApp] Replacing stale connection: 006afcad-4726-48b4-bd5f-c8dcfeb22fd4:87576ab8-62ad-4c59-b562-b75ef1c1fff9
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[I 2022-07-17 08:09:05.763 ServerApp] Starting buffering for 006afcad-4726-48b4-bd5f-c8dcfeb22fd4:87576ab8-62ad-4c59-b562-b75ef1c1fff9
+[I 2022-07-17 08:09:05.764 ServerApp] Restoring connection for 006afcad-4726-48b4-bd5f-c8dcfeb22fd4:87576ab8-62ad-4c59-b562-b75ef1c1fff9
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 11fb8cc4-307a-4d22-b9bd-97be519781af
+[I 2022-07-17 08:10:59.112 ServerApp] Saving file at /m2_2022/sandbox/eras_zarr.ipynb
+[I 2022-07-17 08:13:11.175 ServerApp] Saving file at /m2_2022/sandbox/eras_zarr.ipynb
+[I 2022-07-17 08:19:28.139 ServerApp] Saving file at /m2_2022/sandbox/eras_zarr.ipynb
+[I 2022-07-17 08:27:27.058 ServerApp] Kernel restarted: 006afcad-4726-48b4-bd5f-c8dcfeb22fd4
+[I 2022-07-17 08:27:27.182 ServerApp] Starting buffering for 006afcad-4726-48b4-bd5f-c8dcfeb22fd4:87576ab8-62ad-4c59-b562-b75ef1c1fff9
+[I 2022-07-17 08:27:27.309 ServerApp] Restoring connection for 006afcad-4726-48b4-bd5f-c8dcfeb22fd4:87576ab8-62ad-4c59-b562-b75ef1c1fff9
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-07-17 08:27:37.285 ServerApp] Saving file at /m2_2022/sandbox/eras_zarr.ipynb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2cbb9f61-6b5b-4ec9-8e5a-acb451c3c09e
+[I 2022-07-17 08:29:46.455 ServerApp] Saving file at /m2_2022/sandbox/eras_zarr.ipynb
+[I 2022-07-17 08:30:53.337 ServerApp] Starting buffering for 006afcad-4726-48b4-bd5f-c8dcfeb22fd4:87576ab8-62ad-4c59-b562-b75ef1c1fff9
+[I 2022-07-17 08:30:53.341 ServerApp] Starting buffering for 37aa4347-79a9-45f1-bab2-0659ba9a6981:3def022f-8373-4ca9-9e50-67e5cf287b47
+[E 2022-07-17 08:31:03.585 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-07-17 08:31:03.610 LabApp] Build is up to date
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4431e704-ad6e-49c5-876f-a69d6ab6002f
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4899b7a2-6ac0-49de-a086-c9bc28a6b844
+[I 2022-07-17 08:39:16.261 ServerApp] Saving file at /m2_2022/sandbox/eras_zarr.ipynb
+[W 2022-07-17 08:49:36.751 ServerApp] WebSocket ping timeout after 119938 ms.
+[W 2022-07-17 08:49:36.770 ServerApp] WebSocket ping timeout after 119925 ms.
+[I 2022-07-17 08:49:41.754 ServerApp] Starting buffering for 006afcad-4726-48b4-bd5f-c8dcfeb22fd4:9c71b67b-30e6-417f-ab0d-cb90434934cd
+[I 2022-07-17 08:49:41.772 ServerApp] Starting buffering for 37aa4347-79a9-45f1-bab2-0659ba9a6981:7e6b0289-8bd3-4af7-9784-daeade8c9b93
+[I 2022-07-17 11:32:36.834 ServerApp] Restoring connection for 37aa4347-79a9-45f1-bab2-0659ba9a6981:7e6b0289-8bd3-4af7-9784-daeade8c9b93
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 9cc62807-8806-4f87-abbb-9473174970a8
+[I 2022-07-17 11:32:38.722 ServerApp] Restoring connection for 006afcad-4726-48b4-bd5f-c8dcfeb22fd4:9c71b67b-30e6-417f-ab0d-cb90434934cd
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 64ee6c0b-8185-40d6-9a16-e04dfe2a0996
+[I 2022-07-17 11:33:10.047 ServerApp] Saving file at /m2_2022/sandbox/eras_zarr.ipynb
+[I 2022-07-17 11:35:21.334 ServerApp] Saving file at /m2_2022/sandbox/eras_zarr.ipynb
+[I 2022-07-17 11:39:42.025 ServerApp] Kernel restarted: 006afcad-4726-48b4-bd5f-c8dcfeb22fd4
+[I 2022-07-17 11:39:42.146 ServerApp] Starting buffering for 006afcad-4726-48b4-bd5f-c8dcfeb22fd4:9c71b67b-30e6-417f-ab0d-cb90434934cd
+[I 2022-07-17 11:39:42.276 ServerApp] Restoring connection for 006afcad-4726-48b4-bd5f-c8dcfeb22fd4:9c71b67b-30e6-417f-ab0d-cb90434934cd
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d574ddf0-55cc-47f6-ba35-1782d3720e8d
+Terminated
+[C 2022-07-17 11:42:14.802 ServerApp] received signal 15, stopping
+[I 2022-07-17 11:42:14.805 ServerApp] Shutting down 3 extensions
+[I 2022-07-17 11:42:14.805 ServerApp] Shutting down 2 kernels
+[I 2022-07-17 11:42:14.805 ServerApp] Kernel shutdown: 006afcad-4726-48b4-bd5f-c8dcfeb22fd4
+[I 2022-07-17 11:42:14.805 ServerApp] Kernel shutdown: 37aa4347-79a9-45f1-bab2-0659ba9a6981
+[I 2022-07-17 11:42:17.419 ServerApp] Shutting down 0 terminals

@@ -1,0 +1,260 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Tue Aug 30 12:41:35 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-08-30 12:41:38.490 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-08-30 12:41:38.494 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-08-30 12:41:38.501 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-08-30 12:41:38.857 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-08-30 12:41:39.179 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-08-30 12:41:39.180 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-08-30 12:41:39.180 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-08-30 12:41:39.184 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-08-30 12:41:39.191 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-08-30 12:41:39.191 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-08-30 12:41:39.191 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-08-30 12:41:39.191 ServerApp] http://r2i0n35:8877/lab
+[I 2022-08-30 12:41:39.191 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-08-30 12:41:39.191 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-08-30 12:42:58.506 LabApp] Build is up to date
+[I 2022-08-30 12:43:04.123 ServerApp] Kernel started: c19d5fc4-32e0-4b7e-8f11-6b5b7b6c3540
+[I 2022-08-30 12:43:04.168 ServerApp] Kernel started: bbb2902f-77ef-481a-8038-64a314bdfb0b
+[I 2022-08-30 12:43:04.168 ServerApp] Kernel started: f70677f9-a961-42af-97fe-a8f371a0bd3f
+[I 2022-08-30 12:43:04.169 ServerApp] Kernel started: a38b84d0-63b4-40d9-bfe8-00b85bd1e12d
+[I 2022-08-30 12:43:04.373 ServerApp] Kernel started: 08cb4f13-7d89-4d82-bf7f-e2e7cdbcf972
+[I 2022-08-30 12:43:16.833 ServerApp] Kernel started: 92cdef95-a43c-4cfc-924a-8981278ff00f
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: fa9b5af8-ac45-4f6f-ae59-9a90979aaabc
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 602e39f4-e2c4-461b-998f-e924c4e131fa
+[W 2022-08-30 12:43:37.994 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x2aaab45d51f0>
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3edec58c-35c1-44ea-a225-8eb3c37bd1fd
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 721d2f15-631f-41b7-bfcb-007b7a93d3c5
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5a00c650-ba79-43ea-97ea-39065b14add3
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b9d652c6-debc-4a40-9418-52697d811653
+[I 2022-08-30 12:45:16.206 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 12:53:16.737 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 12:55:17.230 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 13:07:17.720 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 13:09:18.212 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 13:11:18.776 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 13:13:19.291 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 13:15:20.007 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 13:17:20.651 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 13:19:23.729 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 13:21:24.122 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 13:22:30.412 ServerApp] Kernel interrupted: 92cdef95-a43c-4cfc-924a-8981278ff00f
+[I 2022-08-30 13:22:30.726 ServerApp] Kernel interrupted: 92cdef95-a43c-4cfc-924a-8981278ff00f
+[I 2022-08-30 13:22:31.633 ServerApp] Kernel interrupted: 92cdef95-a43c-4cfc-924a-8981278ff00f
+[I 2022-08-30 13:23:26.165 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 13:25:26.551 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 13:27:26.994 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 13:31:27.681 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 13:31:56.570 ServerApp] Kernel interrupted: 92cdef95-a43c-4cfc-924a-8981278ff00f
+[I 2022-08-30 13:31:56.880 ServerApp] Kernel interrupted: 92cdef95-a43c-4cfc-924a-8981278ff00f
+[I 2022-08-30 13:31:57.184 ServerApp] Kernel interrupted: 92cdef95-a43c-4cfc-924a-8981278ff00f
+[I 2022-08-30 13:31:57.542 ServerApp] Kernel interrupted: 92cdef95-a43c-4cfc-924a-8981278ff00f
+[E 2022-08-30 13:33:17.596 ServerApp] Uncaught exception in ZMQStream callback
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 431, in _run_callback
+        callback(*args, **kwargs)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 189, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 557, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/base/zmqhandlers.py", line 301, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 2022-08-30 13:33:17.626 ServerApp] Uncaught exception in zmqstream callback
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 452, in _handle_events
+        self._handle_recv()
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 481, in _handle_recv
+        self._run_callback(callback, msg)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 431, in _run_callback
+        callback(*args, **kwargs)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 189, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 557, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/base/zmqhandlers.py", line 301, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 2022-08-30 13:33:17.627 ServerApp] Exception in callback functools.partial(<function ZMQStream._update_handler.<locals>.<lambda> at 0x2aaab40611f0>)
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+        ret = callback()
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 536, in <lambda>
+        self.io_loop.add_callback(lambda: self._handle_events(self.socket, 0))
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 452, in _handle_events
+        self._handle_recv()
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 481, in _handle_recv
+        self._run_callback(callback, msg)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 431, in _run_callback
+        callback(*args, **kwargs)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 189, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 557, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/base/zmqhandlers.py", line 301, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 2022-08-30 13:33:17.628 ServerApp] Uncaught exception in ZMQStream callback
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 431, in _run_callback
+        callback(*args, **kwargs)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 189, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 557, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/base/zmqhandlers.py", line 301, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 2022-08-30 13:33:17.628 ServerApp] Uncaught exception in zmqstream callback
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 452, in _handle_events
+        self._handle_recv()
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 481, in _handle_recv
+        self._run_callback(callback, msg)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 431, in _run_callback
+        callback(*args, **kwargs)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 189, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 557, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/base/zmqhandlers.py", line 301, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 2022-08-30 13:33:17.628 ServerApp] Exception in callback functools.partial(<function ZMQStream._update_handler.<locals>.<lambda> at 0x2aaab4061a60>)
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+        ret = callback()
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 536, in <lambda>
+        self.io_loop.add_callback(lambda: self._handle_events(self.socket, 0))
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 452, in _handle_events
+        self._handle_recv()
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 481, in _handle_recv
+        self._run_callback(callback, msg)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 431, in _run_callback
+        callback(*args, **kwargs)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 189, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 557, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/base/zmqhandlers.py", line 301, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[I 2022-08-30 13:33:17.629 ServerApp] Starting buffering for c19d5fc4-32e0-4b7e-8f11-6b5b7b6c3540:fc56a6ce-62b4-491b-b7b4-44849f20a080
+[I 2022-08-30 13:33:17.630 ServerApp] Starting buffering for bbb2902f-77ef-481a-8038-64a314bdfb0b:a3a86936-74ee-49d1-9091-deed92e74608
+[I 2022-08-30 13:33:17.630 ServerApp] Starting buffering for f70677f9-a961-42af-97fe-a8f371a0bd3f:f34ca736-238b-41a9-bd56-2b0f10fc8dbd
+[I 2022-08-30 13:33:17.630 ServerApp] Starting buffering for 08cb4f13-7d89-4d82-bf7f-e2e7cdbcf972:95888297-3e8d-4234-880a-5e56e7b05ca9
+[I 2022-08-30 13:33:17.631 ServerApp] Starting buffering for 92cdef95-a43c-4cfc-924a-8981278ff00f:837a58c0-1308-4e9c-9823-1fca5b85d9e8
+[I 2022-08-30 13:33:17.631 ServerApp] Starting buffering for a38b84d0-63b4-40d9-bfe8-00b85bd1e12d:8706e89d-ed19-4318-a7ea-93026b73b650
+[E 2022-08-30 13:33:19.598 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-08-30 13:33:19.655 LabApp] Build is up to date
+[I 2022-08-30 13:33:22.588 ServerApp] Discarding 6132 buffered messages for 92cdef95-a43c-4cfc-924a-8981278ff00f:837a58c0-1308-4e9c-9823-1fca5b85d9e8
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3f2baab3-d07d-4f70-ae48-5acf62bb10c0
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 0a83dd06-f2f5-423c-aecf-9f461f02df9d
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c513c6a2-525f-45be-a7cc-90ff02cf655a
+[IPKernelApp] WARNING | No such comm: 8a24b24c-4fc8-4035-a4b3-9426c5d7c004
+[IPKernelApp] WARNING | No such comm: 1d11da20-ee3e-4221-9c61-249b1a8b8d6b
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1942893a-5764-4251-aac9-e044768e06e3
+[I 2022-08-30 13:33:30.723 ServerApp] Kernel restarted: 92cdef95-a43c-4cfc-924a-8981278ff00f
+[I 2022-08-30 13:33:30.726 ServerApp] Starting buffering for 92cdef95-a43c-4cfc-924a-8981278ff00f:9f881f21-0232-4873-bd47-89f6fdc19152
+[I 2022-08-30 13:33:30.732 ServerApp] Restoring connection for 92cdef95-a43c-4cfc-924a-8981278ff00f:9f881f21-0232-4873-bd47-89f6fdc19152
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a93adce1-69f3-41e5-831d-dbae7aa9179c
+[I 2022-08-30 13:35:22.278 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 13:39:22.736 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 13:43:23.251 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 13:47:23.683 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 13:49:24.371 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 13:51:24.943 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 13:53:25.373 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[I 2022-08-30 14:07:27.828 ServerApp] Saving file at /m2_2022/sandbox/zarr_matchup.ipynb
+[W 2022-08-30 14:12:16.312 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-30 14:12:22.517 ServerApp] Kernel started: bdd67f23-1a9d-41c1-8339-e08cd0f29a0d
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 26a943d9-fd71-4cf1-b0e0-0fdab4321807
+[I 2022-08-30 14:14:18.706 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-30 14:14:18.707 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-30 14:18:27.205 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-30 14:18:27.206 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-30 14:20:29.113 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-30 14:20:29.114 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-30 14:22:29.946 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-30 14:22:29.947 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-30 14:26:30.353 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-30 14:26:30.354 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-30 14:27:28.948 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_acc.ipynb
+[I 2022-08-30 14:31:29.737 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_acc.ipynb
+[I 2022-08-30 14:33:30.842 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_acc.ipynb
+[I 2022-08-30 15:03:30.041 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_acc.ipynb
+[I 2022-08-30 15:05:31.010 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_acc.ipynb
+[I 2022-08-30 15:15:31.514 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_acc.ipynb
+[I 2022-08-30 15:17:32.312 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_acc.ipynb
+[I 2022-08-30 15:19:33.490 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_acc.ipynb
+[I 2022-08-30 15:23:34.308 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_acc.ipynb
+[I 2022-08-30 15:27:35.336 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_acc.ipynb
+[I 2022-08-30 15:29:35.853 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_acc.ipynb
+[I 2022-08-30 15:29:47.378 ServerApp] Starting buffering for bbb2902f-77ef-481a-8038-64a314bdfb0b:0bdc4ca9-8bf0-4b73-a0ff-23e4d7cd18e0
+[I 2022-08-30 15:29:47.379 ServerApp] Starting buffering for 92cdef95-a43c-4cfc-924a-8981278ff00f:9f881f21-0232-4873-bd47-89f6fdc19152
+[I 2022-08-30 15:29:47.379 ServerApp] Starting buffering for f70677f9-a961-42af-97fe-a8f371a0bd3f:585cebea-31b0-43a2-9589-98e17dd9c41e
+[I 2022-08-30 15:29:47.380 ServerApp] Starting buffering for 08cb4f13-7d89-4d82-bf7f-e2e7cdbcf972:01563fd1-35e6-4dfd-82ef-faa5d2ebf5ee
+[I 2022-08-30 15:29:47.380 ServerApp] Starting buffering for c19d5fc4-32e0-4b7e-8f11-6b5b7b6c3540:5b00fac6-7f63-4615-bf65-36faf5f726d5
+[I 2022-08-30 15:29:47.381 ServerApp] Starting buffering for a38b84d0-63b4-40d9-bfe8-00b85bd1e12d:8faf3c3f-05f8-4df1-b47c-0c7d4559ed34
+[I 2022-08-30 15:29:47.381 ServerApp] Starting buffering for bdd67f23-1a9d-41c1-8339-e08cd0f29a0d:eb2f4831-38cf-4899-a8cf-e5c4fef01f02
+Terminated
+[C 2022-08-30 15:30:03.467 ServerApp] received signal 15, stopping
+[I 2022-08-30 15:30:03.521 ServerApp] Shutting down 3 extensions
+[I 2022-08-30 15:30:03.521 ServerApp] Shutting down 7 kernels
+[I 2022-08-30 15:30:03.522 ServerApp] Kernel shutdown: bbb2902f-77ef-481a-8038-64a314bdfb0b
+[I 2022-08-30 15:30:03.522 ServerApp] Kernel shutdown: bdd67f23-1a9d-41c1-8339-e08cd0f29a0d
+[I 2022-08-30 15:30:03.522 ServerApp] Kernel shutdown: c19d5fc4-32e0-4b7e-8f11-6b5b7b6c3540
+[I 2022-08-30 15:30:03.523 ServerApp] Kernel shutdown: 08cb4f13-7d89-4d82-bf7f-e2e7cdbcf972
+[I 2022-08-30 15:30:03.523 ServerApp] Kernel shutdown: 92cdef95-a43c-4cfc-924a-8981278ff00f
+[I 2022-08-30 15:30:03.523 ServerApp] Kernel shutdown: f70677f9-a961-42af-97fe-a8f371a0bd3f
+[I 2022-08-30 15:30:03.524 ServerApp] Kernel shutdown: a38b84d0-63b4-40d9-bfe8-00b85bd1e12d
+[I 2022-08-30 15:30:06.542 ServerApp] Shutting down 0 terminals

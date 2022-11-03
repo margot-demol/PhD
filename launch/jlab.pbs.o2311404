@@ -1,0 +1,266 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu Oct 13 08:51:12 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-10-13 08:51:20.327 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-10-13 08:51:20.331 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-13 08:51:20.338 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-10-13 08:51:20.718 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-10-13 08:51:21.198 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-10-13 08:51:21.199 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-10-13 08:51:21.199 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-10-13 08:51:21.203 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-10-13 08:51:21.281 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-10-13 08:51:21.281 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-10-13 08:51:21.282 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-10-13 08:51:21.282 ServerApp] http://r1i7n32:8877/lab
+[I 2022-10-13 08:51:21.282 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-10-13 08:51:21.282 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-10-13 08:54:08.637 ServerApp] Forbidden
+[W 2022-10-13 08:54:08.637 ServerApp] 403 GET /api/contents/drifters_stats/sandbox?content=1&1665651248600 (10.148.1.145) 0.84ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox/errors_lonlat.ipynb
+[W 2022-10-13 08:54:14.960 ServerApp] Forbidden
+[W 2022-10-13 08:54:14.960 ServerApp] 403 GET /api/contents/drifters_stats/sandbox?content=1&1665651254926 (10.148.1.145) 0.87ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox/errors_lonlat.ipynb
+[W 2022-10-13 08:54:20.289 ServerApp] Forbidden
+[W 2022-10-13 08:54:20.289 ServerApp] 403 GET /api/contents/drifters_stats/sandbox/errors_lonlat.ipynb?content=0&1665651260253 (10.148.1.145) 0.58ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox/errors_lonlat.ipynb
+[W 2022-10-13 08:54:22.503 ServerApp] Forbidden
+[W 2022-10-13 08:54:22.503 ServerApp] 403 GET /api/sessions?1665651262468 (10.148.1.145) 0.53ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox/errors_lonlat.ipynb
+[W 2022-10-13 08:54:24.264 ServerApp] Forbidden
+[W 2022-10-13 08:54:24.264 ServerApp] 403 GET /api/contents/drifters_stats/sandbox?content=1&1665651264230 (10.148.1.145) 0.53ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox/errors_lonlat.ipynb
+[W 2022-10-13 08:54:25.838 ServerApp] Forbidden
+[W 2022-10-13 08:54:25.838 ServerApp] 403 GET /api/kernels?1665651265804 (10.148.1.145) 0.53ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox/errors_lonlat.ipynb
+[W 2022-10-13 08:54:29.862 ServerApp] Forbidden
+[W 2022-10-13 08:54:29.862 ServerApp] 403 GET /api/contents/drifters_stats/sandbox?content=1&1665651269828 (10.148.1.145) 0.83ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox/errors_lonlat.ipynb
+[W 2022-10-13 08:54:47.688 ServerApp] Forbidden
+[W 2022-10-13 08:54:47.689 ServerApp] 403 GET /api/contents/drifters_stats/sandbox?content=1&1665651287653 (10.148.1.145) 0.89ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox/errors_lonlat.ipynb
+[W 2022-10-13 08:54:52.579 ServerApp] Forbidden
+[W 2022-10-13 08:54:52.579 ServerApp] 403 GET /api/contents/drifters_stats/sandbox?content=1&1665651292545 (10.148.1.145) 0.57ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox/errors_lonlat.ipynb
+[W 2022-10-13 08:55:02.592 ServerApp] Forbidden
+[W 2022-10-13 08:55:02.593 ServerApp] 403 GET /api/contents/drifters_stats/sandbox?content=1&1665651302558 (10.148.1.145) 0.87ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox/errors_lonlat.ipynb
+[W 2022-10-13 08:55:04.905 ServerApp] Forbidden
+[W 2022-10-13 08:55:04.905 ServerApp] 403 GET /api/kernels?1665651304868 (10.148.1.145) 0.55ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:55:08.288 LabApp] 302 GET /lab/tree/drifters_stats/sandbox/errors_lonlat.ipynb (10.148.1.145) 0.45ms
+[I 2022-10-13 08:55:12.277 ServerApp] 302 POST /login?next=%2Flab%2Ftree%2Fdrifters_stats%2Fsandbox%2Ferrors_lonlat.ipynb (10.148.1.145) 279.10ms
+[I 2022-10-13 08:55:18.175 LabApp] Build is up to date
+[W 2022-10-13 08:55:19.355 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[W 2022-10-13 08:55:19.590 ServerApp] Notebook drifters_stats/sandbox/binned_stats.ipynb is not trusted
+[I 2022-10-13 08:55:21.500 ServerApp] Kernel started: b2d59de7-4b44-416c-8f7f-f580cf5caa42
+[I 2022-10-13 08:55:21.501 ServerApp] Kernel started: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 08:55:21.506 ServerApp] Kernel started: bb132c1a-82d0-4c15-a7ec-c64eabd861ec
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b72d14b2-b3f3-467b-acf0-5e3d94bb11c8
+[W 2022-10-13 08:55:52.725 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x2aaab166e460>
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 58f84f16-aae3-4cef-8b75-f5435046fcd8
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8402258c-d991-4991-b609-b2f8033f4659
+[I 2022-10-13 08:57:20.451 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:59:20.907 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:01:09.196 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 09:01:11.297 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 09:01:21.197 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:03:21.497 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:05:21.857 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:07:22.161 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:09:22.421 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:10:52.415 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 09:10:52.730 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 09:11:22.701 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:13:22.976 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:15:23.239 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:17:23.521 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:19:23.824 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:21:24.110 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:23:24.397 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:25:24.748 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:27:25.106 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:29:25.421 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:31:25.701 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:33:25.948 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:35:26.257 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:37:26.530 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:39:26.818 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:41:27.112 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:43:27.453 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:45:27.827 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:47:28.160 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:49:28.441 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:51:28.698 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:53:28.919 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:55:29.141 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 09:57:17.117 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 09:57:29.353 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[W 2022-10-13 09:59:52.647 ServerApp] WebSocket ping timeout after 119997 ms.
+[W 2022-10-13 09:59:52.647 ServerApp] WebSocket ping timeout after 119996 ms.
+[W 2022-10-13 09:59:52.689 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-13 09:59:52.720 ServerApp] WebSocket ping timeout after 119992 ms.
+[I 2022-10-13 09:59:57.648 ServerApp] Starting buffering for bb132c1a-82d0-4c15-a7ec-c64eabd861ec:63559aad-9ea5-43ce-ae1c-ea68a958f2a2
+[I 2022-10-13 09:59:57.690 ServerApp] Starting buffering for b2d59de7-4b44-416c-8f7f-f580cf5caa42:e7325ce2-bf1e-4038-9a64-ab34b0ea56fa
+[I 2022-10-13 09:59:57.721 ServerApp] Starting buffering for decd61b8-ce23-48b5-8e6e-3466de3af68a:6c57ac6a-001b-4479-8a10-f3ecaf4060eb
+[I 2022-10-13 11:14:48.884 ServerApp] Restoring connection for b2d59de7-4b44-416c-8f7f-f580cf5caa42:e7325ce2-bf1e-4038-9a64-ab34b0ea56fa
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 62e24c0a-1383-46a5-9005-c5cefe3186e1
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e5be5774-fe6d-4ac8-a6b0-2a34096a0a8f
+[I 2022-10-13 11:15:05.411 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 11:15:06.515 ServerApp] Restoring connection for decd61b8-ce23-48b5-8e6e-3466de3af68a:6c57ac6a-001b-4479-8a10-f3ecaf4060eb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 545eb034-5914-4593-9a25-65c48c6ea779
+[I 2022-10-13 11:15:09.709 ServerApp] Starting buffering for decd61b8-ce23-48b5-8e6e-3466de3af68a:6c57ac6a-001b-4479-8a10-f3ecaf4060eb
+[I 2022-10-13 11:15:09.709 ServerApp] Starting buffering for b2d59de7-4b44-416c-8f7f-f580cf5caa42:e7325ce2-bf1e-4038-9a64-ab34b0ea56fa
+[I 2022-10-13 11:15:09.710 ServerApp] Starting buffering for bb132c1a-82d0-4c15-a7ec-c64eabd861ec:75160f02-4e53-4421-af55-be87933b37db
+[E 2022-10-13 11:15:11.606 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-10-13 11:15:11.631 LabApp] Build is up to date
+[W 2022-10-13 11:15:11.672 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[W 2022-10-13 11:15:11.724 ServerApp] Notebook drifters_stats/sandbox/binned_stats.ipynb is not trusted
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ef2d7f7d-79d4-486d-9363-3871578e5abc
+[IPKernelApp] WARNING | No such comm: 016827be-7f4e-4c8b-8aaf-9d018ec8a9cb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a2f52161-df9d-4791-98ce-6a5e4365fcd0
+[I 2022-10-13 11:17:12.426 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 11:18:25.783 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 11:19:06.681 ServerApp] Kernel restarted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 11:19:06.688 ServerApp] Starting buffering for decd61b8-ce23-48b5-8e6e-3466de3af68a:763d6e00-4a85-4120-9814-378a9c8321ef
+[I 2022-10-13 11:19:06.697 ServerApp] Restoring connection for decd61b8-ce23-48b5-8e6e-3466de3af68a:763d6e00-4a85-4120-9814-378a9c8321ef
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 436dcb44-8caa-454e-b55f-cece16e7128d
+[I 2022-10-13 11:19:12.694 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 11:21:13.132 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 11:25:13.344 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 11:27:13.590 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 11:31:13.808 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 11:33:14.051 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 11:35:14.244 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 11:37:14.456 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 11:39:14.655 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 11:41:14.887 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 11:45:15.101 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 11:47:15.310 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 11:49:15.523 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 11:51:15.756 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:03:15.966 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:05:16.128 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:07:16.344 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:09:16.560 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:11:16.778 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:13:16.940 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:15:17.184 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:17:17.380 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:19:17.603 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:21:17.804 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:23:01.627 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:23:02.310 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:23:03.196 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:23:05.675 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:23:05.923 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:23:06.109 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:23:18.012 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:25:18.275 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:27:02.809 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:29:03.031 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:31:03.217 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:33:03.446 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:35:03.675 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:37:03.904 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:37:55.364 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:39:04.183 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:41:04.523 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:42:16.139 ServerApp] Kernel restarted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:42:16.147 ServerApp] Starting buffering for decd61b8-ce23-48b5-8e6e-3466de3af68a:763d6e00-4a85-4120-9814-378a9c8321ef
+[I 2022-10-13 12:42:16.156 ServerApp] Restoring connection for decd61b8-ce23-48b5-8e6e-3466de3af68a:763d6e00-4a85-4120-9814-378a9c8321ef
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5f2c0ea7-7fff-4063-83cb-b701f91449f6
+[I 2022-10-13 12:43:04.801 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:45:05.041 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:47:05.348 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:49:05.675 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:51:05.989 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:52:49.998 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:52:50.585 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:52:57.977 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:52:58.289 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:53:06.271 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:54:43.688 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:54:44.003 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:55:06.582 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:55:34.488 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:55:34.747 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:55:34.992 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:55:35.212 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:55:35.497 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:55:35.862 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 12:57:06.886 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 12:59:07.195 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:01:07.502 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:03:07.815 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:07:08.217 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:09:08.543 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:11:08.847 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:13:09.151 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:15:09.479 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:17:09.783 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:17:44.277 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 13:17:44.611 ServerApp] Kernel interrupted: decd61b8-ce23-48b5-8e6e-3466de3af68a
+[I 2022-10-13 13:19:10.030 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:21:10.204 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:23:10.431 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:25:10.653 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:27:10.880 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:29:11.113 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:31:11.334 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:35:11.544 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:37:11.762 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:39:11.994 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:41:12.468 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:43:12.695 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:45:12.954 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 13:47:13.233 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[W 2022-10-13 13:48:47.226 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2308789
+[W 2022-10-13 13:48:47.337 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2311562
+[W 2022-10-13 13:48:47.352 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2311563
+[W 2022-10-13 13:48:47.449 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2308787
+[W 2022-10-13 13:48:47.451 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2311564
+[W 2022-10-13 13:48:47.454 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2308788
+[W 2022-10-13 13:48:47.458 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2308790
+[W 2022-10-13 13:48:47.477 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2308791
+[W 2022-10-13 13:48:47.479 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2311561
+[W 2022-10-13 13:48:47.481 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2311565
+[W 2022-10-13 13:48:47.487 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2313448
+[W 2022-10-13 13:48:47.491 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2313449
+[W 2022-10-13 13:48:47.494 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2313451
+[W 2022-10-13 13:48:47.498 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2314516
+[W 2022-10-13 13:48:47.501 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2313452
+[W 2022-10-13 13:48:47.503 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2313453
+[W 2022-10-13 13:48:47.505 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2314514
+[W 2022-10-13 13:48:47.508 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2314515
+[W 2022-10-13 13:48:47.511 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2314517
+[W 2022-10-13 13:48:47.514 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2314518
+[I 2022-10-13 13:49:13.478 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[W 2022-10-13 14:02:12.827 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-13 14:02:12.919 ServerApp] WebSocket ping timeout after 119997 ms.
+[W 2022-10-13 14:02:16.157 ServerApp] WebSocket ping timeout after 119997 ms.
+[I 2022-10-13 14:02:17.829 ServerApp] Starting buffering for b2d59de7-4b44-416c-8f7f-f580cf5caa42:f6b6aec8-3fc7-4e36-ba6d-215cbc02012f
+[I 2022-10-13 14:02:17.920 ServerApp] Starting buffering for bb132c1a-82d0-4c15-a7ec-c64eabd861ec:5f2719e4-d4f4-48a5-a1d5-221e08c18d1f
+[I 2022-10-13 14:02:21.160 ServerApp] Starting buffering for decd61b8-ce23-48b5-8e6e-3466de3af68a:763d6e00-4a85-4120-9814-378a9c8321ef
+Fri Oct 14 08:51:14 GMT 2022
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.

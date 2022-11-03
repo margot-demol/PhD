@@ -1,0 +1,167 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu May  5 11:50:43 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-05-05 11:50:58.185 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-05-05 11:50:58.202 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-05-05 11:50:58.210 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-05-05 11:51:02.113 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-05-05 11:51:02.794 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-05-05 11:51:02.795 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-05-05 11:51:02.795 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-05-05 11:51:02.815 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-05-05 11:51:02.929 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-05-05 11:51:02.929 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-05-05 11:51:02.929 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-05-05 11:51:02.929 ServerApp] http://r1i0n28:8877/lab
+[I 2022-05-05 11:51:02.929 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-05-05 11:51:02.929 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-05-05 11:54:38.595 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:06:31.831 ServerApp] Kernel started: af485606-c0ae-41d2-b6e2-a4087c940ff9
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c563483a-f8f1-4053-8412-fc728cd01954
+[I 2022-05-05 12:06:37.679 ServerApp] Kernel restarted: af485606-c0ae-41d2-b6e2-a4087c940ff9
+[I 2022-05-05 12:06:37.685 ServerApp] Starting buffering for af485606-c0ae-41d2-b6e2-a4087c940ff9:8a8a78e4-fd9b-4026-8398-30eafa300ee5
+[I 2022-05-05 12:06:37.692 ServerApp] Restoring connection for af485606-c0ae-41d2-b6e2-a4087c940ff9:8a8a78e4-fd9b-4026-8398-30eafa300ee5
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 13fed460-bb54-44c0-b0af-b36f0f2c0877
+[I 2022-05-05 12:07:35.477 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:09:35.907 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:11:36.257 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:13:36.658 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:21:37.058 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:23:37.466 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:25:37.801 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:27:38.176 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:29:38.600 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:31:39.037 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:33:39.442 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:35:39.818 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:37:40.152 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:39:40.552 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:41:40.999 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:43:41.375 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:45:41.742 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:47:42.098 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:49:42.445 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:50:09.411 ServerApp] Kernel restarted: af485606-c0ae-41d2-b6e2-a4087c940ff9
+[I 2022-05-05 12:50:09.417 ServerApp] Starting buffering for af485606-c0ae-41d2-b6e2-a4087c940ff9:8a8a78e4-fd9b-4026-8398-30eafa300ee5
+[I 2022-05-05 12:50:09.425 ServerApp] Restoring connection for af485606-c0ae-41d2-b6e2-a4087c940ff9:8a8a78e4-fd9b-4026-8398-30eafa300ee5
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 95398c7f-2fd0-4bdb-b12f-759d52623f38
+[I 2022-05-05 12:51:42.812 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:53:48.065 ServerApp] Kernel restarted: af485606-c0ae-41d2-b6e2-a4087c940ff9
+[I 2022-05-05 12:53:48.071 ServerApp] Starting buffering for af485606-c0ae-41d2-b6e2-a4087c940ff9:8a8a78e4-fd9b-4026-8398-30eafa300ee5
+[I 2022-05-05 12:53:48.089 ServerApp] Restoring connection for af485606-c0ae-41d2-b6e2-a4087c940ff9:8a8a78e4-fd9b-4026-8398-30eafa300ee5
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 02230278-5f60-4eea-a7b7-aed6fec7615d
+[I 2022-05-05 12:55:43.164 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 12:56:03.780 ServerApp] Kernel restarted: af485606-c0ae-41d2-b6e2-a4087c940ff9
+[I 2022-05-05 12:56:03.786 ServerApp] Starting buffering for af485606-c0ae-41d2-b6e2-a4087c940ff9:8a8a78e4-fd9b-4026-8398-30eafa300ee5
+[I 2022-05-05 12:56:03.793 ServerApp] Restoring connection for af485606-c0ae-41d2-b6e2-a4087c940ff9:8a8a78e4-fd9b-4026-8398-30eafa300ee5
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b9dbac59-6895-417c-a2fa-9241d95aa45e
+[I 2022-05-05 12:57:43.600 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:01:43.959 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:03:44.324 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:05:44.705 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:07:45.147 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:09:45.510 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:11:45.886 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:13:46.233 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:15:46.641 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:17:47.000 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:19:47.382 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:21:47.745 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:23:48.148 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:25:48.523 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:27:48.910 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:29:49.278 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:31:49.689 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:33:50.035 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:35:50.439 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:37:50.837 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:41:51.245 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:43:51.583 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:45:52.047 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:47:52.434 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:49:52.821 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:51:53.233 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:53:53.608 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:55:53.862 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:57:54.185 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 13:59:39.516 ServerApp] Creating new notebook in /m2_2022/sandbox
+[I 2022-05-05 13:59:39.969 ServerApp] Kernel started: 49300274-2ded-467b-acb4-19a789ef0ab1
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ac2488be-e2a0-45ce-a8e4-afb582738202
+[I 2022-05-05 13:59:54.563 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 14:01:39.841 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:01:54.873 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 14:03:39.980 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:05:40.092 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:07:40.237 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:09:02.484 ServerApp] Kernel restarted: af485606-c0ae-41d2-b6e2-a4087c940ff9
+[I 2022-05-05 14:09:02.487 ServerApp] Starting buffering for af485606-c0ae-41d2-b6e2-a4087c940ff9:8a8a78e4-fd9b-4026-8398-30eafa300ee5
+[I 2022-05-05 14:09:02.492 ServerApp] Restoring connection for af485606-c0ae-41d2-b6e2-a4087c940ff9:8a8a78e4-fd9b-4026-8398-30eafa300ee5
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 56beb15d-0237-40e7-b1f7-e0dae0d04607
+[I 2022-05-05 14:09:10.644 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 14:09:14.536 ServerApp] Kernel restarted: af485606-c0ae-41d2-b6e2-a4087c940ff9
+[I 2022-05-05 14:09:14.540 ServerApp] Starting buffering for af485606-c0ae-41d2-b6e2-a4087c940ff9:8a8a78e4-fd9b-4026-8398-30eafa300ee5
+[I 2022-05-05 14:09:14.545 ServerApp] Restoring connection for af485606-c0ae-41d2-b6e2-a4087c940ff9:8a8a78e4-fd9b-4026-8398-30eafa300ee5
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f9354729-aa74-4c44-bc5f-7fa096eb2fbd
+[I 2022-05-05 14:09:40.341 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:11:23.541 ServerApp] Creating new file in /m2_2022/m2lib22
+[I 2022-05-05 14:13:23.645 ServerApp] Saving file at /m2_2022/m2lib22/diags.py
+[I 2022-05-05 14:13:40.442 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:15:40.557 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:17:40.670 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:19:40.776 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:21:40.922 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:23:41.034 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:25:41.220 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:27:41.372 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:29:41.479 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:31:41.591 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:33:41.697 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:35:41.901 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:37:42.010 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:39:42.126 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:41:42.309 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:43:42.413 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:45:42.607 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:47:42.807 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:49:42.912 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:49:53.380 ServerApp] Kernel restarted: 49300274-2ded-467b-acb4-19a789ef0ab1
+[I 2022-05-05 14:49:53.384 ServerApp] Starting buffering for 49300274-2ded-467b-acb4-19a789ef0ab1:64e12b70-b6bc-4d02-8f75-d899ca487e87
+[I 2022-05-05 14:49:53.389 ServerApp] Restoring connection for 49300274-2ded-467b-acb4-19a789ef0ab1:64e12b70-b6bc-4d02-8f75-d899ca487e87
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5c89dc0d-df7d-4c4f-bec0-2d3579c0f51c
+[I 2022-05-05 14:51:10.858 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-05 14:51:43.015 ServerApp] Saving file at /m2_2022/sandbox/test_diag_lib.ipynb
+[I 2022-05-05 14:51:46.162 ServerApp] Kernel interrupted: 49300274-2ded-467b-acb4-19a789ef0ab1
+[I 2022-05-05 14:51:47.380 ServerApp] Kernel interrupted: 49300274-2ded-467b-acb4-19a789ef0ab1
+[I 2022-05-05 14:52:01.610 ServerApp] Kernel shutdown: af485606-c0ae-41d2-b6e2-a4087c940ff9
+[I 2022-05-05 14:52:01.612 ServerApp] Kernel shutdown: 49300274-2ded-467b-acb4-19a789ef0ab1
+[I 2022-05-05 14:52:02.749 ServerApp] Shutting down on /api/shutdown request.
+[I 2022-05-05 14:52:02.781 ServerApp] Shutting down 3 extensions
+[I 2022-05-05 14:52:02.781 ServerApp] Shutting down 0 kernels
+[I 2022-05-05 14:52:02.781 ServerApp] Shutting down 0 terminals
+Terminated

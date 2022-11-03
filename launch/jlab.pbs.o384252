@@ -1,0 +1,66 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu May 19 14:44:48 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-05-19 14:44:52.233 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-05-19 14:44:52.238 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-05-19 14:44:52.245 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-05-19 14:44:52.615 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-05-19 14:44:52.962 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-05-19 14:44:52.964 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-05-19 14:44:52.964 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-05-19 14:44:52.968 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-05-19 14:44:52.974 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-05-19 14:44:52.974 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-05-19 14:44:52.974 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-05-19 14:44:52.975 ServerApp] http://r1i1n34:8877/lab
+[I 2022-05-19 14:44:52.975 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-05-19 14:44:52.975 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-05-19 14:46:11.268 LabApp] Build is up to date
+[W 2022-05-19 14:46:13.695 ServerApp] 404 GET /api/contents/m2_2022/sandbox/statistics_severalncfiles.ipynb?content=0&1652971573678 (10.148.1.145): No such file or directory: m2_2022/sandbox/statistics_severalncfiles.ipynb
+[W 2022-05-19 14:46:13.695 ServerApp] No such file or directory: m2_2022/sandbox/statistics_severalncfiles.ipynb
+[W 2022-05-19 14:46:13.695 ServerApp] 404 GET /api/contents/m2_2022/sandbox/statistics_severalncfiles.ipynb?content=0&1652971573678 (10.148.1.145) 1.98ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-05-19 14:46:15.167 ServerApp] Kernel started: 473d6438-c46c-491e-b5ac-bc9a072e3d33
+[I 2022-05-19 14:46:15.169 ServerApp] Kernel started: 68319cfa-c871-4da0-b165-1c4d35802460
+[I 2022-05-19 14:46:15.170 ServerApp] Kernel started: d8ac1e2a-fb68-474f-8a2b-1d8f02df44c5
+[I 2022-05-19 14:46:15.173 ServerApp] Kernel started: 83d72403-4936-4fa0-9f2e-052e6b51844f
+[I 2022-05-19 14:46:15.173 ServerApp] Kernel started: 1d374eed-a6eb-4cb8-8630-ae740ddc30ce
+[I 2022-05-19 14:46:15.215 ServerApp] Kernel started: 8f5dad4c-ce73-46b9-bfbb-f6ca8d232ec5
+readline: /etc/inputrc: line 19: term: unknown variable name
+[W 2022-05-19 14:46:50.564 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x2aaab45fb7c0>
+[I 2022-05-19 14:46:50.567 ServerApp] Starting buffering for 1d374eed-a6eb-4cb8-8630-ae740ddc30ce:06b7c377-8733-479b-ba54-5481aaf4b12d
+readline: /etc/inputrc: line 19: term: unknown variable name
+[W 2022-05-19 14:46:50.633 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x2aaab4061460>
+[I 2022-05-19 14:46:50.635 ServerApp] Starting buffering for 8f5dad4c-ce73-46b9-bfbb-f6ca8d232ec5:897caf0b-ea9c-4b4e-8c68-203ac7c4fea9
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-05-19 14:46:50.736 ServerApp] Starting buffering for 68319cfa-c871-4da0-b165-1c4d35802460:353766c3-4a28-4708-b47e-ad00a84ed0b0
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-05-19 14:46:51.036 ServerApp] Starting buffering for d8ac1e2a-fb68-474f-8a2b-1d8f02df44c5:ae40d8a5-ff71-4eac-9021-cf39a935d6dd
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-05-19 14:46:51.184 ServerApp] Starting buffering for 83d72403-4936-4fa0-9f2e-052e6b51844f:a3981e6d-e3d6-40ca-84c0-6f1a6adbd322
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-05-19 14:46:51.252 ServerApp] Starting buffering for 473d6438-c46c-491e-b5ac-bc9a072e3d33:5e577fff-5edd-4461-9e35-bd686a358be1
+Terminated
+[C 2022-05-19 14:50:28.516 ServerApp] received signal 15, stopping
+[I 2022-05-19 14:50:28.569 ServerApp] Shutting down 3 extensions
+[I 2022-05-19 14:50:28.569 ServerApp] Shutting down 6 kernels
+[I 2022-05-19 14:50:28.569 ServerApp] Discarding 7 buffered messages for 1d374eed-a6eb-4cb8-8630-ae740ddc30ce:06b7c377-8733-479b-ba54-5481aaf4b12d
+[I 2022-05-19 14:50:28.570 ServerApp] Kernel shutdown: 1d374eed-a6eb-4cb8-8630-ae740ddc30ce
+[I 2022-05-19 14:50:28.570 ServerApp] Discarding 3 buffered messages for 68319cfa-c871-4da0-b165-1c4d35802460:353766c3-4a28-4708-b47e-ad00a84ed0b0
+[I 2022-05-19 14:50:28.570 ServerApp] Kernel shutdown: 68319cfa-c871-4da0-b165-1c4d35802460
+[I 2022-05-19 14:50:28.570 ServerApp] Discarding 3 buffered messages for d8ac1e2a-fb68-474f-8a2b-1d8f02df44c5:ae40d8a5-ff71-4eac-9021-cf39a935d6dd
+[I 2022-05-19 14:50:28.570 ServerApp] Kernel shutdown: d8ac1e2a-fb68-474f-8a2b-1d8f02df44c5
+[I 2022-05-19 14:50:28.571 ServerApp] Discarding 7 buffered messages for 8f5dad4c-ce73-46b9-bfbb-f6ca8d232ec5:897caf0b-ea9c-4b4e-8c68-203ac7c4fea9
+[I 2022-05-19 14:50:28.571 ServerApp] Kernel shutdown: 8f5dad4c-ce73-46b9-bfbb-f6ca8d232ec5
+[I 2022-05-19 14:50:28.571 ServerApp] Discarding 3 buffered messages for 83d72403-4936-4fa0-9f2e-052e6b51844f:a3981e6d-e3d6-40ca-84c0-6f1a6adbd322
+[I 2022-05-19 14:50:28.571 ServerApp] Kernel shutdown: 83d72403-4936-4fa0-9f2e-052e6b51844f
+[I 2022-05-19 14:50:28.571 ServerApp] Discarding 3 buffered messages for 473d6438-c46c-491e-b5ac-bc9a072e3d33:5e577fff-5edd-4461-9e35-bd686a358be1
+[I 2022-05-19 14:50:28.571 ServerApp] Kernel shutdown: 473d6438-c46c-491e-b5ac-bc9a072e3d33
+[I 2022-05-19 14:50:29.792 ServerApp] Shutting down 0 terminals

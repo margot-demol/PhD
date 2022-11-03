@@ -1,0 +1,787 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu Apr 28 07:06:54 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-04-28 07:07:20.938 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-04-28 07:07:20.947 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-04-28 07:07:20.955 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-04-28 07:07:25.597 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-04-28 07:07:26.311 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-04-28 07:07:26.312 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-04-28 07:07:26.312 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-04-28 07:07:26.316 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-04-28 07:07:26.483 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-04-28 07:07:26.483 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-04-28 07:07:26.483 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-04-28 07:07:26.483 ServerApp] http://r1i5n35:8877/lab
+[I 2022-04-28 07:07:26.483 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-04-28 07:07:26.483 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-04-28 07:09:04.239 LabApp] Build is up to date
+[I 2022-04-28 07:09:09.127 ServerApp] Kernel started: c215d941-0d8b-448f-ac92-a3aab6b77f2c
+[I 2022-04-28 07:09:09.135 ServerApp] Kernel started: b7b00f42-6104-4042-99d2-e38857e1075e
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 25f4eb28-6a8a-47c2-a905-36bcfe016f01
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8f2c0eef-0789-47d8-8da0-631ee6e6b714
+[I 2022-04-28 07:11:08.590 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:13:08.213 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-04-28 07:13:41.621 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-04-28 07:14:11.692 ServerApp] Kernel restarted: b7b00f42-6104-4042-99d2-e38857e1075e
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: cce0d0ee-76fc-42b4-8cf8-8c9e8ce79eb4
+[I 2022-04-28 07:15:08.872 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:17:09.184 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:17:41.635 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-04-28 07:17:48.157 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-04-28 07:17:57.715 ServerApp] Kernel restarted: b7b00f42-6104-4042-99d2-e38857e1075e
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 265cb6eb-69cc-4f88-a1f4-46b461bf10d8
+[I 2022-04-28 07:19:09.424 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:21:09.704 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:23:09.995 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:25:10.260 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:27:10.498 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:29:10.788 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:31:11.070 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:33:11.394 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:35:11.722 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:37:12.093 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:39:12.505 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:41:12.836 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:43:13.171 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:45:13.541 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:45:20.027 ServerApp] Kernel interrupted: b7b00f42-6104-4042-99d2-e38857e1075e
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+[I 2022-04-28 07:47:13.948 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:49:14.291 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:49:39.725 ServerApp] Kernel interrupted: b7b00f42-6104-4042-99d2-e38857e1075e
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+[I 2022-04-28 07:51:14.675 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:53:14.990 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:55:15.398 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 07:57:15.732 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:01:16.145 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:03:16.464 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:05:16.774 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:07:17.209 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:09:17.579 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:11:17.961 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:13:18.355 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:15:18.724 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:16:39.866 ServerApp] Kernel interrupted: b7b00f42-6104-4042-99d2-e38857e1075e
+Process SpawnProcess-35:
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/concurrent/futures/process.py", line 233, in _process_worker
+    call_item = call_queue.get(block=True)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/queues.py", line 96, in get
+    with self._rlock:
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 1840, in handle_compute_task
+    ts = self.tasks[key]
+KeyError: "('xarray-gps_drifters_vn-3198af2b0adefd4c777a938ca967acb2', 1, 0)"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/process.py", line 175, in _run
+    target(*args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 918, in _run
+    loop.run_sync(do_stop)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1859, in _run_once
+    handle._run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 688, in <lambda>
+    lambda f: self._run_callback(functools.partial(callback, future))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 911, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1859, in _run_once
+    handle._run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 1178, in handle_scheduler
+    await self.handle_stream(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 624, in handle_stream
+    handler(**merge(extra, msg))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 1846, in handle_compute_task
+    self.tasks[key] = ts = TaskState(key)
+  File "<string>", line 3, in __init__
+KeyboardInterrupt
+distributed.worker - ERROR - failed during get data with tcp://127.0.0.1:53233 -> tcp://127.0.0.1:53091
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 911, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 1613, in get_data
+    response = await comm.read(deserializers=serializers)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/tcp.py", line 240, in read
+    convert_stream_closed_error(self, e)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/tcp.py", line 146, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed)  local=tcp://127.0.0.1:53233 remote=tcp://127.0.0.1:40639>: ConnectionResetError: [Errno 104] Connection reset by peer
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+[I 2022-04-28 08:17:16.937 ServerApp] Kernel restarted: b7b00f42-6104-4042-99d2-e38857e1075e
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-04-28 08:17:19.385 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: fcfafb41-9423-4ca5-93a2-869030134546
+[I 2022-04-28 08:19:19.760 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:21:20.116 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:23:20.374 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:25:20.623 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:27:20.882 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:29:21.075 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:31:21.336 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:33:21.599 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:39:21.889 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:41:22.233 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:43:22.568 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:45:22.926 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:45:55.354 ServerApp] Kernel interrupted: b7b00f42-6104-4042-99d2-e38857e1075e
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/process.py", line 175, in _run
+    target(*args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 918, in _run
+    loop.run_sync(do_stop)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1859, in _run_once
+    handle._run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 688, in <lambda>
+    lambda f: self._run_callback(functools.partial(callback, future))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 911, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1859, in _run_once
+    handle._run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 1126, in heartbeat
+    response = await retry_operation(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/utils_comm.py", line 386, in retry_operation
+    return await retry(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/utils_comm.py", line 371, in retry
+    return await coro()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 939, in send_recv_from_rpc
+    return await send_recv(comm=comm, op=key, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 706, in send_recv
+    await comm.write(msg, serializers=serializers, on_error="raise")
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/tcp.py", line 312, in write
+    stream.write(b"")
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/iostream.py", line 544, in write
+    self._handle_write()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/iostream.py", line 987, in _handle_write
+    while self._write_futures:
+KeyboardInterrupt
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/process.py", line 175, in _run
+    target(*args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 918, in _run
+    loop.run_sync(do_stop)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1859, in _run_once
+    handle._run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 688, in <lambda>
+    lambda f: self._run_callback(functools.partial(callback, future))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 911, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1859, in _run_once
+    handle._run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 1178, in handle_scheduler
+    await self.handle_stream(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 606, in handle_stream
+    msgs = await comm.read()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/tcp.py", line 252, in read
+    msg = await from_frames(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/utils.py", line 98, in from_frames
+    res = _from_frames()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/utils.py", line 81, in _from_frames
+    return protocol.loads(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/core.py", line 167, in loads
+    return msgpack.loads(
+  File "msgpack/_unpacker.pyx", line 194, in msgpack._cmsgpack.unpackb
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/core.py", line 147, in _decode_default
+    return merge_and_deserialize(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/serialize.py", line 488, in merge_and_deserialize
+    return deserialize(header, merged_frames, deserializers=deserializers)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/serialize.py", line 401, in deserialize
+    deserialize(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/serialize.py", line 417, in deserialize
+    return loads(header, frames)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/serialize.py", line 96, in pickle_loads
+    return pickle.loads(x, buffers=new)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/pickle.py", line 66, in loads
+    return pickle.loads(x)
+  File "/home1/datahome/mdemol/m2_2022/m2lib22/box.py", line 12, in <module>
+    import matplotlib.pyplot as plt
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/matplotlib/pyplot.py", line 2230, in <module>
+    switch_backend(rcParams["backend"])
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/matplotlib/pyplot.py", line 267, in switch_backend
+    class backend_mod(matplotlib.backend_bases._Backend):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/matplotlib/pyplot.py", line 268, in backend_mod
+    locals().update(vars(importlib.import_module(backend_name)))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/matplotlib_inline/backend_inline.py", line 15, in <module>
+    from IPython.core.interactiveshell import InteractiveShell
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/__init__.py", line 51, in <module>
+    from .core.application import Application
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/application.py", line 27, in <module>
+    from IPython.core import release, crashhandler
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/crashhandler.py", line 28, in <module>
+    from IPython.core import ultratb
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/ultratb.py", line 101, in <module>
+    import stack_data
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/stack_data/__init__.py", line 1, in <module>
+    from .core import Source, FrameInfo, markers_from_ranges, Options, LINE_GAP, Line, Variable, RangeInLine, \
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/stack_data/core.py", line 17, in <module>
+    from pure_eval import Evaluator, is_expression_interesting
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 934, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1032, in get_data
+KeyboardInterrupt
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/process.py", line 175, in _run
+    target(*args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 918, in _run
+    loop.run_sync(do_stop)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1859, in _run_once
+    handle._run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 688, in <lambda>
+    lambda f: self._run_callback(functools.partial(callback, future))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 911, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1859, in _run_once
+    handle._run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 1178, in handle_scheduler
+    await self.handle_stream(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 606, in handle_stream
+    msgs = await comm.read()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/tcp.py", line 252, in read
+    msg = await from_frames(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/utils.py", line 98, in from_frames
+    res = _from_frames()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/utils.py", line 81, in _from_frames
+    return protocol.loads(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/core.py", line 167, in loads
+    return msgpack.loads(
+  File "msgpack/_unpacker.pyx", line 194, in msgpack._cmsgpack.unpackb
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/core.py", line 147, in _decode_default
+    return merge_and_deserialize(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/serialize.py", line 488, in merge_and_deserialize
+    return deserialize(header, merged_frames, deserializers=deserializers)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/serialize.py", line 401, in deserialize
+    deserialize(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/serialize.py", line 417, in deserialize
+    return loads(header, frames)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/serialize.py", line 96, in pickle_loads
+    return pickle.loads(x, buffers=new)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/pickle.py", line 66, in loads
+    return pickle.loads(x)
+  File "/home1/datahome/mdemol/m2_2022/m2lib22/box.py", line 12, in <module>
+    import matplotlib.pyplot as plt
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/matplotlib/pyplot.py", line 2230, in <module>
+    switch_backend(rcParams["backend"])
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/matplotlib/pyplot.py", line 267, in switch_backend
+    class backend_mod(matplotlib.backend_bases._Backend):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/matplotlib/pyplot.py", line 268, in backend_mod
+    locals().update(vars(importlib.import_module(backend_name)))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/matplotlib_inline/backend_inline.py", line 15, in <module>
+    from IPython.core.interactiveshell import InteractiveShell
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/__init__.py", line 51, in <module>
+    from .core.application import Application
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/application.py", line 27, in <module>
+    from IPython.core import release, crashhandler
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/crashhandler.py", line 28, in <module>
+    from IPython.core import ultratb
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/ultratb.py", line 101, in <module>
+    import stack_data
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/stack_data/__init__.py", line 1, in <module>
+    from .core import Source, FrameInfo, markers_from_ranges, Options, LINE_GAP, Line, Variable, RangeInLine, \
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/stack_data/core.py", line 17, in <module>
+    from pure_eval import Evaluator, is_expression_interesting
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 934, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1032, in get_data
+KeyboardInterrupt
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/process.py", line 175, in _run
+    target(*args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 918, in _run
+    loop.run_sync(do_stop)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1859, in _run_once
+    handle._run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 688, in <lambda>
+    lambda f: self._run_callback(functools.partial(callback, future))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 911, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1859, in _run_once
+    handle._run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 1178, in handle_scheduler
+    await self.handle_stream(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 606, in handle_stream
+    msgs = await comm.read()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/tcp.py", line 252, in read
+    msg = await from_frames(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/utils.py", line 98, in from_frames
+    res = _from_frames()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/utils.py", line 81, in _from_frames
+    return protocol.loads(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/core.py", line 167, in loads
+    return msgpack.loads(
+  File "msgpack/_unpacker.pyx", line 194, in msgpack._cmsgpack.unpackb
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/core.py", line 147, in _decode_default
+    return merge_and_deserialize(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/serialize.py", line 488, in merge_and_deserialize
+    return deserialize(header, merged_frames, deserializers=deserializers)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/serialize.py", line 401, in deserialize
+    deserialize(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/serialize.py", line 417, in deserialize
+    return loads(header, frames)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/serialize.py", line 96, in pickle_loads
+    return pickle.loads(x, buffers=new)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/pickle.py", line 66, in loads
+    return pickle.loads(x)
+  File "/home1/datahome/mdemol/m2_2022/m2lib22/box.py", line 12, in <module>
+    import matplotlib.pyplot as plt
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/matplotlib/pyplot.py", line 2230, in <module>
+    switch_backend(rcParams["backend"])
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/matplotlib/pyplot.py", line 267, in switch_backend
+    class backend_mod(matplotlib.backend_bases._Backend):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/matplotlib/pyplot.py", line 268, in backend_mod
+    locals().update(vars(importlib.import_module(backend_name)))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/matplotlib_inline/backend_inline.py", line 15, in <module>
+    from IPython.core.interactiveshell import InteractiveShell
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/__init__.py", line 51, in <module>
+    from .core.application import Application
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/application.py", line 27, in <module>
+    from IPython.core import release, crashhandler
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/crashhandler.py", line 28, in <module>
+    from IPython.core import ultratb
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/ultratb.py", line 101, in <module>
+    import stack_data
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/stack_data/__init__.py", line 1, in <module>
+    from .core import Source, FrameInfo, markers_from_ranges, Options, LINE_GAP, Line, Variable, RangeInLine, \
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/stack_data/core.py", line 17, in <module>
+    from pure_eval import Evaluator, is_expression_interesting
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 934, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1032, in get_data
+KeyboardInterrupt
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/process.py", line 175, in _run
+    target(*args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 918, in _run
+    loop.run_sync(do_stop)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1859, in _run_once
+    handle._run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 688, in <lambda>
+    lambda f: self._run_callback(functools.partial(callback, future))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 911, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1859, in _run_once
+    handle._run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker.py", line 1178, in handle_scheduler
+    await self.handle_stream(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/core.py", line 606, in handle_stream
+    msgs = await comm.read()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/tcp.py", line 252, in read
+    msg = await from_frames(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/utils.py", line 98, in from_frames
+    res = _from_frames()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/comm/utils.py", line 81, in _from_frames
+    return protocol.loads(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/core.py", line 167, in loads
+    return msgpack.loads(
+  File "msgpack/_unpacker.pyx", line 194, in msgpack._cmsgpack.unpackb
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/core.py", line 147, in _decode_default
+    return merge_and_deserialize(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/serialize.py", line 488, in merge_and_deserialize
+    return deserialize(header, merged_frames, deserializers=deserializers)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/serialize.py", line 401, in deserialize
+    deserialize(
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/serialize.py", line 417, in deserialize
+    return loads(header, frames)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/serialize.py", line 96, in pickle_loads
+    return pickle.loads(x, buffers=new)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/protocol/pickle.py", line 66, in loads
+    return pickle.loads(x)
+  File "/home1/datahome/mdemol/m2_2022/m2lib22/box.py", line 12, in <module>
+    import matplotlib.pyplot as plt
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/matplotlib/pyplot.py", line 2230, in <module>
+    switch_backend(rcParams["backend"])
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/matplotlib/pyplot.py", line 267, in switch_backend
+    class backend_mod(matplotlib.backend_bases._Backend):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/matplotlib/pyplot.py", line 268, in backend_mod
+    locals().update(vars(importlib.import_module(backend_name)))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/matplotlib_inline/backend_inline.py", line 15, in <module>
+    from IPython.core.interactiveshell import InteractiveShell
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/__init__.py", line 51, in <module>
+    from .core.application import Application
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/application.py", line 27, in <module>
+    from IPython.core import release, crashhandler
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/crashhandler.py", line 28, in <module>
+    from IPython.core import ultratb
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/ultratb.py", line 101, in <module>
+    import stack_data
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/stack_data/__init__.py", line 1, in <module>
+    from .core import Source, FrameInfo, markers_from_ranges, Options, LINE_GAP, Line, Variable, RangeInLine, \
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/stack_data/core.py", line 17, in <module>
+    from pure_eval import Evaluator, is_expression_interesting
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 934, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1032, in get_data
+KeyboardInterrupt
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+[I 2022-04-28 08:47:23.791 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:49:24.138 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:53:24.565 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 08:59:24.973 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:01:25.338 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:03:25.684 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:05:26.060 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:09:26.512 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:19:26.858 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:21:27.212 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:23:27.555 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:24:37.081 ServerApp] Kernel interrupted: b7b00f42-6104-4042-99d2-e38857e1075e
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+[I 2022-04-28 09:25:27.854 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:33:28.168 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:35:28.497 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:37:28.887 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:39:29.170 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:41:29.525 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:43:29.871 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+[I 2022-04-28 09:44:10.216 ServerApp] Kernel restarted: b7b00f42-6104-4042-99d2-e38857e1075e
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: dab62e77-3599-4019-bd20-5e787d6edc8c
+[I 2022-04-28 09:45:30.220 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:45:39.987 ServerApp] Kernel interrupted: b7b00f42-6104-4042-99d2-e38857e1075e
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/process.py", line 175, in _run
+    target(*args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 918, in _run
+    loop.run_sync(do_stop)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1859, in _run_once
+    handle._run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 688, in <lambda>
+    lambda f: self._run_callback(functools.partial(callback, future))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/nanny.py", line 911, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1859, in _run_once
+    handle._run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/distributed/worker_memory.py", line 173, in memory_monitor
+    self._memory_monitoring = False
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py", line 117, in __exit__
+    def __exit__(self, type, value, traceback):
+KeyboardInterrupt
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+[I 2022-04-28 09:47:30.485 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:49:30.866 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:51:31.157 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:53:31.443 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:55:31.771 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:57:32.149 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 09:59:32.450 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 10:01:32.819 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[I 2022-04-28 10:03:33.095 ServerApp] Saving file at /m2_2022/sandbox/statistics_severalncfiles.ipynb
+[W 2022-04-28 10:14:37.892 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-04-28 10:14:37.930 ServerApp] WebSocket ping timeout after 119997 ms.
+[W 2022-04-28 10:14:40.244 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-04-28 10:14:42.932 ServerApp] Starting buffering for c215d941-0d8b-448f-ac92-a3aab6b77f2c:5f38271e-685b-49cb-bbd6-6801d65db81b
+[I 2022-04-28 10:14:45.245 ServerApp] Starting buffering for b7b00f42-6104-4042-99d2-e38857e1075e:6ec1bf91-6b43-4cff-b1c5-386c934a47aa
+[C 2022-04-28 11:02:00.144 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-04-28 11:02:00.299 ServerApp] Shutting down 3 extensions
+[I 2022-04-28 11:02:00.299 ServerApp] Shutting down 2 kernels
+[I 2022-04-28 11:02:00.300 ServerApp] Kernel shutdown: c215d941-0d8b-448f-ac92-a3aab6b77f2c
+[I 2022-04-28 11:02:00.300 ServerApp] Kernel shutdown: b7b00f42-6104-4042-99d2-e38857e1075e
+[I 2022-04-28 11:02:02.929 ServerApp] Shutting down 0 terminals

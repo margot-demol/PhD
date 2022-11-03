@@ -1,0 +1,52 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Wed Aug 24 14:19:15 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-08-24 14:19:38.783 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-08-24 14:19:38.797 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-08-24 14:19:38.804 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-08-24 14:19:43.439 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-08-24 14:19:44.169 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-08-24 14:19:44.170 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-08-24 14:19:44.170 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-08-24 14:19:44.174 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-08-24 14:19:44.389 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-08-24 14:19:44.389 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-08-24 14:19:44.389 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-08-24 14:19:44.389 ServerApp] http://r1i0n25:8877/lab
+[I 2022-08-24 14:19:44.389 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-08-24 14:19:44.389 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-08-24 14:22:43.834 LabApp] 302 GET /lab? (10.148.1.145) 0.62ms
+[I 2022-08-24 14:22:49.367 ServerApp] 302 POST /login?next=%2Flab%3F (10.148.1.145) 356.16ms
+[I 2022-08-24 14:22:56.348 LabApp] Build is up to date
+[W 2022-08-24 14:22:59.534 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-24 14:23:01.104 ServerApp] Kernel started: 430fff58-2ccf-4640-83f6-855df53c1d60
+[I 2022-08-24 14:23:03.697 ServerApp] Kernel started: 9a34a36b-1cac-4d08-b4a8-030954c54efb
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 178b5141-f8f3-4ac0-94b2-b2034cc8e6d5
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e1e512aa-897f-45a8-b511-ccdf157655cc
+[I 2022-08-24 14:25:06.747 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-24 14:25:06.748 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-24 14:27:10.975 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-24 14:27:10.976 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-24 14:29:15.529 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-24 14:29:15.530 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-24 14:32:17.583 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-24 14:32:17.584 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[C 2022-08-24 14:37:39.831 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-08-24 14:37:39.885 ServerApp] Shutting down 3 extensions
+[I 2022-08-24 14:37:39.885 ServerApp] Shutting down 2 kernels
+[I 2022-08-24 14:37:39.886 ServerApp] Kernel shutdown: 9a34a36b-1cac-4d08-b4a8-030954c54efb
+[I 2022-08-24 14:37:39.886 ServerApp] Kernel shutdown: 430fff58-2ccf-4640-83f6-855df53c1d60
+[I 2022-08-24 14:37:41.506 ServerApp] Shutting down 0 terminals

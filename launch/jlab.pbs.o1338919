@@ -1,0 +1,133 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu Aug  4 12:51:11 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-08-04 12:51:21.672 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-08-04 12:51:21.685 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-08-04 12:51:21.693 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-08-04 12:51:24.652 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-08-04 12:51:25.204 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-08-04 12:51:25.205 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-08-04 12:51:25.205 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-08-04 12:51:25.209 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-08-04 12:51:25.284 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-08-04 12:51:25.284 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-08-04 12:51:25.284 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-08-04 12:51:25.285 ServerApp] http://r1i0n27:8877/lab
+[I 2022-08-04 12:51:25.285 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-08-04 12:51:25.285 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-08-04 12:52:57.255 ServerApp] 404 GET /api/kernels/b993954f-0cf4-4d7a-896c-ae894726a228?1659617577225 (10.148.1.145): Kernel does not exist: b993954f-0cf4-4d7a-896c-ae894726a228
+[W 2022-08-04 12:52:57.255 ServerApp] Kernel does not exist: b993954f-0cf4-4d7a-896c-ae894726a228
+[W 2022-08-04 12:52:57.255 ServerApp] 404 GET /api/kernels/b993954f-0cf4-4d7a-896c-ae894726a228?1659617577225 (10.148.1.145) 1.23ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_pdf_ind.ipynb
+[I 2022-08-04 12:53:08.099 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 12:54:15.849 LabApp] Build is up to date
+[W 2022-08-04 12:54:19.327 ServerApp] 404 GET /api/contents/m2_2022/sandbox/diag_std_closure.ipynb?content=0&1659617659270 (10.148.1.145): No such file or directory: m2_2022/sandbox/diag_std_closure.ipynb
+[W 2022-08-04 12:54:19.328 ServerApp] No such file or directory: m2_2022/sandbox/diag_std_closure.ipynb
+[W 2022-08-04 12:54:19.328 ServerApp] 404 GET /api/contents/m2_2022/sandbox/diag_std_closure.ipynb?content=0&1659617659270 (10.148.1.145) 2.96ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 12:54:19.330 ServerApp] 404 GET /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?content=0&1659617659272 (10.148.1.145): No such file or directory: m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-08-04 12:54:19.331 ServerApp] No such file or directory: m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-08-04 12:54:19.331 ServerApp] 404 GET /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?content=0&1659617659272 (10.148.1.145) 4.56ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 12:54:19.331 ServerApp] 404 GET /api/contents/m2_2022/sandbox/diag_std_lonlat.ipynb?content=0&1659617659272 (10.148.1.145): No such file or directory: m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-08-04 12:54:19.331 ServerApp] No such file or directory: m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-08-04 12:54:19.332 ServerApp] 404 GET /api/contents/m2_2022/sandbox/diag_std_lonlat.ipynb?content=0&1659617659272 (10.148.1.145) 4.81ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 12:54:20.804 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 12:54:22.545 ServerApp] Kernel started: 78b3899c-7190-4805-9b06-b4ad39ddc23a
+[I 2022-08-04 12:54:22.546 ServerApp] Kernel started: 0c59e32a-796c-4a09-a8a2-4b74a960daad
+[I 2022-08-04 12:54:22.555 ServerApp] Kernel started: b43cf998-9d1d-48e7-be2e-7f412b6af936
+[I 2022-08-04 12:54:22.555 ServerApp] Kernel started: 10265ca4-3421-4cda-8f38-e9fc2893f73f
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[I 2022-08-04 12:54:55.396 ServerApp] Starting buffering for 0c59e32a-796c-4a09-a8a2-4b74a960daad:2ef90325-a561-4ba8-813b-631d8e315174
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 49508ee5-15ee-40d2-a6f5-ca1e88d93382
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: fc893b7c-cef7-4322-ab95-0fb0f1b05d18
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 99f7eb2a-4ce9-430b-892b-5dac1fea3764
+[I 2022-08-04 12:55:06.260 ServerApp] Kernel started: b5166b70-c564-48bd-a0fa-bce96b03b006
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: af7b37a5-0b1a-49ce-bc8e-d6408c00f609
+[I 2022-08-04 12:56:21.192 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 12:56:21.193 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 12:58:21.384 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 12:58:21.384 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:00:21.566 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:00:21.566 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:02:21.729 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:02:21.729 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:04:21.885 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:04:21.886 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:06:22.050 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:06:22.051 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:08:22.232 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:08:22.232 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:10:22.417 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:10:22.418 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:12:22.606 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:12:22.607 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:14:22.783 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:14:22.784 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:15:06.373 ServerApp] Saving file at /m2_2022/sandbox/diag_ind_bars.ipynb
+[I 2022-08-04 13:16:22.960 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:16:22.961 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:18:23.127 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:18:23.127 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:20:23.304 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:20:23.305 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:22:23.477 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:22:23.478 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:24:23.631 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:24:23.631 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:26:23.733 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:26:23.734 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:28:23.886 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:28:23.886 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:30:24.069 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:30:24.069 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:32:24.209 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:32:24.209 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:34:24.344 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:34:24.345 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:36:24.529 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:36:24.530 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:38:24.708 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:38:24.708 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:40:24.897 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:40:24.897 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:42:25.093 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:42:25.093 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:44:25.224 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:44:25.225 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:46:25.431 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:46:25.431 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:48:25.616 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:48:25.616 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:48:27.476 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-04 13:48:27.477 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 13:48:29.382 ServerApp] Starting buffering for b43cf998-9d1d-48e7-be2e-7f412b6af936:f0bc0b08-30d1-4abb-b61f-26089b074157
+[I 2022-08-04 13:48:41.931 ServerApp] Kernel restarted: b5166b70-c564-48bd-a0fa-bce96b03b006
+[I 2022-08-04 13:48:42.664 ServerApp] Starting buffering for b5166b70-c564-48bd-a0fa-bce96b03b006:c7cac384-0922-4576-948c-78a9740d6e27
+[I 2022-08-04 13:48:42.711 ServerApp] Restoring connection for b5166b70-c564-48bd-a0fa-bce96b03b006:c7cac384-0922-4576-948c-78a9740d6e27
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ba7ed627-dd81-4e9f-b397-fdca483526fe
+[I 2022-08-04 13:49:07.331 ServerApp] Saving file at /m2_2022/sandbox/diag_ind_bars.ipynb
+[I 2022-08-04 13:51:07.590 ServerApp] Saving file at /m2_2022/sandbox/diag_ind_bars.ipynb
+Terminated
+[C 2022-08-04 13:51:58.235 ServerApp] received signal 15, stopping
+[I 2022-08-04 13:51:58.287 ServerApp] Shutting down 3 extensions
+[I 2022-08-04 13:51:58.287 ServerApp] Shutting down 5 kernels
+[I 2022-08-04 13:51:58.287 ServerApp] Kernel shutdown: 10265ca4-3421-4cda-8f38-e9fc2893f73f
+[I 2022-08-04 13:51:58.287 ServerApp] Discarding 1 buffered messages for b43cf998-9d1d-48e7-be2e-7f412b6af936:f0bc0b08-30d1-4abb-b61f-26089b074157
+[I 2022-08-04 13:51:58.288 ServerApp] Kernel shutdown: b43cf998-9d1d-48e7-be2e-7f412b6af936
+[I 2022-08-04 13:51:58.288 ServerApp] Discarding 3 buffered messages for 0c59e32a-796c-4a09-a8a2-4b74a960daad:2ef90325-a561-4ba8-813b-631d8e315174
+[I 2022-08-04 13:51:58.288 ServerApp] Kernel shutdown: 0c59e32a-796c-4a09-a8a2-4b74a960daad
+[I 2022-08-04 13:51:58.288 ServerApp] Kernel shutdown: 78b3899c-7190-4805-9b06-b4ad39ddc23a
+[I 2022-08-04 13:51:58.288 ServerApp] Kernel shutdown: b5166b70-c564-48bd-a0fa-bce96b03b006
+[I 2022-08-04 13:51:59.708 ServerApp] Shutting down 0 terminals

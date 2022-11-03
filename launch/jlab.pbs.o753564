@@ -1,0 +1,296 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Tue Jun 21 13:34:07 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-06-21 13:34:15.232 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-06-21 13:34:15.245 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-06-21 13:34:15.252 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-06-21 13:34:21.442 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-06-21 13:34:22.066 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-06-21 13:34:22.067 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-06-21 13:34:22.067 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-06-21 13:34:22.071 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-06-21 13:34:22.154 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-06-21 13:34:22.154 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-06-21 13:34:22.155 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-06-21 13:34:22.155 ServerApp] http://r1i1n14:8877/lab
+[I 2022-06-21 13:34:22.155 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-06-21 13:34:22.155 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-06-21 13:34:56.478 ServerApp] 404 GET /api/kernels/97165158-79f7-4a33-b51d-4c2b48c12a72?1655818496421 (10.148.1.145): Kernel does not exist: 97165158-79f7-4a33-b51d-4c2b48c12a72
+[W 2022-06-21 13:34:56.478 ServerApp] Kernel does not exist: 97165158-79f7-4a33-b51d-4c2b48c12a72
+[W 2022-06-21 13:34:56.479 ServerApp] 404 GET /api/kernels/97165158-79f7-4a33-b51d-4c2b48c12a72?1655818496421 (10.148.1.145) 1.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-06-21 13:34:57.119 ServerApp] 404 GET /api/kernels/97165158-79f7-4a33-b51d-4c2b48c12a72/channels?session_id=fccb6921-9047-46a9-b282-b583f9d44bfd (10.148.1.145): Kernel does not exist: 97165158-79f7-4a33-b51d-4c2b48c12a72
+[W 2022-06-21 13:34:57.343 ServerApp] 404 GET /api/kernels/97165158-79f7-4a33-b51d-4c2b48c12a72/channels?session_id=fccb6921-9047-46a9-b282-b583f9d44bfd (10.148.1.145) 225.10ms referer=None
+[W 2022-06-21 13:34:57.445 ServerApp] 404 GET /api/kernels/97165158-79f7-4a33-b51d-4c2b48c12a72?1655818497391 (10.148.1.145): Kernel does not exist: 97165158-79f7-4a33-b51d-4c2b48c12a72
+[W 2022-06-21 13:34:57.445 ServerApp] Kernel does not exist: 97165158-79f7-4a33-b51d-4c2b48c12a72
+[W 2022-06-21 13:34:57.445 ServerApp] 404 GET /api/kernels/97165158-79f7-4a33-b51d-4c2b48c12a72?1655818497391 (10.148.1.145) 0.70ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-06-21 13:34:58.434 ServerApp] 404 GET /api/kernels/2a32418f-f135-4336-8c98-e12cba33ba79?1655818498380 (10.148.1.145): Kernel does not exist: 2a32418f-f135-4336-8c98-e12cba33ba79
+[W 2022-06-21 13:34:58.434 ServerApp] Kernel does not exist: 2a32418f-f135-4336-8c98-e12cba33ba79
+[W 2022-06-21 13:34:58.435 ServerApp] 404 GET /api/kernels/2a32418f-f135-4336-8c98-e12cba33ba79?1655818498380 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-06-21 13:34:59.262 ServerApp] 404 GET /api/kernels/2a32418f-f135-4336-8c98-e12cba33ba79/channels?session_id=6227b586-6c21-43c1-9bcb-15a9903a9881 (10.148.1.145): Kernel does not exist: 2a32418f-f135-4336-8c98-e12cba33ba79
+[W 2022-06-21 13:34:59.263 ServerApp] 404 GET /api/kernels/2a32418f-f135-4336-8c98-e12cba33ba79/channels?session_id=6227b586-6c21-43c1-9bcb-15a9903a9881 (10.148.1.145) 1.48ms referer=None
+[W 2022-06-21 13:34:59.347 ServerApp] 404 GET /api/kernels/2a32418f-f135-4336-8c98-e12cba33ba79?1655818499294 (10.148.1.145): Kernel does not exist: 2a32418f-f135-4336-8c98-e12cba33ba79
+[W 2022-06-21 13:34:59.347 ServerApp] Kernel does not exist: 2a32418f-f135-4336-8c98-e12cba33ba79
+[W 2022-06-21 13:34:59.348 ServerApp] 404 GET /api/kernels/2a32418f-f135-4336-8c98-e12cba33ba79?1655818499294 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-06-21 13:34:59.764 ServerApp] 404 GET /api/kernels/97165158-79f7-4a33-b51d-4c2b48c12a72/channels?session_id=fccb6921-9047-46a9-b282-b583f9d44bfd (10.148.1.145): Kernel does not exist: 97165158-79f7-4a33-b51d-4c2b48c12a72
+[W 2022-06-21 13:34:59.765 ServerApp] 404 GET /api/kernels/97165158-79f7-4a33-b51d-4c2b48c12a72/channels?session_id=fccb6921-9047-46a9-b282-b583f9d44bfd (10.148.1.145) 1.46ms referer=None
+[W 2022-06-21 13:34:59.795 ServerApp] 404 GET /api/kernels/97165158-79f7-4a33-b51d-4c2b48c12a72?1655818499744 (10.148.1.145): Kernel does not exist: 97165158-79f7-4a33-b51d-4c2b48c12a72
+[W 2022-06-21 13:34:59.795 ServerApp] Kernel does not exist: 97165158-79f7-4a33-b51d-4c2b48c12a72
+[W 2022-06-21 13:34:59.795 ServerApp] 404 GET /api/kernels/97165158-79f7-4a33-b51d-4c2b48c12a72?1655818499744 (10.148.1.145) 0.66ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-06-21 13:35:00.427 ServerApp] 404 GET /api/kernels/2342fa10-3863-4fde-8087-c2d7817af8a3?1655818500376 (10.148.1.145): Kernel does not exist: 2342fa10-3863-4fde-8087-c2d7817af8a3
+[W 2022-06-21 13:35:00.427 ServerApp] Kernel does not exist: 2342fa10-3863-4fde-8087-c2d7817af8a3
+[W 2022-06-21 13:35:00.428 ServerApp] 404 GET /api/kernels/2342fa10-3863-4fde-8087-c2d7817af8a3?1655818500376 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-06-21 13:35:00.522 ServerApp] 404 GET /api/kernels/08a8a841-5ce8-4bd4-8a47-bddf6da567e9?1655818500470 (10.148.1.145): Kernel does not exist: 08a8a841-5ce8-4bd4-8a47-bddf6da567e9
+[W 2022-06-21 13:35:00.522 ServerApp] Kernel does not exist: 08a8a841-5ce8-4bd4-8a47-bddf6da567e9
+[W 2022-06-21 13:35:00.522 ServerApp] 404 GET /api/kernels/08a8a841-5ce8-4bd4-8a47-bddf6da567e9?1655818500470 (10.148.1.145) 0.66ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-06-21 13:35:00.585 ServerApp] 404 GET /api/kernels/08a8a841-5ce8-4bd4-8a47-bddf6da567e9/channels?session_id=6c6b92bd-6222-4e48-bf53-119d62506c49 (10.148.1.145): Kernel does not exist: 08a8a841-5ce8-4bd4-8a47-bddf6da567e9
+[W 2022-06-21 13:35:00.585 ServerApp] 404 GET /api/kernels/08a8a841-5ce8-4bd4-8a47-bddf6da567e9/channels?session_id=6c6b92bd-6222-4e48-bf53-119d62506c49 (10.148.1.145) 1.64ms referer=None
+[W 2022-06-21 13:35:00.627 ServerApp] 404 GET /api/kernels/08a8a841-5ce8-4bd4-8a47-bddf6da567e9?1655818500576 (10.148.1.145): Kernel does not exist: 08a8a841-5ce8-4bd4-8a47-bddf6da567e9
+[W 2022-06-21 13:35:00.627 ServerApp] Kernel does not exist: 08a8a841-5ce8-4bd4-8a47-bddf6da567e9
+[W 2022-06-21 13:35:00.628 ServerApp] 404 GET /api/kernels/08a8a841-5ce8-4bd4-8a47-bddf6da567e9?1655818500576 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_pdf_ind.ipynb
+[E 2022-06-21 13:35:11.726 LabApp] Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+    {"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+    {"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+    
+[I 2022-06-21 13:35:12.812 LabApp] Build is up to date
+[I 2022-06-21 13:35:16.743 ServerApp] Kernel started: 9dd96156-750a-48bb-8c6c-de374408677f
+[I 2022-06-21 13:35:16.744 ServerApp] Kernel started: 2bd3739e-73d2-4a68-b937-ffcffa60301d
+[I 2022-06-21 13:35:16.745 ServerApp] Kernel started: c6b2079a-fead-4cd2-b0db-886acd1fe737
+[I 2022-06-21 13:35:16.755 ServerApp] Kernel started: 66f0e278-536a-4f60-b41e-b55f54864258
+[I 2022-06-21 13:35:17.198 ServerApp] Kernel started: 03f88927-3ee0-432c-b710-d4e296c1e0aa
+[I 2022-06-21 13:35:17.289 ServerApp] Kernel started: 2d7ebe6f-d1ae-4de0-a065-038964ce34e3
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1ea84d74-c724-47b1-9f76-be8a3585cf7b
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1f1d670f-c2c9-49da-9ce3-34cce3108523
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 92880eee-bfdc-4de5-b4c1-0e4bb03fbe61
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 32cae9d1-6c9c-4503-9868-6593b2bcbe74
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3fd7b8f7-05e4-45ca-b937-ffa6675ae9a5
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ea454970-e50a-4a6b-8937-210520935e83
+[I 2022-06-21 13:37:15.865 ServerApp] Saving file at /m2_2022/sandbox/animation.ipynb
+[I 2022-06-21 13:38:48.619 ServerApp] Kernel restarted: 2bd3739e-73d2-4a68-b937-ffcffa60301d
+[I 2022-06-21 13:38:48.623 ServerApp] Starting buffering for 2bd3739e-73d2-4a68-b937-ffcffa60301d:b1754760-3ac6-4e71-aaba-a53849fac675
+[I 2022-06-21 13:38:48.630 ServerApp] Restoring connection for 2bd3739e-73d2-4a68-b937-ffcffa60301d:b1754760-3ac6-4e71-aaba-a53849fac675
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 481278b2-9475-46bb-a560-2d627ac54a6a
+[I 2022-06-21 13:39:16.074 ServerApp] Saving file at /m2_2022/sandbox/animation.ipynb
+[I 2022-06-21 13:41:16.195 ServerApp] Saving file at /m2_2022/sandbox/animation.ipynb
+[I 2022-06-21 13:42:17.319 ServerApp] Kernel started: 83f40319-99c8-4b57-a4a5-30bb5130b536
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1ecf09bd-1bdd-4486-bf22-4db0d1d294c1
+[I 2022-06-21 13:43:16.359 ServerApp] Saving file at /m2_2022/sandbox/animation.ipynb
+[I 2022-06-21 13:45:16.593 ServerApp] Saving file at /m2_2022/sandbox/animation.ipynb
+[I 2022-06-21 13:47:16.907 ServerApp] Saving file at /m2_2022/sandbox/animation.ipynb
+[I 2022-06-21 13:49:17.098 ServerApp] Saving file at /m2_2022/sandbox/animation.ipynb
+[W 2022-06-21 13:50:39.884 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-21 13:50:40.967 ServerApp] Kernel started: 03d69b84-8ff2-42a2-86bb-6fa1eb9197b7
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 80729b0b-678e-4715-8093-869ec8242d4a
+[I 2022-06-21 13:51:17.207 ServerApp] Saving file at /m2_2022/sandbox/animation.ipynb
+[I 2022-06-21 13:53:17.313 ServerApp] Saving file at /m2_2022/sandbox/animation.ipynb
+[I 2022-06-21 13:55:17.436 ServerApp] Saving file at /m2_2022/sandbox/animation.ipynb
+[I 2022-06-21 13:57:17.603 ServerApp] Saving file at /m2_2022/sandbox/animation.ipynb
+[I 2022-06-21 13:59:17.856 ServerApp] Saving file at /m2_2022/sandbox/animation.ipynb
+[I 2022-06-21 14:03:18.060 ServerApp] Saving file at /m2_2022/sandbox/animation.ipynb
+[I 2022-06-21 14:05:18.322 ServerApp] Saving file at /m2_2022/sandbox/animation.ipynb
+[W 2022-06-21 14:11:58.945 ServerApp] Replacing stale connection: 03f88927-3ee0-432c-b710-d4e296c1e0aa:1e332d36-f662-4249-82e1-684046944b6d
+[W 2022-06-21 14:11:59.472 ServerApp] Replacing stale connection: 2d7ebe6f-d1ae-4de0-a065-038964ce34e3:bd2f54e8-33f8-4492-9963-dd5a203389c5
+[W 2022-06-21 14:12:01.387 ServerApp] Replacing stale connection: 03d69b84-8ff2-42a2-86bb-6fa1eb9197b7:9022c6ab-6708-4d9f-ad97-b9c9880c3c80
+[I 2022-06-21 14:12:04.473 ServerApp] Starting buffering for 2d7ebe6f-d1ae-4de0-a065-038964ce34e3:bd2f54e8-33f8-4492-9963-dd5a203389c5
+[I 2022-06-21 14:12:04.474 ServerApp] Restoring connection for 2d7ebe6f-d1ae-4de0-a065-038964ce34e3:bd2f54e8-33f8-4492-9963-dd5a203389c5
+[I 2022-06-21 14:12:06.389 ServerApp] Starting buffering for 03d69b84-8ff2-42a2-86bb-6fa1eb9197b7:9022c6ab-6708-4d9f-ad97-b9c9880c3c80
+[I 2022-06-21 14:12:06.389 ServerApp] Restoring connection for 03d69b84-8ff2-42a2-86bb-6fa1eb9197b7:9022c6ab-6708-4d9f-ad97-b9c9880c3c80
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 7ca07573-4478-4133-8305-5292c2673d3c
+[W 2022-06-21 14:12:07.843 ServerApp] Replacing stale connection: 83f40319-99c8-4b57-a4a5-30bb5130b536:9097de02-09ad-4cd9-b198-ed6c79cb9543
+[W 2022-06-21 14:12:08.216 ServerApp] Replacing stale connection: 9dd96156-750a-48bb-8c6c-de374408677f:ebb28b50-c923-4007-be5f-5211f4467666
+[W 2022-06-21 14:12:08.612 ServerApp] Replacing stale connection: 2bd3739e-73d2-4a68-b937-ffcffa60301d:b1754760-3ac6-4e71-aaba-a53849fac675
+[W 2022-06-21 14:12:09.511 ServerApp] Replacing stale connection: c6b2079a-fead-4cd2-b0db-886acd1fe737:017bccdb-68f7-4522-a850-3e4a2feaa0e6
+[I 2022-06-21 14:12:12.844 ServerApp] Starting buffering for 83f40319-99c8-4b57-a4a5-30bb5130b536:9097de02-09ad-4cd9-b198-ed6c79cb9543
+[I 2022-06-21 14:12:12.845 ServerApp] Restoring connection for 83f40319-99c8-4b57-a4a5-30bb5130b536:9097de02-09ad-4cd9-b198-ed6c79cb9543
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e8729935-8797-4cff-9ee9-be0576f98642
+[I 2022-06-21 14:12:13.218 ServerApp] Starting buffering for 9dd96156-750a-48bb-8c6c-de374408677f:ebb28b50-c923-4007-be5f-5211f4467666
+[I 2022-06-21 14:12:13.218 ServerApp] Restoring connection for 9dd96156-750a-48bb-8c6c-de374408677f:ebb28b50-c923-4007-be5f-5211f4467666
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ac1ecf59-4d84-44fb-936b-3e2dcabb7f8e
+[I 2022-06-21 14:12:13.613 ServerApp] Starting buffering for 2bd3739e-73d2-4a68-b937-ffcffa60301d:b1754760-3ac6-4e71-aaba-a53849fac675
+[I 2022-06-21 14:12:13.613 ServerApp] Restoring connection for 2bd3739e-73d2-4a68-b937-ffcffa60301d:b1754760-3ac6-4e71-aaba-a53849fac675
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d09ca607-bf2f-48f6-8c59-82bba45eae3e
+[I 2022-06-21 14:12:14.512 ServerApp] Starting buffering for c6b2079a-fead-4cd2-b0db-886acd1fe737:017bccdb-68f7-4522-a850-3e4a2feaa0e6
+[I 2022-06-21 14:12:14.513 ServerApp] Restoring connection for c6b2079a-fead-4cd2-b0db-886acd1fe737:017bccdb-68f7-4522-a850-3e4a2feaa0e6
+[W 2022-06-21 14:12:17.636 ServerApp] Replacing stale connection: 66f0e278-536a-4f60-b41e-b55f54864258:4fc89222-6366-40df-8055-abafb644d541
+[W 2022-06-21 14:12:18.982 ServerApp] Replacing stale connection: 03f88927-3ee0-432c-b710-d4e296c1e0aa:21ec8e2a-b68c-4357-9826-fd38b3dc4ab8
+[I 2022-06-21 14:12:22.637 ServerApp] Starting buffering for 66f0e278-536a-4f60-b41e-b55f54864258:4fc89222-6366-40df-8055-abafb644d541
+[I 2022-06-21 14:12:22.637 ServerApp] Restoring connection for 66f0e278-536a-4f60-b41e-b55f54864258:4fc89222-6366-40df-8055-abafb644d541
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 6dc325aa-6ce3-4de0-b471-7e27237b8ea5
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4abc435c-838e-4d47-b3f3-df336b52d8f7
+[I 2022-06-21 14:15:18.617 ServerApp] Saving file at /m2_2022/sandbox/animation.ipynb
+[I 2022-06-21 14:17:18.890 ServerApp] Saving file at /m2_2022/sandbox/animation.ipynb
+[I 2022-06-21 14:19:19.303 ServerApp] Saving file at /m2_2022/sandbox/animation.ipynb
+[I 2022-06-21 14:21:19.552 ServerApp] Saving file at /m2_2022/sandbox/animation.ipynb
+[I 2022-06-21 14:23:07.380 ServerApp] Kernel started: e926af3c-bdd2-4cf5-ba53-8fc70b076680
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3c9fae49-c9eb-440e-9842-fae67d6f7d62
+[I 2022-06-21 14:23:16.222 ServerApp] Kernel started: 5351d734-07fd-49e4-a62c-502605cc1ddc
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1f634a23-d0ac-4090-ad69-83bf5d5f3b2d
+[W 2022-06-21 15:02:06.391 ServerApp] WebSocket ping timeout after 90000 ms.
+[I 2022-06-21 15:02:11.393 ServerApp] Starting buffering for 03d69b84-8ff2-42a2-86bb-6fa1eb9197b7:9022c6ab-6708-4d9f-ad97-b9c9880c3c80
+[W 2022-06-21 15:02:12.845 ServerApp] WebSocket ping timeout after 119997 ms.
+[W 2022-06-21 15:02:13.219 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-06-21 15:02:13.614 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-06-21 15:02:14.515 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-06-21 15:02:17.234 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-06-21 15:02:17.847 ServerApp] Starting buffering for 83f40319-99c8-4b57-a4a5-30bb5130b536:9097de02-09ad-4cd9-b198-ed6c79cb9543
+[I 2022-06-21 15:02:18.221 ServerApp] Starting buffering for 9dd96156-750a-48bb-8c6c-de374408677f:ebb28b50-c923-4007-be5f-5211f4467666
+[I 2022-06-21 15:02:18.614 ServerApp] Starting buffering for 2bd3739e-73d2-4a68-b937-ffcffa60301d:b1754760-3ac6-4e71-aaba-a53849fac675
+[I 2022-06-21 15:02:19.516 ServerApp] Starting buffering for c6b2079a-fead-4cd2-b0db-886acd1fe737:017bccdb-68f7-4522-a850-3e4a2feaa0e6
+[I 2022-06-21 15:02:22.234 ServerApp] Starting buffering for 5351d734-07fd-49e4-a62c-502605cc1ddc:63142cb1-0059-4fd2-9166-88ae3f41b393
+[W 2022-06-21 15:02:22.638 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-06-21 15:02:23.985 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-06-21 15:02:27.585 ServerApp] Starting buffering for 66f0e278-536a-4f60-b41e-b55f54864258:4fc89222-6366-40df-8055-abafb644d541
+[I 2022-06-21 15:02:27.609 ServerApp] Restoring connection for 03d69b84-8ff2-42a2-86bb-6fa1eb9197b7:9022c6ab-6708-4d9f-ad97-b9c9880c3c80
+[I 2022-06-21 15:02:27.617 ServerApp] Restoring connection for 83f40319-99c8-4b57-a4a5-30bb5130b536:9097de02-09ad-4cd9-b198-ed6c79cb9543
+[I 2022-06-21 15:02:27.618 ServerApp] Restoring connection for 9dd96156-750a-48bb-8c6c-de374408677f:ebb28b50-c923-4007-be5f-5211f4467666
+[I 2022-06-21 15:02:27.619 ServerApp] Restoring connection for 2bd3739e-73d2-4a68-b937-ffcffa60301d:b1754760-3ac6-4e71-aaba-a53849fac675
+[I 2022-06-21 15:02:27.619 ServerApp] Restoring connection for c6b2079a-fead-4cd2-b0db-886acd1fe737:017bccdb-68f7-4522-a850-3e4a2feaa0e6
+[I 2022-06-21 15:02:27.620 ServerApp] Restoring connection for 66f0e278-536a-4f60-b41e-b55f54864258:4fc89222-6366-40df-8055-abafb644d541
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[I 2022-06-21 15:02:27.641 ServerApp] Restoring connection for 5351d734-07fd-49e4-a62c-502605cc1ddc:63142cb1-0059-4fd2-9166-88ae3f41b393
+[IPKernelApp] WARNING | No such comm: ac4ced0d-8398-40e7-8805-439cfaa9729c
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: cc73353a-a380-4f2b-9fb0-8a9fdd0f1f3a
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f98d2b78-a112-48c4-be73-e5502edd6f09
+[IPKernelApp] WARNING | No such comm: 42b98add-2dd4-4095-8051-22b63f1fb1df
+[IPKernelApp] WARNING | No such comm: d70aa71d-0fdd-40fc-888e-0ab5b2550ea0
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2a45193b-1ced-4611-bb91-9fbc51830e27
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 10b75529-b888-4ebb-a645-eab9ff2634f5
+[W 2022-06-21 15:03:57.609 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-06-21 15:03:57.617 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-06-21 15:03:57.618 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-06-21 15:03:57.620 ServerApp] WebSocket ping timeout after 90001 ms.
+[W 2022-06-21 15:03:57.620 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-06-21 15:03:57.621 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-06-21 15:03:57.628 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-06-21 15:03:57.642 ServerApp] WebSocket ping timeout after 90001 ms.
+[I 2022-06-21 15:04:02.611 ServerApp] Starting buffering for 03d69b84-8ff2-42a2-86bb-6fa1eb9197b7:9022c6ab-6708-4d9f-ad97-b9c9880c3c80
+[I 2022-06-21 15:04:02.618 ServerApp] Starting buffering for 83f40319-99c8-4b57-a4a5-30bb5130b536:9097de02-09ad-4cd9-b198-ed6c79cb9543
+[I 2022-06-21 15:04:02.619 ServerApp] Starting buffering for 9dd96156-750a-48bb-8c6c-de374408677f:ebb28b50-c923-4007-be5f-5211f4467666
+[I 2022-06-21 15:04:02.620 ServerApp] Starting buffering for 2bd3739e-73d2-4a68-b937-ffcffa60301d:b1754760-3ac6-4e71-aaba-a53849fac675
+[I 2022-06-21 15:04:02.620 ServerApp] Starting buffering for c6b2079a-fead-4cd2-b0db-886acd1fe737:017bccdb-68f7-4522-a850-3e4a2feaa0e6
+[I 2022-06-21 15:04:02.621 ServerApp] Starting buffering for 66f0e278-536a-4f60-b41e-b55f54864258:4fc89222-6366-40df-8055-abafb644d541
+[I 2022-06-21 15:04:02.643 ServerApp] Starting buffering for 5351d734-07fd-49e4-a62c-502605cc1ddc:63142cb1-0059-4fd2-9166-88ae3f41b393
+[W 2022-06-21 15:04:33.949 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-06-21 15:04:34.475 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-06-21 15:04:38.432 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-06-21 15:04:38.950 ServerApp] Starting buffering for 03f88927-3ee0-432c-b710-d4e296c1e0aa:1e332d36-f662-4249-82e1-684046944b6d
+[I 2022-06-21 15:04:39.476 ServerApp] Starting buffering for 2d7ebe6f-d1ae-4de0-a065-038964ce34e3:bd2f54e8-33f8-4492-9963-dd5a203389c5
+[I 2022-06-21 15:04:43.433 ServerApp] Starting buffering for e926af3c-bdd2-4cf5-ba53-8fc70b076680:162c1b25-df36-4366-a124-56ca35849b5d
+[I 2022-06-21 15:08:46.558 ServerApp] Restoring connection for c6b2079a-fead-4cd2-b0db-886acd1fe737:017bccdb-68f7-4522-a850-3e4a2feaa0e6
+[I 2022-06-21 15:08:46.910 ServerApp] Restoring connection for 03d69b84-8ff2-42a2-86bb-6fa1eb9197b7:9022c6ab-6708-4d9f-ad97-b9c9880c3c80
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e9f13eae-09d0-4cf2-8e79-118f478a852f
+[I 2022-06-21 15:08:50.035 ServerApp] Restoring connection for 5351d734-07fd-49e4-a62c-502605cc1ddc:63142cb1-0059-4fd2-9166-88ae3f41b393
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 95cfe702-47f5-4b6d-ac05-2b4ebf806306
+[I 2022-06-21 15:08:50.445 ServerApp] Restoring connection for 9dd96156-750a-48bb-8c6c-de374408677f:ebb28b50-c923-4007-be5f-5211f4467666
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: af609668-9d52-4387-9abb-a7d0b6ce5ec4
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 250e1bf2-1d24-45a8-83ff-dddc8eab8c18
+[I 2022-06-21 15:08:54.250 ServerApp] Restoring connection for 83f40319-99c8-4b57-a4a5-30bb5130b536:9097de02-09ad-4cd9-b198-ed6c79cb9543
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 83eb30a3-77f2-4dae-8461-21cef7ee14d4
+[I 2022-06-21 15:08:57.560 ServerApp] Restoring connection for 2bd3739e-73d2-4a68-b937-ffcffa60301d:b1754760-3ac6-4e71-aaba-a53849fac675
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8e9fd973-6ce7-44ab-9046-48878d6c4f45
+[I 2022-06-21 15:08:59.755 ServerApp] Restoring connection for e926af3c-bdd2-4cf5-ba53-8fc70b076680:162c1b25-df36-4366-a124-56ca35849b5d
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 26efb801-b1c2-4143-9f65-54d8f7454eab
+[I 2022-06-21 15:08:59.828 ServerApp] Restoring connection for 2d7ebe6f-d1ae-4de0-a065-038964ce34e3:bd2f54e8-33f8-4492-9963-dd5a203389c5
+[I 2022-06-21 15:09:02.528 ServerApp] Restoring connection for 66f0e278-536a-4f60-b41e-b55f54864258:4fc89222-6366-40df-8055-abafb644d541
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 87946cc7-0b77-4f21-a5da-49103925b112
+[I 2022-06-21 15:09:09.140 ServerApp] Kernel started: c1600dc9-e1d8-4f52-a5dd-087f4e143e07
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b11f7146-339a-4c50-a608-aebe3e8cb638
+[I 2022-06-21 15:11:08.731 ServerApp] Saving file at /m2_2022/sandbox/eras_zarr.ipynb
+[W 2022-06-21 15:12:58.425 ServerApp] delete /m2_2022/sandbox/dask-worker.o753186
+[W 2022-06-21 15:12:58.428 ServerApp] delete /m2_2022/sandbox/dask-worker.o753187
+[W 2022-06-21 15:12:58.431 ServerApp] delete /m2_2022/sandbox/dask-worker.o753246
+[W 2022-06-21 15:12:58.436 ServerApp] delete /m2_2022/sandbox/dask-worker.o753247
+[W 2022-06-21 15:12:58.439 ServerApp] delete /m2_2022/sandbox/dask-worker.o753460
+[W 2022-06-21 15:12:58.441 ServerApp] delete /m2_2022/sandbox/dask-worker.o753466
+[W 2022-06-21 15:12:58.444 ServerApp] delete /m2_2022/sandbox/dask-worker.o753473
+[W 2022-06-21 15:12:58.446 ServerApp] delete /m2_2022/sandbox/dask-worker.o753517
+[W 2022-06-21 15:12:58.450 ServerApp] delete /m2_2022/sandbox/dask-worker.o753601
+[I 2022-06-21 15:13:07.102 ServerApp] Saving file at /m2_2022/sandbox/eras_zarr.ipynb
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+[I 2022-06-21 15:16:06.901 ServerApp] Starting buffering for 03d69b84-8ff2-42a2-86bb-6fa1eb9197b7:9022c6ab-6708-4d9f-ad97-b9c9880c3c80
+[I 2022-06-21 15:16:06.902 ServerApp] Starting buffering for 66f0e278-536a-4f60-b41e-b55f54864258:4fc89222-6366-40df-8055-abafb644d541
+[I 2022-06-21 15:16:06.902 ServerApp] Starting buffering for 9dd96156-750a-48bb-8c6c-de374408677f:ebb28b50-c923-4007-be5f-5211f4467666
+[I 2022-06-21 15:16:06.903 ServerApp] Starting buffering for 03f88927-3ee0-432c-b710-d4e296c1e0aa:21ec8e2a-b68c-4357-9826-fd38b3dc4ab8
+[I 2022-06-21 15:16:06.903 ServerApp] Starting buffering for 2bd3739e-73d2-4a68-b937-ffcffa60301d:b1754760-3ac6-4e71-aaba-a53849fac675
+[I 2022-06-21 15:16:06.903 ServerApp] Starting buffering for 2d7ebe6f-d1ae-4de0-a065-038964ce34e3:bd2f54e8-33f8-4492-9963-dd5a203389c5
+[I 2022-06-21 15:16:06.903 ServerApp] Starting buffering for c1600dc9-e1d8-4f52-a5dd-087f4e143e07:47346503-f465-49db-8529-048554156c79
+[I 2022-06-21 15:16:06.904 ServerApp] Starting buffering for 83f40319-99c8-4b57-a4a5-30bb5130b536:9097de02-09ad-4cd9-b198-ed6c79cb9543
+[I 2022-06-21 15:16:06.904 ServerApp] Starting buffering for e926af3c-bdd2-4cf5-ba53-8fc70b076680:162c1b25-df36-4366-a124-56ca35849b5d
+[I 2022-06-21 15:16:06.904 ServerApp] Starting buffering for c6b2079a-fead-4cd2-b0db-886acd1fe737:017bccdb-68f7-4522-a850-3e4a2feaa0e6
+[I 2022-06-21 15:16:06.905 ServerApp] Starting buffering for 5351d734-07fd-49e4-a62c-502605cc1ddc:63142cb1-0059-4fd2-9166-88ae3f41b393
+[C 2022-06-21 15:16:40.033 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-06-21 15:16:40.058 ServerApp] Shutting down 3 extensions
+[I 2022-06-21 15:16:40.058 ServerApp] Shutting down 11 kernels
+[I 2022-06-21 15:16:40.059 ServerApp] Kernel shutdown: 5351d734-07fd-49e4-a62c-502605cc1ddc
+[I 2022-06-21 15:16:40.059 ServerApp] Kernel shutdown: 66f0e278-536a-4f60-b41e-b55f54864258
+[I 2022-06-21 15:16:40.059 ServerApp] Kernel shutdown: 9dd96156-750a-48bb-8c6c-de374408677f
+[I 2022-06-21 15:16:40.060 ServerApp] Kernel shutdown: 03f88927-3ee0-432c-b710-d4e296c1e0aa
+[I 2022-06-21 15:16:40.060 ServerApp] Kernel shutdown: 2bd3739e-73d2-4a68-b937-ffcffa60301d
+[I 2022-06-21 15:16:40.060 ServerApp] Kernel shutdown: e926af3c-bdd2-4cf5-ba53-8fc70b076680
+[I 2022-06-21 15:16:40.061 ServerApp] Kernel shutdown: 2d7ebe6f-d1ae-4de0-a065-038964ce34e3
+[I 2022-06-21 15:16:40.061 ServerApp] Kernel shutdown: 03d69b84-8ff2-42a2-86bb-6fa1eb9197b7
+[I 2022-06-21 15:16:40.061 ServerApp] Kernel shutdown: c1600dc9-e1d8-4f52-a5dd-087f4e143e07
+[I 2022-06-21 15:16:40.062 ServerApp] Kernel shutdown: 83f40319-99c8-4b57-a4a5-30bb5130b536
+[I 2022-06-21 15:16:40.062 ServerApp] Kernel shutdown: c6b2079a-fead-4cd2-b0db-886acd1fe737
+[I 2022-06-21 15:16:42.905 ServerApp] Shutting down 0 terminals

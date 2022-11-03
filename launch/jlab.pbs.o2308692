@@ -1,0 +1,296 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu Oct 13 06:27:19 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-10-13 06:27:42.764 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-10-13 06:27:42.778 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-13 06:27:42.785 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-10-13 06:27:47.545 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-10-13 06:27:48.213 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-10-13 06:27:48.215 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-10-13 06:27:48.215 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-10-13 06:27:48.219 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-10-13 06:27:48.349 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-10-13 06:27:48.349 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-10-13 06:27:48.349 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-10-13 06:27:48.349 ServerApp] http://r1i2n32:8877/lab
+[I 2022-10-13 06:27:48.349 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-10-13 06:27:48.349 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 2022-10-13 06:30:02.139 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-10-13 06:30:02.676 LabApp] Build is up to date
+[W 2022-10-13 06:30:06.014 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[W 2022-10-13 06:30:06.217 ServerApp] Notebook drifters_stats/sandbox/binned_stats.ipynb is not trusted
+[I 2022-10-13 06:30:08.162 ServerApp] Kernel started: da193f81-8d1f-4e0b-ac66-9276a7ec94b6
+[I 2022-10-13 06:30:08.163 ServerApp] Kernel started: df9ca916-bca9-4465-941b-9c6e667bb521
+[I 2022-10-13 06:30:08.164 ServerApp] Kernel started: dcd889df-6521-484e-a358-943c5048fa9e
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 17, in <module>
+    app.launch_new_instance()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.initialize(argv)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 88, in inner
+    return method(app, *args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 661, in initialize
+    self.init_sockets()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 321, in init_sockets
+    self.init_control(context)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 327, in init_control
+    self.control_port = self._bind_socket(self.control_socket, self.control_port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 244, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 220, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/sugar/socket.py", line 214, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 540, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 981f7c09-f01b-4182-ac4e-3bcecee3ca86
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 7ff14597-4aa5-448a-b2d8-fcd6cf1cd52e
+[I 2022-10-13 06:30:41.145 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 17, in <module>
+    app.launch_new_instance()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.initialize(argv)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 88, in inner
+    return method(app, *args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 661, in initialize
+    self.init_sockets()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 321, in init_sockets
+    self.init_control(context)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 327, in init_control
+    self.control_port = self._bind_socket(self.control_socket, self.control_port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 244, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 220, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/sugar/socket.py", line 214, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 540, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+[I 2022-10-13 06:30:44.163 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (2/5), keep random ports
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 17, in <module>
+    app.launch_new_instance()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.initialize(argv)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 88, in inner
+    return method(app, *args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 661, in initialize
+    self.init_sockets()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 321, in init_sockets
+    self.init_control(context)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 327, in init_control
+    self.control_port = self._bind_socket(self.control_socket, self.control_port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 244, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 220, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/sugar/socket.py", line 214, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 540, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+[I 2022-10-13 06:30:47.182 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (3/5), keep random ports
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 17, in <module>
+    app.launch_new_instance()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.initialize(argv)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 88, in inner
+    return method(app, *args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 661, in initialize
+    self.init_sockets()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 321, in init_sockets
+    self.init_control(context)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 327, in init_control
+    self.control_port = self._bind_socket(self.control_socket, self.control_port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 244, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 220, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/sugar/socket.py", line 214, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 540, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+[I 2022-10-13 06:30:50.201 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (4/5), keep random ports
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 17, in <module>
+    app.launch_new_instance()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.initialize(argv)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 88, in inner
+    return method(app, *args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 661, in initialize
+    self.init_sockets()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 321, in init_sockets
+    self.init_control(context)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 327, in init_control
+    self.control_port = self._bind_socket(self.control_socket, self.control_port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 244, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 220, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/sugar/socket.py", line 214, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 540, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+[I 2022-10-13 06:30:53.219 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (5/5), keep random ports
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 17, in <module>
+    app.launch_new_instance()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.initialize(argv)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 88, in inner
+    return method(app, *args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 661, in initialize
+    self.init_sockets()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 321, in init_sockets
+    self.init_control(context)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 327, in init_control
+    self.control_port = self._bind_socket(self.control_socket, self.control_port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 244, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 220, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/sugar/socket.py", line 214, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 540, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+[W 2022-10-13 06:30:56.238 ServerApp] AsyncIOLoopKernelRestarter: restart failed
+[W 2022-10-13 06:30:56.238 ServerApp] Kernel dcd889df-6521-484e-a358-943c5048fa9e died, removing from map.
+[W 2022-10-13 06:31:08.249 ServerApp] Timeout waiting for kernel_info reply from dcd889df-6521-484e-a358-943c5048fa9e
+[W 2022-10-13 06:31:08.249 ServerApp] Timeout waiting for kernel_info reply from dcd889df-6521-484e-a358-943c5048fa9e
+[W 2022-10-13 06:31:08.250 ServerApp] 404 GET /api/kernels/dcd889df-6521-484e-a358-943c5048fa9e/channels?session_id=e5ceb97f-f274-4571-8300-0bace9deed81 (10.148.1.145): Kernel does not exist: dcd889df-6521-484e-a358-943c5048fa9e
+[W 2022-10-13 06:31:08.251 ServerApp] 404 GET /api/kernels/dcd889df-6521-484e-a358-943c5048fa9e/channels?session_id=46f71860-33d9-423b-a0fb-b356c058aecb (10.148.1.145): Kernel does not exist: dcd889df-6521-484e-a358-943c5048fa9e
+[W 2022-10-13 06:31:08.251 ServerApp] 404 GET /api/kernels/dcd889df-6521-484e-a358-943c5048fa9e/channels?session_id=dfd4ab5b-1eea-4360-83c6-2b7e15a956f1 (10.148.1.145): Kernel does not exist: dcd889df-6521-484e-a358-943c5048fa9e
+[I 2022-10-13 06:32:06.977 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 06:34:07.391 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 06:36:07.755 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 06:38:08.122 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 06:40:08.492 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 06:42:08.848 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 06:48:15.874 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 06:50:16.144 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 06:52:16.404 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 06:54:16.672 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 06:56:17.085 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 06:58:17.375 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:00:17.659 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[W 2022-10-13 07:02:11.952 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2296174
+[W 2022-10-13 07:02:12.092 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2296175
+[W 2022-10-13 07:02:12.096 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2297029
+[W 2022-10-13 07:02:12.104 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2296176
+[W 2022-10-13 07:02:12.108 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2297030
+[W 2022-10-13 07:02:12.112 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2296179
+[W 2022-10-13 07:02:12.118 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2296178
+[W 2022-10-13 07:02:12.121 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2297028
+[W 2022-10-13 07:02:12.125 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2297031
+[W 2022-10-13 07:02:12.128 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2297032
+[W 2022-10-13 07:02:12.133 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2298139
+[W 2022-10-13 07:02:12.138 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2298140
+[W 2022-10-13 07:02:12.142 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2298141
+[W 2022-10-13 07:02:12.146 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2298142
+[W 2022-10-13 07:02:12.150 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2298143
+[W 2022-10-13 07:02:12.154 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2300305
+[W 2022-10-13 07:02:12.174 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2300301
+[W 2022-10-13 07:02:12.178 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2300307
+[W 2022-10-13 07:02:12.182 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2300309
+[W 2022-10-13 07:02:12.186 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2300311
+[I 2022-10-13 07:02:17.953 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:04:18.219 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:06:18.498 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:08:18.807 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:10:19.090 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:12:19.400 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:14:19.669 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:16:19.965 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:20:20.251 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:22:20.558 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:24:20.878 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:26:21.206 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:28:21.484 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:30:21.780 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:32:22.075 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:32:22.774 ServerApp] Kernel interrupted: da193f81-8d1f-4e0b-ac66-9276a7ec94b6
+[I 2022-10-13 07:32:25.754 ServerApp] Kernel interrupted: da193f81-8d1f-4e0b-ac66-9276a7ec94b6
+[I 2022-10-13 07:34:22.354 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:34:52.944 ServerApp] Kernel interrupted: da193f81-8d1f-4e0b-ac66-9276a7ec94b6
+[I 2022-10-13 07:36:22.707 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:38:22.993 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:40:23.286 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:42:23.570 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:44:23.850 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:46:24.184 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:46:45.364 ServerApp] Kernel interrupted: da193f81-8d1f-4e0b-ac66-9276a7ec94b6
+[I 2022-10-13 07:48:24.438 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:50:24.862 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:52:25.146 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 07:54:25.439 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:06:25.685 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:08:25.941 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:12:26.236 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:14:26.731 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:18:27.020 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:20:27.363 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:22:27.634 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:24:27.934 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:26:28.281 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:28:28.645 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:30:29.017 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:32:29.289 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:34:29.579 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:36:29.900 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:38:30.221 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:40:30.569 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:42:30.870 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:44:31.121 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-13 08:46:31.478 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+Terminated
+[C 2022-10-13 08:49:02.205 ServerApp] received signal 15, stopping
+[I 2022-10-13 08:49:02.207 ServerApp] Shutting down 3 extensions
+[I 2022-10-13 08:49:02.207 ServerApp] Shutting down 2 kernels
+[I 2022-10-13 08:49:02.207 ServerApp] Kernel shutdown: da193f81-8d1f-4e0b-ac66-9276a7ec94b6
+[I 2022-10-13 08:49:02.208 ServerApp] Kernel shutdown: df9ca916-bca9-4465-941b-9c6e667bb521
+[I 2022-10-13 08:49:04.922 ServerApp] Shutting down 0 terminals

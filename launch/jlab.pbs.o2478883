@@ -1,0 +1,1112 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Mon Oct 24 07:15:05 GMT 2022
+/home1/datahome/mdemol/m2_2022/launch/jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+/home1/datahome/mdemol/m2_2022/launch/jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-10-24 07:16:07.662 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-10-24 07:16:07.689 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-24 07:16:07.696 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-10-24 07:16:07.696 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2022-10-24 07:16:08.145 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/jupyterlab
+[I 2022-10-24 07:16:08.145 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/mdenv/share/jupyter/lab
+[I 2022-10-24 07:16:08.155 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-10-24 07:16:08.304 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-10-24 07:16:08.305 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2022-10-24 07:16:08.305 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-10-24 07:16:08.306 ServerApp] Jupyter Server 1.21.0 is running at:
+[I 2022-10-24 07:16:08.306 ServerApp] http://r1i5n35:8877/lab
+[I 2022-10-24 07:16:08.306 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-10-24 07:16:08.306 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-10-24 07:19:39.046 LabApp] Build is up to date
+[I 2022-10-24 07:19:45.523 ServerApp] Kernel started: bfecb098-62fa-42c5-a603-60516995fa22
+[I 2022-10-24 07:19:45.524 ServerApp] Kernel started: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 07:19:45.524 ServerApp] Kernel started: 086f64ff-7f9e-4d63-af08-357b19a064cd
+[I 2022-10-24 07:19:45.703 ServerApp] Kernel started: 9744f598-3bea-44fa-a959-952e94b8a635
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c93d8f27-c07f-4ad9-8485-e7c811f4165b
+[W 2022-10-24 07:20:18.857 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x2aaabeda9c40>
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: afb8c4a5-5bdc-4634-a1e4-688e49dd9028
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b186bbcd-fe43-4a55-92ef-3c51b8f4e8f7
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 120593c1-8bfd-4e5b-8812-740d2e8b41ef
+[W 2022-10-24 07:24:48.799 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-24 07:24:48.814 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-10-24 07:24:48.843 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-10-24 07:24:48.844 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-24 07:24:48.883 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-24 07:24:49.044 ServerApp] WebSocket ping timeout after 119999 ms.
+[I 2022-10-24 07:24:53.815 ServerApp] Starting buffering for 9744f598-3bea-44fa-a959-952e94b8a635:fff0afbe-b977-426b-92ba-aab325ab61a5
+[I 2022-10-24 07:24:53.845 ServerApp] Starting buffering for 086f64ff-7f9e-4d63-af08-357b19a064cd:7d2823f5-e4e3-4913-bec3-3a08cc176411
+[I 2022-10-24 07:24:53.884 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:ccdc5b1c-8f18-4d72-8568-165475b8287c
+[I 2022-10-24 07:24:54.044 ServerApp] Starting buffering for bfecb098-62fa-42c5-a603-60516995fa22:48e21644-92e1-43e7-b8e9-282f5f055646
+[I 2022-10-24 07:25:03.564 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:ccdc5b1c-8f18-4d72-8568-165475b8287c
+[I 2022-10-24 07:25:03.672 ServerApp] Restoring connection for bfecb098-62fa-42c5-a603-60516995fa22:48e21644-92e1-43e7-b8e9-282f5f055646
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e173a709-e66a-4206-99d4-0aa8aa5c99b8
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: af6b453b-41d5-4b54-ac66-0f9d4571fa0d
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e6697e24-7b50-4b29-8261-4859eff230ca
+[IPKernelApp] WARNING | No such comm: 1e8863ee-9203-495e-a045-1097f8a61d62
+[I 2022-10-24 07:30:57.124 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-24 07:34:33.566 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-24 07:34:33.575 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-10-24 07:34:33.577 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-10-24 07:34:33.579 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-24 07:34:33.582 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-24 07:34:33.673 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-24 07:34:38.567 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:ccdc5b1c-8f18-4d72-8568-165475b8287c
+[I 2022-10-24 07:34:38.578 ServerApp] Starting buffering for 086f64ff-7f9e-4d63-af08-357b19a064cd:7d2823f5-e4e3-4913-bec3-3a08cc176411
+[I 2022-10-24 07:34:38.582 ServerApp] Starting buffering for 9744f598-3bea-44fa-a959-952e94b8a635:fff0afbe-b977-426b-92ba-aab325ab61a5
+[I 2022-10-24 07:34:38.674 ServerApp] Starting buffering for bfecb098-62fa-42c5-a603-60516995fa22:48e21644-92e1-43e7-b8e9-282f5f055646
+[I 2022-10-24 07:40:33.743 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:ccdc5b1c-8f18-4d72-8568-165475b8287c
+[I 2022-10-24 07:40:33.749 ServerApp] Restoring connection for bfecb098-62fa-42c5-a603-60516995fa22:48e21644-92e1-43e7-b8e9-282f5f055646
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ebfc3ce0-413d-467f-b00f-ee0a8427681a
+[IPKernelApp] WARNING | No such comm: 95992b4c-85a7-4290-a995-42e400a8df02
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2349c2eb-d964-48fa-9857-3a4dcabf07d5
+[I 2022-10-24 07:40:59.304 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 07:47:21.279 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-24 07:47:22.148 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+Exception ignored on calling ctypes callback function: <function ExecutionEngine._raw_object_cache_notify at 0x2aaab6cf6940>
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/llvmlite/binding/executionengine.py", line 171, in _raw_object_cache_notify
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+    def _raw_object_cache_notify(self, data):
+KeyboardInterrupt: 
+[I 2022-10-24 07:47:25.774 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-24 07:47:26.000 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.worker - ERROR - Could not deserialize task ('rename-350e945ac083e8dc2019b6fb3bcc0ac8', 1)
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2845, in loads_function
+    result = cache_loads[bytes_object]
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/collections.py", line 24, in __getitem__
+    value = super().__getitem__(key)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/collections/__init__.py", line 1058, in __getitem__
+    raise KeyError(key)
+KeyError: b'\x80\x04\x95\x1b.\x00\x00\x00\x00\x00\x00\x8c\x11dask.optimization\x94\x8c\x10SubgraphCallable\x94\x93\x94(}\x94(\x8c\'rename-350e945ac083e8dc2019b6fb3bcc0ac8\x94\x8c@read-parquet-reset_index-rename-350e945ac083e8dc2019b6fb3bcc0ac8\x94h\x05(\x8c\ndask.utils\x94\x8c\x05apply\x94\x93\x94\x8c\x13dask.dataframe.core\x94\x8c\x11apply_and_enforce\x94\x93\x94]\x94((h\x08h\x06\x8c\x0cmethodcaller\x94\x93\x94\x8c\x0breset_index\x94\x85\x94R\x94]\x94\x8c\x1edask.dataframe.io.parquet.core\x94\x8c\x16ParquetFunctionWrapper\x94\x93\x94)\x81\x94}\x94(\x8c\x06engine\x94\x8c\x1fdask.dataframe.io.parquet.arrow\x94\x8c\x12ArrowDatasetEngine\x94\x93\x94\x8c\x02fs\x94\x8c\x0bfsspec.spec\x94\x8c\rmake_instance\x94\x93\x94\x8c\x1cfsspec.implementations.local\x94\x8c\x0fLocalFileSystem\x94\x93\x94)}\x94\x87\x94R\x94\x8c\x04meta\x94\x8c\x11pandas.core.frame\x94\x8c\tDataFrame\x94\x93\x94)\x81\x94}\x94(\x8c\x04_mgr\x94\x8c\x1epandas.core.internals.managers\x94\x8c\x0cBlockManager\x94\x93\x94(\x8c\x16pandas._libs.internals\x94\x8c\x0f_unpickle_block\x94\x93\x94\x8c\x13pandas._libs.arrays\x94\x8c\x1c__pyx_unpickle_NDArrayBacked\x94\x93\x94\x8c\x1cpandas.core.arrays.datetimes\x94\x8c\rDatetimeArray\x94\x93\x94J\xb8\\U\rN\x87\x94R\x94\x8c\x05numpy\x94\x8c\x05dtype\x94\x93\x94\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04\x8c\x01<\x94NNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94b\x8c\x15numpy.core.multiarray\x94\x8c\x0c_reconstruct\x94\x93\x94h;\x8c\x07ndarray\x94\x93\x94K\x00\x85\x94C\x01b\x94\x87\x94R\x94(K\x01K\x04K\x00\x86\x94h=\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94b\x89C\x00\x94t\x94b}\x94\x87\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x04\x85\x94h=\x8c\x02i8\x94\x89\x88\x87\x94R\x94(K\x03hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00t\x94b\x89C \x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19K\x00\x86\x94h=\x8c\x02f8\x94\x89\x88\x87\x94R\x94(K\x03hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00t\x94b\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19\x85\x94hc\x89C\xc8\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x16\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x00\x00\x00\x00\x00\x19\x00\x00\x00\x00\x00\x00\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x1b\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x00\x00\x00\x00\x1e\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00!\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x00\x00\x00\x00\x00#\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x00\x00\x00\x00\x00%\x00\x00\x00\x00\x00\x00\x00&\x00\x00\x00\x00\x00\x00\x00\'\x00\x00\x00\x00\x00\x00\x00(\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x01K\x00\x86\x94h=\x8c\x02O8\x94\x89\x88\x87\x94R\x94(K\x03\x8c\x01|\x94NNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK?t\x94b\x89]\x94t\x94b\x8c\x08builtins\x94\x8c\x05slice\x94\x93\x94K\x0cK\rK\x01\x87\x94R\x94K\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0bK\x00\x86\x94h=\x8c\x02f4\x94\x89\x88\x87\x94R\x94(K\x03hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00t\x94b\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0b\x85\x94hc\x89CX\r\x00\x00\x00\x00\x00\x00\x00\x0e\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x11\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x00\x00\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00\x18\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94t\x94]\x94(\x8c\x18pandas.core.indexes.base\x94\x8c\n_new_Index\x94\x93\x94h\x9f\x8c\x05Index\x94\x93\x94}\x94(\x8c\x04data\x94hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K)\x85\x94h\x80\x89]\x94(\x8c\x04time\x94\x8c\x07rowsize\x94\x8c\x03WMO\x94\x8c\x05expno\x94\x8c\x0bdeploy_date\x94\x8c\ndeploy_lat\x94\x8c\ndeploy_lon\x94\x8c\x08end_date\x94\x8c\x07end_lat\x94\x8c\x07end_lon\x94\x8c\x10drogue_lost_date\x94\x8c\ttypedeath\x94\x8c\x08typebuoy\x94\x8c\x03lon\x94\x8c\x03lat\x94\x8c\x06lon360\x94\x8c\x02ve\x94\x8c\x02vn\x94\x8c\x07err_lat\x94\x8c\x07err_lon\x94\x8c\x06err_ve\x94\x8c\x06err_vn\x94\x8c\x03gap\x94\x8c\tlow_omega\x94\x8c\x0einertial_omega\x94\x8c\x11semidiurnal_omega\x94\x8c\tlow_phase\x94\x8c\x0blow_ve_real\x94\x8c\x0blow_ve_imag\x94\x8c\x0blow_vn_real\x94\x8c\x0blow_vn_imag\x94\x8c\x0einertial_phase\x94\x8c\x10inertial_ve_real\x94\x8c\x10inertial_ve_imag\x94\x8c\x10inertial_vn_real\x94\x8c\x10inertial_vn_imag\x94\x8c\x11semidiurnal_phase\x94\x8c\x13semidiurnal_ve_real\x94\x8c\x13semidiurnal_ve_imag\x94\x8c\x13semidiurnal_vn_real\x94\x8c\x13semidiurnal_vn_imag\x94et\x94b\x8c\x04name\x94Nu\x86\x94R\x94h\xa1\x8c\x1bpandas.core.indexes.numeric\x94\x8c\nInt64Index\x94\x93\x94}\x94(h\xa5hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x00\x85\x94hc\x89hYt\x94bh\xd5Nu\x86\x94R\x94e\x86\x94R\x94\x8c\x04_typ\x94\x8c\tdataframe\x94\x8c\t_metadata\x94]\x94\x8c\x05attrs\x94}\x94\x8c\x06_flags\x94}\x94\x8c\x17allows_duplicate_labels\x94\x88sub\x8c\x08_columns\x94]\x94(h\xabh\xach\xadh\xaeh\xafh\xb0h\xb1h\xb2h\xb3h\xb4h\xb5h\xb6h\xb7h\xb8h\xb9h\xbah\xbbh\xbch\xbdh\xbeh\xbfh\xc0h\xc1h\xc2h\xc3h\xc4h\xc5h\xc6h\xc7h\xc8h\xc9h\xcah\xcbh\xcch\xcdh\xceh\xcfh\xd0h\xd1h\xd2h\xd3e\x8c\x05index\x94]\x94\x8c\x13__null_dask_index__\x94a\x8c\rcommon_kwargs\x94}\x94(\x8c\npartitions\x94]\x94\x8c\ncategories\x94]\x94\x8c\x07filters\x94N\x8c\x06schema\x94\x8c\x0bpyarrow.lib\x94\x8c\x06schema\x94\x93\x94]\x94(h\xfb\x8c\x05field\x94\x93\x94(\x8c\x04time\x94h\xfb\x8c\ttimestamp\x94\x93\x94\x8c\x02us\x94N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07rowsize\x94h\xfb\x8c\x0etype_for_alias\x94\x93\x94\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03WMO\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x05expno\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0bdeploy_date\x94j\x03\x01\x00\x00j\x04\x01\x00\x00N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\ndeploy_lat\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\ndeploy_lon\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x08end_date\x94j\x03\x01\x00\x00j\x04\x01\x00\x00N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07end_lat\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07end_lon\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10drogue_lost_date\x94j\x03\x01\x00\x00j\x04\x01\x00\x00N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\ttypedeath\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x08typebuoy\x94j\x0b\x01\x00\x00\x8c\x06binary\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03lon\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03lat\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x06lon360\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x02ve\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x02vn\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07err_lat\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07err_lon\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x06err_ve\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x06err_vn\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03gap\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\tlow_omega\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0einertial_omega\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x11semidiurnal_omega\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\tlow_phase\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_ve_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_ve_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_vn_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_vn_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0einertial_phase\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_ve_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_ve_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_vn_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_vn_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x11semidiurnal_phase\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_ve_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_ve_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_vn_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_vn_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13__null_dask_index__\x94j\x0b\x01\x00\x00\x8c\x05int64\x94\x85\x94R\x94\x88Nt\x94R\x94e}\x94C\x06pandas\x94B#\x15\x00\x00{"index_columns": ["__null_dask_index__"], "column_indexes": [{"name": null, "field_name": null, "pandas_type": "unicode", "numpy_type": "object", "metadata": {"encoding": "UTF-8"}}], "columns": [{"name": "time", "field_name": "time", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "rowsize", "field_name": "rowsize", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "WMO", "field_name": "WMO", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "expno", "field_name": "expno", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "deploy_date", "field_name": "deploy_date", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "deploy_lat", "field_name": "deploy_lat", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "deploy_lon", "field_name": "deploy_lon", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "end_date", "field_name": "end_date", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "end_lat", "field_name": "end_lat", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "end_lon", "field_name": "end_lon", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "drogue_lost_date", "field_name": "drogue_lost_date", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "typedeath", "field_name": "typedeath", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "typebuoy", "field_name": "typebuoy", "pandas_type": "bytes", "numpy_type": "object", "metadata": null}, {"name": "lon", "field_name": "lon", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "lat", "field_name": "lat", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "lon360", "field_name": "lon360", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "ve", "field_name": "ve", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "vn", "field_name": "vn", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_lat", "field_name": "err_lat", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_lon", "field_name": "err_lon", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_ve", "field_name": "err_ve", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_vn", "field_name": "err_vn", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "gap", "field_name": "gap", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_omega", "field_name": "low_omega", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_omega", "field_name": "inertial_omega", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "semidiurnal_omega", "field_name": "semidiurnal_omega", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_phase", "field_name": "low_phase", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_ve_real", "field_name": "low_ve_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_ve_imag", "field_name": "low_ve_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_vn_real", "field_name": "low_vn_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_vn_imag", "field_name": "low_vn_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_phase", "field_name": "inertial_phase", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "inertial_ve_real", "field_name": "inertial_ve_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_ve_imag", "field_name": "inertial_ve_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_vn_real", "field_name": "inertial_vn_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_vn_imag", "field_name": "inertial_vn_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_phase", "field_name": "semidiurnal_phase", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_ve_real", "field_name": "semidiurnal_ve_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_ve_imag", "field_name": "semidiurnal_ve_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_vn_real", "field_name": "semidiurnal_vn_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_vn_imag", "field_name": "semidiurnal_vn_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "__null_dask_index__", "field_name": "__null_dask_index__", "pandas_type": "int64", "numpy_type": "int64", "metadata": null}], "creator": {"library": "pyarrow", "version": "6.0.1"}, "pandas_version": "1.4.0"}\x94s\x86\x94R\x94\x8c\x07dataset\x94}\x94(\x8c\x0cpartitioning\x94\x8c\x04hive\x94\x8c\x06format\x94\x8c\x18pyarrow._dataset_parquet\x94\x8c\x11ParquetFileFormat\x94\x93\x94j\x08\x02\x00\x00\x8c!__pyx_unpickle_ParquetReadOptions\x94\x93\x94j\x08\x02\x00\x00\x8c\x12ParquetReadOptions\x94\x93\x94J\xcf\xb4A\x0eN\x87\x94R\x94K\x03\x8f\x94\x86\x94bj\x08\x02\x00\x00\x8c\x1aParquetFragmentScanOptions\x94\x93\x94\x89M\x00 \x89\x87\x94R\x94\x86\x94R\x94u\x8c\x04read\x94}\x94\x8c\x11open_file_options\x94}\x94suub\x8c\x13__dask_blockwise__3\x94\x86\x94ah\x85\x8c\x04dict\x94\x93\x94]\x94]\x94(\x8c\x04drop\x94\x89ea\x86\x94t\x94\x8c\x13__dask_blockwise__0\x94ej \x02\x00\x00]\x94(]\x94(\x8c\x05_func\x94h\x0e\x8c\x06rename\x94\x85\x94R\x94e]\x94(\x8c\x05_meta\x94h))\x81\x94}\x94(h,h/(h2h5h8J\xb8\\U\rN\x87\x94R\x94h=\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x04K\x00\x86\x94h=\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94b\x89hYt\x94b}\x94\x8c\x05_freq\x94Ns\x87\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x04\x85\x94hc\x89C \x01\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0bK\x00\x86\x94h\x92\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0b\x85\x94hc\x89CX\x0e\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x11\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x00\x00\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00\x16\x00\x00\x00\x00\x00\x00\x00\x19\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19K\x00\x86\x94ho\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19\x85\x94hc\x89C\xc8\x02\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x00\x00\x00\x00\x00\x18\x00\x00\x00\x00\x00\x00\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x1b\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x00\x00\x00\x00\x1e\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00!\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x00\x00\x00\x00\x00#\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x00\x00\x00\x00\x00%\x00\x00\x00\x00\x00\x00\x00&\x00\x00\x00\x00\x00\x00\x00\'\x00\x00\x00\x00\x00\x00\x00(\x00\x00\x00\x00\x00\x00\x00)\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x01K\x00\x86\x94hc\x89hYt\x94bh\x87K\x00K\x01K\x01\x87\x94R\x94K\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x01K\x00\x86\x94h\x80\x89]\x94t\x94bh\x87K\rK\x0eK\x01\x87\x94R\x94K\x02\x87\x94R\x94t\x94]\x94(h\xa1h\xa3}\x94(h\xa5hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K*\x85\x94h\x80\x89]\x94(\x8c\x02id\x94h\xabh\xach\xadh\xaeh\xafh\xb0h\xb1h\xb2h\xb3h\xb4h\xb5h\xb6h\xb7h\xb8h\xb9h\xbah\xbbh\xbch\xbdh\xbeh\xbfh\xc0h\xc1h\xc2h\xc3h\xc4h\xc5h\xc6h\xc7h\xc8h\xc9h\xcah\xcbh\xcch\xcdh\xceh\xcfh\xd0h\xd1h\xd2h\xd3et\x94bh\xd5Nu\x86\x94R\x94h\xa1\x8c\x19pandas.core.indexes.range\x94\x8c\nRangeIndex\x94\x93\x94}\x94(h\xd5N\x8c\x05start\x94K\x00\x8c\x04stop\x94K\x00\x8c\x04step\x94K\x01u\x86\x94R\x94e\x86\x94R\x94h\xe5h\xe6h\xe7h\xe8h\xe9}\x94(\x8c\tbandwidth\x94G?\xb9\x99\x99\x99\x99\x99\x9a\x8c\x08inertial\x94}\x94\x8c\x08bandpass\x94\x88s\x8c\x03low\x94}\x94\x8c\x08bandpass\x94\x89s\x8c\x0bsemidiurnal\x94}\x94\x8c\x08bandpass\x94\x88suh\xeb}\x94h\xed\x88sube]\x94(\x8c\x07columns\x94j \x02\x00\x00]\x94]\x94(h\xf0j\x88\x02\x00\x00ea\x86\x94ee\x86\x94t\x94\x8c\x13__dask_blockwise__0\x94N\x8c\x13__dask_blockwise__1\x94\x8c,reset_index-7ec80ad84d5806d36dd33c580024a802\x94\x8c\x13__dask_blockwise__2\x94\x8c-read-parquet-b9ef1171cefaf174904f2d4c895f2987\x94uh\x04\x8c\x13__dask_blockwise__3\x94\x85\x94\x8c6subgraph_callable-b304fdc0-5cb5-4774-8268-c3517f395c70\x94t\x94R\x94.'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/nanny.py", line 953, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/base_events.py", line 1905, in _run_once
+    handle._run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 180, in wrapper
+    return await method(self, *args, **kwargs)  # type: ignore
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2212, in execute
+    function, args, kwargs = await self._maybe_deserialize_task(ts)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2185, in _maybe_deserialize_task
+    function, args, kwargs = _deserialize(*ts.run_spec)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2856, in _deserialize
+    function = loads_function(function)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2847, in loads_function
+    result = pickle.loads(bytes_object)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/protocol/pickle.py", line 73, in loads
+    return pickle.loads(x)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/dataframe/__init__.py", line 4, in <module>
+    from dask.dataframe import backends, dispatch, rolling
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/dataframe/backends.py", line 18, in <module>
+    from dask.array.dispatch import percentile_lookup
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/__init__.py", line 2, in <module>
+    from dask.array import backends, fft, lib, linalg, ma, overlap, random
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/backends.py", line 18, in <module>
+    from dask.array.percentile import _percentile
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/percentile.py", line 9, in <module>
+    from dask.array.core import Array
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/core.py", line 37, in <module>
+    from dask.array.chunk_types import is_valid_array_chunk, is_valid_chunk_type
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/chunk_types.py", line 122, in <module>
+    import sparse
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/sparse/__init__.py", line 1, in <module>
+    from ._coo import COO, as_coo
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/sparse/_coo/__init__.py", line 1, in <module>
+    from .core import COO, as_coo
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/sparse/_coo/core.py", line 9, in <module>
+    import numba
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/numba/__init__.py", line 19, in <module>
+    from numba.core import config
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/numba/core/config.py", line 16, in <module>
+    import llvmlite.binding as ll
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/llvmlite/binding/__init__.py", line 14, in <module>
+    from .analysis import *
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/llvmlite/binding/analysis.py", line 7, in <module>
+    from llvmlite import ir
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/llvmlite/ir/__init__.py", line 6, in <module>
+    from .values import *
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/llvmlite/ir/values.py", line 586, in <module>
+    class MetaDataString(NamedValue):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/llvmlite/ir/values.py", line 586, in MetaDataString
+    class MetaDataString(NamedValue):
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2845, in loads_function
+    result = cache_loads[bytes_object]
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/collections.py", line 24, in __getitem__
+    value = super().__getitem__(key)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/collections/__init__.py", line 1058, in __getitem__
+    raise KeyError(key)
+KeyError: b'\x80\x04\x95\x1b.\x00\x00\x00\x00\x00\x00\x8c\x11dask.optimization\x94\x8c\x10SubgraphCallable\x94\x93\x94(}\x94(\x8c\'rename-350e945ac083e8dc2019b6fb3bcc0ac8\x94\x8c@read-parquet-reset_index-rename-350e945ac083e8dc2019b6fb3bcc0ac8\x94h\x05(\x8c\ndask.utils\x94\x8c\x05apply\x94\x93\x94\x8c\x13dask.dataframe.core\x94\x8c\x11apply_and_enforce\x94\x93\x94]\x94((h\x08h\x06\x8c\x0cmethodcaller\x94\x93\x94\x8c\x0breset_index\x94\x85\x94R\x94]\x94\x8c\x1edask.dataframe.io.parquet.core\x94\x8c\x16ParquetFunctionWrapper\x94\x93\x94)\x81\x94}\x94(\x8c\x06engine\x94\x8c\x1fdask.dataframe.io.parquet.arrow\x94\x8c\x12ArrowDatasetEngine\x94\x93\x94\x8c\x02fs\x94\x8c\x0bfsspec.spec\x94\x8c\rmake_instance\x94\x93\x94\x8c\x1cfsspec.implementations.local\x94\x8c\x0fLocalFileSystem\x94\x93\x94)}\x94\x87\x94R\x94\x8c\x04meta\x94\x8c\x11pandas.core.frame\x94\x8c\tDataFrame\x94\x93\x94)\x81\x94}\x94(\x8c\x04_mgr\x94\x8c\x1epandas.core.internals.managers\x94\x8c\x0cBlockManager\x94\x93\x94(\x8c\x16pandas._libs.internals\x94\x8c\x0f_unpickle_block\x94\x93\x94\x8c\x13pandas._libs.arrays\x94\x8c\x1c__pyx_unpickle_NDArrayBacked\x94\x93\x94\x8c\x1cpandas.core.arrays.datetimes\x94\x8c\rDatetimeArray\x94\x93\x94J\xb8\\U\rN\x87\x94R\x94\x8c\x05numpy\x94\x8c\x05dtype\x94\x93\x94\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04\x8c\x01<\x94NNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94b\x8c\x15numpy.core.multiarray\x94\x8c\x0c_reconstruct\x94\x93\x94h;\x8c\x07ndarray\x94\x93\x94K\x00\x85\x94C\x01b\x94\x87\x94R\x94(K\x01K\x04K\x00\x86\x94h=\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94b\x89C\x00\x94t\x94b}\x94\x87\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x04\x85\x94h=\x8c\x02i8\x94\x89\x88\x87\x94R\x94(K\x03hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00t\x94b\x89C \x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19K\x00\x86\x94h=\x8c\x02f8\x94\x89\x88\x87\x94R\x94(K\x03hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00t\x94b\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19\x85\x94hc\x89C\xc8\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x16\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x00\x00\x00\x00\x00\x19\x00\x00\x00\x00\x00\x00\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x1b\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x00\x00\x00\x00\x1e\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00!\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x00\x00\x00\x00\x00#\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x00\x00\x00\x00\x00%\x00\x00\x00\x00\x00\x00\x00&\x00\x00\x00\x00\x00\x00\x00\'\x00\x00\x00\x00\x00\x00\x00(\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x01K\x00\x86\x94h=\x8c\x02O8\x94\x89\x88\x87\x94R\x94(K\x03\x8c\x01|\x94NNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK?t\x94b\x89]\x94t\x94b\x8c\x08builtins\x94\x8c\x05slice\x94\x93\x94K\x0cK\rK\x01\x87\x94R\x94K\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0bK\x00\x86\x94h=\x8c\x02f4\x94\x89\x88\x87\x94R\x94(K\x03hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00t\x94b\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0b\x85\x94hc\x89CX\r\x00\x00\x00\x00\x00\x00\x00\x0e\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x11\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x00\x00\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00\x18\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94t\x94]\x94(\x8c\x18pandas.core.indexes.base\x94\x8c\n_new_Index\x94\x93\x94h\x9f\x8c\x05Index\x94\x93\x94}\x94(\x8c\x04data\x94hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K)\x85\x94h\x80\x89]\x94(\x8c\x04time\x94\x8c\x07rowsize\x94\x8c\x03WMO\x94\x8c\x05expno\x94\x8c\x0bdeploy_date\x94\x8c\ndeploy_lat\x94\x8c\ndeploy_lon\x94\x8c\x08end_date\x94\x8c\x07end_lat\x94\x8c\x07end_lon\x94\x8c\x10drogue_lost_date\x94\x8c\ttypedeath\x94\x8c\x08typebuoy\x94\x8c\x03lon\x94\x8c\x03lat\x94\x8c\x06lon360\x94\x8c\x02ve\x94\x8c\x02vn\x94\x8c\x07err_lat\x94\x8c\x07err_lon\x94\x8c\x06err_ve\x94\x8c\x06err_vn\x94\x8c\x03gap\x94\x8c\tlow_omega\x94\x8c\x0einertial_omega\x94\x8c\x11semidiurnal_omega\x94\x8c\tlow_phase\x94\x8c\x0blow_ve_real\x94\x8c\x0blow_ve_imag\x94\x8c\x0blow_vn_real\x94\x8c\x0blow_vn_imag\x94\x8c\x0einertial_phase\x94\x8c\x10inertial_ve_real\x94\x8c\x10inertial_ve_imag\x94\x8c\x10inertial_vn_real\x94\x8c\x10inertial_vn_imag\x94\x8c\x11semidiurnal_phase\x94\x8c\x13semidiurnal_ve_real\x94\x8c\x13semidiurnal_ve_imag\x94\x8c\x13semidiurnal_vn_real\x94\x8c\x13semidiurnal_vn_imag\x94et\x94b\x8c\x04name\x94Nu\x86\x94R\x94h\xa1\x8c\x1bpandas.core.indexes.numeric\x94\x8c\nInt64Index\x94\x93\x94}\x94(h\xa5hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x00\x85\x94hc\x89hYt\x94bh\xd5Nu\x86\x94R\x94e\x86\x94R\x94\x8c\x04_typ\x94\x8c\tdataframe\x94\x8c\t_metadata\x94]\x94\x8c\x05attrs\x94}\x94\x8c\x06_flags\x94}\x94\x8c\x17allows_duplicate_labels\x94\x88sub\x8c\x08_columns\x94]\x94(h\xabh\xach\xadh\xaeh\xafh\xb0h\xb1h\xb2h\xb3h\xb4h\xb5h\xb6h\xb7h\xb8h\xb9h\xbah\xbbh\xbch\xbdh\xbeh\xbfh\xc0h\xc1h\xc2h\xc3h\xc4h\xc5h\xc6h\xc7h\xc8h\xc9h\xcah\xcbh\xcch\xcdh\xceh\xcfh\xd0h\xd1h\xd2h\xd3e\x8c\x05index\x94]\x94\x8c\x13__null_dask_index__\x94a\x8c\rcommon_kwargs\x94}\x94(\x8c\npartitions\x94]\x94\x8c\ncategories\x94]\x94\x8c\x07filters\x94N\x8c\x06schema\x94\x8c\x0bpyarrow.lib\x94\x8c\x06schema\x94\x93\x94]\x94(h\xfb\x8c\x05field\x94\x93\x94(\x8c\x04time\x94h\xfb\x8c\ttimestamp\x94\x93\x94\x8c\x02us\x94N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07rowsize\x94h\xfb\x8c\x0etype_for_alias\x94\x93\x94\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03WMO\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x05expno\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0bdeploy_date\x94j\x03\x01\x00\x00j\x04\x01\x00\x00N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\ndeploy_lat\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\ndeploy_lon\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x08end_date\x94j\x03\x01\x00\x00j\x04\x01\x00\x00N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07end_lat\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07end_lon\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10drogue_lost_date\x94j\x03\x01\x00\x00j\x04\x01\x00\x00N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\ttypedeath\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x08typebuoy\x94j\x0b\x01\x00\x00\x8c\x06binary\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03lon\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03lat\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x06lon360\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x02ve\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x02vn\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07err_lat\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07err_lon\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x06err_ve\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x06err_vn\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03gap\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\tlow_omega\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0einertial_omega\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x11semidiurnal_omega\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\tlow_phase\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_ve_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_ve_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_vn_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_vn_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0einertial_phase\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_ve_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_ve_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_vn_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_vn_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x11semidiurnal_phase\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_ve_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_ve_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_vn_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_vn_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13__null_dask_index__\x94j\x0b\x01\x00\x00\x8c\x05int64\x94\x85\x94R\x94\x88Nt\x94R\x94e}\x94C\x06pandas\x94B#\x15\x00\x00{"index_columns": ["__null_dask_index__"], "column_indexes": [{"name": null, "field_name": null, "pandas_type": "unicode", "numpy_type": "object", "metadata": {"encoding": "UTF-8"}}], "columns": [{"name": "time", "field_name": "time", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "rowsize", "field_name": "rowsize", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "WMO", "field_name": "WMO", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "expno", "field_name": "expno", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "deploy_date", "field_name": "deploy_date", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "deploy_lat", "field_name": "deploy_lat", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "deploy_lon", "field_name": "deploy_lon", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "end_date", "field_name": "end_date", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "end_lat", "field_name": "end_lat", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "end_lon", "field_name": "end_lon", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "drogue_lost_date", "field_name": "drogue_lost_date", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "typedeath", "field_name": "typedeath", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "typebuoy", "field_name": "typebuoy", "pandas_type": "bytes", "numpy_type": "object", "metadata": null}, {"name": "lon", "field_name": "lon", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "lat", "field_name": "lat", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "lon360", "field_name": "lon360", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "ve", "field_name": "ve", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "vn", "field_name": "vn", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_lat", "field_name": "err_lat", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_lon", "field_name": "err_lon", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_ve", "field_name": "err_ve", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_vn", "field_name": "err_vn", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "gap", "field_name": "gap", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_omega", "field_name": "low_omega", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_omega", "field_name": "inertial_omega", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "semidiurnal_omega", "field_name": "semidiurnal_omega", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_phase", "field_name": "low_phase", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_ve_real", "field_name": "low_ve_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_ve_imag", "field_name": "low_ve_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_vn_real", "field_name": "low_vn_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_vn_imag", "field_name": "low_vn_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_phase", "field_name": "inertial_phase", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "inertial_ve_real", "field_name": "inertial_ve_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_ve_imag", "field_name": "inertial_ve_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_vn_real", "field_name": "inertial_vn_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_vn_imag", "field_name": "inertial_vn_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_phase", "field_name": "semidiurnal_phase", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_ve_real", "field_name": "semidiurnal_ve_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_ve_imag", "field_name": "semidiurnal_ve_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_vn_real", "field_name": "semidiurnal_vn_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_vn_imag", "field_name": "semidiurnal_vn_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "__null_dask_index__", "field_name": "__null_dask_index__", "pandas_type": "int64", "numpy_type": "int64", "metadata": null}], "creator": {"library": "pyarrow", "version": "6.0.1"}, "pandas_version": "1.4.0"}\x94s\x86\x94R\x94\x8c\x07dataset\x94}\x94(\x8c\x0cpartitioning\x94\x8c\x04hive\x94\x8c\x06format\x94\x8c\x18pyarrow._dataset_parquet\x94\x8c\x11ParquetFileFormat\x94\x93\x94j\x08\x02\x00\x00\x8c!__pyx_unpickle_ParquetReadOptions\x94\x93\x94j\x08\x02\x00\x00\x8c\x12ParquetReadOptions\x94\x93\x94J\xcf\xb4A\x0eN\x87\x94R\x94K\x03\x8f\x94\x86\x94bj\x08\x02\x00\x00\x8c\x1aParquetFragmentScanOptions\x94\x93\x94\x89M\x00 \x89\x87\x94R\x94\x86\x94R\x94u\x8c\x04read\x94}\x94\x8c\x11open_file_options\x94}\x94suub\x8c\x13__dask_blockwise__3\x94\x86\x94ah\x85\x8c\x04dict\x94\x93\x94]\x94]\x94(\x8c\x04drop\x94\x89ea\x86\x94t\x94\x8c\x13__dask_blockwise__0\x94ej \x02\x00\x00]\x94(]\x94(\x8c\x05_func\x94h\x0e\x8c\x06rename\x94\x85\x94R\x94e]\x94(\x8c\x05_meta\x94h))\x81\x94}\x94(h,h/(h2h5h8J\xb8\\U\rN\x87\x94R\x94h=\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x04K\x00\x86\x94h=\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94b\x89hYt\x94b}\x94\x8c\x05_freq\x94Ns\x87\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x04\x85\x94hc\x89C \x01\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0bK\x00\x86\x94h\x92\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0b\x85\x94hc\x89CX\x0e\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x11\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x00\x00\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00\x16\x00\x00\x00\x00\x00\x00\x00\x19\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19K\x00\x86\x94ho\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19\x85\x94hc\x89C\xc8\x02\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x00\x00\x00\x00\x00\x18\x00\x00\x00\x00\x00\x00\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x1b\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x00\x00\x00\x00\x1e\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00!\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x00\x00\x00\x00\x00#\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x00\x00\x00\x00\x00%\x00\x00\x00\x00\x00\x00\x00&\x00\x00\x00\x00\x00\x00\x00\'\x00\x00\x00\x00\x00\x00\x00(\x00\x00\x00\x00\x00\x00\x00)\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x01K\x00\x86\x94hc\x89hYt\x94bh\x87K\x00K\x01K\x01\x87\x94R\x94K\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x01K\x00\x86\x94h\x80\x89]\x94t\x94bh\x87K\rK\x0eK\x01\x87\x94R\x94K\x02\x87\x94R\x94t\x94]\x94(h\xa1h\xa3}\x94(h\xa5hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K*\x85\x94h\x80\x89]\x94(\x8c\x02id\x94h\xabh\xach\xadh\xaeh\xafh\xb0h\xb1h\xb2h\xb3h\xb4h\xb5h\xb6h\xb7h\xb8h\xb9h\xbah\xbbh\xbch\xbdh\xbeh\xbfh\xc0h\xc1h\xc2h\xc3h\xc4h\xc5h\xc6h\xc7h\xc8h\xc9h\xcah\xcbh\xcch\xcdh\xceh\xcfh\xd0h\xd1h\xd2h\xd3et\x94bh\xd5Nu\x86\x94R\x94h\xa1\x8c\x19pandas.core.indexes.range\x94\x8c\nRangeIndex\x94\x93\x94}\x94(h\xd5N\x8c\x05start\x94K\x00\x8c\x04stop\x94K\x00\x8c\x04step\x94K\x01u\x86\x94R\x94e\x86\x94R\x94h\xe5h\xe6h\xe7h\xe8h\xe9}\x94(\x8c\tbandwidth\x94G?\xb9\x99\x99\x99\x99\x99\x9a\x8c\x08inertial\x94}\x94\x8c\x08bandpass\x94\x88s\x8c\x03low\x94}\x94\x8c\x08bandpass\x94\x89s\x8c\x0bsemidiurnal\x94}\x94\x8c\x08bandpass\x94\x88suh\xeb}\x94h\xed\x88sube]\x94(\x8c\x07columns\x94j \x02\x00\x00]\x94]\x94(h\xf0j\x88\x02\x00\x00ea\x86\x94ee\x86\x94t\x94\x8c\x13__dask_blockwise__0\x94N\x8c\x13__dask_blockwise__1\x94\x8c,reset_index-7ec80ad84d5806d36dd33c580024a802\x94\x8c\x13__dask_blockwise__2\x94\x8c-read-parquet-b9ef1171cefaf174904f2d4c895f2987\x94uh\x04\x8c\x13__dask_blockwise__3\x94\x85\x94\x8c6subgraph_callable-b304fdc0-5cb5-4774-8268-c3517f395c70\x94t\x94R\x94.'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2212, in execute
+    function, args, kwargs = await self._maybe_deserialize_task(ts)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2185, in _maybe_deserialize_task
+    function, args, kwargs = _deserialize(*ts.run_spec)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2856, in _deserialize
+    function = loads_function(function)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2847, in loads_function
+    result = pickle.loads(bytes_object)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/protocol/pickle.py", line 73, in loads
+    return pickle.loads(x)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/dataframe/__init__.py", line 4, in <module>
+    from dask.dataframe import backends, dispatch, rolling
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/dataframe/backends.py", line 19, in <module>
+    from dask.array.percentile import _percentile
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/__init__.py", line 2, in <module>
+    from dask.array import backends, fft, lib, linalg, ma, overlap, random
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/backends.py", line 18, in <module>
+    from dask.array.percentile import _percentile
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/percentile.py", line 9, in <module>
+    from dask.array.core import Array
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/core.py", line 37, in <module>
+    from dask.array.chunk_types import is_valid_array_chunk, is_valid_chunk_type
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/chunk_types.py", line 122, in <module>
+    import sparse
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/sparse/__init__.py", line 1, in <module>
+    from ._coo import COO, as_coo
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/sparse/_coo/__init__.py", line 1, in <module>
+    from .core import COO, as_coo
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/sparse/_coo/core.py", line 9, in <module>
+    import numba
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/numba/__init__.py", line 20, in <module>
+    from numba.core import types, errors
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/numba/core/types/__init__.py", line 7, in <module>
+    from .containers import *
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/numba/core/types/containers.py", line 23, in <module>
+    from .misc import Undefined, unliteral, Optional, NoneType
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/numba/core/types/misc.py", line 6, in <module>
+    from numba.core.ir import UndefinedType
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/numba/core/ir.py", line 22, in <module>
+    _termcolor = errors.termcolor()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/numba/core/errors.py", line 334, in termcolor
+    scheme = themes[numba.core.config.COLOR_SCHEME]
+AttributeError: partially initialized module 'numba' has no attribute 'core' (most likely due to a circular import)
+distributed.worker - ERROR - Could not deserialize task ('rename-350e945ac083e8dc2019b6fb3bcc0ac8', 2)
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2845, in loads_function
+    result = cache_loads[bytes_object]
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/collections.py", line 24, in __getitem__
+    value = super().__getitem__(key)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/collections/__init__.py", line 1058, in __getitem__
+    raise KeyError(key)
+KeyError: b'\x80\x04\x95\x1b.\x00\x00\x00\x00\x00\x00\x8c\x11dask.optimization\x94\x8c\x10SubgraphCallable\x94\x93\x94(}\x94(\x8c\'rename-350e945ac083e8dc2019b6fb3bcc0ac8\x94\x8c@read-parquet-reset_index-rename-350e945ac083e8dc2019b6fb3bcc0ac8\x94h\x05(\x8c\ndask.utils\x94\x8c\x05apply\x94\x93\x94\x8c\x13dask.dataframe.core\x94\x8c\x11apply_and_enforce\x94\x93\x94]\x94((h\x08h\x06\x8c\x0cmethodcaller\x94\x93\x94\x8c\x0breset_index\x94\x85\x94R\x94]\x94\x8c\x1edask.dataframe.io.parquet.core\x94\x8c\x16ParquetFunctionWrapper\x94\x93\x94)\x81\x94}\x94(\x8c\x06engine\x94\x8c\x1fdask.dataframe.io.parquet.arrow\x94\x8c\x12ArrowDatasetEngine\x94\x93\x94\x8c\x02fs\x94\x8c\x0bfsspec.spec\x94\x8c\rmake_instance\x94\x93\x94\x8c\x1cfsspec.implementations.local\x94\x8c\x0fLocalFileSystem\x94\x93\x94)}\x94\x87\x94R\x94\x8c\x04meta\x94\x8c\x11pandas.core.frame\x94\x8c\tDataFrame\x94\x93\x94)\x81\x94}\x94(\x8c\x04_mgr\x94\x8c\x1epandas.core.internals.managers\x94\x8c\x0cBlockManager\x94\x93\x94(\x8c\x16pandas._libs.internals\x94\x8c\x0f_unpickle_block\x94\x93\x94\x8c\x13pandas._libs.arrays\x94\x8c\x1c__pyx_unpickle_NDArrayBacked\x94\x93\x94\x8c\x1cpandas.core.arrays.datetimes\x94\x8c\rDatetimeArray\x94\x93\x94J\xb8\\U\rN\x87\x94R\x94\x8c\x05numpy\x94\x8c\x05dtype\x94\x93\x94\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04\x8c\x01<\x94NNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94b\x8c\x15numpy.core.multiarray\x94\x8c\x0c_reconstruct\x94\x93\x94h;\x8c\x07ndarray\x94\x93\x94K\x00\x85\x94C\x01b\x94\x87\x94R\x94(K\x01K\x04K\x00\x86\x94h=\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94b\x89C\x00\x94t\x94b}\x94\x87\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x04\x85\x94h=\x8c\x02i8\x94\x89\x88\x87\x94R\x94(K\x03hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00t\x94b\x89C \x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19K\x00\x86\x94h=\x8c\x02f8\x94\x89\x88\x87\x94R\x94(K\x03hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00t\x94b\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19\x85\x94hc\x89C\xc8\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x16\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x00\x00\x00\x00\x00\x19\x00\x00\x00\x00\x00\x00\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x1b\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x00\x00\x00\x00\x1e\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00!\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x00\x00\x00\x00\x00#\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x00\x00\x00\x00\x00%\x00\x00\x00\x00\x00\x00\x00&\x00\x00\x00\x00\x00\x00\x00\'\x00\x00\x00\x00\x00\x00\x00(\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x01K\x00\x86\x94h=\x8c\x02O8\x94\x89\x88\x87\x94R\x94(K\x03\x8c\x01|\x94NNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK?t\x94b\x89]\x94t\x94b\x8c\x08builtins\x94\x8c\x05slice\x94\x93\x94K\x0cK\rK\x01\x87\x94R\x94K\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0bK\x00\x86\x94h=\x8c\x02f4\x94\x89\x88\x87\x94R\x94(K\x03hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00t\x94b\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0b\x85\x94hc\x89CX\r\x00\x00\x00\x00\x00\x00\x00\x0e\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x11\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x00\x00\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00\x18\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94t\x94]\x94(\x8c\x18pandas.core.indexes.base\x94\x8c\n_new_Index\x94\x93\x94h\x9f\x8c\x05Index\x94\x93\x94}\x94(\x8c\x04data\x94hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K)\x85\x94h\x80\x89]\x94(\x8c\x04time\x94\x8c\x07rowsize\x94\x8c\x03WMO\x94\x8c\x05expno\x94\x8c\x0bdeploy_date\x94\x8c\ndeploy_lat\x94\x8c\ndeploy_lon\x94\x8c\x08end_date\x94\x8c\x07end_lat\x94\x8c\x07end_lon\x94\x8c\x10drogue_lost_date\x94\x8c\ttypedeath\x94\x8c\x08typebuoy\x94\x8c\x03lon\x94\x8c\x03lat\x94\x8c\x06lon360\x94\x8c\x02ve\x94\x8c\x02vn\x94\x8c\x07err_lat\x94\x8c\x07err_lon\x94\x8c\x06err_ve\x94\x8c\x06err_vn\x94\x8c\x03gap\x94\x8c\tlow_omega\x94\x8c\x0einertial_omega\x94\x8c\x11semidiurnal_omega\x94\x8c\tlow_phase\x94\x8c\x0blow_ve_real\x94\x8c\x0blow_ve_imag\x94\x8c\x0blow_vn_real\x94\x8c\x0blow_vn_imag\x94\x8c\x0einertial_phase\x94\x8c\x10inertial_ve_real\x94\x8c\x10inertial_ve_imag\x94\x8c\x10inertial_vn_real\x94\x8c\x10inertial_vn_imag\x94\x8c\x11semidiurnal_phase\x94\x8c\x13semidiurnal_ve_real\x94\x8c\x13semidiurnal_ve_imag\x94\x8c\x13semidiurnal_vn_real\x94\x8c\x13semidiurnal_vn_imag\x94et\x94b\x8c\x04name\x94Nu\x86\x94R\x94h\xa1\x8c\x1bpandas.core.indexes.numeric\x94\x8c\nInt64Index\x94\x93\x94}\x94(h\xa5hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x00\x85\x94hc\x89hYt\x94bh\xd5Nu\x86\x94R\x94e\x86\x94R\x94\x8c\x04_typ\x94\x8c\tdataframe\x94\x8c\t_metadata\x94]\x94\x8c\x05attrs\x94}\x94\x8c\x06_flags\x94}\x94\x8c\x17allows_duplicate_labels\x94\x88sub\x8c\x08_columns\x94]\x94(h\xabh\xach\xadh\xaeh\xafh\xb0h\xb1h\xb2h\xb3h\xb4h\xb5h\xb6h\xb7h\xb8h\xb9h\xbah\xbbh\xbch\xbdh\xbeh\xbfh\xc0h\xc1h\xc2h\xc3h\xc4h\xc5h\xc6h\xc7h\xc8h\xc9h\xcah\xcbh\xcch\xcdh\xceh\xcfh\xd0h\xd1h\xd2h\xd3e\x8c\x05index\x94]\x94\x8c\x13__null_dask_index__\x94a\x8c\rcommon_kwargs\x94}\x94(\x8c\npartitions\x94]\x94\x8c\ncategories\x94]\x94\x8c\x07filters\x94N\x8c\x06schema\x94\x8c\x0bpyarrow.lib\x94\x8c\x06schema\x94\x93\x94]\x94(h\xfb\x8c\x05field\x94\x93\x94(\x8c\x04time\x94h\xfb\x8c\ttimestamp\x94\x93\x94\x8c\x02us\x94N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07rowsize\x94h\xfb\x8c\x0etype_for_alias\x94\x93\x94\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03WMO\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x05expno\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0bdeploy_date\x94j\x03\x01\x00\x00j\x04\x01\x00\x00N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\ndeploy_lat\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\ndeploy_lon\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x08end_date\x94j\x03\x01\x00\x00j\x04\x01\x00\x00N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07end_lat\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07end_lon\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10drogue_lost_date\x94j\x03\x01\x00\x00j\x04\x01\x00\x00N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\ttypedeath\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x08typebuoy\x94j\x0b\x01\x00\x00\x8c\x06binary\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03lon\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03lat\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x06lon360\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x02ve\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x02vn\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07err_lat\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07err_lon\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x06err_ve\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x06err_vn\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03gap\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\tlow_omega\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0einertial_omega\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x11semidiurnal_omega\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\tlow_phase\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_ve_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_ve_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_vn_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_vn_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0einertial_phase\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_ve_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_ve_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_vn_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_vn_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x11semidiurnal_phase\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_ve_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_ve_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_vn_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_vn_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13__null_dask_index__\x94j\x0b\x01\x00\x00\x8c\x05int64\x94\x85\x94R\x94\x88Nt\x94R\x94e}\x94C\x06pandas\x94B#\x15\x00\x00{"index_columns": ["__null_dask_index__"], "column_indexes": [{"name": null, "field_name": null, "pandas_type": "unicode", "numpy_type": "object", "metadata": {"encoding": "UTF-8"}}], "columns": [{"name": "time", "field_name": "time", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "rowsize", "field_name": "rowsize", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "WMO", "field_name": "WMO", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "expno", "field_name": "expno", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "deploy_date", "field_name": "deploy_date", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "deploy_lat", "field_name": "deploy_lat", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "deploy_lon", "field_name": "deploy_lon", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "end_date", "field_name": "end_date", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "end_lat", "field_name": "end_lat", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "end_lon", "field_name": "end_lon", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "drogue_lost_date", "field_name": "drogue_lost_date", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "typedeath", "field_name": "typedeath", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "typebuoy", "field_name": "typebuoy", "pandas_type": "bytes", "numpy_type": "object", "metadata": null}, {"name": "lon", "field_name": "lon", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "lat", "field_name": "lat", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "lon360", "field_name": "lon360", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "ve", "field_name": "ve", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "vn", "field_name": "vn", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_lat", "field_name": "err_lat", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_lon", "field_name": "err_lon", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_ve", "field_name": "err_ve", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_vn", "field_name": "err_vn", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "gap", "field_name": "gap", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_omega", "field_name": "low_omega", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_omega", "field_name": "inertial_omega", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "semidiurnal_omega", "field_name": "semidiurnal_omega", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_phase", "field_name": "low_phase", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_ve_real", "field_name": "low_ve_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_ve_imag", "field_name": "low_ve_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_vn_real", "field_name": "low_vn_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_vn_imag", "field_name": "low_vn_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_phase", "field_name": "inertial_phase", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "inertial_ve_real", "field_name": "inertial_ve_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_ve_imag", "field_name": "inertial_ve_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_vn_real", "field_name": "inertial_vn_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_vn_imag", "field_name": "inertial_vn_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_phase", "field_name": "semidiurnal_phase", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_ve_real", "field_name": "semidiurnal_ve_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_ve_imag", "field_name": "semidiurnal_ve_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_vn_real", "field_name": "semidiurnal_vn_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_vn_imag", "field_name": "semidiurnal_vn_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "__null_dask_index__", "field_name": "__null_dask_index__", "pandas_type": "int64", "numpy_type": "int64", "metadata": null}], "creator": {"library": "pyarrow", "version": "6.0.1"}, "pandas_version": "1.4.0"}\x94s\x86\x94R\x94\x8c\x07dataset\x94}\x94(\x8c\x0cpartitioning\x94\x8c\x04hive\x94\x8c\x06format\x94\x8c\x18pyarrow._dataset_parquet\x94\x8c\x11ParquetFileFormat\x94\x93\x94j\x08\x02\x00\x00\x8c!__pyx_unpickle_ParquetReadOptions\x94\x93\x94j\x08\x02\x00\x00\x8c\x12ParquetReadOptions\x94\x93\x94J\xcf\xb4A\x0eN\x87\x94R\x94K\x03\x8f\x94\x86\x94bj\x08\x02\x00\x00\x8c\x1aParquetFragmentScanOptions\x94\x93\x94\x89M\x00 \x89\x87\x94R\x94\x86\x94R\x94u\x8c\x04read\x94}\x94\x8c\x11open_file_options\x94}\x94suub\x8c\x13__dask_blockwise__3\x94\x86\x94ah\x85\x8c\x04dict\x94\x93\x94]\x94]\x94(\x8c\x04drop\x94\x89ea\x86\x94t\x94\x8c\x13__dask_blockwise__0\x94ej \x02\x00\x00]\x94(]\x94(\x8c\x05_func\x94h\x0e\x8c\x06rename\x94\x85\x94R\x94e]\x94(\x8c\x05_meta\x94h))\x81\x94}\x94(h,h/(h2h5h8J\xb8\\U\rN\x87\x94R\x94h=\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x04K\x00\x86\x94h=\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94b\x89hYt\x94b}\x94\x8c\x05_freq\x94Ns\x87\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x04\x85\x94hc\x89C \x01\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0bK\x00\x86\x94h\x92\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0b\x85\x94hc\x89CX\x0e\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x11\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x00\x00\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00\x16\x00\x00\x00\x00\x00\x00\x00\x19\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19K\x00\x86\x94ho\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19\x85\x94hc\x89C\xc8\x02\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x00\x00\x00\x00\x00\x18\x00\x00\x00\x00\x00\x00\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x1b\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x00\x00\x00\x00\x1e\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00!\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x00\x00\x00\x00\x00#\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x00\x00\x00\x00\x00%\x00\x00\x00\x00\x00\x00\x00&\x00\x00\x00\x00\x00\x00\x00\'\x00\x00\x00\x00\x00\x00\x00(\x00\x00\x00\x00\x00\x00\x00)\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x01K\x00\x86\x94hc\x89hYt\x94bh\x87K\x00K\x01K\x01\x87\x94R\x94K\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x01K\x00\x86\x94h\x80\x89]\x94t\x94bh\x87K\rK\x0eK\x01\x87\x94R\x94K\x02\x87\x94R\x94t\x94]\x94(h\xa1h\xa3}\x94(h\xa5hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K*\x85\x94h\x80\x89]\x94(\x8c\x02id\x94h\xabh\xach\xadh\xaeh\xafh\xb0h\xb1h\xb2h\xb3h\xb4h\xb5h\xb6h\xb7h\xb8h\xb9h\xbah\xbbh\xbch\xbdh\xbeh\xbfh\xc0h\xc1h\xc2h\xc3h\xc4h\xc5h\xc6h\xc7h\xc8h\xc9h\xcah\xcbh\xcch\xcdh\xceh\xcfh\xd0h\xd1h\xd2h\xd3et\x94bh\xd5Nu\x86\x94R\x94h\xa1\x8c\x19pandas.core.indexes.range\x94\x8c\nRangeIndex\x94\x93\x94}\x94(h\xd5N\x8c\x05start\x94K\x00\x8c\x04stop\x94K\x00\x8c\x04step\x94K\x01u\x86\x94R\x94e\x86\x94R\x94h\xe5h\xe6h\xe7h\xe8h\xe9}\x94(\x8c\tbandwidth\x94G?\xb9\x99\x99\x99\x99\x99\x9a\x8c\x08inertial\x94}\x94\x8c\x08bandpass\x94\x88s\x8c\x03low\x94}\x94\x8c\x08bandpass\x94\x89s\x8c\x0bsemidiurnal\x94}\x94\x8c\x08bandpass\x94\x88suh\xeb}\x94h\xed\x88sube]\x94(\x8c\x07columns\x94j \x02\x00\x00]\x94]\x94(h\xf0j\x88\x02\x00\x00ea\x86\x94ee\x86\x94t\x94\x8c\x13__dask_blockwise__0\x94N\x8c\x13__dask_blockwise__1\x94\x8c,reset_index-7ec80ad84d5806d36dd33c580024a802\x94\x8c\x13__dask_blockwise__2\x94\x8c-read-parquet-b9ef1171cefaf174904f2d4c895f2987\x94uh\x04\x8c\x13__dask_blockwise__3\x94\x85\x94\x8c6subgraph_callable-b304fdc0-5cb5-4774-8268-c3517f395c70\x94t\x94R\x94.'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/nanny.py", line 953, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/base_events.py", line 1905, in _run_once
+    handle._run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 180, in wrapper
+    return await method(self, *args, **kwargs)  # type: ignore
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2212, in execute
+    function, args, kwargs = await self._maybe_deserialize_task(ts)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2185, in _maybe_deserialize_task
+    function, args, kwargs = _deserialize(*ts.run_spec)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2856, in _deserialize
+    function = loads_function(function)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2847, in loads_function
+    result = pickle.loads(bytes_object)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/protocol/pickle.py", line 73, in loads
+    return pickle.loads(x)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/dataframe/__init__.py", line 4, in <module>
+    from dask.dataframe import backends, dispatch, rolling
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/dataframe/backends.py", line 18, in <module>
+    from dask.array.dispatch import percentile_lookup
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/__init__.py", line 2, in <module>
+    from dask.array import backends, fft, lib, linalg, ma, overlap, random
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/backends.py", line 18, in <module>
+    from dask.array.percentile import _percentile
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/percentile.py", line 9, in <module>
+    from dask.array.core import Array
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/core.py", line 37, in <module>
+    from dask.array.chunk_types import is_valid_array_chunk, is_valid_chunk_type
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/chunk_types.py", line 122, in <module>
+    import sparse
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/sparse/__init__.py", line 1, in <module>
+    from ._coo import COO, as_coo
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/sparse/_coo/__init__.py", line 1, in <module>
+    from .core import COO, as_coo
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/sparse/_coo/core.py", line 9, in <module>
+    import numba
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/numba/__init__.py", line 19, in <module>
+    from numba.core import config
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/numba/core/config.py", line 16, in <module>
+    import llvmlite.binding as ll
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/llvmlite/binding/__init__.py", line 14, in <module>
+    from .analysis import *
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/llvmlite/binding/analysis.py", line 7, in <module>
+    from llvmlite import ir
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/llvmlite/ir/__init__.py", line 6, in <module>
+    from .values import *
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/llvmlite/ir/values.py", line 586, in <module>
+    class MetaDataString(NamedValue):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/llvmlite/ir/values.py", line 586, in MetaDataString
+    class MetaDataString(NamedValue):
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2845, in loads_function
+    result = cache_loads[bytes_object]
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/collections.py", line 24, in __getitem__
+    value = super().__getitem__(key)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/collections/__init__.py", line 1058, in __getitem__
+    raise KeyError(key)
+KeyError: b'\x80\x04\x95\x1b.\x00\x00\x00\x00\x00\x00\x8c\x11dask.optimization\x94\x8c\x10SubgraphCallable\x94\x93\x94(}\x94(\x8c\'rename-350e945ac083e8dc2019b6fb3bcc0ac8\x94\x8c@read-parquet-reset_index-rename-350e945ac083e8dc2019b6fb3bcc0ac8\x94h\x05(\x8c\ndask.utils\x94\x8c\x05apply\x94\x93\x94\x8c\x13dask.dataframe.core\x94\x8c\x11apply_and_enforce\x94\x93\x94]\x94((h\x08h\x06\x8c\x0cmethodcaller\x94\x93\x94\x8c\x0breset_index\x94\x85\x94R\x94]\x94\x8c\x1edask.dataframe.io.parquet.core\x94\x8c\x16ParquetFunctionWrapper\x94\x93\x94)\x81\x94}\x94(\x8c\x06engine\x94\x8c\x1fdask.dataframe.io.parquet.arrow\x94\x8c\x12ArrowDatasetEngine\x94\x93\x94\x8c\x02fs\x94\x8c\x0bfsspec.spec\x94\x8c\rmake_instance\x94\x93\x94\x8c\x1cfsspec.implementations.local\x94\x8c\x0fLocalFileSystem\x94\x93\x94)}\x94\x87\x94R\x94\x8c\x04meta\x94\x8c\x11pandas.core.frame\x94\x8c\tDataFrame\x94\x93\x94)\x81\x94}\x94(\x8c\x04_mgr\x94\x8c\x1epandas.core.internals.managers\x94\x8c\x0cBlockManager\x94\x93\x94(\x8c\x16pandas._libs.internals\x94\x8c\x0f_unpickle_block\x94\x93\x94\x8c\x13pandas._libs.arrays\x94\x8c\x1c__pyx_unpickle_NDArrayBacked\x94\x93\x94\x8c\x1cpandas.core.arrays.datetimes\x94\x8c\rDatetimeArray\x94\x93\x94J\xb8\\U\rN\x87\x94R\x94\x8c\x05numpy\x94\x8c\x05dtype\x94\x93\x94\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04\x8c\x01<\x94NNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94b\x8c\x15numpy.core.multiarray\x94\x8c\x0c_reconstruct\x94\x93\x94h;\x8c\x07ndarray\x94\x93\x94K\x00\x85\x94C\x01b\x94\x87\x94R\x94(K\x01K\x04K\x00\x86\x94h=\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94b\x89C\x00\x94t\x94b}\x94\x87\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x04\x85\x94h=\x8c\x02i8\x94\x89\x88\x87\x94R\x94(K\x03hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00t\x94b\x89C \x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19K\x00\x86\x94h=\x8c\x02f8\x94\x89\x88\x87\x94R\x94(K\x03hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00t\x94b\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19\x85\x94hc\x89C\xc8\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x16\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x00\x00\x00\x00\x00\x19\x00\x00\x00\x00\x00\x00\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x1b\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x00\x00\x00\x00\x1e\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00!\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x00\x00\x00\x00\x00#\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x00\x00\x00\x00\x00%\x00\x00\x00\x00\x00\x00\x00&\x00\x00\x00\x00\x00\x00\x00\'\x00\x00\x00\x00\x00\x00\x00(\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x01K\x00\x86\x94h=\x8c\x02O8\x94\x89\x88\x87\x94R\x94(K\x03\x8c\x01|\x94NNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK?t\x94b\x89]\x94t\x94b\x8c\x08builtins\x94\x8c\x05slice\x94\x93\x94K\x0cK\rK\x01\x87\x94R\x94K\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0bK\x00\x86\x94h=\x8c\x02f4\x94\x89\x88\x87\x94R\x94(K\x03hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00t\x94b\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0b\x85\x94hc\x89CX\r\x00\x00\x00\x00\x00\x00\x00\x0e\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x11\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x00\x00\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00\x18\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94t\x94]\x94(\x8c\x18pandas.core.indexes.base\x94\x8c\n_new_Index\x94\x93\x94h\x9f\x8c\x05Index\x94\x93\x94}\x94(\x8c\x04data\x94hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K)\x85\x94h\x80\x89]\x94(\x8c\x04time\x94\x8c\x07rowsize\x94\x8c\x03WMO\x94\x8c\x05expno\x94\x8c\x0bdeploy_date\x94\x8c\ndeploy_lat\x94\x8c\ndeploy_lon\x94\x8c\x08end_date\x94\x8c\x07end_lat\x94\x8c\x07end_lon\x94\x8c\x10drogue_lost_date\x94\x8c\ttypedeath\x94\x8c\x08typebuoy\x94\x8c\x03lon\x94\x8c\x03lat\x94\x8c\x06lon360\x94\x8c\x02ve\x94\x8c\x02vn\x94\x8c\x07err_lat\x94\x8c\x07err_lon\x94\x8c\x06err_ve\x94\x8c\x06err_vn\x94\x8c\x03gap\x94\x8c\tlow_omega\x94\x8c\x0einertial_omega\x94\x8c\x11semidiurnal_omega\x94\x8c\tlow_phase\x94\x8c\x0blow_ve_real\x94\x8c\x0blow_ve_imag\x94\x8c\x0blow_vn_real\x94\x8c\x0blow_vn_imag\x94\x8c\x0einertial_phase\x94\x8c\x10inertial_ve_real\x94\x8c\x10inertial_ve_imag\x94\x8c\x10inertial_vn_real\x94\x8c\x10inertial_vn_imag\x94\x8c\x11semidiurnal_phase\x94\x8c\x13semidiurnal_ve_real\x94\x8c\x13semidiurnal_ve_imag\x94\x8c\x13semidiurnal_vn_real\x94\x8c\x13semidiurnal_vn_imag\x94et\x94b\x8c\x04name\x94Nu\x86\x94R\x94h\xa1\x8c\x1bpandas.core.indexes.numeric\x94\x8c\nInt64Index\x94\x93\x94}\x94(h\xa5hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x00\x85\x94hc\x89hYt\x94bh\xd5Nu\x86\x94R\x94e\x86\x94R\x94\x8c\x04_typ\x94\x8c\tdataframe\x94\x8c\t_metadata\x94]\x94\x8c\x05attrs\x94}\x94\x8c\x06_flags\x94}\x94\x8c\x17allows_duplicate_labels\x94\x88sub\x8c\x08_columns\x94]\x94(h\xabh\xach\xadh\xaeh\xafh\xb0h\xb1h\xb2h\xb3h\xb4h\xb5h\xb6h\xb7h\xb8h\xb9h\xbah\xbbh\xbch\xbdh\xbeh\xbfh\xc0h\xc1h\xc2h\xc3h\xc4h\xc5h\xc6h\xc7h\xc8h\xc9h\xcah\xcbh\xcch\xcdh\xceh\xcfh\xd0h\xd1h\xd2h\xd3e\x8c\x05index\x94]\x94\x8c\x13__null_dask_index__\x94a\x8c\rcommon_kwargs\x94}\x94(\x8c\npartitions\x94]\x94\x8c\ncategories\x94]\x94\x8c\x07filters\x94N\x8c\x06schema\x94\x8c\x0bpyarrow.lib\x94\x8c\x06schema\x94\x93\x94]\x94(h\xfb\x8c\x05field\x94\x93\x94(\x8c\x04time\x94h\xfb\x8c\ttimestamp\x94\x93\x94\x8c\x02us\x94N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07rowsize\x94h\xfb\x8c\x0etype_for_alias\x94\x93\x94\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03WMO\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x05expno\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0bdeploy_date\x94j\x03\x01\x00\x00j\x04\x01\x00\x00N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\ndeploy_lat\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\ndeploy_lon\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x08end_date\x94j\x03\x01\x00\x00j\x04\x01\x00\x00N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07end_lat\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07end_lon\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10drogue_lost_date\x94j\x03\x01\x00\x00j\x04\x01\x00\x00N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\ttypedeath\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x08typebuoy\x94j\x0b\x01\x00\x00\x8c\x06binary\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03lon\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03lat\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x06lon360\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x02ve\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x02vn\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07err_lat\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07err_lon\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x06err_ve\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x06err_vn\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03gap\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\tlow_omega\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0einertial_omega\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x11semidiurnal_omega\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\tlow_phase\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_ve_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_ve_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_vn_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_vn_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0einertial_phase\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_ve_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_ve_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_vn_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_vn_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x11semidiurnal_phase\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_ve_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_ve_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_vn_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_vn_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13__null_dask_index__\x94j\x0b\x01\x00\x00\x8c\x05int64\x94\x85\x94R\x94\x88Nt\x94R\x94e}\x94C\x06pandas\x94B#\x15\x00\x00{"index_columns": ["__null_dask_index__"], "column_indexes": [{"name": null, "field_name": null, "pandas_type": "unicode", "numpy_type": "object", "metadata": {"encoding": "UTF-8"}}], "columns": [{"name": "time", "field_name": "time", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "rowsize", "field_name": "rowsize", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "WMO", "field_name": "WMO", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "expno", "field_name": "expno", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "deploy_date", "field_name": "deploy_date", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "deploy_lat", "field_name": "deploy_lat", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "deploy_lon", "field_name": "deploy_lon", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "end_date", "field_name": "end_date", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "end_lat", "field_name": "end_lat", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "end_lon", "field_name": "end_lon", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "drogue_lost_date", "field_name": "drogue_lost_date", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "typedeath", "field_name": "typedeath", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "typebuoy", "field_name": "typebuoy", "pandas_type": "bytes", "numpy_type": "object", "metadata": null}, {"name": "lon", "field_name": "lon", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "lat", "field_name": "lat", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "lon360", "field_name": "lon360", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "ve", "field_name": "ve", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "vn", "field_name": "vn", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_lat", "field_name": "err_lat", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_lon", "field_name": "err_lon", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_ve", "field_name": "err_ve", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_vn", "field_name": "err_vn", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "gap", "field_name": "gap", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_omega", "field_name": "low_omega", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_omega", "field_name": "inertial_omega", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "semidiurnal_omega", "field_name": "semidiurnal_omega", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_phase", "field_name": "low_phase", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_ve_real", "field_name": "low_ve_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_ve_imag", "field_name": "low_ve_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_vn_real", "field_name": "low_vn_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_vn_imag", "field_name": "low_vn_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_phase", "field_name": "inertial_phase", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "inertial_ve_real", "field_name": "inertial_ve_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_ve_imag", "field_name": "inertial_ve_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_vn_real", "field_name": "inertial_vn_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_vn_imag", "field_name": "inertial_vn_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_phase", "field_name": "semidiurnal_phase", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_ve_real", "field_name": "semidiurnal_ve_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_ve_imag", "field_name": "semidiurnal_ve_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_vn_real", "field_name": "semidiurnal_vn_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_vn_imag", "field_name": "semidiurnal_vn_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "__null_dask_index__", "field_name": "__null_dask_index__", "pandas_type": "int64", "numpy_type": "int64", "metadata": null}], "creator": {"library": "pyarrow", "version": "6.0.1"}, "pandas_version": "1.4.0"}\x94s\x86\x94R\x94\x8c\x07dataset\x94}\x94(\x8c\x0cpartitioning\x94\x8c\x04hive\x94\x8c\x06format\x94\x8c\x18pyarrow._dataset_parquet\x94\x8c\x11ParquetFileFormat\x94\x93\x94j\x08\x02\x00\x00\x8c!__pyx_unpickle_ParquetReadOptions\x94\x93\x94j\x08\x02\x00\x00\x8c\x12ParquetReadOptions\x94\x93\x94J\xcf\xb4A\x0eN\x87\x94R\x94K\x03\x8f\x94\x86\x94bj\x08\x02\x00\x00\x8c\x1aParquetFragmentScanOptions\x94\x93\x94\x89M\x00 \x89\x87\x94R\x94\x86\x94R\x94u\x8c\x04read\x94}\x94\x8c\x11open_file_options\x94}\x94suub\x8c\x13__dask_blockwise__3\x94\x86\x94ah\x85\x8c\x04dict\x94\x93\x94]\x94]\x94(\x8c\x04drop\x94\x89ea\x86\x94t\x94\x8c\x13__dask_blockwise__0\x94ej \x02\x00\x00]\x94(]\x94(\x8c\x05_func\x94h\x0e\x8c\x06rename\x94\x85\x94R\x94e]\x94(\x8c\x05_meta\x94h))\x81\x94}\x94(h,h/(h2h5h8J\xb8\\U\rN\x87\x94R\x94h=\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x04K\x00\x86\x94h=\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94b\x89hYt\x94b}\x94\x8c\x05_freq\x94Ns\x87\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x04\x85\x94hc\x89C \x01\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0bK\x00\x86\x94h\x92\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0b\x85\x94hc\x89CX\x0e\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x11\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x00\x00\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00\x16\x00\x00\x00\x00\x00\x00\x00\x19\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19K\x00\x86\x94ho\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19\x85\x94hc\x89C\xc8\x02\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x00\x00\x00\x00\x00\x18\x00\x00\x00\x00\x00\x00\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x1b\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x00\x00\x00\x00\x1e\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00!\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x00\x00\x00\x00\x00#\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x00\x00\x00\x00\x00%\x00\x00\x00\x00\x00\x00\x00&\x00\x00\x00\x00\x00\x00\x00\'\x00\x00\x00\x00\x00\x00\x00(\x00\x00\x00\x00\x00\x00\x00)\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x01K\x00\x86\x94hc\x89hYt\x94bh\x87K\x00K\x01K\x01\x87\x94R\x94K\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x01K\x00\x86\x94h\x80\x89]\x94t\x94bh\x87K\rK\x0eK\x01\x87\x94R\x94K\x02\x87\x94R\x94t\x94]\x94(h\xa1h\xa3}\x94(h\xa5hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K*\x85\x94h\x80\x89]\x94(\x8c\x02id\x94h\xabh\xach\xadh\xaeh\xafh\xb0h\xb1h\xb2h\xb3h\xb4h\xb5h\xb6h\xb7h\xb8h\xb9h\xbah\xbbh\xbch\xbdh\xbeh\xbfh\xc0h\xc1h\xc2h\xc3h\xc4h\xc5h\xc6h\xc7h\xc8h\xc9h\xcah\xcbh\xcch\xcdh\xceh\xcfh\xd0h\xd1h\xd2h\xd3et\x94bh\xd5Nu\x86\x94R\x94h\xa1\x8c\x19pandas.core.indexes.range\x94\x8c\nRangeIndex\x94\x93\x94}\x94(h\xd5N\x8c\x05start\x94K\x00\x8c\x04stop\x94K\x00\x8c\x04step\x94K\x01u\x86\x94R\x94e\x86\x94R\x94h\xe5h\xe6h\xe7h\xe8h\xe9}\x94(\x8c\tbandwidth\x94G?\xb9\x99\x99\x99\x99\x99\x9a\x8c\x08inertial\x94}\x94\x8c\x08bandpass\x94\x88s\x8c\x03low\x94}\x94\x8c\x08bandpass\x94\x89s\x8c\x0bsemidiurnal\x94}\x94\x8c\x08bandpass\x94\x88suh\xeb}\x94h\xed\x88sube]\x94(\x8c\x07columns\x94j \x02\x00\x00]\x94]\x94(h\xf0j\x88\x02\x00\x00ea\x86\x94ee\x86\x94t\x94\x8c\x13__dask_blockwise__0\x94N\x8c\x13__dask_blockwise__1\x94\x8c,reset_index-7ec80ad84d5806d36dd33c580024a802\x94\x8c\x13__dask_blockwise__2\x94\x8c-read-parquet-b9ef1171cefaf174904f2d4c895f2987\x94uh\x04\x8c\x13__dask_blockwise__3\x94\x85\x94\x8c6subgraph_callable-b304fdc0-5cb5-4774-8268-c3517f395c70\x94t\x94R\x94.'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2212, in execute
+    function, args, kwargs = await self._maybe_deserialize_task(ts)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2185, in _maybe_deserialize_task
+    function, args, kwargs = _deserialize(*ts.run_spec)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2856, in _deserialize
+    function = loads_function(function)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2847, in loads_function
+    result = pickle.loads(bytes_object)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/protocol/pickle.py", line 73, in loads
+    return pickle.loads(x)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/dataframe/__init__.py", line 4, in <module>
+    from dask.dataframe import backends, dispatch, rolling
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/dataframe/backends.py", line 19, in <module>
+    from dask.array.percentile import _percentile
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/__init__.py", line 2, in <module>
+    from dask.array import backends, fft, lib, linalg, ma, overlap, random
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/backends.py", line 18, in <module>
+    from dask.array.percentile import _percentile
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/percentile.py", line 9, in <module>
+    from dask.array.core import Array
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/core.py", line 37, in <module>
+    from dask.array.chunk_types import is_valid_array_chunk, is_valid_chunk_type
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/chunk_types.py", line 122, in <module>
+    import sparse
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/sparse/__init__.py", line 1, in <module>
+    from ._coo import COO, as_coo
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/sparse/_coo/__init__.py", line 1, in <module>
+    from .core import COO, as_coo
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/sparse/_coo/core.py", line 9, in <module>
+    import numba
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/numba/__init__.py", line 20, in <module>
+    from numba.core import types, errors
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/numba/core/types/__init__.py", line 7, in <module>
+    from .containers import *
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/numba/core/types/containers.py", line 23, in <module>
+    from .misc import Undefined, unliteral, Optional, NoneType
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/numba/core/types/misc.py", line 6, in <module>
+    from numba.core.ir import UndefinedType
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/numba/core/ir.py", line 22, in <module>
+    _termcolor = errors.termcolor()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/numba/core/errors.py", line 334, in termcolor
+    scheme = themes[numba.core.config.COLOR_SCHEME]
+AttributeError: module 'numba' has no attribute 'core'
+distributed.nanny - ERROR - Worker process died unexpectedly
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2845, in loads_function
+    result = cache_loads[bytes_object]
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/collections.py", line 24, in __getitem__
+    value = super().__getitem__(key)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/collections/__init__.py", line 1058, in __getitem__
+    raise KeyError(key)
+KeyError: b'\x80\x04\x95\x1b.\x00\x00\x00\x00\x00\x00\x8c\x11dask.optimization\x94\x8c\x10SubgraphCallable\x94\x93\x94(}\x94(\x8c\'rename-350e945ac083e8dc2019b6fb3bcc0ac8\x94\x8c@read-parquet-reset_index-rename-350e945ac083e8dc2019b6fb3bcc0ac8\x94h\x05(\x8c\ndask.utils\x94\x8c\x05apply\x94\x93\x94\x8c\x13dask.dataframe.core\x94\x8c\x11apply_and_enforce\x94\x93\x94]\x94((h\x08h\x06\x8c\x0cmethodcaller\x94\x93\x94\x8c\x0breset_index\x94\x85\x94R\x94]\x94\x8c\x1edask.dataframe.io.parquet.core\x94\x8c\x16ParquetFunctionWrapper\x94\x93\x94)\x81\x94}\x94(\x8c\x06engine\x94\x8c\x1fdask.dataframe.io.parquet.arrow\x94\x8c\x12ArrowDatasetEngine\x94\x93\x94\x8c\x02fs\x94\x8c\x0bfsspec.spec\x94\x8c\rmake_instance\x94\x93\x94\x8c\x1cfsspec.implementations.local\x94\x8c\x0fLocalFileSystem\x94\x93\x94)}\x94\x87\x94R\x94\x8c\x04meta\x94\x8c\x11pandas.core.frame\x94\x8c\tDataFrame\x94\x93\x94)\x81\x94}\x94(\x8c\x04_mgr\x94\x8c\x1epandas.core.internals.managers\x94\x8c\x0cBlockManager\x94\x93\x94(\x8c\x16pandas._libs.internals\x94\x8c\x0f_unpickle_block\x94\x93\x94\x8c\x13pandas._libs.arrays\x94\x8c\x1c__pyx_unpickle_NDArrayBacked\x94\x93\x94\x8c\x1cpandas.core.arrays.datetimes\x94\x8c\rDatetimeArray\x94\x93\x94J\xb8\\U\rN\x87\x94R\x94\x8c\x05numpy\x94\x8c\x05dtype\x94\x93\x94\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04\x8c\x01<\x94NNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94b\x8c\x15numpy.core.multiarray\x94\x8c\x0c_reconstruct\x94\x93\x94h;\x8c\x07ndarray\x94\x93\x94K\x00\x85\x94C\x01b\x94\x87\x94R\x94(K\x01K\x04K\x00\x86\x94h=\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94b\x89C\x00\x94t\x94b}\x94\x87\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x04\x85\x94h=\x8c\x02i8\x94\x89\x88\x87\x94R\x94(K\x03hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00t\x94b\x89C \x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19K\x00\x86\x94h=\x8c\x02f8\x94\x89\x88\x87\x94R\x94(K\x03hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00t\x94b\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19\x85\x94hc\x89C\xc8\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x16\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x00\x00\x00\x00\x00\x19\x00\x00\x00\x00\x00\x00\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x1b\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x00\x00\x00\x00\x1e\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00!\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x00\x00\x00\x00\x00#\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x00\x00\x00\x00\x00%\x00\x00\x00\x00\x00\x00\x00&\x00\x00\x00\x00\x00\x00\x00\'\x00\x00\x00\x00\x00\x00\x00(\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x01K\x00\x86\x94h=\x8c\x02O8\x94\x89\x88\x87\x94R\x94(K\x03\x8c\x01|\x94NNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK?t\x94b\x89]\x94t\x94b\x8c\x08builtins\x94\x8c\x05slice\x94\x93\x94K\x0cK\rK\x01\x87\x94R\x94K\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0bK\x00\x86\x94h=\x8c\x02f4\x94\x89\x88\x87\x94R\x94(K\x03hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00t\x94b\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0b\x85\x94hc\x89CX\r\x00\x00\x00\x00\x00\x00\x00\x0e\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x11\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x00\x00\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00\x18\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94t\x94]\x94(\x8c\x18pandas.core.indexes.base\x94\x8c\n_new_Index\x94\x93\x94h\x9f\x8c\x05Index\x94\x93\x94}\x94(\x8c\x04data\x94hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K)\x85\x94h\x80\x89]\x94(\x8c\x04time\x94\x8c\x07rowsize\x94\x8c\x03WMO\x94\x8c\x05expno\x94\x8c\x0bdeploy_date\x94\x8c\ndeploy_lat\x94\x8c\ndeploy_lon\x94\x8c\x08end_date\x94\x8c\x07end_lat\x94\x8c\x07end_lon\x94\x8c\x10drogue_lost_date\x94\x8c\ttypedeath\x94\x8c\x08typebuoy\x94\x8c\x03lon\x94\x8c\x03lat\x94\x8c\x06lon360\x94\x8c\x02ve\x94\x8c\x02vn\x94\x8c\x07err_lat\x94\x8c\x07err_lon\x94\x8c\x06err_ve\x94\x8c\x06err_vn\x94\x8c\x03gap\x94\x8c\tlow_omega\x94\x8c\x0einertial_omega\x94\x8c\x11semidiurnal_omega\x94\x8c\tlow_phase\x94\x8c\x0blow_ve_real\x94\x8c\x0blow_ve_imag\x94\x8c\x0blow_vn_real\x94\x8c\x0blow_vn_imag\x94\x8c\x0einertial_phase\x94\x8c\x10inertial_ve_real\x94\x8c\x10inertial_ve_imag\x94\x8c\x10inertial_vn_real\x94\x8c\x10inertial_vn_imag\x94\x8c\x11semidiurnal_phase\x94\x8c\x13semidiurnal_ve_real\x94\x8c\x13semidiurnal_ve_imag\x94\x8c\x13semidiurnal_vn_real\x94\x8c\x13semidiurnal_vn_imag\x94et\x94b\x8c\x04name\x94Nu\x86\x94R\x94h\xa1\x8c\x1bpandas.core.indexes.numeric\x94\x8c\nInt64Index\x94\x93\x94}\x94(h\xa5hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x00\x85\x94hc\x89hYt\x94bh\xd5Nu\x86\x94R\x94e\x86\x94R\x94\x8c\x04_typ\x94\x8c\tdataframe\x94\x8c\t_metadata\x94]\x94\x8c\x05attrs\x94}\x94\x8c\x06_flags\x94}\x94\x8c\x17allows_duplicate_labels\x94\x88sub\x8c\x08_columns\x94]\x94(h\xabh\xach\xadh\xaeh\xafh\xb0h\xb1h\xb2h\xb3h\xb4h\xb5h\xb6h\xb7h\xb8h\xb9h\xbah\xbbh\xbch\xbdh\xbeh\xbfh\xc0h\xc1h\xc2h\xc3h\xc4h\xc5h\xc6h\xc7h\xc8h\xc9h\xcah\xcbh\xcch\xcdh\xceh\xcfh\xd0h\xd1h\xd2h\xd3e\x8c\x05index\x94]\x94\x8c\x13__null_dask_index__\x94a\x8c\rcommon_kwargs\x94}\x94(\x8c\npartitions\x94]\x94\x8c\ncategories\x94]\x94\x8c\x07filters\x94N\x8c\x06schema\x94\x8c\x0bpyarrow.lib\x94\x8c\x06schema\x94\x93\x94]\x94(h\xfb\x8c\x05field\x94\x93\x94(\x8c\x04time\x94h\xfb\x8c\ttimestamp\x94\x93\x94\x8c\x02us\x94N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07rowsize\x94h\xfb\x8c\x0etype_for_alias\x94\x93\x94\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03WMO\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x05expno\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0bdeploy_date\x94j\x03\x01\x00\x00j\x04\x01\x00\x00N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\ndeploy_lat\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\ndeploy_lon\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x08end_date\x94j\x03\x01\x00\x00j\x04\x01\x00\x00N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07end_lat\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07end_lon\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10drogue_lost_date\x94j\x03\x01\x00\x00j\x04\x01\x00\x00N\x86\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\ttypedeath\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x08typebuoy\x94j\x0b\x01\x00\x00\x8c\x06binary\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03lon\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03lat\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x06lon360\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x02ve\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x02vn\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07err_lat\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x07err_lon\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x06err_ve\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x06err_vn\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x03gap\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\tlow_omega\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0einertial_omega\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x11semidiurnal_omega\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\tlow_phase\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_ve_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_ve_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_vn_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0blow_vn_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x0einertial_phase\x94j\x0b\x01\x00\x00\x8c\x05float\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_ve_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_ve_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_vn_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x10inertial_vn_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x11semidiurnal_phase\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_ve_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_ve_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_vn_real\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13semidiurnal_vn_imag\x94j\x0b\x01\x00\x00\x8c\x06double\x94\x85\x94R\x94\x88Nt\x94R\x94j\x00\x01\x00\x00(\x8c\x13__null_dask_index__\x94j\x0b\x01\x00\x00\x8c\x05int64\x94\x85\x94R\x94\x88Nt\x94R\x94e}\x94C\x06pandas\x94B#\x15\x00\x00{"index_columns": ["__null_dask_index__"], "column_indexes": [{"name": null, "field_name": null, "pandas_type": "unicode", "numpy_type": "object", "metadata": {"encoding": "UTF-8"}}], "columns": [{"name": "time", "field_name": "time", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "rowsize", "field_name": "rowsize", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "WMO", "field_name": "WMO", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "expno", "field_name": "expno", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "deploy_date", "field_name": "deploy_date", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "deploy_lat", "field_name": "deploy_lat", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "deploy_lon", "field_name": "deploy_lon", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "end_date", "field_name": "end_date", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "end_lat", "field_name": "end_lat", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "end_lon", "field_name": "end_lon", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "drogue_lost_date", "field_name": "drogue_lost_date", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "typedeath", "field_name": "typedeath", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "typebuoy", "field_name": "typebuoy", "pandas_type": "bytes", "numpy_type": "object", "metadata": null}, {"name": "lon", "field_name": "lon", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "lat", "field_name": "lat", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "lon360", "field_name": "lon360", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "ve", "field_name": "ve", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "vn", "field_name": "vn", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_lat", "field_name": "err_lat", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_lon", "field_name": "err_lon", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_ve", "field_name": "err_ve", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "err_vn", "field_name": "err_vn", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "gap", "field_name": "gap", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_omega", "field_name": "low_omega", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_omega", "field_name": "inertial_omega", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "semidiurnal_omega", "field_name": "semidiurnal_omega", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_phase", "field_name": "low_phase", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_ve_real", "field_name": "low_ve_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_ve_imag", "field_name": "low_ve_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_vn_real", "field_name": "low_vn_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "low_vn_imag", "field_name": "low_vn_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_phase", "field_name": "inertial_phase", "pandas_type": "float32", "numpy_type": "float32", "metadata": null}, {"name": "inertial_ve_real", "field_name": "inertial_ve_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_ve_imag", "field_name": "inertial_ve_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_vn_real", "field_name": "inertial_vn_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "inertial_vn_imag", "field_name": "inertial_vn_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_phase", "field_name": "semidiurnal_phase", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_ve_real", "field_name": "semidiurnal_ve_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_ve_imag", "field_name": "semidiurnal_ve_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_vn_real", "field_name": "semidiurnal_vn_real", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "semidiurnal_vn_imag", "field_name": "semidiurnal_vn_imag", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "__null_dask_index__", "field_name": "__null_dask_index__", "pandas_type": "int64", "numpy_type": "int64", "metadata": null}], "creator": {"library": "pyarrow", "version": "6.0.1"}, "pandas_version": "1.4.0"}\x94s\x86\x94R\x94\x8c\x07dataset\x94}\x94(\x8c\x0cpartitioning\x94\x8c\x04hive\x94\x8c\x06format\x94\x8c\x18pyarrow._dataset_parquet\x94\x8c\x11ParquetFileFormat\x94\x93\x94j\x08\x02\x00\x00\x8c!__pyx_unpickle_ParquetReadOptions\x94\x93\x94j\x08\x02\x00\x00\x8c\x12ParquetReadOptions\x94\x93\x94J\xcf\xb4A\x0eN\x87\x94R\x94K\x03\x8f\x94\x86\x94bj\x08\x02\x00\x00\x8c\x1aParquetFragmentScanOptions\x94\x93\x94\x89M\x00 \x89\x87\x94R\x94\x86\x94R\x94u\x8c\x04read\x94}\x94\x8c\x11open_file_options\x94}\x94suub\x8c\x13__dask_blockwise__3\x94\x86\x94ah\x85\x8c\x04dict\x94\x93\x94]\x94]\x94(\x8c\x04drop\x94\x89ea\x86\x94t\x94\x8c\x13__dask_blockwise__0\x94ej \x02\x00\x00]\x94(]\x94(\x8c\x05_func\x94h\x0e\x8c\x06rename\x94\x85\x94R\x94e]\x94(\x8c\x05_meta\x94h))\x81\x94}\x94(h,h/(h2h5h8J\xb8\\U\rN\x87\x94R\x94h=\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x04K\x00\x86\x94h=\x8c\x02M8\x94\x89\x88\x87\x94R\x94(K\x04hANNNJ\xff\xff\xff\xffJ\xff\xff\xff\xffK\x00}\x94(C\x02ns\x94K\x01K\x01K\x01t\x94\x86\x94t\x94b\x89hYt\x94b}\x94\x8c\x05_freq\x94Ns\x87\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x04\x85\x94hc\x89C \x01\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0bK\x00\x86\x94h\x92\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x0b\x85\x94hc\x89CX\x0e\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x11\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x00\x00\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00\x16\x00\x00\x00\x00\x00\x00\x00\x19\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19K\x00\x86\x94ho\x89hYt\x94bhIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x19\x85\x94hc\x89C\xc8\x02\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x00\x00\x00\x00\x00\x18\x00\x00\x00\x00\x00\x00\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x1b\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x00\x00\x00\x00\x1e\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00!\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x00\x00\x00\x00\x00#\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x00\x00\x00\x00\x00%\x00\x00\x00\x00\x00\x00\x00&\x00\x00\x00\x00\x00\x00\x00\'\x00\x00\x00\x00\x00\x00\x00(\x00\x00\x00\x00\x00\x00\x00)\x00\x00\x00\x00\x00\x00\x00\x94t\x94bK\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x01K\x00\x86\x94hc\x89hYt\x94bh\x87K\x00K\x01K\x01\x87\x94R\x94K\x02\x87\x94R\x94h2hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K\x01K\x00\x86\x94h\x80\x89]\x94t\x94bh\x87K\rK\x0eK\x01\x87\x94R\x94K\x02\x87\x94R\x94t\x94]\x94(h\xa1h\xa3}\x94(h\xa5hIhKK\x00\x85\x94hM\x87\x94R\x94(K\x01K*\x85\x94h\x80\x89]\x94(\x8c\x02id\x94h\xabh\xach\xadh\xaeh\xafh\xb0h\xb1h\xb2h\xb3h\xb4h\xb5h\xb6h\xb7h\xb8h\xb9h\xbah\xbbh\xbch\xbdh\xbeh\xbfh\xc0h\xc1h\xc2h\xc3h\xc4h\xc5h\xc6h\xc7h\xc8h\xc9h\xcah\xcbh\xcch\xcdh\xceh\xcfh\xd0h\xd1h\xd2h\xd3et\x94bh\xd5Nu\x86\x94R\x94h\xa1\x8c\x19pandas.core.indexes.range\x94\x8c\nRangeIndex\x94\x93\x94}\x94(h\xd5N\x8c\x05start\x94K\x00\x8c\x04stop\x94K\x00\x8c\x04step\x94K\x01u\x86\x94R\x94e\x86\x94R\x94h\xe5h\xe6h\xe7h\xe8h\xe9}\x94(\x8c\tbandwidth\x94G?\xb9\x99\x99\x99\x99\x99\x9a\x8c\x08inertial\x94}\x94\x8c\x08bandpass\x94\x88s\x8c\x03low\x94}\x94\x8c\x08bandpass\x94\x89s\x8c\x0bsemidiurnal\x94}\x94\x8c\x08bandpass\x94\x88suh\xeb}\x94h\xed\x88sube]\x94(\x8c\x07columns\x94j \x02\x00\x00]\x94]\x94(h\xf0j\x88\x02\x00\x00ea\x86\x94ee\x86\x94t\x94\x8c\x13__dask_blockwise__0\x94N\x8c\x13__dask_blockwise__1\x94\x8c,reset_index-7ec80ad84d5806d36dd33c580024a802\x94\x8c\x13__dask_blockwise__2\x94\x8c-read-parquet-b9ef1171cefaf174904f2d4c895f2987\x94uh\x04\x8c\x13__dask_blockwise__3\x94\x85\x94\x8c6subgraph_callable-b304fdc0-5cb5-4774-8268-c3517f395c70\x94t\x94R\x94.'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/process.py", line 188, in _run
+    target(*args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/nanny.py", line 960, in _run
+    loop.run_sync(do_stop)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/base_events.py", line 1905, in _run_once
+    handle._run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 193, in wrapper
+    return method(self, *args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 1908, in _handle_stimulus_from_task
+    super()._handle_stimulus_from_task(task)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker_state_machine.py", line 3531, in _handle_stimulus_from_task
+    stim = task.result()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/nanny.py", line 953, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/base_events.py", line 1905, in _run_once
+    handle._run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 180, in wrapper
+    return await method(self, *args, **kwargs)  # type: ignore
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2212, in execute
+    function, args, kwargs = await self._maybe_deserialize_task(ts)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2185, in _maybe_deserialize_task
+    function, args, kwargs = _deserialize(*ts.run_spec)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2856, in _deserialize
+    function = loads_function(function)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/worker.py", line 2847, in loads_function
+    result = pickle.loads(bytes_object)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/protocol/pickle.py", line 73, in loads
+    return pickle.loads(x)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/dataframe/__init__.py", line 4, in <module>
+    from dask.dataframe import backends, dispatch, rolling
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/dataframe/backends.py", line 18, in <module>
+    from dask.array.dispatch import percentile_lookup
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/__init__.py", line 2, in <module>
+    from dask.array import backends, fft, lib, linalg, ma, overlap, random
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/backends.py", line 18, in <module>
+    from dask.array.percentile import _percentile
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/percentile.py", line 9, in <module>
+    from dask.array.core import Array
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/core.py", line 37, in <module>
+    from dask.array.chunk_types import is_valid_array_chunk, is_valid_chunk_type
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/dask/array/chunk_types.py", line 122, in <module>
+    import sparse
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/sparse/__init__.py", line 1, in <module>
+    from ._coo import COO, as_coo
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/sparse/_coo/__init__.py", line 1, in <module>
+    from .core import COO, as_coo
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/sparse/_coo/core.py", line 9, in <module>
+    import numba
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/numba/__init__.py", line 19, in <module>
+    from numba.core import config
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/numba/core/config.py", line 16, in <module>
+    import llvmlite.binding as ll
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/llvmlite/binding/__init__.py", line 14, in <module>
+    from .analysis import *
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/llvmlite/binding/analysis.py", line 7, in <module>
+    from llvmlite import ir
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/llvmlite/ir/__init__.py", line 6, in <module>
+    from .values import *
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/llvmlite/ir/values.py", line 586, in <module>
+    class MetaDataString(NamedValue):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/llvmlite/ir/values.py", line 586, in MetaDataString
+    class MetaDataString(NamedValue):
+KeyboardInterrupt
+[I 2022-10-24 07:47:28.591 ServerApp] Starting buffering for bfecb098-62fa-42c5-a603-60516995fa22:48e21644-92e1-43e7-b8e9-282f5f055646
+[I 2022-10-24 07:47:28.592 ServerApp] Starting buffering for 086f64ff-7f9e-4d63-af08-357b19a064cd:7d2823f5-e4e3-4913-bec3-3a08cc176411
+[I 2022-10-24 07:47:28.593 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:ccdc5b1c-8f18-4d72-8568-165475b8287c
+[I 2022-10-24 07:47:28.594 ServerApp] Starting buffering for 9744f598-3bea-44fa-a959-952e94b8a635:fff0afbe-b977-426b-92ba-aab325ab61a5
+[E 2022-10-24 07:47:30.439 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:600:3)
+        at Object.readFileSync (node:fs:468:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-10-24 07:47:30.581 LabApp] Build is up to date
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4f4bb142-b080-4a8c-b62c-cbe1a170daf6
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4007ef4b-a94d-4aa3-a80f-c070fe8c28fb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2fc4ac38-fbd5-4c65-aa85-91ef118de80f
+[I 2022-10-24 07:47:39.356 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-24 07:47:49.771 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 07:47:49.777 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 07:47:49.792 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2478883.datarmor0/dask-worker-space/worker-dlw_3e3r', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2478883.datarmor0/dask-worker-space/worker-q2h3g8_o', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2478883.datarmor0/dask-worker-space/worker-gwedd66h', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2478883.datarmor0/dask-worker-space/worker-vew0rihk', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2478883.datarmor0/dask-worker-space/worker-7vuzgg0r', purging
+[I 2022-10-24 07:49:30.838 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+[I 2022-10-24 07:51:31.092 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 07:53:31.212 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 07:53:40.965 ServerApp] Starting buffering for 086f64ff-7f9e-4d63-af08-357b19a064cd:ddbd0ce5-5fa8-4f7d-8e34-7d1ae4942554
+[I 2022-10-24 07:58:53.447 ServerApp] Creating new notebook in /GDP
+[I 2022-10-24 07:58:55.667 ServerApp] Kernel started: 2c4c0ffa-63f5-47df-aab6-40f27d675825
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 6929d6c9-4f24-4e04-8cc4-d3b2cb25216d
+[I 2022-10-24 08:00:53.850 ServerApp] Saving file at /GDP/Untitled.ipynb
+[W 2022-10-24 08:08:49.793 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-24 08:08:54.795 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[W 2022-10-24 08:08:56.758 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-24 08:08:56.759 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-10-24 08:09:01.473 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-24 08:09:01.474 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-24 08:09:01.761 ServerApp] Starting buffering for 2c4c0ffa-63f5-47df-aab6-40f27d675825:729f0be7-d7bd-4868-aa33-9a0e8bd08190
+[I 2022-10-24 08:09:06.474 ServerApp] Starting buffering for bfecb098-62fa-42c5-a603-60516995fa22:2c9efb58-de64-43f0-8a39-aa743869988e
+[I 2022-10-24 08:09:06.475 ServerApp] Starting buffering for 9744f598-3bea-44fa-a959-952e94b8a635:cfbe8696-d16a-486d-84ee-93af93e5cd21
+[I 2022-10-24 08:18:50.580 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 08:18:50.592 ServerApp] Restoring connection for bfecb098-62fa-42c5-a603-60516995fa22:2c9efb58-de64-43f0-8a39-aa743869988e
+[I 2022-10-24 08:18:50.594 ServerApp] Restoring connection for 9744f598-3bea-44fa-a959-952e94b8a635:cfbe8696-d16a-486d-84ee-93af93e5cd21
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 6bf642b6-4b99-4e70-ab04-87c1ca9a68b3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d4892835-8697-4084-aa9c-65e615f7331f
+[IPKernelApp] WARNING | No such comm: 41c2954b-ec3a-4f6a-9300-4b10b58f5771
+[I 2022-10-24 08:19:59.219 ServerApp] Kernel shutdown: 2c4c0ffa-63f5-47df-aab6-40f27d675825
+[W 2022-10-24 08:19:59.478 ServerApp] delete /GDP/Untitled.ipynb
+[I 2022-10-24 08:21:49.927 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 08:23:50.162 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 08:24:43.716 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-24 08:24:49.295 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:24:49.301 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 08:24:49.316 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 15dd3dd1-309a-4d8d-9339-fd932a21399c
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-24 08:25:42.586 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:25:42.592 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 08:25:42.606 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-24 08:26:43.844 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 08:26:53.374 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:26:53.377 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 08:26:53.384 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 773c5dbc-2ec8-44cd-ade2-7c2c43281cd2
+[I 2022-10-24 08:28:43.972 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 08:36:04.418 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:36:07.033 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:36:07.248 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:36:44.093 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 08:38:13.561 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:38:13.564 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 08:38:13.571 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a2e8a0c9-9351-4940-9a22-f46f54c4ecb7
+[I 2022-10-24 08:38:44.236 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 08:40:44.368 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 08:41:20.303 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:41:20.825 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:41:21.662 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:41:21.853 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:41:25.538 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:41:25.541 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:41:25.541 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:41:25.725 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:42:34.612 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:42:34.617 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 08:42:34.626 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 33d8a5a0-f0aa-4d73-8dc9-179f1ed7d796
+[I 2022-10-24 08:42:38.944 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:42:39.360 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:42:39.572 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:42:44.585 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 08:43:58.096 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 08:43:58.102 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 08:43:58.112 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-24 08:44:44.772 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 08:46:44.946 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 08:48:45.109 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 08:50:45.511 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 08:52:45.674 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 08:54:45.792 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-24 08:56:31.255 ServerApp] delete /GDP/dask-worker.o2479576
+[W 2022-10-24 08:56:31.288 ServerApp] delete /GDP/dask-worker.o2479578
+[W 2022-10-24 08:56:31.304 ServerApp] delete /GDP/dask-worker.o2479577
+[W 2022-10-24 08:56:31.334 ServerApp] delete /GDP/dask-worker.o2479635
+[W 2022-10-24 08:56:31.341 ServerApp] delete /GDP/dask-worker.o2479636
+[W 2022-10-24 08:56:31.347 ServerApp] delete /GDP/dask-worker.o2479579
+[W 2022-10-24 08:56:31.354 ServerApp] delete /GDP/dask-worker.o2479580
+[W 2022-10-24 08:56:31.360 ServerApp] delete /GDP/dask-worker.o2479634
+[W 2022-10-24 08:56:31.366 ServerApp] delete /GDP/dask-worker.o2479637
+[W 2022-10-24 08:56:31.370 ServerApp] delete /GDP/dask-worker.o2479638
+[W 2022-10-24 08:56:31.375 ServerApp] delete /GDP/dask-worker.o2479703
+[W 2022-10-24 08:56:31.379 ServerApp] delete /GDP/dask-worker.o2479704
+[W 2022-10-24 08:56:31.384 ServerApp] delete /GDP/dask-worker.o2479705
+[I 2022-10-24 08:56:45.913 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 08:58:46.036 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 09:00:46.180 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 09:02:46.316 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 09:03:35.366 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:03:35.371 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 09:03:35.380 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 7dfaf74d-b70d-49d9-bf11-4a19f41e029d
+[I 2022-10-24 09:04:46.454 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 09:06:23.869 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:06:24.221 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:06:46.589 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 09:08:09.105 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:08:09.111 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 09:08:09.118 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c2f509e6-1665-401e-89dd-9d83679a1ed3
+[I 2022-10-24 09:08:46.813 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 09:10:46.953 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 09:12:12.246 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:12:12.515 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:12:49.340 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f476c19e-6b4d-4f8d-a22d-4252507aee7f
+[I 2022-10-24 09:14:49.486 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 09:15:09.865 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:15:09.875 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 09:15:09.884 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 741593f8-299f-42e8-8edf-b43b86299bde
+[I 2022-10-24 09:16:49.673 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-24 09:19:09.884 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-24 09:19:14.886 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[W 2022-10-24 09:19:20.593 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-10-24 09:19:20.594 ServerApp] WebSocket ping timeout after 119999 ms.
+[I 2022-10-24 09:19:25.595 ServerApp] Starting buffering for bfecb098-62fa-42c5-a603-60516995fa22:2c9efb58-de64-43f0-8a39-aa743869988e
+[I 2022-10-24 09:19:25.595 ServerApp] Starting buffering for 9744f598-3bea-44fa-a959-952e94b8a635:cfbe8696-d16a-486d-84ee-93af93e5cd21
+[W 2022-10-24 09:19:35.812 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-24 09:19:40.814 ServerApp] Starting buffering for 086f64ff-7f9e-4d63-af08-357b19a064cd:1ccd03e7-0f8e-4e2d-b079-88ceafeb499b
+[I 2022-10-24 09:25:06.801 ServerApp] Restoring connection for bfecb098-62fa-42c5-a603-60516995fa22:2c9efb58-de64-43f0-8a39-aa743869988e
+[I 2022-10-24 09:25:06.804 ServerApp] Restoring connection for 9744f598-3bea-44fa-a959-952e94b8a635:cfbe8696-d16a-486d-84ee-93af93e5cd21
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ade6cdc2-4504-44d2-87f4-0688ccf23c82
+[I 2022-10-24 09:25:06.821 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 96f352b8-fdef-495b-897b-180ec7741416
+[I 2022-10-24 09:25:06.971 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 09:25:06.975 ServerApp] Restoring connection for 086f64ff-7f9e-4d63-af08-357b19a064cd:1ccd03e7-0f8e-4e2d-b079-88ceafeb499b
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 596b44eb-2979-47cb-a9e5-a64dd7375fc6
+[W 2022-10-24 09:28:36.802 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-24 09:28:36.805 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-24 09:28:36.972 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-10-24 09:28:36.976 ServerApp] WebSocket ping timeout after 119999 ms.
+[I 2022-10-24 09:28:41.804 ServerApp] Starting buffering for bfecb098-62fa-42c5-a603-60516995fa22:2c9efb58-de64-43f0-8a39-aa743869988e
+[I 2022-10-24 09:28:41.805 ServerApp] Starting buffering for 9744f598-3bea-44fa-a959-952e94b8a635:cfbe8696-d16a-486d-84ee-93af93e5cd21
+[I 2022-10-24 09:28:41.972 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 09:28:41.977 ServerApp] Starting buffering for 086f64ff-7f9e-4d63-af08-357b19a064cd:1ccd03e7-0f8e-4e2d-b079-88ceafeb499b
+[I 2022-10-24 09:34:07.947 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:34:07.961 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:34:07.969 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:34:07.970 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:34:07.971 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:34:07.976 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:34:07.977 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:34:08.005 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:34:08.007 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:34:08.007 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:34:08.008 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:34:08.009 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:34:08.009 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:34:08.025 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 09:34:08.031 ServerApp] Restoring connection for 086f64ff-7f9e-4d63-af08-357b19a064cd:1ccd03e7-0f8e-4e2d-b079-88ceafeb499b
+[I 2022-10-24 09:34:08.031 ServerApp] Restoring connection for bfecb098-62fa-42c5-a603-60516995fa22:2c9efb58-de64-43f0-8a39-aa743869988e
+[I 2022-10-24 09:34:08.032 ServerApp] Restoring connection for 9744f598-3bea-44fa-a959-952e94b8a635:cfbe8696-d16a-486d-84ee-93af93e5cd21
+[I 2022-10-24 09:34:08.035 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 06f64253-c281-4960-b963-4d50d02a004a
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: be03a28b-0c65-41a9-a8c6-88c0a68163aa
+[IPKernelApp] WARNING | No such comm: 2dd6048d-f038-4cf0-a82d-bcd2ffaedd2e
+[I 2022-10-24 09:34:56.705 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:34:56.711 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 09:34:56.719 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5547d661-40e3-466b-9981-2f9caabe3b04
+[I 2022-10-24 09:43:57.343 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:43:58.995 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:43:59.301 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:50:11.698 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 09:51:14.646 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:51:14.861 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:52:11.908 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 09:52:52.289 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:52:52.296 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 09:52:52.304 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 740150df-3558-4f79-8078-2c102ad159c2
+[I 2022-10-24 09:54:12.164 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 09:54:32.688 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:54:32.947 ServerApp] Kernel interrupted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:55:14.266 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 09:55:14.271 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 09:55:14.279 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4b939e80-b527-45ee-85bf-550276c52a0d
+[I 2022-10-24 09:56:12.487 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 10:02:21.539 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-24 10:07:08.033 ServerApp] WebSocket ping timeout after 119997 ms.
+[W 2022-10-24 10:07:08.033 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-24 10:07:08.034 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-24 10:07:09.389 ServerApp] Starting buffering for 9744f598-3bea-44fa-a959-952e94b8a635:cfbe8696-d16a-486d-84ee-93af93e5cd21
+[I 2022-10-24 10:07:09.391 ServerApp] Starting buffering for 086f64ff-7f9e-4d63-af08-357b19a064cd:1ccd03e7-0f8e-4e2d-b079-88ceafeb499b
+[I 2022-10-24 10:07:09.391 ServerApp] Starting buffering for bfecb098-62fa-42c5-a603-60516995fa22:2c9efb58-de64-43f0-8a39-aa743869988e
+[I 2022-10-24 10:07:09.425 ServerApp] Restoring connection for 086f64ff-7f9e-4d63-af08-357b19a064cd:1ccd03e7-0f8e-4e2d-b079-88ceafeb499b
+[I 2022-10-24 10:07:09.429 ServerApp] Restoring connection for 9744f598-3bea-44fa-a959-952e94b8a635:cfbe8696-d16a-486d-84ee-93af93e5cd21
+[I 2022-10-24 10:07:09.430 ServerApp] Restoring connection for bfecb098-62fa-42c5-a603-60516995fa22:2c9efb58-de64-43f0-8a39-aa743869988e
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c5b061e4-311b-47a7-8258-a7881dfed35d
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c1ee7304-9b89-4da9-81d1-6bc87c4cd6f6
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 296f7d82-5abb-4be4-97a1-8ecd188b858a
+[I 2022-10-24 10:07:38.727 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-24 10:11:09.426 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-10-24 10:11:09.429 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-24 10:11:09.430 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-10-24 10:11:14.280 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-24 10:11:14.428 ServerApp] Starting buffering for 086f64ff-7f9e-4d63-af08-357b19a064cd:1ccd03e7-0f8e-4e2d-b079-88ceafeb499b
+[I 2022-10-24 10:11:14.430 ServerApp] Starting buffering for 9744f598-3bea-44fa-a959-952e94b8a635:cfbe8696-d16a-486d-84ee-93af93e5cd21
+[I 2022-10-24 10:11:14.431 ServerApp] Starting buffering for bfecb098-62fa-42c5-a603-60516995fa22:2c9efb58-de64-43f0-8a39-aa743869988e
+[I 2022-10-24 10:11:19.282 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 10:12:49.903 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 10:12:50.123 ServerApp] Restoring connection for 9744f598-3bea-44fa-a959-952e94b8a635:cfbe8696-d16a-486d-84ee-93af93e5cd21
+[I 2022-10-24 10:12:50.124 ServerApp] Restoring connection for 086f64ff-7f9e-4d63-af08-357b19a064cd:1ccd03e7-0f8e-4e2d-b079-88ceafeb499b
+[I 2022-10-24 10:12:50.125 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 10:12:50.126 ServerApp] Restoring connection for bfecb098-62fa-42c5-a603-60516995fa22:2c9efb58-de64-43f0-8a39-aa743869988e
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5a28f992-2f1d-4d76-8eb4-7b5fc5567226
+[IPKernelApp] WARNING | No such comm: d730d5d7-b364-4316-a626-edce1b12f915
+[IPKernelApp] WARNING | No such comm: 5b79db7c-d92d-467c-b8a5-4293d2d397dc
+[W 2022-10-24 10:17:20.127 ServerApp] WebSocket ping timeout after 90001 ms.
+[W 2022-10-24 10:17:20.128 ServerApp] WebSocket ping timeout after 90001 ms.
+[W 2022-10-24 10:17:20.128 ServerApp] WebSocket ping timeout after 90001 ms.
+[W 2022-10-24 10:17:20.128 ServerApp] WebSocket ping timeout after 90000 ms.
+[I 2022-10-24 10:17:25.130 ServerApp] Starting buffering for 9744f598-3bea-44fa-a959-952e94b8a635:cfbe8696-d16a-486d-84ee-93af93e5cd21
+[I 2022-10-24 10:17:25.130 ServerApp] Starting buffering for 086f64ff-7f9e-4d63-af08-357b19a064cd:1ccd03e7-0f8e-4e2d-b079-88ceafeb499b
+[I 2022-10-24 10:17:25.130 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 10:17:25.131 ServerApp] Starting buffering for bfecb098-62fa-42c5-a603-60516995fa22:2c9efb58-de64-43f0-8a39-aa743869988e
+[I 2022-10-24 11:36:10.896 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 11:36:10.984 ServerApp] Restoring connection for bfecb098-62fa-42c5-a603-60516995fa22:2c9efb58-de64-43f0-8a39-aa743869988e
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 35fc661d-0fa6-4e41-a6c4-7f8a82d7ea5f
+[I 2022-10-24 11:36:11.997 ServerApp] Restoring connection for 086f64ff-7f9e-4d63-af08-357b19a064cd:1ccd03e7-0f8e-4e2d-b079-88ceafeb499b
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f0720b3c-3e21-49fc-897e-08740913f88f
+[I 2022-10-24 11:36:14.603 ServerApp] Restoring connection for 9744f598-3bea-44fa-a959-952e94b8a635:cfbe8696-d16a-486d-84ee-93af93e5cd21
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4f8f86c0-dfce-413e-84d9-f16e278bcc7b
+[I 2022-10-24 11:39:55.116 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 11:39:55.123 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 11:39:55.134 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[W 2022-10-24 11:39:59.646 ServerApp] Nudge: attempt 10 on kernel 01d70ef9-d41e-482d-b160-2c9263e0a764
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 86d681ce-7f07-47a3-b51c-83c60dd29295
+[I 2022-10-24 11:40:48.074 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 11:41:55.345 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 11:41:55.350 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 11:41:55.358 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: fad5db35-1c96-4bcc-a4f1-6b56834ebe66
+[W 2022-10-24 11:42:19.455 ServerApp] delete /GDP/dask-worker.o2479718
+[W 2022-10-24 11:42:19.687 ServerApp] delete /GDP/dask-worker.o2479719
+[W 2022-10-24 11:42:19.690 ServerApp] delete /GDP/dask-worker.o2480099
+[W 2022-10-24 11:42:19.708 ServerApp] delete /GDP/dask-worker.o2480100
+[W 2022-10-24 11:42:19.711 ServerApp] delete /GDP/dask-worker.o2480022
+[W 2022-10-24 11:42:19.714 ServerApp] delete /GDP/dask-worker.o2480023
+[W 2022-10-24 11:42:19.718 ServerApp] delete /GDP/dask-worker.o2479720
+[W 2022-10-24 11:42:19.721 ServerApp] delete /GDP/dask-worker.o2480021
+[W 2022-10-24 11:42:19.758 ServerApp] delete /GDP/dask-worker.o2480101
+[W 2022-10-24 11:42:19.762 ServerApp] delete /GDP/dask-worker.o2480173
+[W 2022-10-24 11:42:19.765 ServerApp] delete /GDP/dask-worker.o2480174
+[W 2022-10-24 11:42:19.768 ServerApp] delete /GDP/dask-worker.o2480175
+[W 2022-10-24 11:42:19.781 ServerApp] delete /GDP/dask-worker.o2480398
+[W 2022-10-24 11:42:19.784 ServerApp] delete /GDP/dask-worker.o2480399
+[W 2022-10-24 11:42:19.786 ServerApp] delete /GDP/dask-worker.o2480400
+[W 2022-10-24 11:42:19.790 ServerApp] delete /GDP/dask-worker.o2480568
+[W 2022-10-24 11:42:19.794 ServerApp] delete /GDP/dask-worker.o2480569
+[W 2022-10-24 11:42:19.798 ServerApp] delete /GDP/dask-worker.o2480570
+[W 2022-10-24 11:42:19.803 ServerApp] delete /GDP/dask-worker.o2480619
+[W 2022-10-24 11:42:19.806 ServerApp] delete /GDP/dask-worker.o2480620
+[W 2022-10-24 11:42:19.808 ServerApp] delete /GDP/dask-worker.o2480621
+[W 2022-10-24 11:42:19.813 ServerApp] delete /GDP/dask-worker.o2481922
+[W 2022-10-24 11:42:19.816 ServerApp] delete /GDP/dask-worker.o2481923
+[W 2022-10-24 11:42:19.819 ServerApp] delete /GDP/dask-worker.o2481924
+[I 2022-10-24 11:42:48.349 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 11:44:48.513 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 11:48:48.727 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-24 11:53:10.986 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-10-24 11:53:11.998 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-24 11:53:12.011 ServerApp] Starting buffering for bfecb098-62fa-42c5-a603-60516995fa22:2c9efb58-de64-43f0-8a39-aa743869988e
+[I 2022-10-24 11:53:12.011 ServerApp] Starting buffering for 086f64ff-7f9e-4d63-af08-357b19a064cd:1ccd03e7-0f8e-4e2d-b079-88ceafeb499b
+[I 2022-10-24 11:53:12.032 ServerApp] Restoring connection for bfecb098-62fa-42c5-a603-60516995fa22:2c9efb58-de64-43f0-8a39-aa743869988e
+[I 2022-10-24 11:53:12.033 ServerApp] Restoring connection for 086f64ff-7f9e-4d63-af08-357b19a064cd:1ccd03e7-0f8e-4e2d-b079-88ceafeb499b
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f47377c6-97b7-4ce3-b177-f0f7557dc6b3
+[IPKernelApp] WARNING | No such comm: 933a2d51-cd82-464d-ac2a-236f02c1dc3b
+[I 2022-10-24 11:55:50.738 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-24 12:00:24.789 ServerApp] Copying GDP/parquet_velocity_acceleration.ipynb to /GDP
+[I 2022-10-24 12:02:01.273 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 12:02:29.438 ServerApp] Starting buffering for bfecb098-62fa-42c5-a603-60516995fa22:2c9efb58-de64-43f0-8a39-aa743869988e
+[I 2022-10-24 12:03:18.139 ServerApp] Kernel started: 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 688f7786-2f88-420f-adc1-8118cd9996f0
+[I 2022-10-24 12:04:01.415 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 12:05:17.509 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 12:06:01.593 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 12:06:25.314 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 12:06:33.106 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 12:06:33.111 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 12:06:33.119 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 99178be8-290a-46a6-bb6d-b591b8d5ce4c
+[W 2022-10-24 12:06:42.254 ServerApp] delete /GDP/dask-worker.o2481945
+[W 2022-10-24 12:06:42.273 ServerApp] delete /GDP/dask-worker.o2481944
+[W 2022-10-24 12:06:42.278 ServerApp] delete /GDP/dask-worker.o2482370
+[W 2022-10-24 12:06:42.311 ServerApp] delete /GDP/dask-worker.o2481946
+[W 2022-10-24 12:06:42.314 ServerApp] delete /GDP/dask-worker.o2482372
+[W 2022-10-24 12:06:42.317 ServerApp] delete /GDP/dask-worker.o2482366
+[W 2022-10-24 12:06:42.320 ServerApp] delete /GDP/dask-worker.o2482367
+[W 2022-10-24 12:06:42.323 ServerApp] delete /GDP/dask-worker.o2482368
+[W 2022-10-24 12:06:42.340 ServerApp] delete /GDP/dask-worker.o2482374
+[I 2022-10-24 12:06:49.301 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 12:06:49.306 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 12:06:49.315 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ad0745fb-368e-4ecd-8c8a-79d9aba3d73f
+[I 2022-10-24 12:08:01.731 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 12:08:25.523 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 12:10:02.007 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 12:10:25.649 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 12:14:26.650 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 12:20:26.826 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 12:26:26.996 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 12:30:27.129 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 12:30:46.628 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 12:30:46.635 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 12:30:46.642 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e1c3b90d-202c-491b-93a1-6d4c27be5863
+[I 2022-10-24 12:32:30.146 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 12:34:30.278 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 12:36:30.444 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 12:38:30.666 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 12:40:30.813 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 12:42:31.038 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 12:44:31.249 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 12:46:31.537 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 12:48:31.834 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 12:50:32.062 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 12:52:32.332 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 12:54:32.611 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 12:56:32.860 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 12:56:41.372 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 12:58:11.713 ServerApp] Kernel interrupted: 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7
+[I 2022-10-24 12:58:12.227 ServerApp] Kernel interrupted: 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7
+[I 2022-10-24 12:58:19.417 ServerApp] Kernel restarted: 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7
+[I 2022-10-24 12:58:19.423 ServerApp] Starting buffering for 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7:ae659964-c148-40cc-bcd1-ee1d2bf88d59
+[I 2022-10-24 12:58:19.431 ServerApp] Restoring connection for 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7:ae659964-c148-40cc-bcd1-ee1d2bf88d59
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-24 12:58:27.284 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 12:58:41.671 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 13:00:09.613 ServerApp] Kernel restarted: 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7
+[I 2022-10-24 13:00:09.616 ServerApp] Starting buffering for 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7:ae659964-c148-40cc-bcd1-ee1d2bf88d59
+[I 2022-10-24 13:00:09.623 ServerApp] Restoring connection for 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7:ae659964-c148-40cc-bcd1-ee1d2bf88d59
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e978aac5-ab00-4868-8253-917398d7f24e
+[I 2022-10-24 13:00:27.517 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 13:02:27.783 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 13:06:27.928 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 13:08:28.109 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 13:10:36.322 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 13:12:36.536 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 13:14:36.708 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 13:16:36.869 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 13:18:37.016 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 13:19:01.815 ServerApp] Kernel restarted: 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7
+[I 2022-10-24 13:19:01.822 ServerApp] Starting buffering for 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7:ae659964-c148-40cc-bcd1-ee1d2bf88d59
+[I 2022-10-24 13:19:01.830 ServerApp] Restoring connection for 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7:ae659964-c148-40cc-bcd1-ee1d2bf88d59
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-24 13:20:37.209 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[W 2022-10-24 13:23:42.034 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-24 13:23:44.603 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-24 13:23:46.643 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-24 13:23:47.036 ServerApp] Starting buffering for 086f64ff-7f9e-4d63-af08-357b19a064cd:1ccd03e7-0f8e-4e2d-b079-88ceafeb499b
+[I 2022-10-24 13:23:49.605 ServerApp] Starting buffering for 9744f598-3bea-44fa-a959-952e94b8a635:cfbe8696-d16a-486d-84ee-93af93e5cd21
+[I 2022-10-24 13:23:51.645 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[W 2022-10-24 13:24:01.830 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-24 13:24:06.832 ServerApp] Starting buffering for 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7:ae659964-c148-40cc-bcd1-ee1d2bf88d59
+[I 2022-10-24 13:25:41.345 ServerApp] Restoring connection for 086f64ff-7f9e-4d63-af08-357b19a064cd:1ccd03e7-0f8e-4e2d-b079-88ceafeb499b
+[I 2022-10-24 13:25:41.348 ServerApp] Restoring connection for 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7:ae659964-c148-40cc-bcd1-ee1d2bf88d59
+[I 2022-10-24 13:25:41.351 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 13:25:41.354 ServerApp] Restoring connection for 9744f598-3bea-44fa-a959-952e94b8a635:cfbe8696-d16a-486d-84ee-93af93e5cd21
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f609e236-2d16-476e-9b12-43ae7ee91809
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d95d7c9e-290c-4c10-ac0e-693f40445784
+[I 2022-10-24 13:27:24.591 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 13:29:24.791 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 13:31:24.941 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 13:33:25.082 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 13:34:31.582 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 13:35:03.628 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 13:35:03.635 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 13:35:03.644 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-24 13:36:08.839 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 13:40:20.002 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[W 2022-10-24 13:42:03.646 ServerApp] WebSocket ping timeout after 90000 ms.
+[I 2022-10-24 13:42:08.648 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[W 2022-10-24 13:42:41.346 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-24 13:42:41.349 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-10-24 13:42:41.354 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-24 13:42:46.348 ServerApp] Starting buffering for 086f64ff-7f9e-4d63-af08-357b19a064cd:1ccd03e7-0f8e-4e2d-b079-88ceafeb499b
+[I 2022-10-24 13:42:46.349 ServerApp] Starting buffering for 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7:ae659964-c148-40cc-bcd1-ee1d2bf88d59
+[I 2022-10-24 13:42:46.355 ServerApp] Starting buffering for 9744f598-3bea-44fa-a959-952e94b8a635:cfbe8696-d16a-486d-84ee-93af93e5cd21
+[I 2022-10-24 13:59:06.749 ServerApp] Restoring connection for 9744f598-3bea-44fa-a959-952e94b8a635:cfbe8696-d16a-486d-84ee-93af93e5cd21
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3a0f6106-8e1c-4846-9f08-11013317e08d
+[I 2022-10-24 13:59:09.568 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 13:59:12.389 ServerApp] Restoring connection for 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7:ae659964-c148-40cc-bcd1-ee1d2bf88d59
+[I 2022-10-24 13:59:12.506 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 13:59:18.449 ServerApp] Restoring connection for 086f64ff-7f9e-4d63-af08-357b19a064cd:1ccd03e7-0f8e-4e2d-b079-88ceafeb499b
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f76a2766-4086-4acb-a700-dcbbc3867e14
+[I 2022-10-24 14:01:06.561 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 14:01:06.573 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 14:01:06.582 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 6da54cd6-2832-4375-bdfa-ce6a256d46bc
+[I 2022-10-24 14:01:12.733 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 14:03:13.080 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 14:05:13.253 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 14:07:13.481 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 14:09:13.622 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 14:11:13.756 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 14:13:13.897 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 14:15:05.353 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 14:15:05.360 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 14:15:05.368 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-24 14:15:14.108 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 14:17:14.400 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 14:19:38.292 ServerApp] Kernel restarted: 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7
+[I 2022-10-24 14:19:38.299 ServerApp] Starting buffering for 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7:ae659964-c148-40cc-bcd1-ee1d2bf88d59
+[I 2022-10-24 14:19:38.307 ServerApp] Restoring connection for 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7:ae659964-c148-40cc-bcd1-ee1d2bf88d59
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4476fc50-584a-4af5-9c09-def1890fb837
+[I 2022-10-24 14:21:14.649 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 14:21:34.762 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 14:22:21.585 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 14:22:21.590 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 14:22:21.601 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 25984825-8612-41c1-a5ae-1bc6b6f8ec06
+[I 2022-10-24 14:23:14.920 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 14:23:34.875 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 14:25:35.112 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 14:27:15.122 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 14:28:10.367 ServerApp] Kernel restarted: 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7
+[I 2022-10-24 14:28:10.374 ServerApp] Starting buffering for 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7:ae659964-c148-40cc-bcd1-ee1d2bf88d59
+[I 2022-10-24 14:28:10.384 ServerApp] Restoring connection for 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7:ae659964-c148-40cc-bcd1-ee1d2bf88d59
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 80f3e92c-ba46-4fd2-976d-b210b3644b79
+[I 2022-10-24 14:29:15.369 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 14:29:35.332 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 14:33:35.473 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 14:39:35.591 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 14:41:35.862 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 14:43:03.570 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-24 14:45:01.827 ServerApp] Kernel restarted: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 14:45:01.834 ServerApp] Starting buffering for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+[I 2022-10-24 14:45:01.841 ServerApp] Restoring connection for 01d70ef9-d41e-482d-b160-2c9263e0a764:24131a76-95c5-48c4-bcb5-97e98777b6e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-24 14:45:03.699 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5b406506-213e-4bb8-af6c-9f396dd6afd2
+[I 2022-10-24 14:45:15.621 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 14:47:15.875 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 14:48:44.226 ServerApp] Starting buffering for 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7:ae659964-c148-40cc-bcd1-ee1d2bf88d59
+[I 2022-10-24 14:49:16.150 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[W 2022-10-24 14:49:20.044 ServerApp] delete /GDP/dask-worker.o2482844
+[W 2022-10-24 14:49:20.145 ServerApp] delete /GDP/dask-worker.o2482394
+[W 2022-10-24 14:49:20.147 ServerApp] delete /GDP/dask-worker.o2482393
+[W 2022-10-24 14:49:20.150 ServerApp] delete /GDP/dask-worker.o2482845
+[W 2022-10-24 14:49:20.154 ServerApp] delete /GDP/dask-worker.o2482395
+[W 2022-10-24 14:49:20.157 ServerApp] delete /GDP/dask-worker.o2482401
+[W 2022-10-24 14:49:20.160 ServerApp] delete /GDP/dask-worker.o2482402
+[W 2022-10-24 14:49:20.163 ServerApp] delete /GDP/dask-worker.o2482403
+[W 2022-10-24 14:49:20.166 ServerApp] delete /GDP/dask-worker.o2482846
+[W 2022-10-24 14:49:20.169 ServerApp] delete /GDP/dask-worker.o2483168
+[W 2022-10-24 14:49:20.186 ServerApp] delete /GDP/dask-worker.o2483169
+[W 2022-10-24 14:49:20.188 ServerApp] delete /GDP/dask-worker.o2483200
+[W 2022-10-24 14:49:20.191 ServerApp] delete /GDP/dask-worker.o2483201
+[W 2022-10-24 14:49:20.194 ServerApp] delete /GDP/dask-worker.o2483202
+[W 2022-10-24 14:49:20.198 ServerApp] delete /GDP/dask-worker.o2483516
+[W 2022-10-24 14:49:20.202 ServerApp] delete /GDP/dask-worker.o2483517
+[W 2022-10-24 14:49:20.207 ServerApp] delete /GDP/dask-worker.o2483518
+[W 2022-10-24 14:49:20.211 ServerApp] delete /GDP/dask-worker.o2483720
+[W 2022-10-24 14:49:20.215 ServerApp] delete /GDP/dask-worker.o2483721
+[W 2022-10-24 14:49:20.223 ServerApp] delete /GDP/dask-worker.o2483722
+[W 2022-10-24 14:49:20.226 ServerApp] delete /GDP/dask-worker.o2484008
+[W 2022-10-24 14:49:20.244 ServerApp] delete /GDP/dask-worker.o2484009
+[W 2022-10-24 14:49:20.249 ServerApp] delete /GDP/dask-worker.o2484010
+[W 2022-10-24 14:49:20.251 ServerApp] delete /GDP/dask-worker.o2484396
+[W 2022-10-24 14:49:20.254 ServerApp] delete /GDP/dask-worker.o2484397
+[W 2022-10-24 14:49:20.257 ServerApp] delete /GDP/dask-worker.o2484398
+[W 2022-10-24 14:49:20.260 ServerApp] delete /GDP/dask-worker.o2484457
+[W 2022-10-24 14:49:20.263 ServerApp] delete /GDP/dask-worker.o2484458
+[W 2022-10-24 14:49:20.267 ServerApp] delete /GDP/dask-worker.o2484459
+[W 2022-10-24 14:49:20.270 ServerApp] delete /GDP/dask-worker.o2484490
+[W 2022-10-24 14:49:20.272 ServerApp] delete /GDP/dask-worker.o2484491
+[W 2022-10-24 14:49:20.276 ServerApp] delete /GDP/dask-worker.o2484492
+[W 2022-10-24 14:49:20.279 ServerApp] delete /GDP/dask-worker.o2484623
+[W 2022-10-24 14:49:20.282 ServerApp] delete /GDP/dask-worker.o2484624
+[W 2022-10-24 14:49:20.316 ServerApp] delete /GDP/dask-worker.o2484625
+[I 2022-10-24 14:53:16.410 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 14:55:16.687 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 14:57:17.063 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 14:59:17.344 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 15:01:17.607 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 15:03:17.926 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 15:05:16.522 ServerApp] Saving file at /GDP/diag_velocity_acceleration.ipynb
+[I 2022-10-24 15:08:39.716 ServerApp] Kernel shutdown: bfecb098-62fa-42c5-a603-60516995fa22
+[I 2022-10-24 15:08:39.719 ServerApp] Kernel shutdown: 01d70ef9-d41e-482d-b160-2c9263e0a764
+[I 2022-10-24 15:08:39.722 ServerApp] Kernel shutdown: 086f64ff-7f9e-4d63-af08-357b19a064cd
+[I 2022-10-24 15:08:39.722 ServerApp] Kernel shutdown: 9744f598-3bea-44fa-a959-952e94b8a635
+[I 2022-10-24 15:08:39.722 ServerApp] Kernel shutdown: 9e3ad4df-2cbe-4816-bcb6-1ac072fcbfc7
+[I 2022-10-24 15:08:41.219 ServerApp] Shutting down on /api/shutdown request.
+[I 2022-10-24 15:08:41.261 ServerApp] Shutting down 3 extensions
+[I 2022-10-24 15:08:41.262 ServerApp] Shutting down 0 terminals
+Terminated

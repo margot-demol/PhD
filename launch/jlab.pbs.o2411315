@@ -1,0 +1,58 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu Oct 20 11:50:05 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-10-20 11:50:16.508 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-10-20 11:50:16.513 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-20 11:50:16.520 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-10-20 11:50:19.763 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-10-20 11:50:20.319 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-10-20 11:50:20.320 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-10-20 11:50:20.320 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-10-20 11:50:20.324 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-10-20 11:50:20.432 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-10-20 11:50:20.432 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-10-20 11:50:20.432 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-10-20 11:50:20.432 ServerApp] http://r2i0n23:8877/lab
+[I 2022-10-20 11:50:20.432 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-10-20 11:50:20.432 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-10-20 11:52:07.955 ServerApp] 404 GET /api/kernels/89d08b8c-e754-46af-a652-da12ac2c90d3?1666266727926 (10.148.1.145): Kernel does not exist: 89d08b8c-e754-46af-a652-da12ac2c90d3
+[W 2022-10-20 11:52:07.956 ServerApp] Kernel does not exist: 89d08b8c-e754-46af-a652-da12ac2c90d3
+[W 2022-10-20 11:52:07.956 ServerApp] 404 GET /api/kernels/89d08b8c-e754-46af-a652-da12ac2c90d3?1666266727926 (10.148.1.145) 1.62ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox/overview.ipynb
+[W 2022-10-20 11:52:08.939 ServerApp] 404 GET /api/kernels/89d08b8c-e754-46af-a652-da12ac2c90d3/channels?session_id=2bed4942-2b54-4390-aa70-564c96944de4 (10.148.1.145): Kernel does not exist: 89d08b8c-e754-46af-a652-da12ac2c90d3
+[W 2022-10-20 11:52:08.975 ServerApp] 404 GET /api/kernels/89d08b8c-e754-46af-a652-da12ac2c90d3/channels?session_id=2bed4942-2b54-4390-aa70-564c96944de4 (10.148.1.145) 37.56ms referer=None
+[W 2022-10-20 11:52:09.060 ServerApp] 404 GET /api/kernels/89d08b8c-e754-46af-a652-da12ac2c90d3?1666266729034 (10.148.1.145): Kernel does not exist: 89d08b8c-e754-46af-a652-da12ac2c90d3
+[W 2022-10-20 11:52:09.060 ServerApp] Kernel does not exist: 89d08b8c-e754-46af-a652-da12ac2c90d3
+[W 2022-10-20 11:52:09.061 ServerApp] 404 GET /api/kernels/89d08b8c-e754-46af-a652-da12ac2c90d3?1666266729034 (10.148.1.145) 0.68ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox/overview.ipynb
+[W 2022-10-20 11:52:09.112 ServerApp] 404 GET /api/kernels/89d08b8c-e754-46af-a652-da12ac2c90d3/channels?session_id=2bed4942-2b54-4390-aa70-564c96944de4 (10.148.1.145): Kernel does not exist: 89d08b8c-e754-46af-a652-da12ac2c90d3
+[W 2022-10-20 11:52:09.113 ServerApp] 404 GET /api/kernels/89d08b8c-e754-46af-a652-da12ac2c90d3/channels?session_id=2bed4942-2b54-4390-aa70-564c96944de4 (10.148.1.145) 1.47ms referer=None
+[W 2022-10-20 11:52:09.176 ServerApp] 404 GET /api/kernels/89d08b8c-e754-46af-a652-da12ac2c90d3?1666266729150 (10.148.1.145): Kernel does not exist: 89d08b8c-e754-46af-a652-da12ac2c90d3
+[W 2022-10-20 11:52:09.176 ServerApp] Kernel does not exist: 89d08b8c-e754-46af-a652-da12ac2c90d3
+[W 2022-10-20 11:52:09.176 ServerApp] 404 GET /api/kernels/89d08b8c-e754-46af-a652-da12ac2c90d3?1666266729150 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox/overview.ipynb
+[W 2022-10-20 11:52:10.824 ServerApp] 404 GET /api/kernels/89d08b8c-e754-46af-a652-da12ac2c90d3/channels?session_id=2bed4942-2b54-4390-aa70-564c96944de4 (10.148.1.145): Kernel does not exist: 89d08b8c-e754-46af-a652-da12ac2c90d3
+[W 2022-10-20 11:52:10.824 ServerApp] 404 GET /api/kernels/89d08b8c-e754-46af-a652-da12ac2c90d3/channels?session_id=2bed4942-2b54-4390-aa70-564c96944de4 (10.148.1.145) 1.46ms referer=None
+[W 2022-10-20 11:52:10.916 ServerApp] 404 GET /api/kernels/89d08b8c-e754-46af-a652-da12ac2c90d3?1666266730889 (10.148.1.145): Kernel does not exist: 89d08b8c-e754-46af-a652-da12ac2c90d3
+[W 2022-10-20 11:52:10.916 ServerApp] Kernel does not exist: 89d08b8c-e754-46af-a652-da12ac2c90d3
+[W 2022-10-20 11:52:10.916 ServerApp] 404 GET /api/kernels/89d08b8c-e754-46af-a652-da12ac2c90d3?1666266730889 (10.148.1.145) 0.64ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox/overview.ipynb
+[I 2022-10-20 11:52:24.918 LabApp] Build is up to date
+[W 2022-10-20 11:52:25.765 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-20 11:52:26.775 ServerApp] Kernel started: 5e9de548-209c-4089-8127-d72c25e49b11
+[I 2022-10-20 11:52:27.177 ServerApp] Kernel started: 1aff8571-01ad-4628-a529-fc336e31c035
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2b2299b1-1ac1-430b-bc23-d53bb8636234
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 00dc4e4c-a66a-476e-9bc8-8100044b98b4
+[I 2022-10-20 11:54:26.579 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-20 11:54:26.581 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+Terminated
+[C 2022-10-20 12:02:19.544 ServerApp] received signal 15, stopping
+[I 2022-10-20 12:02:19.546 ServerApp] Shutting down 3 extensions
+[I 2022-10-20 12:02:19.546 ServerApp] Shutting down 2 kernels
+[I 2022-10-20 12:02:19.546 ServerApp] Kernel shutdown: 1aff8571-01ad-4628-a529-fc336e31c035
+[I 2022-10-20 12:02:19.546 ServerApp] Kernel shutdown: 5e9de548-209c-4089-8127-d72c25e49b11
+[I 2022-10-20 12:02:20.363 ServerApp] Shutting down 0 terminals

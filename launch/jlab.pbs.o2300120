@@ -1,0 +1,81 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Wed Oct 12 14:08:15 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-10-12 14:08:27.639 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-10-12 14:08:27.652 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-12 14:08:27.659 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-10-12 14:08:31.358 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-10-12 14:08:31.930 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-10-12 14:08:31.931 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-10-12 14:08:31.931 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-10-12 14:08:31.935 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-10-12 14:08:32.008 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-10-12 14:08:32.008 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-10-12 14:08:32.008 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-10-12 14:08:32.008 ServerApp] http://r1i3n35:8877/lab
+[I 2022-10-12 14:08:32.008 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-10-12 14:08:32.008 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-10-12 14:10:46.720 ServerApp] 404 GET /api/kernels/6994d442-8652-4411-affe-765365b71327?1665583846398 (10.148.1.145): Kernel does not exist: 6994d442-8652-4411-affe-765365b71327
+[W 2022-10-12 14:10:46.721 ServerApp] Kernel does not exist: 6994d442-8652-4411-affe-765365b71327
+[W 2022-10-12 14:10:46.721 ServerApp] 404 GET /api/kernels/6994d442-8652-4411-affe-765365b71327?1665583846398 (10.148.1.145) 1.55ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox/errors_lonlat.ipynb
+[W 2022-10-12 14:10:47.107 ServerApp] 404 GET /api/kernels/6994d442-8652-4411-affe-765365b71327/channels?session_id=eba3a052-d97c-445f-88b9-18e0594410c4 (10.148.1.145): Kernel does not exist: 6994d442-8652-4411-affe-765365b71327
+[W 2022-10-12 14:10:47.128 ServerApp] 404 GET /api/kernels/6994d442-8652-4411-affe-765365b71327/channels?session_id=eba3a052-d97c-445f-88b9-18e0594410c4 (10.148.1.145) 22.31ms referer=None
+[W 2022-10-12 14:10:47.387 ServerApp] 404 GET /api/kernels/6994d442-8652-4411-affe-765365b71327?1665583847211 (10.148.1.145): Kernel does not exist: 6994d442-8652-4411-affe-765365b71327
+[W 2022-10-12 14:10:47.387 ServerApp] Kernel does not exist: 6994d442-8652-4411-affe-765365b71327
+[W 2022-10-12 14:10:47.387 ServerApp] 404 GET /api/kernels/6994d442-8652-4411-affe-765365b71327?1665583847211 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox/errors_lonlat.ipynb
+[W 2022-10-12 14:10:49.042 ServerApp] 404 GET /api/kernels/6994d442-8652-4411-affe-765365b71327/channels?session_id=eba3a052-d97c-445f-88b9-18e0594410c4 (10.148.1.145): Kernel does not exist: 6994d442-8652-4411-affe-765365b71327
+[W 2022-10-12 14:10:49.043 ServerApp] 404 GET /api/kernels/6994d442-8652-4411-affe-765365b71327/channels?session_id=eba3a052-d97c-445f-88b9-18e0594410c4 (10.148.1.145) 1.47ms referer=None
+[W 2022-10-12 14:10:49.299 ServerApp] 404 GET /api/kernels/6994d442-8652-4411-affe-765365b71327?1665583849110 (10.148.1.145): Kernel does not exist: 6994d442-8652-4411-affe-765365b71327
+[W 2022-10-12 14:10:49.300 ServerApp] Kernel does not exist: 6994d442-8652-4411-affe-765365b71327
+[W 2022-10-12 14:10:49.300 ServerApp] 404 GET /api/kernels/6994d442-8652-4411-affe-765365b71327?1665583849110 (10.148.1.145) 0.66ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 14:11:02.643 ServerApp] Kernel started: 2c747e47-ee26-496c-a2bb-01ede6bdbf0e
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e2475f00-2b4f-45a1-8bcb-0cebd04eb6d6
+[I 2022-10-12 14:11:05.334 ServerApp] Kernel restarted: 2c747e47-ee26-496c-a2bb-01ede6bdbf0e
+[I 2022-10-12 14:11:05.418 ServerApp] Starting buffering for 2c747e47-ee26-496c-a2bb-01ede6bdbf0e:cddad6e3-1f9c-4258-9aaa-c3ddc219b93e
+[I 2022-10-12 14:11:05.599 ServerApp] Restoring connection for 2c747e47-ee26-496c-a2bb-01ede6bdbf0e:cddad6e3-1f9c-4258-9aaa-c3ddc219b93e
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2f4c2cda-4813-4071-b4c7-2f201149e5d2
+[I 2022-10-12 14:12:12.906 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 14:14:14.358 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 14:18:18.232 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 14:21:02.136 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 14:28:23.038 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 14:30:24.617 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 14:32:30.328 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 14:36:34.964 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 14:38:55.362 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 14:42:52.740 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 14:47:35.597 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 14:49:41.269 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 14:51:44.299 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 14:53:47.108 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 14:56:37.967 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 15:06:11.867 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 15:09:02.215 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 15:11:54.984 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 15:14:05.575 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 15:14:12.079 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 15:14:36.173 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 15:14:46.053 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 15:14:48.686 ServerApp] Saving file at /drifters_stats/drifters/utils.py
+[I 2022-10-12 15:15:13.359 ServerApp] Starting buffering for 2c747e47-ee26-496c-a2bb-01ede6bdbf0e:cddad6e3-1f9c-4258-9aaa-c3ddc219b93e
+[I 2022-10-12 15:15:54.090 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 15:16:19.160 ServerApp] Saving file at /drifters_stats/sandbox/binned_stats.ipynb
+[W 2022-10-12 15:16:19.161 ServerApp] Notebook drifters_stats/sandbox/binned_stats.ipynb is not trusted
+Terminated
+[C 2022-10-12 15:23:18.787 ServerApp] received signal 15, stopping
+[I 2022-10-12 15:23:18.826 ServerApp] Shutting down 3 extensions
+[I 2022-10-12 15:23:18.827 ServerApp] Shutting down 1 kernel
+[I 2022-10-12 15:23:18.827 ServerApp] Kernel shutdown: 2c747e47-ee26-496c-a2bb-01ede6bdbf0e
+[I 2022-10-12 15:23:20.644 ServerApp] Shutting down 0 terminals

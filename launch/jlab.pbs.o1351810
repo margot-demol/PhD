@@ -1,0 +1,30 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Fri Aug  5 12:13:30 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-08-05 12:13:43.797 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-08-05 12:13:43.810 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-08-05 12:13:43.817 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-08-05 12:13:46.889 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-08-05 12:13:47.449 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-08-05 12:13:47.450 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-08-05 12:13:47.451 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-08-05 12:13:47.454 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-08-05 12:13:47.531 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-08-05 12:13:47.531 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-08-05 12:13:47.531 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-08-05 12:13:47.531 ServerApp] http://r1i5n10:8877/lab
+[I 2022-08-05 12:13:47.531 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-08-05 12:13:47.531 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+Terminated
+[C 2022-08-05 12:15:32.264 ServerApp] received signal 15, stopping
+[I 2022-08-05 12:15:32.317 ServerApp] Shutting down 3 extensions
+[I 2022-08-05 12:15:32.317 ServerApp] Shutting down 0 kernels
+[I 2022-08-05 12:15:32.318 ServerApp] Shutting down 0 terminals

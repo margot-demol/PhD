@@ -1,0 +1,55 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Wed Sep  7 12:24:12 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-09-07 12:24:13.938 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-09-07 12:24:13.942 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-09-07 12:24:13.949 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-09-07 12:24:14.249 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-09-07 12:24:14.303 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-09-07 12:24:14.304 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-09-07 12:24:14.304 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-09-07 12:24:14.308 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-09-07 12:24:14.313 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-09-07 12:24:14.314 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-09-07 12:24:14.314 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-09-07 12:24:14.314 ServerApp] http://r1i2n15:8877/lab
+[I 2022-09-07 12:24:14.314 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-09-07 12:24:14.314 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 2022-09-07 12:25:02.402 LabApp] Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+    {"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+    {"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+    
+[I 2022-09-07 12:25:02.435 LabApp] Build is up to date
+[I 2022-09-07 12:25:04.584 ServerApp] Kernel started: 490ca3dd-5a6b-419d-8c8a-2227b94c10d6
+[I 2022-09-07 12:25:04.592 ServerApp] Kernel started: 7ef222b2-f3e4-47b4-9c2e-e22c355c5193
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 0efd5813-6438-4d42-801a-e2de8e856030
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4737d80b-97e3-4a14-a6ec-6a2a51390cb4
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+Terminated
+[C 2022-09-07 12:26:47.057 ServerApp] received signal 15, stopping
+[I 2022-09-07 12:26:47.070 ServerApp] Shutting down 3 extensions
+[I 2022-09-07 12:26:47.070 ServerApp] Shutting down 2 kernels
+[I 2022-09-07 12:26:47.071 ServerApp] Kernel shutdown: 7ef222b2-f3e4-47b4-9c2e-e22c355c5193
+[I 2022-09-07 12:26:47.071 ServerApp] Kernel shutdown: 490ca3dd-5a6b-419d-8c8a-2227b94c10d6
+[I 2022-09-07 12:26:49.688 ServerApp] Shutting down 0 terminals

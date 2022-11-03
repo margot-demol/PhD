@@ -1,0 +1,108 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Mon Aug  1 15:00:55 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-08-01 15:01:08.820 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-08-01 15:01:08.835 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-08-01 15:01:08.842 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-08-01 15:01:13.065 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-08-01 15:01:13.791 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-08-01 15:01:13.792 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-08-01 15:01:13.792 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-08-01 15:01:13.796 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-08-01 15:01:13.947 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-08-01 15:01:13.948 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-08-01 15:01:13.948 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-08-01 15:01:13.948 ServerApp] http://r1i3n22:8877/lab
+[I 2022-08-01 15:01:13.948 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-08-01 15:01:13.948 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-08-01 15:02:19.280 LabApp] Build is up to date
+[I 2022-08-01 15:02:26.931 ServerApp] Kernel started: 0d803aac-816d-4ce3-88c2-c54e38de2086
+[I 2022-08-01 15:02:26.932 ServerApp] Kernel started: 70de37b1-cbfa-4d71-9a30-69b7f7db3790
+[I 2022-08-01 15:02:26.933 ServerApp] Kernel started: b3fb3d29-100a-4b33-8c8f-8e3813d0ed68
+[I 2022-08-01 15:02:27.051 ServerApp] Kernel started: fa189034-9d29-44f6-b9b5-671bf135b5b8
+[I 2022-08-01 15:02:27.150 ServerApp] Kernel started: 9bc72a48-c391-411f-926c-9ac1c1e2848c
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4067e39c-b0f0-4971-a690-698a483f02ef
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f533768b-e13e-4c2b-a715-ce896993bd57
+[IPKernelApp] WARNING | No such comm: 94733687-4017-4f64-b9bd-6e7ffc22823f
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: fe156a31-2044-46ba-9a19-4fdc305f05c2
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1662b6e5-eda3-4f9b-ba79-ec806e37347b
+[I 2022-08-01 15:03:15.770 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-08-01 15:03:47.074 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-08-01 15:04:25.761 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-08-01 15:04:26.085 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlatphi.ipynb
+[I 2022-08-01 15:06:26.157 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-08-01 15:10:26.579 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-08-01 15:12:26.941 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-08-01 15:14:27.303 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-08-01 15:18:27.747 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-08-01 15:33:46.505 ServerApp] Kernel started: 1fd5ddf5-cbda-4050-8c63-1f26b33b98ea
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5a62a70e-cc44-459c-9f7d-8075e81a062b
+[I 2022-08-01 15:34:51.908 ServerApp] Copying m2_2022/sandbox/zarr_stat_lonlatphi.ipynb to /m2_2022/sandbox
+[I 2022-08-01 15:35:11.407 ServerApp] Kernel started: cd3197c7-24d3-4ada-a0ed-505b2693fb85
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2c3ec88a-a3c3-4da6-beec-e7cf6df8c8e3
+[I 2022-08-01 15:35:45.301 ServerApp] Saving file at /m2_2022/sandbox/diag_rms_dist.ipynb
+[I 2022-08-01 15:36:44.357 ServerApp] Kernel restarted: cd3197c7-24d3-4ada-a0ed-505b2693fb85
+[I 2022-08-01 15:36:45.261 ServerApp] Starting buffering for cd3197c7-24d3-4ada-a0ed-505b2693fb85:ea857850-f314-456a-b07a-46f70e19dfb6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-08-01 15:36:46.510 ServerApp] Restoring connection for cd3197c7-24d3-4ada-a0ed-505b2693fb85:ea857850-f314-456a-b07a-46f70e19dfb6
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e7598771-51e5-4e95-a470-a915ae1aae02
+[I 2022-08-01 15:37:10.289 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_dist.ipynb
+[I 2022-08-01 15:37:45.538 ServerApp] Saving file at /m2_2022/sandbox/diag_rms_dist.ipynb
+[I 2022-08-01 15:39:04.064 ServerApp] Starting buffering for 70de37b1-cbfa-4d71-9a30-69b7f7db3790:f5abdc26-fc6d-47d6-89ff-933edd9e330a
+[I 2022-08-01 15:39:05.468 ServerApp] Starting buffering for b3fb3d29-100a-4b33-8c8f-8e3813d0ed68:cb508727-e5b0-4777-a3a6-ba185367c95f
+[I 2022-08-01 15:39:11.786 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_dist.ipynb
+[I 2022-08-01 15:41:12.536 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_dist.ipynb
+[I 2022-08-01 15:43:12.941 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_dist.ipynb
+[I 2022-08-01 15:45:13.306 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_dist.ipynb
+[I 2022-08-01 15:47:07.154 ServerApp] Kernel started: 1a6b8b21-5357-4c8b-9d06-c62d553f6bc7
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-08-01 15:47:08.296 ServerApp] Starting buffering for fa189034-9d29-44f6-b9b5-671bf135b5b8:9646042f-2979-4f57-bfb8-6ca28933143f
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d5f8d20b-e6e8-4246-8635-1f5918849316
+[I 2022-08-01 15:47:09.280 ServerApp] Starting buffering for 0d803aac-816d-4ce3-88c2-c54e38de2086:dec98bbb-1970-4f18-85ff-12eaf6350169
+[I 2022-08-01 15:47:13.614 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_dist.ipynb
+[I 2022-08-01 15:49:14.650 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_dist.ipynb
+[I 2022-08-01 15:50:13.724 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-08-01 15:51:16.491 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_dist.ipynb
+[I 2022-08-01 15:53:16.909 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_dist.ipynb
+[I 2022-08-01 15:53:45.822 ServerApp] Saving file at /m2_2022/sandbox/diag_rms_dist.ipynb
+Terminated
+[C 2022-08-01 15:55:26.285 ServerApp] received signal 15, stopping
+[I 2022-08-01 15:55:26.298 ServerApp] Shutting down 3 extensions
+[I 2022-08-01 15:55:26.298 ServerApp] Shutting down 8 kernels
+[I 2022-08-01 15:55:26.298 ServerApp] Kernel shutdown: fa189034-9d29-44f6-b9b5-671bf135b5b8
+[I 2022-08-01 15:55:26.298 ServerApp] Kernel shutdown: cd3197c7-24d3-4ada-a0ed-505b2693fb85
+[I 2022-08-01 15:55:26.299 ServerApp] Kernel shutdown: b3fb3d29-100a-4b33-8c8f-8e3813d0ed68
+[I 2022-08-01 15:55:26.299 ServerApp] Kernel shutdown: 1a6b8b21-5357-4c8b-9d06-c62d553f6bc7
+[I 2022-08-01 15:55:26.299 ServerApp] Kernel shutdown: 0d803aac-816d-4ce3-88c2-c54e38de2086
+[I 2022-08-01 15:55:26.299 ServerApp] Kernel shutdown: 9bc72a48-c391-411f-926c-9ac1c1e2848c
+[I 2022-08-01 15:55:26.300 ServerApp] Kernel shutdown: 1fd5ddf5-cbda-4050-8c63-1f26b33b98ea
+[I 2022-08-01 15:55:26.300 ServerApp] Kernel shutdown: 70de37b1-cbfa-4d71-9a30-69b7f7db3790
+[C 2022-08-01 15:55:27.886 ServerApp] received signal 15, stopping
+[I 2022-08-01 15:55:27.887 ServerApp] Shutting down 3 extensions
+[I 2022-08-01 15:55:27.887 ServerApp] Shutting down 4 kernels
+[I 2022-08-01 15:55:27.887 ServerApp] Kernel shutdown: 1fd5ddf5-cbda-4050-8c63-1f26b33b98ea
+[I 2022-08-01 15:55:27.887 ServerApp] Kernel shutdown: 9bc72a48-c391-411f-926c-9ac1c1e2848c
+[I 2022-08-01 15:55:27.887 ServerApp] Kernel shutdown: cd3197c7-24d3-4ada-a0ed-505b2693fb85
+[I 2022-08-01 15:55:27.888 ServerApp] Kernel shutdown: 70de37b1-cbfa-4d71-9a30-69b7f7db3790
+[I 2022-08-01 15:55:29.013 ServerApp] Shutting down 0 terminals
+[I 2022-08-01 15:55:29.013 ServerApp] Shutting down 0 terminals

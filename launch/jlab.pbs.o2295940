@@ -1,0 +1,251 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Wed Oct 12 08:15:02 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-10-12 08:15:05.896 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-10-12 08:15:05.901 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-12 08:15:05.908 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-10-12 08:15:06.271 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-10-12 08:15:06.610 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-10-12 08:15:06.611 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-10-12 08:15:06.611 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-10-12 08:15:06.615 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-10-12 08:15:06.622 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-10-12 08:15:06.622 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-10-12 08:15:06.622 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-10-12 08:15:06.622 ServerApp] http://r1i0n35:8877/lab
+[I 2022-10-12 08:15:06.622 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-10-12 08:15:06.622 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 2022-10-12 08:15:56.352 LabApp] Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+    {"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+    {"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+    
+[I 2022-10-12 08:15:56.528 LabApp] Build is up to date
+[W 2022-10-12 08:15:57.886 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-12 08:16:16.153 ServerApp] Kernel started: fd2f356d-9356-445b-b98d-b52d71428e01
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 63c3da7d-5df9-4c90-ba4c-4ffea0521f54
+[I 2022-10-12 08:16:36.885 ServerApp] Kernel started: 4842e411-f62e-4478-a558-223a777bb8fe
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 0517de59-1f4b-4f9f-9c93-69b0eda6c7bf
+[I 2022-10-12 08:18:50.796 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-12 08:18:50.798 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-12 08:21:30.028 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-12 08:21:30.029 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-12 08:25:57.953 ServerApp] Kernel started: 2e5bd6bb-52de-42da-a158-1972d2a026dc
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-12 08:26:02.664 ServerApp] Starting buffering for 2e5bd6bb-52de-42da-a158-1972d2a026dc:fd3bc8df-8309-4f6b-b34f-1c62cffdea34
+[I 2022-10-12 08:26:06.086 ServerApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 2022-10-12 08:27:56.750 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-12 08:27:56.751 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-12 08:37:38.683 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-12 08:37:38.684 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-12 08:38:59.106 ServerApp] Kernel restarted: 4842e411-f62e-4478-a558-223a777bb8fe
+[I 2022-10-12 08:38:59.268 ServerApp] Starting buffering for 4842e411-f62e-4478-a558-223a777bb8fe:ea0f996a-e95f-45f5-a836-c242e73ca84e
+[I 2022-10-12 08:38:59.427 ServerApp] Restoring connection for 4842e411-f62e-4478-a558-223a777bb8fe:ea0f996a-e95f-45f5-a836-c242e73ca84e
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 9780d3d6-9bf9-4005-8145-0d5324ac3707
+[I 2022-10-12 08:46:02.538 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-12 08:46:02.539 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-12 08:50:19.821 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-12 08:50:19.822 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-12 08:56:27.127 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-12 08:56:27.128 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[W 2022-10-12 08:58:59.482 ServerApp] Notebook drifters_stats/sandbox/binned_stats.ipynb is not trusted
+[I 2022-10-12 08:59:04.333 ServerApp] Kernel started: 5034febb-6a81-4596-bd89-90a8ec70dd7e
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ef9a2a69-b3e4-41d8-8e59-0e19408bbe4f
+[I 2022-10-12 09:01:15.234 ServerApp] Saving file at /drifters_stats/sandbox/binned_stats.ipynb
+[W 2022-10-12 09:01:15.236 ServerApp] Notebook drifters_stats/sandbox/binned_stats.ipynb is not trusted
+[I 2022-10-12 09:03:51.881 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-12 09:03:51.882 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-12 09:11:12.907 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-12 09:11:12.907 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-12 09:16:23.390 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-12 09:16:23.391 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-12 09:23:32.260 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-12 09:23:32.261 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[W 2022-10-12 09:46:05.953 ServerApp] WebSocket ping timeout after 119018 ms.
+[W 2022-10-12 09:46:06.381 ServerApp] WebSocket ping timeout after 118937 ms.
+Websocket closed
+[W 2022-10-12 09:46:28.361 ServerApp] WebSocket ping timeout after 118881 ms.
+[W 2022-10-12 09:46:29.427 ServerApp] WebSocket ping timeout after 118803 ms.
+[I 2022-10-12 09:46:33.364 ServerApp] Starting buffering for fd2f356d-9356-445b-b98d-b52d71428e01:ff86c476-35b1-4e7d-938e-9c50bd734e88
+[I 2022-10-12 09:46:34.428 ServerApp] Starting buffering for 4842e411-f62e-4478-a558-223a777bb8fe:ea0f996a-e95f-45f5-a836-c242e73ca84e
+[W 2022-10-12 09:46:35.329 ServerApp] WebSocket ping timeout after 118411 ms.
+[I 2022-10-12 09:46:40.330 ServerApp] Starting buffering for 5034febb-6a81-4596-bd89-90a8ec70dd7e:6c0b1ae7-1462-445a-a314-58dece5bf220
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 2022-10-12 09:56:01.071 ServerApp] Restoring connection for 4842e411-f62e-4478-a558-223a777bb8fe:ea0f996a-e95f-45f5-a836-c242e73ca84e
+[I 2022-10-12 09:56:01.206 ServerApp] Restoring connection for 5034febb-6a81-4596-bd89-90a8ec70dd7e:6c0b1ae7-1462-445a-a314-58dece5bf220
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a364ccf6-4a42-48be-821a-69d613cba232
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: bf39b989-4eea-4f32-8d32-16379743a9f5
+[I 2022-10-12 10:00:28.972 ServerApp] Kernel interrupted: 4842e411-f62e-4478-a558-223a777bb8fe
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 36bece46-a73e-41ac-9016-de5bdd01165f
+[W 2022-10-12 10:03:30.672 ServerApp] WebSocket ping timeout after 96065 ms.
+[W 2022-10-12 10:03:30.676 ServerApp] WebSocket ping timeout after 96068 ms.
+[W 2022-10-12 10:03:31.072 ServerApp] WebSocket ping timeout after 96464 ms.
+[W 2022-10-12 10:03:31.207 ServerApp] WebSocket ping timeout after 96599 ms.
+[W 2022-10-12 10:03:31.223 ServerApp] WebSocket ping timeout after 96615 ms.
+Websocket closed
+[I 2022-10-12 10:03:36.072 ServerApp] Starting buffering for 4842e411-f62e-4478-a558-223a777bb8fe:ea0f996a-e95f-45f5-a836-c242e73ca84e
+[I 2022-10-12 10:03:36.208 ServerApp] Starting buffering for 5034febb-6a81-4596-bd89-90a8ec70dd7e:6c0b1ae7-1462-445a-a314-58dece5bf220
+[I 2022-10-12 10:03:36.224 ServerApp] Starting buffering for fd2f356d-9356-445b-b98d-b52d71428e01:ff86c476-35b1-4e7d-938e-9c50bd734e88
+[I 2022-10-12 10:03:41.211 ServerApp] Kernel interrupted: 4842e411-f62e-4478-a558-223a777bb8fe
+[I 2022-10-12 10:03:41.212 ServerApp] Kernel interrupted: 4842e411-f62e-4478-a558-223a777bb8fe
+[I 2022-10-12 10:03:41.222 ServerApp] Kernel interrupted: 4842e411-f62e-4478-a558-223a777bb8fe
+[I 2022-10-12 10:03:42.098 ServerApp] Kernel interrupted: 4842e411-f62e-4478-a558-223a777bb8fe
+[I 2022-10-12 10:03:42.597 ServerApp] Kernel interrupted: 4842e411-f62e-4478-a558-223a777bb8fe
+[I 2022-10-12 10:03:42.723 ServerApp] Kernel interrupted: 4842e411-f62e-4478-a558-223a777bb8fe
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 2022-10-12 10:03:43.363 ServerApp] Restoring connection for 5034febb-6a81-4596-bd89-90a8ec70dd7e:6c0b1ae7-1462-445a-a314-58dece5bf220
+[I 2022-10-12 10:03:43.386 ServerApp] Restoring connection for 4842e411-f62e-4478-a558-223a777bb8fe:ea0f996a-e95f-45f5-a836-c242e73ca84e
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 06598f07-7dca-46bd-99f0-c9e11d39033d
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d8ee46a7-a102-4a44-9b35-4e3d158fc7d3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 0329cc7e-3961-4089-b4f5-7c6cbb961365
+[I 2022-10-12 10:04:45.599 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-12 10:04:45.600 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-12 10:04:45.838 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-12 10:04:45.838 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-12 10:07:14.763 ServerApp] Creating new notebook in /drifters_stats/sandbox
+[I 2022-10-12 10:07:15.835 ServerApp] Kernel started: 6994d442-8652-4411-affe-765365b71327
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b4bda177-d57c-4ceb-bf94-7c39ad230c1f
+[I 2022-10-12 10:09:15.608 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 10:11:16.065 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 10:21:17.278 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 10:23:37.766 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 10:25:51.763 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-12 10:25:51.763 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-12 10:26:52.835 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-12 10:26:52.836 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-12 10:27:03.452 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 10:29:13.388 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 10:33:18.206 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 10:35:18.885 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 10:37:29.276 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 10:40:20.193 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 10:49:02.760 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 10:51:57.845 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 10:54:20.088 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 10:58:22.776 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 11:01:22.149 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 11:01:22.242 ServerApp] Kernel interrupted: 6994d442-8652-4411-affe-765365b71327
+[I 2022-10-12 11:01:22.242 ServerApp] Kernel interrupted: 6994d442-8652-4411-affe-765365b71327
+[I 2022-10-12 11:08:46.549 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 11:16:34.646 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 11:24:39.469 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 11:26:43.964 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 11:28:47.954 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 11:30:56.679 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 11:33:01.469 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 11:35:04.369 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 11:37:10.109 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 11:39:13.683 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 11:41:19.585 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 11:43:26.327 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 11:45:32.492 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 11:47:39.160 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 11:49:42.799 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 11:51:01.600 ServerApp] Kernel restarted: 6994d442-8652-4411-affe-765365b71327
+[I 2022-10-12 11:51:01.737 ServerApp] Starting buffering for 6994d442-8652-4411-affe-765365b71327:eba3a052-d97c-445f-88b9-18e0594410c4
+[I 2022-10-12 11:51:01.907 ServerApp] Restoring connection for 6994d442-8652-4411-affe-765365b71327:eba3a052-d97c-445f-88b9-18e0594410c4
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 660d747b-f979-43c6-a560-f87972ed51ee
+[I 2022-10-12 11:51:43.844 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 11:53:44.975 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 11:56:08.090 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 12:00:29.710 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 12:03:44.292 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 12:13:27.047 ServerApp] Kernel interrupted: 6994d442-8652-4411-affe-765365b71327
+[I 2022-10-12 12:13:27.326 ServerApp] Kernel interrupted: 6994d442-8652-4411-affe-765365b71327
+[I 2022-10-12 12:16:10.432 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 12:18:12.353 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 12:20:13.798 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[W 2022-10-12 12:24:01.907 ServerApp] WebSocket ping timeout after 102937 ms.
+[I 2022-10-12 12:24:06.910 ServerApp] Starting buffering for 6994d442-8652-4411-affe-765365b71327:eba3a052-d97c-445f-88b9-18e0594410c4
+[W 2022-10-12 12:24:43.357 ServerApp] WebSocket ping timeout after 115615 ms.
+[W 2022-10-12 12:24:43.364 ServerApp] WebSocket ping timeout after 115622 ms.
+[W 2022-10-12 12:24:43.376 ServerApp] WebSocket ping timeout after 115634 ms.
+[W 2022-10-12 12:24:43.386 ServerApp] WebSocket ping timeout after 113941 ms.
+Websocket closed
+[I 2022-10-12 12:24:48.364 ServerApp] Starting buffering for 5034febb-6a81-4596-bd89-90a8ec70dd7e:6c0b1ae7-1462-445a-a314-58dece5bf220
+[I 2022-10-12 12:24:48.377 ServerApp] Starting buffering for fd2f356d-9356-445b-b98d-b52d71428e01:ad98a08e-83c5-4b20-998e-f7bc376fb998
+[I 2022-10-12 12:24:48.387 ServerApp] Starting buffering for 4842e411-f62e-4478-a558-223a777bb8fe:ea0f996a-e95f-45f5-a836-c242e73ca84e
+[I 2022-10-12 12:25:13.926 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 12:25:30.723 ServerApp] Restoring connection for 6994d442-8652-4411-affe-765365b71327:eba3a052-d97c-445f-88b9-18e0594410c4
+[I 2022-10-12 12:25:32.835 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 12:25:48.346 ServerApp] Restoring connection for 5034febb-6a81-4596-bd89-90a8ec70dd7e:6c0b1ae7-1462-445a-a314-58dece5bf220
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 2022-10-12 12:25:48.353 ServerApp] Restoring connection for fd2f356d-9356-445b-b98d-b52d71428e01:ad98a08e-83c5-4b20-998e-f7bc376fb998
+[I 2022-10-12 12:25:48.354 ServerApp] Restoring connection for 4842e411-f62e-4478-a558-223a777bb8fe:ea0f996a-e95f-45f5-a836-c242e73ca84e
+[I 2022-10-12 12:26:05.636 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a5814b37-2e47-4e8a-9c7b-5fffed88aaca
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 0685b5bd-0d0e-47cb-993a-d5e483cc8a0b
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ee45c571-3a3a-4314-8434-18fa745c4cff
+[I 2022-10-12 12:44:18.113 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 12:48:19.616 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 12:50:21.151 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-12 12:52:22.385 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[W 2022-10-12 13:03:48.348 ServerApp] WebSocket ping timeout after 98785 ms.
+[W 2022-10-12 13:03:48.349 ServerApp] WebSocket ping timeout after 98079 ms.
+[I 2022-10-12 13:03:53.349 ServerApp] Starting buffering for 5034febb-6a81-4596-bd89-90a8ec70dd7e:6c0b1ae7-1462-445a-a314-58dece5bf220
+Websocket closed
+[W 2022-10-12 13:04:48.355 ServerApp] WebSocket ping timeout after 101794 ms.
+[W 2022-10-12 13:04:48.355 ServerApp] WebSocket ping timeout after 101745 ms.
+[I 2022-10-12 13:04:53.356 ServerApp] Starting buffering for fd2f356d-9356-445b-b98d-b52d71428e01:ad98a08e-83c5-4b20-998e-f7bc376fb998
+[I 2022-10-12 13:04:53.356 ServerApp] Starting buffering for 4842e411-f62e-4478-a558-223a777bb8fe:ea0f996a-e95f-45f5-a836-c242e73ca84e
+[W 2022-10-12 13:05:00.726 ServerApp] WebSocket ping timeout after 114116 ms.
+[I 2022-10-12 13:05:05.728 ServerApp] Starting buffering for 6994d442-8652-4411-affe-765365b71327:eba3a052-d97c-445f-88b9-18e0594410c4
+[I 2022-10-12 14:01:41.642 ServerApp] Restoring connection for 6994d442-8652-4411-affe-765365b71327:eba3a052-d97c-445f-88b9-18e0594410c4
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 0440060d-6052-4a7f-9104-95874b211a1b
+[I 2022-10-12 14:01:42.552 ServerApp] Restoring connection for 4842e411-f62e-4478-a558-223a777bb8fe:ea0f996a-e95f-45f5-a836-c242e73ca84e
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ca878cec-8fe5-47c0-b33d-d84cf5726047
+[I 2022-10-12 14:01:43.409 ServerApp] Restoring connection for fd2f356d-9356-445b-b98d-b52d71428e01:ad98a08e-83c5-4b20-998e-f7bc376fb998
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 2022-10-12 14:02:00.170 ServerApp] Restoring connection for 5034febb-6a81-4596-bd89-90a8ec70dd7e:6c0b1ae7-1462-445a-a314-58dece5bf220
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 77f75d71-cb4c-48f4-abd5-2f7eaf999e5f
+[I 2022-10-12 14:02:09.675 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+Terminated
+[C 2022-10-12 14:04:12.377 ServerApp] received signal 15, stopping
+[I 2022-10-12 14:04:12.401 ServerApp] Shutting down 3 extensions
+[I 2022-10-12 14:04:12.402 ServerApp] Shutting down 5 kernels
+[I 2022-10-12 14:04:12.402 ServerApp] Kernel shutdown: 4842e411-f62e-4478-a558-223a777bb8fe
+[I 2022-10-12 14:04:12.402 ServerApp] Kernel shutdown: 2e5bd6bb-52de-42da-a158-1972d2a026dc
+[I 2022-10-12 14:04:12.403 ServerApp] Kernel shutdown: fd2f356d-9356-445b-b98d-b52d71428e01
+[I 2022-10-12 14:04:12.403 ServerApp] Kernel shutdown: 6994d442-8652-4411-affe-765365b71327
+[I 2022-10-12 14:04:12.403 ServerApp] Kernel shutdown: 5034febb-6a81-4596-bd89-90a8ec70dd7e
+[W 2022-10-12 14:04:22.406 ServerApp] Wait for final termination of kernel timed out - continuing...
+[W 2022-10-12 14:04:22.407 ServerApp] Wait for final termination of kernel timed out - continuing...
+[W 2022-10-12 14:04:22.419 ServerApp] Wait for final termination of kernel timed out - continuing...
+[I 2022-10-12 14:04:22.430 ServerApp] Shutting down 1 terminal

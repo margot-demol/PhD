@@ -1,0 +1,173 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu Jul 28 14:25:18 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-07-28 14:25:21.379 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-07-28 14:25:21.383 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-07-28 14:25:21.390 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-07-28 14:25:21.741 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-07-28 14:25:22.057 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-07-28 14:25:22.058 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-07-28 14:25:22.058 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-07-28 14:25:22.062 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-07-28 14:25:22.068 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-07-28 14:25:22.068 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-07-28 14:25:22.068 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-07-28 14:25:22.068 ServerApp] http://r1i5n16:8877/lab
+[I 2022-07-28 14:25:22.068 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-07-28 14:25:22.069 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-07-28 14:26:40.967 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1?1659018400888 (10.148.1.145): Kernel does not exist: 740df988-e871-400f-b454-0f28c66468d1
+[W 2022-07-28 14:26:40.968 ServerApp] Kernel does not exist: 740df988-e871-400f-b454-0f28c66468d1
+[W 2022-07-28 14:26:40.968 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1?1659018400888 (10.148.1.145) 2.26ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-07-28 14:26:41.096 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1/channels?session_id=23e54e3e-5481-4499-a8b5-e48d8f818460 (10.148.1.145): Kernel does not exist: 740df988-e871-400f-b454-0f28c66468d1
+[W 2022-07-28 14:26:41.121 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1/channels?session_id=23e54e3e-5481-4499-a8b5-e48d8f818460 (10.148.1.145) 26.99ms referer=None
+[W 2022-07-28 14:26:41.208 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1?1659018401134 (10.148.1.145): Kernel does not exist: 740df988-e871-400f-b454-0f28c66468d1
+[W 2022-07-28 14:26:41.208 ServerApp] Kernel does not exist: 740df988-e871-400f-b454-0f28c66468d1
+[W 2022-07-28 14:26:41.208 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1?1659018401134 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-07-28 14:26:41.571 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1/channels?session_id=23e54e3e-5481-4499-a8b5-e48d8f818460 (10.148.1.145): Kernel does not exist: 740df988-e871-400f-b454-0f28c66468d1
+[W 2022-07-28 14:26:41.571 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1/channels?session_id=23e54e3e-5481-4499-a8b5-e48d8f818460 (10.148.1.145) 1.45ms referer=None
+[W 2022-07-28 14:26:41.671 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1?1659018401597 (10.148.1.145): Kernel does not exist: 740df988-e871-400f-b454-0f28c66468d1
+[W 2022-07-28 14:26:41.671 ServerApp] Kernel does not exist: 740df988-e871-400f-b454-0f28c66468d1
+[W 2022-07-28 14:26:41.671 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1?1659018401597 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-07-28 14:26:44.061 ServerApp] 404 GET /api/kernels/fd723467-23ff-4f33-8578-7028bb2af8be?1659018403987 (10.148.1.145): Kernel does not exist: fd723467-23ff-4f33-8578-7028bb2af8be
+[W 2022-07-28 14:26:44.061 ServerApp] Kernel does not exist: fd723467-23ff-4f33-8578-7028bb2af8be
+[W 2022-07-28 14:26:44.061 ServerApp] 404 GET /api/kernels/fd723467-23ff-4f33-8578-7028bb2af8be?1659018403987 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-07-28 14:26:45.059 ServerApp] 404 GET /api/kernels/fd723467-23ff-4f33-8578-7028bb2af8be/channels?session_id=8deffc2f-6654-446c-b622-e7796e23fe6f (10.148.1.145): Kernel does not exist: fd723467-23ff-4f33-8578-7028bb2af8be
+[W 2022-07-28 14:26:45.060 ServerApp] 404 GET /api/kernels/fd723467-23ff-4f33-8578-7028bb2af8be/channels?session_id=8deffc2f-6654-446c-b622-e7796e23fe6f (10.148.1.145) 1.47ms referer=None
+[W 2022-07-28 14:26:45.096 ServerApp] 404 GET /api/kernels/fd723467-23ff-4f33-8578-7028bb2af8be?1659018405022 (10.148.1.145): Kernel does not exist: fd723467-23ff-4f33-8578-7028bb2af8be
+[W 2022-07-28 14:26:45.096 ServerApp] Kernel does not exist: fd723467-23ff-4f33-8578-7028bb2af8be
+[W 2022-07-28 14:26:45.096 ServerApp] 404 GET /api/kernels/fd723467-23ff-4f33-8578-7028bb2af8be?1659018405022 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-07-28 14:26:46.672 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1/channels?session_id=23e54e3e-5481-4499-a8b5-e48d8f818460 (10.148.1.145): Kernel does not exist: 740df988-e871-400f-b454-0f28c66468d1
+[W 2022-07-28 14:26:46.673 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1/channels?session_id=23e54e3e-5481-4499-a8b5-e48d8f818460 (10.148.1.145) 2.05ms referer=None
+[W 2022-07-28 14:26:46.782 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1?1659018406707 (10.148.1.145): Kernel does not exist: 740df988-e871-400f-b454-0f28c66468d1
+[W 2022-07-28 14:26:46.782 ServerApp] Kernel does not exist: 740df988-e871-400f-b454-0f28c66468d1
+[W 2022-07-28 14:26:46.782 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1?1659018406707 (10.148.1.145) 0.91ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-07-28 14:26:48.097 ServerApp] 404 GET /api/kernels/fd723467-23ff-4f33-8578-7028bb2af8be/channels?session_id=8deffc2f-6654-446c-b622-e7796e23fe6f (10.148.1.145): Kernel does not exist: fd723467-23ff-4f33-8578-7028bb2af8be
+[W 2022-07-28 14:26:48.098 ServerApp] 404 GET /api/kernels/fd723467-23ff-4f33-8578-7028bb2af8be/channels?session_id=8deffc2f-6654-446c-b622-e7796e23fe6f (10.148.1.145) 3.12ms referer=None
+[W 2022-07-28 14:26:48.165 ServerApp] 404 GET /api/kernels/fd723467-23ff-4f33-8578-7028bb2af8be?1659018408091 (10.148.1.145): Kernel does not exist: fd723467-23ff-4f33-8578-7028bb2af8be
+[W 2022-07-28 14:26:48.165 ServerApp] Kernel does not exist: fd723467-23ff-4f33-8578-7028bb2af8be
+[W 2022-07-28 14:26:48.165 ServerApp] 404 GET /api/kernels/fd723467-23ff-4f33-8578-7028bb2af8be?1659018408091 (10.148.1.145) 0.97ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-07-28 14:26:50.976 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802?1659018410901 (10.148.1.145): Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:26:50.976 ServerApp] Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:26:50.976 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802?1659018410901 (10.148.1.145) 0.91ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-07-28 14:26:51.823 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802/channels?session_id=5c40919b-b41e-4e89-a7ee-3ff9460053b8 (10.148.1.145): Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:26:51.824 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802/channels?session_id=5c40919b-b41e-4e89-a7ee-3ff9460053b8 (10.148.1.145) 3.21ms referer=None
+[W 2022-07-28 14:26:51.930 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802?1659018411857 (10.148.1.145): Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:26:51.930 ServerApp] Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:26:51.930 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802?1659018411857 (10.148.1.145) 0.92ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-07-28 14:26:54.074 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802/channels?session_id=5c40919b-b41e-4e89-a7ee-3ff9460053b8 (10.148.1.145): Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:26:54.074 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802/channels?session_id=5c40919b-b41e-4e89-a7ee-3ff9460053b8 (10.148.1.145) 1.43ms referer=None
+[W 2022-07-28 14:26:54.108 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802?1659018414035 (10.148.1.145): Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:26:54.108 ServerApp] Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:26:54.109 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802?1659018414035 (10.148.1.145) 0.63ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-07-28 14:26:54.244 ServerApp] 404 GET /api/kernels/fd723467-23ff-4f33-8578-7028bb2af8be/channels?session_id=8deffc2f-6654-446c-b622-e7796e23fe6f (10.148.1.145): Kernel does not exist: fd723467-23ff-4f33-8578-7028bb2af8be
+[W 2022-07-28 14:26:54.244 ServerApp] 404 GET /api/kernels/fd723467-23ff-4f33-8578-7028bb2af8be/channels?session_id=8deffc2f-6654-446c-b622-e7796e23fe6f (10.148.1.145) 1.44ms referer=None
+[W 2022-07-28 14:26:54.301 ServerApp] 404 GET /api/kernels/fd723467-23ff-4f33-8578-7028bb2af8be?1659018414228 (10.148.1.145): Kernel does not exist: fd723467-23ff-4f33-8578-7028bb2af8be
+[W 2022-07-28 14:26:54.302 ServerApp] Kernel does not exist: fd723467-23ff-4f33-8578-7028bb2af8be
+[W 2022-07-28 14:26:54.302 ServerApp] 404 GET /api/kernels/fd723467-23ff-4f33-8578-7028bb2af8be?1659018414228 (10.148.1.145) 0.64ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-07-28 14:26:54.371 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802/channels?session_id=5c40919b-b41e-4e89-a7ee-3ff9460053b8 (10.148.1.145): Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:26:54.372 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802/channels?session_id=5c40919b-b41e-4e89-a7ee-3ff9460053b8 (10.148.1.145) 1.43ms referer=None
+[W 2022-07-28 14:26:54.446 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802?1659018414372 (10.148.1.145): Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:26:54.446 ServerApp] Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:26:54.447 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802?1659018414372 (10.148.1.145) 0.64ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-07-28 14:26:55.389 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1/channels?session_id=23e54e3e-5481-4499-a8b5-e48d8f818460 (10.148.1.145): Kernel does not exist: 740df988-e871-400f-b454-0f28c66468d1
+[W 2022-07-28 14:26:55.390 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1/channels?session_id=23e54e3e-5481-4499-a8b5-e48d8f818460 (10.148.1.145) 1.44ms referer=None
+[W 2022-07-28 14:26:55.593 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1?1659018415522 (10.148.1.145): Kernel does not exist: 740df988-e871-400f-b454-0f28c66468d1
+[W 2022-07-28 14:26:55.593 ServerApp] Kernel does not exist: 740df988-e871-400f-b454-0f28c66468d1
+[W 2022-07-28 14:26:55.594 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1?1659018415522 (10.148.1.145) 0.64ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-07-28 14:26:58.103 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1/channels?session_id=23e54e3e-5481-4499-a8b5-e48d8f818460 (10.148.1.145): Kernel does not exist: 740df988-e871-400f-b454-0f28c66468d1
+[W 2022-07-28 14:26:58.104 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1/channels?session_id=23e54e3e-5481-4499-a8b5-e48d8f818460 (10.148.1.145) 1.45ms referer=None
+[W 2022-07-28 14:26:58.179 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1?1659018418105 (10.148.1.145): Kernel does not exist: 740df988-e871-400f-b454-0f28c66468d1
+[W 2022-07-28 14:26:58.179 ServerApp] Kernel does not exist: 740df988-e871-400f-b454-0f28c66468d1
+[W 2022-07-28 14:26:58.179 ServerApp] 404 GET /api/kernels/740df988-e871-400f-b454-0f28c66468d1?1659018418105 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-07-28 14:26:59.426 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802/channels?session_id=5c40919b-b41e-4e89-a7ee-3ff9460053b8 (10.148.1.145): Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:26:59.427 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802/channels?session_id=5c40919b-b41e-4e89-a7ee-3ff9460053b8 (10.148.1.145) 1.44ms referer=None
+[W 2022-07-28 14:26:59.510 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802?1659018419435 (10.148.1.145): Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:26:59.510 ServerApp] Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:26:59.510 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802?1659018419435 (10.148.1.145) 0.64ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-07-28 14:27:01.025 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802?1659018420951 (10.148.1.145): Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:27:01.025 ServerApp] Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:27:01.025 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802?1659018420951 (10.148.1.145) 0.85ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-07-28 14:27:01.843 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802/channels?session_id=eaad513e-8436-49f9-958c-fe81bc45e856 (10.148.1.145): Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:27:01.843 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802/channels?session_id=eaad513e-8436-49f9-958c-fe81bc45e856 (10.148.1.145) 1.51ms referer=None
+[W 2022-07-28 14:27:01.942 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802?1659018421868 (10.148.1.145): Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:27:01.942 ServerApp] Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:27:01.942 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802?1659018421868 (10.148.1.145) 0.64ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-07-28 14:27:04.469 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802/channels?session_id=eaad513e-8436-49f9-958c-fe81bc45e856 (10.148.1.145): Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:27:04.469 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802/channels?session_id=eaad513e-8436-49f9-958c-fe81bc45e856 (10.148.1.145) 1.68ms referer=None
+[W 2022-07-28 14:27:04.540 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802?1659018424466 (10.148.1.145): Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:27:04.540 ServerApp] Kernel does not exist: a2a20a41-5a34-461c-9b4e-635040287802
+[W 2022-07-28 14:27:04.540 ServerApp] 404 GET /api/kernels/a2a20a41-5a34-461c-9b4e-635040287802?1659018424466 (10.148.1.145) 0.64ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_lonlat.ipynb
+[W 2022-07-28 14:27:05.554 ServerApp] 404 GET /api/kernels/fd723467-23ff-4f33-8578-7028bb2af8be/channels?session_id=8deffc2f-6654-446c-b622-e7796e23fe6f (10.148.1.145): Kernel does not exist: fd723467-23ff-4f33-8578-7028bb2af8be
+[W 2022-07-28 14:27:05.555 ServerApp] 404 GET /api/kernels/fd723467-23ff-4f33-8578-7028bb2af8be/channels?session_id=8deffc2f-6654-446c-b622-e7796e23fe6f (10.148.1.145) 1.44ms referer=None
+[W 2022-07-28 14:27:05.621 ServerApp] 404 GET /api/kernels/fd723467-23ff-4f33-8578-7028bb2af8be?1659018425549 (10.148.1.145): Kernel does not exist: fd723467-23ff-4f33-8578-7028bb2af8be
+[W 2022-07-28 14:27:05.621 ServerApp] Kernel does not exist: fd723467-23ff-4f33-8578-7028bb2af8be
+[W 2022-07-28 14:27:05.622 ServerApp] 404 GET /api/kernels/fd723467-23ff-4f33-8578-7028bb2af8be?1659018425549 (10.148.1.145) 0.64ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 14:27:11.695 LabApp] Build is up to date
+[I 2022-07-28 14:27:15.079 ServerApp] Kernel started: 435bbe39-27b4-41eb-a6be-c9e54e334147
+[I 2022-07-28 14:27:15.087 ServerApp] Kernel started: f2b67ce8-3988-4ac3-add3-67cb31e732be
+[I 2022-07-28 14:27:15.340 ServerApp] Kernel started: a7c883d7-f4b5-43b3-a1cc-376dcca40395
+readline: readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 7a135933-a275-4645-b497-fa935fbe9133
+[W 2022-07-28 14:27:46.837 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x2aaab45f5fa0>
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ec621df6-d313-4d84-b4f4-c9a0e977762a
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3e798af3-4571-4a70-8e96-f204902fed64
+[I 2022-07-28 14:28:38.170 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-07-28 14:29:08.332 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-07-28 14:29:14.403 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 14:31:15.062 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 14:33:01.478 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-07-28 14:33:15.520 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 14:33:25.297 ServerApp] Kernel restarted: a7c883d7-f4b5-43b3-a1cc-376dcca40395
+[W 2022-07-28 14:33:29.902 ServerApp] Nudge: attempt 10 on kernel a7c883d7-f4b5-43b3-a1cc-376dcca40395
+[W 2022-07-28 14:33:34.913 ServerApp] Nudge: attempt 20 on kernel a7c883d7-f4b5-43b3-a1cc-376dcca40395
+[W 2022-07-28 14:33:39.934 ServerApp] Nudge: attempt 30 on kernel a7c883d7-f4b5-43b3-a1cc-376dcca40395
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 927681bb-867d-4628-a82e-8fcd1badaa06
+[I 2022-07-28 14:35:16.229 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 14:37:16.781 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 14:39:02.379 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-07-28 14:39:03.141 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-07-28 14:39:17.278 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 14:41:17.812 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 14:43:03.158 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-07-28 14:45:03.177 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-07-28 14:47:03.195 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-07-28 14:49:03.219 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-07-28 14:51:03.235 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-07-28 14:53:03.265 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-07-28 14:55:03.317 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-07-28 14:57:03.338 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-07-28 15:01:03.351 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-07-28 15:02:10.533 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-07-28 15:02:30.379 ServerApp] Kernel restarted: a7c883d7-f4b5-43b3-a1cc-376dcca40395
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8adaf8b4-fc74-4e03-9985-8f2f327d7a4c
+[I 2022-07-28 15:03:18.372 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 15:05:59.374 ServerApp] Kernel interrupted: a7c883d7-f4b5-43b3-a1cc-376dcca40395
+[I 2022-07-28 15:06:00.408 ServerApp] Kernel interrupted: a7c883d7-f4b5-43b3-a1cc-376dcca40395
+[I 2022-07-28 15:06:27.596 ServerApp] Kernel restarted: a7c883d7-f4b5-43b3-a1cc-376dcca40395
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1713bc75-9d1c-4d99-8b17-41fc174fe9a5
+[I 2022-07-28 15:07:19.066 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 15:11:05.114 ServerApp] Kernel interrupted: a7c883d7-f4b5-43b3-a1cc-376dcca40395
+[I 2022-07-28 15:11:19.487 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+Terminated
+[C 2022-07-28 15:12:01.656 ServerApp] received signal 15, stopping
+[I 2022-07-28 15:12:01.670 ServerApp] Shutting down 3 extensions
+[I 2022-07-28 15:12:01.670 ServerApp] Shutting down 3 kernels
+[I 2022-07-28 15:12:01.670 ServerApp] Kernel shutdown: 435bbe39-27b4-41eb-a6be-c9e54e334147
+[I 2022-07-28 15:12:01.671 ServerApp] Kernel shutdown: a7c883d7-f4b5-43b3-a1cc-376dcca40395
+[I 2022-07-28 15:12:01.671 ServerApp] Kernel shutdown: f2b67ce8-3988-4ac3-add3-67cb31e732be
+[I 2022-07-28 15:12:04.286 ServerApp] Shutting down 0 terminals

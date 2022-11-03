@@ -1,0 +1,337 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Mon May 23 06:55:57 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-05-23 06:56:20.688 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-05-23 06:56:20.702 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-05-23 06:56:20.710 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-05-23 06:56:25.225 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-05-23 06:56:25.865 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-05-23 06:56:25.867 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-05-23 06:56:25.867 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-05-23 06:56:25.871 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-05-23 06:56:26.009 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-05-23 06:56:26.010 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-05-23 06:56:26.010 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-05-23 06:56:26.010 ServerApp] http://r1i0n16:8877/lab
+[I 2022-05-23 06:56:26.010 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-05-23 06:56:26.010 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-05-23 06:56:59.386 LabApp] 302 GET /lab? (10.148.1.145) 0.87ms
+[I 2022-05-23 06:57:07.100 ServerApp] 302 POST /login?next=%2Flab%3F (10.148.1.145) 284.04ms
+[I 2022-05-23 06:57:13.450 LabApp] Build is up to date
+[W 2022-05-23 06:57:17.014 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[W 2022-05-23 06:57:17.508 ServerApp] Notebook m2_2022/sandbox/projections.ipynb is not trusted
+[I 2022-05-23 06:57:19.635 ServerApp] Kernel started: e509d87f-9fd2-43ce-9c5b-56703af6e03b
+[I 2022-05-23 06:57:19.804 ServerApp] Kernel started: cb939337-fa1d-4877-a75b-0f973f81e368
+[I 2022-05-23 06:57:19.806 ServerApp] Kernel started: ef0253a5-c4fa-445f-bf30-17ba0433a8ce
+[I 2022-05-23 06:57:19.848 ServerApp] Kernel started: 6eebc6f4-7933-4a55-824d-e4b3d7481cf1
+[I 2022-05-23 06:57:20.276 ServerApp] Kernel started: 7d06dfc1-41c2-4957-9b75-ce48a8bf1b22
+[I 2022-05-23 06:57:20.906 ServerApp] Kernel started: ab5e62a2-228a-479e-860a-02dee6b432be
+[I 2022-05-23 06:57:20.908 ServerApp] Kernel started: 45fe82d0-e3da-4be4-8223-0ab9033eb984
+[I 2022-05-23 06:57:20.909 ServerApp] Kernel started: d8ae00fb-2a7e-417b-950c-7b3fafe47560
+[I 2022-05-23 06:57:20.911 ServerApp] Kernel started: cddabeb6-8e94-4e19-b123-1621ff652e02
+[I 2022-05-23 06:57:20.912 ServerApp] Kernel started: 216b2f3f-48c7-4e98-8fe3-9aa827fac942
+[IPKernelApp] ERROR | Failed to create history session in /home1/datahome/mdemol/.ipython/profile_default/history.sqlite. History will not be saved.
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 546, in __init__
+    self.new_session()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 60, in only_when_enabled
+    return f(self, *a, **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 573, in new_session
+    self.session_number = cur.lastrowid
+sqlite3.OperationalError: database is locked
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | Failed to create history session in /home1/datahome/mdemol/.ipython/profile_default/history.sqlite. History will not be saved.
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 546, in __init__
+    self.new_session()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 60, in only_when_enabled
+    return f(self, *a, **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 571, in new_session
+    cur = conn.execute("""INSERT INTO sessions VALUES (NULL, ?, NULL,
+sqlite3.OperationalError: database is locked
+[IPKernelApp] ERROR | Failed to create history session in /home1/datahome/mdemol/.ipython/profile_default/history.sqlite. History will not be saved.
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 546, in __init__
+    self.new_session()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 60, in only_when_enabled
+    return f(self, *a, **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 571, in new_session
+    cur = conn.execute("""INSERT INTO sessions VALUES (NULL, ?, NULL,
+sqlite3.OperationalError: database is locked
+[IPKernelApp] ERROR | Failed to create history session in /home1/datahome/mdemol/.ipython/profile_default/history.sqlite. History will not be saved.
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 546, in __init__
+    self.new_session()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 60, in only_when_enabled
+    return f(self, *a, **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 571, in new_session
+    cur = conn.execute("""INSERT INTO sessions VALUES (NULL, ?, NULL,
+sqlite3.OperationalError: database is locked
+[IPKernelApp] ERROR | Failed to create history session in /home1/datahome/mdemol/.ipython/profile_default/history.sqlite. History will not be saved.
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 546, in __init__
+    self.new_session()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 60, in only_when_enabled
+    return f(self, *a, **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 571, in new_session
+    cur = conn.execute("""INSERT INTO sessions VALUES (NULL, ?, NULL,
+sqlite3.OperationalError: database is locked
+[IPKernelApp] ERROR | Failed to create history session in /home1/datahome/mdemol/.ipython/profile_default/history.sqlite. History will not be saved.
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 546, in __init__
+    self.new_session()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 60, in only_when_enabled
+    return f(self, *a, **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 571, in new_session
+    cur = conn.execute("""INSERT INTO sessions VALUES (NULL, ?, NULL,
+sqlite3.OperationalError: database is locked
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | Failed to create history session in /home1/datahome/mdemol/.ipython/profile_default/history.sqlite. History will not be saved.
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 546, in __init__
+    self.new_session()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 60, in only_when_enabled
+    return f(self, *a, **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 571, in new_session
+    cur = conn.execute("""INSERT INTO sessions VALUES (NULL, ?, NULL,
+sqlite3.OperationalError: database is locked
+[IPKernelApp] ERROR | Failed to create history session in /home1/datahome/mdemol/.ipython/profile_default/history.sqlite. History will not be saved.
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 546, in __init__
+    self.new_session()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 60, in only_when_enabled
+    return f(self, *a, **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 571, in new_session
+    cur = conn.execute("""INSERT INTO sessions VALUES (NULL, ?, NULL,
+sqlite3.OperationalError: database is locked
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | Failed to create history session in /home1/datahome/mdemol/.ipython/profile_default/history.sqlite. History will not be saved.
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 546, in __init__
+    self.new_session()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 60, in only_when_enabled
+    return f(self, *a, **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 571, in new_session
+    cur = conn.execute("""INSERT INTO sessions VALUES (NULL, ?, NULL,
+sqlite3.OperationalError: database is locked
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | Failed to create history session in /home1/datahome/mdemol/.ipython/profile_default/history.sqlite. History will not be saved.
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 546, in __init__
+    self.new_session()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 60, in only_when_enabled
+    return f(self, *a, **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 571, in new_session
+    cur = conn.execute("""INSERT INTO sessions VALUES (NULL, ?, NULL,
+sqlite3.OperationalError: database is locked
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: dd2fcd0d-0617-4752-98cb-f2f925fc2627
+[IPKernelApp] WARNING | No such comm: c9f49ed3-bb5c-4349-9eb9-77cd5f8a119c
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 77771ab7-c66b-482c-98f4-33c2dd27d360
+[IPKernelApp] WARNING | No such comm: 24d01a26-653b-4a24-be42-95e27a6b3b29
+[IPKernelApp] WARNING | No such comm: 00086abc-6fce-46d0-9c46-2add88ecbee3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c89a3245-9446-45a4-a8e3-1149b986b7e9
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 6bf86c3b-6ab6-4bd7-b84c-f04be44309ff
+[IPKernelApp] WARNING | No such comm: f3f461c8-bb2d-4299-977c-0d7eb4f7f78d
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 22973de8-c8d0-4c45-9e6e-ed033812dd2e
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a4779dc1-1728-4880-999e-61bdba8865db
+[I 2022-05-23 06:59:17.381 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-05-23 07:01:17.665 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-05-23 07:03:18.108 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-05-23 07:03:35.876 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-05-23 07:03:43.682 ServerApp] Kernel restarted: e509d87f-9fd2-43ce-9c5b-56703af6e03b
+[I 2022-05-23 07:03:43.714 ServerApp] Starting buffering for e509d87f-9fd2-43ce-9c5b-56703af6e03b:c295b541-ad22-4db6-882a-0766bce23092
+[I 2022-05-23 07:03:43.764 ServerApp] Restoring connection for e509d87f-9fd2-43ce-9c5b-56703af6e03b:c295b541-ad22-4db6-882a-0766bce23092
+[W 2022-05-23 07:03:48.273 ServerApp] Nudge: attempt 10 on kernel e509d87f-9fd2-43ce-9c5b-56703af6e03b
+[IPKernelApp] ERROR | Failed to create history session in /home1/datahome/mdemol/.ipython/profile_default/history.sqlite. History will not be saved.
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 546, in __init__
+    self.new_session()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 60, in only_when_enabled
+    return f(self, *a, **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 571, in new_session
+    cur = conn.execute("""INSERT INTO sessions VALUES (NULL, ?, NULL,
+sqlite3.OperationalError: database is locked
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 909ff284-7304-4390-a3d9-4b97d793df65
+[I 2022-05-23 07:05:18.104 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-05-23 07:07:28.646 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-05-23 07:09:30.904 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-05-23 07:11:31.343 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-05-23 07:14:41.515 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[W 2022-05-23 07:18:32.409 ServerApp] WebSocket ping timeout after 119974 ms.
+[W 2022-05-23 07:18:32.413 ServerApp] WebSocket ping timeout after 119965 ms.
+[W 2022-05-23 07:18:32.429 ServerApp] WebSocket ping timeout after 119959 ms.
+[W 2022-05-23 07:18:32.509 ServerApp] WebSocket ping timeout after 119974 ms.
+[W 2022-05-23 07:18:32.664 ServerApp] WebSocket ping timeout after 119966 ms.
+[W 2022-05-23 07:18:32.666 ServerApp] WebSocket ping timeout after 119968 ms.
+[W 2022-05-23 07:18:32.672 ServerApp] WebSocket ping timeout after 119974 ms.
+[W 2022-05-23 07:18:32.672 ServerApp] WebSocket ping timeout after 119967 ms.
+[W 2022-05-23 07:18:32.677 ServerApp] WebSocket ping timeout after 119972 ms.
+[W 2022-05-23 07:18:32.739 ServerApp] WebSocket ping timeout after 119850 ms.
+[I 2022-05-23 07:18:37.410 ServerApp] Starting buffering for 6eebc6f4-7933-4a55-824d-e4b3d7481cf1:143c9e93-a084-49de-ae1c-53ba775a91d7
+[I 2022-05-23 07:18:37.414 ServerApp] Starting buffering for cb939337-fa1d-4877-a75b-0f973f81e368:03cd8789-bf82-4c33-a0de-442b8987f9bf
+[I 2022-05-23 07:18:37.430 ServerApp] Starting buffering for 7d06dfc1-41c2-4957-9b75-ce48a8bf1b22:22fb2658-cedc-44c2-90c4-a36bd6e5339a
+[I 2022-05-23 07:18:37.509 ServerApp] Starting buffering for ef0253a5-c4fa-445f-bf30-17ba0433a8ce:f15d9838-0363-4bec-8f97-6cda9051f353
+[I 2022-05-23 07:18:37.664 ServerApp] Starting buffering for ab5e62a2-228a-479e-860a-02dee6b432be:419e5cdc-ad2c-4f1c-8627-e60bb8f8c8dd
+[I 2022-05-23 07:18:37.673 ServerApp] Starting buffering for 45fe82d0-e3da-4be4-8223-0ab9033eb984:3f71f275-df62-48fa-8157-344fda5dd7e8
+[I 2022-05-23 07:18:37.673 ServerApp] Starting buffering for d8ae00fb-2a7e-417b-950c-7b3fafe47560:8efe7af9-580f-4033-95b6-61775daa7eeb
+[I 2022-05-23 07:18:37.679 ServerApp] Starting buffering for cddabeb6-8e94-4e19-b123-1621ff652e02:c835c701-4dd1-4a39-94e9-2afb2387a633
+[I 2022-05-23 07:18:37.740 ServerApp] Starting buffering for 216b2f3f-48c7-4e98-8fe3-9aa827fac942:8878fca9-f02a-47f4-a41a-dc2c00678ec5
+[W 2022-05-23 07:18:43.765 ServerApp] WebSocket ping timeout after 119970 ms.
+[I 2022-05-23 07:18:48.767 ServerApp] Starting buffering for e509d87f-9fd2-43ce-9c5b-56703af6e03b:c295b541-ad22-4db6-882a-0766bce23092
+[I 2022-05-23 07:19:21.577 ServerApp] Restoring connection for ab5e62a2-228a-479e-860a-02dee6b432be:419e5cdc-ad2c-4f1c-8627-e60bb8f8c8dd
+[I 2022-05-23 07:19:21.587 ServerApp] Restoring connection for cddabeb6-8e94-4e19-b123-1621ff652e02:c835c701-4dd1-4a39-94e9-2afb2387a633
+[I 2022-05-23 07:19:21.588 ServerApp] Restoring connection for d8ae00fb-2a7e-417b-950c-7b3fafe47560:8efe7af9-580f-4033-95b6-61775daa7eeb
+[I 2022-05-23 07:19:21.589 ServerApp] Restoring connection for cb939337-fa1d-4877-a75b-0f973f81e368:03cd8789-bf82-4c33-a0de-442b8987f9bf
+[I 2022-05-23 07:19:21.589 ServerApp] Restoring connection for ef0253a5-c4fa-445f-bf30-17ba0433a8ce:f15d9838-0363-4bec-8f97-6cda9051f353
+[I 2022-05-23 07:19:21.590 ServerApp] Restoring connection for 6eebc6f4-7933-4a55-824d-e4b3d7481cf1:143c9e93-a084-49de-ae1c-53ba775a91d7
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 53b40047-78c4-4599-8fb9-3f6e5f4ebd34
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: fbe351ad-68f3-4cd1-bb1d-4f09764b3b61
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 51a6e844-10ac-4870-92af-681409c483c7
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 166dda25-f5dd-440d-9a32-9112e120deba
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 42f65663-09c7-4906-93c4-60bfa7a2a7aa
+[IPKernelApp] WARNING | No such comm: c66bc201-fdf4-45ba-b764-d60354a998f4
+[I 2022-05-23 07:19:21.912 ServerApp] Restoring connection for 7d06dfc1-41c2-4957-9b75-ce48a8bf1b22:22fb2658-cedc-44c2-90c4-a36bd6e5339a
+[I 2022-05-23 07:19:21.999 ServerApp] Restoring connection for 45fe82d0-e3da-4be4-8223-0ab9033eb984:3f71f275-df62-48fa-8157-344fda5dd7e8
+[I 2022-05-23 07:19:22.000 ServerApp] Restoring connection for e509d87f-9fd2-43ce-9c5b-56703af6e03b:c295b541-ad22-4db6-882a-0766bce23092
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 412e1494-dbe2-4d2e-be84-69afbd1e13ce
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 03a500e3-1363-4820-81d9-35a79142f056
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 75444d55-8af8-4bbc-8704-77f6af7a9d07
+[IPKernelApp] WARNING | No such comm: b9baaa6d-9958-4c1a-87fb-89963a12ac92
+[I 2022-05-23 07:28:31.558 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-05-23 07:29:58.575 ServerApp] Starting buffering for 6eebc6f4-7933-4a55-824d-e4b3d7481cf1:143c9e93-a084-49de-ae1c-53ba775a91d7
+[I 2022-05-23 07:30:00.028 ServerApp] Starting buffering for 45fe82d0-e3da-4be4-8223-0ab9033eb984:3f71f275-df62-48fa-8157-344fda5dd7e8
+[I 2022-05-23 07:30:01.233 ServerApp] Starting buffering for ef0253a5-c4fa-445f-bf30-17ba0433a8ce:f15d9838-0363-4bec-8f97-6cda9051f353
+[I 2022-05-23 07:30:02.545 ServerApp] Starting buffering for 7d06dfc1-41c2-4957-9b75-ce48a8bf1b22:22fb2658-cedc-44c2-90c4-a36bd6e5339a
+[I 2022-05-23 07:30:07.326 ServerApp] Starting buffering for d8ae00fb-2a7e-417b-950c-7b3fafe47560:8efe7af9-580f-4033-95b6-61775daa7eeb
+[I 2022-05-23 07:30:09.244 ServerApp] Starting buffering for cddabeb6-8e94-4e19-b123-1621ff652e02:c835c701-4dd1-4a39-94e9-2afb2387a633
+[I 2022-05-23 07:30:32.116 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-05-23 07:32:33.414 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-05-23 07:34:36.592 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-05-23 07:38:05.305 ServerApp] Kernel restarted: e509d87f-9fd2-43ce-9c5b-56703af6e03b
+[I 2022-05-23 07:38:05.339 ServerApp] Starting buffering for e509d87f-9fd2-43ce-9c5b-56703af6e03b:c295b541-ad22-4db6-882a-0766bce23092
+[I 2022-05-23 07:38:05.392 ServerApp] Restoring connection for e509d87f-9fd2-43ce-9c5b-56703af6e03b:c295b541-ad22-4db6-882a-0766bce23092
+[W 2022-05-23 07:38:09.902 ServerApp] Nudge: attempt 10 on kernel e509d87f-9fd2-43ce-9c5b-56703af6e03b
+[I 2022-05-23 07:38:10.110 ServerApp] Kernel interrupted: e509d87f-9fd2-43ce-9c5b-56703af6e03b
+[I 2022-05-23 07:38:10.806 ServerApp] Kernel interrupted: e509d87f-9fd2-43ce-9c5b-56703af6e03b
+[IPKernelApp] ERROR | Failed to create history session in /home1/datahome/mdemol/.ipython/profile_default/history.sqlite. History will not be saved.
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 546, in __init__
+    self.new_session()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 60, in only_when_enabled
+    return f(self, *a, **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 571, in new_session
+    cur = conn.execute("""INSERT INTO sessions VALUES (NULL, ?, NULL,
+sqlite3.OperationalError: database is locked
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-05-23 07:38:12.178 ServerApp] Kernel interrupted: e509d87f-9fd2-43ce-9c5b-56703af6e03b
+[I 2022-05-23 07:38:12.856 ServerApp] Kernel interrupted: e509d87f-9fd2-43ce-9c5b-56703af6e03b
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e9fbdebc-41bd-4306-849b-311e6b5e6c5f
+[I 2022-05-23 07:38:13.096 ServerApp] Kernel interrupted: e509d87f-9fd2-43ce-9c5b-56703af6e03b
+[I 2022-05-23 07:38:38.132 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-05-23 07:40:03.545 ServerApp] Saving file at /m2_2022/m2lib22/cstes.py
+[I 2022-05-23 07:40:14.626 ServerApp] Kernel restarted: e509d87f-9fd2-43ce-9c5b-56703af6e03b
+[I 2022-05-23 07:40:14.824 ServerApp] Starting buffering for e509d87f-9fd2-43ce-9c5b-56703af6e03b:c295b541-ad22-4db6-882a-0766bce23092
+[I 2022-05-23 07:40:14.877 ServerApp] Restoring connection for e509d87f-9fd2-43ce-9c5b-56703af6e03b:c295b541-ad22-4db6-882a-0766bce23092
+[W 2022-05-23 07:40:19.387 ServerApp] Nudge: attempt 10 on kernel e509d87f-9fd2-43ce-9c5b-56703af6e03b
+[IPKernelApp] ERROR | Failed to create history session in /home1/datahome/mdemol/.ipython/profile_default/history.sqlite. History will not be saved.
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 546, in __init__
+    self.new_session()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 60, in only_when_enabled
+    return f(self, *a, **kw)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/IPython/core/history.py", line 571, in new_session
+    cur = conn.execute("""INSERT INTO sessions VALUES (NULL, ?, NULL,
+sqlite3.OperationalError: database is locked
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: fc52d2f0-86ab-43a2-bdf2-bd6c787ca037
+[I 2022-05-23 07:40:39.168 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-05-23 07:42:39.547 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-05-23 07:44:39.825 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-05-23 07:46:40.009 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-05-23 07:48:40.173 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-05-23 07:50:40.356 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-05-23 07:52:40.580 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-05-23 07:54:40.858 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[W 2022-05-23 07:58:14.877 ServerApp] WebSocket ping timeout after 119955 ms.
+[I 2022-05-23 07:58:19.879 ServerApp] Starting buffering for e509d87f-9fd2-43ce-9c5b-56703af6e03b:c295b541-ad22-4db6-882a-0766bce23092
+[W 2022-05-23 07:58:21.578 ServerApp] WebSocket ping timeout after 119974 ms.
+[W 2022-05-23 07:58:21.590 ServerApp] WebSocket ping timeout after 119968 ms.
+[W 2022-05-23 07:58:21.999 ServerApp] WebSocket ping timeout after 119975 ms.
+[I 2022-05-23 07:58:26.580 ServerApp] Starting buffering for ab5e62a2-228a-479e-860a-02dee6b432be:419e5cdc-ad2c-4f1c-8627-e60bb8f8c8dd
+[I 2022-05-23 07:58:26.590 ServerApp] Starting buffering for cb939337-fa1d-4877-a75b-0f973f81e368:03cd8789-bf82-4c33-a0de-442b8987f9bf
+[I 2022-05-23 07:58:26.999 ServerApp] Starting buffering for 216b2f3f-48c7-4e98-8fe3-9aa827fac942:8878fca9-f02a-47f4-a41a-dc2c00678ec5
+[C 2022-05-23 08:01:27.426 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-05-23 08:01:27.478 ServerApp] Shutting down 3 extensions
+[I 2022-05-23 08:01:27.479 ServerApp] Shutting down 10 kernels
+[I 2022-05-23 08:01:27.480 ServerApp] Kernel shutdown: d8ae00fb-2a7e-417b-950c-7b3fafe47560
+[I 2022-05-23 08:01:27.480 ServerApp] Kernel shutdown: ef0253a5-c4fa-445f-bf30-17ba0433a8ce
+[I 2022-05-23 08:01:27.481 ServerApp] Kernel shutdown: cddabeb6-8e94-4e19-b123-1621ff652e02
+[I 2022-05-23 08:01:27.481 ServerApp] Kernel shutdown: ab5e62a2-228a-479e-860a-02dee6b432be
+[I 2022-05-23 08:01:27.481 ServerApp] Kernel shutdown: 216b2f3f-48c7-4e98-8fe3-9aa827fac942
+[I 2022-05-23 08:01:27.482 ServerApp] Kernel shutdown: 6eebc6f4-7933-4a55-824d-e4b3d7481cf1
+[I 2022-05-23 08:01:27.482 ServerApp] Kernel shutdown: e509d87f-9fd2-43ce-9c5b-56703af6e03b
+[I 2022-05-23 08:01:27.482 ServerApp] Kernel shutdown: 7d06dfc1-41c2-4957-9b75-ce48a8bf1b22
+[I 2022-05-23 08:01:27.482 ServerApp] Kernel shutdown: cb939337-fa1d-4877-a75b-0f973f81e368
+[I 2022-05-23 08:01:27.483 ServerApp] Kernel shutdown: 45fe82d0-e3da-4be4-8223-0ab9033eb984
+[I 2022-05-23 08:01:30.105 ServerApp] Shutting down 0 terminals

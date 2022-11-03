@@ -1,0 +1,57 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Tue Apr  5 15:29:24 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-04-05 15:29:27.938 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-04-05 15:29:27.943 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-04-05 15:29:27.950 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-04-05 15:29:27.953 ServerApp] Writing Jupyter server cookie secret to /home1/datahome/mdemol/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2022-04-05 15:29:28.326 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-04-05 15:29:28.669 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-04-05 15:29:28.670 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-04-05 15:29:28.670 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-04-05 15:29:28.674 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-04-05 15:29:28.681 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-04-05 15:29:28.682 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-04-05 15:29:28.682 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-04-05 15:29:28.682 ServerApp] http://r1i5n24:8877/lab
+[I 2022-04-05 15:29:28.682 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-04-05 15:29:28.682 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-04-05 15:34:10.854 ServerApp] 302 GET / (10.148.1.145) 0.48ms
+[I 2022-04-05 15:34:10.890 LabApp] 302 GET /lab? (10.148.1.145) 0.52ms
+[I 2022-04-05 15:34:22.939 ServerApp] 302 POST /login?next=%2Flab%3F (10.148.1.145) 72.56ms
+[E 2022-04-05 15:34:25.873 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-04-05 15:34:25.944 LabApp] Build is up to date
+[I 2022-04-05 15:34:40.467 ServerApp] Creating new notebook in 
+[I 2022-04-05 15:34:40.538 ServerApp] Writing notebook-signing key to /home1/datahome/mdemol/.local/share/jupyter/notebook_secret
+[I 2022-04-05 15:34:41.073 ServerApp] Kernel started: 3bd63491-04a1-4c9e-b586-4ca6fb128e29
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 621aefa7-2488-4707-8d69-35f16b284020
+[I 2022-04-05 15:36:44.529 ServerApp] Saving file at /Untitled.ipynb
+[W 2022-04-05 15:39:52.236 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-05 15:39:55.519 ServerApp] Kernel started: 9ddde8c8-ddc9-4367-b35d-29602a8f46cb
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 87a81610-ce97-47e8-9492-d19f9922968a
+[I 2022-04-05 15:41:53.002 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-05 15:41:53.003 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-05 15:43:53.149 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-05 15:43:53.150 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-05 15:44:45.974 ServerApp] Kernel shutdown: 3bd63491-04a1-4c9e-b586-4ca6fb128e29
+[I 2022-04-05 15:44:45.975 ServerApp] Kernel shutdown: 9ddde8c8-ddc9-4367-b35d-29602a8f46cb
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+[I 2022-04-05 15:44:48.616 ServerApp] Shutting down on /api/shutdown request.
+[I 2022-04-05 15:44:48.617 ServerApp] Shutting down 3 extensions
+[I 2022-04-05 15:44:48.617 ServerApp] Shutting down 0 kernels
+[I 2022-04-05 15:44:48.617 ServerApp] Shutting down 0 terminals
+Terminated

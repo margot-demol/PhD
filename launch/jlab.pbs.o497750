@@ -1,0 +1,556 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Mon May 30 11:13:59 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-05-30 11:14:07.189 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-05-30 11:14:07.205 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-05-30 11:14:07.212 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-05-30 11:14:10.285 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-05-30 11:14:10.867 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-05-30 11:14:10.868 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-05-30 11:14:10.868 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-05-30 11:14:10.872 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-05-30 11:14:10.943 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-05-30 11:14:10.944 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-05-30 11:14:10.944 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-05-30 11:14:10.944 ServerApp] http://r1i3n33:8877/lab
+[I 2022-05-30 11:14:10.944 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-05-30 11:14:10.944 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-05-30 11:17:43.438 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909463398 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:43.438 ServerApp] Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:43.438 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909463398 (10.148.1.145) 1.56ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:17:44.160 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=f454e7e1-9fb1-4cbd-9153-93489b403844 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:44.255 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=f454e7e1-9fb1-4cbd-9153-93489b403844 (10.148.1.145) 96.64ms referer=None
+[W 2022-05-30 11:17:44.309 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909464273 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:44.310 ServerApp] Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:44.310 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909464273 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:17:45.185 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=f454e7e1-9fb1-4cbd-9153-93489b403844 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:45.186 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=f454e7e1-9fb1-4cbd-9153-93489b403844 (10.148.1.145) 1.46ms referer=None
+[W 2022-05-30 11:17:45.306 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909465270 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:45.306 ServerApp] Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:45.307 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909465270 (10.148.1.145) 0.66ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:17:49.235 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=f454e7e1-9fb1-4cbd-9153-93489b403844 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:49.235 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=f454e7e1-9fb1-4cbd-9153-93489b403844 (10.148.1.145) 1.46ms referer=None
+[W 2022-05-30 11:17:49.283 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909469249 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:49.283 ServerApp] Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:49.283 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909469249 (10.148.1.145) 0.64ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:17:49.660 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=f454e7e1-9fb1-4cbd-9153-93489b403844 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:49.661 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=f454e7e1-9fb1-4cbd-9153-93489b403844 (10.148.1.145) 1.44ms referer=None
+[W 2022-05-30 11:17:49.714 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909469679 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:49.714 ServerApp] Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:49.715 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909469679 (10.148.1.145) 0.63ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:17:53.557 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909473521 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:17:53.557 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:17:53.557 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909473521 (10.148.1.145) 0.71ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:17:54.215 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909474180 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:17:54.215 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:17:54.216 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909474180 (10.148.1.145) 0.70ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:17:55.409 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909475372 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:55.409 ServerApp] Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:55.409 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909475372 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:17:56.105 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=74505209-2b75-48b2-9d49-ac2dec3f0993 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:56.106 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=74505209-2b75-48b2-9d49-ac2dec3f0993 (10.148.1.145) 1.96ms referer=None
+[W 2022-05-30 11:17:56.123 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909476087 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:56.123 ServerApp] Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:56.123 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909476087 (10.148.1.145) 0.71ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[E 2022-05-30 11:17:56.310 ServerApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 94, in post
+        await km.restart_kernel(kernel_id)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 401, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 489, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a)
+[E 2022-05-30 11:17:56.332 ServerApp] {
+      "Host": "localhost:8877",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15"
+    }
+[E 2022-05-30 11:17:56.332 ServerApp] 500 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/restart?1653909476276 (10.148.1.145) 21.82ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:17:56.449 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a?1653909476414 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:17:56.449 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:17:56.449 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a?1653909476414 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:17:56.740 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/channels?session_id=3cf1bea5-0212-416c-927d-a03bdc33d434 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:17:56.741 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/channels?session_id=3cf1bea5-0212-416c-927d-a03bdc33d434 (10.148.1.145) 1.51ms referer=None
+[W 2022-05-30 11:17:56.777 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a?1653909476743 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:17:56.777 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:17:56.778 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a?1653909476743 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:17:57.940 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/channels?session_id=3cf1bea5-0212-416c-927d-a03bdc33d434 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:17:57.941 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/channels?session_id=3cf1bea5-0212-416c-927d-a03bdc33d434 (10.148.1.145) 1.44ms referer=None
+[W 2022-05-30 11:17:58.055 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a?1653909478020 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:17:58.056 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:17:58.056 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a?1653909478020 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:17:58.597 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=74505209-2b75-48b2-9d49-ac2dec3f0993 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:58.598 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=74505209-2b75-48b2-9d49-ac2dec3f0993 (10.148.1.145) 1.47ms referer=None
+[W 2022-05-30 11:17:58.647 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909478612 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:58.647 ServerApp] Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:17:58.647 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909478612 (10.148.1.145) 0.64ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:18:00.793 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=74505209-2b75-48b2-9d49-ac2dec3f0993 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:18:00.794 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=74505209-2b75-48b2-9d49-ac2dec3f0993 (10.148.1.145) 1.46ms referer=None
+[W 2022-05-30 11:18:00.836 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909480802 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:18:00.836 ServerApp] Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:18:00.836 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909480802 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:18:02.455 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/channels?session_id=3cf1bea5-0212-416c-927d-a03bdc33d434 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:18:02.456 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/channels?session_id=3cf1bea5-0212-416c-927d-a03bdc33d434 (10.148.1.145) 1.44ms referer=None
+[W 2022-05-30 11:18:02.563 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a?1653909482527 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:18:02.563 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:18:02.563 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a?1653909482527 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 11:18:07.365 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:18:07.454 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[W 2022-05-30 11:18:10.892 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/channels?session_id=3cf1bea5-0212-416c-927d-a03bdc33d434 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:18:10.892 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/channels?session_id=3cf1bea5-0212-416c-927d-a03bdc33d434 (10.148.1.145) 1.54ms referer=None
+[W 2022-05-30 11:18:11.002 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a?1653909490968 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:18:11.002 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:18:11.002 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a?1653909490968 (10.148.1.145) 0.66ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:18:14.169 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=74505209-2b75-48b2-9d49-ac2dec3f0993 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:18:14.170 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=74505209-2b75-48b2-9d49-ac2dec3f0993 (10.148.1.145) 1.47ms referer=None
+[W 2022-05-30 11:18:14.252 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909494218 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:18:14.252 ServerApp] Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:18:14.252 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909494218 (10.148.1.145) 0.66ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:18:15.718 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=f454e7e1-9fb1-4cbd-9153-93489b403844 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:18:15.718 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=f454e7e1-9fb1-4cbd-9153-93489b403844 (10.148.1.145) 1.46ms referer=None
+[W 2022-05-30 11:18:15.753 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909495719 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:18:15.753 ServerApp] Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:18:15.754 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909495719 (10.148.1.145) 0.66ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:18:17.002 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/channels?session_id=3cf1bea5-0212-416c-927d-a03bdc33d434 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:18:17.003 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/channels?session_id=3cf1bea5-0212-416c-927d-a03bdc33d434 (10.148.1.145) 1.48ms referer=None
+[W 2022-05-30 11:18:17.035 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a?1653909497000 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:18:17.035 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:18:17.035 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a?1653909497000 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:18:31.030 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=74505209-2b75-48b2-9d49-ac2dec3f0993 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:18:31.031 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=74505209-2b75-48b2-9d49-ac2dec3f0993 (10.148.1.145) 2.06ms referer=None
+[W 2022-05-30 11:18:31.046 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909511012 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:18:31.046 ServerApp] Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:18:31.047 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909511012 (10.148.1.145) 0.72ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:18:32.279 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/channels?session_id=3cf1bea5-0212-416c-927d-a03bdc33d434 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:18:32.280 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/channels?session_id=3cf1bea5-0212-416c-927d-a03bdc33d434 (10.148.1.145) 1.52ms referer=None
+[W 2022-05-30 11:18:32.380 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a?1653909512346 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:18:32.381 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:18:32.381 ServerApp] 404 GET /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a?1653909512346 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:18:35.632 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=f454e7e1-9fb1-4cbd-9153-93489b403844 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:18:35.633 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=f454e7e1-9fb1-4cbd-9153-93489b403844 (10.148.1.145) 1.44ms referer=None
+[W 2022-05-30 11:18:35.665 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909515628 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:18:35.665 ServerApp] Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:18:35.665 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909515628 (10.148.1.145) 0.64ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[E 2022-05-30 11:18:36.138 ServerApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 94, in post
+        await km.restart_kernel(kernel_id)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 401, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 489, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a)
+[E 2022-05-30 11:18:36.139 ServerApp] {
+      "Host": "localhost:8877",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15"
+    }
+[E 2022-05-30 11:18:36.139 ServerApp] 500 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/restart?1653909516104 (10.148.1.145) 0.78ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:19:16.450 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=74505209-2b75-48b2-9d49-ac2dec3f0993 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:19:16.451 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d/channels?session_id=74505209-2b75-48b2-9d49-ac2dec3f0993 (10.148.1.145) 2.35ms referer=None
+[W 2022-05-30 11:19:16.560 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909556523 (10.148.1.145): Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:19:16.560 ServerApp] Kernel does not exist: 91d4109d-71b8-4741-892b-5ce83e36719d
+[W 2022-05-30 11:19:16.560 ServerApp] 404 GET /api/kernels/91d4109d-71b8-4741-892b-5ce83e36719d?1653909556523 (10.148.1.145) 0.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[E 2022-05-30 11:19:20.868 ServerApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 94, in post
+        await km.restart_kernel(kernel_id)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 401, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 489, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a)
+[E 2022-05-30 11:19:20.869 ServerApp] {
+      "Host": "localhost:8877",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15"
+    }
+[E 2022-05-30 11:19:20.869 ServerApp] 500 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/restart?1653909560834 (10.148.1.145) 0.89ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:19:57.080 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909597045 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:19:57.080 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:19:57.081 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909597045 (10.148.1.145) 1.23ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:19:57.369 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909597334 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:19:57.369 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:19:57.369 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909597334 (10.148.1.145) 0.71ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:19:59.001 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909598966 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:19:59.001 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:19:59.001 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909598966 (10.148.1.145) 0.69ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:19:59.481 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909599446 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:19:59.481 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:19:59.481 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909599446 (10.148.1.145) 0.70ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:20:00.228 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909600193 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:00.228 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:00.228 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909600193 (10.148.1.145) 0.69ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:20:00.469 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909600435 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:00.470 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:00.470 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909600435 (10.148.1.145) 0.70ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:20:00.703 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909600668 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:00.703 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:00.703 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909600668 (10.148.1.145) 0.70ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:20:03.119 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909603084 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:03.119 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:03.119 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909603084 (10.148.1.145) 0.99ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:20:03.454 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909603419 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:03.454 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:03.454 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909603419 (10.148.1.145) 0.70ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 11:20:07.676 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:20:07.676 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[W 2022-05-30 11:20:37.497 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909637463 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:37.498 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:37.498 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909637463 (10.148.1.145) 1.15ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:20:37.978 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909637944 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:37.978 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:37.979 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909637944 (10.148.1.145) 0.71ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:20:38.214 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909638180 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:38.214 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:38.215 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909638180 (10.148.1.145) 0.69ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:20:38.389 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909638355 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:38.389 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:38.389 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909638355 (10.148.1.145) 0.69ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:20:38.590 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909638556 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:38.590 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:38.591 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909638556 (10.148.1.145) 0.69ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:20:38.794 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909638760 (10.148.1.145): Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:38.794 ServerApp] Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 11:20:38.795 ServerApp] 404 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/interrupt?1653909638760 (10.148.1.145) 0.68ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[E 2022-05-30 11:20:41.174 ServerApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 94, in post
+        await km.restart_kernel(kernel_id)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 401, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 489, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a)
+[E 2022-05-30 11:20:41.174 ServerApp] {
+      "Host": "localhost:8877",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15"
+    }
+[E 2022-05-30 11:20:41.174 ServerApp] 500 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/restart?1653909641140 (10.148.1.145) 1.02ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[E 2022-05-30 11:20:46.118 ServerApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 94, in post
+        await km.restart_kernel(kernel_id)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 401, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 489, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: fa0dca6d-f3dc-4813-9b85-4369b60d640a)
+[E 2022-05-30 11:20:46.118 ServerApp] {
+      "Host": "localhost:8877",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15"
+    }
+[E 2022-05-30 11:20:46.118 ServerApp] 500 POST /api/kernels/fa0dca6d-f3dc-4813-9b85-4369b60d640a/restart?1653909646084 (10.148.1.145) 0.95ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 11:21:03.350 LabApp] Build is up to date
+[W 2022-05-30 11:21:04.790 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[W 2022-05-30 11:21:04.879 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap-Copy1.ipynb is not trusted
+[I 2022-05-30 11:21:06.030 ServerApp] Kernel started: fd64744b-6608-4091-b6c5-ce3494c8fd19
+[I 2022-05-30 11:21:06.042 ServerApp] Kernel started: 1bfc5d15-c32f-42ac-aad6-306dad6dee5d
+[W 2022-05-30 11:21:22.701 ServerApp] delete /m2_2022/sandbox/dask-worker.o496009
+[W 2022-05-30 11:21:22.823 ServerApp] delete /m2_2022/sandbox/dask-worker.o496014
+[W 2022-05-30 11:21:22.944 ServerApp] delete /m2_2022/sandbox/dask-worker.o496015
+[W 2022-05-30 11:21:23.023 ServerApp] delete /m2_2022/sandbox/dask-worker.o496017
+[W 2022-05-30 11:21:23.104 ServerApp] delete /m2_2022/sandbox/dask-worker.o496019
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: dea12514-9cad-4017-9ca4-9d2caaf64778
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3dff2de5-ca7a-4363-8e5e-cb70a89532a9
+[I 2022-05-30 11:23:05.266 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:23:05.267 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 11:25:05.392 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:25:05.393 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 11:25:28.976 ServerApp] Kernel interrupted: fd64744b-6608-4091-b6c5-ce3494c8fd19
+[I 2022-05-30 11:25:29.627 ServerApp] Kernel interrupted: fd64744b-6608-4091-b6c5-ce3494c8fd19
+[I 2022-05-30 11:25:30.463 ServerApp] Kernel interrupted: fd64744b-6608-4091-b6c5-ce3494c8fd19
+[I 2022-05-30 11:25:30.766 ServerApp] Kernel interrupted: fd64744b-6608-4091-b6c5-ce3494c8fd19
+[I 2022-05-30 11:27:05.528 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:27:05.528 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 11:27:45.854 ServerApp] Kernel restarted: fd64744b-6608-4091-b6c5-ce3494c8fd19
+[I 2022-05-30 11:27:45.860 ServerApp] Starting buffering for fd64744b-6608-4091-b6c5-ce3494c8fd19:26d6afa2-3c71-4b08-b3b2-5d90719238dc
+[I 2022-05-30 11:27:45.868 ServerApp] Restoring connection for fd64744b-6608-4091-b6c5-ce3494c8fd19:26d6afa2-3c71-4b08-b3b2-5d90719238dc
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3573921d-01e8-4bba-b40b-7ce367686e7b
+[I 2022-05-30 11:29:05.665 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:29:05.666 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 11:31:57.518 ServerApp] Kernel interrupted: fd64744b-6608-4091-b6c5-ce3494c8fd19
+[I 2022-05-30 11:32:04.968 ServerApp] Kernel interrupted: fd64744b-6608-4091-b6c5-ce3494c8fd19
+[I 2022-05-30 11:33:05.777 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:33:05.778 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 11:33:11.740 ServerApp] Kernel restarted: fd64744b-6608-4091-b6c5-ce3494c8fd19
+[I 2022-05-30 11:33:11.745 ServerApp] Starting buffering for fd64744b-6608-4091-b6c5-ce3494c8fd19:26d6afa2-3c71-4b08-b3b2-5d90719238dc
+[I 2022-05-30 11:33:11.754 ServerApp] Restoring connection for fd64744b-6608-4091-b6c5-ce3494c8fd19:26d6afa2-3c71-4b08-b3b2-5d90719238dc
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 9e2aa715-2d8a-4579-9366-b05355eedf79
+[I 2022-05-30 11:35:05.892 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:35:05.894 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 11:37:06.016 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:37:06.017 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[W 2022-05-30 11:37:13.442 ServerApp] delete /m2_2022/sandbox/dask-worker.o497974
+[W 2022-05-30 11:37:13.446 ServerApp] delete /m2_2022/sandbox/dask-worker.o497975
+[W 2022-05-30 11:37:13.449 ServerApp] delete /m2_2022/sandbox/dask-worker.o497976
+[W 2022-05-30 11:37:13.452 ServerApp] delete /m2_2022/sandbox/dask-worker.o498123
+[W 2022-05-30 11:37:13.455 ServerApp] delete /m2_2022/sandbox/dask-worker.o498124
+[W 2022-05-30 11:37:13.457 ServerApp] delete /m2_2022/sandbox/dask-worker.o498125
+[W 2022-05-30 11:37:13.461 ServerApp] delete /m2_2022/sandbox/dask-worker.o497977
+[W 2022-05-30 11:37:13.464 ServerApp] delete /m2_2022/sandbox/dask-worker.o498122
+[W 2022-05-30 11:37:13.467 ServerApp] delete /m2_2022/sandbox/dask-worker.o497978
+[W 2022-05-30 11:37:13.470 ServerApp] delete /m2_2022/sandbox/dask-worker.o498126
+[W 2022-05-30 11:37:13.473 ServerApp] delete /m2_2022/sandbox/dask-worker.o498232
+[W 2022-05-30 11:37:13.475 ServerApp] delete /m2_2022/sandbox/dask-worker.o498233
+[W 2022-05-30 11:37:13.479 ServerApp] delete /m2_2022/sandbox/dask-worker.o498234
+[W 2022-05-30 11:37:13.482 ServerApp] delete /m2_2022/sandbox/dask-worker.o498235
+[W 2022-05-30 11:37:13.485 ServerApp] delete /m2_2022/sandbox/dask-worker.o498236
+[I 2022-05-30 11:37:28.257 ServerApp] Kernel restarted: fd64744b-6608-4091-b6c5-ce3494c8fd19
+[I 2022-05-30 11:37:28.274 ServerApp] Starting buffering for fd64744b-6608-4091-b6c5-ce3494c8fd19:26d6afa2-3c71-4b08-b3b2-5d90719238dc
+[I 2022-05-30 11:37:28.280 ServerApp] Restoring connection for fd64744b-6608-4091-b6c5-ce3494c8fd19:26d6afa2-3c71-4b08-b3b2-5d90719238dc
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c00c58b0-210f-4734-83d3-5dede3665664
+[W 2022-05-30 11:37:47.294 ServerApp] delete /m2_2022/sandbox/dask-worker.o498345
+[W 2022-05-30 11:37:47.298 ServerApp] delete /m2_2022/sandbox/dask-worker.o498346
+[W 2022-05-30 11:37:47.301 ServerApp] delete /m2_2022/sandbox/dask-worker.o498347
+[W 2022-05-30 11:37:47.305 ServerApp] delete /m2_2022/sandbox/dask-worker.o498348
+[W 2022-05-30 11:37:47.308 ServerApp] delete /m2_2022/sandbox/dask-worker.o498349
+[I 2022-05-30 11:37:53.828 ServerApp] Kernel restarted: fd64744b-6608-4091-b6c5-ce3494c8fd19
+[I 2022-05-30 11:37:53.840 ServerApp] Starting buffering for fd64744b-6608-4091-b6c5-ce3494c8fd19:26d6afa2-3c71-4b08-b3b2-5d90719238dc
+[I 2022-05-30 11:37:53.846 ServerApp] Restoring connection for fd64744b-6608-4091-b6c5-ce3494c8fd19:26d6afa2-3c71-4b08-b3b2-5d90719238dc
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c5cfc4a5-1123-4de0-9231-573db76a74ae
+[I 2022-05-30 11:39:06.189 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:39:06.190 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 11:45:06.306 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:45:06.307 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 11:45:46.232 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:45:46.233 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 11:47:46.443 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:47:46.444 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 11:49:46.622 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:49:46.623 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 11:51:46.817 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:51:46.818 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 11:53:47.023 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:53:47.024 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 11:55:47.244 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:55:47.244 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 11:57:47.455 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:57:47.456 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 11:59:47.672 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 11:59:47.673 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:01:47.913 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:01:47.914 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:03:48.149 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:03:48.150 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:05:48.340 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:05:48.341 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:07:48.551 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:07:48.552 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:09:48.766 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:09:48.767 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:13:48.960 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:13:48.961 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:15:49.160 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:15:49.161 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:17:49.390 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:17:49.391 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:19:49.606 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:19:49.607 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:21:49.742 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:21:49.742 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:23:49.890 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:23:49.891 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:25:50.062 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:25:50.063 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:27:50.279 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:27:50.280 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:29:50.488 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:29:50.489 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:31:50.697 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:31:50.698 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:33:50.881 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:33:50.882 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:35:51.077 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:35:51.078 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:37:51.311 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:37:51.312 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:38:28.482 ServerApp] Kernel restarted: fd64744b-6608-4091-b6c5-ce3494c8fd19
+[I 2022-05-30 12:38:28.490 ServerApp] Starting buffering for fd64744b-6608-4091-b6c5-ce3494c8fd19:26d6afa2-3c71-4b08-b3b2-5d90719238dc
+[I 2022-05-30 12:38:28.496 ServerApp] Restoring connection for fd64744b-6608-4091-b6c5-ce3494c8fd19:26d6afa2-3c71-4b08-b3b2-5d90719238dc
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8a3e0e66-2971-4752-ab63-7fdbe862cb8c
+[I 2022-05-30 12:39:51.527 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:39:51.528 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:41:51.722 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:41:51.722 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:43:51.910 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:43:51.911 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:45:52.127 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:45:52.128 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:47:52.357 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:47:52.358 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:49:52.592 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:49:52.593 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:50:30.330 ServerApp] Kernel interrupted: fd64744b-6608-4091-b6c5-ce3494c8fd19
+[I 2022-05-30 12:51:52.785 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:51:52.786 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:53:52.953 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:53:52.954 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:55:53.151 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:55:53.152 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:57:53.388 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:57:53.389 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 12:59:53.597 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 12:59:53.598 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 13:03:53.802 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 13:03:53.804 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 13:05:54.050 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 13:05:54.051 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 13:07:54.291 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 13:07:54.292 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 13:08:26.509 ServerApp] Copying m2_2022/sandbox/aviso_era5_ap.ipynb to /m2_2022/sandbox
+[W 2022-05-30 13:08:26.628 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[W 2022-05-30 13:08:26.629 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap-Copy2.ipynb is not trusted
+[W 2022-05-30 13:09:40.368 ServerApp] delete /m2_2022/sandbox/dask-worker.o498365
+[W 2022-05-30 13:09:40.373 ServerApp] delete /m2_2022/sandbox/dask-worker.o498366
+[W 2022-05-30 13:09:40.376 ServerApp] delete /m2_2022/sandbox/dask-worker.o498367
+[W 2022-05-30 13:09:40.380 ServerApp] delete /m2_2022/sandbox/dask-worker.o498368
+[W 2022-05-30 13:09:40.383 ServerApp] delete /m2_2022/sandbox/dask-worker.o498369
+[I 2022-05-30 13:09:54.430 ServerApp] Kernel restarted: fd64744b-6608-4091-b6c5-ce3494c8fd19
+[I 2022-05-30 13:09:54.434 ServerApp] Starting buffering for fd64744b-6608-4091-b6c5-ce3494c8fd19:26d6afa2-3c71-4b08-b3b2-5d90719238dc
+[I 2022-05-30 13:09:54.441 ServerApp] Restoring connection for fd64744b-6608-4091-b6c5-ce3494c8fd19:26d6afa2-3c71-4b08-b3b2-5d90719238dc
+[I 2022-05-30 13:09:54.523 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 13:09:54.524 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 21e31a1c-9dfd-4691-ac33-f604900383f5
+[I 2022-05-30 13:11:54.757 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 13:13:55.028 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 13:15:55.271 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 13:17:55.512 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 13:19:05.375 ServerApp] Saving file at /m2_2022/m2lib22/sat.py
+[I 2022-05-30 13:20:56.974 ServerApp] Kernel started: 3f121d63-6814-4681-9cfd-90486947b3ed
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ead1741b-b516-40cb-9782-930c4c2ab291
+[I 2022-05-30 13:21:03.588 ServerApp] Kernel started: e64cedba-591b-4a8d-81cf-0793d0881c17
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: cc198e3c-0ab6-4fd2-bdf0-798ad750f78c
+[I 2022-05-30 13:21:10.662 ServerApp] Kernel started: 4e99bb03-4a5a-4765-8c16-80019c177f73
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 07d52f4b-269e-4e62-abac-7717c90a978c
+[I 2022-05-30 13:21:19.894 ServerApp] Kernel started: f9363ffd-28a0-4840-aaed-c34bde7f954a
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 7bd1b312-c2dd-4d87-8963-9c7e47327aa9
+[I 2022-05-30 13:21:37.906 ServerApp] Kernel started: 37568ab5-f09b-43bc-99a6-b81c89be2b51
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8ff2cf47-f78f-4b06-8ab2-63307b560c53
+[I 2022-05-30 13:22:35.623 ServerApp] Starting buffering for 37568ab5-f09b-43bc-99a6-b81c89be2b51:fe9a1a8c-07ab-47c1-8319-7bff928073fd
+[I 2022-05-30 13:22:37.202 ServerApp] Starting buffering for f9363ffd-28a0-4840-aaed-c34bde7f954a:6ac5bffc-da8e-4ea5-ad08-66a478146bd8
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 74181b17-d3dc-481c-9631-b323b28791f3
+[W 2022-05-30 13:22:53.803 ServerApp] Notebook m2_2022/sandbox/projections.ipynb is not trusted
+[I 2022-05-30 13:22:54.456 ServerApp] Kernel started: 0547341a-093e-4e8f-919e-c63c0ccd6266
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4c1efbff-521f-4267-8833-4251e7bce2ab
+[I 2022-05-30 13:23:02.185 ServerApp] Kernel started: b9675d1b-1591-4d7b-860e-0c4886835bc7
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b7c2de24-59d8-4ff5-8ea1-2f3374fecd29
+[I 2022-05-30 13:23:16.264 ServerApp] Starting buffering for f9363ffd-28a0-4840-aaed-c34bde7f954a:e1861941-e4ac-4991-ac0e-f2f92f8f17ae
+[I 2022-05-30 13:23:17.251 ServerApp] Starting buffering for 4e99bb03-4a5a-4765-8c16-80019c177f73:4e4ddd71-41c8-415c-ae38-5a465d0fc28a
+[I 2022-05-30 13:23:18.262 ServerApp] Starting buffering for b9675d1b-1591-4d7b-860e-0c4886835bc7:8a3c1e5b-5f95-4f7e-b953-284f9839dd96
+[I 2022-05-30 13:23:22.773 ServerApp] Starting buffering for 0547341a-093e-4e8f-919e-c63c0ccd6266:782bce00-bf13-41c1-b332-6500df1e4820
+[I 2022-05-30 13:23:52.858 ServerApp] Starting buffering for e64cedba-591b-4a8d-81cf-0793d0881c17:094854bc-e64f-448d-8da6-6e0989e5845d
+[I 2022-05-30 13:24:00.098 ServerApp] Starting buffering for 3f121d63-6814-4681-9cfd-90486947b3ed:9a6d7e67-f230-47e2-abae-67ad9fccc8a9
+[I 2022-05-30 13:25:55.834 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f43908f6-9904-46a4-a7eb-ac0b52528448
+[I 2022-05-30 13:27:37.646 ServerApp] Kernel started: 93ba24d3-5a03-4512-a22a-2ecb9d0feec9
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 7174c53d-50f4-4708-aeaf-ef625d7059ba
+[W 2022-05-30 13:27:44.647 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap-Copy1.ipynb is not trusted
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 9a234a78-665b-497c-9b7a-00761dcd1795
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b7a4be49-3f59-4537-8efd-fc52e24f11e1
+[I 2022-05-30 13:27:56.115 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c87ab6fc-9d32-45fc-a92f-d8bbb4fd7d90
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 6b2d2ea9-23fd-4036-a82e-92eb7ada4448
+[I 2022-05-30 13:28:54.388 ServerApp] Starting buffering for e64cedba-591b-4a8d-81cf-0793d0881c17:3fb2192f-5856-47a8-aefd-e4b4b384de61
+[I 2022-05-30 13:28:55.519 ServerApp] Starting buffering for 3f121d63-6814-4681-9cfd-90486947b3ed:6cc0eac9-450f-400f-8824-a23d83a5d60d
+[I 2022-05-30 13:28:57.132 ServerApp] Starting buffering for b9675d1b-1591-4d7b-860e-0c4886835bc7:397b9801-33f7-4b94-a0ec-f710616e653d
+[I 2022-05-30 13:29:01.620 ServerApp] Starting buffering for 93ba24d3-5a03-4512-a22a-2ecb9d0feec9:2efac3f4-8463-45a2-96e7-f3d64c1259db
+[I 2022-05-30 13:29:03.107 ServerApp] Starting buffering for 37568ab5-f09b-43bc-99a6-b81c89be2b51:d37503e5-d839-42ed-9e69-7976a65a5029
+[I 2022-05-30 13:29:11.035 ServerApp] Kernel started: f640de65-c754-4021-b40f-d6ed3a15733c
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b5964d6b-2195-4c49-afe0-98312d9c6862
+[I 2022-05-30 13:29:56.341 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 13:31:56.580 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 13:33:56.880 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 13:34:56.637 ServerApp] Starting buffering for f640de65-c754-4021-b40f-d6ed3a15733c:c891cf59-cc37-4927-82fd-a92c8e544099
+[I 2022-05-30 13:37:57.169 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 13:39:57.527 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 13:41:57.818 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 13:43:58.098 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 13:45:58.396 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 13:47:58.702 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 13:49:59.064 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 13:50:39.756 ServerApp] Kernel interrupted: fd64744b-6608-4091-b6c5-ce3494c8fd19
+[I 2022-05-30 13:51:59.340 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 13:53:59.587 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 13:55:59.811 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 13:58:00.045 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 14:00:00.331 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 14:02:00.625 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 14:04:00.925 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 14:06:01.211 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 14:08:01.522 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 14:10:01.808 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[I 2022-05-30 14:13:49.480 ServerApp] Starting buffering for fd64744b-6608-4091-b6c5-ce3494c8fd19:26d6afa2-3c71-4b08-b3b2-5d90719238dc
+[I 2022-05-30 14:13:49.481 ServerApp] Starting buffering for 1bfc5d15-c32f-42ac-aad6-306dad6dee5d:2e1ec2b8-c166-4697-a560-726a0a2f6982
+Terminated
+[C 2022-05-30 14:16:22.579 ServerApp] received signal 15, stopping
+[I 2022-05-30 14:16:22.630 ServerApp] Shutting down 3 extensions
+[I 2022-05-30 14:16:22.630 ServerApp] Shutting down 11 kernels
+[I 2022-05-30 14:16:22.631 ServerApp] Kernel shutdown: 4e99bb03-4a5a-4765-8c16-80019c177f73
+[I 2022-05-30 14:16:22.631 ServerApp] Kernel shutdown: e64cedba-591b-4a8d-81cf-0793d0881c17
+[I 2022-05-30 14:16:22.631 ServerApp] Kernel shutdown: 3f121d63-6814-4681-9cfd-90486947b3ed
+[I 2022-05-30 14:16:22.632 ServerApp] Kernel shutdown: 1bfc5d15-c32f-42ac-aad6-306dad6dee5d
+[I 2022-05-30 14:16:22.632 ServerApp] Kernel shutdown: f640de65-c754-4021-b40f-d6ed3a15733c
+[I 2022-05-30 14:16:22.632 ServerApp] Kernel shutdown: fd64744b-6608-4091-b6c5-ce3494c8fd19
+[I 2022-05-30 14:16:22.633 ServerApp] Kernel shutdown: 93ba24d3-5a03-4512-a22a-2ecb9d0feec9
+[I 2022-05-30 14:16:22.633 ServerApp] Kernel shutdown: 0547341a-093e-4e8f-919e-c63c0ccd6266
+[I 2022-05-30 14:16:22.633 ServerApp] Kernel shutdown: f9363ffd-28a0-4840-aaed-c34bde7f954a
+[I 2022-05-30 14:16:22.634 ServerApp] Kernel shutdown: b9675d1b-1591-4d7b-860e-0c4886835bc7
+[I 2022-05-30 14:16:22.634 ServerApp] Kernel shutdown: 37568ab5-f09b-43bc-99a6-b81c89be2b51
+[I 2022-05-30 14:16:25.390 ServerApp] Shutting down 0 terminals

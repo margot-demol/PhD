@@ -1,0 +1,143 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Wed Jun  8 07:02:32 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-06-08 07:02:57.703 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-06-08 07:02:57.726 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-06-08 07:02:57.733 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-06-08 07:03:02.645 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-06-08 07:03:03.345 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-06-08 07:03:03.346 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-06-08 07:03:03.346 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-06-08 07:03:03.350 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-06-08 07:03:03.514 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-06-08 07:03:03.514 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-06-08 07:03:03.514 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-06-08 07:03:03.514 ServerApp] http://r1i2n2:8877/lab
+[I 2022-06-08 07:03:03.514 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-06-08 07:03:03.514 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 2022-06-08 07:03:52.614 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-06-08 07:03:53.217 LabApp] Build is up to date
+[W 2022-06-08 07:03:56.525 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-08 07:03:57.952 ServerApp] Kernel started: 3d9f74c0-9947-4861-b4da-b8dddf61e8e7
+[I 2022-06-08 07:03:58.103 ServerApp] Kernel started: 24a2302c-a643-4bac-b1fb-836fb113da57
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: aa65c910-5a94-4d9f-8c28-8e216be0347a
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4d15a627-0226-409f-b036-3d015ef805a2
+[I 2022-06-08 07:04:47.640 ServerApp] Kernel restarted: 3d9f74c0-9947-4861-b4da-b8dddf61e8e7
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-06-08 07:05:40.042 ServerApp] Kernel restarted: 3d9f74c0-9947-4861-b4da-b8dddf61e8e7
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-06-08 07:05:56.958 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-08 07:06:37.704 ServerApp] Saving file at /m2_2022/m2lib22/aviso.py
+[I 2022-06-08 07:06:50.368 ServerApp] Kernel restarted: 3d9f74c0-9947-4861-b4da-b8dddf61e8e7
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-06-08 07:07:57.109 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-08 07:08:37.721 ServerApp] Saving file at /m2_2022/m2lib22/aviso.py
+[I 2022-06-08 07:09:06.992 ServerApp] Saving file at /m2_2022/m2lib22/aviso.py
+[I 2022-06-08 07:09:28.760 ServerApp] Kernel restarted: 3d9f74c0-9947-4861-b4da-b8dddf61e8e7
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-06-08 07:09:57.301 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-08 07:11:07.005 ServerApp] Saving file at /m2_2022/m2lib22/aviso.py
+[I 2022-06-08 07:11:41.665 ServerApp] Saving file at /m2_2022/m2lib22/aviso.py
+[I 2022-06-08 07:11:53.557 ServerApp] Kernel restarted: 3d9f74c0-9947-4861-b4da-b8dddf61e8e7
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-06-08 07:11:57.417 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-08 07:13:57.661 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-08 07:19:59.216 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-08 07:20:37.720 ServerApp] Kernel restarted: 3d9f74c0-9947-4861-b4da-b8dddf61e8e7
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-06-08 07:21:57.115 ServerApp] Saving file at /m2_2022/sandbox/test_aviso_lib.ipynb
+[W 2022-06-08 07:21:57.116 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-08 07:21:59.327 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-08 07:23:59.434 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-08 07:25:57.171 ServerApp] Saving file at /m2_2022/sandbox/test_aviso_lib.ipynb
+[W 2022-06-08 07:25:57.172 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-08 07:27:57.281 ServerApp] Saving file at /m2_2022/sandbox/test_aviso_lib.ipynb
+[W 2022-06-08 07:27:57.282 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-08 07:29:57.413 ServerApp] Saving file at /m2_2022/sandbox/test_aviso_lib.ipynb
+[W 2022-06-08 07:29:57.414 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-08 07:31:41.665 ServerApp] Saving file at /m2_2022/m2lib22/aviso.py
+[I 2022-06-08 07:31:42.204 ServerApp] Saving file at /m2_2022/m2lib22/aviso.py
+[I 2022-06-08 07:31:55.015 ServerApp] Kernel interrupted: 24a2302c-a643-4bac-b1fb-836fb113da57
+[I 2022-06-08 07:31:55.437 ServerApp] Kernel interrupted: 24a2302c-a643-4bac-b1fb-836fb113da57
+[I 2022-06-08 07:31:57.534 ServerApp] Saving file at /m2_2022/sandbox/test_aviso_lib.ipynb
+[W 2022-06-08 07:31:57.534 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-08 07:32:01.597 ServerApp] Kernel interrupted: 3d9f74c0-9947-4861-b4da-b8dddf61e8e7
+[I 2022-06-08 07:32:01.803 ServerApp] Kernel interrupted: 3d9f74c0-9947-4861-b4da-b8dddf61e8e7
+[I 2022-06-08 07:33:57.639 ServerApp] Saving file at /m2_2022/sandbox/test_aviso_lib.ipynb
+[W 2022-06-08 07:33:57.640 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-08 07:33:59.599 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-08 07:37:57.784 ServerApp] Saving file at /m2_2022/sandbox/test_aviso_lib.ipynb
+[W 2022-06-08 07:37:57.785 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-08 07:41:57.930 ServerApp] Saving file at /m2_2022/sandbox/test_aviso_lib.ipynb
+[W 2022-06-08 07:41:57.931 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-08 07:43:58.139 ServerApp] Saving file at /m2_2022/sandbox/test_aviso_lib.ipynb
+[W 2022-06-08 07:43:58.140 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-08 07:45:58.424 ServerApp] Saving file at /m2_2022/sandbox/test_aviso_lib.ipynb
+[W 2022-06-08 07:45:58.425 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-08 07:47:58.618 ServerApp] Saving file at /m2_2022/sandbox/test_aviso_lib.ipynb
+[W 2022-06-08 07:47:58.619 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-08 07:49:58.790 ServerApp] Saving file at /m2_2022/sandbox/test_aviso_lib.ipynb
+[W 2022-06-08 07:49:58.791 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-08 07:51:58.994 ServerApp] Saving file at /m2_2022/sandbox/test_aviso_lib.ipynb
+[W 2022-06-08 07:51:58.995 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-08 07:57:42.188 ServerApp] Saving file at /m2_2022/m2lib22/aviso.py
+[I 2022-06-08 07:57:53.449 ServerApp] Saving file at /m2_2022/m2lib22/aviso.py
+[I 2022-06-08 07:57:59.138 ServerApp] Saving file at /m2_2022/sandbox/test_aviso_lib.ipynb
+[W 2022-06-08 07:57:59.139 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-08 07:57:59.709 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-08 07:58:06.818 ServerApp] Kernel restarted: 3d9f74c0-9947-4861-b4da-b8dddf61e8e7
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-06-08 07:58:11.651 ServerApp] Kernel interrupted: 3d9f74c0-9947-4861-b4da-b8dddf61e8e7
+[I 2022-06-08 07:58:12.195 ServerApp] Kernel interrupted: 3d9f74c0-9947-4861-b4da-b8dddf61e8e7
+[I 2022-06-08 07:58:21.477 ServerApp] Kernel restarted: 24a2302c-a643-4bac-b1fb-836fb113da57
+readline: /etc/inputrc: line 19: term: unknown variable name
+[W 2022-06-08 07:58:22.350 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x2aaab479c970>
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2a79d9b6-7628-49ca-a1f9-236f95d3f61a
+[I 2022-06-08 07:59:59.232 ServerApp] Saving file at /m2_2022/sandbox/test_aviso_lib.ipynb
+[W 2022-06-08 07:59:59.233 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-08 07:59:59.812 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-08 08:01:24.972 ServerApp] Kernel interrupted: 24a2302c-a643-4bac-b1fb-836fb113da57
+[I 2022-06-08 08:01:25.478 ServerApp] Kernel interrupted: 24a2302c-a643-4bac-b1fb-836fb113da57
+[I 2022-06-08 08:01:59.365 ServerApp] Saving file at /m2_2022/sandbox/test_aviso_lib.ipynb
+[W 2022-06-08 08:01:59.366 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-08 08:02:32.756 ServerApp] Kernel interrupted: 24a2302c-a643-4bac-b1fb-836fb113da57
+[I 2022-06-08 08:02:33.019 ServerApp] Kernel interrupted: 24a2302c-a643-4bac-b1fb-836fb113da57
+[I 2022-06-08 08:02:45.029 ServerApp] Kernel restarted: 24a2302c-a643-4bac-b1fb-836fb113da57
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 59d5eb21-2935-460c-a5cf-0dede4639892
+[I 2022-06-08 08:03:59.482 ServerApp] Saving file at /m2_2022/sandbox/test_aviso_lib.ipynb
+[W 2022-06-08 08:03:59.484 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-08 08:05:59.576 ServerApp] Saving file at /m2_2022/sandbox/test_aviso_lib.ipynb
+[W 2022-06-08 08:05:59.577 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-08 08:06:12.318 ServerApp] Kernel interrupted: 24a2302c-a643-4bac-b1fb-836fb113da57
+[I 2022-06-08 08:06:14.473 ServerApp] Kernel interrupted: 24a2302c-a643-4bac-b1fb-836fb113da57
+[I 2022-06-08 08:06:57.659 ServerApp] Kernel restarted: 24a2302c-a643-4bac-b1fb-836fb113da57
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: aa957095-8f4f-4c64-9b1c-a62e5e8e8665
+[I 2022-06-08 08:07:00.998 ServerApp] Kernel shutdown: 3d9f74c0-9947-4861-b4da-b8dddf61e8e7
+[I 2022-06-08 08:07:00.999 ServerApp] Kernel shutdown: 24a2302c-a643-4bac-b1fb-836fb113da57
+[I 2022-06-08 08:07:01.750 ServerApp] Shutting down on /api/shutdown request.
+[I 2022-06-08 08:07:01.751 ServerApp] Shutting down 3 extensions
+[I 2022-06-08 08:07:01.752 ServerApp] Shutting down 0 kernels
+[I 2022-06-08 08:07:01.752 ServerApp] Shutting down 0 terminals
+Terminated

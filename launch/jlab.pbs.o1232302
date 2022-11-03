@@ -1,0 +1,85 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu Jul 28 11:45:23 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-07-28 11:45:27.502 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-07-28 11:45:27.506 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-07-28 11:45:27.514 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-07-28 11:45:27.865 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-07-28 11:45:28.189 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-07-28 11:45:28.190 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-07-28 11:45:28.190 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-07-28 11:45:28.194 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-07-28 11:45:28.200 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-07-28 11:45:28.200 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-07-28 11:45:28.200 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-07-28 11:45:28.200 ServerApp] http://r1i5n32:8877/lab
+[I 2022-07-28 11:45:28.200 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-07-28 11:45:28.201 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-07-28 11:47:15.590 LabApp] Build is up to date
+[I 2022-07-28 11:47:17.997 ServerApp] Kernel started: c29e699f-a26f-4351-958b-af299291010e
+[I 2022-07-28 11:47:18.372 ServerApp] Kernel started: 9e57d088-298d-4eb1-84d9-0953811d424b
+[I 2022-07-28 11:47:23.792 ServerApp] Kernel started: 11ce4691-8e0d-4de4-a251-05a348511ed2
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 01b43679-d654-4496-83e6-706b421d83bf
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 28c51da5-25fb-472d-9f38-3cb21828fb82
+[I 2022-07-28 11:49:05.614 ServerApp] Kernel started: 4bbdeb83-ca12-4f65-a9f8-73f40adf3a2f
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 7d264c6d-fa27-45d7-aa62-df35d75e7628
+[I 2022-07-28 11:49:07.406 ServerApp] Kernel started: 50813542-7427-433a-af4b-ee6bcd899923
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b41b0417-8d90-4625-9bb5-e5618c1c57b6
+[I 2022-07-28 11:49:17.854 ServerApp] Starting buffering for 50813542-7427-433a-af4b-ee6bcd899923:da6f7c4e-7061-4a33-b48b-800815050267
+[I 2022-07-28 11:49:22.958 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 11:51:23.398 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 11:53:23.937 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 11:55:24.408 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 11:57:24.888 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 11:59:25.440 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 11:59:47.918 ServerApp] Kernel interrupted: 11ce4691-8e0d-4de4-a251-05a348511ed2
+[I 2022-07-28 11:59:48.159 ServerApp] Kernel interrupted: 11ce4691-8e0d-4de4-a251-05a348511ed2
+[I 2022-07-28 12:01:25.873 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 12:03:26.330 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 12:05:26.745 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 12:07:27.159 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 12:09:27.742 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 12:11:28.155 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 12:13:28.596 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 12:15:29.557 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 12:17:29.951 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 12:19:30.366 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 12:21:30.815 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 12:27:31.287 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 12:29:31.706 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 12:31:16.979 ServerApp] Saving file at /m2_2022/m2lib22/diagnosis.py
+[I 2022-07-28 12:38:14.028 ServerApp] Kernel interrupted: 11ce4691-8e0d-4de4-a251-05a348511ed2
+[I 2022-07-28 12:38:15.697 ServerApp] Kernel interrupted: 11ce4691-8e0d-4de4-a251-05a348511ed2
+[I 2022-07-28 12:39:32.371 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 12:41:32.998 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 12:43:33.521 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[I 2022-07-28 12:44:51.865 ServerApp] Kernel interrupted: 11ce4691-8e0d-4de4-a251-05a348511ed2
+[I 2022-07-28 12:44:52.344 ServerApp] Kernel interrupted: 11ce4691-8e0d-4de4-a251-05a348511ed2
+[I 2022-07-28 12:45:34.503 ServerApp] Saving file at /m2_2022/sandbox/diag_std_lonlat.ipynb
+[C 2022-07-28 12:45:49.519 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-07-28 12:45:49.532 ServerApp] Shutting down 3 extensions
+[I 2022-07-28 12:45:49.532 ServerApp] Shutting down 5 kernels
+[I 2022-07-28 12:45:49.532 ServerApp] Kernel shutdown: 50813542-7427-433a-af4b-ee6bcd899923
+[I 2022-07-28 12:45:49.532 ServerApp] Kernel shutdown: 9e57d088-298d-4eb1-84d9-0953811d424b
+[I 2022-07-28 12:45:49.533 ServerApp] Kernel shutdown: c29e699f-a26f-4351-958b-af299291010e
+[I 2022-07-28 12:45:49.533 ServerApp] Kernel shutdown: 4bbdeb83-ca12-4f65-a9f8-73f40adf3a2f
+[I 2022-07-28 12:45:49.533 ServerApp] Kernel shutdown: 11ce4691-8e0d-4de4-a251-05a348511ed2
+[I 2022-07-28 12:45:52.248 ServerApp] Shutting down 0 terminals

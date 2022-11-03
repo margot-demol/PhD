@@ -1,0 +1,113 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu Jun 23 19:22:06 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-06-23 19:22:14.619 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-06-23 19:22:14.637 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-06-23 19:22:14.644 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-06-23 19:22:18.376 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-06-23 19:22:19.104 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-06-23 19:22:19.106 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-06-23 19:22:19.106 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-06-23 19:22:19.110 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-06-23 19:22:19.201 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-06-23 19:22:19.201 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-06-23 19:22:19.201 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-06-23 19:22:19.201 ServerApp] http://r1i1n11:8877/lab
+[I 2022-06-23 19:22:19.201 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-06-23 19:22:19.201 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-06-23 19:28:36.692 LabApp] Build is up to date
+[I 2022-06-23 19:28:41.123 ServerApp] Kernel started: 1b3b4bf1-4569-4e20-b2e2-6c15ab8074b8
+[I 2022-06-23 19:28:41.124 ServerApp] Kernel started: 797e8b0f-f344-47b4-8459-2726b7d7f171
+[I 2022-06-23 19:28:41.129 ServerApp] Kernel started: 650e48df-4abf-4229-9db7-f847fa78a50e
+[I 2022-06-23 19:28:41.935 ServerApp] Kernel started: 83423685-b123-4198-95d2-31eda8fa4f79
+[I 2022-06-23 19:28:41.936 ServerApp] Kernel started: e84e061f-d2ea-4e52-b4bb-154fa9f49b3f
+[I 2022-06-23 19:28:42.658 ServerApp] Kernel started: ce66c872-c5b1-4d0f-8830-14725ab749e7
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: dc589ffa-a06e-4c88-8608-ed65d01d0d00
+[IPKernelApp] WARNING | No such comm: 08b865ad-52d9-49e1-b06d-2b751a34d342
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8a74deae-124e-4857-b489-84249d129235
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f447c48d-9624-4956-aeee-c524cc57d668
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 71b03ced-6872-450c-a203-d9c983239404
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 0c89925d-0dc5-47b5-b784-542397535548
+[I 2022-06-23 19:30:40.930 ServerApp] Saving file at /m2_2022/sandbox/diag_std_time.ipynb
+[W 2022-06-23 19:33:46.479 ServerApp] WebSocket ping timeout after 119822 ms.
+[W 2022-06-23 19:33:46.570 ServerApp] WebSocket ping timeout after 119878 ms.
+[W 2022-06-23 19:33:46.665 ServerApp] WebSocket ping timeout after 119941 ms.
+[W 2022-06-23 19:33:46.666 ServerApp] WebSocket ping timeout after 119942 ms.
+[W 2022-06-23 19:33:46.724 ServerApp] WebSocket ping timeout after 119960 ms.
+[W 2022-06-23 19:33:46.762 ServerApp] WebSocket ping timeout after 119972 ms.
+[W 2022-06-23 19:33:46.764 ServerApp] WebSocket ping timeout after 119946 ms.
+[W 2022-06-23 19:33:47.055 ServerApp] WebSocket ping timeout after 119923 ms.
+[W 2022-06-23 19:33:47.306 ServerApp] WebSocket ping timeout after 119959 ms.
+[I 2022-06-23 19:33:51.481 ServerApp] Starting buffering for 83423685-b123-4198-95d2-31eda8fa4f79:d4e80aba-a2c3-4be1-a902-2bfbb631e5a1
+[I 2022-06-23 19:33:51.571 ServerApp] Starting buffering for 650e48df-4abf-4229-9db7-f847fa78a50e:63d3d91c-541d-4f66-92c1-26b4ce7fdd76
+[I 2022-06-23 19:33:51.726 ServerApp] Starting buffering for ce66c872-c5b1-4d0f-8830-14725ab749e7:90e67eca-3830-4ab2-9b68-ec5b061567fc
+[I 2022-06-23 19:33:51.764 ServerApp] Starting buffering for e84e061f-d2ea-4e52-b4bb-154fa9f49b3f:8c0e2fa5-76ea-4853-bc8c-dcd2ed3836bb
+[I 2022-06-23 19:33:52.057 ServerApp] Starting buffering for 797e8b0f-f344-47b4-8459-2726b7d7f171:d5c1bc16-d9d1-4513-aaa5-c5d9c221b63f
+[I 2022-06-23 19:33:52.307 ServerApp] Starting buffering for 1b3b4bf1-4569-4e20-b2e2-6c15ab8074b8:0cc15cbb-826e-41f7-938a-617625110d3d
+[I 2022-06-23 19:40:29.122 ServerApp] Restoring connection for 650e48df-4abf-4229-9db7-f847fa78a50e:63d3d91c-541d-4f66-92c1-26b4ce7fdd76
+[I 2022-06-23 19:40:29.132 ServerApp] Restoring connection for 83423685-b123-4198-95d2-31eda8fa4f79:d4e80aba-a2c3-4be1-a902-2bfbb631e5a1
+[I 2022-06-23 19:40:29.133 ServerApp] Restoring connection for 1b3b4bf1-4569-4e20-b2e2-6c15ab8074b8:0cc15cbb-826e-41f7-938a-617625110d3d
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b4d05591-6cfe-46ee-9a14-f821d5393c06
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 30516995-6249-4393-8be8-7f078a8902de
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d9f785c6-63a2-4fe8-a420-81da2be73df8
+[IPKernelApp] WARNING | No such comm: 02f2ff43-2204-40b9-91f6-f02db7309595
+[I 2022-06-23 19:40:29.285 ServerApp] Restoring connection for 797e8b0f-f344-47b4-8459-2726b7d7f171:d5c1bc16-d9d1-4513-aaa5-c5d9c221b63f
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: cacb21f7-2cf2-430c-b2fd-8c14f60a4d07
+[IPKernelApp] WARNING | No such comm: 5bec574f-a53e-4eea-a912-b38433f61be7
+[I 2022-06-23 19:40:29.800 ServerApp] Saving file at /m2_2022/sandbox/diag_std_time.ipynb
+[I 2022-06-23 19:42:55.905 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-23 19:42:56.960 ServerApp] Saving file at /m2_2022/sandbox/diag_std_dist.ipynb
+[I 2022-06-23 19:44:57.760 ServerApp] Saving file at /m2_2022/sandbox/diag_std_dist.ipynb
+[I 2022-06-23 19:46:56.255 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-23 19:48:56.660 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-06-23 19:49:02.117 ServerApp] Starting buffering for 650e48df-4abf-4229-9db7-f847fa78a50e:63d3d91c-541d-4f66-92c1-26b4ce7fdd76
+[I 2022-06-23 19:49:02.118 ServerApp] Starting buffering for 83423685-b123-4198-95d2-31eda8fa4f79:d4e80aba-a2c3-4be1-a902-2bfbb631e5a1
+[I 2022-06-23 19:49:02.118 ServerApp] Starting buffering for 797e8b0f-f344-47b4-8459-2726b7d7f171:d5c1bc16-d9d1-4513-aaa5-c5d9c221b63f
+[I 2022-06-23 19:49:02.118 ServerApp] Starting buffering for e84e061f-d2ea-4e52-b4bb-154fa9f49b3f:8c0e2fa5-76ea-4853-bc8c-dcd2ed3836bb
+[I 2022-06-23 19:49:02.119 ServerApp] Starting buffering for ce66c872-c5b1-4d0f-8830-14725ab749e7:d661095a-e6b2-465b-aa69-53e2ae263ee3
+[I 2022-06-23 19:49:02.119 ServerApp] Starting buffering for 1b3b4bf1-4569-4e20-b2e2-6c15ab8074b8:0cc15cbb-826e-41f7-938a-617625110d3d
+[C 2022-06-23 19:49:32.194 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-06-23 19:49:32.205 ServerApp] Shutting down 3 extensions
+[I 2022-06-23 19:49:32.205 ServerApp] Shutting down 6 kernels
+[I 2022-06-23 19:49:32.206 ServerApp] Kernel shutdown: 1b3b4bf1-4569-4e20-b2e2-6c15ab8074b8
+[I 2022-06-23 19:49:32.206 ServerApp] Kernel shutdown: 797e8b0f-f344-47b4-8459-2726b7d7f171
+[I 2022-06-23 19:49:32.206 ServerApp] Kernel shutdown: 650e48df-4abf-4229-9db7-f847fa78a50e
+[I 2022-06-23 19:49:32.207 ServerApp] Kernel shutdown: e84e061f-d2ea-4e52-b4bb-154fa9f49b3f
+[I 2022-06-23 19:49:32.207 ServerApp] Kernel shutdown: ce66c872-c5b1-4d0f-8830-14725ab749e7
+[I 2022-06-23 19:49:32.207 ServerApp] Kernel shutdown: 83423685-b123-4198-95d2-31eda8fa4f79
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+[I 2022-06-23 19:49:34.867 ServerApp] Shutting down 0 terminals

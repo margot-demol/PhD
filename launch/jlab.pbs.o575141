@@ -1,0 +1,183 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Tue Jun  7 07:55:09 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-06-07 07:55:12.567 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-06-07 07:55:12.572 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-06-07 07:55:12.579 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-06-07 07:55:12.938 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-06-07 07:55:13.274 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-06-07 07:55:13.276 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-06-07 07:55:13.276 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-06-07 07:55:13.280 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-06-07 07:55:13.286 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-06-07 07:55:13.287 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-06-07 07:55:13.287 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-06-07 07:55:13.287 ServerApp] http://r1i6n29:8877/lab
+[I 2022-06-07 07:55:13.287 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-06-07 07:55:13.287 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-06-07 07:56:05.679 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 07:56:11.708 LabApp] Build is up to date
+[W 2022-06-07 07:56:12.341 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-07 07:56:13.666 ServerApp] Kernel started: 2410e449-d180-4998-8150-e395f086ec75
+[I 2022-06-07 07:56:13.667 ServerApp] Kernel started: c0e3a679-cd97-41a0-a760-5610b65b2c8c
+[I 2022-06-07 07:56:13.668 ServerApp] Kernel started: 3a46ee2d-f503-4e8c-ba91-ec9796d1e8f8
+[I 2022-06-07 07:56:13.678 ServerApp] Kernel started: 02fa5293-cc83-48f1-b7af-233d20c5136f
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 17564a2f-928d-403e-a08a-2ea49b5bb381
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 07f3d484-f763-4b99-89b6-6a725bb3b141
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: af7e7a3d-98fb-43b3-830c-72c5862e930b
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 6d34d849-904c-411f-ac51-20c071e4ec32
+[I 2022-06-07 07:58:12.718 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 07:59:17.402 ServerApp] Kernel restarted: 2410e449-d180-4998-8150-e395f086ec75
+[I 2022-06-07 07:59:17.409 ServerApp] Starting buffering for 2410e449-d180-4998-8150-e395f086ec75:08eff017-7c7c-4f4b-8d4c-ebb71237a393
+[I 2022-06-07 07:59:17.416 ServerApp] Restoring connection for 2410e449-d180-4998-8150-e395f086ec75:08eff017-7c7c-4f4b-8d4c-ebb71237a393
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c82c0044-5d92-470e-b5d6-4b9bd30f51f9
+[I 2022-06-07 08:00:12.837 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 08:02:12.982 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 08:03:46.805 ServerApp] Kernel restarted: 2410e449-d180-4998-8150-e395f086ec75
+[I 2022-06-07 08:03:46.812 ServerApp] Starting buffering for 2410e449-d180-4998-8150-e395f086ec75:08eff017-7c7c-4f4b-8d4c-ebb71237a393
+[I 2022-06-07 08:03:46.826 ServerApp] Restoring connection for 2410e449-d180-4998-8150-e395f086ec75:08eff017-7c7c-4f4b-8d4c-ebb71237a393
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 966586c4-6259-47e8-872b-6a179061ec24
+[I 2022-06-07 08:04:13.172 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 08:08:13.283 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 08:08:23.188 ServerApp] Kernel interrupted: 2410e449-d180-4998-8150-e395f086ec75
+[I 2022-06-07 08:08:24.908 ServerApp] Kernel interrupted: 2410e449-d180-4998-8150-e395f086ec75
+[I 2022-06-07 08:08:44.016 ServerApp] Kernel restarted: 2410e449-d180-4998-8150-e395f086ec75
+[I 2022-06-07 08:08:44.023 ServerApp] Starting buffering for 2410e449-d180-4998-8150-e395f086ec75:08eff017-7c7c-4f4b-8d4c-ebb71237a393
+[I 2022-06-07 08:08:44.030 ServerApp] Restoring connection for 2410e449-d180-4998-8150-e395f086ec75:08eff017-7c7c-4f4b-8d4c-ebb71237a393
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 35522288-b106-43c0-a798-8a822136b4d0
+[I 2022-06-07 08:09:34.114 ServerApp] Kernel interrupted: 2410e449-d180-4998-8150-e395f086ec75
+[I 2022-06-07 08:09:38.660 ServerApp] Kernel interrupted: 2410e449-d180-4998-8150-e395f086ec75
+[I 2022-06-07 08:10:13.437 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 08:12:13.555 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[W 2022-06-07 08:26:44.031 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-06-07 08:26:49.036 ServerApp] Starting buffering for 2410e449-d180-4998-8150-e395f086ec75:08eff017-7c7c-4f4b-8d4c-ebb71237a393
+[W 2022-06-07 08:26:49.846 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-06-07 08:26:49.885 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-06-07 08:26:49.961 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-06-07 08:26:54.848 ServerApp] Starting buffering for c0e3a679-cd97-41a0-a760-5610b65b2c8c:0227993b-52ac-42a9-8ae8-665bb6ea5579
+[I 2022-06-07 08:26:54.886 ServerApp] Starting buffering for 3a46ee2d-f503-4e8c-ba91-ec9796d1e8f8:85b25deb-ab15-40a6-bda6-51ec2801f785
+[I 2022-06-07 08:26:54.961 ServerApp] Starting buffering for 02fa5293-cc83-48f1-b7af-233d20c5136f:5d17b5d4-ef9b-4d04-a15d-f9220d6355a4
+[I 2022-06-07 08:55:09.472 ServerApp] Restoring connection for c0e3a679-cd97-41a0-a760-5610b65b2c8c:0227993b-52ac-42a9-8ae8-665bb6ea5579
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 823b4580-7f2a-4ef5-941c-e4a9813eb87d
+[I 2022-06-07 08:55:11.390 ServerApp] Restoring connection for 2410e449-d180-4998-8150-e395f086ec75:08eff017-7c7c-4f4b-8d4c-ebb71237a393
+[I 2022-06-07 08:55:11.396 ServerApp] Replaying 3 buffered messages
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a5447696-a855-44c8-a560-48e7cf318824
+[I 2022-06-07 08:55:17.984 ServerApp] Restoring connection for 3a46ee2d-f503-4e8c-ba91-ec9796d1e8f8:85b25deb-ab15-40a6-bda6-51ec2801f785
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5e89ea0c-9c35-42cf-8084-6b9c53159170
+[I 2022-06-07 08:55:19.974 ServerApp] Restoring connection for 02fa5293-cc83-48f1-b7af-233d20c5136f:5d17b5d4-ef9b-4d04-a15d-f9220d6355a4
+[I 2022-06-07 08:55:20.593 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 08:56:19.476 ServerApp] Kernel restarted: 2410e449-d180-4998-8150-e395f086ec75
+[I 2022-06-07 08:56:19.480 ServerApp] Starting buffering for 2410e449-d180-4998-8150-e395f086ec75:08eff017-7c7c-4f4b-8d4c-ebb71237a393
+[I 2022-06-07 08:56:19.486 ServerApp] Restoring connection for 2410e449-d180-4998-8150-e395f086ec75:08eff017-7c7c-4f4b-8d4c-ebb71237a393
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-06-07 08:56:25.252 ServerApp] Kernel interrupted: 2410e449-d180-4998-8150-e395f086ec75
+[I 2022-06-07 08:56:25.886 ServerApp] Kernel interrupted: 2410e449-d180-4998-8150-e395f086ec75
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ab2e6e4b-ef8a-4732-becb-cc5c0f0ab8fc
+[I 2022-06-07 08:56:26.233 ServerApp] Kernel interrupted: 2410e449-d180-4998-8150-e395f086ec75
+[I 2022-06-07 08:57:20.659 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 09:01:20.807 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 09:31:21.789 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[W 2022-06-07 09:33:29.273 ServerApp] delete /m2_2022/sandbox/dask-worker.o538917
+[W 2022-06-07 09:33:29.424 ServerApp] delete /m2_2022/sandbox/dask-worker.o538918
+[W 2022-06-07 09:33:29.427 ServerApp] delete /m2_2022/sandbox/dask-worker.o538916
+[W 2022-06-07 09:33:29.429 ServerApp] delete /m2_2022/sandbox/dask-worker.o540025
+[W 2022-06-07 09:33:29.452 ServerApp] delete /m2_2022/sandbox/dask-worker.o538924
+[W 2022-06-07 09:33:29.454 ServerApp] delete /m2_2022/sandbox/dask-worker.o538921
+[W 2022-06-07 09:33:29.457 ServerApp] delete /m2_2022/sandbox/dask-worker.o538922
+[W 2022-06-07 09:33:29.460 ServerApp] delete /m2_2022/sandbox/dask-worker.o540026
+[W 2022-06-07 09:33:29.463 ServerApp] delete /m2_2022/sandbox/dask-worker.o538919
+[W 2022-06-07 09:33:29.468 ServerApp] delete /m2_2022/sandbox/dask-worker.o540027
+[W 2022-06-07 09:33:29.470 ServerApp] delete /m2_2022/sandbox/dask-worker.o540028
+[W 2022-06-07 09:33:29.473 ServerApp] delete /m2_2022/sandbox/dask-worker.o540029
+[W 2022-06-07 09:33:29.475 ServerApp] delete /m2_2022/sandbox/dask-worker.o540030
+[W 2022-06-07 09:33:29.479 ServerApp] delete /m2_2022/sandbox/dask-worker.o540031
+[W 2022-06-07 09:33:29.482 ServerApp] delete /m2_2022/sandbox/dask-worker.o540496
+[W 2022-06-07 09:33:29.486 ServerApp] delete /m2_2022/sandbox/dask-worker.o540497
+[W 2022-06-07 09:33:29.489 ServerApp] delete /m2_2022/sandbox/dask-worker.o540498
+[W 2022-06-07 09:33:29.508 ServerApp] delete /m2_2022/sandbox/dask-worker.o540499
+[W 2022-06-07 09:33:29.510 ServerApp] delete /m2_2022/sandbox/dask-worker.o540500
+[W 2022-06-07 09:33:29.514 ServerApp] delete /m2_2022/sandbox/dask-worker.o541365
+[W 2022-06-07 09:33:29.517 ServerApp] delete /m2_2022/sandbox/dask-worker.o540501
+[W 2022-06-07 09:33:29.521 ServerApp] delete /m2_2022/sandbox/dask-worker.o540502
+[W 2022-06-07 09:33:29.524 ServerApp] delete /m2_2022/sandbox/dask-worker.o541366
+[W 2022-06-07 09:33:29.526 ServerApp] delete /m2_2022/sandbox/dask-worker.o541367
+[W 2022-06-07 09:33:29.529 ServerApp] delete /m2_2022/sandbox/dask-worker.o541368
+[W 2022-06-07 09:33:29.565 ServerApp] delete /m2_2022/sandbox/dask-worker.o541369
+[W 2022-06-07 09:33:29.568 ServerApp] delete /m2_2022/sandbox/dask-worker.o541370
+[W 2022-06-07 09:33:29.573 ServerApp] delete /m2_2022/sandbox/dask-worker.o541371
+[W 2022-06-07 09:33:29.576 ServerApp] delete /m2_2022/sandbox/dask-worker.o574681
+[W 2022-06-07 09:33:29.578 ServerApp] delete /m2_2022/sandbox/dask-worker.o574682
+[W 2022-06-07 09:33:29.581 ServerApp] delete /m2_2022/sandbox/dask-worker.o574683
+[W 2022-06-07 09:33:29.584 ServerApp] delete /m2_2022/sandbox/dask-worker.o574684
+[W 2022-06-07 09:33:29.587 ServerApp] delete /m2_2022/sandbox/dask-worker.o574685
+[W 2022-06-07 09:33:29.591 ServerApp] delete /m2_2022/sandbox/dask-worker.o574686
+[W 2022-06-07 09:33:29.619 ServerApp] delete /m2_2022/sandbox/dask-worker.o574687
+[W 2022-06-07 09:33:29.622 ServerApp] delete /m2_2022/sandbox/dask-worker.o575162
+[W 2022-06-07 09:33:29.624 ServerApp] delete /m2_2022/sandbox/dask-worker.o575163
+[W 2022-06-07 09:33:29.628 ServerApp] delete /m2_2022/sandbox/dask-worker.o575164
+[W 2022-06-07 09:33:29.631 ServerApp] delete /m2_2022/sandbox/dask-worker.o575165
+[W 2022-06-07 09:33:29.635 ServerApp] delete /m2_2022/sandbox/dask-worker.o575166
+[W 2022-06-07 09:33:29.638 ServerApp] delete /m2_2022/sandbox/dask-worker.o575167
+[W 2022-06-07 09:33:29.641 ServerApp] delete /m2_2022/sandbox/dask-worker.o575187
+[W 2022-06-07 09:33:29.643 ServerApp] delete /m2_2022/sandbox/dask-worker.o575188
+[W 2022-06-07 09:33:29.647 ServerApp] delete /m2_2022/sandbox/dask-worker.o575189
+[W 2022-06-07 09:33:29.649 ServerApp] delete /m2_2022/sandbox/dask-worker.o575190
+[W 2022-06-07 09:33:29.654 ServerApp] delete /m2_2022/sandbox/dask-worker.o575191
+[W 2022-06-07 09:33:29.656 ServerApp] delete /m2_2022/sandbox/dask-worker.o575250
+[W 2022-06-07 09:33:29.659 ServerApp] delete /m2_2022/sandbox/dask-worker.o575251
+[W 2022-06-07 09:33:29.663 ServerApp] delete /m2_2022/sandbox/dask-worker.o575252
+[W 2022-06-07 09:33:29.667 ServerApp] delete /m2_2022/sandbox/dask-worker.o575253
+[W 2022-06-07 09:33:29.670 ServerApp] delete /m2_2022/sandbox/dask-worker.o575254
+[I 2022-06-07 09:33:46.967 ServerApp] Kernel started: 7bc07930-cae2-43d5-b84f-90cca78515f3
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: cfb821f7-724c-48f0-9a25-48de2974079b
+[I 2022-06-07 09:37:21.880 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 09:39:22.029 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 09:41:01.723 ServerApp] Kernel interrupted: 2410e449-d180-4998-8150-e395f086ec75
+[I 2022-06-07 09:41:02.456 ServerApp] Kernel interrupted: 2410e449-d180-4998-8150-e395f086ec75
+[I 2022-06-07 09:41:17.542 ServerApp] Kernel restarted: 2410e449-d180-4998-8150-e395f086ec75
+[I 2022-06-07 09:41:17.549 ServerApp] Starting buffering for 2410e449-d180-4998-8150-e395f086ec75:08eff017-7c7c-4f4b-8d4c-ebb71237a393
+[I 2022-06-07 09:41:17.557 ServerApp] Restoring connection for 2410e449-d180-4998-8150-e395f086ec75:08eff017-7c7c-4f4b-8d4c-ebb71237a393
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 176bc40f-895f-4728-9b5b-fe15b609e530
+[I 2022-06-07 09:41:22.146 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-07 09:41:34.964 ServerApp] Kernel restarted: 2410e449-d180-4998-8150-e395f086ec75
+[I 2022-06-07 09:41:34.967 ServerApp] Starting buffering for 2410e449-d180-4998-8150-e395f086ec75:08eff017-7c7c-4f4b-8d4c-ebb71237a393
+[I 2022-06-07 09:41:34.974 ServerApp] Restoring connection for 2410e449-d180-4998-8150-e395f086ec75:08eff017-7c7c-4f4b-8d4c-ebb71237a393
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 79d7994a-2885-4606-b215-356d61e9fb85
+[I 2022-06-07 09:41:42.143 ServerApp] Kernel shutdown: 2410e449-d180-4998-8150-e395f086ec75
+[I 2022-06-07 09:41:42.145 ServerApp] Kernel shutdown: c0e3a679-cd97-41a0-a760-5610b65b2c8c
+[I 2022-06-07 09:41:42.146 ServerApp] Kernel shutdown: 3a46ee2d-f503-4e8c-ba91-ec9796d1e8f8
+[I 2022-06-07 09:41:42.146 ServerApp] Kernel shutdown: 02fa5293-cc83-48f1-b7af-233d20c5136f
+[I 2022-06-07 09:41:42.150 ServerApp] Kernel shutdown: 7bc07930-cae2-43d5-b84f-90cca78515f3
+[I 2022-06-07 09:41:44.791 ServerApp] Shutting down on /api/shutdown request.
+[I 2022-06-07 09:41:44.792 ServerApp] Shutting down 3 extensions
+[I 2022-06-07 09:41:44.792 ServerApp] Shutting down 0 kernels
+[I 2022-06-07 09:41:44.793 ServerApp] Shutting down 0 terminals
+Terminated

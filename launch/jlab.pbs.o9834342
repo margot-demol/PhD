@@ -1,0 +1,155 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Wed Apr  6 11:04:27 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-04-06 11:04:41.263 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-04-06 11:04:41.273 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-04-06 11:04:41.280 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-04-06 11:04:44.990 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-04-06 11:04:45.399 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-04-06 11:04:45.400 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-04-06 11:04:45.400 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-04-06 11:04:45.404 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-04-06 11:04:45.500 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-04-06 11:04:45.500 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-04-06 11:04:45.500 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-04-06 11:04:45.500 ServerApp] http://r1i1n0:8877/lab
+[I 2022-04-06 11:04:45.500 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-04-06 11:04:45.500 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-04-06 11:06:12.109 ServerApp] 302 GET / (10.148.1.145) 0.46ms
+[I 2022-04-06 11:06:17.129 LabApp] Build is up to date
+[W 2022-04-06 11:06:20.091 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 11:06:22.794 ServerApp] Kernel started: af879c70-6541-4b95-aa42-edafaa2d35f0
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ec3b6b39-4df9-476d-8b32-8f5611b9586f
+[I 2022-04-06 11:08:21.258 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 11:08:21.259 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 11:32:21.398 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 11:32:21.399 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 11:34:21.605 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 11:34:21.606 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 11:44:22.047 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 11:44:22.048 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 11:46:22.263 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 11:46:22.264 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 11:48:22.464 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 11:48:22.465 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 11:50:22.666 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 11:50:22.667 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 11:52:22.865 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 11:52:22.866 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 11:54:23.061 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 11:54:23.062 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 11:56:23.306 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 11:56:23.307 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 11:58:23.505 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 11:58:23.507 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 12:02:23.703 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 12:02:23.704 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 12:04:23.899 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 12:04:23.900 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 12:06:24.120 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 12:06:24.121 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 12:10:24.335 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 12:10:24.337 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 12:12:24.765 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 12:12:24.766 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[W 2022-04-06 12:12:30.724 ServerApp] 404 GET /api/contents/m2_2022/sandbox/overviewmodified.ipynb?1649247150715 (10.148.1.145): No such file or directory: m2_2022/sandbox/overviewmodified.ipynb
+[W 2022-04-06 12:12:30.725 ServerApp] No such file or directory: m2_2022/sandbox/overviewmodified.ipynb
+[W 2022-04-06 12:12:30.725 ServerApp] 404 GET /api/contents/m2_2022/sandbox/overviewmodified.ipynb?1649247150715 (10.148.1.145) 1.54ms referer=http://localhost:8877/lab?
+[W 2022-04-06 12:12:30.750 ServerApp] 404 GET /api/contents/m2_2022/sandbox/overviewmodified.ipynb?content=0&1649247150754 (10.148.1.145): No such file or directory: m2_2022/sandbox/overviewmodified.ipynb
+[W 2022-04-06 12:12:30.750 ServerApp] No such file or directory: m2_2022/sandbox/overviewmodified.ipynb
+[W 2022-04-06 12:12:30.750 ServerApp] 404 GET /api/contents/m2_2022/sandbox/overviewmodified.ipynb?content=0&1649247150754 (10.148.1.145) 0.68ms referer=http://localhost:8877/lab?
+[I 2022-04-06 12:12:30.794 ServerApp] Uploading file to /m2_2022/sandbox/overviewmodified.ipynb
+[W 2022-04-06 12:12:30.795 ServerApp] Notebook m2_2022/sandbox/overviewmodified.ipynb is not trusted
+[W 2022-04-06 12:12:43.771 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 12:12:46.629 ServerApp] Kernel started: 733f412f-b63e-49d5-92fe-6901528f6ad4
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3032935d-f819-4261-870b-5b0d04c58d28
+[I 2022-04-06 12:16:44.880 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 12:16:44.881 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 12:18:31.443 ServerApp] Saving file at /m2_2022/sandbox/overviewmodified.ipynb
+[W 2022-04-06 12:18:31.444 ServerApp] Notebook m2_2022/sandbox/overviewmodified.ipynb is not trusted
+[I 2022-04-06 12:18:47.761 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 12:18:47.762 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[W 2022-04-06 12:20:06.409 ServerApp] Notebook m2_2022/sandbox/projections.ipynb is not trusted
+[I 2022-04-06 12:20:07.716 ServerApp] Kernel started: b16d2a0e-a5e4-4dc0-8cbc-4e322028cfdf
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 392aac67-ea18-40b4-bc2a-b54510b94ca7
+[I 2022-04-06 12:20:40.471 ServerApp] Kernel restarted: 733f412f-b63e-49d5-92fe-6901528f6ad4
+[I 2022-04-06 12:20:40.477 ServerApp] Starting buffering for 733f412f-b63e-49d5-92fe-6901528f6ad4:f76055a3-ad9a-4d93-b726-c77313080088
+[I 2022-04-06 12:20:40.483 ServerApp] Restoring connection for 733f412f-b63e-49d5-92fe-6901528f6ad4:f76055a3-ad9a-4d93-b726-c77313080088
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: dde9728c-1612-4922-8996-f28a0c9bdd9d
+[I 2022-04-06 12:22:08.907 ServerApp] Saving file at /m2_2022/sandbox/projections.ipynb
+[W 2022-04-06 12:22:08.907 ServerApp] Notebook m2_2022/sandbox/projections.ipynb is not trusted
+[I 2022-04-06 12:53:17.316 ServerApp] 302 GET / (10.148.1.145) 0.42ms
+[E 2022-04-06 12:53:21.030 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-04-06 12:53:21.587 LabApp] Build is up to date
+[W 2022-04-06 12:54:34.331 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 06387803-c9d9-49da-ae32-d26f9ba0a6e2
+[I 2022-04-06 12:56:35.349 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 12:56:35.351 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 13:05:46.141 ServerApp] Kernel interrupted: 733f412f-b63e-49d5-92fe-6901528f6ad4
+[I 2022-04-06 13:05:48.933 ServerApp] Kernel interrupted: 733f412f-b63e-49d5-92fe-6901528f6ad4
+[I 2022-04-06 13:05:54.302 ServerApp] Kernel restarted: 733f412f-b63e-49d5-92fe-6901528f6ad4
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f4d8f322-b500-4c84-a6a9-e432048ad339
+[W 2022-04-06 13:06:35.014 ServerApp] Notebook m2_2022/sandbox/overviewmodified.ipynb is not trusted
+[I 2022-04-06 13:06:37.822 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 13:06:37.823 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a40226b8-2d09-4e8f-ad3c-d64830d3bca8
+[I 2022-04-06 13:08:36.185 ServerApp] Saving file at /m2_2022/sandbox/overviewmodified.ipynb
+[W 2022-04-06 13:08:36.186 ServerApp] Notebook m2_2022/sandbox/overviewmodified.ipynb is not trusted
+[I 2022-04-06 13:10:38.309 ServerApp] Saving file at /m2_2022/sandbox/overviewmodified.ipynb
+[W 2022-04-06 13:10:38.310 ServerApp] Notebook m2_2022/sandbox/overviewmodified.ipynb is not trusted
+[W 2022-04-06 13:14:19.874 ServerApp] Notebook m2_2022/sandbox/projections.ipynb is not trusted
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 971bebd7-92c6-4494-a3f2-8f0f61c1b715
+[W 2022-04-06 13:42:17.997 ServerApp] Notebook m2_2022/sandbox/overviewmodified.ipynb is not trusted
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 9202c5b0-c40a-4c60-90ff-b959ce55cf88
+[I 2022-04-06 13:42:39.148 ServerApp] Kernel shutdown: af879c70-6541-4b95-aa42-edafaa2d35f0
+[W 2022-04-06 13:42:51.222 ServerApp] Notebook m2_2022/sandbox/overviewmodified.ipynb is not trusted
+[I 2022-04-06 13:43:08.151 ServerApp] Kernel shutdown: b16d2a0e-a5e4-4dc0-8cbc-4e322028cfdf
+[W 2022-04-06 13:43:27.131 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 79cf6dad-7c9a-4131-bf20-e9e3e0e70ce0
+[I 2022-04-06 13:45:27.858 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 13:45:27.859 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-06 13:47:27.964 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-06 13:47:27.965 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[W 2022-04-06 13:47:48.214 ServerApp] Notebook m2_2022/sandbox/projections.ipynb is not trusted
+[I 2022-04-06 13:47:49.381 ServerApp] Kernel started: 3f5705ab-8c56-4c69-bb7c-208b5b353d0a
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b31c6f60-54c1-4ef3-8cb2-838fe76c93ed
+[I 2022-04-06 13:51:50.653 ServerApp] Saving file at /m2_2022/sandbox/projections.ipynb
+[W 2022-04-06 13:51:50.654 ServerApp] Notebook m2_2022/sandbox/projections.ipynb is not trusted
+[I 2022-04-06 14:04:49.884 ServerApp] Starting buffering for 3f5705ab-8c56-4c69-bb7c-208b5b353d0a:dfbd6300-f5cf-470d-b937-a7990a467642
+[I 2022-04-06 14:05:04.166 ServerApp] Kernel shutdown: 733f412f-b63e-49d5-92fe-6901528f6ad4
+[I 2022-04-06 14:05:04.169 ServerApp] Kernel shutdown: 3f5705ab-8c56-4c69-bb7c-208b5b353d0a
+[I 2022-04-06 14:05:04.938 ServerApp] Shutting down on /api/shutdown request.
+[I 2022-04-06 14:05:04.939 ServerApp] Shutting down 3 extensions
+[I 2022-04-06 14:05:04.939 ServerApp] Shutting down 0 kernels
+[I 2022-04-06 14:05:04.939 ServerApp] Shutting down 0 terminals
+Terminated

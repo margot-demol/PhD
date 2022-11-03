@@ -1,0 +1,147 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu Apr 21 11:35:39 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-04-21 11:36:05.523 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-04-21 11:36:05.533 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-04-21 11:36:05.540 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-04-21 11:36:10.122 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-04-21 11:36:10.763 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-04-21 11:36:10.765 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-04-21 11:36:10.765 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-04-21 11:36:10.769 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-04-21 11:36:10.904 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-04-21 11:36:10.905 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-04-21 11:36:10.905 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-04-21 11:36:10.905 ServerApp] http://r1i7n33:8877/lab
+[I 2022-04-21 11:36:10.905 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-04-21 11:36:10.905 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-04-21 11:37:41.933 ServerApp] 302 GET / (10.148.1.145) 0.49ms
+[I 2022-04-21 11:37:41.938 LabApp] 302 GET /lab? (10.148.1.145) 0.49ms
+[I 2022-04-21 11:37:54.481 ServerApp] 302 POST /login?next=%2Flab%3F (10.148.1.145) 260.32ms
+[E 2022-04-21 11:38:01.229 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-04-21 11:38:01.986 LabApp] Build is up to date
+[W 2022-04-21 11:38:05.274 ServerApp] Notebook m2_2022/sandbox/projections.ipynb is not trusted
+[I 2022-04-21 11:38:07.839 ServerApp] Kernel started: 852f5b77-b60e-45e3-9e67-6f30bb071b31
+[I 2022-04-21 11:38:07.840 ServerApp] Kernel started: f5fd0372-bd54-4da8-947c-08655289ddc6
+[I 2022-04-21 11:38:08.073 ServerApp] Kernel started: 460a3aba-2361-47fd-8b94-981f563a14e2
+[I 2022-04-21 11:38:08.075 ServerApp] Kernel started: ca192131-cf29-463e-961b-39fd8a5d1ef8
+[I 2022-04-21 11:38:23.282 LabApp] 302 GET /lab? (10.148.1.145) 0.52ms
+[W 2022-04-21 11:38:23.519 ServerApp] 404 GET /apple-touch-icon-precomposed.png (10.148.1.145) 224.21ms referer=None
+[W 2022-04-21 11:38:23.527 ServerApp] 404 GET /apple-touch-icon.png (10.148.1.145) 0.93ms referer=None
+[I 2022-04-21 11:38:23.567 LabApp] 302 GET /lab? (10.148.1.145) 0.37ms
+[W 2022-04-21 11:38:23.581 ServerApp] 404 GET /apple-touch-icon-precomposed.png (10.148.1.145) 0.73ms referer=None
+[W 2022-04-21 11:38:23.584 ServerApp] 404 GET /apple-touch-icon.png (10.148.1.145) 0.73ms referer=None
+readline: readline: readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 393655d7-dfa8-46f0-b970-1ba903d17e18
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8da0e575-3ab5-4c73-9bf7-bd402787ee0b
+[IPKernelApp] WARNING | No such comm: e0509df3-4b7c-4bea-af64-10a7af4f5410
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 303e2512-4fcc-4835-9b7d-31277e9bce14
+[I 2022-04-21 11:41:14.761 ServerApp] Starting buffering for 852f5b77-b60e-45e3-9e67-6f30bb071b31:f5242995-889c-430c-9e9e-241ac254c71a
+[I 2022-04-21 11:41:14.762 ServerApp] Starting buffering for f5fd0372-bd54-4da8-947c-08655289ddc6:d1b67726-4e1a-4c79-8cf9-2133e42421cc
+[I 2022-04-21 11:41:14.762 ServerApp] Starting buffering for 460a3aba-2361-47fd-8b94-981f563a14e2:b883c75a-1777-4485-b472-32a6f758553a
+[I 2022-04-21 11:41:14.762 ServerApp] Starting buffering for ca192131-cf29-463e-961b-39fd8a5d1ef8:fecc64f8-9cd8-4f75-8dc1-2664ca5e7b16
+[I 2022-04-21 11:41:44.782 ServerApp] Restoring connection for 460a3aba-2361-47fd-8b94-981f563a14e2:b883c75a-1777-4485-b472-32a6f758553a
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1783545a-f748-4755-a59b-2b325e40f3da
+[I 2022-04-21 11:41:46.448 ServerApp] Restoring connection for f5fd0372-bd54-4da8-947c-08655289ddc6:d1b67726-4e1a-4c79-8cf9-2133e42421cc
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1c888233-bc21-440c-8200-ba88cc344325
+[I 2022-04-21 11:41:48.488 ServerApp] Restoring connection for 852f5b77-b60e-45e3-9e67-6f30bb071b31:f5242995-889c-430c-9e9e-241ac254c71a
+[I 2022-04-21 11:41:48.494 ServerApp] Replaying 16 buffered messages
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3b4edfb4-4e03-4f15-b386-53f7eca4cb0e
+[I 2022-04-21 11:41:54.142 ServerApp] Restoring connection for ca192131-cf29-463e-961b-39fd8a5d1ef8:fecc64f8-9cd8-4f75-8dc1-2664ca5e7b16
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ce8613e9-676e-4c87-9592-a225be5327ca
+[I 2022-04-21 11:42:09.356 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-21 11:44:09.531 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-21 11:46:09.785 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-21 11:48:10.036 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-21 11:50:10.294 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-21 11:52:10.539 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-21 11:56:10.795 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-21 12:02:11.045 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-21 12:04:11.352 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-21 12:06:11.627 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-21 12:08:12.326 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-21 12:10:10.228 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 12:10:12.626 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-21 12:12:10.486 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 12:14:12.922 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-21 12:16:14.912 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-21 12:18:10.618 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 12:52:10.807 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 12:54:11.157 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:00:11.420 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:02:11.673 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:04:11.928 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:06:12.202 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:14:12.497 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:16:12.728 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:18:12.930 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:20:13.127 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:22:13.363 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:24:13.627 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:26:13.979 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:28:14.226 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:30:14.425 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:32:14.693 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:34:14.971 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:36:15.194 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:38:15.478 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:40:15.744 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:42:16.011 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:44:16.221 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:46:16.535 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:48:16.786 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:50:17.211 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:52:17.481 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:54:17.742 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:56:18.022 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 13:58:18.952 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 14:00:19.211 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 14:02:19.461 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 14:04:19.717 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 14:06:19.962 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 14:12:20.225 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 14:14:20.429 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 14:16:42.529 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-21 14:18:42.822 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-21 14:20:43.031 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-21 14:32:20.642 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 14:34:20.818 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 14:38:21.048 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 14:40:21.327 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 14:42:21.573 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 14:44:21.772 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 14:46:22.009 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 14:48:22.209 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 14:50:22.390 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 14:52:18.998 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 14:54:19.272 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-21 14:54:43.195 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-21 15:01:48.542 ServerApp] Kernel shutdown: 852f5b77-b60e-45e3-9e67-6f30bb071b31
+[I 2022-04-21 15:01:48.544 ServerApp] Kernel shutdown: f5fd0372-bd54-4da8-947c-08655289ddc6
+[I 2022-04-21 15:01:48.545 ServerApp] Kernel shutdown: 460a3aba-2361-47fd-8b94-981f563a14e2
+[I 2022-04-21 15:01:48.547 ServerApp] Kernel shutdown: ca192131-cf29-463e-961b-39fd8a5d1ef8
+[I 2022-04-21 15:01:51.191 ServerApp] Shutting down on /api/shutdown request.
+[I 2022-04-21 15:01:51.218 ServerApp] Shutting down 3 extensions
+[I 2022-04-21 15:01:51.219 ServerApp] Shutting down 0 kernels
+[I 2022-04-21 15:01:51.219 ServerApp] Shutting down 0 terminals
+Terminated

@@ -1,0 +1,448 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Fri Aug  5 07:07:43 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-08-05 07:08:07.944 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-08-05 07:08:07.961 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-08-05 07:08:07.968 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-08-05 07:08:12.416 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-08-05 07:08:13.077 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-08-05 07:08:13.078 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-08-05 07:08:13.078 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-08-05 07:08:13.082 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-08-05 07:08:13.216 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-08-05 07:08:13.216 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-08-05 07:08:13.216 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-08-05 07:08:13.216 ServerApp] http://r1i0n35:8877/lab
+[I 2022-08-05 07:08:13.216 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-08-05 07:08:13.216 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-08-05 07:09:20.711 LabApp] Build is up to date
+[I 2022-08-05 07:09:25.602 ServerApp] Kernel started: 98b032fe-b77a-42d9-9426-bb524665265c
+[I 2022-08-05 07:09:25.604 ServerApp] Kernel started: f78e6d4d-95fb-495f-acd3-dae49989e05e
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f9c234a2-f30a-4956-9af9-d12b1d5827d9
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ed270b02-b516-42bf-ab3d-e8873434da33
+[I 2022-08-05 07:11:24.685 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-05 07:13:25.260 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-05 07:15:25.627 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-05 07:17:25.954 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-05 07:19:26.236 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-05 07:21:26.553 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-05 07:23:26.821 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-05 07:25:27.167 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-05 07:27:27.436 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-05 07:29:27.696 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-05 07:33:27.965 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-05 07:39:21.153 ServerApp] Kernel interrupted: 98b032fe-b77a-42d9-9426-bb524665265c
+[I 2022-08-05 07:39:21.464 ServerApp] Kernel interrupted: 98b032fe-b77a-42d9-9426-bb524665265c
+[I 2022-08-05 07:39:26.413 ServerApp] Kernel interrupted: 98b032fe-b77a-42d9-9426-bb524665265c
+[I 2022-08-05 07:39:26.708 ServerApp] Kernel interrupted: 98b032fe-b77a-42d9-9426-bb524665265c
+[I 2022-08-05 07:39:26.960 ServerApp] Kernel interrupted: 98b032fe-b77a-42d9-9426-bb524665265c
+[I 2022-08-05 07:39:27.211 ServerApp] Kernel interrupted: 98b032fe-b77a-42d9-9426-bb524665265c
+[I 2022-08-05 07:39:28.171 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[W 2022-08-05 07:40:11.737 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 07:40:12.680 ServerApp] iopub messages resumed
+[W 2022-08-05 07:40:15.264 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 07:40:16.198 ServerApp] iopub messages resumed
+[W 2022-08-05 07:40:18.786 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 07:40:19.715 ServerApp] iopub messages resumed
+[W 2022-08-05 07:40:22.291 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 07:40:23.232 ServerApp] iopub messages resumed
+[W 2022-08-05 07:40:25.807 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 07:40:26.749 ServerApp] iopub messages resumed
+[E 2022-08-05 07:40:27.591 ServerApp] Uncaught exception in ZMQStream callback
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 431, in _run_callback
+        callback(*args, **kwargs)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 189, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 557, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/base/zmqhandlers.py", line 301, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 2022-08-05 07:40:27.621 ServerApp] Uncaught exception in zmqstream callback
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 452, in _handle_events
+        self._handle_recv()
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 481, in _handle_recv
+        self._run_callback(callback, msg)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 431, in _run_callback
+        callback(*args, **kwargs)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 189, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 557, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/base/zmqhandlers.py", line 301, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 2022-08-05 07:40:27.621 ServerApp] Exception in callback functools.partial(<function ZMQStream._update_handler.<locals>.<lambda> at 0x2aaab45ab700>)
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+        ret = callback()
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 536, in <lambda>
+        self.io_loop.add_callback(lambda: self._handle_events(self.socket, 0))
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 452, in _handle_events
+        self._handle_recv()
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 481, in _handle_recv
+        self._run_callback(callback, msg)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 431, in _run_callback
+        callback(*args, **kwargs)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 189, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 557, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/base/zmqhandlers.py", line 301, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[I 2022-08-05 07:40:27.622 ServerApp] Starting buffering for 98b032fe-b77a-42d9-9426-bb524665265c:81549a98-da08-41a1-b17a-1cf0d1e0af55
+[I 2022-08-05 07:40:27.623 ServerApp] Starting buffering for f78e6d4d-95fb-495f-acd3-dae49989e05e:7f3627aa-48a8-4084-a734-f33d706b14fc
+[E 2022-08-05 07:40:29.613 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-08-05 07:40:29.757 LabApp] Build is up to date
+[I 2022-08-05 07:40:30.773 ServerApp] Discarding 4494 buffered messages for 98b032fe-b77a-42d9-9426-bb524665265c:81549a98-da08-41a1-b17a-1cf0d1e0af55
+[W 2022-08-05 07:40:30.779 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x2aaab45d4550>
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: aaeacc9c-eb1d-4f1e-a0b7-8914c8468149
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d63388f4-f4f2-4e5e-a33e-80596e4a4d4d
+[W 2022-08-05 07:40:35.627 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 07:40:36.239 ServerApp] iopub messages resumed
+[W 2022-08-05 07:40:38.819 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 07:40:39.756 ServerApp] iopub messages resumed
+[W 2022-08-05 07:40:42.378 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 07:40:43.273 ServerApp] iopub messages resumed
+[W 2022-08-05 07:40:45.927 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 07:40:46.800 ServerApp] iopub messages resumed
+[W 2022-08-05 07:40:49.970 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 07:40:50.903 ServerApp] iopub messages resumed
+[W 2022-08-05 07:40:53.493 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 07:40:54.422 ServerApp] iopub messages resumed
+[W 2022-08-05 07:40:57.004 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 07:40:57.941 ServerApp] iopub messages resumed
+[W 2022-08-05 07:41:00.521 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 07:41:01.459 ServerApp] iopub messages resumed
+[W 2022-08-05 07:41:04.038 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[I 2022-08-05 07:42:47.415 ServerApp] Starting buffering for f78e6d4d-95fb-495f-acd3-dae49989e05e:b02cb4f8-6a51-4276-8e33-2db951d2e22c
+[I 2022-08-05 07:42:47.416 ServerApp] Starting buffering for 98b032fe-b77a-42d9-9426-bb524665265c:640995f8-7090-459d-9f11-6884bb0cf08a
+[E 2022-08-05 07:42:56.587 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-08-05 07:42:56.755 LabApp] Build is up to date
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 98e7435d-bff8-47a2-9b22-dbffc97270f0
+[IPKernelApp] WARNING | No such comm: 829a2dcd-b71d-4e5c-883c-2bdb05de4ce6
+[I 2022-08-05 07:44:57.277 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-05 07:46:57.585 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-05 07:48:57.793 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-05 07:52:57.968 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-05 08:08:58.154 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-05 08:10:58.384 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-05 08:11:40.417 ServerApp] Kernel interrupted: 98b032fe-b77a-42d9-9426-bb524665265c
+[I 2022-08-05 08:11:41.040 ServerApp] Kernel interrupted: 98b032fe-b77a-42d9-9426-bb524665265c
+[I 2022-08-05 08:11:42.307 ServerApp] Kernel interrupted: 98b032fe-b77a-42d9-9426-bb524665265c
+[W 2022-08-05 08:12:30.908 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 08:12:31.784 ServerApp] iopub messages resumed
+[W 2022-08-05 08:12:34.371 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 08:12:35.303 ServerApp] iopub messages resumed
+[W 2022-08-05 08:12:37.935 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 08:12:38.824 ServerApp] iopub messages resumed
+[W 2022-08-05 08:12:41.423 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 08:12:42.350 ServerApp] iopub messages resumed
+[W 2022-08-05 08:12:44.945 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 08:12:45.869 ServerApp] iopub messages resumed
+[W 2022-08-05 08:12:48.464 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 08:12:49.389 ServerApp] iopub messages resumed
+[W 2022-08-05 08:12:51.982 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-05 08:12:52.910 ServerApp] iopub messages resumed
+[W 2022-08-05 08:12:55.498 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[I 2022-08-05 08:14:42.333 ServerApp] Starting buffering for f78e6d4d-95fb-495f-acd3-dae49989e05e:0ca77dd3-18a4-4c25-b2b7-bbd3f1276f53
+[I 2022-08-05 08:14:42.334 ServerApp] Starting buffering for 98b032fe-b77a-42d9-9426-bb524665265c:25f6242f-598e-4d0e-9b8c-547457cd1e15
+[E 2022-08-05 08:14:44.320 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-08-05 08:14:44.338 LabApp] Build is up to date
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4341108f-51e8-4af9-b75f-860e689e19fa
+[IPKernelApp] WARNING | No such comm: 5061a03b-2caf-4e10-8058-11702a4295d4
+[I 2022-08-05 08:15:10.846 ServerApp] Kernel started: 1db3d514-82a6-40f7-b66a-d8e5880614f0
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 941a6aa9-df57-45f6-96f4-57dde8961d40
+[I 2022-08-05 08:20:53.299 ServerApp] Kernel started: ed7179cb-32eb-437f-b097-7d7526253485
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ce986e76-4b94-4525-bfe2-31ba55ff6132
+[W 2022-08-05 08:22:46.752 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-05 08:22:49.299 ServerApp] Kernel started: 83401acb-6f95-4af9-844e-3bfd64cc41e6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d5838b45-65c5-4fc4-9583-f5c9e023ca2f
+[I 2022-08-05 08:32:47.661 ServerApp] Saving file at /m2_2022/sandbox/diag_pdf_ind.ipynb
+[W 2022-08-05 08:32:47.662 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-05 09:35:53.639 ServerApp] Kernel started: 29d6d98a-ecfc-49b6-871c-075c6e3d3d57
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2972e2d9-2293-42ce-aa00-ef6f1ac06718
+[I 2022-08-05 10:04:19.942 ServerApp] Kernel started: 0b6987d0-eb63-4d74-af04-ae3a623b6c7e
+[I 2022-08-05 10:04:20.926 ServerApp] Starting buffering for 29d6d98a-ecfc-49b6-871c-075c6e3d3d57:e025a80f-d0ae-407d-adc3-17cb8ff71106
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 38e81531-d772-4a2b-b13c-1079f1b342c5
+[I 2022-08-05 10:04:23.236 ServerApp] Starting buffering for ed7179cb-32eb-437f-b097-7d7526253485:dd43f6bd-fc58-4039-ac84-79e8492634a8
+[I 2022-08-05 10:04:30.049 ServerApp] Kernel started: 3fbc0b0e-e3c9-496c-bf15-40677136b58c
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 66aac2cb-6f07-4b8c-a6be-56ad174afa30
+[I 2022-08-05 10:21:02.228 ServerApp] Kernel started: cf5200f4-ed9c-42bf-b9c4-42a3ac1343f8
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 40231313-86e7-4150-86ab-032655a3f5df
+[I 2022-08-05 10:23:01.723 ServerApp] Saving file at /m2_2022/sandbox/zarr_stat_lonlatphi.ipynb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a38a9f94-22c3-4376-8eb0-7e1a0ad42d26
+[I 2022-08-05 12:01:15.499 ServerApp] Kernel started: 2eecf228-2eb4-4fc4-801c-bf40a594242b
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 21f8e765-d19f-4182-87c0-ce1d4601867d
+Terminated
+[C 2022-08-05 12:09:01.916 ServerApp] received signal 15, stopping
+[I 2022-08-05 12:09:01.932 ServerApp] Shutting down 3 extensions
+[I 2022-08-05 12:09:01.932 ServerApp] Shutting down 10 kernels
+[I 2022-08-05 12:09:01.933 ServerApp] Kernel shutdown: f78e6d4d-95fb-495f-acd3-dae49989e05e
+[I 2022-08-05 12:09:01.933 ServerApp] Kernel shutdown: ed7179cb-32eb-437f-b097-7d7526253485
+[I 2022-08-05 12:09:01.933 ServerApp] Kernel shutdown: 83401acb-6f95-4af9-844e-3bfd64cc41e6
+[I 2022-08-05 12:09:01.933 ServerApp] Kernel shutdown: 3fbc0b0e-e3c9-496c-bf15-40677136b58c
+[I 2022-08-05 12:09:01.934 ServerApp] Kernel shutdown: 29d6d98a-ecfc-49b6-871c-075c6e3d3d57
+[I 2022-08-05 12:09:01.934 ServerApp] Kernel shutdown: 98b032fe-b77a-42d9-9426-bb524665265c
+[I 2022-08-05 12:09:01.934 ServerApp] Kernel shutdown: cf5200f4-ed9c-42bf-b9c4-42a3ac1343f8
+[I 2022-08-05 12:09:01.934 ServerApp] Kernel shutdown: 2eecf228-2eb4-4fc4-801c-bf40a594242b
+[I 2022-08-05 12:09:01.934 ServerApp] Kernel shutdown: 0b6987d0-eb63-4d74-af04-ae3a623b6c7e
+[I 2022-08-05 12:09:01.934 ServerApp] Kernel shutdown: 1db3d514-82a6-40f7-b66a-d8e5880614f0
+[I 2022-08-05 12:09:05.755 ServerApp] Shutting down 0 terminals

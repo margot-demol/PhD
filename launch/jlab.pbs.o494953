@@ -1,0 +1,342 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Mon May 30 07:10:23 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-05-30 07:10:47.506 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-05-30 07:10:47.529 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-05-30 07:10:47.536 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-05-30 07:10:52.472 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-05-30 07:10:53.117 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-05-30 07:10:53.118 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-05-30 07:10:53.118 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-05-30 07:10:53.123 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-05-30 07:10:53.246 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-05-30 07:10:53.246 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-05-30 07:10:53.246 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-05-30 07:10:53.246 ServerApp] http://r1i5n16:8877/lab
+[I 2022-05-30 07:10:53.246 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-05-30 07:10:53.246 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-05-30 07:12:10.588 ServerApp] 404 GET /apple-touch-icon-precomposed.png (10.148.1.145) 177.04ms referer=None
+[W 2022-05-30 07:12:11.454 ServerApp] 404 GET /apple-touch-icon.png (10.148.1.145) 1.02ms referer=None
+[I 2022-05-30 07:12:14.430 LabApp] Build is up to date
+[W 2022-05-30 07:12:17.761 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[W 2022-05-30 07:12:18.010 ServerApp] 403 PUT /lab/api/workspaces/default?1653894736972 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-05-30 07:12:18.010 LabApp] '_xsrf' argument missing from POST
+[W 2022-05-30 07:12:18.010 LabApp] 403 PUT /lab/api/workspaces/default?1653894736972 (10.148.1.145) 2.02ms referer=http://localhost:8877/lab?
+[W 2022-05-30 07:12:18.837 ServerApp] 403 POST /api/sessions?1653894738798 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-05-30 07:12:18.837 ServerApp] '_xsrf' argument missing from POST
+[W 2022-05-30 07:12:18.837 ServerApp] 403 POST /api/sessions?1653894738798 (10.148.1.145) 1.07ms referer=http://localhost:8877/lab?
+[W 2022-05-30 07:12:19.440 ServerApp] 403 PUT /lab/api/workspaces/default?1653894739427 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-05-30 07:12:19.440 LabApp] '_xsrf' argument missing from POST
+[W 2022-05-30 07:12:19.441 LabApp] 403 PUT /lab/api/workspaces/default?1653894739427 (10.148.1.145) 0.70ms referer=http://localhost:8877/lab?
+[I 2022-05-30 07:12:32.913 LabApp] Build is up to date
+[W 2022-05-30 07:12:32.955 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 07:12:34.002 ServerApp] Kernel started: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5a97b2ca-4094-404b-af52-33cbba5fb2fc
+[W 2022-05-30 07:13:14.904 ServerApp] delete /m2_2022/sandbox/dask-worker.o428022
+[W 2022-05-30 07:13:15.075 ServerApp] delete /m2_2022/sandbox/dask-worker.o428021
+[W 2022-05-30 07:13:15.098 ServerApp] delete /m2_2022/sandbox/dask-worker.o429151
+[W 2022-05-30 07:13:15.102 ServerApp] delete /m2_2022/sandbox/dask-worker.o428479
+[W 2022-05-30 07:13:15.105 ServerApp] delete /m2_2022/sandbox/dask-worker.o428480
+[W 2022-05-30 07:13:15.121 ServerApp] delete /m2_2022/sandbox/dask-worker.o428477
+[W 2022-05-30 07:13:15.125 ServerApp] delete /m2_2022/sandbox/dask-worker.o428476
+[W 2022-05-30 07:13:15.128 ServerApp] delete /m2_2022/sandbox/dask-worker.o428478
+[W 2022-05-30 07:13:15.132 ServerApp] delete /m2_2022/sandbox/dask-worker.o429152
+[W 2022-05-30 07:13:15.135 ServerApp] delete /m2_2022/sandbox/dask-worker.o429153
+[W 2022-05-30 07:13:15.189 ServerApp] delete /m2_2022/sandbox/dask-worker.o429154
+[W 2022-05-30 07:13:15.193 ServerApp] delete /m2_2022/sandbox/dask-worker.o429155
+[W 2022-05-30 07:13:15.196 ServerApp] delete /m2_2022/sandbox/dask-worker.o429179
+[W 2022-05-30 07:13:15.199 ServerApp] delete /m2_2022/sandbox/dask-worker.o429180
+[W 2022-05-30 07:13:15.202 ServerApp] delete /m2_2022/sandbox/dask-worker.o429181
+[W 2022-05-30 07:13:15.204 ServerApp] delete /m2_2022/sandbox/dask-worker.o429182
+[W 2022-05-30 07:13:15.208 ServerApp] delete /m2_2022/sandbox/dask-worker.o429183
+[W 2022-05-30 07:15:13.368 ServerApp] delete /m2_2022/sandbox/dask-worker.o439961
+[W 2022-05-30 07:15:13.595 ServerApp] delete /m2_2022/sandbox/dask-worker.o441360
+[W 2022-05-30 07:15:13.763 ServerApp] delete /m2_2022/sandbox/dask-worker.o442785
+[W 2022-05-30 07:15:13.852 ServerApp] delete /m2_2022/sandbox/dask-worker.o442786
+[W 2022-05-30 07:15:13.875 ServerApp] delete /m2_2022/sandbox/dask-worker.o441362
+[W 2022-05-30 07:15:13.905 ServerApp] delete /m2_2022/sandbox/dask-worker.o441364
+[W 2022-05-30 07:15:13.926 ServerApp] delete /m2_2022/sandbox/dask-worker.o441363
+[W 2022-05-30 07:15:13.954 ServerApp] delete /m2_2022/sandbox/dask-worker.o441361
+[W 2022-05-30 07:15:13.957 ServerApp] delete /m2_2022/sandbox/dask-worker.o442787
+[W 2022-05-30 07:15:13.962 ServerApp] delete /m2_2022/sandbox/dask-worker.o442788
+[W 2022-05-30 07:15:13.967 ServerApp] delete /m2_2022/sandbox/dask-worker.o442789
+[W 2022-05-30 07:15:13.972 ServerApp] delete /m2_2022/sandbox/dask-worker.o443457
+[W 2022-05-30 07:15:13.979 ServerApp] delete /m2_2022/sandbox/dask-worker.o443458
+[W 2022-05-30 07:15:13.984 ServerApp] delete /m2_2022/sandbox/dask-worker.o443459
+[W 2022-05-30 07:15:13.987 ServerApp] delete /m2_2022/sandbox/dask-worker.o443460
+[W 2022-05-30 07:15:13.991 ServerApp] delete /m2_2022/sandbox/dask-worker.o443461
+[W 2022-05-30 07:15:32.884 ServerApp] delete /m2_2022/sandbox/dask-worker.o439008
+[W 2022-05-30 07:15:32.888 ServerApp] delete /m2_2022/sandbox/dask-worker.o439007
+[W 2022-05-30 07:15:32.892 ServerApp] delete /m2_2022/sandbox/dask-worker.o439814
+[W 2022-05-30 07:15:32.895 ServerApp] delete /m2_2022/sandbox/dask-worker.o439815
+[W 2022-05-30 07:15:32.897 ServerApp] delete /m2_2022/sandbox/dask-worker.o439816
+[W 2022-05-30 07:15:32.900 ServerApp] delete /m2_2022/sandbox/dask-worker.o439817
+[W 2022-05-30 07:15:32.904 ServerApp] delete /m2_2022/sandbox/dask-worker.o439818
+[W 2022-05-30 07:15:32.907 ServerApp] delete /m2_2022/sandbox/dask-worker.o439842
+[W 2022-05-30 07:15:32.911 ServerApp] delete /m2_2022/sandbox/dask-worker.o439843
+[W 2022-05-30 07:15:32.914 ServerApp] delete /m2_2022/sandbox/dask-worker.o439844
+[W 2022-05-30 07:15:32.916 ServerApp] delete /m2_2022/sandbox/dask-worker.o439845
+[W 2022-05-30 07:15:32.919 ServerApp] delete /m2_2022/sandbox/dask-worker.o439846
+[W 2022-05-30 07:15:32.923 ServerApp] delete /m2_2022/sandbox/dask-worker.o439956
+[W 2022-05-30 07:15:32.926 ServerApp] delete /m2_2022/sandbox/dask-worker.o439957
+[W 2022-05-30 07:15:32.930 ServerApp] delete /m2_2022/sandbox/dask-worker.o439958
+[W 2022-05-30 07:15:32.932 ServerApp] delete /m2_2022/sandbox/dask-worker.o439959
+[W 2022-05-30 07:15:53.496 ServerApp] delete /m2_2022/sandbox/dask-worker.o429212
+[W 2022-05-30 07:15:53.500 ServerApp] delete /m2_2022/sandbox/dask-worker.o429210
+[W 2022-05-30 07:15:53.505 ServerApp] delete /m2_2022/sandbox/dask-worker.o429211
+[W 2022-05-30 07:15:53.508 ServerApp] delete /m2_2022/sandbox/dask-worker.o429214
+[W 2022-05-30 07:15:53.530 ServerApp] delete /m2_2022/sandbox/dask-worker.o429255
+[W 2022-05-30 07:15:53.532 ServerApp] delete /m2_2022/sandbox/dask-worker.o429213
+[W 2022-05-30 07:15:53.535 ServerApp] delete /m2_2022/sandbox/dask-worker.o429256
+[W 2022-05-30 07:15:53.539 ServerApp] delete /m2_2022/sandbox/dask-worker.o429257
+[W 2022-05-30 07:15:53.544 ServerApp] delete /m2_2022/sandbox/dask-worker.o429258
+[W 2022-05-30 07:15:53.546 ServerApp] delete /m2_2022/sandbox/dask-worker.o429259
+[W 2022-05-30 07:15:53.549 ServerApp] delete /m2_2022/sandbox/dask-worker.o429298
+[W 2022-05-30 07:15:53.552 ServerApp] delete /m2_2022/sandbox/dask-worker.o429299
+[W 2022-05-30 07:15:53.573 ServerApp] delete /m2_2022/sandbox/dask-worker.o429300
+[W 2022-05-30 07:15:53.576 ServerApp] delete /m2_2022/sandbox/dask-worker.o429301
+[W 2022-05-30 07:15:53.581 ServerApp] delete /m2_2022/sandbox/dask-worker.o429302
+[W 2022-05-30 07:15:53.583 ServerApp] delete /m2_2022/sandbox/dask-worker.o429668
+[W 2022-05-30 07:15:53.588 ServerApp] delete /m2_2022/sandbox/dask-worker.o429669
+[W 2022-05-30 07:16:31.494 ServerApp] delete /m2_2022/sandbox/dask-worker.o429671
+[W 2022-05-30 07:16:31.498 ServerApp] delete /m2_2022/sandbox/dask-worker.o429670
+[W 2022-05-30 07:16:31.501 ServerApp] delete /m2_2022/sandbox/dask-worker.o429672
+[W 2022-05-30 07:16:31.505 ServerApp] delete /m2_2022/sandbox/dask-worker.o429699
+[W 2022-05-30 07:16:31.510 ServerApp] delete /m2_2022/sandbox/dask-worker.o429698
+[W 2022-05-30 07:16:31.513 ServerApp] delete /m2_2022/sandbox/dask-worker.o429700
+[W 2022-05-30 07:16:31.516 ServerApp] delete /m2_2022/sandbox/dask-worker.o429701
+[W 2022-05-30 07:16:31.519 ServerApp] delete /m2_2022/sandbox/dask-worker.o429702
+[W 2022-05-30 07:16:31.522 ServerApp] delete /m2_2022/sandbox/dask-worker.o429748
+[W 2022-05-30 07:16:31.526 ServerApp] delete /m2_2022/sandbox/dask-worker.o429749
+[W 2022-05-30 07:16:31.531 ServerApp] delete /m2_2022/sandbox/dask-worker.o429750
+[W 2022-05-30 07:16:31.533 ServerApp] delete /m2_2022/sandbox/dask-worker.o429751
+[W 2022-05-30 07:16:31.536 ServerApp] delete /m2_2022/sandbox/dask-worker.o429752
+[W 2022-05-30 07:16:31.539 ServerApp] delete /m2_2022/sandbox/dask-worker.o429778
+[W 2022-05-30 07:16:31.542 ServerApp] delete /m2_2022/sandbox/dask-worker.o429779
+[W 2022-05-30 07:16:31.546 ServerApp] delete /m2_2022/sandbox/dask-worker.o429780
+[W 2022-05-30 07:16:31.551 ServerApp] delete /m2_2022/sandbox/dask-worker.o429781
+[W 2022-05-30 07:16:31.554 ServerApp] delete /m2_2022/sandbox/dask-worker.o429782
+[W 2022-05-30 07:16:31.557 ServerApp] delete /m2_2022/sandbox/dask-worker.o430465
+[W 2022-05-30 07:16:31.560 ServerApp] delete /m2_2022/sandbox/dask-worker.o430466
+[W 2022-05-30 07:16:31.562 ServerApp] delete /m2_2022/sandbox/dask-worker.o430467
+[W 2022-05-30 07:16:31.566 ServerApp] delete /m2_2022/sandbox/dask-worker.o430468
+[W 2022-05-30 07:16:31.571 ServerApp] delete /m2_2022/sandbox/dask-worker.o430469
+[W 2022-05-30 07:16:31.574 ServerApp] delete /m2_2022/sandbox/dask-worker.o430807
+[W 2022-05-30 07:16:31.576 ServerApp] delete /m2_2022/sandbox/dask-worker.o430808
+[W 2022-05-30 07:16:31.579 ServerApp] delete /m2_2022/sandbox/dask-worker.o430809
+[W 2022-05-30 07:16:31.582 ServerApp] delete /m2_2022/sandbox/dask-worker.o430810
+[W 2022-05-30 07:16:31.586 ServerApp] delete /m2_2022/sandbox/dask-worker.o430811
+[W 2022-05-30 07:16:31.591 ServerApp] delete /m2_2022/sandbox/dask-worker.o430865
+[W 2022-05-30 07:16:31.594 ServerApp] delete /m2_2022/sandbox/dask-worker.o430866
+[W 2022-05-30 07:16:31.597 ServerApp] delete /m2_2022/sandbox/dask-worker.o430867
+[W 2022-05-30 07:16:31.600 ServerApp] delete /m2_2022/sandbox/dask-worker.o430868
+[W 2022-05-30 07:16:31.603 ServerApp] delete /m2_2022/sandbox/dask-worker.o430869
+[W 2022-05-30 07:17:01.253 ServerApp] delete /m2_2022/sandbox/dask-worker.o437577
+[W 2022-05-30 07:17:02.654 ServerApp] delete /m2_2022/sandbox/dask-worker.o437578
+[W 2022-05-30 07:17:02.657 ServerApp] delete /m2_2022/sandbox/dask-worker.o437576
+[W 2022-05-30 07:17:02.663 ServerApp] delete /m2_2022/sandbox/dask-worker.o437580
+[W 2022-05-30 07:17:02.668 ServerApp] delete /m2_2022/sandbox/dask-worker.o437579
+[W 2022-05-30 07:17:02.672 ServerApp] delete /m2_2022/sandbox/dask-worker.o437617
+[W 2022-05-30 07:17:02.676 ServerApp] delete /m2_2022/sandbox/dask-worker.o437618
+[W 2022-05-30 07:17:02.680 ServerApp] delete /m2_2022/sandbox/dask-worker.o437619
+[W 2022-05-30 07:17:02.684 ServerApp] delete /m2_2022/sandbox/dask-worker.o437620
+[W 2022-05-30 07:17:02.689 ServerApp] delete /m2_2022/sandbox/dask-worker.o437621
+[W 2022-05-30 07:17:02.692 ServerApp] delete /m2_2022/sandbox/dask-worker.o437647
+[W 2022-05-30 07:17:02.695 ServerApp] delete /m2_2022/sandbox/dask-worker.o437648
+[W 2022-05-30 07:17:02.698 ServerApp] delete /m2_2022/sandbox/dask-worker.o437649
+[W 2022-05-30 07:17:02.702 ServerApp] delete /m2_2022/sandbox/dask-worker.o437650
+[W 2022-05-30 07:17:02.706 ServerApp] delete /m2_2022/sandbox/dask-worker.o437651
+[W 2022-05-30 07:17:02.711 ServerApp] delete /m2_2022/sandbox/dask-worker.o438413
+[W 2022-05-30 07:17:02.714 ServerApp] delete /m2_2022/sandbox/dask-worker.o438414
+[W 2022-05-30 07:17:02.717 ServerApp] delete /m2_2022/sandbox/dask-worker.o438415
+[W 2022-05-30 07:17:02.720 ServerApp] delete /m2_2022/sandbox/dask-worker.o438416
+[W 2022-05-30 07:17:02.723 ServerApp] delete /m2_2022/sandbox/dask-worker.o438417
+[W 2022-05-30 07:17:02.728 ServerApp] delete /m2_2022/sandbox/dask-worker.o438984
+[W 2022-05-30 07:17:02.732 ServerApp] delete /m2_2022/sandbox/dask-worker.o438985
+[W 2022-05-30 07:17:02.735 ServerApp] delete /m2_2022/sandbox/dask-worker.o438986
+[W 2022-05-30 07:17:02.740 ServerApp] delete /m2_2022/sandbox/dask-worker.o438987
+[W 2022-05-30 07:17:02.744 ServerApp] delete /m2_2022/sandbox/dask-worker.o438988
+[W 2022-05-30 07:17:02.749 ServerApp] delete /m2_2022/sandbox/dask-worker.o439004
+[W 2022-05-30 07:17:02.752 ServerApp] delete /m2_2022/sandbox/dask-worker.o439006
+[W 2022-05-30 07:17:02.756 ServerApp] delete /m2_2022/sandbox/dask-worker.o439005
+[I 2022-05-30 07:18:31.377 ServerApp] Starting buffering for fa0dca6d-f3dc-4813-9b85-4369b60d640a:3a389420-e848-4c59-8b1e-11c61271fe97
+[E 2022-05-30 07:18:38.144 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-05-30 07:18:38.219 LabApp] Build is up to date
+[W 2022-05-30 07:18:38.243 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 08935443-8340-486c-bddb-e300cce0ce25
+[I 2022-05-30 07:44:38.596 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 07:44:38.597 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 07:46:38.691 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 07:46:38.692 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 07:48:38.817 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 07:48:38.818 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 07:50:38.932 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 07:50:38.933 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 07:52:39.070 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 07:52:39.071 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 07:54:39.198 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 07:54:39.199 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:12:09.231 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:12:09.233 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:14:09.409 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:14:09.410 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:16:09.540 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:16:09.541 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:18:09.689 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:18:09.690 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:20:09.831 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:20:09.832 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:22:09.961 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:22:09.962 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:24:10.108 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:24:10.109 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:26:10.238 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:26:10.239 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:28:10.419 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:28:10.419 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:30:10.663 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:30:10.664 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:32:10.825 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:32:10.826 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:34:10.980 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:34:10.981 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:36:11.143 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:36:11.143 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:38:11.328 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:38:11.328 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:40:11.532 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:40:11.533 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:42:11.673 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:42:11.673 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:44:11.832 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:44:11.833 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:46:12.012 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:46:12.013 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:48:12.174 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:48:12.175 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:50:12.404 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:50:12.405 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:51:24.168 ServerApp] Copying m2_2022/sandbox/aviso_era5_ap.ipynb to /m2_2022/sandbox
+[W 2022-05-30 08:51:24.251 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[W 2022-05-30 08:51:24.252 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap-Copy1.ipynb is not trusted
+[W 2022-05-30 08:51:29.197 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap-Copy1.ipynb is not trusted
+[I 2022-05-30 08:51:29.907 ServerApp] Kernel started: 91d4109d-71b8-4741-892b-5ce83e36719d
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 6c012549-da40-4557-9a35-6d579985b515
+[I 2022-05-30 08:52:12.634 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:52:12.635 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:54:12.827 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:54:12.827 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:56:12.970 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:56:12.971 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 08:57:36.540 ServerApp] Kernel interrupted: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[I 2022-05-30 08:57:37.060 ServerApp] Kernel interrupted: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[I 2022-05-30 08:58:13.143 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 08:58:13.144 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 09:00:13.345 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 09:00:13.345 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 09:02:13.553 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 09:02:13.554 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 09:06:13.735 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 09:06:13.736 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 09:14:13.909 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 09:14:13.910 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 09:18:14.045 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 09:18:14.046 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 09:20:14.160 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 09:20:14.160 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 09:21:48.662 ServerApp] Kernel interrupted: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[I 2022-05-30 09:21:49.179 ServerApp] Kernel interrupted: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[I 2022-05-30 09:22:14.334 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 09:22:14.335 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 09:24:14.521 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 09:24:14.522 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 09:26:14.711 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 09:26:14.712 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 09:28:14.887 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 09:28:14.888 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 09:29:31.711 ServerApp] Kernel restarted: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[I 2022-05-30 09:29:31.716 ServerApp] Starting buffering for fa0dca6d-f3dc-4813-9b85-4369b60d640a:3cf1bea5-0212-416c-927d-a03bdc33d434
+[I 2022-05-30 09:29:31.722 ServerApp] Restoring connection for fa0dca6d-f3dc-4813-9b85-4369b60d640a:3cf1bea5-0212-416c-927d-a03bdc33d434
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b67f1108-0322-442c-9484-9277f038fca5
+[I 2022-05-30 09:30:15.121 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 09:30:15.122 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 09:31:10.759 ServerApp] Kernel restarted: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[I 2022-05-30 09:31:10.766 ServerApp] Starting buffering for fa0dca6d-f3dc-4813-9b85-4369b60d640a:3cf1bea5-0212-416c-927d-a03bdc33d434
+[I 2022-05-30 09:31:10.774 ServerApp] Restoring connection for fa0dca6d-f3dc-4813-9b85-4369b60d640a:3cf1bea5-0212-416c-927d-a03bdc33d434
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ae000ae6-1b99-44e6-b5e0-7d7801173d68
+[I 2022-05-30 09:32:15.339 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 09:32:15.340 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 09:34:15.656 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 09:34:15.657 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 09:36:15.780 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 09:36:15.781 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 09:49:31.363 ServerApp] Kernel interrupted: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[W 2022-05-30 09:50:03.881 ServerApp] delete /m2_2022/sandbox/dask-worker.o495161
+[W 2022-05-30 09:50:03.885 ServerApp] delete /m2_2022/sandbox/dask-worker.o495162
+[W 2022-05-30 09:50:03.888 ServerApp] delete /m2_2022/sandbox/dask-worker.o495163
+[W 2022-05-30 09:50:03.891 ServerApp] delete /m2_2022/sandbox/dask-worker.o495820
+[W 2022-05-30 09:50:03.894 ServerApp] delete /m2_2022/sandbox/dask-worker.o495821
+[W 2022-05-30 09:50:03.897 ServerApp] delete /m2_2022/sandbox/dask-worker.o495164
+[W 2022-05-30 09:50:03.901 ServerApp] delete /m2_2022/sandbox/dask-worker.o495822
+[W 2022-05-30 09:50:03.904 ServerApp] delete /m2_2022/sandbox/dask-worker.o495165
+[W 2022-05-30 09:50:03.906 ServerApp] delete /m2_2022/sandbox/dask-worker.o495819
+[W 2022-05-30 09:50:03.909 ServerApp] delete /m2_2022/sandbox/dask-worker.o495823
+[W 2022-05-30 09:50:03.912 ServerApp] delete /m2_2022/sandbox/dask-worker.o495851
+[W 2022-05-30 09:50:03.915 ServerApp] delete /m2_2022/sandbox/dask-worker.o495852
+[W 2022-05-30 09:50:03.919 ServerApp] delete /m2_2022/sandbox/dask-worker.o495853
+[W 2022-05-30 09:50:03.922 ServerApp] delete /m2_2022/sandbox/dask-worker.o495854
+[W 2022-05-30 09:50:03.924 ServerApp] delete /m2_2022/sandbox/dask-worker.o495855
+[I 2022-05-30 09:50:15.944 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 09:50:15.945 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 09:52:16.138 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 09:52:16.138 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 09:54:16.257 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 09:54:16.258 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[I 2022-05-30 09:54:22.210 ServerApp] Kernel restarted: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[I 2022-05-30 09:54:22.214 ServerApp] Starting buffering for fa0dca6d-f3dc-4813-9b85-4369b60d640a:3cf1bea5-0212-416c-927d-a03bdc33d434
+[I 2022-05-30 09:54:22.221 ServerApp] Restoring connection for fa0dca6d-f3dc-4813-9b85-4369b60d640a:3cf1bea5-0212-416c-927d-a03bdc33d434
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e9898e21-6b84-4837-9291-7f045ff9d54e
+[I 2022-05-30 09:54:32.343 ServerApp] Kernel restarted: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[I 2022-05-30 09:54:32.348 ServerApp] Starting buffering for fa0dca6d-f3dc-4813-9b85-4369b60d640a:3cf1bea5-0212-416c-927d-a03bdc33d434
+[I 2022-05-30 09:54:32.358 ServerApp] Restoring connection for fa0dca6d-f3dc-4813-9b85-4369b60d640a:3cf1bea5-0212-416c-927d-a03bdc33d434
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: cfa1edd7-4a29-4c20-8b42-e1e6f99da818
+[I 2022-05-30 09:56:16.422 ServerApp] Saving file at /m2_2022/sandbox/aviso_era5_ap.ipynb
+[W 2022-05-30 09:56:16.423 ServerApp] Notebook m2_2022/sandbox/aviso_era5_ap.ipynb is not trusted
+[W 2022-05-30 09:59:01.084 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-05-30 09:59:01.085 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-05-30 09:59:02.358 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-05-30 09:59:06.086 ServerApp] Starting buffering for 91d4109d-71b8-4741-892b-5ce83e36719d:f454e7e1-9fb1-4cbd-9153-93489b403844
+[I 2022-05-30 09:59:07.362 ServerApp] Starting buffering for fa0dca6d-f3dc-4813-9b85-4369b60d640a:3cf1bea5-0212-416c-927d-a03bdc33d434
+[C 2022-05-30 11:13:35.320 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-05-30 11:13:35.371 ServerApp] Shutting down 3 extensions
+[I 2022-05-30 11:13:35.372 ServerApp] Shutting down 2 kernels
+[I 2022-05-30 11:13:35.372 ServerApp] Kernel shutdown: 91d4109d-71b8-4741-892b-5ce83e36719d
+[I 2022-05-30 11:13:35.372 ServerApp] Kernel shutdown: fa0dca6d-f3dc-4813-9b85-4369b60d640a
+[I 2022-05-30 11:13:36.688 ServerApp] Shutting down 0 terminals

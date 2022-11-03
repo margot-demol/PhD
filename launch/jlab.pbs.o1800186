@@ -1,0 +1,91 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Wed Sep  7 12:27:05 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-09-07 12:27:07.128 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-09-07 12:27:07.131 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-09-07 12:27:07.138 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-09-07 12:27:07.438 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-09-07 12:27:07.491 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-09-07 12:27:07.492 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-09-07 12:27:07.492 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-09-07 12:27:07.496 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-09-07 12:27:07.502 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-09-07 12:27:07.502 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-09-07 12:27:07.502 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-09-07 12:27:07.502 ServerApp] http://r1i2n15:8877/lab
+[I 2022-09-07 12:27:07.503 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-09-07 12:27:07.503 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 2022-09-07 12:28:04.816 LabApp] Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+    {"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+    {"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+    
+[I 2022-09-07 12:28:04.827 LabApp] Build is up to date
+[I 2022-09-07 12:28:06.800 ServerApp] Kernel started: 8c057be5-db22-4ff3-a3a6-44330ac29bef
+[I 2022-09-07 12:28:06.809 ServerApp] Kernel started: 0fb215b1-0f6e-4e7a-8cb4-c6e807d97e46
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2a953d50-f061-4566-b43d-86c177f9df64
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f29994f2-bce8-4aee-b0c6-72c09efb79d2
+[W 2022-09-07 12:28:09.896 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x2aaab4dc8430>
+[I 2022-09-07 12:30:06.033 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-07 12:40:06.473 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-07 12:50:06.762 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-07 12:54:07.173 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-07 12:55:37.990 ServerApp] Saving file at /m2_2022/m2lib22/erastar.py
+[I 2022-09-07 12:58:07.506 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-07 12:59:38.007 ServerApp] Saving file at /m2_2022/m2lib22/erastar.py
+[I 2022-09-07 13:00:07.833 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-07 13:02:08.204 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-07 13:02:12.936 ServerApp] Kernel started: c70128ef-d2fb-4f48-9ca1-2e7217553b1f
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 778e0737-56aa-4a86-96d9-aef92aaa5706
+[I 2022-09-07 13:04:08.511 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[W 2022-09-07 13:10:09.793 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-09-07 13:10:09.831 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-09-07 13:10:09.833 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-09-07 13:10:13.982 ServerApp] WebSocket ping timeout after 119997 ms.
+[I 2022-09-07 13:10:14.795 ServerApp] Starting buffering for 8c057be5-db22-4ff3-a3a6-44330ac29bef:39139141-eb74-481b-bbbe-d5173928aa2e
+[I 2022-09-07 13:10:14.834 ServerApp] Starting buffering for 0fb215b1-0f6e-4e7a-8cb4-c6e807d97e46:6d15186e-1140-4d1c-91a2-16f5bb136aa2
+[I 2022-09-07 13:10:18.983 ServerApp] Starting buffering for c70128ef-d2fb-4f48-9ca1-2e7217553b1f:b9fcec9e-7f30-42e6-be9b-4a865a2daba1
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 050e079d-609f-4014-8668-72f1e9a2af55
+[I 2022-09-07 13:14:24.687 ServerApp] Restoring connection for c70128ef-d2fb-4f48-9ca1-2e7217553b1f:b9fcec9e-7f30-42e6-be9b-4a865a2daba1
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5a8c0e50-76e2-47c5-b1c7-35430f62b596
+[I 2022-09-07 13:14:25.641 ServerApp] Restoring connection for 8c057be5-db22-4ff3-a3a6-44330ac29bef:39139141-eb74-481b-bbbe-d5173928aa2e
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 15e6eb57-87d9-4b9f-ad9d-fced5278e383
+[W 2022-09-07 13:15:32.381 ServerApp] delete /m2_2022/images/labels0_iobs509
+[I 2022-09-07 13:16:08.888 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-07 13:19:58.137 ServerApp] Kernel interrupted: 8c057be5-db22-4ff3-a3a6-44330ac29bef
+[I 2022-09-07 13:19:58.751 ServerApp] Kernel interrupted: 8c057be5-db22-4ff3-a3a6-44330ac29bef
+[I 2022-09-07 13:20:00.089 ServerApp] Kernel interrupted: 8c057be5-db22-4ff3-a3a6-44330ac29bef
+[I 2022-09-07 13:20:09.228 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-07 13:22:09.979 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-07 13:24:10.284 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-07 13:26:10.567 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[W 2022-09-07 13:26:57.248 ServerApp] delete /m2_2022/images/labels0_iobs509
+[I 2022-09-07 13:28:11.999 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-07 13:32:12.765 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-07 13:38:13.259 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-07 13:39:45.405 ServerApp] Starting buffering for c70128ef-d2fb-4f48-9ca1-2e7217553b1f:b9fcec9e-7f30-42e6-be9b-4a865a2daba1
+[I 2022-09-07 13:40:13.596 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[C 2022-09-07 13:53:48.354 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-09-07 13:53:48.368 ServerApp] Shutting down 3 extensions
+[I 2022-09-07 13:53:48.368 ServerApp] Shutting down 3 kernels
+[I 2022-09-07 13:53:48.368 ServerApp] Kernel shutdown: 8c057be5-db22-4ff3-a3a6-44330ac29bef
+[I 2022-09-07 13:53:48.369 ServerApp] Kernel shutdown: c70128ef-d2fb-4f48-9ca1-2e7217553b1f
+[I 2022-09-07 13:53:48.369 ServerApp] Kernel shutdown: 0fb215b1-0f6e-4e7a-8cb4-c6e807d97e46
+[I 2022-09-07 13:53:51.184 ServerApp] Shutting down 0 terminals

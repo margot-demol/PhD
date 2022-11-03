@@ -1,0 +1,166 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Wed Jun 29 06:59:51 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-06-29 07:00:18.982 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-06-29 07:00:18.992 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-06-29 07:00:18.999 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-06-29 07:00:24.274 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-06-29 07:00:25.023 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-06-29 07:00:25.024 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-06-29 07:00:25.025 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-06-29 07:00:25.029 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-06-29 07:00:25.132 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-06-29 07:00:25.132 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-06-29 07:00:25.132 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-06-29 07:00:25.132 ServerApp] http://r1i0n9:8877/lab
+[I 2022-06-29 07:00:25.133 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-06-29 07:00:25.133 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-06-29 07:02:33.017 LabApp] Build is up to date
+[I 2022-06-29 07:02:38.849 ServerApp] Kernel started: c310b7fd-7bcb-414a-9b80-9ec567d6f9fc
+[I 2022-06-29 07:02:38.850 ServerApp] Kernel started: 4d622f5d-97c3-4123-a9fb-d7467b2d6f1f
+[I 2022-06-29 07:02:38.851 ServerApp] Kernel started: 98e48821-4915-4f6f-b618-a3ca8691bbe1
+[I 2022-06-29 07:02:39.503 ServerApp] Kernel started: 25bfe074-7a7d-4251-b8e2-3c00f4a22e6b
+[I 2022-06-29 07:02:39.505 ServerApp] Kernel started: 108c7a7b-f894-4a97-ae98-554c4de0010b
+[I 2022-06-29 07:02:39.629 ServerApp] Kernel started: dd852f03-bcb8-458a-a18c-c244ef45d1de
+readline: readline: readline: readline: readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 0c126482-ee15-45d6-9264-4bee58fe7666
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: bf3781e2-3266-49c9-a440-99b3cdf20fb1
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 38ffd9f2-d1d4-4a65-8434-4fc851097557
+[IPKernelApp] WARNING | No such comm: 9c8b32d3-cbab-47cd-aaf3-971f18612fb9
+[IPKernelApp] WARNING | No such comm: 84835a4d-830f-46fc-b5e3-9d53013d0451
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 25bc8721-b782-4aa6-8a01-92ae2d0d655a
+[I 2022-06-29 07:04:37.463 ServerApp] Saving file at /m2_2022/sandbox/diag_std_ind.ipynb
+[I 2022-06-29 07:08:37.758 ServerApp] Saving file at /m2_2022/sandbox/diag_std_ind.ipynb
+[I 2022-06-29 07:10:38.055 ServerApp] Saving file at /m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:12:38.979 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656486758919 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:12:38.980 ServerApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:12:38.980 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656486758919 (10.148.1.145) 6.49ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:14:38.978 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656486878914 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:14:38.978 ServerApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:14:38.978 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656486878914 (10.148.1.145) 9.44ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:14:42.705 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656486882642 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:14:42.705 ServerApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:14:42.706 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656486882642 (10.148.1.145) 7.69ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:15:10.528 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656486910467 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:15:10.529 ServerApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:15:10.529 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656486910467 (10.148.1.145) 5.67ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:15:47.451 ServerApp] 403 PUT /lab/api/workspaces/default?1656486947397 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:15:47.451 LabApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:15:47.452 LabApp] 403 PUT /lab/api/workspaces/default?1656486947397 (10.148.1.145) 0.81ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:15:50.921 ServerApp] 403 PUT /lab/api/workspaces/default?1656486950866 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:15:50.922 LabApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:15:50.922 LabApp] 403 PUT /lab/api/workspaces/default?1656486950866 (10.148.1.145) 1.21ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:15:53.880 ServerApp] 403 POST /api/sessions?1656486953827 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:15:53.880 ServerApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:15:53.880 ServerApp] 403 POST /api/sessions?1656486953827 (10.148.1.145) 0.71ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/animation.ipynb
+[W 2022-06-29 07:15:53.960 ServerApp] 403 PUT /lab/api/workspaces/default?1656486953907 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:15:53.960 LabApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:15:53.961 LabApp] 403 PUT /lab/api/workspaces/default?1656486953907 (10.148.1.145) 0.70ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/animation.ipynb
+[W 2022-06-29 07:16:01.872 ServerApp] 403 POST /api/sessions?1656486961819 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:16:01.873 ServerApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:16:01.873 ServerApp] 403 POST /api/sessions?1656486961819 (10.148.1.145) 0.96ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/animation.ipynb
+[W 2022-06-29 07:16:06.016 ServerApp] 403 PUT /lab/api/workspaces/default?1656486965963 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:16:06.016 LabApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:16:06.016 LabApp] 403 PUT /lab/api/workspaces/default?1656486965963 (10.148.1.145) 0.74ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:16:07.248 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656486967184 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:16:07.248 ServerApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:16:07.248 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656486967184 (10.148.1.145) 8.27ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:16:38.971 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656486998910 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:16:38.972 ServerApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:16:38.972 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656486998910 (10.148.1.145) 5.92ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:18:12.653 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656487092589 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:18:12.653 ServerApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:18:12.653 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656487092589 (10.148.1.145) 6.20ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:18:41.457 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656487121394 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:18:41.458 ServerApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:18:41.458 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656487121394 (10.148.1.145) 5.53ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:19:52.010 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656487191942 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:19:52.011 ServerApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:19:52.011 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656487191942 (10.148.1.145) 10.30ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[I 2022-06-29 07:20:04.593 ServerApp] Starting buffering for 98e48821-4915-4f6f-b618-a3ca8691bbe1:61328f66-81f0-436b-acc2-3cdb3d0c1a89
+[W 2022-06-29 07:20:05.223 ServerApp] 403 PUT /lab/api/workspaces/default?1656487205166 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:05.223 LabApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:05.224 LabApp] 403 PUT /lab/api/workspaces/default?1656487205166 (10.148.1.145) 0.74ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[I 2022-06-29 07:20:05.749 ServerApp] Starting buffering for 25bfe074-7a7d-4251-b8e2-3c00f4a22e6b:61f9b7d9-d68f-40f5-a7ac-7f51941e260b
+[W 2022-06-29 07:20:06.382 ServerApp] 403 PUT /lab/api/workspaces/default?1656487206324 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:06.382 LabApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:06.382 LabApp] 403 PUT /lab/api/workspaces/default?1656487206324 (10.148.1.145) 0.70ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:20:07.519 ServerApp] 403 PUT /lab/api/workspaces/default?1656487207462 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:07.519 LabApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:07.519 LabApp] 403 PUT /lab/api/workspaces/default?1656487207462 (10.148.1.145) 0.71ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:20:08.777 ServerApp] 403 PUT /lab/api/workspaces/default?1656487208719 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:08.777 LabApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:08.778 LabApp] 403 PUT /lab/api/workspaces/default?1656487208719 (10.148.1.145) 0.70ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:20:09.847 ServerApp] 403 PUT /lab/api/workspaces/default?1656487209790 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:09.847 LabApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:09.847 LabApp] 403 PUT /lab/api/workspaces/default?1656487209790 (10.148.1.145) 0.74ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[I 2022-06-29 07:20:10.577 ServerApp] Starting buffering for dd852f03-bcb8-458a-a18c-c244ef45d1de:97abdcef-5a8c-4b88-98ae-bff6d3d42a62
+[W 2022-06-29 07:20:11.198 ServerApp] 403 PUT /lab/api/workspaces/default?1656487211140 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:11.198 LabApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:11.199 LabApp] 403 PUT /lab/api/workspaces/default?1656487211140 (10.148.1.145) 0.72ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:20:12.390 ServerApp] 403 PUT /lab/api/workspaces/default?1656487212333 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:12.390 LabApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:12.391 LabApp] 403 PUT /lab/api/workspaces/default?1656487212333 (10.148.1.145) 0.70ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[I 2022-06-29 07:20:14.762 ServerApp] Starting buffering for c310b7fd-7bcb-414a-9b80-9ec567d6f9fc:4d67f73c-9f4a-4c17-8b7b-fd6a89323be8
+[W 2022-06-29 07:20:15.384 ServerApp] 403 PUT /lab/api/workspaces/default?1656487215327 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:15.384 LabApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:15.385 LabApp] 403 PUT /lab/api/workspaces/default?1656487215327 (10.148.1.145) 0.72ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:20:16.791 ServerApp] 403 PUT /lab/api/workspaces/default?1656487216731 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:16.791 LabApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:16.791 LabApp] 403 PUT /lab/api/workspaces/default?1656487216731 (10.148.1.145) 1.50ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:20:19.153 ServerApp] 403 PUT /lab/api/workspaces/default?1656487219097 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:19.153 LabApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:19.154 LabApp] 403 PUT /lab/api/workspaces/default?1656487219097 (10.148.1.145) 0.71ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_closure.ipynb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 30daa1e4-9013-44a0-85da-08ee422cea08
+[W 2022-06-29 07:20:19.702 ServerApp] 403 PUT /lab/api/workspaces/default?1656487219645 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:19.702 LabApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:19.703 LabApp] 403 PUT /lab/api/workspaces/default?1656487219645 (10.148.1.145) 0.71ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_closure.ipynb
+[W 2022-06-29 07:20:22.918 ServerApp] 403 PUT /lab/api/workspaces/default?1656487222858 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:22.918 LabApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:22.918 LabApp] 403 PUT /lab/api/workspaces/default?1656487222858 (10.148.1.145) 0.72ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:20:24.912 ServerApp] 403 PUT /lab/api/workspaces/default?1656487224855 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:24.912 LabApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:24.912 LabApp] 403 PUT /lab/api/workspaces/default?1656487224855 (10.148.1.145) 0.71ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_closure.ipynb
+[W 2022-06-29 07:20:41.458 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656487241390 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:41.458 ServerApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:20:41.458 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656487241390 (10.148.1.145) 7.99ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_closure.ipynb
+[W 2022-06-29 07:21:19.960 ServerApp] 403 PUT /lab/api/workspaces/default?1656487279941 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:21:19.960 LabApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:21:19.961 LabApp] 403 PUT /lab/api/workspaces/default?1656487279941 (10.148.1.145) 1.25ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:21:21.216 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656487281187 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:21:21.216 ServerApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:21:21.216 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656487281187 (10.148.1.145) 7.83ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-06-29 07:21:48.482 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656487308457 (10.148.1.145): '_xsrf' argument missing from POST
+[W 2022-06-29 07:21:48.483 ServerApp] '_xsrf' argument missing from POST
+[W 2022-06-29 07:21:48.483 ServerApp] 403 PUT /api/contents/m2_2022/sandbox/diag_std_ind.ipynb?1656487308457 (10.148.1.145) 8.76ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/diag_std_ind.ipynb
+Terminated
+[C 2022-06-29 07:22:02.069 ServerApp] received signal 15, stopping
+[I 2022-06-29 07:22:02.142 ServerApp] Shutting down 3 extensions
+[I 2022-06-29 07:22:02.142 ServerApp] Shutting down 6 kernels
+[I 2022-06-29 07:22:02.143 ServerApp] Kernel shutdown: 98e48821-4915-4f6f-b618-a3ca8691bbe1
+[I 2022-06-29 07:22:02.143 ServerApp] Kernel shutdown: 108c7a7b-f894-4a97-ae98-554c4de0010b
+[I 2022-06-29 07:22:02.143 ServerApp] Kernel shutdown: c310b7fd-7bcb-414a-9b80-9ec567d6f9fc
+[I 2022-06-29 07:22:02.144 ServerApp] Kernel shutdown: dd852f03-bcb8-458a-a18c-c244ef45d1de
+[I 2022-06-29 07:22:02.144 ServerApp] Kernel shutdown: 4d622f5d-97c3-4123-a9fb-d7467b2d6f1f
+[I 2022-06-29 07:22:02.144 ServerApp] Kernel shutdown: 25bfe074-7a7d-4251-b8e2-3c00f4a22e6b
+[I 2022-06-29 07:22:04.762 ServerApp] Shutting down 0 terminals

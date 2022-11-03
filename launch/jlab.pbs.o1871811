@@ -1,0 +1,82 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Mon Sep 12 14:32:08 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-09-12 14:32:31.345 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-09-12 14:32:31.361 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-09-12 14:32:31.369 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-09-12 14:32:36.428 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-09-12 14:32:37.055 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-09-12 14:32:37.056 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-09-12 14:32:37.056 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-09-12 14:32:37.060 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-09-12 14:32:37.196 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-09-12 14:32:37.197 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-09-12 14:32:37.197 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-09-12 14:32:37.197 ServerApp] http://r1i2n17:8877/lab
+[I 2022-09-12 14:32:37.197 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-09-12 14:32:37.197 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-09-12 14:37:01.842 ServerApp] 404 GET /apple-touch-icon-precomposed.png (10.148.1.145) 143.93ms referer=None
+[W 2022-09-12 14:37:02.646 ServerApp] 404 GET /apple-touch-icon.png (10.148.1.145) 1.04ms referer=None
+[I 2022-09-12 14:37:11.952 LabApp] Build is up to date
+[W 2022-09-12 14:37:21.651 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-09-12 14:38:24.952 ServerApp] Kernel started: d2a7f828-f581-48a8-a825-5948d621ebc3
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-09-12 14:38:54.049 ServerApp] Kernel started: 9ab271ad-4627-4f1e-a9f2-e66f1b89fa92
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d4b792d3-a2b2-40af-bbfc-60eb36808336
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: baba650e-cbb2-4778-a505-14091406bcdb
+[I 2022-09-12 14:40:02.214 ServerApp] Kernel started: eb35256f-95ba-45a2-b4f3-3955d6ea52e5
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-09-12 14:40:07.542 ServerApp] Kernel started: 23cc6f98-cb85-4270-a7f1-2f1bf16ecd93
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e1d78ddd-be01-4044-897b-bbcfb84a0c11
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 935d194b-1c29-4d83-9fff-b806f4069384
+[W 2022-09-12 14:44:59.886 ServerApp] WebSocket ping timeout after 116288 ms.
+[I 2022-09-12 14:45:04.888 ServerApp] Starting buffering for d2a7f828-f581-48a8-a825-5948d621ebc3:00be1749-513a-41b7-a444-b9e0a61efa37
+[W 2022-09-12 14:45:09.205 ServerApp] WebSocket ping timeout after 109563 ms.
+[W 2022-09-12 14:45:12.914 ServerApp] WebSocket ping timeout after 113271 ms.
+[I 2022-09-12 14:45:14.206 ServerApp] Starting buffering for eb35256f-95ba-45a2-b4f3-3955d6ea52e5:96e73771-541e-4edb-b331-fa59ec5da8ad
+[I 2022-09-12 14:45:17.916 ServerApp] Starting buffering for 23cc6f98-cb85-4270-a7f1-2f1bf16ecd93:e8bc3f4e-4ffc-41cc-bab0-04fb8d22efe6
+[W 2022-09-12 14:45:23.579 ServerApp] WebSocket ping timeout after 119426 ms.
+[I 2022-09-12 14:45:28.579 ServerApp] Starting buffering for 9ab271ad-4627-4f1e-a9f2-e66f1b89fa92:e41195fd-c04e-4e4f-8cd7-1e79d7379ef6
+[I 2022-09-12 14:46:05.822 ServerApp] Restoring connection for eb35256f-95ba-45a2-b4f3-3955d6ea52e5:96e73771-541e-4edb-b331-fa59ec5da8ad
+[I 2022-09-12 14:46:05.896 ServerApp] Restoring connection for d2a7f828-f581-48a8-a825-5948d621ebc3:00be1749-513a-41b7-a444-b9e0a61efa37
+[I 2022-09-12 14:46:05.897 ServerApp] Restoring connection for 23cc6f98-cb85-4270-a7f1-2f1bf16ecd93:e8bc3f4e-4ffc-41cc-bab0-04fb8d22efe6
+[I 2022-09-12 14:46:05.897 ServerApp] Restoring connection for 9ab271ad-4627-4f1e-a9f2-e66f1b89fa92:e41195fd-c04e-4e4f-8cd7-1e79d7379ef6
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5ee2543a-b3bd-4ca1-96b9-6ffd88941a1b
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: be3ab487-e7a2-4007-af66-bb6e200a54c1
+[IPKernelApp] WARNING | No such comm: 8052e82e-56dc-4b77-96cd-2dc2d634f50a
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 06982fd4-5134-40e7-9cc9-33b037866945
+[W 2022-09-12 14:51:05.822 ServerApp] WebSocket ping timeout after 117728 ms.
+[W 2022-09-12 14:51:05.896 ServerApp] WebSocket ping timeout after 117801 ms.
+[W 2022-09-12 14:51:05.897 ServerApp] WebSocket ping timeout after 117803 ms.
+[W 2022-09-12 14:51:05.898 ServerApp] WebSocket ping timeout after 117803 ms.
+[I 2022-09-12 14:51:10.824 ServerApp] Starting buffering for eb35256f-95ba-45a2-b4f3-3955d6ea52e5:96e73771-541e-4edb-b331-fa59ec5da8ad
+[I 2022-09-12 14:51:10.897 ServerApp] Starting buffering for d2a7f828-f581-48a8-a825-5948d621ebc3:00be1749-513a-41b7-a444-b9e0a61efa37
+[I 2022-09-12 14:51:10.899 ServerApp] Starting buffering for 23cc6f98-cb85-4270-a7f1-2f1bf16ecd93:e8bc3f4e-4ffc-41cc-bab0-04fb8d22efe6
+[I 2022-09-12 14:51:10.899 ServerApp] Starting buffering for 9ab271ad-4627-4f1e-a9f2-e66f1b89fa92:e41195fd-c04e-4e4f-8cd7-1e79d7379ef6
+Terminated
+[C 2022-09-12 15:59:28.732 ServerApp] received signal 15, stopping
+[I 2022-09-12 15:59:28.734 ServerApp] Shutting down 3 extensions
+[I 2022-09-12 15:59:28.734 ServerApp] Shutting down 4 kernels
+[I 2022-09-12 15:59:28.735 ServerApp] Kernel shutdown: 9ab271ad-4627-4f1e-a9f2-e66f1b89fa92
+[I 2022-09-12 15:59:28.735 ServerApp] Kernel shutdown: d2a7f828-f581-48a8-a825-5948d621ebc3
+[I 2022-09-12 15:59:28.735 ServerApp] Kernel shutdown: 23cc6f98-cb85-4270-a7f1-2f1bf16ecd93
+[I 2022-09-12 15:59:28.735 ServerApp] Kernel shutdown: eb35256f-95ba-45a2-b4f3-3955d6ea52e5
+[I 2022-09-12 15:59:31.351 ServerApp] Shutting down 0 terminals

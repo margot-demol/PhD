@@ -1,0 +1,165 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Tue Aug 23 07:39:29 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-08-23 07:39:53.646 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-08-23 07:39:53.659 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-08-23 07:39:53.666 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-08-23 07:40:01.814 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-08-23 07:40:02.533 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-08-23 07:40:02.534 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-08-23 07:40:02.534 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-08-23 07:40:02.538 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-08-23 07:40:02.650 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-08-23 07:40:02.650 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-08-23 07:40:02.650 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-08-23 07:40:02.650 ServerApp] http://r1i2n34:8877/lab
+[I 2022-08-23 07:40:02.651 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-08-23 07:40:02.651 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-08-23 07:41:16.297 LabApp] Build is up to date
+[W 2022-08-23 07:41:19.035 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-23 07:41:22.402 ServerApp] Kernel started: 6a50293c-668f-4f0c-a8ac-9f07b56bb6f9
+[I 2022-08-23 07:41:22.908 ServerApp] Kernel started: faac24f7-0245-496c-9ceb-4888186a102f
+[I 2022-08-23 07:41:27.511 ServerApp] Kernel started: 8d39f744-041c-4190-b4b8-bff04f9f3e5e
+[I 2022-08-23 07:41:27.521 ServerApp] Kernel started: 5a04fc2a-ca7f-4d9e-9200-e35fe97b5967
+[I 2022-08-23 07:41:29.069 ServerApp] Kernel started: d9a2d258-2757-4112-a3b8-126f24be8cb2
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-08-23 07:41:36.183 ServerApp] Starting buffering for 6a50293c-668f-4f0c-a8ac-9f07b56bb6f9:34efeadf-763f-464f-885e-63ba79558748
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 7787d9d8-c841-4d1a-bb92-592d45e8c8f0
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a05d1d78-6e15-4a84-898e-2f10c9d36dd1
+[IPKernelApp] WARNING | No such comm: b165d199-efca-4348-898c-eb5b3696212a
+[I 2022-08-23 07:42:20.709 ServerApp] Kernel started: c327a6cd-fb01-4055-868c-a9d74f5b1526
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f0f58b7d-c5e0-4704-a2c1-f7f5a4c2c352
+[I 2022-08-23 07:44:19.100 ServerApp] Kernel restarted: c327a6cd-fb01-4055-868c-a9d74f5b1526
+[I 2022-08-23 07:44:19.160 ServerApp] Starting buffering for c327a6cd-fb01-4055-868c-a9d74f5b1526:c1c8ee2f-f878-4346-a207-06fa8eced032
+[I 2022-08-23 07:44:19.284 ServerApp] Restoring connection for c327a6cd-fb01-4055-868c-a9d74f5b1526:c1c8ee2f-f878-4346-a207-06fa8eced032
+[I 2022-08-23 07:44:20.009 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 13f34427-d903-4b20-bde8-6cef542be943
+[I 2022-08-23 07:46:25.175 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 07:48:26.341 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 07:50:27.266 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 07:51:27.309 ServerApp] Kernel started: a947bf50-c8d7-4355-bce1-7d7962ece692
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 88e81412-dad3-4591-add1-072c0aede06a
+[I 2022-08-23 07:52:28.580 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 07:56:30.002 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 07:57:27.787 ServerApp] Kernel started: 38de85a0-9b66-4c7b-bdb7-c73459781d22
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 887236ad-6457-4a69-aa4c-d5d838fe67c9
+[I 2022-08-23 08:02:33.279 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:04:34.400 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:06:36.029 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:08:37.497 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:10:29.547 ServerApp] Starting buffering for 8d39f744-041c-4190-b4b8-bff04f9f3e5e:b6c1168f-e593-4fc4-8b4a-44b7eca6bd10
+[I 2022-08-23 08:10:31.860 ServerApp] Starting buffering for 38de85a0-9b66-4c7b-bdb7-c73459781d22:aa6f3518-db4b-4cba-82e8-c4ad91810f70
+[I 2022-08-23 08:10:39.653 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:12:41.101 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:14:43.321 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:16:44.579 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:18:45.919 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:20:47.451 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:22:48.744 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:24:51.454 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:26:52.442 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:28:53.338 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:30:54.436 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:32:55.599 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:34:56.805 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:36:57.914 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:38:58.927 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:41:00.129 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:43:01.397 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:45:02.524 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:47:03.733 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:49:05.044 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:51:06.084 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 08:53:07.421 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:05:11.421 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:07:12.542 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:09:13.697 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:11:14.899 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:15:16.725 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:17:18.027 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:19:19.656 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:21:21.923 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:23:23.643 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:25:24.753 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:27:25.865 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:29:26.746 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:31:27.984 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:33:29.069 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:35:30.143 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:37:31.195 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:39:32.441 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:41:33.390 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:43:34.402 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:45:35.435 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:47:36.442 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:49:37.566 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:51:38.708 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:53:40.328 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:55:41.435 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:57:42.567 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 09:59:43.739 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 10:01:44.935 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 10:05:46.057 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[I 2022-08-23 10:07:47.729 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+[W 2022-08-23 10:10:58.449 ServerApp] WebSocket ping timeout after 119925 ms.
+[I 2022-08-23 10:11:03.451 ServerApp] Starting buffering for a947bf50-c8d7-4355-bce1-7d7962ece692:8b1627df-bf30-4227-84a8-70034842768d
+[W 2022-08-23 10:11:05.716 ServerApp] WebSocket ping timeout after 119932 ms.
+[W 2022-08-23 10:11:05.718 ServerApp] WebSocket ping timeout after 119894 ms.
+[W 2022-08-23 10:11:06.467 ServerApp] WebSocket ping timeout after 119903 ms.
+[W 2022-08-23 10:11:06.470 ServerApp] WebSocket ping timeout after 119906 ms.
+[W 2022-08-23 10:11:06.537 ServerApp] WebSocket ping timeout after 119913 ms.
+[W 2022-08-23 10:11:06.537 ServerApp] WebSocket ping timeout after 119913 ms.
+[W 2022-08-23 10:11:06.539 ServerApp] WebSocket ping timeout after 119914 ms.
+[I 2022-08-23 10:11:10.719 ServerApp] Starting buffering for faac24f7-0245-496c-9ceb-4888186a102f:ecc2771e-7ed9-4f08-8583-9acb84cefd5c
+[I 2022-08-23 10:11:11.471 ServerApp] Starting buffering for d9a2d258-2757-4112-a3b8-126f24be8cb2:879849f3-6113-4b78-a593-f082345cbb72
+[I 2022-08-23 10:11:11.540 ServerApp] Starting buffering for 5a04fc2a-ca7f-4d9e-9200-e35fe97b5967:6fba953b-25be-43d9-8679-c424fcd0c8b2
+[W 2022-08-23 10:11:19.284 ServerApp] WebSocket ping timeout after 119736 ms.
+[I 2022-08-23 10:11:24.286 ServerApp] Starting buffering for c327a6cd-fb01-4055-868c-a9d74f5b1526:c1c8ee2f-f878-4346-a207-06fa8eced032
+[I 2022-08-23 11:51:13.781 ServerApp] Restoring connection for d9a2d258-2757-4112-a3b8-126f24be8cb2:879849f3-6113-4b78-a593-f082345cbb72
+[I 2022-08-23 11:51:13.966 ServerApp] Restoring connection for 5a04fc2a-ca7f-4d9e-9200-e35fe97b5967:6fba953b-25be-43d9-8679-c424fcd0c8b2
+[I 2022-08-23 11:51:17.167 ServerApp] Restoring connection for faac24f7-0245-496c-9ceb-4888186a102f:ecc2771e-7ed9-4f08-8583-9acb84cefd5c
+[I 2022-08-23 11:51:19.399 ServerApp] Restoring connection for c327a6cd-fb01-4055-868c-a9d74f5b1526:c1c8ee2f-f878-4346-a207-06fa8eced032
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: bc874ab4-07e7-4091-9228-419cf2d19969
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 515479f2-2a9d-4ea2-baef-7d41d324909f
+[I 2022-08-23 11:51:38.769 ServerApp] Restoring connection for a947bf50-c8d7-4355-bce1-7d7962ece692:8b1627df-bf30-4227-84a8-70034842768d
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: fa436c7f-b214-4be2-9463-97b6f7c589c7
+[I 2022-08-23 11:51:58.630 ServerApp] Saving file at /m2_2022/sandbox/diag_matchup_errors.ipynb
+Terminated
+[C 2022-08-23 11:53:46.058 ServerApp] received signal 15, stopping
+[I 2022-08-23 11:53:46.061 ServerApp] Shutting down 3 extensions
+[I 2022-08-23 11:53:46.061 ServerApp] Shutting down 8 kernels
+[I 2022-08-23 11:53:46.061 ServerApp] Kernel shutdown: 8d39f744-041c-4190-b4b8-bff04f9f3e5e
+[I 2022-08-23 11:53:46.061 ServerApp] Kernel shutdown: c327a6cd-fb01-4055-868c-a9d74f5b1526
+[I 2022-08-23 11:53:46.062 ServerApp] Kernel shutdown: faac24f7-0245-496c-9ceb-4888186a102f
+[I 2022-08-23 11:53:46.062 ServerApp] Kernel shutdown: 6a50293c-668f-4f0c-a8ac-9f07b56bb6f9
+[I 2022-08-23 11:53:46.062 ServerApp] Kernel shutdown: 38de85a0-9b66-4c7b-bdb7-c73459781d22
+[I 2022-08-23 11:53:46.062 ServerApp] Kernel shutdown: a947bf50-c8d7-4355-bce1-7d7962ece692
+[I 2022-08-23 11:53:46.063 ServerApp] Kernel shutdown: d9a2d258-2757-4112-a3b8-126f24be8cb2
+[I 2022-08-23 11:53:46.063 ServerApp] Kernel shutdown: 5a04fc2a-ca7f-4d9e-9200-e35fe97b5967
+[I 2022-08-23 11:53:48.679 ServerApp] Shutting down 0 terminals

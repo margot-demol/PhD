@@ -1,0 +1,177 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Fri Jul  8 07:26:21 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-07-08 07:26:45.031 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-07-08 07:26:45.039 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-07-08 07:26:45.047 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-07-08 07:26:50.364 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-07-08 07:26:51.101 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-07-08 07:26:51.102 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-07-08 07:26:51.102 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-07-08 07:26:51.106 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-07-08 07:26:51.247 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-07-08 07:26:51.247 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-07-08 07:26:51.247 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-07-08 07:26:51.247 ServerApp] http://r1i1n19:8877/lab
+[I 2022-07-08 07:26:51.247 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-07-08 07:26:51.247 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-07-08 07:30:11.220 LabApp] Build is up to date
+[W 2022-07-08 07:30:14.802 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-07-08 07:30:18.209 ServerApp] Kernel started: 78b80e0a-ad13-4736-b34c-88d2443c0c8d
+[I 2022-07-08 07:30:18.212 ServerApp] Kernel started: 95c7bcd3-7e2b-4df9-af06-b500102edd95
+[I 2022-07-08 07:30:18.212 ServerApp] Kernel started: 6f694bf1-a438-4c45-8201-ec8f8ad276c6
+[I 2022-07-08 07:30:18.731 ServerApp] Kernel started: c6dde503-84ed-4ace-b630-7c42def83310
+[I 2022-07-08 07:30:18.764 ServerApp] Kernel started: 52c8bf1f-8b38-4ca2-bd77-201f0f7e6658
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 109a437e-47b2-45e6-897e-8e582654181d
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 065ee25e-66eb-40e6-85d5-0e61542abc91
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 73e2068e-6fd0-4173-bbe4-1169df52b354
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: aa65e7e8-687e-47a3-a84c-6dd74c2d8be4
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: eedd04a8-6175-4696-ba5d-be8f095d5f67
+[I 2022-07-08 07:31:24.723 ServerApp] Kernel interrupted: 6f694bf1-a438-4c45-8201-ec8f8ad276c6
+[I 2022-07-08 07:31:25.273 ServerApp] Kernel interrupted: 6f694bf1-a438-4c45-8201-ec8f8ad276c6
+[I 2022-07-08 07:32:16.111 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 07:34:16.586 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 07:36:16.949 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 07:38:17.229 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[W 2022-07-08 08:00:01.473 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-07-08 08:00:31.463 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-07-08 08:00:31.495 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-07-08 08:00:31.523 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-07-08 08:00:31.792 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-07-08 08:00:31.861 ServerApp] WebSocket ping timeout after 119997 ms.
+[W 2022-07-08 08:00:31.863 ServerApp] WebSocket ping timeout after 119999 ms.
+[I 2022-07-08 08:00:36.464 ServerApp] Starting buffering for 52c8bf1f-8b38-4ca2-bd77-201f0f7e6658:b75760b2-e550-4daf-ba16-1ee52b17bd56
+[I 2022-07-08 08:00:36.496 ServerApp] Starting buffering for 78b80e0a-ad13-4736-b34c-88d2443c0c8d:fb0d6e93-c34e-4a86-b6a4-b83ef6058713
+[I 2022-07-08 08:00:36.524 ServerApp] Starting buffering for 95c7bcd3-7e2b-4df9-af06-b500102edd95:08d0ee55-a413-4fa4-80c4-66e5de73527f
+[I 2022-07-08 08:00:36.793 ServerApp] Starting buffering for c6dde503-84ed-4ace-b630-7c42def83310:6385fc11-ca61-49d7-830f-38f65e41cdd9
+[I 2022-07-08 08:00:36.864 ServerApp] Starting buffering for 6f694bf1-a438-4c45-8201-ec8f8ad276c6:99a7b933-0067-41c3-bf73-6ff50c40c8d6
+[I 2022-07-08 08:48:42.856 ServerApp] Restoring connection for 95c7bcd3-7e2b-4df9-af06-b500102edd95:08d0ee55-a413-4fa4-80c4-66e5de73527f
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: deb50cf8-5a62-40ce-abd8-80aeea67c7dc
+[I 2022-07-08 08:48:47.307 ServerApp] Restoring connection for c6dde503-84ed-4ace-b630-7c42def83310:6385fc11-ca61-49d7-830f-38f65e41cdd9
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4986910a-2c18-4554-8152-8516b9897a2a
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 47adb385-6897-49a9-ba3a-cddabbcbdbfc
+[I 2022-07-08 08:48:55.054 ServerApp] Restoring connection for 78b80e0a-ad13-4736-b34c-88d2443c0c8d:fb0d6e93-c34e-4a86-b6a4-b83ef6058713
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 491bde5c-c649-4231-957c-65ba82c52e7c
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 80d92c9e-42a1-4006-a3c5-00a5b9a9c914
+[I 2022-07-08 08:51:14.863 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 08:53:15.131 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 08:55:15.409 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 08:57:15.692 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 08:59:15.985 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:01:16.360 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:03:16.647 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:05:16.959 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:07:17.244 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:07:44.568 ServerApp] Kernel interrupted: 6f694bf1-a438-4c45-8201-ec8f8ad276c6
+[I 2022-07-08 09:09:17.493 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:11:17.793 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:13:18.059 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:15:18.369 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:17:18.704 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:19:18.983 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:21:19.269 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:23:19.566 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:25:19.855 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:27:20.209 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:29:20.659 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:29:20.860 ServerApp] Kernel interrupted: 6f694bf1-a438-4c45-8201-ec8f8ad276c6
+[I 2022-07-08 09:29:21.331 ServerApp] Kernel interrupted: 6f694bf1-a438-4c45-8201-ec8f8ad276c6
+[I 2022-07-08 09:31:20.899 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:33:21.194 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:35:21.488 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:36:44.087 ServerApp] Kernel interrupted: 6f694bf1-a438-4c45-8201-ec8f8ad276c6
+[I 2022-07-08 09:36:44.664 ServerApp] Kernel interrupted: 6f694bf1-a438-4c45-8201-ec8f8ad276c6
+[I 2022-07-08 09:37:21.760 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:38:03.745 ServerApp] Kernel interrupted: 6f694bf1-a438-4c45-8201-ec8f8ad276c6
+[I 2022-07-08 09:38:03.986 ServerApp] Kernel interrupted: 6f694bf1-a438-4c45-8201-ec8f8ad276c6
+[I 2022-07-08 09:38:20.936 ServerApp] Kernel restarted: 6f694bf1-a438-4c45-8201-ec8f8ad276c6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a2b7c690-3038-4f17-bd05-a9c066f3bf2d
+[I 2022-07-08 09:39:22.003 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:41:22.207 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:43:22.535 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:45:22.744 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:47:22.947 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:49:23.184 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:53:23.803 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:55:24.004 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:57:24.221 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 09:59:24.428 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 10:01:24.703 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 10:03:25.016 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 10:05:25.268 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 10:07:25.559 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 10:09:25.864 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 10:13:26.212 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 10:15:26.471 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 10:17:26.748 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 10:19:26.975 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 10:21:27.201 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 10:23:27.492 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 10:25:27.850 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 10:27:28.165 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 10:29:28.439 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 10:31:28.809 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[W 2022-07-08 10:41:42.857 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-07-08 10:41:44.443 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-07-08 10:41:47.310 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-07-08 10:41:47.858 ServerApp] Starting buffering for 95c7bcd3-7e2b-4df9-af06-b500102edd95:08d0ee55-a413-4fa4-80c4-66e5de73527f
+[W 2022-07-08 10:41:50.561 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-07-08 10:41:50.950 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-07-08 10:41:52.312 ServerApp] Starting buffering for c6dde503-84ed-4ace-b630-7c42def83310:6385fc11-ca61-49d7-830f-38f65e41cdd9
+[W 2022-07-08 10:41:55.056 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-07-08 10:41:55.439 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-07-08 10:41:55.563 ServerApp] Starting buffering for 52c8bf1f-8b38-4ca2-bd77-201f0f7e6658:b75760b2-e550-4daf-ba16-1ee52b17bd56
+[I 2022-07-08 10:42:00.057 ServerApp] Starting buffering for 78b80e0a-ad13-4736-b34c-88d2443c0c8d:fb0d6e93-c34e-4a86-b6a4-b83ef6058713
+[I 2022-07-08 10:42:00.440 ServerApp] Starting buffering for 6f694bf1-a438-4c45-8201-ec8f8ad276c6:b5599454-60e2-4392-9bf3-b439110eccdb
+[I 2022-07-08 12:05:31.330 ServerApp] Restoring connection for c6dde503-84ed-4ace-b630-7c42def83310:6385fc11-ca61-49d7-830f-38f65e41cdd9
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4ff8f910-0b42-4dfb-b85e-5e7e883dabe7
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 10557fac-e505-4ea1-b2dd-a12252b779f1
+[I 2022-07-08 12:05:34.753 ServerApp] Restoring connection for 95c7bcd3-7e2b-4df9-af06-b500102edd95:08d0ee55-a413-4fa4-80c4-66e5de73527f
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 37f9bb81-0122-4400-b2c9-7c134434fcf8
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 17d1741a-bed7-4927-ad6c-526162bb6c94
+[I 2022-07-08 12:05:38.956 ServerApp] Restoring connection for 78b80e0a-ad13-4736-b34c-88d2443c0c8d:fb0d6e93-c34e-4a86-b6a4-b83ef6058713
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 201e12c2-c5e3-4c32-aaf1-81e6ceffddd4
+[I 2022-07-08 12:06:11.931 ServerApp] Saving file at /m2_2022/sandbox/test_slacorrection_lib.ipynb
+[I 2022-07-08 12:06:46.240 ServerApp] Kernel interrupted: 6f694bf1-a438-4c45-8201-ec8f8ad276c6
+[I 2022-07-08 12:07:19.233 ServerApp] Kernel interrupted: 6f694bf1-a438-4c45-8201-ec8f8ad276c6
+[I 2022-07-08 12:07:19.863 ServerApp] Kernel interrupted: 6f694bf1-a438-4c45-8201-ec8f8ad276c6
+[C 2022-07-08 12:07:46.760 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-07-08 12:07:46.773 ServerApp] Shutting down 3 extensions
+[I 2022-07-08 12:07:46.773 ServerApp] Shutting down 5 kernels
+[I 2022-07-08 12:07:46.773 ServerApp] Kernel shutdown: 95c7bcd3-7e2b-4df9-af06-b500102edd95
+[I 2022-07-08 12:07:46.773 ServerApp] Kernel shutdown: 78b80e0a-ad13-4736-b34c-88d2443c0c8d
+[I 2022-07-08 12:07:46.774 ServerApp] Kernel shutdown: 6f694bf1-a438-4c45-8201-ec8f8ad276c6
+[I 2022-07-08 12:07:46.774 ServerApp] Kernel shutdown: c6dde503-84ed-4ace-b630-7c42def83310
+[I 2022-07-08 12:07:46.774 ServerApp] Kernel shutdown: 52c8bf1f-8b38-4ca2-bd77-201f0f7e6658
+[I 2022-07-08 12:07:49.388 ServerApp] Shutting down 0 terminals

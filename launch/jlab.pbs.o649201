@@ -1,0 +1,166 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Mon Jun 13 09:55:00 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-06-13 09:55:03.231 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-06-13 09:55:03.235 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-06-13 09:55:03.242 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-06-13 09:55:03.557 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-06-13 09:55:03.683 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-06-13 09:55:03.685 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-06-13 09:55:03.685 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-06-13 09:55:03.689 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-06-13 09:55:03.695 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-06-13 09:55:03.695 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-06-13 09:55:03.695 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-06-13 09:55:03.695 ServerApp] http://r1i3n2:8877/lab
+[I 2022-06-13 09:55:03.695 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-06-13 09:55:03.695 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-06-13 09:55:52.222 ServerApp] 404 GET /api/kernels/28b23f5f-54f0-49bf-a5c1-50af5012c2d2?1655114152143 (10.148.1.145): Kernel does not exist: 28b23f5f-54f0-49bf-a5c1-50af5012c2d2
+[W 2022-06-13 09:55:52.223 ServerApp] Kernel does not exist: 28b23f5f-54f0-49bf-a5c1-50af5012c2d2
+[W 2022-06-13 09:55:52.223 ServerApp] 404 GET /api/kernels/28b23f5f-54f0-49bf-a5c1-50af5012c2d2?1655114152143 (10.148.1.145) 1.48ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/test_erastar_lib.ipynb
+[W 2022-06-13 09:55:53.024 ServerApp] 404 GET /api/kernels/28b23f5f-54f0-49bf-a5c1-50af5012c2d2/channels?session_id=2fd35a15-4983-43cb-8808-bdf49174ecaf (10.148.1.145): Kernel does not exist: 28b23f5f-54f0-49bf-a5c1-50af5012c2d2
+[W 2022-06-13 09:55:53.275 ServerApp] 404 GET /api/kernels/28b23f5f-54f0-49bf-a5c1-50af5012c2d2/channels?session_id=2fd35a15-4983-43cb-8808-bdf49174ecaf (10.148.1.145) 251.76ms referer=None
+[W 2022-06-13 09:55:53.308 ServerApp] 404 GET /api/kernels/28b23f5f-54f0-49bf-a5c1-50af5012c2d2?1655114153233 (10.148.1.145): Kernel does not exist: 28b23f5f-54f0-49bf-a5c1-50af5012c2d2
+[W 2022-06-13 09:55:53.308 ServerApp] Kernel does not exist: 28b23f5f-54f0-49bf-a5c1-50af5012c2d2
+[W 2022-06-13 09:55:53.308 ServerApp] 404 GET /api/kernels/28b23f5f-54f0-49bf-a5c1-50af5012c2d2?1655114153233 (10.148.1.145) 0.68ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/test_erastar_lib.ipynb
+[W 2022-06-13 09:55:54.240 ServerApp] 404 GET /api/kernels/587e75fc-54be-4408-b344-b833127d8a1e?1655114154164 (10.148.1.145): Kernel does not exist: 587e75fc-54be-4408-b344-b833127d8a1e
+[W 2022-06-13 09:55:54.240 ServerApp] Kernel does not exist: 587e75fc-54be-4408-b344-b833127d8a1e
+[W 2022-06-13 09:55:54.240 ServerApp] 404 GET /api/kernels/587e75fc-54be-4408-b344-b833127d8a1e?1655114154164 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/test_erastar_lib.ipynb
+[W 2022-06-13 09:55:54.421 ServerApp] 404 GET /api/kernels/587e75fc-54be-4408-b344-b833127d8a1e/channels?session_id=06fee939-f069-48e8-9ca8-9e41567389cc (10.148.1.145): Kernel does not exist: 587e75fc-54be-4408-b344-b833127d8a1e
+[W 2022-06-13 09:55:54.421 ServerApp] 404 GET /api/kernels/587e75fc-54be-4408-b344-b833127d8a1e/channels?session_id=06fee939-f069-48e8-9ca8-9e41567389cc (10.148.1.145) 1.47ms referer=None
+[W 2022-06-13 09:55:54.522 ServerApp] 404 GET /api/kernels/587e75fc-54be-4408-b344-b833127d8a1e?1655114154447 (10.148.1.145): Kernel does not exist: 587e75fc-54be-4408-b344-b833127d8a1e
+[W 2022-06-13 09:55:54.522 ServerApp] Kernel does not exist: 587e75fc-54be-4408-b344-b833127d8a1e
+[W 2022-06-13 09:55:54.522 ServerApp] 404 GET /api/kernels/587e75fc-54be-4408-b344-b833127d8a1e?1655114154447 (10.148.1.145) 0.64ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/test_erastar_lib.ipynb
+[W 2022-06-13 09:55:55.593 ServerApp] 404 GET /api/kernels/587e75fc-54be-4408-b344-b833127d8a1e/channels?session_id=06fee939-f069-48e8-9ca8-9e41567389cc (10.148.1.145): Kernel does not exist: 587e75fc-54be-4408-b344-b833127d8a1e
+[W 2022-06-13 09:55:55.593 ServerApp] 404 GET /api/kernels/587e75fc-54be-4408-b344-b833127d8a1e/channels?session_id=06fee939-f069-48e8-9ca8-9e41567389cc (10.148.1.145) 1.47ms referer=None
+[W 2022-06-13 09:55:55.689 ServerApp] 404 GET /api/kernels/587e75fc-54be-4408-b344-b833127d8a1e?1655114155615 (10.148.1.145): Kernel does not exist: 587e75fc-54be-4408-b344-b833127d8a1e
+[W 2022-06-13 09:55:55.689 ServerApp] Kernel does not exist: 587e75fc-54be-4408-b344-b833127d8a1e
+[W 2022-06-13 09:55:55.690 ServerApp] 404 GET /api/kernels/587e75fc-54be-4408-b344-b833127d8a1e?1655114155615 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/test_erastar_lib.ipynb
+[W 2022-06-13 09:55:56.013 ServerApp] 404 GET /api/kernels/28b23f5f-54f0-49bf-a5c1-50af5012c2d2/channels?session_id=2fd35a15-4983-43cb-8808-bdf49174ecaf (10.148.1.145): Kernel does not exist: 28b23f5f-54f0-49bf-a5c1-50af5012c2d2
+[W 2022-06-13 09:55:56.014 ServerApp] 404 GET /api/kernels/28b23f5f-54f0-49bf-a5c1-50af5012c2d2/channels?session_id=2fd35a15-4983-43cb-8808-bdf49174ecaf (10.148.1.145) 1.43ms referer=None
+[W 2022-06-13 09:55:56.105 ServerApp] 404 GET /api/kernels/28b23f5f-54f0-49bf-a5c1-50af5012c2d2?1655114156030 (10.148.1.145): Kernel does not exist: 28b23f5f-54f0-49bf-a5c1-50af5012c2d2
+[W 2022-06-13 09:55:56.105 ServerApp] Kernel does not exist: 28b23f5f-54f0-49bf-a5c1-50af5012c2d2
+[W 2022-06-13 09:55:56.105 ServerApp] 404 GET /api/kernels/28b23f5f-54f0-49bf-a5c1-50af5012c2d2?1655114156030 (10.148.1.145) 0.64ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/test_erastar_lib.ipynb
+[W 2022-06-13 09:55:57.930 ServerApp] 404 GET /api/kernels/587e75fc-54be-4408-b344-b833127d8a1e/channels?session_id=06fee939-f069-48e8-9ca8-9e41567389cc (10.148.1.145): Kernel does not exist: 587e75fc-54be-4408-b344-b833127d8a1e
+[W 2022-06-13 09:55:57.931 ServerApp] 404 GET /api/kernels/587e75fc-54be-4408-b344-b833127d8a1e/channels?session_id=06fee939-f069-48e8-9ca8-9e41567389cc (10.148.1.145) 1.59ms referer=None
+[W 2022-06-13 09:55:57.949 ServerApp] 404 GET /api/kernels/587e75fc-54be-4408-b344-b833127d8a1e?1655114157874 (10.148.1.145): Kernel does not exist: 587e75fc-54be-4408-b344-b833127d8a1e
+[W 2022-06-13 09:55:57.949 ServerApp] Kernel does not exist: 587e75fc-54be-4408-b344-b833127d8a1e
+[W 2022-06-13 09:55:57.949 ServerApp] 404 GET /api/kernels/587e75fc-54be-4408-b344-b833127d8a1e?1655114157874 (10.148.1.145) 0.64ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/test_erastar_lib.ipynb
+[W 2022-06-13 09:55:58.904 ServerApp] 404 GET /api/kernels/28b23f5f-54f0-49bf-a5c1-50af5012c2d2/channels?session_id=2fd35a15-4983-43cb-8808-bdf49174ecaf (10.148.1.145): Kernel does not exist: 28b23f5f-54f0-49bf-a5c1-50af5012c2d2
+[W 2022-06-13 09:55:58.905 ServerApp] 404 GET /api/kernels/28b23f5f-54f0-49bf-a5c1-50af5012c2d2/channels?session_id=2fd35a15-4983-43cb-8808-bdf49174ecaf (10.148.1.145) 2.03ms referer=None
+[W 2022-06-13 09:55:58.966 ServerApp] 404 GET /api/kernels/28b23f5f-54f0-49bf-a5c1-50af5012c2d2?1655114158894 (10.148.1.145): Kernel does not exist: 28b23f5f-54f0-49bf-a5c1-50af5012c2d2
+[W 2022-06-13 09:55:58.966 ServerApp] Kernel does not exist: 28b23f5f-54f0-49bf-a5c1-50af5012c2d2
+[W 2022-06-13 09:55:58.967 ServerApp] 404 GET /api/kernels/28b23f5f-54f0-49bf-a5c1-50af5012c2d2?1655114158894 (10.148.1.145) 0.72ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/test_erastar_lib.ipynb
+[W 2022-06-13 09:56:01.959 ServerApp] 404 GET /api/kernels/587e75fc-54be-4408-b344-b833127d8a1e/channels?session_id=06fee939-f069-48e8-9ca8-9e41567389cc (10.148.1.145): Kernel does not exist: 587e75fc-54be-4408-b344-b833127d8a1e
+[W 2022-06-13 09:56:01.960 ServerApp] 404 GET /api/kernels/587e75fc-54be-4408-b344-b833127d8a1e/channels?session_id=06fee939-f069-48e8-9ca8-9e41567389cc (10.148.1.145) 1.94ms referer=None
+[W 2022-06-13 09:56:02.024 ServerApp] 404 GET /api/kernels/587e75fc-54be-4408-b344-b833127d8a1e?1655114161949 (10.148.1.145): Kernel does not exist: 587e75fc-54be-4408-b344-b833127d8a1e
+[W 2022-06-13 09:56:02.024 ServerApp] Kernel does not exist: 587e75fc-54be-4408-b344-b833127d8a1e
+[W 2022-06-13 09:56:02.024 ServerApp] 404 GET /api/kernels/587e75fc-54be-4408-b344-b833127d8a1e?1655114161949 (10.148.1.145) 0.66ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/test_erastar_lib.ipynb
+[W 2022-06-13 09:56:03.717 ServerApp] 404 GET /api/kernels/28b23f5f-54f0-49bf-a5c1-50af5012c2d2/channels?session_id=2fd35a15-4983-43cb-8808-bdf49174ecaf (10.148.1.145): Kernel does not exist: 28b23f5f-54f0-49bf-a5c1-50af5012c2d2
+[W 2022-06-13 09:56:03.717 ServerApp] 404 GET /api/kernels/28b23f5f-54f0-49bf-a5c1-50af5012c2d2/channels?session_id=2fd35a15-4983-43cb-8808-bdf49174ecaf (10.148.1.145) 1.60ms referer=None
+[W 2022-06-13 09:56:03.801 ServerApp] 404 GET /api/kernels/28b23f5f-54f0-49bf-a5c1-50af5012c2d2?1655114163726 (10.148.1.145): Kernel does not exist: 28b23f5f-54f0-49bf-a5c1-50af5012c2d2
+[W 2022-06-13 09:56:03.801 ServerApp] Kernel does not exist: 28b23f5f-54f0-49bf-a5c1-50af5012c2d2
+[W 2022-06-13 09:56:03.801 ServerApp] 404 GET /api/kernels/28b23f5f-54f0-49bf-a5c1-50af5012c2d2?1655114163726 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/test_erastar_lib.ipynb
+[W 2022-06-13 09:56:04.227 ServerApp] 404 GET /api/kernels/94b31604-c3a4-4c2d-a4b3-f7c6193ddab6?1655114164152 (10.148.1.145): Kernel does not exist: 94b31604-c3a4-4c2d-a4b3-f7c6193ddab6
+[W 2022-06-13 09:56:04.228 ServerApp] Kernel does not exist: 94b31604-c3a4-4c2d-a4b3-f7c6193ddab6
+[W 2022-06-13 09:56:04.228 ServerApp] 404 GET /api/kernels/94b31604-c3a4-4c2d-a4b3-f7c6193ddab6?1655114164152 (10.148.1.145) 0.63ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/test_erastar_lib.ipynb
+[W 2022-06-13 09:56:05.008 ServerApp] 404 GET /api/kernels/94b31604-c3a4-4c2d-a4b3-f7c6193ddab6/channels?session_id=0d50d420-9b4d-49c9-8d19-b4bb7983428c (10.148.1.145): Kernel does not exist: 94b31604-c3a4-4c2d-a4b3-f7c6193ddab6
+[W 2022-06-13 09:56:05.008 ServerApp] 404 GET /api/kernels/94b31604-c3a4-4c2d-a4b3-f7c6193ddab6/channels?session_id=0d50d420-9b4d-49c9-8d19-b4bb7983428c (10.148.1.145) 1.58ms referer=None
+[W 2022-06-13 09:56:05.103 ServerApp] 404 GET /api/kernels/94b31604-c3a4-4c2d-a4b3-f7c6193ddab6?1655114165029 (10.148.1.145): Kernel does not exist: 94b31604-c3a4-4c2d-a4b3-f7c6193ddab6
+[W 2022-06-13 09:56:05.103 ServerApp] Kernel does not exist: 94b31604-c3a4-4c2d-a4b3-f7c6193ddab6
+[W 2022-06-13 09:56:05.103 ServerApp] 404 GET /api/kernels/94b31604-c3a4-4c2d-a4b3-f7c6193ddab6?1655114165029 (10.148.1.145) 0.64ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/test_erastar_lib.ipynb
+[W 2022-06-13 09:56:06.651 ServerApp] 404 GET /api/kernels/94b31604-c3a4-4c2d-a4b3-f7c6193ddab6/channels?session_id=0d50d420-9b4d-49c9-8d19-b4bb7983428c (10.148.1.145): Kernel does not exist: 94b31604-c3a4-4c2d-a4b3-f7c6193ddab6
+[W 2022-06-13 09:56:06.652 ServerApp] 404 GET /api/kernels/94b31604-c3a4-4c2d-a4b3-f7c6193ddab6/channels?session_id=0d50d420-9b4d-49c9-8d19-b4bb7983428c (10.148.1.145) 1.43ms referer=None
+[W 2022-06-13 09:56:06.721 ServerApp] 404 GET /api/kernels/94b31604-c3a4-4c2d-a4b3-f7c6193ddab6?1655114166646 (10.148.1.145): Kernel does not exist: 94b31604-c3a4-4c2d-a4b3-f7c6193ddab6
+[W 2022-06-13 09:56:06.721 ServerApp] Kernel does not exist: 94b31604-c3a4-4c2d-a4b3-f7c6193ddab6
+[W 2022-06-13 09:56:06.721 ServerApp] 404 GET /api/kernels/94b31604-c3a4-4c2d-a4b3-f7c6193ddab6?1655114166646 (10.148.1.145) 0.64ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/test_erastar_lib.ipynb
+[W 2022-06-13 09:56:09.290 ServerApp] 404 GET /api/kernels/440c5bc1-0878-4804-af6c-a8e909870045?1655114169216 (10.148.1.145): Kernel does not exist: 440c5bc1-0878-4804-af6c-a8e909870045
+[W 2022-06-13 09:56:09.290 ServerApp] Kernel does not exist: 440c5bc1-0878-4804-af6c-a8e909870045
+[W 2022-06-13 09:56:09.290 ServerApp] 404 GET /api/kernels/440c5bc1-0878-4804-af6c-a8e909870045?1655114169216 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/test_erastar_lib.ipynb
+[E 2022-06-13 09:56:15.355 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-06-13 09:56:15.646 LabApp] Build is up to date
+[W 2022-06-13 09:56:17.824 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-13 09:56:19.640 ServerApp] Kernel started: fce9b447-6c38-4729-a48c-c93972d1b37d
+[I 2022-06-13 09:56:19.640 ServerApp] Kernel started: b83aa3c6-f2fb-4344-b15c-02745a57bc5c
+[I 2022-06-13 09:56:19.642 ServerApp] Kernel started: 9aeb2b1c-af6d-46ef-b5dd-8ecb0916849c
+[I 2022-06-13 09:56:19.944 ServerApp] Kernel started: 86081f9b-693d-46c5-b1cd-a2c48d6fc181
+[I 2022-06-13 09:56:20.126 ServerApp] Kernel started: 08b3a497-9ee5-40b1-a6da-27bd8cfcf61c
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 63cbfe7d-a9d7-4f0e-b0fc-e3e9d22507c7
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2a9a6f92-429e-40f2-8c1b-55927aab68c7
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 7535314b-e378-4e72-bfaa-cb4df2843385
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 427bf582-782c-4093-a534-30e60704499d
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 0b4e6278-bc73-4499-b037-9176e0f33910
+[I 2022-06-13 09:58:18.074 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 10:00:18.331 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 10:02:18.654 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 10:04:18.914 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[W 2022-06-13 10:13:25.451 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-06-13 10:13:55.441 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-06-13 10:13:55.579 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-06-13 10:13:55.771 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-06-13 10:13:55.843 ServerApp] WebSocket ping timeout after 120000 ms.
+[W 2022-06-13 10:13:55.845 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-06-13 10:13:56.199 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-06-13 10:14:00.444 ServerApp] Starting buffering for 08b3a497-9ee5-40b1-a6da-27bd8cfcf61c:c3f4e12b-af8a-406e-94fe-c6b4a63e27de
+[I 2022-06-13 10:14:00.580 ServerApp] Starting buffering for 86081f9b-693d-46c5-b1cd-a2c48d6fc181:1f93df07-9287-4b17-b270-eb1e090ad17d
+[I 2022-06-13 10:14:00.772 ServerApp] Starting buffering for fce9b447-6c38-4729-a48c-c93972d1b37d:972ab7ac-7d96-4e2c-9879-44f1e11e1d40
+[I 2022-06-13 10:14:00.845 ServerApp] Starting buffering for 9aeb2b1c-af6d-46ef-b5dd-8ecb0916849c:4914e126-490e-44d7-b0a1-681bbd9c5240
+[I 2022-06-13 10:14:01.200 ServerApp] Starting buffering for b83aa3c6-f2fb-4344-b15c-02745a57bc5c:9f79a833-1d5a-433d-9f16-3d36e5e5c216
+[I 2022-06-13 10:57:32.754 ServerApp] Restoring connection for fce9b447-6c38-4729-a48c-c93972d1b37d:972ab7ac-7d96-4e2c-9879-44f1e11e1d40
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3f91b10f-1e8a-44b6-ac03-a9654e027787
+[I 2022-06-13 10:57:36.215 ServerApp] Restoring connection for 9aeb2b1c-af6d-46ef-b5dd-8ecb0916849c:4914e126-490e-44d7-b0a1-681bbd9c5240
+[I 2022-06-13 10:57:38.872 ServerApp] Restoring connection for b83aa3c6-f2fb-4344-b15c-02745a57bc5c:9f79a833-1d5a-433d-9f16-3d36e5e5c216
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c4f5b6d7-6272-4e47-b425-b65597bf5aba
+[I 2022-06-13 10:57:41.692 ServerApp] Restoring connection for 86081f9b-693d-46c5-b1cd-a2c48d6fc181:1f93df07-9287-4b17-b270-eb1e090ad17d
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: df91c8f1-8d50-4fdb-84c1-c3dbfb5f63a4
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 214a7fb1-edde-4030-b68d-d99ad8e290d5
+[I 2022-06-13 10:57:43.391 ServerApp] Restoring connection for 08b3a497-9ee5-40b1-a6da-27bd8cfcf61c:c3f4e12b-af8a-406e-94fe-c6b4a63e27de
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 610fb45f-e3ae-498d-a9a4-43ad5d437dc3
+[I 2022-06-13 11:01:00.767 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 11:03:01.137 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 11:05:01.360 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 11:07:01.558 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 11:09:02.106 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 11:11:02.351 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 11:12:40.067 ServerApp] Kernel interrupted: fce9b447-6c38-4729-a48c-c93972d1b37d
+[I 2022-06-13 11:12:54.555 ServerApp] Kernel interrupted: fce9b447-6c38-4729-a48c-c93972d1b37d
+[I 2022-06-13 11:12:54.777 ServerApp] Kernel interrupted: fce9b447-6c38-4729-a48c-c93972d1b37d
+[I 2022-06-13 11:13:02.777 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+Terminated
+[C 2022-06-13 11:13:14.637 ServerApp] received signal 15, stopping
+[I 2022-06-13 11:13:14.709 ServerApp] Shutting down 3 extensions
+[I 2022-06-13 11:13:14.710 ServerApp] Shutting down 5 kernels
+[I 2022-06-13 11:13:14.710 ServerApp] Kernel shutdown: 9aeb2b1c-af6d-46ef-b5dd-8ecb0916849c
+[I 2022-06-13 11:13:14.710 ServerApp] Kernel shutdown: fce9b447-6c38-4729-a48c-c93972d1b37d
+[I 2022-06-13 11:13:14.710 ServerApp] Kernel shutdown: b83aa3c6-f2fb-4344-b15c-02745a57bc5c
+[I 2022-06-13 11:13:14.710 ServerApp] Kernel shutdown: 86081f9b-693d-46c5-b1cd-a2c48d6fc181
+[I 2022-06-13 11:13:14.711 ServerApp] Kernel shutdown: 08b3a497-9ee5-40b1-a6da-27bd8cfcf61c
+[I 2022-06-13 11:13:17.336 ServerApp] Shutting down 0 terminals

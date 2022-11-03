@@ -1,0 +1,126 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Fri Apr  8 12:46:56 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-04-08 12:47:34.970 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-04-08 12:47:35.003 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-04-08 12:47:35.010 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-04-08 12:47:41.682 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-04-08 12:47:42.580 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-04-08 12:47:42.581 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-04-08 12:47:42.581 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-04-08 12:47:42.585 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-04-08 12:47:42.786 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-04-08 12:47:42.786 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-04-08 12:47:42.786 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-04-08 12:47:42.786 ServerApp] http://r1i0n18:8877/lab
+[I 2022-04-08 12:47:42.786 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-04-08 12:47:42.786 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-04-08 12:47:50.265 ServerApp] 302 GET / (10.148.1.145) 0.49ms
+[W 2022-04-08 12:47:56.077 ServerApp] 404 GET /apple-touch-icon-precomposed.png (10.148.1.145) 227.28ms referer=None
+[W 2022-04-08 12:47:57.151 ServerApp] 404 GET /apple-touch-icon.png (10.148.1.145) 1.03ms referer=None
+[I 2022-04-08 12:48:00.173 LabApp] Build is up to date
+[W 2022-04-08 12:48:04.949 ServerApp] Notebook m2_2022/sandbox/overviewmodified.ipynb is not trusted
+[W 2022-04-08 12:48:05.073 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[W 2022-04-08 12:48:05.247 ServerApp] Notebook m2_2022/sandbox/projections.ipynb is not trusted
+[I 2022-04-08 12:48:08.605 ServerApp] Kernel started: c82b739f-f975-4afa-9b20-326238e3ed93
+[I 2022-04-08 12:48:09.117 ServerApp] Kernel started: 2bf4e627-a120-4003-a955-91c67170a28d
+[I 2022-04-08 12:48:09.118 ServerApp] Kernel started: 9fe8d26e-8c50-479d-b2c8-1e5e60c364c2
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: bcb65596-4eec-4ab3-a631-b4bc2938e1ee
+[IPKernelApp] WARNING | No such comm: c0f120b1-ee79-4112-89c0-843d29501c2c
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2857f8d1-5b65-4854-b9b0-5a2baae3c9b6
+[I 2022-04-08 12:50:06.876 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 12:50:06.877 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 12:51:30.041 ServerApp] Kernel restarted: 9fe8d26e-8c50-479d-b2c8-1e5e60c364c2
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f58502e0-6c16-4734-8b31-a15394c9e847
+[I 2022-04-08 12:52:07.043 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 12:52:07.044 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 12:56:07.162 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 12:56:07.163 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:00:07.289 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:00:07.290 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:04:07.412 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:04:07.413 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:06:07.536 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:06:07.537 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:08:07.676 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:08:07.678 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:10:07.799 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:10:07.800 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:12:07.928 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:12:07.929 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:14:08.127 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:14:08.128 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:15:54.628 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:15:54.629 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:17:54.830 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:17:54.832 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:19:54.994 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:19:54.995 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:21:55.408 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:21:55.409 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:23:55.569 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:23:55.571 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:25:55.742 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:25:55.743 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:27:55.912 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:27:55.913 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:29:56.057 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:29:56.058 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:31:56.177 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:31:56.178 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:33:56.292 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:33:56.293 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:35:57.057 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:35:57.058 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:37:57.174 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:37:57.175 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:39:57.305 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:39:57.306 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:41:57.413 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:41:57.414 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:45:57.532 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:45:57.533 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:47:57.640 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:47:57.642 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:49:57.763 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:49:57.764 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:53:57.880 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:53:57.881 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:55:57.999 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:55:58.000 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 13:57:58.151 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 13:57:58.152 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 14:03:58.266 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 14:03:58.267 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 14:05:58.382 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 14:05:58.383 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 14:09:58.498 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 14:09:58.499 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 14:11:58.647 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 14:11:58.649 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 14:13:58.846 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 14:13:58.847 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 14:15:59.190 ServerApp] Saving file at /m2_2022/sandbox/overview.ipynb
+[W 2022-04-08 14:15:59.191 ServerApp] Notebook m2_2022/sandbox/overview.ipynb is not trusted
+[I 2022-04-08 14:23:44.995 ServerApp] Kernel shutdown: 2bf4e627-a120-4003-a955-91c67170a28d
+[I 2022-04-08 14:23:44.996 ServerApp] Kernel shutdown: 9fe8d26e-8c50-479d-b2c8-1e5e60c364c2
+[I 2022-04-08 14:23:44.996 ServerApp] Kernel shutdown: c82b739f-f975-4afa-9b20-326238e3ed93
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+[I 2022-04-08 14:23:47.637 ServerApp] Shutting down on /api/shutdown request.
+[I 2022-04-08 14:23:47.638 ServerApp] Shutting down 3 extensions
+[I 2022-04-08 14:23:47.639 ServerApp] Shutting down 0 kernels
+[I 2022-04-08 14:23:47.639 ServerApp] Shutting down 0 terminals
+Terminated

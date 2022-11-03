@@ -1,0 +1,105 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Mon Jul 11 18:19:53 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-07-11 18:19:54.440 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-07-11 18:19:54.444 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-07-11 18:19:54.451 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-07-11 18:19:54.760 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-07-11 18:19:54.815 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-07-11 18:19:54.816 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-07-11 18:19:54.816 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-07-11 18:19:54.820 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-07-11 18:19:54.826 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-07-11 18:19:54.827 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-07-11 18:19:54.827 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-07-11 18:19:54.827 ServerApp] http://r1i2n16:8877/lab
+[I 2022-07-11 18:19:54.827 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-07-11 18:19:54.827 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-07-11 18:24:21.819 LabApp] Build is up to date
+[I 2022-07-11 18:24:24.530 ServerApp] Kernel started: 2be359e3-6f50-4919-b10c-fb8169fb51e9
+[I 2022-07-11 18:24:24.531 ServerApp] Kernel started: 40228851-e05a-46c1-8e76-b35ba5a30f8c
+[I 2022-07-11 18:24:24.531 ServerApp] Kernel started: f7f9c0f0-f6c4-411a-832f-65fecf3e5182
+[I 2022-07-11 18:24:24.533 ServerApp] Kernel started: eb73b6b6-74f9-4d48-8ae8-85faaf69edc7
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5b4d8251-50ad-4bde-bf13-795637d626b1
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 852729c0-1a60-49b3-8374-430795a1860f
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: cb06adac-ae91-45e6-b67c-62fbb27d355d
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e3e4c26d-4f69-460d-86bd-8b03ec2bbaa9
+[I 2022-07-11 18:26:23.847 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-11 18:26:35.118 ServerApp] Saving file at /m2_2022/m2lib22/slacorrection.py
+[I 2022-07-11 18:26:41.159 ServerApp] Kernel restarted: 2be359e3-6f50-4919-b10c-fb8169fb51e9
+[I 2022-07-11 18:26:41.222 ServerApp] Starting buffering for 2be359e3-6f50-4919-b10c-fb8169fb51e9:584be7c7-8304-4124-8b20-d08f1fa03f93
+[I 2022-07-11 18:26:41.280 ServerApp] Restoring connection for 2be359e3-6f50-4919-b10c-fb8169fb51e9:584be7c7-8304-4124-8b20-d08f1fa03f93
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 7124b2a4-dc4c-4a7c-8e06-9e92ae449bc0
+[I 2022-07-11 18:28:24.544 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[W 2022-07-11 18:31:41.281 ServerApp] WebSocket ping timeout after 119972 ms.
+[I 2022-07-11 18:31:46.283 ServerApp] Starting buffering for 2be359e3-6f50-4919-b10c-fb8169fb51e9:584be7c7-8304-4124-8b20-d08f1fa03f93
+[W 2022-07-11 18:31:57.762 ServerApp] WebSocket ping timeout after 119934 ms.
+[W 2022-07-11 18:31:57.964 ServerApp] WebSocket ping timeout after 119968 ms.
+[W 2022-07-11 18:31:57.966 ServerApp] WebSocket ping timeout after 119969 ms.
+[W 2022-07-11 18:31:58.409 ServerApp] WebSocket ping timeout after 119967 ms.
+[I 2022-07-11 18:32:02.763 ServerApp] Starting buffering for 40228851-e05a-46c1-8e76-b35ba5a30f8c:74d7214a-f50d-42e2-8cc2-3bf44e060105
+[I 2022-07-11 18:32:02.966 ServerApp] Starting buffering for eb73b6b6-74f9-4d48-8ae8-85faaf69edc7:6df6c1a2-5148-428f-a13b-8f431e7eaa9e
+[I 2022-07-11 18:32:03.409 ServerApp] Starting buffering for f7f9c0f0-f6c4-411a-832f-65fecf3e5182:ef2d2b61-addd-4cea-82d0-b366e2560c00
+[I 2022-07-11 18:32:03.982 ServerApp] Restoring connection for 2be359e3-6f50-4919-b10c-fb8169fb51e9:584be7c7-8304-4124-8b20-d08f1fa03f93
+[I 2022-07-11 18:32:03.987 ServerApp] Restoring connection for 40228851-e05a-46c1-8e76-b35ba5a30f8c:74d7214a-f50d-42e2-8cc2-3bf44e060105
+[I 2022-07-11 18:32:03.988 ServerApp] Restoring connection for f7f9c0f0-f6c4-411a-832f-65fecf3e5182:ef2d2b61-addd-4cea-82d0-b366e2560c00
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f5de12ff-adc4-43b7-b49d-8139ea98e423
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 811273e5-7b50-4559-93c6-dcca6d3e845d
+[IPKernelApp] WARNING | No such comm: fc274e49-3430-4303-9f64-fe95ef64c707
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: be8196e8-3203-491e-b155-40e3643e57d5
+[W 2022-07-11 18:36:03.983 ServerApp] WebSocket ping timeout after 119909 ms.
+[W 2022-07-11 18:36:03.987 ServerApp] WebSocket ping timeout after 119912 ms.
+[W 2022-07-11 18:36:03.988 ServerApp] WebSocket ping timeout after 119913 ms.
+[W 2022-07-11 18:36:03.989 ServerApp] WebSocket ping timeout after 119894 ms.
+[W 2022-07-11 18:36:03.991 ServerApp] WebSocket ping timeout after 119895 ms.
+[I 2022-07-11 18:36:08.986 ServerApp] Starting buffering for 2be359e3-6f50-4919-b10c-fb8169fb51e9:584be7c7-8304-4124-8b20-d08f1fa03f93
+[I 2022-07-11 18:36:08.988 ServerApp] Starting buffering for 40228851-e05a-46c1-8e76-b35ba5a30f8c:74d7214a-f50d-42e2-8cc2-3bf44e060105
+[I 2022-07-11 18:36:08.989 ServerApp] Starting buffering for f7f9c0f0-f6c4-411a-832f-65fecf3e5182:ef2d2b61-addd-4cea-82d0-b366e2560c00
+[I 2022-07-11 18:36:08.991 ServerApp] Starting buffering for eb73b6b6-74f9-4d48-8ae8-85faaf69edc7:6df6c1a2-5148-428f-a13b-8f431e7eaa9e
+[I 2022-07-11 18:43:07.698 ServerApp] Restoring connection for 40228851-e05a-46c1-8e76-b35ba5a30f8c:74d7214a-f50d-42e2-8cc2-3bf44e060105
+[I 2022-07-11 18:43:07.702 ServerApp] Restoring connection for f7f9c0f0-f6c4-411a-832f-65fecf3e5182:ef2d2b61-addd-4cea-82d0-b366e2560c00
+[I 2022-07-11 18:43:07.832 ServerApp] Restoring connection for 2be359e3-6f50-4919-b10c-fb8169fb51e9:584be7c7-8304-4124-8b20-d08f1fa03f93
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5df3260d-527b-40ae-8789-e8ab268de829
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c6fc99d2-a657-4c2d-a6c1-51bae5aa75d5
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4e3e0908-a207-42e0-bcff-612d08148571
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1e386b88-84ac-4d4d-98b8-fd38a49e3847
+[I 2022-07-11 18:44:03.802 ServerApp] Starting buffering for 2be359e3-6f50-4919-b10c-fb8169fb51e9:584be7c7-8304-4124-8b20-d08f1fa03f93
+[I 2022-07-11 18:44:03.803 ServerApp] Starting buffering for 40228851-e05a-46c1-8e76-b35ba5a30f8c:74d7214a-f50d-42e2-8cc2-3bf44e060105
+[I 2022-07-11 18:44:03.803 ServerApp] Starting buffering for f7f9c0f0-f6c4-411a-832f-65fecf3e5182:ef2d2b61-addd-4cea-82d0-b366e2560c00
+[I 2022-07-11 18:44:03.804 ServerApp] Starting buffering for eb73b6b6-74f9-4d48-8ae8-85faaf69edc7:6df6c1a2-5148-428f-a13b-8f431e7eaa9e
+Terminated
+[C 2022-07-11 18:44:17.276 ServerApp] received signal 15, stopping
+[I 2022-07-11 18:44:17.288 ServerApp] Shutting down 3 extensions
+[I 2022-07-11 18:44:17.289 ServerApp] Shutting down 4 kernels
+[I 2022-07-11 18:44:17.289 ServerApp] Kernel shutdown: f7f9c0f0-f6c4-411a-832f-65fecf3e5182
+[I 2022-07-11 18:44:17.290 ServerApp] Discarding 1 buffered messages for 2be359e3-6f50-4919-b10c-fb8169fb51e9:584be7c7-8304-4124-8b20-d08f1fa03f93
+[I 2022-07-11 18:44:17.290 ServerApp] Kernel shutdown: 2be359e3-6f50-4919-b10c-fb8169fb51e9
+[I 2022-07-11 18:44:17.290 ServerApp] Kernel shutdown: 40228851-e05a-46c1-8e76-b35ba5a30f8c
+[I 2022-07-11 18:44:17.290 ServerApp] Kernel shutdown: eb73b6b6-74f9-4d48-8ae8-85faaf69edc7
+[I 2022-07-11 18:44:19.912 ServerApp] Shutting down 0 terminals

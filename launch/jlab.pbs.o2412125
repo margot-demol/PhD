@@ -1,0 +1,525 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu Oct 20 13:32:06 GMT 2022
+/home1/datahome/mdemol/m2_2022/launch/jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+/home1/datahome/mdemol/m2_2022/launch/jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-10-20 13:32:15.023 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-10-20 13:32:15.029 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-20 13:32:15.036 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-10-20 13:32:15.037 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2022-10-20 13:32:15.075 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/jupyterlab
+[I 2022-10-20 13:32:15.075 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/mdenv/share/jupyter/lab
+[I 2022-10-20 13:32:15.079 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-10-20 13:32:15.086 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-10-20 13:32:15.086 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2022-10-20 13:32:15.087 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-10-20 13:32:15.087 ServerApp] Jupyter Server 1.21.0 is running at:
+[I 2022-10-20 13:32:15.087 ServerApp] http://r1i0n16:8877/lab
+[I 2022-10-20 13:32:15.087 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-10-20 13:32:15.087 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-10-20 13:33:50.522 ServerApp] 404 GET /lab/extensions/@jupyter-widgets/jupyterlab-manager/static/803.b7b75bd6e7977a648c67.js (10.148.1.145) 17.66ms referer=http://localhost:8877/lab?
+[W 2022-10-20 13:33:50.525 ServerApp] 404 GET /lab/extensions/@pyviz/jupyterlab_pyviz/static/remoteEntry.b9ede0b76564b4f7bc06.js (10.148.1.145) 2.02ms referer=http://localhost:8877/lab?
+[W 2022-10-20 13:33:50.526 ServerApp] 404 GET /lab/extensions/@jupyter-widgets/jupyterlab-manager/static/279.aa88a78c8bf62c65db54.js (10.148.1.145) 2.49ms referer=http://localhost:8877/lab?
+[W 2022-10-20 13:33:50.528 ServerApp] 404 GET /lab/extensions/@jupyter-widgets/jupyterlab-manager/static/243.6c384ff2649ef572a18a.js (10.148.1.145) 2.76ms referer=http://localhost:8877/lab?
+[W 2022-10-20 13:33:50.529 ServerApp] 404 GET /lab/extensions/@jupyter-widgets/jupyterlab-manager/static/272.eb0d340d1eec40ac564f.js (10.148.1.145) 2.76ms referer=http://localhost:8877/lab?
+[W 2022-10-20 13:33:50.530 ServerApp] 404 GET /lab/extensions/@jupyter-widgets/jupyterlab-manager/static/remoteEntry.3421943a0ce73f10909d.js (10.148.1.145) 3.19ms referer=http://localhost:8877/lab?
+[W 2022-10-20 13:33:50.531 ServerApp] 404 GET /lab/extensions/@jupyter-widgets/jupyterlab-manager/static/638.f3e5e34a28f3334d4f08.js (10.148.1.145) 3.65ms referer=http://localhost:8877/lab?
+[W 2022-10-20 13:33:50.532 ServerApp] 404 GET /lab/extensions/@jupyter-widgets/jupyterlab-manager/static/523.92b431af199caa12622d.js (10.148.1.145) 3.75ms referer=http://localhost:8877/lab?
+[W 2022-10-20 13:33:50.533 ServerApp] 404 GET /lab/extensions/@jupyter-widgets/jupyterlab-manager/static/86.af9bcf169ccd6886c41b.js (10.148.1.145) 2.25ms referer=http://localhost:8877/lab?
+[W 2022-10-20 13:33:50.535 ServerApp] 404 GET /lab/extensions/@pyviz/jupyterlab_pyviz/static/445.3b04d32fa4205b9d4ddf.js?v=3b04d32fa4205b9d4ddf (10.148.1.145) 2.72ms referer=http://localhost:8877/lab?
+[I 2022-10-20 13:33:53.439 LabApp] Build is up to date
+[W 2022-10-20 13:33:55.159 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-20 13:33:56.824 ServerApp] Kernel started: 54e15f23-7ba8-428e-9dd2-046d0cf4a69c
+[I 2022-10-20 13:33:56.826 ServerApp] Kernel started: 094f740e-1ab8-4fec-a641-390131d855db
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 0956659c-2c17-4351-b2ea-74d91324f6df
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: cfb22d63-c232-4b55-ad5b-49a1bb23fe56
+[I 2022-10-20 13:35:28.144 ServerApp] Creating new directory in 
+[I 2022-10-20 13:35:40.554 ServerApp] Creating new notebook in /GDP
+[I 2022-10-20 13:35:42.995 ServerApp] Kernel started: 33823099-5c19-4a33-9d51-ca5d36154e24
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f569b47c-b867-4edd-8e8e-57fb129f2bfe
+[I 2022-10-20 13:35:55.462 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-20 13:35:55.789 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-20 13:35:55.790 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-20 13:36:14.942 ServerApp] Copying drifters_stats/sandbox/derivation.ipynb to /GDP
+[I 2022-10-20 13:36:16.793 ServerApp] Kernel started: d8cdca3f-336f-4350-aacd-1feb94c1feed
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4c1fe3a6-be98-41a3-b260-4a2cb8f35433
+[I 2022-10-20 13:36:21.195 ServerApp] Starting buffering for 33823099-5c19-4a33-9d51-ca5d36154e24:d3d8d68f-2712-407e-a30a-ee9b7e597c54
+[I 2022-10-20 13:36:38.981 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 13:37:33.473 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 13:37:36.773 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 13:37:39.194 ServerApp] Saving file at /GDP/derivation.ipynb
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-20 13:38:22.813 ServerApp] Kernel restarted: d8cdca3f-336f-4350-aacd-1feb94c1feed
+[I 2022-10-20 13:38:22.820 ServerApp] Starting buffering for d8cdca3f-336f-4350-aacd-1feb94c1feed:d57d1e85-8176-4bc2-aa2a-061872a99135
+[I 2022-10-20 13:38:22.834 ServerApp] Restoring connection for d8cdca3f-336f-4350-aacd-1feb94c1feed:d57d1e85-8176-4bc2-aa2a-061872a99135
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-20 13:38:24.416 ServerApp] Saving file at /GDP/derivation.ipynb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: aaad18a1-8594-4aca-93e0-fda4eded6da1
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-a8wib79c', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-ay52i6qi', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-y1ynt0v4', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-xty3a5b3', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-eb1osjl3', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-x35pwdpx', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-6050tc5j', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-eiuzj0rb', purging
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-20 13:38:52.819 ServerApp] Kernel restarted: d8cdca3f-336f-4350-aacd-1feb94c1feed
+[I 2022-10-20 13:38:52.824 ServerApp] Starting buffering for d8cdca3f-336f-4350-aacd-1feb94c1feed:d57d1e85-8176-4bc2-aa2a-061872a99135
+[I 2022-10-20 13:38:52.845 ServerApp] Restoring connection for d8cdca3f-336f-4350-aacd-1feb94c1feed:d57d1e85-8176-4bc2-aa2a-061872a99135
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f8c52a30-0187-4819-bdf9-8d1297801497
+[I 2022-10-20 13:40:24.542 ServerApp] Saving file at /GDP/derivation.ipynb
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-nx46prlk', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-tvple6nl', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-k0jymbra', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-q1ffqf4z', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-9ovx925o', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-aqkd16co', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-d7z_5pav', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-psrxruoh', purging
+[I 2022-10-20 13:44:24.749 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 13:48:14.077 ServerApp] Saving file at /pynsitu/pynsitu/__init__.py
+[I 2022-10-20 13:48:24.907 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 13:48:25.193 ServerApp] Saving file at /pynsitu/pynsitu/__init__.py
+[I 2022-10-20 13:48:26.618 ServerApp] Saving file at /pynsitu/pynsitu/__init__.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-20 13:48:45.602 ServerApp] Kernel restarted: d8cdca3f-336f-4350-aacd-1feb94c1feed
+[I 2022-10-20 13:48:45.606 ServerApp] Starting buffering for d8cdca3f-336f-4350-aacd-1feb94c1feed:d57d1e85-8176-4bc2-aa2a-061872a99135
+[I 2022-10-20 13:48:45.618 ServerApp] Restoring connection for d8cdca3f-336f-4350-aacd-1feb94c1feed:d57d1e85-8176-4bc2-aa2a-061872a99135
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 507cb9f7-d1e0-4f86-b8dc-f9df716f79b2
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-559d_ebl', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-yzpsqqz0', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-sy9g0vz2', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-jmt_kvd5', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-qpxlzlyp', purging
+[I 2022-10-20 13:50:25.036 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 13:52:25.186 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 13:54:29.564 ServerApp] Saving file at /pynsitu/pynsitu/tseries.py
+[I 2022-10-20 13:55:12.540 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 13:57:12.683 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 13:59:12.795 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:01:12.908 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:03:08.274 ServerApp] Saving file at /pynsitu/pynsitu/drifters.py
+[I 2022-10-20 14:03:13.021 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:03:14.588 ServerApp] Saving file at /pynsitu/pynsitu/drifters.py
+[I 2022-10-20 14:03:25.507 ServerApp] Saving file at /pynsitu/pynsitu/drifters.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/forkserver.py", line 274, in main
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/forkserver.py", line 274, in main
+    code = _serve_one(child_r, fds,
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/forkserver.py", line 313, in _serve_one
+    code = _serve_one(child_r, fds,
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/forkserver.py", line 313, in _serve_one
+    code = spawn._main(child_r, parent_sentinel)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/spawn.py", line 126, in _main
+    code = spawn._main(child_r, parent_sentinel)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/spawn.py", line 126, in _main
+    self = reduction.pickle.load(from_parent)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/synchronize.py", line 110, in __setstate__
+    self = reduction.pickle.load(from_parent)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/synchronize.py", line 110, in __setstate__
+    self._semlock = _multiprocessing.SemLock._rebuild(*state)
+FileNotFoundError: [Errno 2] No such file or directory
+    self._semlock = _multiprocessing.SemLock._rebuild(*state)
+FileNotFoundError: [Errno 2] No such file or directory
+[I 2022-10-20 14:04:01.686 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:04:03.006 ServerApp] Kernel restarted: d8cdca3f-336f-4350-aacd-1feb94c1feed
+[I 2022-10-20 14:04:03.010 ServerApp] Starting buffering for d8cdca3f-336f-4350-aacd-1feb94c1feed:d57d1e85-8176-4bc2-aa2a-061872a99135
+[I 2022-10-20 14:04:03.024 ServerApp] Restoring connection for d8cdca3f-336f-4350-aacd-1feb94c1feed:d57d1e85-8176-4bc2-aa2a-061872a99135
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 27f7079d-766d-4f14-b8b0-f9551b2a9dcd
+[I 2022-10-20 14:04:37.281 ServerApp] Saving file at /pynsitu/pynsitu/drifters.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-20 14:04:44.207 ServerApp] Kernel restarted: d8cdca3f-336f-4350-aacd-1feb94c1feed
+[I 2022-10-20 14:04:44.210 ServerApp] Starting buffering for d8cdca3f-336f-4350-aacd-1feb94c1feed:d57d1e85-8176-4bc2-aa2a-061872a99135
+[I 2022-10-20 14:04:44.220 ServerApp] Restoring connection for d8cdca3f-336f-4350-aacd-1feb94c1feed:d57d1e85-8176-4bc2-aa2a-061872a99135
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1ed9a1ff-c5c0-459f-bc67-23c1613ae849
+[I 2022-10-20 14:05:24.408 ServerApp] Kernel interrupted: d8cdca3f-336f-4350-aacd-1feb94c1feed
+[I 2022-10-20 14:05:24.763 ServerApp] Kernel interrupted: d8cdca3f-336f-4350-aacd-1feb94c1feed
+[I 2022-10-20 14:05:24.946 ServerApp] Kernel interrupted: d8cdca3f-336f-4350-aacd-1feb94c1feed
+[I 2022-10-20 14:05:25.135 ServerApp] Kernel interrupted: d8cdca3f-336f-4350-aacd-1feb94c1feed
+[I 2022-10-20 14:05:25.286 ServerApp] Kernel interrupted: d8cdca3f-336f-4350-aacd-1feb94c1feed
+[I 2022-10-20 14:05:28.133 ServerApp] Kernel restarted: d8cdca3f-336f-4350-aacd-1feb94c1feed
+[I 2022-10-20 14:05:28.139 ServerApp] Starting buffering for d8cdca3f-336f-4350-aacd-1feb94c1feed:d57d1e85-8176-4bc2-aa2a-061872a99135
+[I 2022-10-20 14:05:28.146 ServerApp] Restoring connection for d8cdca3f-336f-4350-aacd-1feb94c1feed:d57d1e85-8176-4bc2-aa2a-061872a99135
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 71afe5fa-38c9-47ca-9590-4bba310a8eaa
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-pdli1_e3', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-eko3x6k8', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-2ola2xmo', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-lag1msdv', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-jtwk4ye5', purging
+[I 2022-10-20 14:06:01.831 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:06:05.185 ServerApp] Saving file at /pynsitu/pynsitu/drifters.py
+[I 2022-10-20 14:07:35.530 ServerApp] Saving file at /pynsitu/pynsitu/drifters.py
+[I 2022-10-20 14:08:56.965 ServerApp] Saving file at /pynsitu/pynsitu/drifters.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-20 14:09:03.031 ServerApp] Kernel restarted: d8cdca3f-336f-4350-aacd-1feb94c1feed
+[I 2022-10-20 14:09:03.034 ServerApp] Starting buffering for d8cdca3f-336f-4350-aacd-1feb94c1feed:d57d1e85-8176-4bc2-aa2a-061872a99135
+[I 2022-10-20 14:09:03.047 ServerApp] Restoring connection for d8cdca3f-336f-4350-aacd-1feb94c1feed:d57d1e85-8176-4bc2-aa2a-061872a99135
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 99f74296-4a4d-4b0c-ae05-1488b36583bd
+[I 2022-10-20 14:10:01.956 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:10:23.072 ServerApp] Saving file at /pynsitu/pynsitu/drifters.py
+[I 2022-10-20 14:10:25.672 ServerApp] Saving file at /pynsitu/pynsitu/drifters.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-20 14:10:36.479 ServerApp] Kernel restarted: d8cdca3f-336f-4350-aacd-1feb94c1feed
+[I 2022-10-20 14:10:36.485 ServerApp] Starting buffering for d8cdca3f-336f-4350-aacd-1feb94c1feed:d57d1e85-8176-4bc2-aa2a-061872a99135
+[I 2022-10-20 14:10:36.501 ServerApp] Restoring connection for d8cdca3f-336f-4350-aacd-1feb94c1feed:d57d1e85-8176-4bc2-aa2a-061872a99135
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5978b612-4506-42b8-bbde-c891326e98ed
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-4mkws3z2', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-0yg6zqls', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-0ksqyd8c', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-mbkpnns7', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2412125.datarmor0/dask-worker-space/worker-w2ofj8dv', purging
+[I 2022-10-20 14:12:02.079 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:14:02.282 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:15:29.222 ServerApp] Saving file at /pynsitu/pynsitu/drifters.py
+[I 2022-10-20 14:16:02.425 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:18:02.553 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:20:02.695 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:22:02.845 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:22:13.968 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:24:14.496 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:26:14.634 ServerApp] Saving file at /GDP/derivation.ipynb
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+[I 2022-10-20 14:28:14.755 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:30:15.527 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:32:57.291 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:34:57.428 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:36:57.551 ServerApp] Saving file at /GDP/derivation.ipynb
+distributed.worker - WARNING - Compute Failed
+Key:       ('len-chunk-9c8a6bb4e951452718c015d245b38f07-af898f704108ab8ac9d4f1aa0f2e9218', 0)
+Function:  subgraph_callable-3d1bdcad-0a1e-48cc-aea2-be2fc581
+args:      (                   x          y  ...  -0.03333333333333333  -0.016666666666666666
+124628.0    0.411948  37.588914  ...              0.008384               0.005522
+125348.0    1.535050  37.323976  ...              0.590698               0.383972
+126068.0    2.727135  38.129482  ...              0.082525               0.136558
+126788.0    1.958058  38.851140  ...              0.018390               0.052720
+127508.0    1.063269  38.614945  ...              0.028481               0.021427
+...              ...        ...  ...                   ...                    ...
+172341.0  -53.491056  40.749790  ...              0.131566               0.026878
+173061.0  -49.414010  38.352044  ...              4.496785               7.051225
+173781.0  -48.821798  35.219364  ...              1.584128               1.182128
+174501.0  -49.342631  35.252595  ...              0.719666               1.461615
+176339.0 -135.048422  30.379981  ...              0.019294               0.003178
+
+[225 rows x 14
+kwargs:    {}
+Exception: 'NameError("name \'t_ref\' is not defined")'
+
+distributed.worker - WARNING - Compute Failed
+Key:       ('len-chunk-9c8a6bb4e951452718c015d245b38f07-af898f704108ab8ac9d4f1aa0f2e9218', 1)
+Function:  subgraph_callable-3d1bdcad-0a1e-48cc-aea2-be2fc581
+args:      (                  x          y  ...  -0.03333333333333333  -0.016666666666666666
+69333.0  -44.036174 -26.036067  ...              0.103176               0.147771
+70053.0  -42.610331 -26.471363  ...              0.080146               0.098600
+70773.0  -41.770153 -27.948726  ...              0.475264               0.636704
+71493.0  -40.860248 -28.301681  ...              0.860568               0.646092
+72213.0  -39.983868 -28.983720  ...              0.591167               0.371238
+...             ...        ...  ...                   ...                    ...
+173315.0 -52.557784  27.661901  ...              0.060486               0.065741
+174035.0 -53.127104  28.045144  ...              0.007371               0.062668
+174755.0 -53.477106  28.926688  ...              0.020847               0.001361
+175475.0 -54.217964  29.593316  ...              0.016077               0.005254
+176195.0 -55.196078  29.758785  ...              0.066201               0.025448
+
+[294 rows x 1443 columns])
+kwargs:    {}
+Exception: 'NameError("name \'t_ref\' is not defined")'
+
+distributed.worker - WARNING - Compute Failed
+Key:       ('len-chunk-9c8a6bb4e951452718c015d245b38f07-af898f704108ab8ac9d4f1aa0f2e9218', 2)
+Function:  subgraph_callable-3d1bdcad-0a1e-48cc-aea2-be2fc581
+args:      (                  x          y  ...  -0.03333333333333333  -0.016666666666666666
+130238.0 -34.021989  47.113759  ...              0.400160               0.841137
+130958.0 -32.622577  47.117972  ...              0.078704               0.057922
+131678.0 -33.316728  47.539853  ...              0.058279               0.008131
+132398.0 -32.093446  47.558784  ...              0.602202               0.251707
+133118.0 -28.744671  48.155286  ...              1.565870               0.195229
+...             ...        ...  ...                   ...                    ...
+173679.0  51.208312 -22.800835  ...              0.695031               0.676060
+174399.0  52.423011 -23.264320  ...              0.006137               0.060784
+175119.0  52.061757 -23.105543  ...              0.044671               0.192773
+175839.0  50.538059 -22.151135  ...              0.253447               0.119465
+176559.0  49.511428 -21.809986  ...              0.779032               0.311487
+
+[329 rows x 1443 columns])
+kwargs:    {}
+Exception: 'NameError("name \'t_ref\' is not defined")'
+
+[I 2022-10-20 14:38:57.768 ServerApp] Saving file at /GDP/derivation.ipynb
+distributed.worker - WARNING - Compute Failed
+Key:       ('assign-372ba5f86691fb396d2e963c382d6a4f', 0)
+Function:  subgraph_callable-b93e2f84-6740-4b6f-ad4d-91510977
+args:      (                   x          y  ...  -0.03333333333333333  -0.016666666666666666
+124628.0    0.411948  37.588914  ...              0.008384               0.005522
+125348.0    1.535050  37.323976  ...              0.590698               0.383972
+126068.0    2.727135  38.129482  ...              0.082525               0.136558
+126788.0    1.958058  38.851140  ...              0.018390               0.052720
+127508.0    1.063269  38.614945  ...              0.028481               0.021427
+...              ...        ...  ...                   ...                    ...
+172341.0  -53.491056  40.749790  ...              0.131566               0.026878
+173061.0  -49.414010  38.352044  ...              4.496785               7.051225
+173781.0  -48.821798  35.219364  ...              1.584128               1.182128
+174501.0  -49.342631  35.252595  ...              0.719666               1.461615
+176339.0 -135.048422  30.379981  ...              0.019294               0.003178
+
+[225 rows x 14
+kwargs:    {}
+Exception: 'NameError("name \'t_ref\' is not defined")'
+
+distributed.worker - WARNING - Compute Failed
+Key:       ('apply-4e21e42e57da882327bc6166cf80def5', 0)
+Function:  subgraph_callable-50d97a2f-09f8-4e50-a9cf-3bb442c2
+args:      (                   x          y  ...  -0.03333333333333333  -0.016666666666666666
+124628.0    0.411948  37.588914  ...              0.008384               0.005522
+125348.0    1.535050  37.323976  ...              0.590698               0.383972
+126068.0    2.727135  38.129482  ...              0.082525               0.136558
+126788.0    1.958058  38.851140  ...              0.018390               0.052720
+127508.0    1.063269  38.614945  ...              0.028481               0.021427
+...              ...        ...  ...                   ...                    ...
+172341.0  -53.491056  40.749790  ...              0.131566               0.026878
+173061.0  -49.414010  38.352044  ...              4.496785               7.051225
+173781.0  -48.821798  35.219364  ...              1.584128               1.182128
+174501.0  -49.342631  35.252595  ...              0.719666               1.461615
+176339.0 -135.048422  30.379981  ...              0.019294               0.003178
+
+[225 rows x 14
+kwargs:    {}
+Exception: 'NameError("name \'t_ref\' is not defined")'
+
+distributed.worker - WARNING - Compute Failed
+Key:       ('apply-4e21e42e57da882327bc6166cf80def5', 2)
+Function:  subgraph_callable-50d97a2f-09f8-4e50-a9cf-3bb442c2
+args:      (                  x          y  ...  -0.03333333333333333  -0.016666666666666666
+130238.0 -34.021989  47.113759  ...              0.400160               0.841137
+130958.0 -32.622577  47.117972  ...              0.078704               0.057922
+131678.0 -33.316728  47.539853  ...              0.058279               0.008131
+132398.0 -32.093446  47.558784  ...              0.602202               0.251707
+133118.0 -28.744671  48.155286  ...              1.565870               0.195229
+...             ...        ...  ...                   ...                    ...
+173679.0  51.208312 -22.800835  ...              0.695031               0.676060
+174399.0  52.423011 -23.264320  ...              0.006137               0.060784
+175119.0  52.061757 -23.105543  ...              0.044671               0.192773
+175839.0  50.538059 -22.151135  ...              0.253447               0.119465
+176559.0  49.511428 -21.809986  ...              0.779032               0.311487
+
+[329 rows x 1443 columns])
+kwargs:    {}
+Exception: 'NameError("name \'t_ref\' is not defined")'
+
+distributed.worker - WARNING - Compute Failed
+Key:       ('apply-4e21e42e57da882327bc6166cf80def5', 1)
+Function:  subgraph_callable-50d97a2f-09f8-4e50-a9cf-3bb442c2
+args:      (                  x          y  ...  -0.03333333333333333  -0.016666666666666666
+69333.0  -44.036174 -26.036067  ...              0.103176               0.147771
+70053.0  -42.610331 -26.471363  ...              0.080146               0.098600
+70773.0  -41.770153 -27.948726  ...              0.475264               0.636704
+71493.0  -40.860248 -28.301681  ...              0.860568               0.646092
+72213.0  -39.983868 -28.983720  ...              0.591167               0.371238
+...             ...        ...  ...                   ...                    ...
+173315.0 -52.557784  27.661901  ...              0.060486               0.065741
+174035.0 -53.127104  28.045144  ...              0.007371               0.062668
+174755.0 -53.477106  28.926688  ...              0.020847               0.001361
+175475.0 -54.217964  29.593316  ...              0.016077               0.005254
+176195.0 -55.196078  29.758785  ...              0.066201               0.025448
+
+[294 rows x 1443 columns])
+kwargs:    {}
+Exception: 'NameError("name \'t_ref\' is not defined")'
+
+[I 2022-10-20 14:40:57.964 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:42:58.213 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:43:48.798 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:44:26.806 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:46:26.938 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:46:50.404 ServerApp] Saving file at /GDP/derivation.ipynb
+distributed.worker - WARNING - Compute Failed
+Key:       ('time_window_processing-677a4008b58f3d106d998478a413c88e', 2)
+Function:  subgraph_callable-4eea8aaa-fe1b-4f11-b8dd-cd46450d
+args:      (                  x          y  ...                date  _partitions
+145941.0 -26.150397  63.321904  ... 2016-08-24 21:00:00            2
+146661.0 -27.832877  65.072048  ... 2016-09-23 21:00:00            2
+147381.0 -29.685736  66.273915  ... 2016-10-23 21:00:00            2
+158375.0 -66.670676  34.050265  ... 2018-01-24 23:00:00            2
+159095.0 -69.404598  31.937853  ... 2018-02-23 23:00:00            2
+...             ...        ...  ...                 ...          ...
+175521.0 -52.269344  31.306623  ... 2020-01-09 09:00:00            2
+176241.0 -49.734445  29.954157  ... 2020-02-08 09:00:00            2
+154419.0  65.968973  -7.796464  ... 2017-08-13 03:00:00            2
+155139.0  61.615269  -9.213156  ... 2017-09-12 03:00:00            2
+155859.0  57.465059  -9.910548  ... 2017-10-12 03:00:00            2
+
+[238 rows x 1445 columns])
+kwargs:    {}
+Exception: 'AttributeError("\'float\' object has no attribute \'lower\'")'
+
+distributed.worker - WARNING - Compute Failed
+Key:       ('time_window_processing-677a4008b58f3d106d998478a413c88e', 1)
+Function:  subgraph_callable-4eea8aaa-fe1b-4f11-b8dd-cd46450d
+args:      (                   x          y  ...                date  _partitions
+126647.0  118.461581  13.985210  ... 2014-06-12 23:00:00            1
+137544.0  -60.525095 -48.996759  ... 2015-09-10 00:00:00            1
+138264.0  -57.587204 -44.117092  ... 2015-10-10 00:00:00            1
+138984.0  -54.594199 -39.737331  ... 2015-11-09 00:00:00            1
+139704.0  -53.616962 -38.508994  ... 2015-12-09 00:00:00            1
+...              ...        ...  ...                 ...          ...
+161534.0   66.110450  -0.465990  ... 2018-06-05 14:00:00            1
+162254.0   75.074705  -1.823656  ... 2018-07-05 14:00:00            1
+162974.0   80.045328  -3.255065  ... 2018-08-04 14:00:00            1
+163751.0  -21.559560  69.646785  ... 2018-09-05 23:00:00            1
+164471.0  -25.173086  68.844982  ... 2018-10-05 23:00:00            1
+
+[189 rows x 1445 columns])
+kwargs:    {}
+Exception: 'AttributeError("\'float\' object has no attribute \'lower\'")'
+
+distributed.worker - WARNING - Compute Failed
+Key:       ('time_window_processing-677a4008b58f3d106d998478a413c88e', 0)
+Function:  subgraph_callable-4eea8aaa-fe1b-4f11-b8dd-cd46450d
+args:      (                  x          y  ...                date  _partitions
+124628.0   0.411948  37.588914  ... 2014-03-20 20:00:00            0
+125348.0   1.535050  37.323976  ... 2014-04-19 20:00:00            0
+126068.0   2.727135  38.129482  ... 2014-05-19 20:00:00            0
+126788.0   1.958058  38.851140  ... 2014-06-18 20:00:00            0
+127508.0   1.063269  38.614945  ... 2014-07-18 20:00:00            0
+...             ...        ...  ...                 ...          ...
+173679.0  51.208312 -22.800835  ... 2019-10-24 15:00:00            0
+174399.0  52.423011 -23.264320  ... 2019-11-23 15:00:00            0
+175119.0  52.061757 -23.105543  ... 2019-12-23 15:00:00            0
+175839.0  50.538059 -22.151135  ... 2020-01-22 15:00:00            0
+176559.0  49.511428 -21.809986  ... 2020-02-21 15:00:00            0
+
+[421 rows x 1445 columns])
+kwargs:    {}
+Exception: 'AttributeError("\'float\' object has no attribute \'lower\'")'
+
+[I 2022-10-20 14:48:50.529 ServerApp] Saving file at /GDP/derivation.ipynb
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-20 14:49:25.178 ServerApp] Kernel restarted: d8cdca3f-336f-4350-aacd-1feb94c1feed
+[I 2022-10-20 14:49:25.182 ServerApp] Starting buffering for d8cdca3f-336f-4350-aacd-1feb94c1feed:d57d1e85-8176-4bc2-aa2a-061872a99135
+[I 2022-10-20 14:49:25.193 ServerApp] Restoring connection for d8cdca3f-336f-4350-aacd-1feb94c1feed:d57d1e85-8176-4bc2-aa2a-061872a99135
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d75ef86d-6acd-4327-83f7-7459b83e34cc
+[I 2022-10-20 14:49:54.635 ServerApp] Saving file at /GDP/derivation.ipynb
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+[I 2022-10-20 14:50:15.103 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:52:15.225 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:54:15.354 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 14:56:15.523 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 15:00:15.638 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 15:00:24.940 ServerApp] Saving file at /GDP/derivation.ipynb
+[I 2022-10-20 15:11:51.655 ServerApp] Saving file at /pynsitu/pynsitu/tseries.py
+Terminated
+[C 2022-10-20 15:22:39.404 ServerApp] received signal 15, stopping
+[I 2022-10-20 15:22:39.459 ServerApp] Shutting down 3 extensions
+[I 2022-10-20 15:22:39.459 ServerApp] Shutting down 4 kernels
+[I 2022-10-20 15:22:39.460 ServerApp] Kernel shutdown: 33823099-5c19-4a33-9d51-ca5d36154e24
+[I 2022-10-20 15:22:39.460 ServerApp] Kernel shutdown: d8cdca3f-336f-4350-aacd-1feb94c1feed
+[I 2022-10-20 15:22:39.460 ServerApp] Kernel shutdown: 094f740e-1ab8-4fec-a641-390131d855db
+[I 2022-10-20 15:22:39.460 ServerApp] Kernel shutdown: 54e15f23-7ba8-428e-9dd2-046d0cf4a69c
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-20 15:22:42.114 ServerApp] Shutting down 0 terminals

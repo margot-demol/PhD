@@ -1,0 +1,85 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Fri Sep  9 12:00:51 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-09-09 12:01:19.098 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-09-09 12:01:19.113 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-09-09 12:01:19.120 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-09-09 12:01:23.704 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-09-09 12:01:24.385 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-09-09 12:01:24.386 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-09-09 12:01:24.386 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-09-09 12:01:24.390 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-09-09 12:01:24.495 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-09-09 12:01:24.495 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-09-09 12:01:24.495 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-09-09 12:01:24.496 ServerApp] http://r1i3n27:8877/lab
+[I 2022-09-09 12:01:24.496 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-09-09 12:01:24.496 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 2022-09-09 12:02:18.923 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-09-09 12:02:19.382 LabApp] Build is up to date
+[I 2022-09-09 12:02:24.943 ServerApp] Kernel started: 0b4e2369-e5d1-4209-9d81-0f3ec4fd4904
+[I 2022-09-09 12:02:24.944 ServerApp] Kernel started: 3b27a349-aaae-431d-944f-6269f521adc7
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 70a31be7-d4d2-4c5a-9705-5cf99dd074f2
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 46a1eb3a-f4e9-4578-9c05-c6b288aabf6a
+[W 2022-09-09 12:03:13.055 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-09-09 12:03:14.538 ServerApp] Kernel started: aad26f19-884b-4110-9a2e-616b70839d66
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2b10007c-2da0-4697-83fa-cb4cd0a2e1bd
+[I 2022-09-09 13:16:42.332 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 13:18:46.406 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 13:34:48.303 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 13:36:49.458 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 13:50:50.265 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:02:50.880 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[W 2022-09-09 14:02:53.888 ServerApp] delete /m2_2022/images/labels0_iobs509
+[I 2022-09-09 14:04:51.274 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:06:51.680 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:08:52.128 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:10:52.491 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:12:52.785 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:14:53.147 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:18:53.551 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:24:53.906 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:26:54.243 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:28:54.623 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:30:55.621 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:38:56.011 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:42:56.709 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:44:57.079 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:46:57.449 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:48:58.313 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:50:58.666 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:52:58.995 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:54:59.338 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:56:59.656 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 14:59:00.077 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 15:01:00.415 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 15:03:00.803 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 15:13:01.672 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 15:19:02.339 ServerApp] Saving file at /m2_2022/sandbox/coloc_animation.ipynb
+[I 2022-09-09 15:36:59.863 ServerApp] Starting buffering for 3b27a349-aaae-431d-944f-6269f521adc7:995bbd18-9159-4315-8f19-bfbf5bb62c1c
+[I 2022-09-09 15:36:59.864 ServerApp] Starting buffering for aad26f19-884b-4110-9a2e-616b70839d66:b0cd762b-5a37-4a96-aa52-b9cef3c12745
+[I 2022-09-09 15:36:59.864 ServerApp] Starting buffering for 0b4e2369-e5d1-4209-9d81-0f3ec4fd4904:a5ab3cbb-3868-48e5-a79b-259d930291b6
+[C 2022-09-09 15:37:20.019 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-09-09 15:37:20.034 ServerApp] Shutting down 3 extensions
+[I 2022-09-09 15:37:20.035 ServerApp] Shutting down 3 kernels
+[I 2022-09-09 15:37:20.035 ServerApp] Discarding 1 buffered messages for 3b27a349-aaae-431d-944f-6269f521adc7:995bbd18-9159-4315-8f19-bfbf5bb62c1c
+[I 2022-09-09 15:37:20.035 ServerApp] Kernel shutdown: 3b27a349-aaae-431d-944f-6269f521adc7
+[I 2022-09-09 15:37:20.035 ServerApp] Kernel shutdown: aad26f19-884b-4110-9a2e-616b70839d66
+[I 2022-09-09 15:37:20.036 ServerApp] Kernel shutdown: 0b4e2369-e5d1-4209-9d81-0f3ec4fd4904
+[I 2022-09-09 15:37:22.456 ServerApp] Shutting down 0 terminals

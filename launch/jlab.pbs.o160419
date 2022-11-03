@@ -1,0 +1,26 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu May  5 08:12:21 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-05-05 08:12:48.706 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-05-05 08:12:48.722 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-05-05 08:12:48.730 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-05-05 08:12:54.920 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-05-05 08:12:55.662 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-05-05 08:12:55.663 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-05-05 08:12:55.663 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-05-05 08:12:55.667 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-05-05 08:12:55.809 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-05-05 08:12:55.809 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-05-05 08:12:55.809 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-05-05 08:12:55.809 ServerApp] http://r2i0n31:8877/lab
+[I 2022-05-05 08:12:55.809 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-05-05 08:12:55.809 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+Terminated
+[C 2022-05-05 08:15:28.169 ServerApp] received signal 15, stopping
+[I 2022-05-05 08:15:28.171 ServerApp] Shutting down 3 extensions
+[I 2022-05-05 08:15:28.172 ServerApp] Shutting down 0 kernels
+[I 2022-05-05 08:15:28.172 ServerApp] Shutting down 0 terminals

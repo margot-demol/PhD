@@ -1,0 +1,137 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu Oct 20 09:43:15 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-10-20 09:43:19.491 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-10-20 09:43:19.495 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-20 09:43:19.503 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-10-20 09:43:19.858 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-10-20 09:43:20.182 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-10-20 09:43:20.183 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-10-20 09:43:20.183 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-10-20 09:43:20.187 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-10-20 09:43:20.193 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-10-20 09:43:20.194 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-10-20 09:43:20.194 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-10-20 09:43:20.194 ServerApp] http://r1i0n31:8877/lab
+[I 2022-10-20 09:43:20.194 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-10-20 09:43:20.194 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-10-20 09:46:56.338 ServerApp] 404 GET /api/kernels/bb4a5f84-1ddb-4ef1-ae87-d085da186197?1666259216273 (10.148.1.145): Kernel does not exist: bb4a5f84-1ddb-4ef1-ae87-d085da186197
+[W 2022-10-20 09:46:56.338 ServerApp] Kernel does not exist: bb4a5f84-1ddb-4ef1-ae87-d085da186197
+[W 2022-10-20 09:46:56.339 ServerApp] 404 GET /api/kernels/bb4a5f84-1ddb-4ef1-ae87-d085da186197?1666259216273 (10.148.1.145) 1.64ms referer=http://localhost:8877/lab?
+[W 2022-10-20 09:46:56.431 ServerApp] 404 GET /api/kernels/bb4a5f84-1ddb-4ef1-ae87-d085da186197?1666259216373 (10.148.1.145): Kernel does not exist: bb4a5f84-1ddb-4ef1-ae87-d085da186197
+[W 2022-10-20 09:46:56.431 ServerApp] Kernel does not exist: bb4a5f84-1ddb-4ef1-ae87-d085da186197
+[W 2022-10-20 09:46:56.432 ServerApp] 404 GET /api/kernels/bb4a5f84-1ddb-4ef1-ae87-d085da186197?1666259216373 (10.148.1.145) 0.75ms referer=http://localhost:8877/lab?
+[W 2022-10-20 09:46:57.224 ServerApp] 404 GET /api/kernels/bb4a5f84-1ddb-4ef1-ae87-d085da186197/channels?session_id=ca0596d8-b556-4640-a56e-25487654b589 (10.148.1.145): Kernel does not exist: bb4a5f84-1ddb-4ef1-ae87-d085da186197
+[W 2022-10-20 09:46:57.245 ServerApp] 404 GET /api/kernels/bb4a5f84-1ddb-4ef1-ae87-d085da186197/channels?session_id=ca0596d8-b556-4640-a56e-25487654b589 (10.148.1.145) 22.26ms referer=None
+[W 2022-10-20 09:46:57.315 ServerApp] 404 GET /api/kernels/bb4a5f84-1ddb-4ef1-ae87-d085da186197?1666259217255 (10.148.1.145): Kernel does not exist: bb4a5f84-1ddb-4ef1-ae87-d085da186197
+[W 2022-10-20 09:46:57.315 ServerApp] Kernel does not exist: bb4a5f84-1ddb-4ef1-ae87-d085da186197
+[W 2022-10-20 09:46:57.316 ServerApp] 404 GET /api/kernels/bb4a5f84-1ddb-4ef1-ae87-d085da186197?1666259217255 (10.148.1.145) 0.66ms referer=http://localhost:8877/lab?
+[W 2022-10-20 09:46:57.333 ServerApp] 404 GET /api/kernels/bb4a5f84-1ddb-4ef1-ae87-d085da186197/channels?session_id=4bd1706d-d66c-4eb8-90f1-6329ef561078 (10.148.1.145): Kernel does not exist: bb4a5f84-1ddb-4ef1-ae87-d085da186197
+[W 2022-10-20 09:46:57.333 ServerApp] 404 GET /api/kernels/bb4a5f84-1ddb-4ef1-ae87-d085da186197/channels?session_id=4bd1706d-d66c-4eb8-90f1-6329ef561078 (10.148.1.145) 1.47ms referer=None
+[W 2022-10-20 09:46:57.427 ServerApp] 404 GET /api/kernels/bb4a5f84-1ddb-4ef1-ae87-d085da186197?1666259217368 (10.148.1.145): Kernel does not exist: bb4a5f84-1ddb-4ef1-ae87-d085da186197
+[W 2022-10-20 09:46:57.427 ServerApp] Kernel does not exist: bb4a5f84-1ddb-4ef1-ae87-d085da186197
+[W 2022-10-20 09:46:57.428 ServerApp] 404 GET /api/kernels/bb4a5f84-1ddb-4ef1-ae87-d085da186197?1666259217368 (10.148.1.145) 0.64ms referer=http://localhost:8877/lab?
+[W 2022-10-20 09:46:58.157 ServerApp] 404 GET /api/kernels/bb4a5f84-1ddb-4ef1-ae87-d085da186197/channels?session_id=4bd1706d-d66c-4eb8-90f1-6329ef561078 (10.148.1.145): Kernel does not exist: bb4a5f84-1ddb-4ef1-ae87-d085da186197
+[W 2022-10-20 09:46:58.158 ServerApp] 404 GET /api/kernels/bb4a5f84-1ddb-4ef1-ae87-d085da186197/channels?session_id=4bd1706d-d66c-4eb8-90f1-6329ef561078 (10.148.1.145) 1.44ms referer=None
+[W 2022-10-20 09:46:58.215 ServerApp] 404 GET /api/kernels/bb4a5f84-1ddb-4ef1-ae87-d085da186197?1666259218156 (10.148.1.145): Kernel does not exist: bb4a5f84-1ddb-4ef1-ae87-d085da186197
+[W 2022-10-20 09:46:58.215 ServerApp] Kernel does not exist: bb4a5f84-1ddb-4ef1-ae87-d085da186197
+[W 2022-10-20 09:46:58.216 ServerApp] 404 GET /api/kernels/bb4a5f84-1ddb-4ef1-ae87-d085da186197?1666259218156 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab?
+[I 2022-10-20 09:47:25.071 LabApp] Build is up to date
+[W 2022-10-20 09:47:25.958 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-20 09:47:26.914 ServerApp] Kernel started: e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c
+[I 2022-10-20 09:47:26.919 ServerApp] Kernel started: 89d08b8c-e754-46af-a652-da12ac2c90d3
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c6c5b79d-89c3-403a-98c2-d51d6275351c
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 7ac6b5f1-180d-401c-a8a5-2755b563a413
+[I 2022-10-20 09:48:44.802 ServerApp] Kernel restarted: e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c
+[I 2022-10-20 09:48:44.806 ServerApp] Starting buffering for e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c:b86b1424-c553-4c2d-a094-dacda5efd712
+[I 2022-10-20 09:48:44.812 ServerApp] Restoring connection for e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c:b86b1424-c553-4c2d-a094-dacda5efd712
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2201dafe-164b-4749-88bb-3ba2846ea846
+[I 2022-10-20 09:49:26.238 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-20 09:51:26.518 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-20 09:55:10.549 ServerApp] Kernel restarted: e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c
+[I 2022-10-20 09:55:10.553 ServerApp] Starting buffering for e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c:b86b1424-c553-4c2d-a094-dacda5efd712
+[I 2022-10-20 09:55:10.560 ServerApp] Restoring connection for e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c:b86b1424-c553-4c2d-a094-dacda5efd712
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 01af8fbf-f779-4bd0-8e44-c33f6a364cce
+[I 2022-10-20 09:55:23.959 ServerApp] Kernel restarted: e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c
+[I 2022-10-20 09:55:23.962 ServerApp] Starting buffering for e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c:b86b1424-c553-4c2d-a094-dacda5efd712
+[I 2022-10-20 09:55:23.969 ServerApp] Restoring connection for e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c:b86b1424-c553-4c2d-a094-dacda5efd712
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-20 09:55:26.716 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 12efead5-ce78-4106-bfa4-0dee8163f304
+[I 2022-10-20 09:57:13.446 ServerApp] Kernel restarted: e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c
+[I 2022-10-20 09:57:13.450 ServerApp] Starting buffering for e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c:b86b1424-c553-4c2d-a094-dacda5efd712
+[I 2022-10-20 09:57:13.461 ServerApp] Restoring connection for e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c:b86b1424-c553-4c2d-a094-dacda5efd712
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a0715879-7d08-413f-b040-90d58f057126
+[I 2022-10-20 09:57:26.843 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-20 09:57:30.357 ServerApp] Kernel restarted: e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c
+[I 2022-10-20 09:57:30.362 ServerApp] Starting buffering for e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c:b86b1424-c553-4c2d-a094-dacda5efd712
+[I 2022-10-20 09:57:30.368 ServerApp] Restoring connection for e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c:b86b1424-c553-4c2d-a094-dacda5efd712
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 04c48549-b971-4fd9-93e1-6ca25c9d86ac
+[I 2022-10-20 09:57:41.789 ServerApp] Kernel restarted: e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c
+[I 2022-10-20 09:57:41.796 ServerApp] Starting buffering for e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c:b86b1424-c553-4c2d-a094-dacda5efd712
+[I 2022-10-20 09:57:41.804 ServerApp] Restoring connection for e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c:b86b1424-c553-4c2d-a094-dacda5efd712
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 24bee8ae-b0c5-4a2e-9da1-1e80cd414c50
+[I 2022-10-20 09:57:49.220 ServerApp] Kernel restarted: e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c
+[I 2022-10-20 09:57:49.223 ServerApp] Starting buffering for e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c:b86b1424-c553-4c2d-a094-dacda5efd712
+[I 2022-10-20 09:57:49.229 ServerApp] Restoring connection for e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c:b86b1424-c553-4c2d-a094-dacda5efd712
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c7b1f880-1874-4622-99b1-d20a16881d34
+[I 2022-10-20 09:58:38.216 ServerApp] Kernel restarted: e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c
+[I 2022-10-20 09:58:38.219 ServerApp] Starting buffering for e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c:b86b1424-c553-4c2d-a094-dacda5efd712
+[I 2022-10-20 09:58:38.226 ServerApp] Restoring connection for e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c:b86b1424-c553-4c2d-a094-dacda5efd712
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 56f23e5c-ec99-405f-b126-13708efd7837
+[I 2022-10-20 09:59:26.968 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-20 10:01:00.424 ServerApp] Kernel restarted: e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c
+[I 2022-10-20 10:01:00.428 ServerApp] Starting buffering for e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c:b86b1424-c553-4c2d-a094-dacda5efd712
+[I 2022-10-20 10:01:00.436 ServerApp] Restoring connection for e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c:b86b1424-c553-4c2d-a094-dacda5efd712
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1510b68c-4a9a-4fc5-8bde-fdcf463b8485
+[I 2022-10-20 10:01:26.804 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-20 10:01:26.805 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-20 10:04:25.901 ServerApp] Saving file at /drifters_stats/drifters/utils.py
+[I 2022-10-20 10:11:35.024 ServerApp] Saving file at /drifters_stats/drifters/utils.py
+[I 2022-10-20 10:11:43.971 ServerApp] Kernel restarted: 89d08b8c-e754-46af-a652-da12ac2c90d3
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 835764d7-b324-4b63-87bf-b8f39e3aadbd
+[I 2022-10-20 10:13:27.046 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-20 10:13:27.048 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[W 2022-10-20 10:15:22.603 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-20 10:15:30.436 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-20 10:15:35.439 ServerApp] Starting buffering for e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c:b86b1424-c553-4c2d-a094-dacda5efd712
+[W 2022-10-20 10:15:43.982 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-20 10:15:48.985 ServerApp] Starting buffering for 89d08b8c-e754-46af-a652-da12ac2c90d3:b9a513c2-3b19-457c-99d1-db0a1b9d4985
+[C 2022-10-20 11:51:50.582 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-10-20 11:51:50.633 ServerApp] Shutting down 3 extensions
+[I 2022-10-20 11:51:50.633 ServerApp] Shutting down 2 kernels
+[I 2022-10-20 11:51:50.634 ServerApp] Kernel shutdown: 89d08b8c-e754-46af-a652-da12ac2c90d3
+[I 2022-10-20 11:51:50.634 ServerApp] Kernel shutdown: e6b92b01-4ba1-4f86-9bc4-9f64e1f6e18c
+[I 2022-10-20 11:51:51.148 ServerApp] Shutting down 0 terminals

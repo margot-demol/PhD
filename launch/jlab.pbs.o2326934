@@ -1,0 +1,68 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Fri Oct 14 11:46:49 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-10-14 11:47:01.074 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-10-14 11:47:01.079 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-14 11:47:01.086 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-10-14 11:47:02.324 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-10-14 11:47:02.667 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-10-14 11:47:02.668 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-10-14 11:47:02.668 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-10-14 11:47:02.672 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-10-14 11:47:02.678 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-10-14 11:47:02.679 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-10-14 11:47:02.679 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-10-14 11:47:02.679 ServerApp] http://r1i5n1:8877/lab
+[I 2022-10-14 11:47:02.679 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-10-14 11:47:02.679 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-10-14 11:47:58.597 LabApp] Build is up to date
+[W 2022-10-14 11:48:41.451 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-14 11:48:43.320 ServerApp] Kernel started: 88a659c1-758e-41d8-88fa-4df9524b6164
+[I 2022-10-14 11:48:43.329 ServerApp] Kernel started: 9dc98185-762a-4f53-8002-6720a43d1598
+[I 2022-10-14 11:48:43.577 ServerApp] Kernel started: 3659ca71-066f-40ec-8b3a-bc3702f0c6d6
+[W 2022-10-14 11:48:54.413 ServerApp] delete /m2_2022/sandbox/dask-worker.o2324521
+[W 2022-10-14 11:48:54.674 ServerApp] delete /m2_2022/sandbox/dask-worker.o2324522
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 427f5e1d-2eda-4715-8c14-d8ed15ff4165
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b79e964d-b995-40bc-a6a2-b19c509f15f7
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d6b06442-c5c5-49ae-81d0-8e5f6408bdff
+[I 2022-10-14 11:52:42.398 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 11:54:44.369 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 11:56:44.714 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 11:58:45.042 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 12:35:02.567 ServerApp] Starting buffering for 9dc98185-762a-4f53-8002-6720a43d1598:d6fc63b6-757e-481b-af10-93f48d205877
+[W 2022-10-14 12:35:14.324 ServerApp] Notebook drifters_stats/sandbox/binned_stats.ipynb is not trusted
+[I 2022-10-14 12:35:14.960 ServerApp] Kernel started: 9d00ca79-687d-4331-9c31-1ecf9ff16617
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 786a746c-e394-4bbe-8369-2a3ff60623aa
+[W 2022-10-14 12:36:50.822 ServerApp] Notebook drifters_stats/sandbox/energy.ipynb is not trusted
+[I 2022-10-14 12:36:51.471 ServerApp] Kernel started: a35a5829-f828-4389-9ce2-0e9ab6e22a49
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1a555416-2ad7-401d-9d88-ecc4c0d8c39d
+[I 2022-10-14 12:37:07.153 ServerApp] Starting buffering for 9d00ca79-687d-4331-9c31-1ecf9ff16617:dc182b54-4848-4c0f-9cdf-9489a1a63f4c
+[I 2022-10-14 12:37:09.850 ServerApp] Starting buffering for a35a5829-f828-4389-9ce2-0e9ab6e22a49:95609085-3d80-4f18-9e17-df8bcb7cc75f
+[I 2022-10-14 12:50:03.689 ServerApp] Kernel restarted: 88a659c1-758e-41d8-88fa-4df9524b6164
+[I 2022-10-14 12:50:03.696 ServerApp] Starting buffering for 88a659c1-758e-41d8-88fa-4df9524b6164:7a6f4819-2ae0-44c8-af43-3d918007778f
+[I 2022-10-14 12:50:03.705 ServerApp] Restoring connection for 88a659c1-758e-41d8-88fa-4df9524b6164:7a6f4819-2ae0-44c8-af43-3d918007778f
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 375ed2cd-dd04-494a-afb9-cbf550d1ead5
+[W 2022-10-14 13:04:03.706 ServerApp] WebSocket ping timeout after 119997 ms.
+[I 2022-10-14 13:04:08.709 ServerApp] Starting buffering for 88a659c1-758e-41d8-88fa-4df9524b6164:7a6f4819-2ae0-44c8-af43-3d918007778f
+[W 2022-10-14 13:04:15.821 ServerApp] WebSocket ping timeout after 119997 ms.
+[W 2022-10-14 13:04:15.823 ServerApp] WebSocket ping timeout after 119999 ms.
+[I 2022-10-14 13:04:20.824 ServerApp] Starting buffering for 3659ca71-066f-40ec-8b3a-bc3702f0c6d6:29651149-0493-4511-b0e3-0a03629f40b9
+Sat Oct 15 11:46:51 GMT 2022
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.

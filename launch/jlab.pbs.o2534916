@@ -1,0 +1,259 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu Oct 27 12:45:49 GMT 2022
+/home1/datahome/mdemol/m2_2022/launch/jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+/home1/datahome/mdemol/m2_2022/launch/jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-10-27 12:45:53.949 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-10-27 12:45:53.954 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-27 12:45:53.961 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-10-27 12:45:53.961 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2022-10-27 12:45:54.027 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/jupyterlab
+[I 2022-10-27 12:45:54.027 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/mdenv/share/jupyter/lab
+[I 2022-10-27 12:45:54.031 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-10-27 12:45:54.037 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-10-27 12:45:54.038 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2022-10-27 12:45:54.038 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-10-27 12:45:54.038 ServerApp] Jupyter Server 1.21.0 is running at:
+[I 2022-10-27 12:45:54.038 ServerApp] http://r1i2n26:8877/lab
+[I 2022-10-27 12:45:54.038 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-10-27 12:45:54.038 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-10-27 12:47:03.022 ServerApp] 404 GET /api/kernels/dce53904-8c8a-47ab-8a92-3359047ce26b?1666874822992 (10.148.1.145): Kernel does not exist: dce53904-8c8a-47ab-8a92-3359047ce26b
+[W 2022-10-27 12:47:03.022 ServerApp] wrote error: 'Kernel does not exist: dce53904-8c8a-47ab-8a92-3359047ce26b'
+[W 2022-10-27 12:47:03.023 ServerApp] 404 GET /api/kernels/dce53904-8c8a-47ab-8a92-3359047ce26b?1666874822992 (10.148.1.145) 1.71ms referer=http://localhost:8877/lab/tree/GDP
+[W 2022-10-27 12:47:03.710 ServerApp] 404 GET /api/kernels/dce53904-8c8a-47ab-8a92-3359047ce26b/channels?session_id=87a2a90f-b0b7-4385-b99a-771836116e23 (10.148.1.145): Kernel does not exist: dce53904-8c8a-47ab-8a92-3359047ce26b
+[W 2022-10-27 12:47:03.878 ServerApp] 404 GET /api/kernels/dce53904-8c8a-47ab-8a92-3359047ce26b/channels?session_id=87a2a90f-b0b7-4385-b99a-771836116e23 (10.148.1.145) 169.14ms referer=None
+[W 2022-10-27 12:47:04.089 ServerApp] 404 GET /api/kernels/dce53904-8c8a-47ab-8a92-3359047ce26b?1666874824064 (10.148.1.145): Kernel does not exist: dce53904-8c8a-47ab-8a92-3359047ce26b
+[W 2022-10-27 12:47:04.089 ServerApp] wrote error: 'Kernel does not exist: dce53904-8c8a-47ab-8a92-3359047ce26b'
+[W 2022-10-27 12:47:04.089 ServerApp] 404 GET /api/kernels/dce53904-8c8a-47ab-8a92-3359047ce26b?1666874824064 (10.148.1.145) 0.69ms referer=http://localhost:8877/lab/tree/GDP
+[W 2022-10-27 12:47:06.977 ServerApp] 404 GET /api/kernels/dce53904-8c8a-47ab-8a92-3359047ce26b/channels?session_id=87a2a90f-b0b7-4385-b99a-771836116e23 (10.148.1.145): Kernel does not exist: dce53904-8c8a-47ab-8a92-3359047ce26b
+[W 2022-10-27 12:47:06.978 ServerApp] 404 GET /api/kernels/dce53904-8c8a-47ab-8a92-3359047ce26b/channels?session_id=87a2a90f-b0b7-4385-b99a-771836116e23 (10.148.1.145) 1.60ms referer=None
+[W 2022-10-27 12:47:07.151 ServerApp] 404 GET /api/kernels/dce53904-8c8a-47ab-8a92-3359047ce26b?1666874827126 (10.148.1.145): Kernel does not exist: dce53904-8c8a-47ab-8a92-3359047ce26b
+[W 2022-10-27 12:47:07.151 ServerApp] wrote error: 'Kernel does not exist: dce53904-8c8a-47ab-8a92-3359047ce26b'
+[W 2022-10-27 12:47:07.151 ServerApp] 404 GET /api/kernels/dce53904-8c8a-47ab-8a92-3359047ce26b?1666874827126 (10.148.1.145) 0.66ms referer=http://localhost:8877/lab/tree/GDP
+[W 2022-10-27 12:47:08.810 ServerApp] 404 GET /api/kernels/dce53904-8c8a-47ab-8a92-3359047ce26b/channels?session_id=87a2a90f-b0b7-4385-b99a-771836116e23 (10.148.1.145): Kernel does not exist: dce53904-8c8a-47ab-8a92-3359047ce26b
+[W 2022-10-27 12:47:08.811 ServerApp] 404 GET /api/kernels/dce53904-8c8a-47ab-8a92-3359047ce26b/channels?session_id=87a2a90f-b0b7-4385-b99a-771836116e23 (10.148.1.145) 1.55ms referer=None
+[W 2022-10-27 12:47:09.008 ServerApp] 404 GET /api/kernels/dce53904-8c8a-47ab-8a92-3359047ce26b?1666874828982 (10.148.1.145): Kernel does not exist: dce53904-8c8a-47ab-8a92-3359047ce26b
+[W 2022-10-27 12:47:09.008 ServerApp] wrote error: 'Kernel does not exist: dce53904-8c8a-47ab-8a92-3359047ce26b'
+[W 2022-10-27 12:47:09.008 ServerApp] 404 GET /api/kernels/dce53904-8c8a-47ab-8a92-3359047ce26b?1666874828982 (10.148.1.145) 0.69ms referer=http://localhost:8877/lab/tree/GDP
+[W 2022-10-27 12:47:12.497 ServerApp] 404 GET /api/kernels/dce53904-8c8a-47ab-8a92-3359047ce26b/channels?session_id=87a2a90f-b0b7-4385-b99a-771836116e23 (10.148.1.145): Kernel does not exist: dce53904-8c8a-47ab-8a92-3359047ce26b
+[W 2022-10-27 12:47:12.498 ServerApp] 404 GET /api/kernels/dce53904-8c8a-47ab-8a92-3359047ce26b/channels?session_id=87a2a90f-b0b7-4385-b99a-771836116e23 (10.148.1.145) 1.90ms referer=None
+[W 2022-10-27 12:47:12.590 ServerApp] 404 GET /api/kernels/dce53904-8c8a-47ab-8a92-3359047ce26b?1666874832565 (10.148.1.145): Kernel does not exist: dce53904-8c8a-47ab-8a92-3359047ce26b
+[W 2022-10-27 12:47:12.590 ServerApp] wrote error: 'Kernel does not exist: dce53904-8c8a-47ab-8a92-3359047ce26b'
+[W 2022-10-27 12:47:12.591 ServerApp] 404 GET /api/kernels/dce53904-8c8a-47ab-8a92-3359047ce26b?1666874832565 (10.148.1.145) 0.73ms referer=http://localhost:8877/lab/tree/GDP
+[I 2022-10-27 12:47:20.388 ServerApp] Kernel started: 5d032f87-856c-4df8-a732-b8432ceeb35b
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b549eadd-b9f7-46fe-b3a7-e00d36662630
+[I 2022-10-27 12:47:25.653 ServerApp] Kernel restarted: 5d032f87-856c-4df8-a732-b8432ceeb35b
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 824cb790-2d0e-4a31-8966-080537d23f00
+[I 2022-10-27 12:48:31.563 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 12:52:31.879 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 12:54:23.453 ServerApp] Kernel interrupted: 5d032f87-856c-4df8-a732-b8432ceeb35b
+[I 2022-10-27 12:54:24.154 ServerApp] Kernel interrupted: 5d032f87-856c-4df8-a732-b8432ceeb35b
+[I 2022-10-27 12:54:24.422 ServerApp] Kernel interrupted: 5d032f87-856c-4df8-a732-b8432ceeb35b
+[I 2022-10-27 12:54:32.360 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 13:15:00.350 ServerApp] Kernel interrupted: 5d032f87-856c-4df8-a732-b8432ceeb35b
+[I 2022-10-27 13:15:00.802 ServerApp] Kernel interrupted: 5d032f87-856c-4df8-a732-b8432ceeb35b
+[I 2022-10-27 13:15:09.132 ServerApp] Kernel restarted: 5d032f87-856c-4df8-a732-b8432ceeb35b
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 09a8fd4e-1e42-4cdd-ab46-7a057c0d3d9f
+[I 2022-10-27 13:16:32.971 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 13:22:33.260 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 13:30:33.599 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 13:34:33.894 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 13:38:34.109 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[W 2022-10-27 13:40:39.144 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-27 13:40:40.723 ServerApp] zmq message arrived on closed channel
+[W 2022-10-27 13:40:40.726 ServerApp] zmq message arrived on closed channel
+[W 2022-10-27 13:40:40.727 ServerApp] zmq message arrived on closed channel
+[W 2022-10-27 13:40:51.214 ServerApp] WebSocket ping timeout after 119997 ms.
+[I 2022-10-27 13:40:56.217 ServerApp] Starting buffering for 5d032f87-856c-4df8-a732-b8432ceeb35b:29dd2408-bbb2-43da-b3be-b84f36d3c3e7
+[I 2022-10-27 15:25:43.277 ServerApp] Restoring connection for 5d032f87-856c-4df8-a732-b8432ceeb35b:29dd2408-bbb2-43da-b3be-b84f36d3c3e7
+[I 2022-10-27 15:25:45.257 ServerApp] Starting buffering for 5d032f87-856c-4df8-a732-b8432ceeb35b:29dd2408-bbb2-43da-b3be-b84f36d3c3e7
+[I 2022-10-27 15:25:48.173 LabApp] Build is up to date
+[I 2022-10-27 15:25:51.200 ServerApp] Kernel started: edc671e3-dea9-431a-acc9-876b3e329e9e
+[I 2022-10-27 15:25:51.201 ServerApp] Kernel started: f6ae12fc-21a9-4bf9-bff2-a513cbb3a80d
+[I 2022-10-27 15:25:51.205 ServerApp] Kernel started: 08427f4e-d3d4-413c-9c5e-fde99dea1030
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/ipykernel_launcher.py", line 17, in <module>
+    app.launch_new_instance()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/traitlets/config/application.py", line 981, in launch_instance
+    app.initialize(argv)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/traitlets/config/application.py", line 110, in inner
+    return method(app, *args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/ipykernel/kernelapp.py", line 666, in initialize
+    self.init_sockets()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/ipykernel/kernelapp.py", line 322, in init_sockets
+    self.init_iopub(context)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/ipykernel/kernelapp.py", line 349, in init_iopub
+    self.iopub_port = self._bind_socket(self.iopub_socket, self.iopub_port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/ipykernel/kernelapp.py", line 244, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/ipykernel/kernelapp.py", line 220, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/zmq/sugar/socket.py", line 232, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 568, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/ipykernel_launcher.py", line 17, in <module>
+    app.launch_new_instance()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/traitlets/config/application.py", line 981, in launch_instance
+    app.initialize(argv)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/traitlets/config/application.py", line 110, in inner
+    return method(app, *args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/ipykernel/kernelapp.py", line 666, in initialize
+    self.init_sockets()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/ipykernel/kernelapp.py", line 322, in init_sockets
+    self.init_iopub(context)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/ipykernel/kernelapp.py", line 349, in init_iopub
+    self.iopub_port = self._bind_socket(self.iopub_socket, self.iopub_port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/ipykernel/kernelapp.py", line 244, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/ipykernel/kernelapp.py", line 220, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/zmq/sugar/socket.py", line 232, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 568, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 19b9042d-f366-4164-a2a4-8e224d274f5e
+[W 2022-10-27 15:26:51.386 ServerApp] Timeout waiting for kernel_info reply from 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:26:51.388 ServerApp] Timeout waiting for kernel_info reply from f6ae12fc-21a9-4bf9-bff2-a513cbb3a80d
+[W 2022-10-27 15:26:51.389 ServerApp] Timeout waiting for kernel_info reply from 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:26:51.457 ServerApp] Timeout waiting for kernel_info reply from 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:26:55.898 ServerApp] Nudge: attempt 10 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:26:55.902 ServerApp] Nudge: attempt 10 on kernel f6ae12fc-21a9-4bf9-bff2-a513cbb3a80d
+[W 2022-10-27 15:26:55.902 ServerApp] Nudge: attempt 10 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:26:55.969 ServerApp] Nudge: attempt 10 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:00.909 ServerApp] Nudge: attempt 20 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:00.912 ServerApp] Nudge: attempt 20 on kernel f6ae12fc-21a9-4bf9-bff2-a513cbb3a80d
+[W 2022-10-27 15:27:00.912 ServerApp] Nudge: attempt 20 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:00.979 ServerApp] Nudge: attempt 20 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:05.922 ServerApp] Nudge: attempt 30 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:05.923 ServerApp] Nudge: attempt 30 on kernel f6ae12fc-21a9-4bf9-bff2-a513cbb3a80d
+[W 2022-10-27 15:27:05.923 ServerApp] Nudge: attempt 30 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:05.989 ServerApp] Nudge: attempt 30 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:10.933 ServerApp] Nudge: attempt 40 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:10.934 ServerApp] Nudge: attempt 40 on kernel f6ae12fc-21a9-4bf9-bff2-a513cbb3a80d
+[W 2022-10-27 15:27:10.934 ServerApp] Nudge: attempt 40 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:10.998 ServerApp] Nudge: attempt 40 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:15.943 ServerApp] Nudge: attempt 50 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:15.944 ServerApp] Nudge: attempt 50 on kernel f6ae12fc-21a9-4bf9-bff2-a513cbb3a80d
+[W 2022-10-27 15:27:15.944 ServerApp] Nudge: attempt 50 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:16.009 ServerApp] Nudge: attempt 50 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:20.954 ServerApp] Nudge: attempt 60 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:20.955 ServerApp] Nudge: attempt 60 on kernel f6ae12fc-21a9-4bf9-bff2-a513cbb3a80d
+[W 2022-10-27 15:27:20.955 ServerApp] Nudge: attempt 60 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:21.019 ServerApp] Nudge: attempt 60 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:25.967 ServerApp] Nudge: attempt 70 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:25.967 ServerApp] Nudge: attempt 70 on kernel f6ae12fc-21a9-4bf9-bff2-a513cbb3a80d
+[W 2022-10-27 15:27:25.968 ServerApp] Nudge: attempt 70 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:26.028 ServerApp] Nudge: attempt 70 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:30.978 ServerApp] Nudge: attempt 80 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:30.978 ServerApp] Nudge: attempt 80 on kernel f6ae12fc-21a9-4bf9-bff2-a513cbb3a80d
+[W 2022-10-27 15:27:30.979 ServerApp] Nudge: attempt 80 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:31.039 ServerApp] Nudge: attempt 80 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:35.988 ServerApp] Nudge: attempt 90 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:35.988 ServerApp] Nudge: attempt 90 on kernel f6ae12fc-21a9-4bf9-bff2-a513cbb3a80d
+[W 2022-10-27 15:27:35.988 ServerApp] Nudge: attempt 90 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:36.049 ServerApp] Nudge: attempt 90 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:40.998 ServerApp] Nudge: attempt 100 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:40.999 ServerApp] Nudge: attempt 100 on kernel f6ae12fc-21a9-4bf9-bff2-a513cbb3a80d
+[W 2022-10-27 15:27:40.999 ServerApp] Nudge: attempt 100 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:41.060 ServerApp] Nudge: attempt 100 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:46.008 ServerApp] Nudge: attempt 110 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:46.009 ServerApp] Nudge: attempt 110 on kernel f6ae12fc-21a9-4bf9-bff2-a513cbb3a80d
+[W 2022-10-27 15:27:46.009 ServerApp] Nudge: attempt 110 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:46.070 ServerApp] Nudge: attempt 110 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:51.018 ServerApp] Nudge: attempt 120 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:51.019 ServerApp] Nudge: attempt 120 on kernel f6ae12fc-21a9-4bf9-bff2-a513cbb3a80d
+[W 2022-10-27 15:27:51.019 ServerApp] Nudge: attempt 120 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[W 2022-10-27 15:27:51.080 ServerApp] Nudge: attempt 120 on kernel 08427f4e-d3d4-413c-9c5e-fde99dea1030
+[E 2022-10-27 15:27:51.389 ServerApp] Uncaught exception GET /api/kernels/08427f4e-d3d4-413c-9c5e-fde99dea1030/channels?session_id=0d7a862a-196a-41be-906b-6e23c45dc074 (10.148.1.145)
+    HTTPServerRequest(protocol='http', host='localhost:8877', method='GET', uri='/api/kernels/08427f4e-d3d4-413c-9c5e-fde99dea1030/channels?session_id=0d7a862a-196a-41be-906b-6e23c45dc074', version='HTTP/1.1', remote_ip='10.148.1.145')
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/tornado/websocket.py", line 956, in _accept_connection
+        await open_result
+      File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/tasks.py", line 328, in __wakeup
+        future.result()
+    tornado.util.TimeoutError: Timeout
+[E 2022-10-27 15:27:51.391 ServerApp] Uncaught exception GET /api/kernels/f6ae12fc-21a9-4bf9-bff2-a513cbb3a80d/channels?session_id=65b057dc-7bc9-443d-aced-c9dadd0a52d4 (10.148.1.145)
+    HTTPServerRequest(protocol='http', host='localhost:8877', method='GET', uri='/api/kernels/f6ae12fc-21a9-4bf9-bff2-a513cbb3a80d/channels?session_id=65b057dc-7bc9-443d-aced-c9dadd0a52d4', version='HTTP/1.1', remote_ip='10.148.1.145')
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/tornado/websocket.py", line 956, in _accept_connection
+        await open_result
+      File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/tasks.py", line 328, in __wakeup
+        future.result()
+    tornado.util.TimeoutError: Timeout
+[E 2022-10-27 15:27:51.393 ServerApp] Uncaught exception GET /api/kernels/08427f4e-d3d4-413c-9c5e-fde99dea1030/channels?session_id=a384de84-b5fb-42fc-9252-d7035740c468 (10.148.1.145)
+    HTTPServerRequest(protocol='http', host='localhost:8877', method='GET', uri='/api/kernels/08427f4e-d3d4-413c-9c5e-fde99dea1030/channels?session_id=a384de84-b5fb-42fc-9252-d7035740c468', version='HTTP/1.1', remote_ip='10.148.1.145')
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/tornado/websocket.py", line 956, in _accept_connection
+        await open_result
+      File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/tasks.py", line 328, in __wakeup
+        future.result()
+    tornado.util.TimeoutError: Timeout
+[W 2022-10-27 15:27:51.426 ServerApp] Replacing stale connection: f6ae12fc-21a9-4bf9-bff2-a513cbb3a80d:65b057dc-7bc9-443d-aced-c9dadd0a52d4
+[W 2022-10-27 15:27:51.427 ServerApp] Replacing stale connection: 08427f4e-d3d4-413c-9c5e-fde99dea1030:0d7a862a-196a-41be-906b-6e23c45dc074
+[W 2022-10-27 15:27:51.442 ServerApp] Replacing stale connection: 08427f4e-d3d4-413c-9c5e-fde99dea1030:a384de84-b5fb-42fc-9252-d7035740c468
+[E 2022-10-27 15:27:51.459 ServerApp] Uncaught exception GET /api/kernels/08427f4e-d3d4-413c-9c5e-fde99dea1030/channels?session_id=6b34c970-b251-4a95-a0aa-a31d21a32c59 (10.148.1.145)
+    HTTPServerRequest(protocol='http', host='localhost:8877', method='GET', uri='/api/kernels/08427f4e-d3d4-413c-9c5e-fde99dea1030/channels?session_id=6b34c970-b251-4a95-a0aa-a31d21a32c59', version='HTTP/1.1', remote_ip='10.148.1.145')
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/tornado/websocket.py", line 956, in _accept_connection
+        await open_result
+      File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/tasks.py", line 328, in __wakeup
+        future.result()
+    tornado.util.TimeoutError: Timeout
+[W 2022-10-27 15:27:51.523 ServerApp] Replacing stale connection: 08427f4e-d3d4-413c-9c5e-fde99dea1030:6b34c970-b251-4a95-a0aa-a31d21a32c59
+[I 2022-10-27 15:29:01.859 ServerApp] Starting buffering for 5d032f87-856c-4df8-a732-b8432ceeb35b:2694eb48-b82b-4324-9107-4be5db82967e
+[I 2022-10-27 15:29:01.860 ServerApp] Starting buffering for edc671e3-dea9-431a-acc9-876b3e329e9e:1f7c0721-90ac-44a3-9057-25b31cd6be42
+[I 2022-10-27 15:29:07.661 ServerApp] Starting buffering for f6ae12fc-21a9-4bf9-bff2-a513cbb3a80d:65b057dc-7bc9-443d-aced-c9dadd0a52d4
+[I 2022-10-27 15:29:07.661 ServerApp] Starting buffering for 08427f4e-d3d4-413c-9c5e-fde99dea1030:6b34c970-b251-4a95-a0aa-a31d21a32c59
+[C 2022-10-28 07:31:36.654 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-10-28 07:31:36.718 ServerApp] Shutting down 3 extensions
+[I 2022-10-28 07:31:36.718 ServerApp] Shutting down 4 kernels
+[I 2022-10-28 07:31:36.719 ServerApp] Kernel shutdown: 5d032f87-856c-4df8-a732-b8432ceeb35b
+[I 2022-10-28 07:31:36.719 ServerApp] Kernel shutdown: edc671e3-dea9-431a-acc9-876b3e329e9e
+[I 2022-10-28 07:31:36.719 ServerApp] Kernel shutdown: f6ae12fc-21a9-4bf9-bff2-a513cbb3a80d
+[I 2022-10-28 07:31:36.720 ServerApp] Kernel shutdown: 08427f4e-d3d4-413c-9c5e-fde99dea1030
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/ipykernel/kernelapp.py", line 395, in close
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/ipykernel/kernelapp.py", line 395, in close
+    self.context.term()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/zmq/sugar/context.py", line 217, in term
+    self.context.term()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/zmq/sugar/context.py", line 217, in term
+    super().term()
+  File "zmq/backend/cython/context.pyx", line 83, in zmq.backend.cython.context.Context.term
+    super().term()
+  File "zmq/backend/cython/context.pyx", line 83, in zmq.backend.cython.context.Context.term
+  File "zmq/backend/cython/checkrc.pxd", line 13, in zmq.backend.cython.checkrc._check_rc
+  File "zmq/backend/cython/checkrc.pxd", line 13, in zmq.backend.cython.checkrc._check_rc
+KeyboardInterrupt
+KeyboardInterrupt
+[I 2022-10-28 07:31:39.567 ServerApp] Shutting down 0 terminals

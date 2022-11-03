@@ -1,0 +1,177 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu Aug  4 13:53:09 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-08-04 13:53:10.783 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-08-04 13:53:10.788 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-08-04 13:53:10.795 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-08-04 13:53:11.112 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-08-04 13:53:11.167 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-08-04 13:53:11.168 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-08-04 13:53:11.168 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-08-04 13:53:11.172 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-08-04 13:53:11.178 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-08-04 13:53:11.178 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-08-04 13:53:11.178 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-08-04 13:53:11.178 ServerApp] http://r1i0n27:8877/lab
+[I 2022-08-04 13:53:11.178 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-08-04 13:53:11.178 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-08-04 14:08:28.557 LabApp] Build is up to date
+[I 2022-08-04 14:08:30.504 ServerApp] Kernel started: 3e743d9c-2670-46af-aa47-5a622d44b481
+[I 2022-08-04 14:08:30.504 ServerApp] Kernel started: b837c891-5a86-43eb-844a-472a898f2ac0
+[I 2022-08-04 14:08:30.510 ServerApp] Kernel started: 8892d1bb-7a74-4e6d-b403-125ee5825883
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 0e506219-6a98-4b36-a808-26fd7627cad4
+[IPKernelApp] WARNING | No such comm: fb5a032a-1cb3-4665-b7e3-ec0bb3fcddc1
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c8710f45-bc51-4d6d-8bcb-60d426a35a36
+[I 2022-08-04 14:10:29.928 ServerApp] Saving file at /m2_2022/sandbox/diag_ind_bars.ipynb
+[I 2022-08-04 14:10:58.362 ServerApp] Saving file at /m2_2022/sandbox/diag_ind_bars.ipynb
+[I 2022-08-04 14:10:58.626 ServerApp] Starting buffering for b837c891-5a86-43eb-844a-472a898f2ac0:738cc327-1e90-418c-a3a9-6e505ab19b0a
+[I 2022-08-04 14:11:04.496 ServerApp] Kernel restarted: 3e743d9c-2670-46af-aa47-5a622d44b481
+[I 2022-08-04 14:11:04.502 ServerApp] Starting buffering for 3e743d9c-2670-46af-aa47-5a622d44b481:7bf160ae-8919-404c-90d1-96482c9ee223
+[I 2022-08-04 14:11:04.510 ServerApp] Restoring connection for 3e743d9c-2670-46af-aa47-5a622d44b481:7bf160ae-8919-404c-90d1-96482c9ee223
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a679bb1c-d68e-408f-b518-877f17fc300e
+[I 2022-08-04 14:12:29.451 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:14:29.570 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:16:29.686 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:18:29.798 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:20:29.880 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:22:29.984 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:24:30.114 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:26:30.235 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:28:30.350 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:30:30.474 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:32:30.590 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:34:30.723 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:36:30.889 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:38:31.163 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:40:31.397 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:42:31.614 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:44:31.820 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:46:32.116 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:48:32.369 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:50:32.633 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:52:32.893 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:56:33.162 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 14:58:33.340 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 15:00:33.528 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 15:02:33.712 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 15:04:33.854 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 15:06:34.036 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 15:08:34.224 ServerApp] Saving file at /m2_2022/sandbox/diag_separation.ipynb
+[I 2022-08-04 15:10:32.911 ServerApp] Kernel interrupted: 3e743d9c-2670-46af-aa47-5a622d44b481
+[I 2022-08-04 15:10:33.937 ServerApp] Kernel interrupted: 3e743d9c-2670-46af-aa47-5a622d44b481
+[I 2022-08-04 15:10:34.883 ServerApp] Kernel interrupted: 3e743d9c-2670-46af-aa47-5a622d44b481
+[I 2022-08-04 15:10:36.810 ServerApp] Kernel interrupted: 3e743d9c-2670-46af-aa47-5a622d44b481
+[I 2022-08-04 15:10:36.986 ServerApp] Kernel interrupted: 3e743d9c-2670-46af-aa47-5a622d44b481
+[I 2022-08-04 15:10:37.176 ServerApp] Kernel interrupted: 3e743d9c-2670-46af-aa47-5a622d44b481
+[W 2022-08-04 15:11:11.527 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-04 15:11:12.422 ServerApp] iopub messages resumed
+[W 2022-08-04 15:11:15.021 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-04 15:11:15.946 ServerApp] iopub messages resumed
+[W 2022-08-04 15:11:18.541 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-04 15:11:19.466 ServerApp] iopub messages resumed
+[W 2022-08-04 15:11:22.094 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-04 15:11:22.985 ServerApp] iopub messages resumed
+[W 2022-08-04 15:11:25.578 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-04 15:11:26.505 ServerApp] iopub messages resumed
+[W 2022-08-04 15:11:29.109 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-04 15:11:30.024 ServerApp] iopub messages resumed
+[W 2022-08-04 15:11:32.665 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-04 15:11:33.553 ServerApp] iopub messages resumed
+[W 2022-08-04 15:11:36.197 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2022-08-04 15:11:37.084 ServerApp] iopub messages resumed
+Terminated
+[C 2022-08-04 15:13:45.659 ServerApp] received signal 15, stopping
+[I 2022-08-04 15:13:45.710 ServerApp] Shutting down 3 extensions
+[I 2022-08-04 15:13:45.711 ServerApp] Shutting down 3 kernels
+[I 2022-08-04 15:13:45.711 ServerApp] Kernel shutdown: b837c891-5a86-43eb-844a-472a898f2ac0
+[I 2022-08-04 15:13:45.711 ServerApp] Kernel shutdown: 3e743d9c-2670-46af-aa47-5a622d44b481
+[I 2022-08-04 15:13:45.712 ServerApp] Kernel shutdown: 8892d1bb-7a74-4e6d-b403-125ee5825883
+[I 2022-08-04 15:13:48.426 ServerApp] Shutting down 0 terminals

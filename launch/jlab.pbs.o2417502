@@ -1,0 +1,1153 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Fri Oct 21 07:14:27 GMT 2022
+/home1/datahome/mdemol/m2_2022/launch/jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+/home1/datahome/mdemol/m2_2022/launch/jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-10-21 07:15:21.178 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-10-21 07:15:21.201 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-21 07:15:21.209 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-10-21 07:15:21.209 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2022-10-21 07:15:21.614 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/jupyterlab
+[I 2022-10-21 07:15:21.614 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/mdenv/share/jupyter/lab
+[I 2022-10-21 07:15:21.635 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-10-21 07:15:21.741 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-10-21 07:15:21.742 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2022-10-21 07:15:21.742 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-10-21 07:15:21.742 ServerApp] Jupyter Server 1.21.0 is running at:
+[I 2022-10-21 07:15:21.743 ServerApp] http://r1i5n33:8877/lab
+[I 2022-10-21 07:15:21.743 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-10-21 07:15:21.743 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-10-21 07:16:53.190 ServerApp] 404 GET /apple-touch-icon-precomposed.png (10.148.1.145) 132.83ms referer=None
+[W 2022-10-21 07:16:54.156 ServerApp] 404 GET /apple-touch-icon.png (10.148.1.145) 1.06ms referer=None
+[E 2022-10-21 07:16:56.075 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:600:3)
+        at Object.readFileSync (node:fs:468:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-10-21 07:16:56.793 LabApp] Build is up to date
+[W 2022-10-21 07:17:00.222 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-21 07:17:02.105 ServerApp] Kernel started: 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9
+[I 2022-10-21 07:17:02.107 ServerApp] Kernel started: dbb1aad3-06f9-4877-bb9d-c3b020e4c5cc
+[I 2022-10-21 07:17:02.109 ServerApp] Kernel started: 9e778ad6-97d5-4b80-bb93-fcdb58666c44
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 042c2cbc-7613-42eb-ade2-eefe9c7e81c3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 96b2f107-81eb-489c-9758-37df9e8000ef
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: beb3404b-7839-4575-92c8-488b6105de02
+[I 2022-10-21 07:17:59.350 ServerApp] Kernel started: 9cc10ff2-c8fb-4365-a12a-1458612428c5
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 056ffb82-9bdc-4e4c-b2ed-6ebcb0ff8806
+[I 2022-10-21 07:18:08.340 ServerApp] Kernel shutdown: 9cc10ff2-c8fb-4365-a12a-1458612428c5
+[W 2022-10-21 07:18:08.582 ServerApp] delete /GDP/Untitled.ipynb
+[I 2022-10-21 07:18:34.832 ServerApp] Copying drifters_stats/sandbox/derivation.ipynb to /GDP
+[I 2022-10-21 07:18:40.712 ServerApp] Kernel started: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 6d930b02-bbf7-4c95-8798-476d3f1f9e05
+[I 2022-10-21 07:18:46.525 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:08f4b3fc-92a2-4860-a626-b972ae1dd38e
+[I 2022-10-21 07:21:00.703 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 07:23:00.794 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 07:25:00.924 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 07:31:01.108 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 07:33:01.229 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 07:35:01.343 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 07:36:02.324 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 07:37:01.467 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 07:37:33.214 ServerApp] Kernel restarted: 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9
+[I 2022-10-21 07:37:33.220 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 07:37:33.233 ServerApp] Restoring connection for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+readline: /etc/inputrc: line 19: term: unknown variable name
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-fn01_hg_', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-dr3rj9ec', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-_9i0yegf', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-oazl53xk', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-pcfyrhvg', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-t8n4ur1r', purging
+[I 2022-10-21 07:39:01.607 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 07:41:01.740 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 07:43:01.913 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 07:44:29.734 ServerApp] Kernel restarted: 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9
+[I 2022-10-21 07:44:29.740 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 07:44:29.753 ServerApp] Restoring connection for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-21 07:45:02.061 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 07:47:02.180 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 07:49:02.300 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 07:51:02.573 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 07:53:02.688 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 07:53:09.846 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 07:53:17.289 ServerApp] Kernel restarted: 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9
+[I 2022-10-21 07:53:17.295 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 07:53:17.309 ServerApp] Restoring connection for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+readline: /etc/inputrc: line 19: term: unknown variable name
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-35rmrb53', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-4qn35i67', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-bzeq2n_l', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-2kvr_qyv', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-2vitujz0', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-dr5z99jn', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-fj7mrr40', purging
+[I 2022-10-21 07:55:02.832 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 07:57:02.920 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 08:01:02.023 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 08:01:09.098 ServerApp] Kernel restarted: 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9
+[I 2022-10-21 08:01:09.101 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 08:01:09.108 ServerApp] Restoring connection for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-21 08:02:12.862 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 08:02:20.457 ServerApp] Kernel restarted: 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9
+[I 2022-10-21 08:02:20.461 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 08:02:20.472 ServerApp] Restoring connection for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-21 08:03:03.031 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-xmumo0z_', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-mc4k3q9j', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-1nr_uwsy', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-wqjkfmae', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-d_fdz5nr', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-wzzumyd0', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-31xlvytq', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-w4ydcyf6', purging
+[I 2022-10-21 08:05:03.439 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 08:10:12.869 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 08:11:03.620 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 08:13:03.750 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 08:15:00.965 ServerApp] Saving file at /GDP/spectral_analysis.ipynb
+[I 2022-10-21 08:15:03.942 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 08:17:04.130 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 08:17:15.551 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 08:17:24.196 ServerApp] Kernel restarted: 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9
+[I 2022-10-21 08:17:24.201 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 08:17:24.214 ServerApp] Restoring connection for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+readline: /etc/inputrc: line 19: term: unknown variable name
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 08:18:02.608 ServerApp] Kernel restarted: 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9
+[I 2022-10-21 08:18:02.614 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 08:18:02.627 ServerApp] Restoring connection for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+readline: /etc/inputrc: line 19: term: unknown variable name
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-1v32n7mv', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-nyld_ym9', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-b7pr_tc3', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-yxw8lk6n', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-e0mdrk_y', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-8519kk9a', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-qdl1i33m', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-0ycdgs2j', purging
+[I 2022-10-21 08:18:56.197 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 08:19:04.250 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 08:19:04.783 ServerApp] Kernel restarted: 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9
+[I 2022-10-21 08:19:04.789 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 08:19:04.803 ServerApp] Restoring connection for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+readline: /etc/inputrc: line 19: term: unknown variable name
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-5rfpjnue', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-r2vj6e49', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-j5_ha1yp', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-98rxgzm1', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-5v0keyez', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-coj99ce9', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-t_cw73fg', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-04z761d9', purging
+[I 2022-10-21 08:20:19.366 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 08:20:26.302 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 08:20:35.072 ServerApp] Kernel restarted: 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9
+[I 2022-10-21 08:20:35.078 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 08:20:35.092 ServerApp] Restoring connection for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+readline: /etc/inputrc: line 19: term: unknown variable name
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-6zjnij67', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-7i9mna99', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-wd8sz_n6', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-jlk2afxx', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-0qh1g9wr', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-rv35pqh9', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-zp1saosu', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-h_3yo9bp', purging
+[I 2022-10-21 08:21:04.330 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 08:23:04.408 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 08:25:04.572 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 08:27:04.690 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 08:31:33.461 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 08:31:43.799 ServerApp] Kernel restarted: 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9
+[I 2022-10-21 08:31:43.805 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 08:31:43.819 ServerApp] Restoring connection for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+readline: /etc/inputrc: line 19: term: unknown variable name
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-fp3wlgjp', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-j9s1pf4k', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-geocftl1', purging
+[I 2022-10-21 08:33:04.803 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 08:33:33.489 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 08:34:32.705 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 08:34:40.552 ServerApp] Kernel restarted: 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9
+[I 2022-10-21 08:34:40.558 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 08:34:40.571 ServerApp] Restoring connection for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+readline: /etc/inputrc: line 19: term: unknown variable name
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-7kcus1c4', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-07xts759', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-wlvn3wpb', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-t4vb48i7', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-z7osfh0u', purging
+[I 2022-10-21 08:35:05.109 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 08:36:10.921 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 08:37:01.096 ServerApp] Kernel restarted: 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9
+[I 2022-10-21 08:37:01.101 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 08:37:01.113 ServerApp] Restoring connection for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-21 08:37:05.317 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 08:39:05.756 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 08:41:06.047 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 08:52:32.046 ServerApp] Kernel restarted: 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9
+[I 2022-10-21 08:52:32.131 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 08:52:32.138 ServerApp] Restoring connection for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+readline: /etc/inputrc: line 19: term: unknown variable name
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-6aagej9i', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-dphabljp', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-tlhqx5nk', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-l2iinteb', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-7stxt83f', purging
+[I 2022-10-21 08:53:06.145 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 08:55:06.254 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+distributed.worker - WARNING - Compute Failed
+Key:       ('assign-4b8a59d4a4cb7b39539a2567be494445', 2)
+Function:  subgraph_callable-8d49fdf4-b9a0-4830-9537-14087f7b
+args:      (              id                time  ...  semidiurnal_vn_real  semidiurnal_vn_imag
+0         152150 2015-11-28 20:00:00  ...             0.008217             0.011987
+1         152150 2015-11-28 21:00:00  ...             0.008314             0.012074
+2         152150 2015-11-28 22:00:00  ...             0.008410             0.012157
+3         152150 2015-11-28 23:00:00  ...             0.008504             0.012238
+4         152150 2015-11-29 00:00:00  ...             0.008598             0.012315
+...          ...                 ...  ...                  ...                  ...
+197241  63771150 2018-05-27 18:00:00  ...             0.028300            -0.032911
+197242  63771150 2018-05-27 19:00:00  ...             0.028224            -0.033032
+197243  63771150 2018-05-27 20:00:00  ...             0.028148            -0.033151
+197244  63771150 2018-05-27 21:00:00  ...             0.028072            -0.033266
+197245  63771150 2018-05-27 22:00:00  ...             0.027995            -
+kwargs:    {}
+Exception: 'TypeError("value should be a \'Timestamp\', \'NaT\', or array of those. Got \'StringArray\' instead.")'
+
+distributed.worker - WARNING - Compute Failed
+Key:       ('assign-4b8a59d4a4cb7b39539a2567be494445', 1)
+Function:  subgraph_callable-8d49fdf4-b9a0-4830-9537-14087f7b
+args:      (              id                time  ...  semidiurnal_vn_real  semidiurnal_vn_imag
+0       63942780 2019-08-11 00:00:00  ...            -0.002762            -0.009016
+1       63942780 2019-08-11 01:00:00  ...            -0.002618            -0.008890
+2       63942780 2019-08-11 02:00:00  ...            -0.002475            -0.008759
+3       63942780 2019-08-11 03:00:00  ...            -0.002333            -0.008625
+4       63942780 2019-08-11 04:00:00  ...            -0.002191            -0.008486
+...          ...                 ...  ...                  ...                  ...
+247945  68247820 2020-03-31 20:00:00  ...             0.000815             0.013424
+247946  68247820 2020-03-31 21:00:00  ...             0.000789             0.013180
+247947  68247820 2020-03-31 22:00:00  ...             0.000762             0.012937
+247948  68247820 2020-03-31 23:00:00  ...             0.000735             0.012695
+247949  68247820 2020-04-01 00:00:00  ...             0.000708             
+kwargs:    {}
+Exception: 'TypeError("value should be a \'Timestamp\', \'NaT\', or array of those. Got \'StringArray\' instead.")'
+
+distributed.worker - WARNING - Compute Failed
+Key:       ('assign-4b8a59d4a4cb7b39539a2567be494445', 0)
+Function:  subgraph_callable-8d49fdf4-b9a0-4830-9537-14087f7b
+args:      (              id                time  ...  semidiurnal_vn_real  semidiurnal_vn_imag
+0         131969 2014-02-18 20:00:00  ...            -0.003571             0.005423
+1         131969 2014-02-18 21:00:00  ...            -0.003600             0.005415
+2         131969 2014-02-18 22:00:00  ...            -0.003628             0.005405
+3         131969 2014-02-18 23:00:00  ...            -0.003655             0.005394
+4         131969 2014-02-19 00:00:00  ...            -0.003680             0.005381
+...          ...                 ...  ...                  ...                  ...
+247944  63942780 2019-08-10 19:00:00  ...            -0.003489            -0.009584
+247945  63942780 2019-08-10 20:00:00  ...            -0.003343            -0.009479
+247946  63942780 2019-08-10 21:00:00  ...            -0.003197            -0.009370
+247947  63942780 2019-08-10 22:00:00  ...            -0.003051            -0.009256
+247948  63942780 2019-08-10 23:00:00  ...            -0.002906            -
+kwargs:    {}
+Exception: 'TypeError("value should be a \'Timestamp\', \'NaT\', or array of those. Got \'StringArray\' instead.")'
+
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 08:55:51.762 ServerApp] Kernel restarted: 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9
+[I 2022-10-21 08:55:51.768 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 08:55:51.782 ServerApp] Restoring connection for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+readline: /etc/inputrc: line 19: term: unknown variable name
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-pqr4x21z', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-1jtbubbw', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-zv3kfqn8', purging
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 08:56:59.088 ServerApp] Kernel restarted: 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9
+[I 2022-10-21 08:56:59.093 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 08:56:59.105 ServerApp] Restoring connection for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 08:57:06.475 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+readline: /etc/inputrc: line 19: term: unknown variable name
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-a6y22fdt', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-c02rm7c_', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-xttbd2k4', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-smrqacln', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-ukfsvjb7', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-4asj_ssc', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-xhuheet8', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-brvybd6f', purging
+[I 2022-10-21 08:59:07.029 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 09:01:07.187 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 09:03:07.318 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 09:05:07.516 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: bf6976c3-8327-4865-8815-299fc32d0282
+[I 2022-10-21 09:05:48.741 ServerApp] Kernel restarted: 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9
+[I 2022-10-21 09:05:48.746 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 09:05:48.760 ServerApp] Restoring connection for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 34978b02-65ff-4584-a3af-f28d09b4f3b2
+[I 2022-10-21 09:06:45.522 ServerApp] Kernel restarted: 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9
+[I 2022-10-21 09:06:45.526 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 09:06:45.536 ServerApp] Restoring connection for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 69781121-f3b4-4486-804d-792b792897af
+[I 2022-10-21 09:07:07.636 ServerApp] Saving file at /drifters_stats/sandbox/derivation.ipynb
+[I 2022-10-21 09:07:20.244 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-21 09:09:20.351 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 09:10:21.516 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 09:10:21.522 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 09:10:21.539 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5c37eeb8-65df-41c6-a2f5-fd475d77bf4d
+[I 2022-10-21 09:11:20.492 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-21 09:13:20.610 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-21 09:15:20.808 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 09:16:38.349 ServerApp] Notebook drifters_stats/sandbox/energy.ipynb is not trusted
+[I 2022-10-21 09:16:39.079 ServerApp] Kernel started: 7f68d335-6376-46ce-9fef-a4274c457532
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c40cb048-d9c7-419b-ba56-d000d2341cee
+[W 2022-10-21 09:17:16.129 ServerApp] Notebook drifters_stats/sandbox/skim.ipynb is not trusted
+[I 2022-10-21 09:17:16.413 ServerApp] Kernel started: 9591d88c-1675-42b7-a716-dd7fa8cd8dbb
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: dee7543f-85eb-4d36-8096-6633f52d7833
+[I 2022-10-21 09:17:20.918 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-21 09:18:38.554 ServerApp] Saving file at /drifters_stats/sandbox/energy.ipynb
+[W 2022-10-21 09:18:38.555 ServerApp] Notebook drifters_stats/sandbox/energy.ipynb is not trusted
+[I 2022-10-21 09:19:16.239 ServerApp] Saving file at /drifters_stats/sandbox/skim.ipynb
+[W 2022-10-21 09:19:16.239 ServerApp] Notebook drifters_stats/sandbox/skim.ipynb is not trusted
+[I 2022-10-21 09:19:21.041 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-21 09:21:21.243 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-21 09:23:21.392 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-21 09:24:34.770 ServerApp] Kernel interrupted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 09:24:35.417 ServerApp] Kernel interrupted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+distributed.nanny - ERROR - Worker process died unexpectedly
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/nanny.py", line 953, in _run
+    loop.run_sync(run)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/base_events.py", line 1905, in _run_once
+    handle._run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/system_monitor.py", line 144, in update
+    disk_ioc = psutil.disk_io_counters()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/psutil/__init__.py", line 2064, in disk_io_counters
+    rawdict = _psplatform.disk_io_counters(**kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/psutil/_pslinux.py", line 1147, in disk_io_counters
+    if os.path.exists('%s/diskstats' % get_procfs_path()):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/genericpath.py", line 19, in exists
+    os.stat(path)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/process.py", line 188, in _run
+    target(*args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/distributed/nanny.py", line 960, in _run
+    loop.run_sync(do_stop)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/tornado/ioloop.py", line 524, in run_sync
+    self.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+[I 2022-10-21 09:25:21.524 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-21 09:27:21.644 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-21 09:29:21.755 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 09:29:21.756 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 09:31:21.851 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 09:31:21.852 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 09:33:21.880 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 09:33:21.881 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 09:35:21.911 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 09:35:21.911 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 09:37:21.936 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 09:37:21.937 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 09:41:21.950 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 09:41:21.951 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 09:43:21.974 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 09:43:21.975 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+[I 2022-10-21 09:45:22.000 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 09:45:22.000 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 09:47:22.050 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 09:47:22.051 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 09:49:22.090 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 09:49:22.091 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 09:51:22.118 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 09:51:22.118 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 09:53:22.147 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 09:53:22.148 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 09:55:29.101 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 09:55:36.295 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 09:55:36.308 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 09:55:36.333 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-21 09:57:10.895 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 09:57:22.175 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 09:57:22.176 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 09:58:41.619 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 09:58:49.063 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 09:58:49.095 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 09:58:49.128 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-21 09:59:22.211 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 09:59:22.211 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+[I 2022-10-21 10:01:22.243 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 10:01:22.244 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 10:03:22.284 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 10:03:22.285 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 10:05:22.319 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 10:05:22.319 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 10:07:22.350 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 10:07:22.351 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 10:08:48.258 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 10:08:48.263 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 10:08:48.279 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-21 10:09:22.373 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 10:09:22.374 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 10:09:39.047 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 10:09:39.053 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 10:09:39.068 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 339f101d-4fac-4fe4-ab4e-dc724f964310
+[I 2022-10-21 10:11:22.407 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 10:11:22.408 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 10:11:23.886 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 10:11:23.892 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 10:11:23.899 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 28deb306-2eed-4093-aa5a-26bda18d3701
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-sf361lbt', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-qsjwyk9y', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-2djy74fv', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-s95t4in0', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-k6yts6a7', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-icwwpdx8', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-wzaaeond', purging
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+[I 2022-10-21 10:13:22.429 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 10:13:22.430 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 10:15:22.462 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 10:15:22.463 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[W 2022-10-21 10:26:33.368 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-21 10:26:33.475 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-21 10:26:38.371 ServerApp] Starting buffering for 9e778ad6-97d5-4b80-bb93-fcdb58666c44:56b98caf-94dd-4f72-a6f8-2698d8c745e7
+[I 2022-10-21 10:26:38.476 ServerApp] Starting buffering for dbb1aad3-06f9-4877-bb9d-c3b020e4c5cc:ff43f7cb-d6be-4226-9514-fde38863b353
+[W 2022-10-21 10:26:40.061 ServerApp] WebSocket ping timeout after 119997 ms.
+[I 2022-10-21 10:26:45.061 ServerApp] Starting buffering for 7f68d335-6376-46ce-9fef-a4274c457532:1959565d-deb0-47bc-96e6-048cbae9cfbe
+[W 2022-10-21 10:26:45.536 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-21 10:26:47.266 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-21 10:26:50.538 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 10:26:52.268 ServerApp] Starting buffering for 9591d88c-1675-42b7-a716-dd7fa8cd8dbb:c7640128-18bb-4bf9-bcab-8707bb69a2cc
+[W 2022-10-21 10:26:53.900 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-21 10:26:58.902 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 11:23:08.660 ServerApp] Restoring connection for 9591d88c-1675-42b7-a716-dd7fa8cd8dbb:c7640128-18bb-4bf9-bcab-8707bb69a2cc
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 89686724-5127-47ed-9a57-89296845b927
+[I 2022-10-21 11:23:11.911 ServerApp] Restoring connection for 7f68d335-6376-46ce-9fef-a4274c457532:1959565d-deb0-47bc-96e6-048cbae9cfbe
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: af6a1956-eccf-487c-a838-24d09d175e95
+[I 2022-10-21 11:23:15.352 ServerApp] Restoring connection for 9e778ad6-97d5-4b80-bb93-fcdb58666c44:56b98caf-94dd-4f72-a6f8-2698d8c745e7
+[I 2022-10-21 11:23:17.262 ServerApp] Restoring connection for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4428f166-91bb-4e2b-b708-23d7c2a32ad9
+[I 2022-10-21 11:23:17.953 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 11:23:19.640 ServerApp] Restoring connection for dbb1aad3-06f9-4877-bb9d-c3b020e4c5cc:ff43f7cb-d6be-4226-9514-fde38863b353
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 24a697c8-0b26-4763-9ed2-d74ff575ccfc
+[I 2022-10-21 11:24:52.692 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 11:24:52.692 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 11:26:52.724 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 11:26:52.725 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 11:28:52.757 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 11:28:52.758 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 11:29:36.445 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 11:29:44.464 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 11:29:44.470 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 11:29:44.485 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-dnk77rir', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-b7n7jlxl', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-k1vpl7m2', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-eortxj5k', purging
+[I 2022-10-21 11:30:52.787 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 11:30:52.788 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+[I 2022-10-21 11:32:52.819 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 11:32:52.819 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 11:34:52.859 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 11:34:52.860 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 11:38:05.652 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 11:38:16.088 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 11:38:16.092 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 11:38:16.102 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-21 11:38:52.923 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 11:38:52.925 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 11:40:05.670 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 11:41:23.309 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 11:41:32.228 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 11:41:32.234 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 11:41:32.249 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-hv6hfv3g', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-qy7glcdp', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-pl9ntiqu', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-ki5xjt2v', purging
+[I 2022-10-21 11:42:52.998 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 11:42:52.999 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 11:44:53.032 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 11:44:53.032 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 11:46:53.069 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 11:46:53.070 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 11:52:53.106 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 11:52:53.107 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+[I 2022-10-21 11:54:53.145 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 11:54:53.146 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 11:56:53.204 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 11:56:53.205 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 11:58:53.261 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 11:58:53.262 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 12:00:53.293 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 12:00:53.294 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 12:02:53.328 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 12:02:53.328 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 12:04:53.366 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 12:04:53.367 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 12:06:53.411 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 12:06:53.412 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 12:08:53.461 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 12:08:53.462 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 12:09:42.426 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 12:09:54.369 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 12:09:54.374 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 12:09:54.388 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-21 12:10:53.500 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 12:10:53.500 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+[I 2022-10-21 12:12:53.537 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 12:12:53.537 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/forkserver.py", line 274, in main
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/forkserver.py", line 274, in main
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/forkserver.py", line 274, in main
+    code = _serve_one(child_r, fds,
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/forkserver.py", line 313, in _serve_one
+    code = _serve_one(child_r, fds,
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/forkserver.py", line 313, in _serve_one
+    code = _serve_one(child_r, fds,
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/forkserver.py", line 313, in _serve_one
+    code = spawn._main(child_r, parent_sentinel)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/spawn.py", line 126, in _main
+    code = spawn._main(child_r, parent_sentinel)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/spawn.py", line 126, in _main
+    self = reduction.pickle.load(from_parent)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/synchronize.py", line 110, in __setstate__
+    code = spawn._main(child_r, parent_sentinel)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/spawn.py", line 126, in _main
+    self = reduction.pickle.load(from_parent)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/synchronize.py", line 110, in __setstate__
+    self = reduction.pickle.load(from_parent)
+  File "/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/multiprocessing/synchronize.py", line 110, in __setstate__
+    self._semlock = _multiprocessing.SemLock._rebuild(*state)
+FileNotFoundError: [Errno 2] No such file or directory
+    self._semlock = _multiprocessing.SemLock._rebuild(*state)
+FileNotFoundError: [Errno 2] No such file or directory
+    self._semlock = _multiprocessing.SemLock._rebuild(*state)
+FileNotFoundError: [Errno 2] No such file or directory
+[I 2022-10-21 12:15:04.998 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 12:15:05.001 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 12:15:05.010 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 12:16:21.128 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 12:16:21.133 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 12:16:21.148 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-8lo9mwf3', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-k0njk1ns', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-b584w4b_', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-pdxx6u46', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-r8l9k8qj', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-_f0fkb5v', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-890j0c6y', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-9bnbbnbt', purging
+[I 2022-10-21 12:16:53.574 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 12:16:53.575 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+[I 2022-10-21 12:18:53.609 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 12:18:53.610 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+[I 2022-10-21 12:20:53.957 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 12:20:53.958 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 12:22:54.001 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 12:22:54.001 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 12:24:54.032 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 12:24:54.032 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 12:26:54.065 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 12:26:54.066 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 12:28:54.099 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 12:28:54.099 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 12:30:54.137 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 12:30:54.137 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 12:34:54.173 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 12:34:54.173 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 12:36:54.206 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 12:36:54.207 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 12:44:48.303 ServerApp] Starting buffering for 7f68d335-6376-46ce-9fef-a4274c457532:1959565d-deb0-47bc-96e6-048cbae9cfbe
+[I 2022-10-21 12:44:48.874 ServerApp] Starting buffering for 9591d88c-1675-42b7-a716-dd7fa8cd8dbb:c7640128-18bb-4bf9-bcab-8707bb69a2cc
+[I 2022-10-21 12:46:54.222 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 12:46:54.223 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[W 2022-10-21 13:09:15.352 ServerApp] WebSocket ping timeout after 119999 ms.
+[W 2022-10-21 13:09:17.262 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-21 13:09:19.642 ServerApp] WebSocket ping timeout after 119999 ms.
+[I 2022-10-21 13:09:20.355 ServerApp] Starting buffering for 9e778ad6-97d5-4b80-bb93-fcdb58666c44:56b98caf-94dd-4f72-a6f8-2698d8c745e7
+[W 2022-10-21 13:09:21.149 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-21 13:09:22.264 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 13:09:24.643 ServerApp] Starting buffering for dbb1aad3-06f9-4877-bb9d-c3b020e4c5cc:ff43f7cb-d6be-4226-9514-fde38863b353
+[I 2022-10-21 13:09:26.149 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 13:19:04.838 ServerApp] Restoring connection for 9e778ad6-97d5-4b80-bb93-fcdb58666c44:56b98caf-94dd-4f72-a6f8-2698d8c745e7
+[I 2022-10-21 13:19:04.844 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 13:19:04.846 ServerApp] Restoring connection for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 13:19:04.846 ServerApp] Restoring connection for dbb1aad3-06f9-4877-bb9d-c3b020e4c5cc:ff43f7cb-d6be-4226-9514-fde38863b353
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c35a75e4-1986-44da-a8fe-9a8ed47406cc
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 6a53ced0-5ea9-43b6-91eb-351542cea680
+[I 2022-10-21 13:20:44.398 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 13:22:44.416 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 13:24:44.428 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 13:25:56.249 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 13:25:56.250 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 13:26:44.451 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 13:28:13.003 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 13:28:21.949 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 13:28:21.954 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 13:28:21.969 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-21 13:29:56.290 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 13:29:56.290 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 13:31:29.086 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 13:31:36.170 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 13:31:36.175 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 13:31:36.190 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-ssnmxck0', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-vcqpkq_a', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-j5x6rps1', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-tsiw3yev', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-sx4r4val', purging
+[I 2022-10-21 13:31:56.326 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 13:31:56.326 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 13:33:56.360 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 13:33:56.361 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 13:35:29.112 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 13:37:29.128 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 13:37:56.386 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 13:37:56.386 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 13:39:29.163 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 13:40:32.367 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 13:40:42.392 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 13:40:42.398 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 13:40:42.412 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-21 13:41:56.426 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 13:41:56.427 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 13:42:32.389 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 13:42:57.187 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 13:43:04.934 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 13:43:04.939 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 13:43:04.954 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-21 13:43:56.467 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 13:43:56.468 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 13:44:07.652 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 13:44:18.271 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 13:44:18.284 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 13:44:18.292 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-zftapw2s', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-5faiapel', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-oh5mx_mv', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-u9i8yfwz', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-b_na3mps', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-jzywcxfz', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-ga1tuxsr', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-sogut7dd', purging
+[I 2022-10-21 13:45:32.700 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 13:45:40.895 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 13:45:40.961 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 13:45:40.968 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-29lypyan', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-pl5agbr8', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-l739nas_', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-5w15z5en', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-g4xnn57d', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-j43flgpv', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-f2p6g35e', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2417502.datarmor0/dask-worker-space/worker-mrms02oc', purging
+[I 2022-10-21 13:45:56.502 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 13:45:56.504 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+[I 2022-10-21 13:47:56.531 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 13:47:56.531 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 13:49:56.568 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 13:49:56.568 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 13:53:56.598 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 13:53:56.599 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 14:03:32.695 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 14:05:32.728 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 14:07:32.755 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 14:07:39.978 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 14:07:49.236 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 14:07:49.242 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 14:07:49.256 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-21 14:07:56.639 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 14:07:56.640 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 14:09:56.727 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 14:09:56.728 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+[I 2022-10-21 14:11:56.768 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 14:11:56.769 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 14:13:53.797 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 14:13:56.793 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 14:13:56.793 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 14:14:01.624 ServerApp] Kernel restarted: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 14:14:01.629 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 14:14:01.644 ServerApp] Restoring connection for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+readline: /etc/inputrc: line 19: term: unknown variable name
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:55: UserWarning: ipyleaflet not available
+  warnings.warn("ipyleaflet not available")
+/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/pyTMD/tools.py:56: UserWarning: Some functions will throw an exception if called
+  warnings.warn("Some functions will throw an exception if called")
+[I 2022-10-21 14:15:56.834 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[W 2022-10-21 14:15:56.835 ServerApp] Notebook GDP/velocity_acceleration.ipynb is not trusted
+[I 2022-10-21 14:17:53.826 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 14:19:53.857 ServerApp] Saving file at /pynsitu/pynsitu/geo.py
+[I 2022-10-21 14:23:56.847 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-21 14:25:56.918 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-21 14:27:49.544 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-21 14:31:49.653 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-21 14:32:40.857 ServerApp] Copying drifters_stats/sandbox/errors_analysis.ipynb to /GDP
+[I 2022-10-21 14:32:48.900 ServerApp] Kernel started: 017748f4-d898-4682-96f1-37d8f9d8f2d1
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d251232f-0c67-4228-84f8-c983dd8ad13d
+[I 2022-10-21 14:33:49.775 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-21 14:34:43.973 ServerApp] Saving file at /GDP/errors_analysis.ipynb
+[I 2022-10-21 14:35:49.894 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-21 14:37:50.015 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-21 14:39:24.651 ServerApp] Saving file at /GDP/velocity_acceleration.ipynb
+[I 2022-10-21 14:41:18.363 ServerApp] Starting buffering for 017748f4-d898-4682-96f1-37d8f9d8f2d1:b0d208ce-149b-4130-adb4-9cd757601585
+[I 2022-10-21 14:41:18.364 ServerApp] Starting buffering for 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08:1aa23f41-512f-41d2-8867-040b4283e544
+[I 2022-10-21 14:41:18.365 ServerApp] Starting buffering for 9e778ad6-97d5-4b80-bb93-fcdb58666c44:56b98caf-94dd-4f72-a6f8-2698d8c745e7
+[I 2022-10-21 14:41:18.365 ServerApp] Starting buffering for 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9:2366890c-2c0f-4846-b266-6ac8c9407aef
+[I 2022-10-21 14:41:18.365 ServerApp] Starting buffering for dbb1aad3-06f9-4877-bb9d-c3b020e4c5cc:ff43f7cb-d6be-4226-9514-fde38863b353
+[E 2022-10-21 14:41:26.729 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:600:3)
+        at Object.readFileSync (node:fs:468:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-10-21 14:41:27.024 LabApp] Build is up to date
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8b29a7eb-83fd-42e8-9e65-22e1535a8e27
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5a500626-18ad-4553-9346-02e52148b2fb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 6e39e15e-857a-4baa-a69d-2e69420edcdd
+[I 2022-10-21 14:41:31.414 ServerApp] Kernel shutdown: 6f643a73-49b7-4d5b-9d8c-1f3776ddfad9
+[I 2022-10-21 14:41:31.418 ServerApp] Kernel shutdown: dbb1aad3-06f9-4877-bb9d-c3b020e4c5cc
+[I 2022-10-21 14:41:31.418 ServerApp] Kernel shutdown: 9e778ad6-97d5-4b80-bb93-fcdb58666c44
+[I 2022-10-21 14:41:31.419 ServerApp] Kernel shutdown: 4d3b2824-a6d5-44d9-a0d4-ea63103dbd08
+[I 2022-10-21 14:41:31.419 ServerApp] Kernel shutdown: 7f68d335-6376-46ce-9fef-a4274c457532
+[I 2022-10-21 14:41:31.420 ServerApp] Kernel shutdown: 9591d88c-1675-42b7-a716-dd7fa8cd8dbb
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+distributed.nanny - ERROR - Worker process died unexpectedly
+[I 2022-10-21 14:41:32.189 ServerApp] Kernel shutdown: 017748f4-d898-4682-96f1-37d8f9d8f2d1
+[I 2022-10-21 14:41:34.175 ServerApp] Shutting down on /api/shutdown request.
+[I 2022-10-21 14:41:34.192 ServerApp] Shutting down 3 extensions
+[I 2022-10-21 14:41:34.192 ServerApp] Shutting down 0 terminals
+Terminated

@@ -1,0 +1,290 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu Aug  4 07:04:00 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-08-04 07:04:26.596 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-08-04 07:04:26.604 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-08-04 07:04:26.611 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-08-04 07:04:31.666 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-08-04 07:04:35.588 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-08-04 07:04:35.589 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-08-04 07:04:35.590 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-08-04 07:04:35.594 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-08-04 07:04:35.757 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-08-04 07:04:35.758 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-08-04 07:04:35.758 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-08-04 07:04:35.758 ServerApp] http://r1i6n29:8877/lab
+[I 2022-08-04 07:04:35.758 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-08-04 07:04:35.758 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-08-04 07:06:28.590 LabApp] Build is up to date
+[I 2022-08-04 07:06:34.026 ServerApp] Kernel started: 55770215-185f-451f-b17e-0d271eb37dae
+[I 2022-08-04 07:06:34.027 ServerApp] Kernel started: 01dd0735-0050-48c2-b334-340ea0160a74
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 972a2b06-1f00-4ab3-a632-d628a51c3a29
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 6b64929d-ec53-4998-a249-799e9ff99e9d
+[W 2022-08-04 07:10:02.290 ServerApp] delete /m2_2022/sandbox/dask-worker.o1322546
+[W 2022-08-04 07:10:02.424 ServerApp] delete /m2_2022/sandbox/dask-worker.o1322547
+[W 2022-08-04 07:10:02.427 ServerApp] delete /m2_2022/sandbox/dask-worker.o1323045
+[W 2022-08-04 07:10:02.430 ServerApp] delete /m2_2022/sandbox/dask-worker.o1323046
+[W 2022-08-04 07:10:02.432 ServerApp] delete /m2_2022/sandbox/dask-worker.o1322548
+[W 2022-08-04 07:10:02.434 ServerApp] delete /m2_2022/sandbox/dask-worker.o1322549
+[W 2022-08-04 07:10:02.438 ServerApp] delete /m2_2022/sandbox/dask-worker.o1323044
+[W 2022-08-04 07:10:02.442 ServerApp] delete /m2_2022/sandbox/dask-worker.o1323043
+[W 2022-08-04 07:10:02.445 ServerApp] delete /m2_2022/sandbox/dask-worker.o1323047
+[W 2022-08-04 07:10:02.447 ServerApp] delete /m2_2022/sandbox/dask-worker.o1323048
+[W 2022-08-04 07:10:02.450 ServerApp] delete /m2_2022/sandbox/dask-worker.o1323506
+[W 2022-08-04 07:10:02.452 ServerApp] delete /m2_2022/sandbox/dask-worker.o1323507
+[W 2022-08-04 07:10:02.456 ServerApp] delete /m2_2022/sandbox/dask-worker.o1323508
+[W 2022-08-04 07:10:02.460 ServerApp] delete /m2_2022/sandbox/dask-worker.o1323509
+[W 2022-08-04 07:10:02.463 ServerApp] delete /m2_2022/sandbox/dask-worker.o1323782
+[W 2022-08-04 07:10:02.465 ServerApp] delete /m2_2022/sandbox/dask-worker.o1323783
+[W 2022-08-04 07:10:02.467 ServerApp] delete /m2_2022/sandbox/dask-worker.o1323784
+[W 2022-08-04 07:10:02.470 ServerApp] delete /m2_2022/sandbox/dask-worker.o1323785
+[W 2022-08-04 07:10:02.473 ServerApp] delete /m2_2022/sandbox/dask-worker.o1323821
+[W 2022-08-04 07:10:02.477 ServerApp] delete /m2_2022/sandbox/dask-worker.o1323822
+[W 2022-08-04 07:10:02.480 ServerApp] delete /m2_2022/sandbox/dask-worker.o1323823
+[W 2022-08-04 07:10:02.482 ServerApp] delete /m2_2022/sandbox/dask-worker.o1323824
+[W 2022-08-04 07:10:02.485 ServerApp] delete /m2_2022/sandbox/dask-worker.o1324023
+[W 2022-08-04 07:10:02.487 ServerApp] delete /m2_2022/sandbox/dask-worker.o1324024
+[W 2022-08-04 07:10:02.491 ServerApp] delete /m2_2022/sandbox/dask-worker.o1324025
+[W 2022-08-04 07:10:02.495 ServerApp] delete /m2_2022/sandbox/dask-worker.o1324026
+[W 2022-08-04 07:10:02.498 ServerApp] delete /m2_2022/sandbox/dask-worker.o1324758
+[W 2022-08-04 07:10:02.500 ServerApp] delete /m2_2022/sandbox/dask-worker.o1324759
+[W 2022-08-04 07:10:02.549 ServerApp] delete /m2_2022/sandbox/dask-worker.o1324760
+[W 2022-08-04 07:10:02.552 ServerApp] delete /m2_2022/sandbox/dask-worker.o1324761
+[W 2022-08-04 07:10:02.555 ServerApp] delete /m2_2022/sandbox/dask-worker.o1324762
+[W 2022-08-04 07:10:02.558 ServerApp] delete /m2_2022/sandbox/dask-worker.o1324763
+[I 2022-08-04 07:10:33.160 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 07:12:35.061 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 07:14:35.216 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 07:16:35.345 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 07:18:35.475 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 07:28:36.269 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 07:30:36.393 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 07:32:36.525 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 07:34:36.700 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 07:36:36.913 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 07:38:37.071 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 07:40:37.186 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 07:42:37.393 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 07:44:37.554 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 07:46:37.761 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 07:48:37.892 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 07:54:38.237 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 07:56:38.382 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 07:58:38.550 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:00:38.834 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:02:39.088 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:04:39.340 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:06:39.591 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:08:39.848 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:10:40.181 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:12:40.436 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:14:40.737 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:16:40.992 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:18:41.272 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:20:41.602 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:22:41.838 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:24:42.078 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:26:42.330 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:28:42.571 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:30:42.909 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:32:43.162 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:34:43.395 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:36:43.635 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:38:43.889 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:40:44.095 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:42:44.280 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:44:44.477 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:45:13.459 ServerApp] Kernel started: 1e7d3772-a073-43b7-9037-2a52adf14ece
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 454d32d0-8c1c-4fb8-b673-9e4994ca01e7
+[I 2022-08-04 08:46:44.615 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:47:13.058 ServerApp] Saving file at /m2_2022/sandbox/diag_std_ind.ipynb
+[I 2022-08-04 08:48:44.734 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:50:44.861 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:52:44.988 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:54:45.116 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:56:45.247 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 08:58:45.374 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:00:45.528 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:02:46.318 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:04:46.532 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:06:46.684 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:08:46.926 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:10:47.054 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:12:47.308 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:14:47.590 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:16:47.727 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:18:47.856 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:20:47.994 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:22:48.125 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:24:48.326 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:26:48.454 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:28:48.637 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:30:48.887 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:32:49.091 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:34:49.350 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:36:49.592 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:38:49.840 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:40:50.080 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:41:13.366 ServerApp] Saving file at /m2_2022/sandbox/diag_std_ind.ipynb
+[I 2022-08-04 09:44:50.532 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+[I 2022-08-04 09:44:58.423 ServerApp] Kernel restarted: 1e7d3772-a073-43b7-9037-2a52adf14ece
+[I 2022-08-04 09:44:58.429 ServerApp] Starting buffering for 1e7d3772-a073-43b7-9037-2a52adf14ece:77cb8fa0-f39f-4671-af07-4cc9a2b5fba9
+[I 2022-08-04 09:44:58.437 ServerApp] Restoring connection for 1e7d3772-a073-43b7-9037-2a52adf14ece:77cb8fa0-f39f-4671-af07-4cc9a2b5fba9
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 16627736-06ef-48ef-b59f-1d27665e5748
+[I 2022-08-04 09:45:13.804 ServerApp] Saving file at /m2_2022/sandbox/diag_std_ind.ipynb
+[I 2022-08-04 09:47:14.029 ServerApp] Saving file at /m2_2022/sandbox/diag_std_ind.ipynb
+[I 2022-08-04 09:49:14.285 ServerApp] Saving file at /m2_2022/sandbox/diag_std_ind.ipynb
+[I 2022-08-04 09:51:14.627 ServerApp] Saving file at /m2_2022/sandbox/diag_std_ind.ipynb
+[I 2022-08-04 09:53:14.929 ServerApp] Saving file at /m2_2022/sandbox/diag_std_ind.ipynb
+[W 2022-08-04 09:56:24.785 ServerApp] delete /m2_2022/sandbox/dask-worker.o1334943
+[W 2022-08-04 09:56:24.808 ServerApp] delete /m2_2022/sandbox/dask-worker.o1334944
+[W 2022-08-04 09:56:24.812 ServerApp] delete /m2_2022/sandbox/dask-worker.o1334945
+[W 2022-08-04 09:56:24.814 ServerApp] delete /m2_2022/sandbox/dask-worker.o1334946
+[W 2022-08-04 09:56:24.817 ServerApp] delete /m2_2022/sandbox/dask-worker.o1334947
+[W 2022-08-04 09:56:24.819 ServerApp] delete /m2_2022/sandbox/dask-worker.o1334948
+[W 2022-08-04 09:56:24.823 ServerApp] delete /m2_2022/sandbox/dask-worker.o1336600
+[W 2022-08-04 09:56:24.842 ServerApp] delete /m2_2022/sandbox/dask-worker.o1336601
+[W 2022-08-04 09:56:24.846 ServerApp] delete /m2_2022/sandbox/dask-worker.o1336602
+[W 2022-08-04 09:56:24.849 ServerApp] delete /m2_2022/sandbox/dask-worker.o1336603
+[I 2022-08-04 09:57:18.156 ServerApp] Saving file at /m2_2022/sandbox/diag_std_ind.ipynb
+[I 2022-08-04 11:20:16.275 ServerApp] Kernel started: 7b3da556-ddbb-4439-bf97-d7055e9a3696
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b1bf9f5f-07ff-4f7d-a91f-f16cba3a9090
+[I 2022-08-04 11:20:28.395 ServerApp] Kernel shutdown: 7b3da556-ddbb-4439-bf97-d7055e9a3696
+[W 2022-08-04 11:20:28.635 ServerApp] delete /m2_2022/sandbox/diag_sla_corr.ipynb
+[I 2022-08-04 11:24:42.192 ServerApp] Kernel started: 0c95403b-3505-42cc-a7a4-f6cf1799d56a
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 96c55e3c-53b6-49db-8b52-b5ee284dd98d
+[I 2022-08-04 11:27:48.398 ServerApp] Kernel started: f496b34b-75fe-4842-acaf-c1597e1f0d5b
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 241fee3e-89b5-4051-850a-b4d8a483ffc6
+[I 2022-08-04 11:27:55.185 ServerApp] Kernel shutdown: f496b34b-75fe-4842-acaf-c1597e1f0d5b
+[W 2022-08-04 11:27:55.411 ServerApp] delete /m2_2022/sandbox/Untitled.ipynb
+[I 2022-08-04 11:28:02.393 ServerApp] Kernel started: c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 97655188-d74b-4b7f-8408-0229bb7d9a89
+[I 2022-08-04 11:30:01.453 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 11:32:01.650 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 11:34:01.911 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 11:36:02.204 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 11:38:02.444 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 11:40:02.690 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 11:40:49.878 ServerApp] Kernel interrupted: c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7
+[I 2022-08-04 11:40:50.713 ServerApp] Kernel interrupted: c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7
+[I 2022-08-04 11:40:51.428 ServerApp] Kernel interrupted: c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7
+[I 2022-08-04 11:41:16.608 ServerApp] Kernel restarted: c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7
+[I 2022-08-04 11:41:16.615 ServerApp] Starting buffering for c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7:e4ac2aa6-88c3-47eb-aed1-b04f22eb0a9a
+[I 2022-08-04 11:41:16.622 ServerApp] Restoring connection for c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7:e4ac2aa6-88c3-47eb-aed1-b04f22eb0a9a
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1917a97a-b9b5-4c4d-a7ca-4f01208cf6ca
+[I 2022-08-04 11:42:02.983 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 11:42:23.186 ServerApp] Kernel interrupted: c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7
+[I 2022-08-04 11:42:46.075 ServerApp] Kernel restarted: c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7
+[I 2022-08-04 11:42:46.453 ServerApp] Starting buffering for c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7:e4ac2aa6-88c3-47eb-aed1-b04f22eb0a9a
+[I 2022-08-04 11:42:46.461 ServerApp] Restoring connection for c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7:e4ac2aa6-88c3-47eb-aed1-b04f22eb0a9a
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d30c0402-588b-4ad6-b766-8351d8c4d4aa
+[I 2022-08-04 11:44:03.145 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 11:46:03.266 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 11:48:03.402 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 11:50:03.530 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 11:52:03.645 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 11:54:01.452 ServerApp] Kernel restarted: c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7
+[I 2022-08-04 11:54:01.458 ServerApp] Starting buffering for c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7:e4ac2aa6-88c3-47eb-aed1-b04f22eb0a9a
+[I 2022-08-04 11:54:01.466 ServerApp] Restoring connection for c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7:e4ac2aa6-88c3-47eb-aed1-b04f22eb0a9a
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-08-04 11:54:03.753 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 70442487-d368-4d96-a96c-07f1cd47fe61
+[I 2022-08-04 11:56:03.935 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 11:58:04.167 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 11:59:55.413 ServerApp] Kernel interrupted: c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7
+[I 2022-08-04 11:59:56.097 ServerApp] Kernel interrupted: c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7
+[I 2022-08-04 12:00:04.279 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 12:00:19.647 ServerApp] Kernel restarted: c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7
+[I 2022-08-04 12:00:19.652 ServerApp] Starting buffering for c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7:e4ac2aa6-88c3-47eb-aed1-b04f22eb0a9a
+[I 2022-08-04 12:00:19.660 ServerApp] Restoring connection for c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7:e4ac2aa6-88c3-47eb-aed1-b04f22eb0a9a
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 400db672-c556-413c-9dfc-d4846bd2014e
+[I 2022-08-04 12:02:04.387 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 12:06:04.498 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 12:08:04.576 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 12:10:04.685 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 12:12:04.850 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 12:14:05.107 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 12:16:05.174 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 12:18:05.293 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 12:19:49.204 ServerApp] Kernel started: 3dfb3b0e-33e2-4fc0-b434-b60d95fa9dc1
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 7faebcdb-b320-45ed-9475-8915109bbbfb
+[I 2022-08-04 12:20:05.408 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 12:22:05.521 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 12:23:47.839 ServerApp] Saving file at /m2_2022/sandbox/diag_overview.ipynb
+[I 2022-08-04 12:24:05.637 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 12:25:48.124 ServerApp] Saving file at /m2_2022/sandbox/diag_overview.ipynb
+[I 2022-08-04 12:26:05.743 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 12:28:05.898 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 12:30:06.004 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 12:32:06.124 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 12:34:06.227 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 12:36:06.418 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 12:48:06.726 ServerApp] Saving file at /m2_2022/sandbox/diag_errors.ipynb
+[I 2022-08-04 12:48:51.241 ServerApp] Starting buffering for c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7:e4ac2aa6-88c3-47eb-aed1-b04f22eb0a9a
+[I 2022-08-04 12:49:09.186 ServerApp] Kernel started: b993954f-0cf4-4d7a-896c-ae894726a228
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 925332e4-d5e0-457a-97ed-5c5ebdc6bb8c
+[W 2022-08-04 12:50:00.051 ServerApp] Notebook m2_2022/sandbox/diag_pdf_ind.ipynb is not trusted
+[I 2022-08-04 12:50:02.107 ServerApp] Kernel started: 6f2f4cfe-b6df-4126-95e8-3eddba0b5c5c
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8d112fca-7f57-4d95-b001-83b783c0821e
+Terminated
+[C 2022-08-04 12:50:35.178 ServerApp] received signal 15, stopping
+[I 2022-08-04 12:50:35.192 ServerApp] Shutting down 3 extensions
+[I 2022-08-04 12:50:35.192 ServerApp] Shutting down 8 kernels
+[I 2022-08-04 12:50:35.192 ServerApp] Kernel shutdown: 6f2f4cfe-b6df-4126-95e8-3eddba0b5c5c
+[I 2022-08-04 12:50:35.192 ServerApp] Kernel shutdown: 0c95403b-3505-42cc-a7a4-f6cf1799d56a
+[I 2022-08-04 12:50:35.193 ServerApp] Kernel shutdown: 3dfb3b0e-33e2-4fc0-b434-b60d95fa9dc1
+[I 2022-08-04 12:50:35.193 ServerApp] Kernel shutdown: c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7
+[I 2022-08-04 12:50:35.193 ServerApp] Kernel shutdown: b993954f-0cf4-4d7a-896c-ae894726a228
+[I 2022-08-04 12:50:35.193 ServerApp] Kernel shutdown: 1e7d3772-a073-43b7-9037-2a52adf14ece
+[I 2022-08-04 12:50:35.194 ServerApp] Kernel shutdown: 01dd0735-0050-48c2-b334-340ea0160a74
+[I 2022-08-04 12:50:35.194 ServerApp] Kernel shutdown: 55770215-185f-451f-b17e-0d271eb37dae
+[C 2022-08-04 12:50:37.418 ServerApp] received signal 15, stopping
+[I 2022-08-04 12:50:37.419 ServerApp] Shutting down 3 extensions
+[I 2022-08-04 12:50:37.419 ServerApp] Shutting down 8 kernels
+[I 2022-08-04 12:50:37.419 ServerApp] Kernel shutdown: 6f2f4cfe-b6df-4126-95e8-3eddba0b5c5c
+[I 2022-08-04 12:50:37.419 ServerApp] Kernel shutdown: 0c95403b-3505-42cc-a7a4-f6cf1799d56a
+[I 2022-08-04 12:50:37.419 ServerApp] Kernel shutdown: 3dfb3b0e-33e2-4fc0-b434-b60d95fa9dc1
+[I 2022-08-04 12:50:37.420 ServerApp] Kernel shutdown: c89e46ac-ade8-41c1-81e4-3d0d17d1f5c7
+[I 2022-08-04 12:50:37.420 ServerApp] Kernel shutdown: b993954f-0cf4-4d7a-896c-ae894726a228
+[I 2022-08-04 12:50:37.420 ServerApp] Kernel shutdown: 1e7d3772-a073-43b7-9037-2a52adf14ece
+[I 2022-08-04 12:50:37.420 ServerApp] Kernel shutdown: 01dd0735-0050-48c2-b334-340ea0160a74
+[I 2022-08-04 12:50:37.420 ServerApp] Kernel shutdown: 55770215-185f-451f-b17e-0d271eb37dae
+[I 2022-08-04 12:50:37.913 ServerApp] Shutting down 0 terminals
+[I 2022-08-04 12:50:37.913 ServerApp] Shutting down 0 terminals

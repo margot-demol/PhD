@@ -1,0 +1,41 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Sun May  1 13:03:34 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-05-01 13:03:35.430 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-05-01 13:03:35.434 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-05-01 13:03:35.441 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-05-01 13:03:35.748 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-05-01 13:03:35.803 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-05-01 13:03:35.804 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-05-01 13:03:35.804 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-05-01 13:03:35.808 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-05-01 13:03:35.814 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-05-01 13:03:35.814 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-05-01 13:03:35.814 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-05-01 13:03:35.814 ServerApp] http://r1i0n33:8877/lab
+[I 2022-05-01 13:03:35.814 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-05-01 13:03:35.814 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-05-01 13:04:43.919 LabApp] Build is up to date
+[I 2022-05-01 13:04:50.780 ServerApp] Kernel started: 9ffeb3d7-a026-40a2-a2a5-025fcc4971ff
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-05-01 13:04:51.676 ServerApp] Kernel started: cabe42b1-249e-4808-8858-ae6de647ab82
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2b87c003-14a7-4dcb-867f-7336c81b38ca
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 79386eb4-7086-49ee-8b5b-07ad95145a83
+[I 2022-05-01 13:05:13.353 ServerApp] Kernel shutdown: 9ffeb3d7-a026-40a2-a2a5-025fcc4971ff
+[I 2022-05-01 13:05:13.355 ServerApp] Kernel shutdown: cabe42b1-249e-4808-8858-ae6de647ab82
+[I 2022-05-01 13:05:13.715 ServerApp] Shutting down on /api/shutdown request.
+[I 2022-05-01 13:05:13.717 ServerApp] Shutting down 3 extensions
+[I 2022-05-01 13:05:13.717 ServerApp] Shutting down 0 kernels
+[I 2022-05-01 13:05:13.717 ServerApp] Shutting down 0 terminals
+Terminated

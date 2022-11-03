@@ -1,0 +1,341 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Tue Jul 12 06:31:19 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-07-12 06:31:45.390 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-07-12 06:31:45.404 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-07-12 06:31:45.411 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-07-12 06:31:50.297 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-07-12 06:31:51.062 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-07-12 06:31:51.063 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-07-12 06:31:51.063 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-07-12 06:31:51.067 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-07-12 06:31:51.237 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-07-12 06:31:51.237 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-07-12 06:31:51.237 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-07-12 06:31:51.237 ServerApp] http://r1i2n8:8877/lab
+[I 2022-07-12 06:31:51.237 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-07-12 06:31:51.237 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 2022-07-12 06:32:06.519 LabApp] Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+    {"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+    {"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+    
+[I 2022-07-12 06:32:07.267 LabApp] Build is up to date
+[I 2022-07-12 06:32:13.519 ServerApp] Kernel started: 4542bdb2-b205-4105-bb8e-602795aecd55
+[I 2022-07-12 06:32:13.520 ServerApp] Kernel started: ac831a1f-9aad-4e11-aae0-0bae8706dce5
+[I 2022-07-12 06:32:13.520 ServerApp] Kernel started: 082596e0-f3f8-4fa0-8917-8ecbfcf8bae7
+[I 2022-07-12 06:32:13.603 ServerApp] Kernel started: e5e493be-70c4-4ced-8556-d1775df71e8b
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 17, in <module>
+    app.launch_new_instance()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.initialize(argv)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 88, in inner
+    return method(app, *args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 661, in initialize
+    self.init_sockets()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 321, in init_sockets
+    self.init_control(context)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 327, in init_control
+    self.control_port = self._bind_socket(self.control_socket, self.control_port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 244, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 220, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/sugar/socket.py", line 214, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 540, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c49630bb-711a-40d9-b5c6-2c39815751a1
+[IPKernelApp] WARNING | No such comm: 18c547a0-e044-4e9e-a9a6-91f92a2b0f19
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2835c1c6-8cea-4b15-b069-a91fa982d53d
+[I 2022-07-12 06:32:46.013 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 17, in <module>
+    app.launch_new_instance()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.initialize(argv)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 88, in inner
+    return method(app, *args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 661, in initialize
+    self.init_sockets()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 321, in init_sockets
+    self.init_control(context)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 327, in init_control
+    self.control_port = self._bind_socket(self.control_socket, self.control_port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 244, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 220, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/sugar/socket.py", line 214, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 540, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+[I 2022-07-12 06:32:49.034 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (2/5), keep random ports
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 17, in <module>
+    app.launch_new_instance()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.initialize(argv)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 88, in inner
+    return method(app, *args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 661, in initialize
+    self.init_sockets()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 321, in init_sockets
+    self.init_control(context)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 327, in init_control
+    self.control_port = self._bind_socket(self.control_socket, self.control_port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 244, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 220, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/sugar/socket.py", line 214, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 540, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+[I 2022-07-12 06:32:52.056 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (3/5), keep random ports
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 17, in <module>
+    app.launch_new_instance()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.initialize(argv)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 88, in inner
+    return method(app, *args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 661, in initialize
+    self.init_sockets()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 321, in init_sockets
+    self.init_control(context)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 327, in init_control
+    self.control_port = self._bind_socket(self.control_socket, self.control_port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 244, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 220, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/sugar/socket.py", line 214, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 540, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+[I 2022-07-12 06:32:55.076 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (4/5), keep random ports
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 17, in <module>
+    app.launch_new_instance()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.initialize(argv)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 88, in inner
+    return method(app, *args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 661, in initialize
+    self.init_sockets()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 321, in init_sockets
+    self.init_control(context)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 327, in init_control
+    self.control_port = self._bind_socket(self.control_socket, self.control_port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 244, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 220, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/sugar/socket.py", line 214, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 540, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+[I 2022-07-12 06:32:58.096 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (5/5), keep random ports
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 17, in <module>
+    app.launch_new_instance()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.initialize(argv)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 88, in inner
+    return method(app, *args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 661, in initialize
+    self.init_sockets()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 321, in init_sockets
+    self.init_control(context)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 327, in init_control
+    self.control_port = self._bind_socket(self.control_socket, self.control_port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 244, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 220, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/sugar/socket.py", line 214, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 540, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+[W 2022-07-12 06:33:01.118 ServerApp] AsyncIOLoopKernelRestarter: restart failed
+[W 2022-07-12 06:33:01.118 ServerApp] Kernel 4542bdb2-b205-4105-bb8e-602795aecd55 died, removing from map.
+[W 2022-07-12 06:33:13.622 ServerApp] Timeout waiting for kernel_info reply from 4542bdb2-b205-4105-bb8e-602795aecd55
+[W 2022-07-12 06:33:13.623 ServerApp] 404 GET /api/kernels/4542bdb2-b205-4105-bb8e-602795aecd55/channels?session_id=75b91058-d950-4c88-8675-d76817dbb661 (10.148.1.145): Kernel does not exist: 4542bdb2-b205-4105-bb8e-602795aecd55
+[I 2022-07-12 06:33:14.966 ServerApp] Kernel started: 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-07-12 06:33:17.654 ServerApp] Kernel restarted: 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+[I 2022-07-12 06:33:17.660 ServerApp] Starting buffering for 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae:d52ea8ee-47b8-4afe-b757-91b34f7e5826
+[I 2022-07-12 06:33:17.667 ServerApp] Restoring connection for 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae:d52ea8ee-47b8-4afe-b757-91b34f7e5826
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-07-12 06:34:12.226 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 06:36:12.600 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 06:38:12.883 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 06:40:39.378 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 06:42:39.657 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 06:44:39.910 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 06:48:40.209 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 06:50:40.489 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 06:51:06.111 ServerApp] Kernel restarted: 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+[I 2022-07-12 06:51:06.118 ServerApp] Starting buffering for 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae:d52ea8ee-47b8-4afe-b757-91b34f7e5826
+[I 2022-07-12 06:51:06.125 ServerApp] Restoring connection for 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae:d52ea8ee-47b8-4afe-b757-91b34f7e5826
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-07-12 06:52:40.795 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 06:56:41.072 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:00:41.357 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:02:41.627 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:04:41.883 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:06:42.186 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:08:42.470 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:10:42.798 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:12:43.092 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:14:43.344 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:16:43.594 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:18:43.829 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:19:10.409 ServerApp] Saving file at /m2_2022/m2lib22/slacorrection.py
+[I 2022-07-12 07:20:31.166 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:20:52.895 ServerApp] Kernel restarted: 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+[I 2022-07-12 07:20:52.903 ServerApp] Starting buffering for 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae:d52ea8ee-47b8-4afe-b757-91b34f7e5826
+[I 2022-07-12 07:20:52.910 ServerApp] Restoring connection for 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae:d52ea8ee-47b8-4afe-b757-91b34f7e5826
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-07-12 07:22:31.419 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[W 2022-07-12 07:23:07.170 ServerApp] delete /m2_2022/sandbox/dask-worker.o1014649
+[W 2022-07-12 07:23:07.335 ServerApp] delete /m2_2022/sandbox/dask-worker.o1014650
+[W 2022-07-12 07:23:07.339 ServerApp] delete /m2_2022/sandbox/dask-worker.o1014651
+[W 2022-07-12 07:23:07.343 ServerApp] delete /m2_2022/sandbox/dask-worker.o1018147
+[W 2022-07-12 07:23:07.358 ServerApp] delete /m2_2022/sandbox/dask-worker.o1018145
+[W 2022-07-12 07:23:07.362 ServerApp] delete /m2_2022/sandbox/dask-worker.o1014652
+[W 2022-07-12 07:23:07.383 ServerApp] delete /m2_2022/sandbox/dask-worker.o1018146
+[W 2022-07-12 07:23:07.388 ServerApp] delete /m2_2022/sandbox/dask-worker.o1018148
+[W 2022-07-12 07:23:07.393 ServerApp] delete /m2_2022/sandbox/dask-worker.o1025080
+[W 2022-07-12 07:23:07.405 ServerApp] delete /m2_2022/sandbox/dask-worker.o1025081
+[W 2022-07-12 07:23:07.409 ServerApp] delete /m2_2022/sandbox/dask-worker.o1025082
+[W 2022-07-12 07:23:07.414 ServerApp] delete /m2_2022/sandbox/dask-worker.o1025083
+[W 2022-07-12 07:23:07.418 ServerApp] delete /m2_2022/sandbox/dask-worker.o1025141
+[W 2022-07-12 07:23:07.423 ServerApp] delete /m2_2022/sandbox/dask-worker.o1025142
+[W 2022-07-12 07:23:07.428 ServerApp] delete /m2_2022/sandbox/dask-worker.o1025144
+[W 2022-07-12 07:23:07.431 ServerApp] delete /m2_2022/sandbox/dask-worker.o1025143
+[I 2022-07-12 07:23:21.610 ServerApp] Creating new directory in /m2_2022
+[I 2022-07-12 07:23:29.436 ServerApp] Creating new notebook in /m2_2022/Help
+[I 2022-07-12 07:23:30.005 ServerApp] Kernel started: ab977eea-4ebf-4d9e-aa08-acd0dbeddd9c
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2b888912-d705-422b-8a0a-3f1c355f38ba
+[I 2022-07-12 07:25:29.810 ServerApp] Saving file at /m2_2022/Help/Untitled.ipynb
+[I 2022-07-12 07:27:10.427 ServerApp] Saving file at /m2_2022/m2lib22/slacorrection.py
+[I 2022-07-12 07:29:30.626 ServerApp] Kernel interrupted: 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+[I 2022-07-12 07:29:30.920 ServerApp] Kernel interrupted: 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+[I 2022-07-12 07:30:06.279 ServerApp] Kernel restarted: 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+[I 2022-07-12 07:30:06.287 ServerApp] Starting buffering for 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae:d52ea8ee-47b8-4afe-b757-91b34f7e5826
+[I 2022-07-12 07:30:06.292 ServerApp] Restoring connection for 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae:d52ea8ee-47b8-4afe-b757-91b34f7e5826
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-07-12 07:30:31.679 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:32:32.023 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:36:32.382 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:40:04.869 ServerApp] Kernel restarted: 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+[I 2022-07-12 07:40:04.876 ServerApp] Starting buffering for 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae:d52ea8ee-47b8-4afe-b757-91b34f7e5826
+[I 2022-07-12 07:40:04.884 ServerApp] Restoring connection for 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae:d52ea8ee-47b8-4afe-b757-91b34f7e5826
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-07-12 07:40:32.663 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:42:32.850 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:44:33.072 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:46:33.349 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:50:12.300 ServerApp] Kernel restarted: 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+[I 2022-07-12 07:50:12.303 ServerApp] Starting buffering for 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae:d52ea8ee-47b8-4afe-b757-91b34f7e5826
+[I 2022-07-12 07:50:12.308 ServerApp] Restoring connection for 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae:d52ea8ee-47b8-4afe-b757-91b34f7e5826
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-07-12 07:50:33.563 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:52:33.755 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:54:33.947 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:56:34.179 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 07:58:34.365 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:00:34.578 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:02:34.836 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:04:35.094 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:06:35.239 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:08:35.407 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:10:35.770 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:12:36.089 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:14:36.283 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:16:36.473 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:18:36.650 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:20:36.832 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:22:37.022 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:25:35.023 ServerApp] Saving file at /m2_2022/m2lib22/slacorrection.py
+[I 2022-07-12 08:26:37.232 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:28:37.500 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:30:37.842 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:32:38.111 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:34:38.413 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:36:38.908 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:38:39.622 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:40:40.441 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:42:40.778 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-12 08:43:21.900 ServerApp] Kernel restarted: 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+[I 2022-07-12 08:43:22.416 ServerApp] Starting buffering for 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae:d52ea8ee-47b8-4afe-b757-91b34f7e5826
+[I 2022-07-12 08:43:22.423 ServerApp] Restoring connection for 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae:d52ea8ee-47b8-4afe-b757-91b34f7e5826
+[W 2022-07-12 08:43:27.562 ServerApp] Nudge: attempt 10 on kernel 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+[W 2022-07-12 08:43:32.572 ServerApp] Nudge: attempt 20 on kernel 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+[W 2022-07-12 08:43:37.583 ServerApp] Nudge: attempt 30 on kernel 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+[W 2022-07-12 08:43:43.235 ServerApp] Nudge: attempt 40 on kernel 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+[W 2022-07-12 08:43:48.244 ServerApp] Nudge: attempt 50 on kernel 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+[W 2022-07-12 08:43:53.772 ServerApp] Nudge: attempt 60 on kernel 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+[W 2022-07-12 08:43:58.785 ServerApp] Nudge: attempt 70 on kernel 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+[W 2022-07-12 08:44:04.420 ServerApp] Nudge: attempt 80 on kernel 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+[W 2022-07-12 08:44:09.432 ServerApp] Nudge: attempt 90 on kernel 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-07-12 08:44:41.496 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+Terminated
+[C 2022-07-12 08:50:33.900 ServerApp] received signal 15, stopping
+[I 2022-07-12 08:50:33.913 ServerApp] Shutting down 3 extensions
+[I 2022-07-12 08:50:33.913 ServerApp] Shutting down 5 kernels
+[I 2022-07-12 08:50:33.913 ServerApp] Kernel shutdown: e5e493be-70c4-4ced-8556-d1775df71e8b
+[I 2022-07-12 08:50:33.914 ServerApp] Kernel shutdown: 1bce6d6c-20cb-4cb2-985e-0363bd6d0cae
+[I 2022-07-12 08:50:33.914 ServerApp] Kernel shutdown: ab977eea-4ebf-4d9e-aa08-acd0dbeddd9c
+[I 2022-07-12 08:50:33.914 ServerApp] Kernel shutdown: 082596e0-f3f8-4fa0-8917-8ecbfcf8bae7
+[I 2022-07-12 08:50:33.914 ServerApp] Kernel shutdown: ac831a1f-9aad-4e11-aae0-0bae8706dce5
+[I 2022-07-12 08:50:35.943 ServerApp] Shutting down 0 terminals

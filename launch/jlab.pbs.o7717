@@ -1,0 +1,50 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Fri Apr 22 12:30:42 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-04-22 12:31:09.251 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-04-22 12:31:09.261 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-04-22 12:31:09.269 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-04-22 12:31:14.721 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-04-22 12:31:15.431 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-04-22 12:31:15.432 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-04-22 12:31:15.432 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-04-22 12:31:15.436 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-04-22 12:31:15.591 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-04-22 12:31:15.591 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-04-22 12:31:15.591 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-04-22 12:31:15.591 ServerApp] http://r1i6n28:8877/lab
+[I 2022-04-22 12:31:15.591 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-04-22 12:31:15.591 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-04-22 12:35:38.499 ServerApp] 302 GET / (10.148.1.145) 0.58ms
+[I 2022-04-22 12:35:46.234 LabApp] Build is up to date
+[W 2022-04-22 12:35:49.574 ServerApp] Notebook m2_2022/sandbox/projections.ipynb is not trusted
+[I 2022-04-22 12:35:51.458 ServerApp] Kernel started: 4a4ca83d-eee3-4a29-85a5-a0868f25602a
+[I 2022-04-22 12:35:51.458 ServerApp] Kernel started: 98468326-9b9a-4b60-b522-bed1a6ca0f21
+[I 2022-04-22 12:35:51.460 ServerApp] Kernel started: 92a08273-aeec-46d4-8b27-5f9c2bbca3aa
+[I 2022-04-22 12:35:51.583 ServerApp] Kernel started: 03f5b3ee-2149-4ff4-bc7f-86e8bac7dc76
+readline: readline: /etc/inputrc: line 19: /etc/inputrc: line 19: term: unknown variable name
+term: unknown variable name
+[I 2022-04-22 12:36:26.786 ServerApp] Starting buffering for 03f5b3ee-2149-4ff4-bc7f-86e8bac7dc76:fcda7b69-1a48-44aa-833d-1106b25dcc1a
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b7055725-c010-4a66-8b3b-5899f4a4c165
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5b05a6ca-85d8-433d-bba6-28e8cfcc8ef0
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 19864aae-e679-4dc1-ae0f-dcef2400a860
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 21dea8a1-f09d-46df-a91f-3dec970b5fe3
+Terminated
+[C 2022-04-22 12:37:39.178 ServerApp] received signal 15, stopping
+[I 2022-04-22 12:37:39.222 ServerApp] Shutting down 3 extensions
+[I 2022-04-22 12:37:39.222 ServerApp] Shutting down 4 kernels
+[I 2022-04-22 12:37:39.222 ServerApp] Kernel shutdown: 92a08273-aeec-46d4-8b27-5f9c2bbca3aa
+[I 2022-04-22 12:37:39.222 ServerApp] Kernel shutdown: 4a4ca83d-eee3-4a29-85a5-a0868f25602a
+[I 2022-04-22 12:37:39.222 ServerApp] Kernel shutdown: 98468326-9b9a-4b60-b522-bed1a6ca0f21
+[I 2022-04-22 12:37:39.223 ServerApp] Kernel shutdown: 03f5b3ee-2149-4ff4-bc7f-86e8bac7dc76
+[I 2022-04-22 12:37:41.837 ServerApp] Shutting down 0 terminals

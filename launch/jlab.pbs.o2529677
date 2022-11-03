@@ -1,0 +1,220 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu Oct 27 06:40:30 GMT 2022
+/home1/datahome/mdemol/m2_2022/launch/jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+/home1/datahome/mdemol/m2_2022/launch/jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-10-27 06:41:26.874 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-10-27 06:41:26.890 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-27 06:41:26.898 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-10-27 06:41:26.898 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2022-10-27 06:41:27.252 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/jupyterlab
+[I 2022-10-27 06:41:27.252 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/mdenv/share/jupyter/lab
+[I 2022-10-27 06:41:27.274 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-10-27 06:41:27.370 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-10-27 06:41:27.370 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2022-10-27 06:41:27.371 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-10-27 06:41:27.371 ServerApp] Jupyter Server 1.21.0 is running at:
+[I 2022-10-27 06:41:27.371 ServerApp] http://r1i2n26:8877/lab
+[I 2022-10-27 06:41:27.371 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-10-27 06:41:27.371 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-10-27 06:42:36.434 LabApp] Build is up to date
+[I 2022-10-27 06:42:44.094 ServerApp] Kernel started: dce53904-8c8a-47ab-8a92-3359047ce26b
+[I 2022-10-27 06:42:44.094 ServerApp] Kernel started: b3adab14-4a4c-44b5-b3a8-8a7bcc341175
+[I 2022-10-27 06:42:44.095 ServerApp] Kernel started: 36a84751-87bb-48ae-9fd0-22f329158ffb
+[I 2022-10-27 06:42:44.117 ServerApp] Kernel started: e6b35941-b164-4ed4-8295-01ac81c3778c
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 19e73db2-51ac-448f-9e9e-fdf632d6b061
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 08a0462c-4b25-40c1-b570-4fe20b4a1d07
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 34ccb7da-a524-4a28-89ac-87bad0d3f1df
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 703ce30c-20ad-4d1e-a97c-18363914f746
+[I 2022-10-27 06:44:44.419 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 06:46:45.648 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 06:52:45.799 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 06:56:46.010 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 07:00:46.213 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 07:02:46.491 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 07:04:46.711 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 07:06:46.914 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 07:08:22.239 ServerApp] Kernel restarted: dce53904-8c8a-47ab-8a92-3359047ce26b
+[I 2022-10-27 07:08:22.249 ServerApp] Starting buffering for dce53904-8c8a-47ab-8a92-3359047ce26b:69c2c13d-4942-4d7b-9034-051e7bd373ae
+[I 2022-10-27 07:08:22.263 ServerApp] Restoring connection for dce53904-8c8a-47ab-8a92-3359047ce26b:69c2c13d-4942-4d7b-9034-051e7bd373ae
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 692b479f-76e7-4818-83ca-964ccec90e03
+[I 2022-10-27 07:08:47.009 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 07:10:47.139 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 07:14:47.357 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 07:20:47.524 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 07:22:47.669 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 07:24:47.881 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 07:26:48.016 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 07:28:48.192 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 07:30:48.340 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 07:32:48.475 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 07:33:03.840 ServerApp] Kernel restarted: dce53904-8c8a-47ab-8a92-3359047ce26b
+[I 2022-10-27 07:33:03.845 ServerApp] Starting buffering for dce53904-8c8a-47ab-8a92-3359047ce26b:69c2c13d-4942-4d7b-9034-051e7bd373ae
+[I 2022-10-27 07:33:03.846 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 07:33:04.825 ServerApp] Restoring connection for dce53904-8c8a-47ab-8a92-3359047ce26b:69c2c13d-4942-4d7b-9034-051e7bd373ae
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f1b63866-635b-4bc4-8a29-add639ec33d7
+[I 2022-10-27 08:11:49.184 ServerApp] Saving file at /GDP/diag_spectral_analysis.ipynb
+[I 2022-10-27 08:13:49.115 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 08:13:49.509 ServerApp] Saving file at /GDP/diag_spectral_analysis.ipynb
+[I 2022-10-27 08:15:49.255 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 08:19:49.498 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 08:21:07.696 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 08:21:49.747 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 08:25:49.987 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 08:29:50.194 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 08:31:50.435 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 08:35:50.713 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 08:39:50.991 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 08:43:51.260 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 08:47:51.460 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 08:49:51.664 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 08:53:51.873 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 08:55:52.165 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 08:59:52.360 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 09:05:52.548 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 09:07:00.837 ServerApp] Kernel restarted: b3adab14-4a4c-44b5-b3a8-8a7bcc341175
+[I 2022-10-27 09:07:00.844 ServerApp] Starting buffering for b3adab14-4a4c-44b5-b3a8-8a7bcc341175:1d6af3f7-0a00-40d3-8d0e-7f004bfee83e
+[I 2022-10-27 09:07:00.853 ServerApp] Restoring connection for b3adab14-4a4c-44b5-b3a8-8a7bcc341175:1d6af3f7-0a00-40d3-8d0e-7f004bfee83e
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 2022-10-27 09:07:52.837 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 09:11:53.075 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 09:12:29.919 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 09:14:30.055 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 09:20:30.228 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 09:24:30.409 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 09:26:30.597 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 09:28:30.716 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 09:29:12.062 ServerApp] Kernel restarted: b3adab14-4a4c-44b5-b3a8-8a7bcc341175
+[I 2022-10-27 09:29:12.069 ServerApp] Starting buffering for b3adab14-4a4c-44b5-b3a8-8a7bcc341175:1d6af3f7-0a00-40d3-8d0e-7f004bfee83e
+[I 2022-10-27 09:29:12.076 ServerApp] Restoring connection for b3adab14-4a4c-44b5-b3a8-8a7bcc341175:1d6af3f7-0a00-40d3-8d0e-7f004bfee83e
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: cfa4c06f-e323-4210-9e52-68d166a28bf4
+[I 2022-10-27 09:30:27.223 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 09:30:34.312 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 09:36:27.421 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 09:46:27.669 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 09:48:27.867 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 09:50:28.137 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 09:52:28.383 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 09:53:12.492 ServerApp] Kernel restarted: b3adab14-4a4c-44b5-b3a8-8a7bcc341175
+[I 2022-10-27 09:53:12.499 ServerApp] Starting buffering for b3adab14-4a4c-44b5-b3a8-8a7bcc341175:1d6af3f7-0a00-40d3-8d0e-7f004bfee83e
+[I 2022-10-27 09:53:12.507 ServerApp] Restoring connection for b3adab14-4a4c-44b5-b3a8-8a7bcc341175:1d6af3f7-0a00-40d3-8d0e-7f004bfee83e
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 6291e188-9296-4e74-84cc-f30f9752cda5
+[I 2022-10-27 09:54:28.622 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[W 2022-10-27 10:07:42.508 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-27 10:07:46.237 ServerApp] WebSocket ping timeout after 119997 ms.
+[W 2022-10-27 10:07:46.371 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-27 10:07:46.372 ServerApp] WebSocket ping timeout after 119999 ms.
+[I 2022-10-27 10:07:47.510 ServerApp] Starting buffering for b3adab14-4a4c-44b5-b3a8-8a7bcc341175:1d6af3f7-0a00-40d3-8d0e-7f004bfee83e
+[I 2022-10-27 10:07:51.239 ServerApp] Starting buffering for 36a84751-87bb-48ae-9fd0-22f329158ffb:4507c4bb-0d9e-4fd7-9f44-7d250fcd6135
+[I 2022-10-27 10:07:51.372 ServerApp] Starting buffering for e6b35941-b164-4ed4-8295-01ac81c3778c:b0600ff0-681e-4052-83cf-a62aaec233f4
+[W 2022-10-27 10:08:04.827 ServerApp] WebSocket ping timeout after 119999 ms.
+[I 2022-10-27 10:08:09.829 ServerApp] Starting buffering for dce53904-8c8a-47ab-8a92-3359047ce26b:69c2c13d-4942-4d7b-9034-051e7bd373ae
+[I 2022-10-27 11:20:02.945 ServerApp] Restoring connection for 36a84751-87bb-48ae-9fd0-22f329158ffb:4507c4bb-0d9e-4fd7-9f44-7d250fcd6135
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b7e21f80-c792-480c-8e20-9da77541d3cb
+[I 2022-10-27 11:20:07.500 ServerApp] Restoring connection for b3adab14-4a4c-44b5-b3a8-8a7bcc341175:1d6af3f7-0a00-40d3-8d0e-7f004bfee83e
+[I 2022-10-27 11:20:10.079 ServerApp] Restoring connection for dce53904-8c8a-47ab-8a92-3359047ce26b:69c2c13d-4942-4d7b-9034-051e7bd373ae
+[I 2022-10-27 11:20:16.193 ServerApp] Restoring connection for e6b35941-b164-4ed4-8295-01ac81c3778c:b0600ff0-681e-4052-83cf-a62aaec233f4
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 0c796737-68e8-445e-b651-01330c301082
+[I 2022-10-27 11:20:23.939 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 11:22:24.252 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 11:28:24.478 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 11:32:24.715 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 11:36:24.900 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 11:40:25.101 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 11:42:25.337 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 11:42:59.144 ServerApp] Kernel restarted: b3adab14-4a4c-44b5-b3a8-8a7bcc341175
+[I 2022-10-27 11:42:59.149 ServerApp] Starting buffering for b3adab14-4a4c-44b5-b3a8-8a7bcc341175:1d6af3f7-0a00-40d3-8d0e-7f004bfee83e
+[I 2022-10-27 11:42:59.157 ServerApp] Restoring connection for b3adab14-4a4c-44b5-b3a8-8a7bcc341175:1d6af3f7-0a00-40d3-8d0e-7f004bfee83e
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 9985e4c4-88ef-48d5-85a3-2ce9f44a74aa
+[I 2022-10-27 11:44:37.928 ServerApp] Saving file at /GDP/diag_spectral_analysis.ipynb
+[I 2022-10-27 11:46:38.219 ServerApp] Saving file at /GDP/diag_spectral_analysis.ipynb
+[I 2022-10-27 11:48:38.519 ServerApp] Saving file at /GDP/diag_spectral_analysis.ipynb
+[I 2022-10-27 11:50:30.571 ServerApp] Saving file at /GDP/diag_spectral_analysis.ipynb
+[I 2022-10-27 11:51:27.856 ServerApp] Kernel restarted: dce53904-8c8a-47ab-8a92-3359047ce26b
+[I 2022-10-27 11:51:27.861 ServerApp] Starting buffering for dce53904-8c8a-47ab-8a92-3359047ce26b:69c2c13d-4942-4d7b-9034-051e7bd373ae
+[I 2022-10-27 11:51:27.870 ServerApp] Restoring connection for dce53904-8c8a-47ab-8a92-3359047ce26b:69c2c13d-4942-4d7b-9034-051e7bd373ae
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: bd57daca-6d48-4bd0-8d0c-ac9125711d95
+[I 2022-10-27 11:52:30.906 ServerApp] Saving file at /GDP/diag_spectral_analysis.ipynb
+[I 2022-10-27 11:52:42.859 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 11:54:42.986 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 11:56:43.099 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 11:57:38.087 ServerApp] Kernel restarted: dce53904-8c8a-47ab-8a92-3359047ce26b
+[I 2022-10-27 11:57:38.094 ServerApp] Starting buffering for dce53904-8c8a-47ab-8a92-3359047ce26b:69c2c13d-4942-4d7b-9034-051e7bd373ae
+[I 2022-10-27 11:57:38.105 ServerApp] Restoring connection for dce53904-8c8a-47ab-8a92-3359047ce26b:69c2c13d-4942-4d7b-9034-051e7bd373ae
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 189c56e7-6971-47f0-a852-5c6fd81c0d38
+[I 2022-10-27 11:58:43.223 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 12:02:43.328 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 12:04:43.468 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 12:06:43.689 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 12:06:51.126 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 12:06:54.281 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 12:08:25.598 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 12:08:54.442 ServerApp] Saving file at /GDP/parquet_velocity_acceleration-Copy1.ipynb
+[I 2022-10-27 12:12:25.922 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 12:13:47.432 ServerApp] Starting buffering for 36a84751-87bb-48ae-9fd0-22f329158ffb:4507c4bb-0d9e-4fd7-9f44-7d250fcd6135
+[I 2022-10-27 12:13:47.433 ServerApp] Starting buffering for b3adab14-4a4c-44b5-b3a8-8a7bcc341175:1d6af3f7-0a00-40d3-8d0e-7f004bfee83e
+[I 2022-10-27 12:13:47.434 ServerApp] Starting buffering for dce53904-8c8a-47ab-8a92-3359047ce26b:69c2c13d-4942-4d7b-9034-051e7bd373ae
+[I 2022-10-27 12:13:47.434 ServerApp] Starting buffering for e6b35941-b164-4ed4-8295-01ac81c3778c:15c99af3-7bea-44b2-997e-5c188668705a
+[I 2022-10-27 12:14:00.947 ServerApp] Restoring connection for e6b35941-b164-4ed4-8295-01ac81c3778c:15c99af3-7bea-44b2-997e-5c188668705a
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d43dd264-047e-4761-b21e-511a170bc9f0
+[I 2022-10-27 12:14:02.599 ServerApp] Starting buffering for e6b35941-b164-4ed4-8295-01ac81c3778c:15c99af3-7bea-44b2-997e-5c188668705a
+[E 2022-10-27 12:14:04.878 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:600:3)
+        at Object.readFileSync (node:fs:468:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/mdenv/lib/python3.9/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-10-27 12:14:04.941 LabApp] Build is up to date
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5876d73a-5477-4654-9acb-dc483116a548
+[I 2022-10-27 12:15:33.225 ServerApp] Kernel interrupted: b3adab14-4a4c-44b5-b3a8-8a7bcc341175
+[I 2022-10-27 12:15:33.434 ServerApp] Kernel interrupted: b3adab14-4a4c-44b5-b3a8-8a7bcc341175
+[I 2022-10-27 12:15:33.809 ServerApp] Kernel interrupted: b3adab14-4a4c-44b5-b3a8-8a7bcc341175
+[I 2022-10-27 12:16:05.975 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 12:16:54.489 ServerApp] Kernel interrupted: b3adab14-4a4c-44b5-b3a8-8a7bcc341175
+[I 2022-10-27 12:16:54.658 ServerApp] Kernel interrupted: b3adab14-4a4c-44b5-b3a8-8a7bcc341175
+[I 2022-10-27 12:18:06.179 ServerApp] Saving file at /GDP/zarr_spectral_analysis.ipynb
+[I 2022-10-27 12:20:26.202 ServerApp] Starting buffering for dce53904-8c8a-47ab-8a92-3359047ce26b:87a2a90f-b0b7-4385-b99a-771836116e23
+[I 2022-10-27 12:20:26.203 ServerApp] Starting buffering for b3adab14-4a4c-44b5-b3a8-8a7bcc341175:e6c71f34-5d85-4c82-be2d-fd350f126785
+[I 2022-10-27 12:20:26.203 ServerApp] Starting buffering for e6b35941-b164-4ed4-8295-01ac81c3778c:1741263d-cc04-486b-85d5-1901dc6c8273
+[I 2022-10-27 12:20:26.203 ServerApp] Starting buffering for 36a84751-87bb-48ae-9fd0-22f329158ffb:f5b6d4ef-00ef-471d-9789-61c353de1b2b
+Terminated
+[C 2022-10-27 12:43:44.840 ServerApp] received signal 15, stopping
+[I 2022-10-27 12:43:44.893 ServerApp] Shutting down 3 extensions
+[I 2022-10-27 12:43:44.893 ServerApp] Shutting down 4 kernels
+[I 2022-10-27 12:43:44.894 ServerApp] Kernel shutdown: b3adab14-4a4c-44b5-b3a8-8a7bcc341175
+[I 2022-10-27 12:43:44.894 ServerApp] Kernel shutdown: dce53904-8c8a-47ab-8a92-3359047ce26b
+[I 2022-10-27 12:43:44.894 ServerApp] Kernel shutdown: 36a84751-87bb-48ae-9fd0-22f329158ffb
+[I 2022-10-27 12:43:44.895 ServerApp] Kernel shutdown: e6b35941-b164-4ed4-8295-01ac81c3778c
+[I 2022-10-27 12:43:47.511 ServerApp] Shutting down 0 terminals

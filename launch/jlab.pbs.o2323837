@@ -1,0 +1,173 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Fri Oct 14 06:58:52 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-10-14 06:59:15.893 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-10-14 06:59:15.903 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-14 06:59:15.910 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-10-14 06:59:20.492 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-10-14 06:59:21.180 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-10-14 06:59:21.181 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-10-14 06:59:21.181 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-10-14 06:59:21.185 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-10-14 06:59:21.285 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-10-14 06:59:21.285 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-10-14 06:59:21.285 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-10-14 06:59:21.285 ServerApp] http://r1i5n10:8877/lab
+[I 2022-10-14 06:59:21.285 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-10-14 06:59:21.285 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 2022-10-14 07:00:14.995 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-10-14 07:00:15.497 LabApp] Build is up to date
+[W 2022-10-14 07:00:18.958 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[W 2022-10-14 07:00:19.214 ServerApp] Notebook drifters_stats/sandbox/binned_stats.ipynb is not trusted
+[I 2022-10-14 07:00:21.001 ServerApp] Kernel started: 91e26c51-05fe-4ae5-bef3-67c06567496e
+[I 2022-10-14 07:00:21.002 ServerApp] Kernel started: 83f45db0-5d7a-442c-a958-8da1d7bbb1fa
+[I 2022-10-14 07:00:21.010 ServerApp] Kernel started: c23b59f9-0870-4249-a218-aae45f2b5dd4
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e6ada139-0542-4682-8ee5-cb4c55448fe3
+[W 2022-10-14 07:00:38.517 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x2aaab45d7ee0>
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8a44751b-84d5-421d-a0ab-34016be50eb4
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3dd5d771-831d-4345-bb9e-97a245c55d9f
+[I 2022-10-14 07:02:19.851 ServerApp] Saving file at /drifters_stats/sandbox/errors_lonlat.ipynb
+[I 2022-10-14 07:04:20.074 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[W 2022-10-14 07:09:11.690 ServerApp] Notebook drifters_stats/sandbox/count.ipynb is not trusted
+[I 2022-10-14 07:09:12.492 ServerApp] Kernel started: 5d8da51b-837e-4886-a943-57b7e13ef110
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ba4c6ab8-77a9-466b-9c37-011d8253466e
+[W 2022-10-14 07:10:03.958 ServerApp] Notebook drifters_stats/sandbox/skim.ipynb is not trusted
+[I 2022-10-14 07:10:04.236 ServerApp] Kernel started: 86cc848f-bced-4351-9b86-380641a5154c
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 857d497d-e1b0-4d18-b931-032eaf191aa1
+[W 2022-10-14 07:10:13.449 ServerApp] Notebook drifters_stats/sandbox/pyinterp.ipynb is not trusted
+[I 2022-10-14 07:10:14.075 ServerApp] Kernel started: 25995be0-bc40-44c8-ab6b-bb778ab296fd
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 0d03116a-8be4-4438-bd55-4e83ffe8e544
+[I 2022-10-14 07:10:20.378 ServerApp] Saving file at /drifters_stats/sandbox/binned_stats.ipynb
+[W 2022-10-14 07:10:20.379 ServerApp] Notebook drifters_stats/sandbox/binned_stats.ipynb is not trusted
+[I 2022-10-14 07:10:25.583 ServerApp] Starting buffering for 25995be0-bc40-44c8-ab6b-bb778ab296fd:374577f5-04a0-4d64-8b84-694fd5b5d0a6
+[I 2022-10-14 07:10:30.228 ServerApp] Starting buffering for 86cc848f-bced-4351-9b86-380641a5154c:8b088ec3-0ede-4853-bf55-73367403d693
+[I 2022-10-14 07:10:34.199 ServerApp] Starting buffering for 5d8da51b-837e-4886-a943-57b7e13ef110:b37ec42b-e37c-40c6-93b3-dc9f586e2ad9
+[I 2022-10-14 07:12:20.433 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-14 07:12:20.434 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-14 07:34:32.874 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 07:42:33.154 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 07:45:23.183 ServerApp] Starting buffering for 83f45db0-5d7a-442c-a958-8da1d7bbb1fa:bb0a3663-13ab-4bad-9955-b4a5dd8b4a83
+[I 2022-10-14 07:46:33.365 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 07:48:33.569 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 07:50:33.826 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 07:52:34.051 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 07:53:07.005 ServerApp] Kernel interrupted: 91e26c51-05fe-4ae5-bef3-67c06567496e
+[I 2022-10-14 07:53:07.608 ServerApp] Kernel interrupted: 91e26c51-05fe-4ae5-bef3-67c06567496e
+[I 2022-10-14 07:54:34.265 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 07:58:34.573 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 08:00:34.798 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 08:02:35.024 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 08:04:35.236 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 08:06:35.497 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 08:08:35.819 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 08:10:36.128 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 08:12:36.468 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 08:14:36.722 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 08:16:37.043 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 08:18:37.381 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[W 2022-10-14 08:23:08.573 ServerApp] delete /m2_2022/sandbox/dask-worker.o1800211
+[W 2022-10-14 08:23:08.719 ServerApp] delete /m2_2022/sandbox/dask-worker.o1832275
+[W 2022-10-14 08:23:08.724 ServerApp] delete /m2_2022/sandbox/dask-worker.o1800212
+[W 2022-10-14 08:23:08.745 ServerApp] delete /m2_2022/sandbox/dask-worker.o1832276
+[W 2022-10-14 08:23:08.748 ServerApp] delete /m2_2022/sandbox/dask-worker.o1896541
+[W 2022-10-14 08:23:08.751 ServerApp] delete /m2_2022/sandbox/dask-worker.o1896542
+[W 2022-10-14 08:23:08.754 ServerApp] delete /m2_2022/sandbox/dask-worker.o1896543
+[I 2022-10-14 08:23:50.183 ServerApp] Kernel started: 84669445-0a8b-45ba-8917-1750b656a1a9
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f56781fb-c72e-490c-a053-a5ac14dc5e28
+[I 2022-10-14 08:28:37.666 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 08:30:37.954 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 08:31:44.333 ServerApp] Kernel restarted: 84669445-0a8b-45ba-8917-1750b656a1a9
+[I 2022-10-14 08:31:44.339 ServerApp] Starting buffering for 84669445-0a8b-45ba-8917-1750b656a1a9:2282d5ab-a7b0-4a9e-94ed-203cf823d9f2
+[I 2022-10-14 08:31:44.347 ServerApp] Restoring connection for 84669445-0a8b-45ba-8917-1750b656a1a9:2282d5ab-a7b0-4a9e-94ed-203cf823d9f2
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: af256bf7-4d6f-4fdd-9e99-b85904ba9b2a
+[I 2022-10-14 08:31:49.255 ServerApp] Saving file at /m2_2022/sandbox/diag_drifter_errors.ipynb
+[I 2022-10-14 08:33:49.774 ServerApp] Saving file at /m2_2022/sandbox/diag_drifter_errors.ipynb
+[I 2022-10-14 08:35:50.072 ServerApp] Saving file at /m2_2022/sandbox/diag_drifter_errors.ipynb
+[I 2022-10-14 08:37:50.422 ServerApp] Saving file at /m2_2022/sandbox/diag_drifter_errors.ipynb
+[I 2022-10-14 08:39:50.746 ServerApp] Saving file at /m2_2022/sandbox/diag_drifter_errors.ipynb
+[I 2022-10-14 08:41:51.045 ServerApp] Saving file at /m2_2022/sandbox/diag_drifter_errors.ipynb
+[I 2022-10-14 08:43:51.330 ServerApp] Saving file at /m2_2022/sandbox/diag_drifter_errors.ipynb
+[I 2022-10-14 08:45:51.583 ServerApp] Saving file at /m2_2022/sandbox/diag_drifter_errors.ipynb
+[I 2022-10-14 08:47:51.835 ServerApp] Saving file at /m2_2022/sandbox/diag_drifter_errors.ipynb
+[I 2022-10-14 08:49:52.093 ServerApp] Saving file at /m2_2022/sandbox/diag_drifter_errors.ipynb
+[I 2022-10-14 08:51:52.358 ServerApp] Saving file at /m2_2022/sandbox/diag_drifter_errors.ipynb
+[I 2022-10-14 08:53:52.624 ServerApp] Saving file at /m2_2022/sandbox/diag_drifter_errors.ipynb
+[I 2022-10-14 08:54:52.760 ServerApp] Saving file at /m2_2022/sandbox/diag_drifter_errors.ipynb
+[I 2022-10-14 08:55:00.993 ServerApp] Kernel restarted: 91e26c51-05fe-4ae5-bef3-67c06567496e
+[I 2022-10-14 08:55:00.997 ServerApp] Starting buffering for 91e26c51-05fe-4ae5-bef3-67c06567496e:26cff387-2ace-4e33-b35f-df2512982175
+[I 2022-10-14 08:55:01.004 ServerApp] Restoring connection for 91e26c51-05fe-4ae5-bef3-67c06567496e:26cff387-2ace-4e33-b35f-df2512982175
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: fdf480e5-6efd-46c1-a9de-651230e68945
+[I 2022-10-14 08:56:38.178 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 08:56:53.074 ServerApp] Saving file at /m2_2022/sandbox/diag_drifter_errors.ipynb
+[I 2022-10-14 08:58:38.439 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:02:38.778 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:04:39.035 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:08:39.274 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:10:39.540 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:12:39.845 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:16:40.114 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:18:19.829 ServerApp] Kernel interrupted: 91e26c51-05fe-4ae5-bef3-67c06567496e
+[I 2022-10-14 09:18:40.346 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:20:40.625 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:22:40.856 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:24:41.100 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:26:41.336 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:28:41.657 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:38:42.102 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:40:42.470 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:42:42.832 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:44:43.171 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:46:43.468 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:48:43.799 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:50:44.159 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:52:44.559 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:54:44.887 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:56:45.226 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 09:58:45.565 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 10:00:45.944 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-14 10:03:40.183 ServerApp] Starting buffering for 84669445-0a8b-45ba-8917-1750b656a1a9:2282d5ab-a7b0-4a9e-94ed-203cf823d9f2
+[I 2022-10-14 10:03:40.184 ServerApp] Starting buffering for 91e26c51-05fe-4ae5-bef3-67c06567496e:26cff387-2ace-4e33-b35f-df2512982175
+[I 2022-10-14 10:03:40.184 ServerApp] Starting buffering for c23b59f9-0870-4249-a218-aae45f2b5dd4:6c028ee3-6a4a-40ad-a42d-a33e0a35aa73
+[C 2022-10-14 11:46:23.776 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-10-14 11:46:23.845 ServerApp] Shutting down 3 extensions
+[I 2022-10-14 11:46:23.845 ServerApp] Shutting down 7 kernels
+[I 2022-10-14 11:46:23.846 ServerApp] Kernel shutdown: 84669445-0a8b-45ba-8917-1750b656a1a9
+[I 2022-10-14 11:46:23.846 ServerApp] Kernel shutdown: c23b59f9-0870-4249-a218-aae45f2b5dd4
+[I 2022-10-14 11:46:23.847 ServerApp] Kernel shutdown: 25995be0-bc40-44c8-ab6b-bb778ab296fd
+[I 2022-10-14 11:46:23.847 ServerApp] Kernel shutdown: 91e26c51-05fe-4ae5-bef3-67c06567496e
+[I 2022-10-14 11:46:23.847 ServerApp] Kernel shutdown: 83f45db0-5d7a-442c-a958-8da1d7bbb1fa
+[I 2022-10-14 11:46:23.848 ServerApp] Kernel shutdown: 86cc848f-bced-4351-9b86-380641a5154c
+[I 2022-10-14 11:46:23.848 ServerApp] Kernel shutdown: 5d8da51b-837e-4886-a943-57b7e13ef110
+[I 2022-10-14 11:46:26.767 ServerApp] Shutting down 0 terminals

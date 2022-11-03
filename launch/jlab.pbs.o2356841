@@ -1,0 +1,91 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Mon Oct 17 06:45:49 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-10-17 06:46:18.589 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-10-17 06:46:18.601 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-17 06:46:18.608 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-10-17 06:46:24.921 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-10-17 06:46:25.613 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-10-17 06:46:25.614 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-10-17 06:46:25.614 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-10-17 06:46:25.618 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-10-17 06:46:25.749 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-10-17 06:46:25.749 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-10-17 06:46:25.749 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-10-17 06:46:25.749 ServerApp] http://r1i0n26:8877/lab
+[I 2022-10-17 06:46:25.749 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-10-17 06:46:25.749 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-10-17 06:48:25.160 ServerApp] 404 GET /apple-touch-icon-precomposed.png (10.148.1.145) 241.20ms referer=None
+[W 2022-10-17 06:48:26.323 ServerApp] 404 GET /apple-touch-icon.png (10.148.1.145) 1.03ms referer=None
+[I 2022-10-17 06:48:28.927 LabApp] Build is up to date
+[W 2022-10-17 06:48:32.871 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-17 06:48:35.239 ServerApp] Kernel started: da2a557e-782e-4fc4-946f-379342911415
+[I 2022-10-17 06:48:35.245 ServerApp] Kernel started: 6b56c832-3833-4381-8ed7-9a0e2d4c0d20
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5ddc050d-65c1-478e-84ea-cf2b682cce55
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 949c377d-2fcd-4c42-9b75-a4d7b57fd8f3
+[W 2022-10-17 06:53:36.547 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2323876
+[W 2022-10-17 06:53:36.878 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2323875
+[W 2022-10-17 06:53:36.976 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2323877
+[W 2022-10-17 06:53:37.093 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2323878
+[W 2022-10-17 06:53:37.152 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2324812
+[W 2022-10-17 06:53:37.251 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2323879
+[W 2022-10-17 06:53:37.335 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2324813
+[W 2022-10-17 06:53:37.376 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2324810
+[W 2022-10-17 06:53:37.500 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2324814
+[W 2022-10-17 06:53:37.671 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2324815
+[W 2022-10-17 06:53:37.791 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2327010
+[W 2022-10-17 06:53:37.964 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2327011
+[W 2022-10-17 06:53:38.087 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2327012
+[W 2022-10-17 06:53:38.092 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2327013
+[W 2022-10-17 06:53:38.175 ServerApp] delete /drifters_stats/sandbox/dask-worker.o2327014
+[I 2022-10-17 06:54:34.086 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-17 06:56:34.545 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-17 06:58:34.964 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-17 07:02:35.389 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-17 07:04:35.744 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-17 07:06:36.048 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-17 07:12:36.414 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-17 07:16:36.789 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-17 07:20:37.191 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-17 07:22:37.552 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-17 07:24:37.898 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-17 07:26:38.286 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[I 2022-10-17 07:28:38.649 ServerApp] Saving file at /drifters_stats/sandbox/errors_analysis.ipynb
+[W 2022-10-17 07:42:06.856 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2022-10-17 07:42:06.857 ServerApp] WebSocket ping timeout after 119997 ms.
+[W 2022-10-17 07:42:06.897 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-10-17 07:42:11.859 ServerApp] Starting buffering for 6b56c832-3833-4381-8ed7-9a0e2d4c0d20:c7722a73-9e2b-4ae9-95a4-b24607cf2b4b
+[I 2022-10-17 07:42:11.898 ServerApp] Starting buffering for da2a557e-782e-4fc4-946f-379342911415:439b8a5d-1b2a-4bd3-b75b-11ea2b346a80
+[E 2022-10-17 08:30:48.587 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-10-17 08:30:48.964 LabApp] Build is up to date
+[W 2022-10-17 08:30:49.059 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 6e18801d-93c2-4c66-852c-61776a573255
+[IPKernelApp] WARNING | No such comm: c50cd2da-b6f4-4dce-8f09-47c000c6833b
+[I 2022-10-17 09:13:35.778 ServerApp] Starting buffering for da2a557e-782e-4fc4-946f-379342911415:80ce446b-7a59-4053-b832-2b992d4bfdd9
+[I 2022-10-17 09:13:35.779 ServerApp] Starting buffering for 6b56c832-3833-4381-8ed7-9a0e2d4c0d20:ae943c2f-9c5d-4cc5-b5d9-b28ba73bb112
+[C 2022-10-17 13:14:04.683 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-10-17 13:14:04.786 ServerApp] Shutting down 3 extensions
+[I 2022-10-17 13:14:04.786 ServerApp] Shutting down 2 kernels
+[I 2022-10-17 13:14:04.786 ServerApp] Kernel shutdown: da2a557e-782e-4fc4-946f-379342911415
+[I 2022-10-17 13:14:04.787 ServerApp] Kernel shutdown: 6b56c832-3833-4381-8ed7-9a0e2d4c0d20
+[I 2022-10-17 13:14:07.600 ServerApp] Shutting down 0 terminals

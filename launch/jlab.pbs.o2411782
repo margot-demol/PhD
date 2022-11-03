@@ -1,0 +1,66 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu Oct 20 12:20:05 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/t_env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-10-20 12:20:08.764 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-10-20 12:20:08.769 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-20 12:20:08.776 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-10-20 12:20:09.139 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-10-20 12:20:09.400 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-10-20 12:20:09.401 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/t_env/lib/python3.8/site-packages/jupyterlab
+[I 2022-10-20 12:20:09.401 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/t_env/share/jupyter/lab
+[I 2022-10-20 12:20:09.405 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-10-20 12:20:09.412 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-10-20 12:20:09.412 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-10-20 12:20:09.412 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-10-20 12:20:09.412 ServerApp] http://r1i1n13:8877/lab
+[I 2022-10-20 12:20:09.412 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-10-20 12:20:09.412 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-10-20 12:20:52.014 ServerApp] 404 GET /api/kernels/a0835853-72dd-4c54-97cf-d03f624e9fe5?1666268451972 (10.148.1.145): Kernel does not exist: a0835853-72dd-4c54-97cf-d03f624e9fe5
+[W 2022-10-20 12:20:52.015 ServerApp] Kernel does not exist: a0835853-72dd-4c54-97cf-d03f624e9fe5
+[W 2022-10-20 12:20:52.015 ServerApp] 404 GET /api/kernels/a0835853-72dd-4c54-97cf-d03f624e9fe5?1666268451972 (10.148.1.145) 1.57ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox
+[W 2022-10-20 12:20:52.544 ServerApp] 404 GET /api/kernels/a0835853-72dd-4c54-97cf-d03f624e9fe5/channels?session_id=c73bf895-ecbb-4919-a5ae-7fba0b84f363 (10.148.1.145): Kernel does not exist: a0835853-72dd-4c54-97cf-d03f624e9fe5
+[W 2022-10-20 12:20:52.563 ServerApp] 404 GET /api/kernels/a0835853-72dd-4c54-97cf-d03f624e9fe5/channels?session_id=c73bf895-ecbb-4919-a5ae-7fba0b84f363 (10.148.1.145) 20.23ms referer=None
+[W 2022-10-20 12:20:52.593 ServerApp] 404 GET /api/kernels/a0835853-72dd-4c54-97cf-d03f624e9fe5?1666268452553 (10.148.1.145): Kernel does not exist: a0835853-72dd-4c54-97cf-d03f624e9fe5
+[W 2022-10-20 12:20:52.593 ServerApp] Kernel does not exist: a0835853-72dd-4c54-97cf-d03f624e9fe5
+[W 2022-10-20 12:20:52.593 ServerApp] 404 GET /api/kernels/a0835853-72dd-4c54-97cf-d03f624e9fe5?1666268452553 (10.148.1.145) 0.66ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox
+[W 2022-10-20 12:20:54.691 ServerApp] 404 GET /api/kernels/a0835853-72dd-4c54-97cf-d03f624e9fe5/channels?session_id=c73bf895-ecbb-4919-a5ae-7fba0b84f363 (10.148.1.145): Kernel does not exist: a0835853-72dd-4c54-97cf-d03f624e9fe5
+[W 2022-10-20 12:20:54.692 ServerApp] 404 GET /api/kernels/a0835853-72dd-4c54-97cf-d03f624e9fe5/channels?session_id=c73bf895-ecbb-4919-a5ae-7fba0b84f363 (10.148.1.145) 1.78ms referer=None
+[W 2022-10-20 12:20:54.750 ServerApp] 404 GET /api/kernels/a0835853-72dd-4c54-97cf-d03f624e9fe5?1666268454710 (10.148.1.145): Kernel does not exist: a0835853-72dd-4c54-97cf-d03f624e9fe5
+[W 2022-10-20 12:20:54.750 ServerApp] Kernel does not exist: a0835853-72dd-4c54-97cf-d03f624e9fe5
+[W 2022-10-20 12:20:54.750 ServerApp] 404 GET /api/kernels/a0835853-72dd-4c54-97cf-d03f624e9fe5?1666268454710 (10.148.1.145) 0.78ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox
+[W 2022-10-20 12:20:55.659 ServerApp] 404 GET /api/kernels/a0835853-72dd-4c54-97cf-d03f624e9fe5/channels?session_id=c73bf895-ecbb-4919-a5ae-7fba0b84f363 (10.148.1.145): Kernel does not exist: a0835853-72dd-4c54-97cf-d03f624e9fe5
+[W 2022-10-20 12:20:55.659 ServerApp] 404 GET /api/kernels/a0835853-72dd-4c54-97cf-d03f624e9fe5/channels?session_id=c73bf895-ecbb-4919-a5ae-7fba0b84f363 (10.148.1.145) 1.85ms referer=None
+[W 2022-10-20 12:20:55.695 ServerApp] 404 GET /api/kernels/a0835853-72dd-4c54-97cf-d03f624e9fe5?1666268455655 (10.148.1.145): Kernel does not exist: a0835853-72dd-4c54-97cf-d03f624e9fe5
+[W 2022-10-20 12:20:55.696 ServerApp] Kernel does not exist: a0835853-72dd-4c54-97cf-d03f624e9fe5
+[W 2022-10-20 12:20:55.696 ServerApp] 404 GET /api/kernels/a0835853-72dd-4c54-97cf-d03f624e9fe5?1666268455655 (10.148.1.145) 0.83ms referer=http://localhost:8877/lab/tree/drifters_stats/sandbox
+[E 2022-10-20 12:20:59.938 LabApp] Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+    {"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/t_env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+    {"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+    
+[I 2022-10-20 12:21:00.052 LabApp] Build is up to date
+[W 2022-10-20 12:21:01.216 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-20 12:21:02.165 ServerApp] Kernel started: 3e428c1f-0c13-4702-b180-799635d8b1d2
+[I 2022-10-20 12:21:02.298 ServerApp] Kernel started: 327271ac-abfd-4b3f-bb96-075a50e93244
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 81f96755-e1f1-467a-bb17-fed071db3428
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4b47b657-6df5-4a37-838e-5d58fc755262
+[I 2022-10-20 12:23:01.905 ServerApp] Saving file at /drifters_stats/sandbox/overview.ipynb
+[W 2022-10-20 12:23:01.906 ServerApp] Notebook drifters_stats/sandbox/overview.ipynb is not trusted
+[I 2022-10-20 12:54:33.466 ServerApp] Kernel shutdown: 3e428c1f-0c13-4702-b180-799635d8b1d2
+[I 2022-10-20 12:54:33.468 ServerApp] Kernel shutdown: 327271ac-abfd-4b3f-bb96-075a50e93244
+[I 2022-10-20 12:54:34.123 ServerApp] Shutting down on /api/shutdown request.
+[I 2022-10-20 12:54:34.124 ServerApp] Shutting down 3 extensions
+[I 2022-10-20 12:54:34.124 ServerApp] Shutting down 0 kernels
+[I 2022-10-20 12:54:34.124 ServerApp] Shutting down 0 terminals
+Terminated

@@ -1,0 +1,191 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Mon Jun 13 07:13:53 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-06-13 07:14:29.924 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-06-13 07:14:29.941 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-06-13 07:14:29.948 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-06-13 07:14:35.973 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-06-13 07:14:36.702 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-06-13 07:14:36.704 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-06-13 07:14:36.704 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-06-13 07:14:36.708 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-06-13 07:14:36.817 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-06-13 07:14:36.818 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-06-13 07:14:36.818 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-06-13 07:14:36.818 ServerApp] http://r1i1n21:8877/lab
+[I 2022-06-13 07:14:36.818 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-06-13 07:14:36.818 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-06-13 07:20:49.638 ServerApp] 404 GET /apple-touch-icon-precomposed.png (10.148.1.145) 143.94ms referer=None
+[W 2022-06-13 07:20:50.522 ServerApp] 404 GET /apple-touch-icon.png (10.148.1.145) 1.07ms referer=None
+[I 2022-06-13 07:20:52.940 LabApp] Build is up to date
+[W 2022-06-13 07:20:56.710 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-13 07:20:58.490 ServerApp] Kernel started: e1f4e12b-f309-4936-ada5-9e311cbb6c64
+[I 2022-06-13 07:20:58.491 ServerApp] Kernel started: 58c008ed-3e8d-499e-8e2c-8075a9d7f581
+[I 2022-06-13 07:20:58.492 ServerApp] Kernel started: ebf1537e-8d10-4b86-8037-fd93b2e0d86d
+[I 2022-06-13 07:20:58.654 ServerApp] Kernel started: 2777b9a9-2348-40ac-a355-408540ac050e
+readline: readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1830f89f-4d2a-4464-8efe-17af558a5209
+[IPKernelApp] WARNING | No such comm: f42425cc-4730-4513-86df-2c47518a073d
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 270743cc-4577-4f5b-afd6-c03dd1fb6a0b
+[W 2022-06-13 07:21:58.736 ServerApp] Timeout waiting for kernel_info reply from 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:03.249 ServerApp] Nudge: attempt 10 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:03.249 ServerApp] Nudge: attempt 10 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:08.259 ServerApp] Nudge: attempt 20 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:08.260 ServerApp] Nudge: attempt 20 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:13.270 ServerApp] Nudge: attempt 30 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:13.270 ServerApp] Nudge: attempt 30 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:18.281 ServerApp] Nudge: attempt 40 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:18.281 ServerApp] Nudge: attempt 40 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:23.292 ServerApp] Nudge: attempt 50 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:23.293 ServerApp] Nudge: attempt 50 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:28.303 ServerApp] Nudge: attempt 60 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:28.304 ServerApp] Nudge: attempt 60 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:33.316 ServerApp] Nudge: attempt 70 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:33.316 ServerApp] Nudge: attempt 70 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:38.325 ServerApp] Nudge: attempt 80 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:38.326 ServerApp] Nudge: attempt 80 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:43.336 ServerApp] Nudge: attempt 90 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:43.336 ServerApp] Nudge: attempt 90 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:48.347 ServerApp] Nudge: attempt 100 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:48.347 ServerApp] Nudge: attempt 100 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:53.359 ServerApp] Nudge: attempt 110 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:53.360 ServerApp] Nudge: attempt 110 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[I 2022-06-13 07:22:57.077 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[W 2022-06-13 07:22:58.375 ServerApp] Nudge: attempt 120 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[W 2022-06-13 07:22:58.375 ServerApp] Nudge: attempt 120 on kernel 2777b9a9-2348-40ac-a355-408540ac050e
+[E 2022-06-13 07:22:58.739 ServerApp] Uncaught exception GET /api/kernels/2777b9a9-2348-40ac-a355-408540ac050e/channels?session_id=9973491b-58af-4b6f-9cd4-4aeef9fe858e (10.148.1.145)
+    HTTPServerRequest(protocol='http', host='localhost:8877', method='GET', uri='/api/kernels/2777b9a9-2348-40ac-a355-408540ac050e/channels?session_id=9973491b-58af-4b6f-9cd4-4aeef9fe858e', version='HTTP/1.1', remote_ip='10.148.1.145')
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/websocket.py", line 956, in _accept_connection
+        await open_result
+    tornado.util.TimeoutError: Timeout
+[E 2022-06-13 07:22:58.748 ServerApp] Uncaught exception GET /api/kernels/2777b9a9-2348-40ac-a355-408540ac050e/channels?session_id=20abb37b-03af-46ed-a61f-37a83a14bad7 (10.148.1.145)
+    HTTPServerRequest(protocol='http', host='localhost:8877', method='GET', uri='/api/kernels/2777b9a9-2348-40ac-a355-408540ac050e/channels?session_id=20abb37b-03af-46ed-a61f-37a83a14bad7', version='HTTP/1.1', remote_ip='10.148.1.145')
+    Traceback (most recent call last):
+      File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/websocket.py", line 956, in _accept_connection
+        await open_result
+    tornado.util.TimeoutError: Timeout
+[W 2022-06-13 07:22:58.839 ServerApp] Replacing stale connection: 2777b9a9-2348-40ac-a355-408540ac050e:20abb37b-03af-46ed-a61f-37a83a14bad7
+[W 2022-06-13 07:22:58.883 ServerApp] Replacing stale connection: 2777b9a9-2348-40ac-a355-408540ac050e:9973491b-58af-4b6f-9cd4-4aeef9fe858e
+[I 2022-06-13 07:24:57.418 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 07:26:57.754 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 07:28:58.011 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 07:30:58.267 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 07:32:58.520 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 07:34:58.737 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 07:36:58.961 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 07:38:36.700 ServerApp] Kernel interrupted: e1f4e12b-f309-4936-ada5-9e311cbb6c64
+[I 2022-06-13 07:38:38.349 ServerApp] Kernel interrupted: e1f4e12b-f309-4936-ada5-9e311cbb6c64
+[I 2022-06-13 07:38:59.150 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 07:40:59.351 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 07:42:59.569 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 07:44:59.886 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 07:47:00.164 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 07:49:00.370 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 07:51:00.592 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 07:53:00.852 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 07:55:02.009 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 07:57:02.216 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 07:59:03.183 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:01:03.407 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:05:03.676 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:07:03.942 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:09:04.246 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:11:04.557 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:13:04.902 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:13:39.944 ServerApp] Kernel restarted: e1f4e12b-f309-4936-ada5-9e311cbb6c64
+[I 2022-06-13 08:13:39.950 ServerApp] Starting buffering for e1f4e12b-f309-4936-ada5-9e311cbb6c64:46272108-8ca3-47a8-8823-ae6f9377ad66
+[I 2022-06-13 08:13:39.958 ServerApp] Restoring connection for e1f4e12b-f309-4936-ada5-9e311cbb6c64:46272108-8ca3-47a8-8823-ae6f9377ad66
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5f786037-d8a9-4e21-95ec-b1eb8efb04fc
+[I 2022-06-13 08:15:05.205 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:17:05.472 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:19:05.735 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:21:06.075 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:27:06.431 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:28:29.946 ServerApp] Kernel restarted: e1f4e12b-f309-4936-ada5-9e311cbb6c64
+[I 2022-06-13 08:28:29.952 ServerApp] Starting buffering for e1f4e12b-f309-4936-ada5-9e311cbb6c64:46272108-8ca3-47a8-8823-ae6f9377ad66
+[I 2022-06-13 08:28:29.961 ServerApp] Restoring connection for e1f4e12b-f309-4936-ada5-9e311cbb6c64:46272108-8ca3-47a8-8823-ae6f9377ad66
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b6b390cf-3d8f-4ff2-8129-e7c909933162
+[I 2022-06-13 08:29:06.715 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:31:06.950 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:35:07.236 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:39:07.476 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:41:07.791 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:43:08.104 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:45:08.340 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:47:08.641 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:49:08.898 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:51:09.156 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 08:53:43.522 ServerApp] Kernel interrupted: e1f4e12b-f309-4936-ada5-9e311cbb6c64
+[I 2022-06-13 08:53:44.031 ServerApp] Kernel interrupted: e1f4e12b-f309-4936-ada5-9e311cbb6c64
+[I 2022-06-13 08:53:58.771 ServerApp] Kernel restarted: e1f4e12b-f309-4936-ada5-9e311cbb6c64
+[I 2022-06-13 08:53:58.777 ServerApp] Starting buffering for e1f4e12b-f309-4936-ada5-9e311cbb6c64:46272108-8ca3-47a8-8823-ae6f9377ad66
+[I 2022-06-13 08:53:58.784 ServerApp] Restoring connection for e1f4e12b-f309-4936-ada5-9e311cbb6c64:46272108-8ca3-47a8-8823-ae6f9377ad66
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5b4488f5-e960-44a5-b7a4-f43942cb1bee
+[I 2022-06-13 08:55:09.492 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 09:02:52.322 ServerApp] Kernel interrupted: e1f4e12b-f309-4936-ada5-9e311cbb6c64
+[I 2022-06-13 09:02:52.763 ServerApp] Kernel interrupted: e1f4e12b-f309-4936-ada5-9e311cbb6c64
+[I 2022-06-13 09:03:09.763 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 09:03:14.790 ServerApp] Kernel shutdown: e1f4e12b-f309-4936-ada5-9e311cbb6c64
+[I 2022-06-13 09:03:14.791 ServerApp] Kernel shutdown: 58c008ed-3e8d-499e-8e2c-8075a9d7f581
+[I 2022-06-13 09:03:14.792 ServerApp] Kernel shutdown: ebf1537e-8d10-4b86-8037-fd93b2e0d86d
+[I 2022-06-13 09:03:14.794 ServerApp] Kernel shutdown: 2777b9a9-2348-40ac-a355-408540ac050e
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 17, in <module>
+    app.launch_new_instance()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.initialize(argv)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/traitlets/config/application.py", line 88, in inner
+    return method(app, *args, **kwargs)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 661, in initialize
+    self.init_sockets()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 322, in init_sockets
+    self.init_iopub(context)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 349, in init_iopub
+    self.iopub_port = self._bind_socket(self.iopub_socket, self.iopub_port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 244, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 220, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/sugar/socket.py", line 214, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 540, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 395, in close
+    self.context.term()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/zmq/sugar/context.py", line 190, in term
+    return super(Context, self).term()
+  File "zmq/backend/cython/context.pyx", line 82, in zmq.backend.cython.context.Context.term
+  File "zmq/backend/cython/checkrc.pxd", line 13, in zmq.backend.cython.checkrc._check_rc
+KeyboardInterrupt
+[I 2022-06-13 09:03:16.153 ServerApp] Shutting down on /api/shutdown request.
+[I 2022-06-13 09:03:16.155 ServerApp] Shutting down 3 extensions
+[I 2022-06-13 09:03:16.155 ServerApp] Shutting down 0 kernels
+[I 2022-06-13 09:03:16.155 ServerApp] Shutting down 0 terminals
+Terminated

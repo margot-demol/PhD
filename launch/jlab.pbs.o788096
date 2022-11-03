@@ -1,0 +1,63 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Fri Jun 24 11:45:16 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-06-24 11:45:44.643 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-06-24 11:45:44.665 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-06-24 11:45:44.672 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-06-24 11:45:52.390 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-06-24 11:45:53.097 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-06-24 11:45:53.099 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-06-24 11:45:53.099 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-06-24 11:45:53.103 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-06-24 11:45:53.234 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-06-24 11:45:53.234 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-06-24 11:45:53.234 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-06-24 11:45:53.234 ServerApp] http://r1i7n32:8877/lab
+[I 2022-06-24 11:45:53.234 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-06-24 11:45:53.234 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 2022-06-24 11:46:45.732 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-06-24 11:46:46.319 LabApp] Build is up to date
+[I 2022-06-24 11:46:52.096 ServerApp] Kernel started: ca319e2f-b825-406a-a47c-c1bdbddf21be
+[I 2022-06-24 11:46:52.097 ServerApp] Kernel started: 05c9ac43-6ec2-4c32-9326-db88594bfbf5
+[I 2022-06-24 11:46:52.097 ServerApp] Kernel started: f425d49a-9da0-4065-aa34-c248c5cf55cd
+[I 2022-06-24 11:46:52.998 ServerApp] Kernel started: 36a6bb8b-3ca0-462e-a347-10fadab3c266
+[I 2022-06-24 11:46:53.010 ServerApp] Kernel started: aebf8093-db4c-4b0a-8860-1f7803e452a4
+[I 2022-06-24 11:46:53.014 ServerApp] Kernel started: c48d6005-a298-4d16-882c-78d6a15b19f1
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/bin/jupyter-lab", line 10, in <module>
+    sys.exit(main())
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/extension/application.py", line 594, in launch_instance
+    serverapp.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/serverapp.py", line 2757, in start
+    self.start_ioloop()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyter_server/serverapp.py", line 2743, in start_ioloop
+    self.io_loop.start()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/asyncio/base_events.py", line 1844, in _run_once
+    handle = self._ready.popleft()
+IndexError: pop from an empty deque
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+Terminated

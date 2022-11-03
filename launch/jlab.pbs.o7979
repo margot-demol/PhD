@@ -1,0 +1,242 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Fri Apr 22 12:38:56 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-04-22 12:38:58.068 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-04-22 12:38:58.072 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-04-22 12:38:58.079 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-04-22 12:38:58.387 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-04-22 12:38:58.441 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-04-22 12:38:58.443 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-04-22 12:38:58.443 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-04-22 12:38:58.446 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-04-22 12:38:58.452 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-04-22 12:38:58.453 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-04-22 12:38:58.453 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-04-22 12:38:58.453 ServerApp] http://r1i6n28:8877/lab
+[I 2022-04-22 12:38:58.453 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-04-22 12:38:58.453 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-04-22 12:41:09.962 ServerApp] 302 GET / (10.148.1.145) 0.58ms
+[I 2022-04-22 12:41:12.402 LabApp] Build is up to date
+[W 2022-04-22 12:41:13.216 ServerApp] Notebook m2_2022/sandbox/projections.ipynb is not trusted
+[I 2022-04-22 12:41:14.488 ServerApp] Kernel started: 9c93327e-7b53-4181-a485-8c77956e723c
+[I 2022-04-22 12:41:14.489 ServerApp] Kernel started: 5cdc94bf-8a0d-41de-a0c2-100c4abd0e4e
+[I 2022-04-22 12:41:14.491 ServerApp] Kernel started: ac0962aa-8df2-4cbe-b1f5-4c5d116778fe
+[I 2022-04-22 12:41:14.579 ServerApp] Kernel started: c240471a-bcea-4971-b182-8d05e3803aed
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 710161ed-01ef-4fe5-9579-ff372f0ae2f5
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 43372ad5-d739-4524-8237-4d0028cf81f6
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 29ea93c9-cb02-481b-8345-d0287200c0ad
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 7339aa75-b434-454e-bbad-e011cc401ff1
+[I 2022-04-22 12:45:14.092 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 12:47:15.760 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 12:49:16.004 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 12:51:16.298 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 12:53:16.653 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 12:55:16.949 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 12:57:17.236 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 12:59:17.522 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:01:17.815 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:03:18.101 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:05:18.374 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:11:18.649 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:13:18.979 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:15:19.343 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:17:19.704 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:19:20.069 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:21:20.443 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:23:20.723 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:27:21.084 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:29:21.434 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:33:21.891 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:35:22.276 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:37:22.634 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:39:23.001 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:41:23.370 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:43:23.659 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:45:23.870 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:47:24.162 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:49:24.452 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:51:24.746 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:51:38.761 ServerApp] Kernel restarted: c240471a-bcea-4971-b182-8d05e3803aed
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: cf9ef3d2-a940-4c91-bed7-19e3cec5d391
+[I 2022-04-22 13:53:25.078 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:55:25.324 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 13:57:25.689 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 14:01:26.230 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 14:03:26.509 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 14:05:26.802 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 14:07:27.090 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 14:09:27.302 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 14:11:27.601 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 14:13:27.876 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 14:15:13.518 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-22 14:15:28.159 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 14:17:13.799 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-22 14:17:28.432 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 14:19:14.091 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-22 14:20:56.237 ServerApp] Kernel restarted: 5cdc94bf-8a0d-41de-a0c2-100c4abd0e4e
+[I 2022-04-22 14:20:56.242 ServerApp] Starting buffering for 5cdc94bf-8a0d-41de-a0c2-100c4abd0e4e:6ba07831-3775-4ecf-91e5-c0b80571a939
+[I 2022-04-22 14:20:56.246 ServerApp] Restoring connection for 5cdc94bf-8a0d-41de-a0c2-100c4abd0e4e:6ba07831-3775-4ecf-91e5-c0b80571a939
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 9e0ad414-b743-43db-bf06-a3f7e5681b93
+[I 2022-04-22 14:21:14.420 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-inhotdup', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-0e_l0w63', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-9ha4ijt9', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-2nxs9bwt', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/home1/datahome/mdemol/m2_2022/sandbox/dask-worker-space/worker-5asjh42e', purging
+[I 2022-04-22 14:23:14.835 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-22 14:25:15.826 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-22 14:27:15.947 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-22 14:29:16.065 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-22 14:31:16.234 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-22 14:33:16.555 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-22 14:35:13.695 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-04-22 14:35:16.747 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-22 14:35:28.743 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 14:37:13.723 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-04-22 14:39:13.757 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-04-22 14:39:17.047 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-22 14:41:13.786 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-04-22 14:43:13.812 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-04-22 14:43:27.572 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-04-22 14:43:41.590 ServerApp] Kernel restarted: c240471a-bcea-4971-b182-8d05e3803aed
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c6c9ecc4-407f-4c93-ba31-d27636ae56f3
+[I 2022-04-22 14:44:53.177 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-04-22 14:45:28.963 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 14:46:07.331 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/affine/__init__.py:105: RuntimeWarning: invalid value encountered in double_scalars
+  deg = deg % 360.0
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/affine/__init__.py:105: RuntimeWarning: invalid value encountered in double_scalars
+  deg = deg % 360.0
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/affine/__init__.py:105: RuntimeWarning: invalid value encountered in double_scalars
+  deg = deg % 360.0
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/affine/__init__.py:105: RuntimeWarning: invalid value encountered in double_scalars
+  deg = deg % 360.0
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/affine/__init__.py:105: RuntimeWarning: invalid value encountered in double_scalars
+  deg = deg % 360.0
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/affine/__init__.py:105: RuntimeWarning: invalid value encountered in double_scalars
+  deg = deg % 360.0
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/affine/__init__.py:105: RuntimeWarning: invalid value encountered in double_scalars
+  deg = deg % 360.0
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/affine/__init__.py:105: RuntimeWarning: invalid value encountered in double_scalars
+  deg = deg % 360.0
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/affine/__init__.py:105: RuntimeWarning: invalid value encountered in double_scalars
+  deg = deg % 360.0
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/affine/__init__.py:105: RuntimeWarning: invalid value encountered in double_scalars
+  deg = deg % 360.0
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/affine/__init__.py:105: RuntimeWarning: invalid value encountered in double_scalars
+  deg = deg % 360.0
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/affine/__init__.py:105: RuntimeWarning: invalid value encountered in double_scalars
+  deg = deg % 360.0
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/affine/__init__.py:105: RuntimeWarning: invalid value encountered in double_scalars
+  deg = deg % 360.0
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/affine/__init__.py:105: RuntimeWarning: invalid value encountered in double_scalars
+  deg = deg % 360.0
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/affine/__init__.py:105: RuntimeWarning: invalid value encountered in double_scalars
+  deg = deg % 360.0
+/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/affine/__init__.py:105: RuntimeWarning: invalid value encountered in double_scalars
+  deg = deg % 360.0
+[I 2022-04-22 14:46:15.327 ServerApp] Kernel restarted: 5cdc94bf-8a0d-41de-a0c2-100c4abd0e4e
+[I 2022-04-22 14:46:15.346 ServerApp] Starting buffering for 5cdc94bf-8a0d-41de-a0c2-100c4abd0e4e:6ba07831-3775-4ecf-91e5-c0b80571a939
+[I 2022-04-22 14:46:15.350 ServerApp] Restoring connection for 5cdc94bf-8a0d-41de-a0c2-100c4abd0e4e:6ba07831-3775-4ecf-91e5-c0b80571a939
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 31d1fdb1-e1a0-4475-aec4-1d3da099b3fd
+[I 2022-04-22 14:46:20.385 ServerApp] Kernel restarted: c240471a-bcea-4971-b182-8d05e3803aed
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 43a3abb9-e510-47d8-b3e0-b2df9da2b4db
+[I 2022-04-22 14:46:45.970 ServerApp] Kernel restarted: 5cdc94bf-8a0d-41de-a0c2-100c4abd0e4e
+[I 2022-04-22 14:46:45.973 ServerApp] Starting buffering for 5cdc94bf-8a0d-41de-a0c2-100c4abd0e4e:6ba07831-3775-4ecf-91e5-c0b80571a939
+[I 2022-04-22 14:46:45.977 ServerApp] Restoring connection for 5cdc94bf-8a0d-41de-a0c2-100c4abd0e4e:6ba07831-3775-4ecf-91e5-c0b80571a939
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 66e515e2-ed27-43a9-a03d-0ac933017ca0
+[I 2022-04-22 14:47:29.177 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 14:48:07.359 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-04-22 14:49:17.265 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-22 14:51:17.594 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-22 14:51:39.463 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-04-22 14:51:48.897 ServerApp] Kernel restarted: c240471a-bcea-4971-b182-8d05e3803aed
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 15d9f964-0a8b-4e5d-8b4f-ad4a242cb7fa
+[I 2022-04-22 14:52:45.144 ServerApp] Kernel restarted: c240471a-bcea-4971-b182-8d05e3803aed
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: cf05324a-3d83-4fe7-917b-b99490ec3021
+[I 2022-04-22 14:53:14.871 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-04-22 14:53:17.824 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-22 14:53:21.113 ServerApp] Kernel restarted: c240471a-bcea-4971-b182-8d05e3803aed
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: fc3a1b39-e909-4489-a5e7-6081617abfe0
+[I 2022-04-22 14:53:29.491 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 14:53:29.672 ServerApp] Kernel interrupted: c240471a-bcea-4971-b182-8d05e3803aed
+[I 2022-04-22 14:53:31.211 ServerApp] Kernel interrupted: c240471a-bcea-4971-b182-8d05e3803aed
+[I 2022-04-22 14:53:33.669 ServerApp] Kernel restarted: c240471a-bcea-4971-b182-8d05e3803aed
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3f5ef30a-d561-42c8-989e-17ee6b238585
+[I 2022-04-22 14:54:18.856 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-04-22 14:54:23.331 ServerApp] Kernel restarted: c240471a-bcea-4971-b182-8d05e3803aed
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3055dd8a-3961-4b51-bb2f-667caa91db03
+[I 2022-04-22 14:54:27.043 ServerApp] Kernel interrupted: c240471a-bcea-4971-b182-8d05e3803aed
+[I 2022-04-22 14:54:29.250 ServerApp] Kernel restarted: c240471a-bcea-4971-b182-8d05e3803aed
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: df5dc04f-10b3-467b-b12a-45d1fff4b1fe
+[I 2022-04-22 14:55:29.704 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 14:57:33.645 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 14:57:33.887 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-04-22 14:57:40.813 ServerApp] Kernel restarted: c240471a-bcea-4971-b182-8d05e3803aed
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 63256cba-e895-4c95-9839-a57163d22ecd
+[I 2022-04-22 14:59:33.909 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-04-22 14:59:33.919 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 15:01:02.120 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-04-22 15:02:29.306 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-04-22 15:02:38.799 ServerApp] Kernel restarted: c240471a-bcea-4971-b182-8d05e3803aed
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 75474559-f6e6-498e-bcd1-fd8cdcd31493
+[I 2022-04-22 15:03:34.080 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 15:05:34.375 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 15:07:34.670 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 15:09:34.939 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 15:11:35.232 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 15:13:35.452 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 15:15:35.714 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-22 15:15:51.765 ServerApp] Kernel shutdown: 9c93327e-7b53-4181-a485-8c77956e723c
+[I 2022-04-22 15:15:51.767 ServerApp] Kernel shutdown: 5cdc94bf-8a0d-41de-a0c2-100c4abd0e4e
+[I 2022-04-22 15:15:51.769 ServerApp] Kernel shutdown: ac0962aa-8df2-4cbe-b1f5-4c5d116778fe
+[I 2022-04-22 15:15:51.770 ServerApp] Kernel shutdown: c240471a-bcea-4971-b182-8d05e3803aed
+[I 2022-04-22 15:15:54.400 ServerApp] Shutting down on /api/shutdown request.
+[I 2022-04-22 15:15:54.401 ServerApp] Shutting down 3 extensions
+[I 2022-04-22 15:15:54.401 ServerApp] Shutting down 0 kernels
+[I 2022-04-22 15:15:54.401 ServerApp] Shutting down 0 terminals
+Terminated

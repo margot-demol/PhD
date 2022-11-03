@@ -1,0 +1,176 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Tue Jul 26 10:04:04 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-07-26 10:04:06.724 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-07-26 10:04:06.728 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-07-26 10:04:06.735 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-07-26 10:04:07.093 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-07-26 10:04:07.419 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-07-26 10:04:07.420 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-07-26 10:04:07.420 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-07-26 10:04:07.424 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-07-26 10:04:07.431 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-07-26 10:04:07.431 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-07-26 10:04:07.431 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-07-26 10:04:07.431 ServerApp] http://r1i6n27:8877/lab
+[I 2022-07-26 10:04:07.431 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-07-26 10:04:07.431 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-07-26 10:05:12.048 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293?1658829912021 (10.148.1.145): Kernel does not exist: 42e26612-f412-437e-95a9-f916e6c64293
+[W 2022-07-26 10:05:12.048 ServerApp] Kernel does not exist: 42e26612-f412-437e-95a9-f916e6c64293
+[W 2022-07-26 10:05:12.049 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293?1658829912021 (10.148.1.145) 1.57ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/slacorrection_zarr.ipynb
+[W 2022-07-26 10:05:12.063 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293/channels?session_id=79a5d082-0b5d-457f-bfe4-6c71dc3f8526 (10.148.1.145): Kernel does not exist: 42e26612-f412-437e-95a9-f916e6c64293
+[W 2022-07-26 10:05:12.190 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293/channels?session_id=79a5d082-0b5d-457f-bfe4-6c71dc3f8526 (10.148.1.145) 127.51ms referer=None
+[W 2022-07-26 10:05:12.190 ServerApp] 404 GET /api/kernels/da123774-edd0-4eaa-82dd-3dbe5fb378bc?1658829912090 (10.148.1.145): Kernel does not exist: da123774-edd0-4eaa-82dd-3dbe5fb378bc
+[W 2022-07-26 10:05:12.190 ServerApp] Kernel does not exist: da123774-edd0-4eaa-82dd-3dbe5fb378bc
+[W 2022-07-26 10:05:12.191 ServerApp] 404 GET /api/kernels/da123774-edd0-4eaa-82dd-3dbe5fb378bc?1658829912090 (10.148.1.145) 0.66ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/slacorrection_zarr.ipynb
+[W 2022-07-26 10:05:12.260 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293?1658829912236 (10.148.1.145): Kernel does not exist: 42e26612-f412-437e-95a9-f916e6c64293
+[W 2022-07-26 10:05:12.260 ServerApp] Kernel does not exist: 42e26612-f412-437e-95a9-f916e6c64293
+[W 2022-07-26 10:05:12.260 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293?1658829912236 (10.148.1.145) 0.66ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/slacorrection_zarr.ipynb
+[W 2022-07-26 10:05:13.145 ServerApp] 404 GET /api/kernels/da123774-edd0-4eaa-82dd-3dbe5fb378bc/channels?session_id=d54ef16b-8726-44c0-8659-d01fdd4eb5d8 (10.148.1.145): Kernel does not exist: da123774-edd0-4eaa-82dd-3dbe5fb378bc
+[W 2022-07-26 10:05:13.146 ServerApp] 404 GET /api/kernels/da123774-edd0-4eaa-82dd-3dbe5fb378bc/channels?session_id=d54ef16b-8726-44c0-8659-d01fdd4eb5d8 (10.148.1.145) 1.48ms referer=None
+[W 2022-07-26 10:05:13.188 ServerApp] 404 GET /api/kernels/da123774-edd0-4eaa-82dd-3dbe5fb378bc?1658829913166 (10.148.1.145): Kernel does not exist: da123774-edd0-4eaa-82dd-3dbe5fb378bc
+[W 2022-07-26 10:05:13.188 ServerApp] Kernel does not exist: da123774-edd0-4eaa-82dd-3dbe5fb378bc
+[W 2022-07-26 10:05:13.188 ServerApp] 404 GET /api/kernels/da123774-edd0-4eaa-82dd-3dbe5fb378bc?1658829913166 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/slacorrection_zarr.ipynb
+[W 2022-07-26 10:05:13.792 ServerApp] 404 GET /api/kernels/da123774-edd0-4eaa-82dd-3dbe5fb378bc/channels?session_id=d54ef16b-8726-44c0-8659-d01fdd4eb5d8 (10.148.1.145): Kernel does not exist: da123774-edd0-4eaa-82dd-3dbe5fb378bc
+[W 2022-07-26 10:05:13.792 ServerApp] 404 GET /api/kernels/da123774-edd0-4eaa-82dd-3dbe5fb378bc/channels?session_id=d54ef16b-8726-44c0-8659-d01fdd4eb5d8 (10.148.1.145) 1.44ms referer=None
+[W 2022-07-26 10:05:13.829 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293/channels?session_id=79a5d082-0b5d-457f-bfe4-6c71dc3f8526 (10.148.1.145): Kernel does not exist: 42e26612-f412-437e-95a9-f916e6c64293
+[W 2022-07-26 10:05:13.829 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293/channels?session_id=79a5d082-0b5d-457f-bfe4-6c71dc3f8526 (10.148.1.145) 1.42ms referer=None
+[W 2022-07-26 10:05:13.877 ServerApp] 404 GET /api/kernels/da123774-edd0-4eaa-82dd-3dbe5fb378bc?1658829913854 (10.148.1.145): Kernel does not exist: da123774-edd0-4eaa-82dd-3dbe5fb378bc
+[W 2022-07-26 10:05:13.877 ServerApp] Kernel does not exist: da123774-edd0-4eaa-82dd-3dbe5fb378bc
+[W 2022-07-26 10:05:13.878 ServerApp] 404 GET /api/kernels/da123774-edd0-4eaa-82dd-3dbe5fb378bc?1658829913854 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/slacorrection_zarr.ipynb
+[W 2022-07-26 10:05:13.925 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293?1658829913902 (10.148.1.145): Kernel does not exist: 42e26612-f412-437e-95a9-f916e6c64293
+[W 2022-07-26 10:05:13.925 ServerApp] Kernel does not exist: 42e26612-f412-437e-95a9-f916e6c64293
+[W 2022-07-26 10:05:13.926 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293?1658829913902 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/slacorrection_zarr.ipynb
+[W 2022-07-26 10:05:15.019 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293?1658829914997 (10.148.1.145): Kernel does not exist: 42e26612-f412-437e-95a9-f916e6c64293
+[W 2022-07-26 10:05:15.019 ServerApp] Kernel does not exist: 42e26612-f412-437e-95a9-f916e6c64293
+[W 2022-07-26 10:05:15.019 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293?1658829914997 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/slacorrection_zarr.ipynb
+[W 2022-07-26 10:05:15.646 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293/channels?session_id=d3a0d23d-5b40-4eb1-a9a0-ff902fee32d3 (10.148.1.145): Kernel does not exist: 42e26612-f412-437e-95a9-f916e6c64293
+[W 2022-07-26 10:05:15.647 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293/channels?session_id=d3a0d23d-5b40-4eb1-a9a0-ff902fee32d3 (10.148.1.145) 1.45ms referer=None
+[W 2022-07-26 10:05:15.731 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293?1658829915709 (10.148.1.145): Kernel does not exist: 42e26612-f412-437e-95a9-f916e6c64293
+[W 2022-07-26 10:05:15.731 ServerApp] Kernel does not exist: 42e26612-f412-437e-95a9-f916e6c64293
+[W 2022-07-26 10:05:15.731 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293?1658829915709 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/slacorrection_zarr.ipynb
+[W 2022-07-26 10:05:15.939 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293/channels?session_id=79a5d082-0b5d-457f-bfe4-6c71dc3f8526 (10.148.1.145): Kernel does not exist: 42e26612-f412-437e-95a9-f916e6c64293
+[W 2022-07-26 10:05:15.940 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293/channels?session_id=79a5d082-0b5d-457f-bfe4-6c71dc3f8526 (10.148.1.145) 1.44ms referer=None
+[W 2022-07-26 10:05:16.023 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293?1658829916002 (10.148.1.145): Kernel does not exist: 42e26612-f412-437e-95a9-f916e6c64293
+[W 2022-07-26 10:05:16.023 ServerApp] Kernel does not exist: 42e26612-f412-437e-95a9-f916e6c64293
+[W 2022-07-26 10:05:16.024 ServerApp] 404 GET /api/kernels/42e26612-f412-437e-95a9-f916e6c64293?1658829916002 (10.148.1.145) 0.65ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-26 10:05:22.275 LabApp] Build is up to date
+[I 2022-07-26 10:05:25.706 ServerApp] Kernel started: 80b20fa3-a8b5-4eb6-99b5-be1c53bc8d89
+[I 2022-07-26 10:05:25.707 ServerApp] Kernel started: 31461a6a-62dc-45a7-bd87-b3b352572d71
+[I 2022-07-26 10:05:25.707 ServerApp] Kernel started: e6bdd988-0263-4e0e-81fb-d80486f01439
+[I 2022-07-26 10:05:25.707 ServerApp] Kernel started: e5395a35-f8fa-42b7-ba48-eceeb0f5b26a
+[I 2022-07-26 10:05:25.709 ServerApp] Kernel started: 46090efc-6356-4de3-89ce-c738931e5532
+[I 2022-07-26 10:05:26.164 ServerApp] Kernel started: 8ce12155-b5c9-41a2-9493-b82ee1c4044e
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] WARNING | No such comm: 748f6fef-2f02-4a82-8331-22312ba6aa0f
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d4d316c0-a433-4494-a2f0-7f8873d51e5d
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e35c005e-c4c1-4618-8b74-a5602cb62be1
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 7f66de7e-b196-48b8-8ca9-645f0f906007
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ad41c74d-6dee-4782-99b2-ada0d2de0711
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8c7a5ca1-7912-4a6c-8fcf-e6bff8331b1f
+[I 2022-07-26 10:07:24.509 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-26 10:09:24.631 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-26 10:13:24.820 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-26 11:18:00.780 ServerApp] Kernel restarted: e5395a35-f8fa-42b7-ba48-eceeb0f5b26a
+[I 2022-07-26 11:18:00.787 ServerApp] Starting buffering for e5395a35-f8fa-42b7-ba48-eceeb0f5b26a:41d3ef19-b06b-4c48-bd1b-8af280fafc49
+[I 2022-07-26 11:18:00.795 ServerApp] Restoring connection for e5395a35-f8fa-42b7-ba48-eceeb0f5b26a:41d3ef19-b06b-4c48-bd1b-8af280fafc49
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c8174c8f-e3c5-4d11-8b6d-59f362ef7dec
+[I 2022-07-26 11:18:58.242 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-26 11:20:58.386 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-26 11:24:58.533 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-26 12:03:10.665 ServerApp] Kernel restarted: e5395a35-f8fa-42b7-ba48-eceeb0f5b26a
+[I 2022-07-26 12:03:10.672 ServerApp] Starting buffering for e5395a35-f8fa-42b7-ba48-eceeb0f5b26a:41d3ef19-b06b-4c48-bd1b-8af280fafc49
+[I 2022-07-26 12:03:10.680 ServerApp] Restoring connection for e5395a35-f8fa-42b7-ba48-eceeb0f5b26a:41d3ef19-b06b-4c48-bd1b-8af280fafc49
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 167037f3-b56d-404b-904b-f50e75454c75
+[I 2022-07-26 12:04:19.799 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-26 12:06:20.036 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-26 12:08:20.234 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-26 12:09:41.232 ServerApp] Kernel restarted: e5395a35-f8fa-42b7-ba48-eceeb0f5b26a
+[I 2022-07-26 12:09:41.240 ServerApp] Starting buffering for e5395a35-f8fa-42b7-ba48-eceeb0f5b26a:41d3ef19-b06b-4c48-bd1b-8af280fafc49
+[I 2022-07-26 12:09:41.248 ServerApp] Restoring connection for e5395a35-f8fa-42b7-ba48-eceeb0f5b26a:41d3ef19-b06b-4c48-bd1b-8af280fafc49
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 286a0c78-6e19-4593-9e22-6a54f39614cf
+[W 2022-07-26 12:10:07.662 ServerApp] delete /m2_2022/sandbox/dask-worker.o1204778
+[W 2022-07-26 12:10:07.667 ServerApp] delete /m2_2022/sandbox/dask-worker.o1204865
+[W 2022-07-26 12:10:07.670 ServerApp] delete /m2_2022/sandbox/dask-worker.o1205047
+[W 2022-07-26 12:10:07.689 ServerApp] delete /m2_2022/sandbox/dask-worker.o1204779
+[W 2022-07-26 12:10:07.694 ServerApp] delete /m2_2022/sandbox/dask-worker.o1205048
+[W 2022-07-26 12:10:07.697 ServerApp] delete /m2_2022/sandbox/dask-worker.o1204866
+[W 2022-07-26 12:10:07.700 ServerApp] delete /m2_2022/sandbox/dask-worker.o1205046
+[W 2022-07-26 12:10:07.704 ServerApp] delete /m2_2022/sandbox/dask-worker.o1204867
+[W 2022-07-26 12:10:07.709 ServerApp] delete /m2_2022/sandbox/dask-worker.o1205205
+[W 2022-07-26 12:10:07.712 ServerApp] delete /m2_2022/sandbox/dask-worker.o1205206
+[W 2022-07-26 12:10:07.716 ServerApp] delete /m2_2022/sandbox/dask-worker.o1205207
+[W 2022-07-26 12:10:07.719 ServerApp] delete /m2_2022/sandbox/dask-worker.o1205958
+[W 2022-07-26 12:10:07.722 ServerApp] delete /m2_2022/sandbox/dask-worker.o1205959
+[W 2022-07-26 12:10:07.726 ServerApp] delete /m2_2022/sandbox/dask-worker.o1205960
+[W 2022-07-26 12:10:07.729 ServerApp] delete /m2_2022/sandbox/dask-worker.o1206593
+[W 2022-07-26 12:10:13.298 ServerApp] delete /m2_2022/sandbox/dask-worker.o1206594
+[I 2022-07-26 12:10:20.482 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-26 12:12:20.657 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-26 12:14:20.804 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-26 12:16:20.988 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-26 12:17:40.517 ServerApp] Kernel restarted: e5395a35-f8fa-42b7-ba48-eceeb0f5b26a
+[I 2022-07-26 12:17:40.522 ServerApp] Starting buffering for e5395a35-f8fa-42b7-ba48-eceeb0f5b26a:41d3ef19-b06b-4c48-bd1b-8af280fafc49
+[I 2022-07-26 12:17:40.531 ServerApp] Restoring connection for e5395a35-f8fa-42b7-ba48-eceeb0f5b26a:41d3ef19-b06b-4c48-bd1b-8af280fafc49
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 6ef04ca3-a14a-4315-98e1-d0fec48db5a0
+[I 2022-07-26 12:18:21.220 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-26 12:20:21.514 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-26 12:22:21.735 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-26 12:23:22.394 ServerApp] Saving file at /m2_2022/sandbox/slacorrection_zarr.ipynb
+[I 2022-07-26 12:25:25.016 ServerApp] Starting buffering for e5395a35-f8fa-42b7-ba48-eceeb0f5b26a:41d3ef19-b06b-4c48-bd1b-8af280fafc49
+[I 2022-07-26 12:25:53.805 ServerApp] Creating new notebook in /m2_2022/sandbox
+[I 2022-07-26 12:25:54.326 ServerApp] Kernel started: 62b77abb-102a-484e-8b60-83f71a666294
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: fe65dba6-862b-4be6-b768-b4c520b21657
+[I 2022-07-26 12:27:54.201 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 12:29:54.306 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 12:31:54.407 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 12:33:54.518 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 12:34:38.324 ServerApp] Kernel restarted: 62b77abb-102a-484e-8b60-83f71a666294
+[I 2022-07-26 12:34:38.327 ServerApp] Starting buffering for 62b77abb-102a-484e-8b60-83f71a666294:fc2fe286-83c5-47f0-8cf8-683701d6e7bf
+[I 2022-07-26 12:34:38.334 ServerApp] Restoring connection for 62b77abb-102a-484e-8b60-83f71a666294:fc2fe286-83c5-47f0-8cf8-683701d6e7bf
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5937be1f-5d28-45ae-9d1f-31a826c43605
+[I 2022-07-26 12:35:13.221 ServerApp] Saving file at /m2_2022/sandbox/diag_std_closure.ipynb
+Terminated
+[C 2022-07-26 12:35:53.756 ServerApp] received signal 15, stopping
+[I 2022-07-26 12:35:53.757 ServerApp] Shutting down 3 extensions
+[I 2022-07-26 12:35:53.757 ServerApp] Shutting down 7 kernels
+[I 2022-07-26 12:35:53.758 ServerApp] Kernel shutdown: 31461a6a-62dc-45a7-bd87-b3b352572d71
+[I 2022-07-26 12:35:53.758 ServerApp] Kernel shutdown: 46090efc-6356-4de3-89ce-c738931e5532
+[I 2022-07-26 12:35:53.758 ServerApp] Kernel shutdown: 80b20fa3-a8b5-4eb6-99b5-be1c53bc8d89
+[I 2022-07-26 12:35:53.758 ServerApp] Kernel shutdown: e5395a35-f8fa-42b7-ba48-eceeb0f5b26a
+[I 2022-07-26 12:35:53.759 ServerApp] Kernel shutdown: 62b77abb-102a-484e-8b60-83f71a666294
+[I 2022-07-26 12:35:53.759 ServerApp] Kernel shutdown: 8ce12155-b5c9-41a2-9493-b82ee1c4044e
+[I 2022-07-26 12:35:53.759 ServerApp] Kernel shutdown: e6bdd988-0263-4e0e-81fb-d80486f01439
+[I 2022-07-26 12:35:54.637 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 12:35:56.377 ServerApp] Shutting down 0 terminals

@@ -1,0 +1,221 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Tue Jul 26 12:36:55 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-07-26 12:36:58.890 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-07-26 12:36:58.894 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-07-26 12:36:58.902 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-07-26 12:36:59.477 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-07-26 12:36:59.802 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-07-26 12:36:59.803 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-07-26 12:36:59.803 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-07-26 12:36:59.807 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-07-26 12:36:59.814 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-07-26 12:36:59.814 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-07-26 12:36:59.814 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-07-26 12:36:59.814 ServerApp] http://r2i0n13:8877/lab
+[I 2022-07-26 12:36:59.814 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-07-26 12:36:59.814 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-07-26 12:38:08.679 ServerApp] 404 GET /api/kernels/e6bdd988-0263-4e0e-81fb-d80486f01439?1658839088644 (10.148.1.145): Kernel does not exist: e6bdd988-0263-4e0e-81fb-d80486f01439
+[W 2022-07-26 12:38:08.680 ServerApp] Kernel does not exist: e6bdd988-0263-4e0e-81fb-d80486f01439
+[W 2022-07-26 12:38:08.680 ServerApp] 404 GET /api/kernels/e6bdd988-0263-4e0e-81fb-d80486f01439?1658839088644 (10.148.1.145) 2.13ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/Untitled.ipynb
+[W 2022-07-26 12:38:08.729 ServerApp] 404 GET /api/kernels/e6bdd988-0263-4e0e-81fb-d80486f01439/channels?session_id=c0e19a21-d481-47d3-8afa-ddb68952747b (10.148.1.145): Kernel does not exist: e6bdd988-0263-4e0e-81fb-d80486f01439
+[W 2022-07-26 12:38:08.751 ServerApp] 404 GET /api/kernels/e6bdd988-0263-4e0e-81fb-d80486f01439/channels?session_id=c0e19a21-d481-47d3-8afa-ddb68952747b (10.148.1.145) 22.53ms referer=None
+[W 2022-07-26 12:38:08.818 ServerApp] 404 GET /api/kernels/e6bdd988-0263-4e0e-81fb-d80486f01439?1658839088785 (10.148.1.145): Kernel does not exist: e6bdd988-0263-4e0e-81fb-d80486f01439
+[W 2022-07-26 12:38:08.818 ServerApp] Kernel does not exist: e6bdd988-0263-4e0e-81fb-d80486f01439
+[W 2022-07-26 12:38:08.818 ServerApp] 404 GET /api/kernels/e6bdd988-0263-4e0e-81fb-d80486f01439?1658839088785 (10.148.1.145) 0.68ms referer=http://localhost:8877/lab/tree/m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 12:38:51.072 LabApp] Build is up to date
+[I 2022-07-26 12:38:54.357 ServerApp] Kernel started: d9e758fb-8e7d-45e5-b0f9-8e537b9462a7
+[I 2022-07-26 12:38:54.359 ServerApp] Kernel started: 0cd3270a-78e2-402f-b99c-352088981fe8
+[I 2022-07-26 12:38:55.255 ServerApp] Kernel started: 4f302318-95b3-405a-a0cd-711cd016a08c
+[I 2022-07-26 12:38:55.342 ServerApp] Kernel started: c98e5d5d-6f52-4efd-a72a-9e1291f4d972
+[I 2022-07-26 12:38:55.343 ServerApp] Kernel started: f14621a3-867b-4b06-954e-4785006616b4
+[I 2022-07-26 12:38:55.344 ServerApp] Kernel started: 903dae4d-7c69-4cba-bcbf-4896c2de2443
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a8e4f0c1-f3ee-4943-ac12-9e0fe53a1e54
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 97f27bd2-3ce1-4969-8440-286cd8909622
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 7c3e3fc9-5317-491e-b316-a40ae6151dd7
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 803f81b3-2bc6-410c-999c-84f64ddd8671
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: d68922ec-dce2-48ae-95fd-6f6f3f8b2a8b
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1fb38cd5-1ac2-4311-96b6-fc738f0f9fc1
+[I 2022-07-26 12:40:53.660 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 12:42:53.736 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 12:46:53.932 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 12:48:54.141 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 12:50:54.471 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 12:52:54.778 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 12:54:55.032 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 12:56:55.365 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 12:58:55.918 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:00:56.130 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:02:56.320 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:04:56.574 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:06:57.394 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:08:57.639 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:10:57.902 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:12:58.193 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:14:58.449 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:16:58.728 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:18:59.386 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:20:59.632 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:22:59.886 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:25:00.131 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:27:00.427 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:29:00.861 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:31:01.098 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:33:01.638 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:35:02.273 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:37:02.527 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:39:02.801 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:41:03.460 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[W 2022-07-26 13:41:30.406 ServerApp] Notebook m2_2022/sandbox/projections.ipynb is not trusted
+[I 2022-07-26 13:41:31.150 ServerApp] Kernel started: 18c12ce4-a476-4d98-92da-f7bde2620eb0
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 7aefc11d-5d96-448f-ba02-677bc08b9add
+[I 2022-07-26 13:41:50.030 ServerApp] Kernel started: 2a334f6b-5e94-43de-b680-77ce203f9505
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 7177d9ac-f2f2-478a-b529-f6a33aba1871
+[I 2022-07-26 13:43:03.716 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:45:03.956 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:47:04.223 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:49:04.554 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:51:04.798 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:53:05.814 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:55:06.166 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:57:06.403 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 13:59:07.268 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:01:07.541 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:01:23.769 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-07-26 14:03:07.889 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:05:08.165 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:05:23.785 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-07-26 14:07:09.152 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:08:06.270 ServerApp] Saving file at /m2_2022/m2lib22/box.py
+[I 2022-07-26 14:09:10.724 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:11:10.999 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:13:11.242 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:15:11.487 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:17:12.110 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:19:12.375 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:21:53.744 ServerApp] Saving file at /m2_2022/m2lib22/erastar.py
+[I 2022-07-26 14:23:53.792 ServerApp] Saving file at /m2_2022/m2lib22/erastar.py
+[I 2022-07-26 14:25:37.014 ServerApp] Saving file at /m2_2022/m2lib22/erastar.py
+[I 2022-07-26 14:27:03.807 ServerApp] Saving file at /m2_2022/m2lib22/erastar.py
+[I 2022-07-26 14:29:12.694 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:31:13.032 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:33:13.367 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:35:13.677 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:37:13.979 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:39:14.306 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:41:14.625 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:43:14.951 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:45:15.394 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:47:15.741 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:49:14.934 ServerApp] Saving file at /m2_2022/m2lib22/aviso.py
+[I 2022-07-26 14:51:16.028 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:53:16.300 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:55:16.591 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:57:16.898 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 14:58:58.809 ServerApp] Saving file at /m2_2022/m2lib22/slacorrection.py
+[I 2022-07-26 14:59:17.178 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 15:00:25.389 ServerApp] Saving file at /m2_2022/m2lib22/slacorrection.py
+[I 2022-07-26 15:01:17.436 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 15:03:17.695 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 15:05:03.297 ServerApp] Starting buffering for 0cd3270a-78e2-402f-b99c-352088981fe8:4b9747c9-b040-43f6-823e-82f8feb07f4c
+[I 2022-07-26 15:05:05.386 ServerApp] Starting buffering for 2a334f6b-5e94-43de-b680-77ce203f9505:43781465-ceb5-4562-af31-f0f36e52dc53
+[I 2022-07-26 15:05:06.314 ServerApp] Starting buffering for 18c12ce4-a476-4d98-92da-f7bde2620eb0:b775ebda-f82b-4240-b401-8e11a6d87533
+[I 2022-07-26 15:05:09.055 ServerApp] Starting buffering for 4f302318-95b3-405a-a0cd-711cd016a08c:1eb8d285-3480-4b62-90bc-887ff8513cc5
+[I 2022-07-26 15:05:11.602 ServerApp] Starting buffering for c98e5d5d-6f52-4efd-a72a-9e1291f4d972:08196124-bdae-43ba-9bc2-2ca41e9157c4
+[I 2022-07-26 15:05:17.939 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 15:07:18.175 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 15:09:18.417 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 15:11:14.574 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 15:13:14.593 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 15:15:14.608 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 15:17:14.649 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 15:19:14.669 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 15:21:14.692 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 15:23:14.708 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 15:25:14.727 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 15:27:15.218 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 15:29:15.240 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 15:31:15.440 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 15:33:15.477 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 15:35:15.495 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 15:37:16.011 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 15:39:16.222 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 15:41:17.691 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 15:43:17.770 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 15:45:18.269 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 15:45:18.785 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 15:47:18.620 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 15:47:19.219 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 15:49:19.844 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 15:51:20.156 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 15:53:21.978 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 15:55:22.673 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 15:57:23.006 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 15:59:03.700 ServerApp] Saving file at /m2_2022/m2lib22/erastar.py
+[I 2022-07-26 15:59:23.294 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:00:06.213 ServerApp] Saving file at /m2_2022/m2lib22/erastar.py
+[I 2022-07-26 16:01:23.592 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:03:23.864 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:05:24.139 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:07:24.440 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:09:24.992 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:11:25.330 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:13:25.701 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:15:26.041 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:17:26.422 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:19:14.883 ServerApp] Saving file at /m2_2022/m2lib22/aviso.py
+[I 2022-07-26 16:19:26.758 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:19:28.385 ServerApp] Saving file at /m2_2022/m2lib22/aviso.py
+[I 2022-07-26 16:21:27.071 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:22:00.214 ServerApp] Saving file at /m2_2022/m2lib22/aviso.py
+[I 2022-07-26 16:23:27.400 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:23:50.539 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:24:09.550 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:25:22.539 ServerApp] Saving file at /m2_2022/m2lib22/stress_to_windterm.py
+[I 2022-07-26 16:26:09.839 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:28:10.172 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:30:10.484 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:32:10.740 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:34:11.070 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:36:11.472 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:38:11.939 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:40:12.306 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:42:12.722 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:44:13.148 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:44:41.617 ServerApp] Saving file at /m2_2022/sandbox/Untitled.ipynb
+[I 2022-07-26 16:44:48.074 ServerApp] Starting buffering for f14621a3-867b-4b06-954e-4785006616b4:36713ae8-5230-4413-90dd-acaff7bf5474
+[I 2022-07-26 16:44:48.075 ServerApp] Starting buffering for 903dae4d-7c69-4cba-bcbf-4896c2de2443:3628d2b7-6803-4606-b846-b4b0e37e60ef
+[I 2022-07-26 16:44:48.075 ServerApp] Starting buffering for d9e758fb-8e7d-45e5-b0f9-8e537b9462a7:2f98ff3f-a7e9-4fc9-a6ea-ce66cc9bf36b
+[C 2022-07-26 16:45:25.786 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-07-26 16:45:25.801 ServerApp] Shutting down 3 extensions
+[I 2022-07-26 16:45:25.802 ServerApp] Shutting down 8 kernels
+[I 2022-07-26 16:45:25.803 ServerApp] Kernel shutdown: 18c12ce4-a476-4d98-92da-f7bde2620eb0
+[I 2022-07-26 16:45:25.803 ServerApp] Kernel shutdown: f14621a3-867b-4b06-954e-4785006616b4
+[I 2022-07-26 16:45:25.803 ServerApp] Kernel shutdown: 2a334f6b-5e94-43de-b680-77ce203f9505
+[I 2022-07-26 16:45:25.804 ServerApp] Kernel shutdown: d9e758fb-8e7d-45e5-b0f9-8e537b9462a7
+[I 2022-07-26 16:45:25.804 ServerApp] Kernel shutdown: c98e5d5d-6f52-4efd-a72a-9e1291f4d972
+[I 2022-07-26 16:45:25.804 ServerApp] Kernel shutdown: 0cd3270a-78e2-402f-b99c-352088981fe8
+[I 2022-07-26 16:45:25.805 ServerApp] Kernel shutdown: 4f302318-95b3-405a-a0cd-711cd016a08c
+[I 2022-07-26 16:45:25.805 ServerApp] Kernel shutdown: 903dae4d-7c69-4cba-bcbf-4896c2de2443
+[I 2022-07-26 16:45:28.425 ServerApp] Shutting down 0 terminals

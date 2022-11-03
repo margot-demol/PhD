@@ -1,0 +1,141 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu Jun  2 09:43:39 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-06-02 09:43:42.486 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-06-02 09:43:42.490 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-06-02 09:43:42.497 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-06-02 09:43:42.868 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-06-02 09:43:43.204 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-06-02 09:43:43.205 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-06-02 09:43:43.205 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-06-02 09:43:43.209 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-06-02 09:43:43.216 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-06-02 09:43:43.216 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-06-02 09:43:43.216 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-06-02 09:43:43.216 ServerApp] http://r1i5n17:8877/lab
+[I 2022-06-02 09:43:43.216 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-06-02 09:43:43.216 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-06-02 09:45:33.548 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-02 09:45:33.741 ServerApp] Kernel started: 659601d8-d68c-438e-9226-b317470bb69b
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 038d171f-aca1-449f-9556-c1bc098a20a9
+[I 2022-06-02 09:45:36.340 ServerApp] Kernel restarted: 659601d8-d68c-438e-9226-b317470bb69b
+[I 2022-06-02 09:45:36.345 ServerApp] Starting buffering for 659601d8-d68c-438e-9226-b317470bb69b:7ff06a3f-cd6c-406e-9ae7-127f5761aa66
+[I 2022-06-02 09:45:36.353 ServerApp] Restoring connection for 659601d8-d68c-438e-9226-b317470bb69b:7ff06a3f-cd6c-406e-9ae7-127f5761aa66
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ec0a4df1-04d1-4804-9b76-1f734af4a8ac
+[I 2022-06-02 09:47:33.719 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-02 09:48:18.032 ServerApp] Kernel started: ab20a899-bfe0-4fdf-98f3-7e0b4f8f5aa5
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 131afbae-2b1a-4b03-878d-329972e8250d
+[I 2022-06-02 09:48:20.802 ServerApp] Kernel restarted: ab20a899-bfe0-4fdf-98f3-7e0b4f8f5aa5
+[I 2022-06-02 09:48:20.807 ServerApp] Starting buffering for ab20a899-bfe0-4fdf-98f3-7e0b4f8f5aa5:22e1cd21-bfe9-40fa-a7b8-ab9b7db078d1
+[I 2022-06-02 09:48:20.815 ServerApp] Restoring connection for ab20a899-bfe0-4fdf-98f3-7e0b4f8f5aa5:22e1cd21-bfe9-40fa-a7b8-ab9b7db078d1
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 818754fc-4f6b-4811-8eeb-0e3a985d5275
+[I 2022-06-02 09:49:33.829 ServerApp] Saving file at /m2_2022/sandbox/aviso_zarr.ipynb
+[I 2022-06-02 09:49:59.895 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-06-02 09:53:59.995 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-06-02 09:56:00.066 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-06-02 09:58:00.172 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-06-02 10:00:00.280 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[I 2022-06-02 10:02:00.387 ServerApp] Saving file at /m2_2022/sandbox/all_data_zarr.ipynb
+[W 2022-06-02 10:09:20.815 ServerApp] WebSocket ping timeout after 119998 ms.
+[I 2022-06-02 10:09:25.817 ServerApp] Starting buffering for ab20a899-bfe0-4fdf-98f3-7e0b4f8f5aa5:22e1cd21-bfe9-40fa-a7b8-ab9b7db078d1
+[W 2022-06-02 10:09:36.353 ServerApp] WebSocket ping timeout after 119999 ms.
+[I 2022-06-02 10:09:41.357 ServerApp] Starting buffering for 659601d8-d68c-438e-9226-b317470bb69b:7ff06a3f-cd6c-406e-9ae7-127f5761aa66
+[E 2022-06-02 11:10:55.365 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-06-02 11:10:55.588 LabApp] Build is up to date
+[W 2022-06-02 11:10:56.465 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-02 11:10:57.302 ServerApp] Kernel started: abdebc7c-3c8a-4b7a-89b7-1e10e3c4dd3a
+[I 2022-06-02 11:10:57.345 ServerApp] Kernel started: 37bfbfa1-76e3-444d-9498-a8497bae278b
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e27d565b-a3de-4129-89bc-f5b3e64c95fd
+[IPKernelApp] WARNING | No such comm: 1d5697a1-7833-45a3-8ea4-52cdec327456
+[C 2022-06-02 11:11:22.674 ServerApp] received signal 15, stopping
+Terminated
+[I 2022-06-02 11:11:22.713 ServerApp] Shutting down 3 extensions
+[I 2022-06-02 11:11:22.713 ServerApp] Shutting down 4 kernels
+[I 2022-06-02 11:11:22.713 ServerApp] Kernel shutdown: abdebc7c-3c8a-4b7a-89b7-1e10e3c4dd3a
+[I 2022-06-02 11:11:22.713 ServerApp] Kernel shutdown: ab20a899-bfe0-4fdf-98f3-7e0b4f8f5aa5
+[I 2022-06-02 11:11:22.714 ServerApp] Kernel shutdown: 37bfbfa1-76e3-444d-9498-a8497bae278b
+[I 2022-06-02 11:11:22.714 ServerApp] Kernel shutdown: 659601d8-d68c-438e-9226-b317470bb69b
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 15, in <module>
+    from ipykernel import kernelapp as app
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 51, in <module>
+    from .ipkernel import IPythonKernel
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/ipkernel.py", line 18, in <module>
+    from .debugger import Debugger, _is_debugpy_available
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/debugger.py", line 21, in <module>
+    from debugpy.server import api  # noqa
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/debugpy/server/__init__.py", line 9, in <module>
+    import debugpy._vendored.force_pydevd  # noqa
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/debugpy/_vendored/force_pydevd.py", line 45, in <module>
+    preimport('pydevd', [
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/debugpy/_vendored/__init__.py", line 128, in preimport
+    import_module(name)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd.py", line 47, in <module>
+    from _pydev_bundle.pydev_console_utils import DebugConsoleStdIn
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/pydev_console_utils.py", line 6, in <module>
+    from _pydevd_bundle import pydevd_vars
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 934, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1032, in get_data
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel_launcher.py", line 15, in <module>
+    from ipykernel import kernelapp as app
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 51, in <module>
+    from .ipkernel import IPythonKernel
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/ipkernel.py", line 18, in <module>
+    from .debugger import Debugger, _is_debugpy_available
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/ipykernel/debugger.py", line 21, in <module>
+    from debugpy.server import api  # noqa
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/debugpy/server/__init__.py", line 9, in <module>
+    import debugpy._vendored.force_pydevd  # noqa
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/debugpy/_vendored/force_pydevd.py", line 45, in <module>
+    preimport('pydevd', [
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/debugpy/_vendored/__init__.py", line 128, in preimport
+    import_module(name)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd.py", line 47, in <module>
+    from _pydev_bundle.pydev_console_utils import DebugConsoleStdIn
+  File "/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/pydev_console_utils.py", line 6, in <module>
+    from _pydevd_bundle import pydevd_vars
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 934, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1032, in get_data
+KeyboardInterrupt
+[I 2022-06-02 11:11:25.328 ServerApp] Shutting down 0 terminals

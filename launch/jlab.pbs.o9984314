@@ -1,0 +1,156 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Wed Apr 20 12:12:08 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+[I 2022-04-20 12:12:12.032 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-04-20 12:12:12.036 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-04-20 12:12:12.044 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-04-20 12:12:12.406 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-04-20 12:12:12.706 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-04-20 12:12:12.707 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-04-20 12:12:12.707 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-04-20 12:12:12.711 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-04-20 12:12:12.717 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-04-20 12:12:12.717 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-04-20 12:12:12.717 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-04-20 12:12:12.718 ServerApp] http://r1i1n28:8877/lab
+[I 2022-04-20 12:12:12.718 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-04-20 12:12:12.718 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-04-20 12:13:06.473 ServerApp] 404 GET /apple-touch-icon-precomposed.png (10.148.1.145) 143.96ms referer=None
+[W 2022-04-20 12:13:07.513 ServerApp] 404 GET /apple-touch-icon.png (10.148.1.145) 1.00ms referer=None
+[I 2022-04-20 12:13:09.909 LabApp] Build is up to date
+[W 2022-04-20 12:13:13.985 ServerApp] Notebook m2_2022/sandbox/projections.ipynb is not trusted
+[I 2022-04-20 12:13:19.348 ServerApp] Kernel started: e290e5cf-d3a1-4b46-b15d-586ff0d320e0
+[I 2022-04-20 12:13:19.349 ServerApp] Kernel started: f3846501-da79-4f43-8d6c-c1bf1de2abe7
+[I 2022-04-20 12:13:19.350 ServerApp] Kernel started: 3977e798-5392-4c7d-b7c0-a4a9f506310e
+[I 2022-04-20 12:13:19.354 ServerApp] Kernel started: 140e7e98-b28f-406d-a0bd-a9f4d7a54fee
+[I 2022-04-20 12:13:19.359 ServerApp] Kernel started: 0c177d1b-957a-4c46-a63c-eddbb20f182e
+readline: readline: /etc/inputrc: line 19: term: unknown variable name
+/etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3d2f1670-29c2-4bc5-a8bf-f2cb0aee280e
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 023fce2e-261a-429d-8683-921f77c764ba
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 429c4122-0a71-489b-a67a-eba28681c86d
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ccf40ea0-baf3-489c-85de-a75e4cdff706
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 0fb228b2-8350-4b50-87dc-fa9738084858
+[W 2022-04-20 12:15:33.798 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 12:15:35.172 ServerApp] Kernel started: 5d9935d0-de30-4f8e-a760-423cc08938ea
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a2d25fb2-cf85-4d2a-b205-965e440c1a3e
+[I 2022-04-20 12:17:34.311 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 12:17:34.311 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 12:33:34.701 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 12:33:34.702 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 12:35:35.638 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 12:35:35.639 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 12:37:36.704 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 12:37:36.705 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 12:39:36.880 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 12:39:36.880 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 12:41:37.041 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 12:41:37.042 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 12:43:37.285 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 12:43:37.285 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 12:45:37.486 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 12:45:37.486 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 12:45:37.650 ServerApp] Kernel restarted: 5d9935d0-de30-4f8e-a760-423cc08938ea
+[I 2022-04-20 12:45:37.662 ServerApp] Starting buffering for 5d9935d0-de30-4f8e-a760-423cc08938ea:c9bf4581-3d01-490e-afb1-7fab493693c9
+[I 2022-04-20 12:45:37.699 ServerApp] Restoring connection for 5d9935d0-de30-4f8e-a760-423cc08938ea:c9bf4581-3d01-490e-afb1-7fab493693c9
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c5fc45cd-41c3-4c4f-822e-20e17a8ad795
+[I 2022-04-20 12:47:37.648 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 12:47:37.649 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 12:53:37.814 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 12:53:37.814 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 12:55:37.980 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 12:55:37.981 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 12:57:38.108 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 12:57:38.108 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 12:59:38.205 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 12:59:38.206 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 13:01:38.300 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 13:01:38.300 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 13:03:38.435 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 13:03:38.435 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 13:05:38.531 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 13:05:38.531 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 13:07:38.624 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 13:07:38.624 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 13:09:38.720 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 13:09:38.720 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 13:13:38.845 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 13:13:38.846 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 13:17:39.005 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 13:17:39.006 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 13:19:39.135 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 13:19:39.135 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 13:21:39.264 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[W 2022-04-20 13:21:39.264 ServerApp] Notebook m2_2022/sandbox/vector_rotation.ipynb is not trusted
+[I 2022-04-20 13:23:39.399 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-20 13:26:42.585 ServerApp] Kernel interrupted: 5d9935d0-de30-4f8e-a760-423cc08938ea
+[I 2022-04-20 13:27:39.560 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-20 13:29:39.810 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-20 13:31:17.137 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 13:32:12.439 ServerApp] Kernel restarted: 5d9935d0-de30-4f8e-a760-423cc08938ea
+[I 2022-04-20 13:32:12.446 ServerApp] Starting buffering for 5d9935d0-de30-4f8e-a760-423cc08938ea:c9bf4581-3d01-490e-afb1-7fab493693c9
+[I 2022-04-20 13:32:12.451 ServerApp] Restoring connection for 5d9935d0-de30-4f8e-a760-423cc08938ea:c9bf4581-3d01-490e-afb1-7fab493693c9
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 63f638e9-4df5-415b-9c0e-2486b76ad5a6
+[I 2022-04-20 13:33:17.432 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 13:35:21.728 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 13:42:20.014 ServerApp] Starting buffering for 140e7e98-b28f-406d-a0bd-a9f4d7a54fee:ebd0f66b-6253-4893-927b-fa95e26128cc
+[I 2022-04-20 13:42:23.300 ServerApp] Starting buffering for e290e5cf-d3a1-4b46-b15d-586ff0d320e0:ae5e758e-810e-44a9-bf69-3c550263570a
+[I 2022-04-20 13:44:14.737 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-20 13:48:15.001 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-20 13:50:15.243 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-20 13:52:15.438 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-20 13:56:15.617 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-20 13:58:15.841 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-20 14:02:16.022 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-20 14:04:16.199 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-20 14:06:16.414 ServerApp] Saving file at /m2_2022/sandbox/vector_rotation.ipynb
+[I 2022-04-20 14:07:36.339 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 14:09:36.612 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 14:11:36.933 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 14:15:37.172 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 14:19:41.751 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 14:21:41.942 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 14:23:42.159 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 14:25:42.414 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 14:27:42.627 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 14:29:42.887 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 14:31:43.139 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 14:33:43.390 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 14:35:43.649 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 14:37:43.984 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 14:39:44.377 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 14:41:50.835 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 14:43:51.186 ServerApp] Saving file at /m2_2022/sandbox/test_box.ipynb
+[I 2022-04-20 14:44:16.522 ServerApp] Starting buffering for 3977e798-5392-4c7d-b7c0-a4a9f506310e:f888d1bc-5d94-4811-8a64-f60399047c3f
+[I 2022-04-20 14:44:16.524 ServerApp] Starting buffering for 5d9935d0-de30-4f8e-a760-423cc08938ea:c9bf4581-3d01-490e-afb1-7fab493693c9
+[I 2022-04-20 14:44:16.524 ServerApp] Starting buffering for 0c177d1b-957a-4c46-a63c-eddbb20f182e:6163714d-dab4-458a-8f9a-ff2e8c61694d
+[I 2022-04-20 14:44:16.525 ServerApp] Starting buffering for f3846501-da79-4f43-8d6c-c1bf1de2abe7:2cf0e91e-bba0-4bc5-8238-a0e2582199a5
+Terminated
+[C 2022-04-20 14:44:53.466 ServerApp] received signal 15, stopping
+[I 2022-04-20 14:44:53.511 ServerApp] Shutting down 3 extensions
+[I 2022-04-20 14:44:53.511 ServerApp] Shutting down 6 kernels
+[I 2022-04-20 14:44:53.512 ServerApp] Kernel shutdown: 5d9935d0-de30-4f8e-a760-423cc08938ea
+[I 2022-04-20 14:44:53.512 ServerApp] Kernel shutdown: e290e5cf-d3a1-4b46-b15d-586ff0d320e0
+[I 2022-04-20 14:44:53.512 ServerApp] Kernel shutdown: 3977e798-5392-4c7d-b7c0-a4a9f506310e
+[I 2022-04-20 14:44:53.513 ServerApp] Kernel shutdown: 0c177d1b-957a-4c46-a63c-eddbb20f182e
+[I 2022-04-20 14:44:53.513 ServerApp] Kernel shutdown: 140e7e98-b28f-406d-a0bd-a9f4d7a54fee
+[I 2022-04-20 14:44:53.513 ServerApp] Kernel shutdown: f3846501-da79-4f43-8d6c-c1bf1de2abe7
+[I 2022-04-20 14:44:56.134 ServerApp] Shutting down 0 terminals

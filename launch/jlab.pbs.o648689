@@ -1,0 +1,82 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Mon Jun 13 09:03:47 GMT 2022
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2022-06-13 09:04:02.123 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-06-13 09:04:02.141 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-06-13 09:04:02.148 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-06-13 09:04:05.797 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-06-13 09:04:06.703 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-06-13 09:04:06.705 LabApp] JupyterLab extension loaded from /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab
+[I 2022-06-13 09:04:06.705 LabApp] JupyterLab application directory is /home1/datahome/mdemol/.miniconda3/envs/m2env/share/jupyter/lab
+[I 2022-06-13 09:04:06.709 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-06-13 09:04:06.803 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-06-13 09:04:06.803 ServerApp] Serving notebooks from local directory: /home1/datahome/mdemol
+[I 2022-06-13 09:04:06.803 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-06-13 09:04:06.803 ServerApp] http://r1i3n2:8877/lab
+[I 2022-06-13 09:04:06.803 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2022-06-13 09:04:06.803 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-06-13 09:04:53.485 ServerApp] Kernel started: 3c43f988-170b-441e-b75e-b5d7369566fc
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 777bd5ef-d266-466a-81bc-69796c4801d4
+[I 2022-06-13 09:05:01.782 ServerApp] Starting buffering for 3c43f988-170b-441e-b75e-b5d7369566fc:fec69b60-7257-409c-9394-3627fb21e4df
+[E 2022-06-13 09:05:03.774 LabApp] Fail to get yarn configuration. Error: ENOENT: no such file or directory, open '/home1/package.json'
+        at Object.openSync (node:fs:585:3)
+        at Object.readFileSync (node:fs:453:35)
+        at onUnexpectedError (/home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100386:108)
+        at /home1/datahome/mdemol/.miniconda3/envs/m2env/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:100505:9
+    
+[I 2022-06-13 09:05:03.892 LabApp] Build is up to date
+[W 2022-06-13 09:05:05.376 ServerApp] Notebook m2_2022/sandbox/test_aviso_lib.ipynb is not trusted
+[I 2022-06-13 09:05:06.513 ServerApp] Kernel started: 66627fc1-20e0-48f4-8dd0-1778c5f70394
+[I 2022-06-13 09:05:06.546 ServerApp] Kernel started: 3d41000c-5fa6-4d9c-8f73-fc3641eca6cb
+[I 2022-06-13 09:05:06.555 ServerApp] Kernel started: f4dd211d-1e22-429b-86ae-0f3bbf1aa3cd
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a2ac5443-eca5-471a-a9ac-25cbfcacda79
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 1d30c3c9-35a3-4ccd-b23e-1c85a93f509c
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 758e8ba3-8828-4b54-92b1-43609528d177
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: cd4e55ab-3649-4d53-b26a-cdea5527f034
+[I 2022-06-13 09:07:05.666 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 09:08:11.073 ServerApp] Kernel interrupted: 3c43f988-170b-441e-b75e-b5d7369566fc
+[I 2022-06-13 09:08:11.369 ServerApp] Kernel interrupted: 3c43f988-170b-441e-b75e-b5d7369566fc
+[I 2022-06-13 09:09:05.929 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 09:11:06.175 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 09:13:06.440 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 09:17:06.717 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 09:18:05.913 ServerApp] Kernel interrupted: 3c43f988-170b-441e-b75e-b5d7369566fc
+[I 2022-06-13 09:18:06.210 ServerApp] Kernel interrupted: 3c43f988-170b-441e-b75e-b5d7369566fc
+[I 2022-06-13 09:19:07.019 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 09:21:07.311 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 09:23:07.561 ServerApp] Saving file at /m2_2022/sandbox/test_erastar_lib.ipynb
+[I 2022-06-13 09:23:09.029 ServerApp] Kernel interrupted: 3c43f988-170b-441e-b75e-b5d7369566fc
+[I 2022-06-13 09:23:09.306 ServerApp] Kernel interrupted: 3c43f988-170b-441e-b75e-b5d7369566fc
+[I 2022-06-13 09:23:11.829 ServerApp] Kernel interrupted: 3c43f988-170b-441e-b75e-b5d7369566fc
+[I 2022-06-13 09:23:24.146 ServerApp] Kernel restarted: 3c43f988-170b-441e-b75e-b5d7369566fc
+[I 2022-06-13 09:23:24.153 ServerApp] Starting buffering for 3c43f988-170b-441e-b75e-b5d7369566fc:e7fbe287-8b8b-47ce-a87d-69f9c64e0288
+[I 2022-06-13 09:23:24.162 ServerApp] Restoring connection for 3c43f988-170b-441e-b75e-b5d7369566fc:e7fbe287-8b8b-47ce-a87d-69f9c64e0288
+readline: /etc/inputrc: line 19: term: unknown variable name
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b945a483-1aaa-4314-8cad-84674804a30b
+Terminated
+[C 2022-06-13 09:23:52.867 ServerApp] received signal 15, stopping
+[I 2022-06-13 09:23:52.869 ServerApp] Shutting down 3 extensions
+[I 2022-06-13 09:23:52.869 ServerApp] Shutting down 4 kernels
+[I 2022-06-13 09:23:52.870 ServerApp] Kernel shutdown: 66627fc1-20e0-48f4-8dd0-1778c5f70394
+[I 2022-06-13 09:23:52.870 ServerApp] Kernel shutdown: 3c43f988-170b-441e-b75e-b5d7369566fc
+[I 2022-06-13 09:23:52.870 ServerApp] Kernel shutdown: 3d41000c-5fa6-4d9c-8f73-fc3641eca6cb
+[I 2022-06-13 09:23:52.870 ServerApp] Kernel shutdown: f4dd211d-1e22-429b-86ae-0f3bbf1aa3cd
+[I 2022-06-13 09:23:54.390 ServerApp] Shutting down 0 terminals
