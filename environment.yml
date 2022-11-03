@@ -1,0 +1,42 @@
+channels:
+- pyviz
+- conda-forge
+- defaults
+dependencies:
+- cartopy
+- cmocean
+- dask
+- dask-jobqueue
+- folium
+- geopandas
+- geoviews
+- gsw
+- hvplot
+- ipywidgets
+- jupyterlab
+- netcdf4
+- pip
+- pyTMD
+- pyinterp
+- pytest
+- pytest-cov
+- python-graphviz
+- pytide
+- pywavelets
+- scikit-gstat
+- scikit-learn
+- seaborn
+- statsmodels
+- sympy
+- xarray
+- xhistogram
+- xrft
+- zarr
+- pip:
+  - black
+  - codecov
+  - geojsoncontour
+  - kymatio
+  - pynmea2
+  - pytest-xdist
+name: mdenv
