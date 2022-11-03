@@ -5,18 +5,20 @@
 To install from the environment file:
 
 ```
-git clone https://github.com/apatlpo/synthetic_stats.git
-cd synthetic_stats
-conda env create -n stats python=3.9 -f ci/environment.yml
+git clone https://github.com/margot-demol/PhD.git
+cd PhD
+conda env create -n mdenv -f environment.yml
 ```
+CAUTION : the specification of the python version via python=3.9 before the yaml file in command line is not taken into account -> need to write it in the yaml file  
+
 
 Note that you can combine environment files into one and then install:
 
 ```
 conda activate base
 pip install conda-merge
-conda-merge ci/environment.yml path/to/other/environment.yml > environment.yml
-conda env create -n stats python=3.9 -f environment.yml
+conda-merge environment.yml path/to/other/environment.yml > environment.yml
+conda env create -n mdenv -f environment.yml
 ```
 
 ## Manual install :
@@ -26,7 +28,7 @@ Download Miniconda3 (i.e. for python3) from the [conda website](https://conda.io
 bash Miniconda3-latest-Linux-x86_64.sh
 bash
 conda update conda # command to be updated?
-conda create -n stats -c conda-forge python=3.9 dask dask-jobqueue \
+conda create -n mdenv -c conda-forge python=3.9 dask dask-jobqueue \
             xarray zarr netcdf4 python-graphviz \
             jupyterlab ipywidgets \
             cartopy geopandas \
@@ -39,7 +41,7 @@ conda activate stats
 pip install git+https://github.com/xgcm/xrft.git
 conda install pywavelets
 pip install kymatio
-cd synthetic_stats; pip install -e .
+cd PhD; pip install -e .
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 cp launch/jobqueue.yaml launch/distributed.yaml ~/.config/dask/
 ```
