@@ -22,6 +22,7 @@ sdist/
 var/
 wheels/
 *.egg-info/
+*.pbs.*
 .installed.cfg
 *.egg
 *.DS_Store
