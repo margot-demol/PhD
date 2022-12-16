@@ -46,16 +46,16 @@ def plot_autocorrelations(ds, tau_max=100):
 
 
     ax = axes[1]
-    if 'coru' in list(ds.keys()):
-        ds.coru.where(ds.lags < tau_max).plot.line(x="lags",  color='k',ls=':',ax=ax, add_legend=False);
+    if 'coru_inf' in list(ds.keys()):
+        ds.coru_inf.where(ds.lags < tau_max).plot.line(x="lags",  color='k',ls=':',ax=ax, add_legend=False);
     ds["uu"].where(ds.lags < tau_max).plot.line(x="lags", ax=ax,add_legend=False);   
     ax.grid()
     ax.set_title("")
     ax.set_xlabel("")
 
     ax = axes[2]
-    if 'cora' in list(ds.keys()):
-        ds.cora.where(ds.lags < tau_max).plot.line(x="lags",  color='k',ls=':',ax=ax, add_legend=False);
+    if 'cora_inf' in list(ds.keys()):
+        ds.cora_inf.where(ds.lags < tau_max).plot.line(x="lags",  color='k',ls=':',ax=ax, add_legend=False);
     ds["aa"].where(ds.lags < tau_max).plot.line(x="lags", ax=ax,add_legend=False);
         
     ax.grid()
@@ -123,8 +123,9 @@ def plot_psd(ds, suffixes_ls ={'':'solid'}, suffixes_leg={'':''}, title='') :
         for i in range(Tl.size) : 
             if i==0 : ax.axvline(x = 1/Tl[i], color=colors[i], ls='--', label='1/T')
             else : ax.axvline(x = 1/ds.T[i], color=colors[i], ls='--')
-        ax.axvline(1/ds.attrs['tau_eta_days'], color = 'k',ls ='--', label=r'$1/\tau_{\eta}$')
-   
+        if 'tau_eta' in list(ds.coords) : ax.axvline(1/ds.tau_eta, color = 'k',ls ='--', label=r'$1/\tau_{\eta}$')
+        else : ax.axvline(1/ds.attrs['tau_eta_days'], color = 'k',ls ='--', label=r'$1/\tau_{\eta}$')
+    
     axs[0].legend()
     axs[0].grid()
     axs[1].grid()
