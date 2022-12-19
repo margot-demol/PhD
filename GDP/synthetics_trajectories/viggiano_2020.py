@@ -23,6 +23,9 @@ def PSDa_1_ds(ds):
             ds.T)
 def Coru_1(tau, T, sigma):
     return sigma**2*np.exp(-tau/T)
+def Coru_1_ds(ds):
+    return Coru_1(ds.lags, ds.T, ds.attrs["sigma_u"])
+
 
 """
 2-LAYER
@@ -134,25 +137,25 @@ INFINITY OF LAYERS
 _______
 Theoritical PSD or correlation for n->infinity (2.29) and (2.30) Viggiano
 """
-def Coru_ou_inf(tau, sigma, T, tau_eta):
+def Coru_inf(tau, sigma, T, tau_eta):
     #Formule 2.29 Viggiano
     ratio = sigma**2*np.exp(-abs(tau)/T)/(2*erfc(tau_eta/T))
     erf_minus = erf(abs(tau)/(2*tau_eta)-tau_eta/T)
     erfc_plus = erfc(abs(tau)/(2*tau_eta)+tau_eta/T)
     return ratio*(1+erf_minus+np.exp(2*abs(tau)/T)*erfc_plus)
 
-def Coru_ou_inf_ds(ds) :
+def Coru_inf_ds(ds) :
     if 'tau_eta' in list(ds.coords):
-        return Coru_ou_inf(ds.lags,
+        return Coru_inf(ds.lags,
                 ds.attrs["sigma_u"],
                 ds.T, ds.tau_eta)
     else: 
-                return Coru_ou_inf(ds.lags,
+                return Coru_inf(ds.lags,
                 ds.attrs["sigma_u"],
                 ds.T, ds.attrs["tau_eta_days"])
     
 
-def Cora_ou_inf(tau, sigma, T, tau_eta):
+def Cora_inf(tau, sigma, T, tau_eta):
     exp_minus = np.exp(-abs(tau)/T)
     exp_plus = np.exp(abs(tau)/T)
     exp2 = np.exp(-(tau**2/(4*tau_eta**2) + tau_eta**2/T**2))
@@ -166,12 +169,12 @@ def Cora_ou_inf(tau, sigma, T, tau_eta):
     return (sigma**2/(2*T**2*erfc1)
             *(ratio*exp2 - exp_minus*(1+erfc_plus)- exp_plus*erf_minus)
            )
-def Cora_ou_inf_ds(ds):
+def Cora_inf_ds(ds):
     if 'tau_eta' in list(ds.coords):
-        return Cora_ou_inf(ds.lags,
+        return Cora_inf(ds.lags,
                 ds.attrs["sigma_u"],
                 ds.T, ds.tau_eta)
     else :
-        return Cora_ou_inf(ds.lags,
+        return Cora_inf(ds.lags,
                 ds.attrs["sigma_u"],
                 ds.T, ds.attrs["tau_eta_days"])
