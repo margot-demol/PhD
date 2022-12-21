@@ -118,7 +118,7 @@ def Coru_n_ds(ds):
                 ds.attrs["n_layers"])
 
 def Cora_n(tau, f, sigma, T, tau_eta, n):
-    return (PSDa_n(2*np.pi*f, sigma, T, tau_eta, n)*np.exp(1j*2*np.pi*tau*f)).integrate('freq_time').real()
+    return (PSDa_n(2*np.pi*f, sigma, T, tau_eta, n)*np.exp(1j*2*np.pi*tau*f)).integrate('freq_time').real()/(86400**2)
 def Cora_n_ds(ds):    
     if 'tau_eta' in list(ds.coords):
         return Cora_n(ds.lags,
@@ -167,8 +167,9 @@ def Cora_inf(tau, sigma, T, tau_eta):
     ratio =2*T/(tau_eta*np.sqrt(np.pi))
 
     return (sigma**2/(2*T**2*erfc1)
-            *(ratio*exp2 - exp_minus*(1+erfc_plus)- exp_plus*erf_minus)
-           )
+            *(ratio*exp2 - exp_minus*(1+erf_minus)- exp_plus*erfc_plus)
+           )/(86400**2)
+
 def Cora_inf_ds(ds):
     if 'tau_eta' in list(ds.coords):
         return Cora_inf(ds.lags,
