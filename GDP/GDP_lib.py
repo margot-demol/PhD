@@ -1,4 +1,3 @@
-
 """
 DIRECTORIES AND FILES
 ---------------------------------------------------------------------------------------------
@@ -16,9 +15,9 @@ columns =['time', 'id', 'lon', 'lat', 'vex', 'vny', 'vxy', 've', 'vn', 'ae', 'an
        'y', 'typebuoy', 'gap', 'deploy_date', 'deploy_lat', 'deploy_lon',
        'end_date', 'end_lat', 'end_lon', 'drogue_lost_date', 'typedeath',
        'lon360', 'err_lat', 'err_lon', 'err_ve', 'err_vn']
-"""       
-gps_av = '/home1/datawork/mdemol/GDP/gps_av_time.parquet'
-argos_av = '/home1/datawork/mdemol/GDP/argos_av_time.parquet'
+"""
+gps_av = "/home1/datawork/mdemol/GDP/gps_av_time.parquet"
+argos_av = "/home1/datawork/mdemol/GDP/argos_av_time.parquet"
 
 
 """
@@ -30,4 +29,4 @@ columns =['time', 'id', 'lon', 'lat', 'vex', 'vny', 'vxy', 've', 'vn', 'ae', 'an
        'y', 'typebuoy', 'gap', 'deploy_date', 'deploy_lat', 'deploy_lon',
        'end_date', 'end_lat', 'end_lon', 'drogue_lost_date', 'typedeath',
        'lon360', 'err_lat', 'err_lon', 'err_ve', 'err_vn']
-"""    
+"""
