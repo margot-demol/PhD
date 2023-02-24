@@ -131,6 +131,23 @@ def white_noise_time_series(t, noise_std, lon_ref=0.0, lat_ref= 45.0, add_to = '
 
 
 def white_noise_time_series(t, noise_std, lon_ref=0.0, lat_ref=45.0, add_to="lonlat"):
+    """
+    Genererate dataframe containing the time series of a 'static' trajectories, where variations are purely due to white noise on positions or velocities
+    Parameters:
+    -----------
+            t : pd.date_range
+                time serie
+            noise_std : float
+                        std of the noise 
+            lon_ref : float
+                    longitude of the 'static' trajectorie (does not have much importance)
+            lat_ref : float
+                    latitude of the 'static' trajectorie (does not have much importance)
+            add_to : str
+                    "lonlat", or "xy", or "v", allow to choose on which variable the white noise should be added.
+                    The other time series are computed by integrations or differentiations.
+            
+    """
     draw = 2  # x, y
     da = ts.normal(time=t, draws=draw) * noise_std
     distance = "geoid"
@@ -393,6 +410,20 @@ def psd_uncentered_der(psd, freq="frequency"):
 
 
 def var_centered_der(stdx, corx=None, dt=1 / 24, D=1, lagskey="lags"):
+    """ 
+    Return variance of alpha derivative computed by central differentiation giving the std of alpha
+    
+    Parameters:
+    -----------
+            stdx : float
+                    std of alpha
+            corx : darray
+                    correlation function
+            dt : differentiation step
+            D : int
+                degree: 1 for the derivative of alpha
+                        2 for the derivative of alpha1 + i alpha2
+    """
     if lagskey != "lags":
         corx = corx.rename({lagskey: "lags"})
     if corx is None:
@@ -403,6 +434,20 @@ def var_centered_der(stdx, corx=None, dt=1 / 24, D=1, lagskey="lags"):
 
 
 def var_2uncentered_der(stdx, corx=None, dt=1 / 24, D=1, lagskey="lags"):
+    """ 
+    Return variance of alpha derivative computed by 2 uncentered differentiation giving the std of alpha
+    
+    Parameters:
+    -----------
+            stdx : float
+                    std of alpha
+            corx : darray
+                    correlation function
+            dt : differentiation step
+            D : int
+                degree: 1 for the derivative of alpha
+                        2 for the derivative of alpha1 + i alpha2
+    """
     if lagskey != "lags":
         corx = corx.rename({lagskey: "lags"})
     if corx is None:
