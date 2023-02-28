@@ -18,9 +18,9 @@ AVISO
 
 
 def load_aviso(t, dt=None, suffix="", rkwargs=None, **kwargs):
-    """ Extract AVISO data
+    """Extract AVISO data
     Ref ...
-    
+
     Parameters
     ----------
     t: date-like object
@@ -32,49 +32,53 @@ def load_aviso(t, dt=None, suffix="", rkwargs=None, **kwargs):
     **kwargs: dict
         passed to sel
     """
-    
+
     t = pd.to_datetime(t)
     if dt is not None:
-        t = [t+pd.Timedelta(days=_dt) for _dt in range(*dt)]
+        t = [t + pd.Timedelta(days=_dt) for _dt in range(*dt)]
     else:
         t = [t]
     if rkwargs is None:
-        rkwargs={}
+        rkwargs = {}
     #
     D = []
     for _t in t:
         files = glob(os.path.join(aviso_dir, f"{_t.year}/{_t.dayofyear:03d}/*.nc"))
-        assert len(files)==1, f"error: multiple files at {files}"
-        #ds = xr.open_dataset(files[0], **rkwargs).sel(**kwargs)
+        assert len(files) == 1, f"error: multiple files at {files}"
+        # ds = xr.open_dataset(files[0], **rkwargs).sel(**kwargs)
         # load_dataset loads data and close the file immediately while read_dataset is lazy
         # https://docs.xarray.dev/en/latest/generated/xarray.load_dataset.html
         # this choice may be more safe with regards to concurrent readings
-        ds = (xr.load_dataset(files[0], **rkwargs)
-               .sel(**kwargs)
-              )
+        ds = xr.load_dataset(files[0], **rkwargs).sel(**kwargs)
         D.append(ds)
-    ds = xr.concat(D, dim="time", combine_attrs="drop_conflicts") # drop attributes that vary
-    ds = ds.rename(time=suffix+"time", longitude=suffix+"lon", latitude=suffix+"lat")
+    ds = xr.concat(
+        D, dim="time", combine_attrs="drop_conflicts"
+    )  # drop attributes that vary
+    ds = ds.rename(
+        time=suffix + "time", longitude=suffix + "lon", latitude=suffix + "lat"
+    )
     return ds
 
 
 def get_aviso_one_obs(ds_obs, dt):
-    """ load aviso for one collocation """
-    
+    """load aviso for one collocation"""
+
     # load data
     aviso = sat.load_aviso(ds_obs.time.values, dt, suffix="aviso_")
-    
+
     # interpolate on local grid
-    sla = aviso.sla.interp(aviso_lon=ds_obs.box_lon,
-                           aviso_lat=ds_obs.box_lat,
-                          )
-    
+    sla = aviso.sla.interp(
+        aviso_lon=ds_obs.box_lon,
+        aviso_lat=ds_obs.box_lat,
+    )
+
     # convert to dataset and massage in order to concatenate properly in get_aviso
     ds = sla.to_dataset()
     ds["aviso_dates"] = ds.aviso_time
-    ds = (ds
-          .drop(["aviso_time", "time", "lon", "lat", "aviso_lon", "aviso_lat"]) # forget about actual dates in time coordinate
-          .rename(sla="aviso_sla")
+    ds = ds.drop(
+        ["aviso_time", "time", "lon", "lat", "aviso_lon", "aviso_lat"]
+    ).rename(  # forget about actual dates in time coordinate
+        sla="aviso_sla"
     )
-    
+
     return ds
