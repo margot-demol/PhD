@@ -12,7 +12,7 @@ Computate velocity and acceleration by differentiation :
 - store all in parquet
 
 ### parquet_velocity_acceleration_xycorrected.ipynb
-Generate parquet after removing aberant/problematic values in vxy and axy
+Generate parquet after removing aberant/problematic values in vxy and axy \\
 cf diag_comparaison_va_hole.ipynb to see the problem
 - replace vxy >...% velocity percentile by Nan
 - replace axy >...% accelaration percentile by Nan
@@ -91,13 +91,22 @@ Variance of acceleration maps
 Geographically bins histograms
 
 ### diag_before_after_correction.ipynb
+Comparison of velocities and acceleration before and after correction (99.99% percentile for velocities, 90 for acceleration)
+- Trajectories
+- std/var
+- Nrj map
+- Spectra
+- map of nan values
 
 ### diag_trajectories.ipynb
 Inspect trajectories and compare Elipot and GDP raw
 
-### diag_comparison_va_hole.ipynb
-### diag_comparison_va_corrected_hole.ipynb
 ### diag_comparison_va.ipynb
+Comparison velocities and acceleration form Elipot and differentiation =  en vs xy
+- Trajectories
+- std/var
+- Dependance on xy
+- Dependence on the gap
 
 ### diag_spectral_analysis.ipynb
 ### diag_der_func_spectra.ipynb
@@ -112,6 +121,16 @@ Spectral integration per bands
 - for velocity and acceleration
 - allow to give an estimation of noise
 
+### diag_geo_band_integration.ipynb
+Spectral integration per bands in geo 2°bins (0-0.5, 0.5,2.5, 2.5 cpd)
+- Number of spectra per 2°bins
+- spectra in one bin
+- map of nrj per band
+- map of pourcentage of total nrj per band
+- histograms of nrj per band
+- histograms of pourcentage of total nrj per band
+
+
 ### diag_find_pb_a.ipynb
 ### diag_find_pb_v.ipynb
 
@@ -119,5 +138,7 @@ Spectral integration per bands
 Estimate the pourcentage of noise  by fitting a white noise spectra (on position)
 
 ### diag_geospectra.ipynb
+Geographically binned spectra
+- plot spectra for chosen geographical boxes
 
 ### diag_nrj_spectra.ipynb
