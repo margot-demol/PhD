@@ -1,7 +1,7 @@
 # GDP Analysis
-
+____
 ## Objectives
-
+____
 ## Files Descriptions
 
 ### parquet_velocity_acceleration.ipynb
@@ -109,7 +109,7 @@ Comparison velocities and acceleration form Elipot and differentiation =  en vs 
 - Dependence on the gap
 
 ### diag_spectral_analysis.ipynb
-### diag_der_func_spectra.ipynb
+- global velocities and accelerations spectra
 
 ### diag_noise_fit.ipynb
 Static noised trajectories theoritical fit \\
@@ -130,10 +130,6 @@ Spectral integration per bands in geo 2°bins (0-0.5, 0.5,2.5, 2.5 cpd)
 - histograms of nrj per band
 - histograms of pourcentage of total nrj per band
 
-
-### diag_find_pb_a.ipynb
-### diag_find_pb_v.ipynb
-
 ### diag_whitenoise_integration.ipynb
 Estimate the pourcentage of noise  by fitting a white noise spectra (on position)
 
@@ -142,3 +138,4 @@ Geographically binned spectra
 - plot spectra for chosen geographical boxes
 
 ### diag_nrj_spectra.ipynb
+Spectra per bin of energy
