@@ -228,11 +228,12 @@ def plot_psd(ds, suffixes_ls={"": "solid"}, suffixes_leg={"": ""}, title=""):
         ax.set_yscale("log")
         ax.set_xlabel("f[cpd]")
         # ax.set_ylabel("Velocity PSD Eu")
+        ax.set_ylabel(r"$PSD_u$ $[m^2/s^2/cpd]$")
         ax.grid()
         ax.set_title("(a)")
 
         ax = axs[1]
-        if "PSDu" in list(ds.keys()):
+        if "PSDa" in list(ds.keys()):
             ds.PSDa.plot(color="k", ls=":", ax=ax)
         for suf in suffixes_ls:
             _E = ds["Ea" + suf].mean("draw")
@@ -244,6 +245,7 @@ def plot_psd(ds, suffixes_ls={"": "solid"}, suffixes_leg={"": ""}, title=""):
         ax.set_xlabel("f[cpd]")
         # ax.set_ylabel("Acceleration PSD Ea")
         ax.set_title("(b)")
+        ax.set_ylabel(r"$PSD_a$ $[m^2/s^4/cpd]$")
 
     if ds.T.size == 1:
         _T = 0
