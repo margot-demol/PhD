@@ -1,6 +1,0 @@
-# ---------------------- bathymetric dataset -------------------------------------
-bathy:
-    etopo1: None
-# ---------------------- hydrological climatology --------------------------------
-climatology:
-    woa: None
