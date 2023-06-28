@@ -7,6 +7,7 @@ from scipy.special import erfc, erf
 _______
 """
 
+
 ### Theoritical PSD or correlation for exponentially correlated process
 def PSDu_1(omega, sigma, T):
     return 2 * T * sigma**2 / (1 + T**2 * omega**2)
@@ -65,6 +66,8 @@ _______
 Theoritical PSD or correlation for n-layers (2.20) and (A6) Viggiano
 CAUTION : omega=2pif
 """
+
+
 # PSD
 def PSDu_n(omega, sigma, T, tau_eta, n):
     # Formule 2.21 Viggiano

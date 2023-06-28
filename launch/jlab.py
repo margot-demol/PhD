@@ -6,7 +6,6 @@ import json
 from glob import glob
 
 if __name__ == "__main__":
-
     assert len(sys.argv) == 3
     dashinfo = sys.argv[1]
     portdigit = sys.argv[2]

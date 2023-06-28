@@ -45,7 +45,6 @@ def load_aviso(t, dt=None, suffix="aviso_", to_360=False, rkwargs=None, **kwargs
     # LOADftry
     D = []
     for _t in t:
-
         files = glob(os.path.join(aviso_dir, f"{_t.year}/{_t.dayofyear:03d}/*.nc"))
         assert len(files) == 1, f"error: multiple files at {files}"
 

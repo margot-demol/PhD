@@ -20,7 +20,6 @@ beta15 = 0.25  # m^2.s/kg
 
 
 def cst_rio_z0(taue, taun, f, theta_lon, theta_lat, rot=True):
-
     theta0 = 30.75 * np.pi / 180
     beta0 = 0.61
 

@@ -43,7 +43,6 @@ def plot_timeseries(ds, tmax=100):
 def plot_timeseries(
     ds, tmax=100, suffixes_ls={"": "solid"}, suffixes_leg={"": ""}, title=""
 ):
-
     fig, axes = plt.subplots(1, 3, figsize=(12, 4), sharex=True)
 
     ax = axes[0]
