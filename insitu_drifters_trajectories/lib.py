@@ -35,6 +35,13 @@ DATATYPE
 ---------------------------------------------
 """
 KEYS = ['carthe_cnr', 'carthe_lops', 'code_ogs', 'svp_ogs', 'svp_shom', 'svp_scripps', 'svp_bcg']
+color = {'carthe_cnr': 'darkorange',
+         'carthe_lops': 'orange',
+         'code_ogs': 'green',
+         'svp_ogs': 'darkblue',
+         'svp_shom': 'lightblue',
+         'svp_scripps': 'teal',
+         'svp_bcg': 'blue'}
 
 """
 SYNTHETIC TRAJ GENERATION
@@ -65,10 +72,12 @@ n_layers = 5 # number of layers
 Functions
 """
 
-def synthetic_traj(t, N , T, tau_eta, n_layers, U_low, U_ni, U_2, U_1) :
+def synthetic_traj(t, N , T, tau_eta, n_layers, U_low, U_ni, U_2, U_1, all_component_pos_acc = False) :
     list_uv = []
     list_u = []
     list_v = []
+    
+    
     if U_low != None :
         ## low frequency signal: a la Viggiano
         u_low = (ts.spectral_viggiano(t, T, tau_eta, n_layers, draws=N, seed=0)
@@ -85,7 +94,6 @@ def synthetic_traj(t, N , T, tau_eta, n_layers, U_low, U_ni, U_2, U_1) :
         list_u.append('u_low')
         list_v.append('v_low')
 
-        
     if U_ni != None : 
         ## near-inertial signal: Sykulski et al. 2016
 
@@ -101,7 +109,7 @@ def synthetic_traj(t, N , T, tau_eta, n_layers, U_low, U_ni, U_2, U_1) :
         list_uv +=[u_ni, v_ni]
         list_u.append('u_ni')
         list_v.append('v_ni')
-        
+
     ## tidal signals
 
     # see high frequency spectrum
@@ -123,9 +131,9 @@ def synthetic_traj(t, N , T, tau_eta, n_layers, U_low, U_ni, U_2, U_1) :
         list_uv +=[u_2, v_2]
         list_u.append('u_2')
         list_v.append('v_2')
-
+            
     # diurnal
-    if U_2 != None : 
+    if U_1 != None : 
         omega0 = 2*np.pi # semi-diurnal
         E_1 = lambda omega: (omega**2+omega0**2 + T**-2) \
                 /( (omega**2-omega0**2)**2 +  T**-2 * (omega**2+omega0**2) + T**-4 )
@@ -140,13 +148,38 @@ def synthetic_traj(t, N , T, tau_eta, n_layers, U_low, U_ni, U_2, U_1) :
         list_u.append('u_1')
         list_v.append('v_1')
     
-    
     # combine all time series
 
     ds = xr.merge(list_uv)
     ds["u"] = sum([ds[u] for u in list_u]).assign_attrs(units="m/s")
     ds["v"] = sum([ds[v] for v in list_v]).assign_attrs(units="m/s")
+    
+    if all_component_pos_acc : 
+        ds["x_low"] = ds["u_low"].cumulative_integrate("time").assign_attrs(units="m") *86400
+        ds["y_low"] = ds["v_low"].cumulative_integrate("time").assign_attrs(units="m") *86400
+        ds["ax_low"] = ds["u_low"].differentiate("time").assign_attrs(units="m/s^2") /86400  # rescale in m/s2
+        ds["ay_low"] = ds["v_low"].differentiate("time").assign_attrs(units="m/s^2") /86400  # rescale in m/s2
 
+        ds["x_ni"] = ds["u_ni"].cumulative_integrate("time").assign_attrs(units="m") *86400
+        ds["y_ni"] = ds["v_ni"].cumulative_integrate("time").assign_attrs(units="m") *86400
+        ds["ax_ni"] = ds["u_ni"].differentiate("time").assign_attrs(units="m/s^2") /86400  # rescale in m/s2
+        ds["ay_ni"] = ds["v_ni"].differentiate("time").assign_attrs(units="m/s^2") /86400  # rescale in m/s2
+        
+        ds["x_ni"] = ds["u_ni"].cumulative_integrate("time").assign_attrs(units="m") *86400
+        ds["y_ni"] = ds["v_ni"].cumulative_integrate("time").assign_attrs(units="m") *86400
+        ds["ax_ni"] = ds["u_ni"].differentiate("time").assign_attrs(units="m/s^2") /86400  # rescale in m/s2
+        ds["ay_ni"] = ds["v_ni"].differentiate("time").assign_attrs(units="m/s^2") /86400  # rescale in m/s2
+
+        ds["x_2"] = ds["u_2"].cumulative_integrate("time").assign_attrs(units="m") *86400
+        ds["y_2"] = ds["v_2"].cumulative_integrate("time").assign_attrs(units="m") *86400
+        ds["ax_2"] = ds["u_2"].differentiate("time").assign_attrs(units="m/s^2") /86400  # rescale in m/s2
+        ds["ay_2"] = ds["v_2"].differentiate("time").assign_attrs(units="m/s^2") /86400  # rescale in m/s2
+        
+        ds["x_1"] = ds["u_1"].cumulative_integrate("time").assign_attrs(units="m") *86400
+        ds["y_1"] = ds["v_1"].cumulative_integrate("time").assign_attrs(units="m") *86400
+        ds["ax_1"] = ds["u_1"].differentiate("time").assign_attrs(units="m/s^2") /86400  # rescale in m/s2
+        ds["ay_1"] = ds["v_1"].differentiate("time").assign_attrs(units="m/s^2") /86400  # rescale in m/s2
+        
     ds["time"] = ds["time"].assign_attrs(units="days")
     ds["x"] = ds["u"].cumulative_integrate("time").assign_attrs(units="m") *86400
     ds["y"] = ds["v"].cumulative_integrate("time").assign_attrs(units="m") *86400
@@ -244,6 +277,14 @@ def random_time_sampling(ds,t,dt=1/24,offset_type='uniform', file=None, inplace=
         return ds_off
     
 def cyclic_selection(array, istart, replicate=1):
+    """ 
+    Return an array from an other array cycling and replicating 
+    Parameters:
+    -----------
+            array : array to cycle or replicate
+            istart : int, indice of the start in the given array 
+            replicate : int,  number of replicate
+    """
     cyclic_array = np.concatenate((array[istart:], array[0:istart]))
     if replicate ==1 : 
         return cyclic_array
@@ -251,49 +292,79 @@ def cyclic_selection(array, istart, replicate=1):
         return np.concatenate([cyclic_array]*replicate)
 
 def cyclic_selection_len(array, istart,n):
+    """ 
+    Return an array from an other array cycling
+    Parameters:
+    -----------
+            array : array to cycle or replicate
+            istart : int, indice of the start in the given array 
+            replicate : int,  number of replicate
+    """
     narray = len(array)
     if n ==None : 
         n=narray
     if n > narray : 
         warnings.warn('dt dasaset to small, will contain duplicated values')
+        
     if istart + n < narray : 
         return array[istart:istart+n]
     else : 
         return np.concatenate((array[istart:], array[0:n-narray+istart]))
 
 def time_from_dt_array(tstart, tend, dt):
-    time_length = np.sum(dt)
+    """ 
+    Return irregular sampled time list from the dt list. The starting dt in the dt list is randomly chosen and the list is replicated if needed
+    Parameters:
+    -----------
+            tstart : np.datetime, starting time
+            tend : np.datetime, ending time
+            dt : list of dt
+    """
+    time_length = np.sum(dt) #total time length of the dt list
     replicate = (tend-tstart)//time_length+1
     if replicate > 1 : 
         warnings.warn('dt dasaset to small, will contain duplicated values of dt')
     istart = random.randrange(len(dt))
+    print(istart)
     dt_ = cyclic_selection(dt, istart, replicate)
 
-    time = xr.DataArray(tstart.values + np.cumsum(dt))
+    time = xr.DataArray(tstart.values + np.cumsum(dt_))
     time = time.where(time<tend, drop=True)
     return time  
 
+
+
 def irregular_time_sampling(ds,t,dt=1/24, offset_type='random_uniform', file=None, inplace=False):
-    
+    """ 
+    Return irregular sampled time dataset from a dt list or randomly.
+    The starting dt in the dt list is randomly chosen and the list is replicated if needed.
+    Positions are then interpolated on this new irregularly sampled time.
+    Parameters:
+    -----------
+            tstart : np.datetime, starting time
+            tend : np.datetime, ending time
+            dt : list of dt
+    """
     if not inplace : 
         ds=ds.copy()
         
+    # Random sampling option
     if offset_type == 'random_uniform':
         offset = (ts.uniform(t, low=-dt/2, high=dt/2)*pd.Timedelta("1D")).data
         ds["time_off"] = (ds.time.dims, ds.time.data + offset)
-        
-    elif offset_type == 'carthe':
-        path_dt = '/Users/mdemol/code/PhD/filtering/example_dt_list/'
-        file = path_dt + '/carthe_dt.csv'
+    
+    # Irregular dt from in situ trajectories
+    elif offset_type in KEYS:
+        path_dt = os.path.join(root_dir,'example_dt_list','dt_'+ offset_type+'.csv')
         typical_dt = pd.Timedelta('300s')
-        DT = (pd.read_csv(path_dt + 'carthe_dt.csv')['dt']*pd.Timedelta("1s")).values
+        DT = (pd.read_csv(path_dt)['dt']*pd.Timedelta("1s")).values
         ds["time_off"] = time_from_dt_array(ds.time.min(), ds.time.max(), DT)
         #time = ds.time.data
         #for frequency computation
         #time[1] = time[0]+typical_dt
         #ds['time'] = time
         
-        
+    # Irregular dt from GDP raw trajectories    
     elif offset_type == 'gdp_raw':
         path_dt = '/Users/mdemol/code/PhD/filtering/example_dt_list/'
         file = path_dt + '/gdpraw_dt.csv'
@@ -301,7 +372,7 @@ def irregular_time_sampling(ds,t,dt=1/24, offset_type='random_uniform', file=Non
         DT = (pd.read_csv(path_dt + 'gdpraw_dt.csv')['dt']*pd.Timedelta("1min")).values
         ds["time_off"] = time_from_dt_array(ds.time.min(), ds.time.max(), DT)
         
-        
+    # Others     
     elif offset_type == 'file':
         try :
             dt = (pd.read_csv(file)['dt']*pd.Timedelta("1s")).values
@@ -313,18 +384,30 @@ def irregular_time_sampling(ds,t,dt=1/24, offset_type='random_uniform', file=Non
             assert False, 'Need more dt in csv files'
     else : 
         assert False, "Provide a valid offset_type ( 'random_uniform','carthe', 'file')" 
-    ds["time_off"] = ds["time_off"].where(ds.time_off>ds.time[0], other=ds.time[0])
+    
+    
+    ds["time_off"] = ds["time_off"].where(ds.time_off>ds.time[0], other=ds.time[0])# end and start 
     ds["time_off"] = ds["time_off"].where(ds.time_off<ds.time[-1], other=ds.time[-1])
+    
     time_off = ds["time_off"].values
-    ds_off = ds.interp(time=time_off)[['x', 'y', 'time_days']]
-    ds_off["time_uniform"] = xr.DataArray(data=ds.time.data,dims=["time_uniform"])
+    ds_off = ds.interp(time=time_off)[['x', 'y', 'time_days']]#interpolate data of the new irregular sampling
+    ds_off["time_uniform"] = xr.DataArray(data=ds.time.data,dims=["time_uniform"])# keep regular dt
     if not inplace : 
         return ds_off
+
+def add_norm(ds, x='x', y='y', u='u', v='v', ax ='ax', ay = 'ay', prefix = ''):
+    ds['xy'+prefix] = np.sqrt(ds['x'+prefix]**2 + ds['y'+prefix]**2)
+    ds['uv'+prefix] = np.sqrt(ds['u'+prefix]**2 + ds['v'+prefix]**2)
+    ds['axy'+prefix] = np.sqrt(ds['ax'+prefix]**2 + ds['ay'+prefix]**2)
     
-def add_norm(ds, x='x', y='y', u='u', v='v', ax ='ax', ay = 'ay'):
-    ds['xy'] = np.sqrt(ds.x**2 + ds.y**2)
-    ds['uv'] = np.sqrt(ds.u**2 + ds.v**2)
-    ds['axy'] = np.sqrt(ds.ax**2 + ds.ay**2)
+    
+def negpos_spectra(ds, freqkey="frequency"):
+    """Return two datasets with cyclonic/anticyclonic spectra"""
+    ds_inv = ds.sortby(freqkey, ascending=False)
+    dsneg = ds_inv.where(ds_inv[freqkey] <= 0, drop=True)
+    dsneg[freqkey] = -dsneg[freqkey]
+    dspos = ds.where(ds[freqkey] >= 0, drop=True)
+    return dsneg, dspos
     
 """
 ERRORS
