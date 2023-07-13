@@ -34,14 +34,17 @@ images_dir = '/home1/datahome/mdemol/PhD/insitu_drifters_trajectories/images'
 DATATYPE
 ---------------------------------------------
 """
-KEYS = ['carthe_cnr', 'carthe_lops', 'code_ogs', 'svp_ogs', 'svp_shom', 'svp_scripps', 'svp_bcg']
+KEYS = ['carthe_cnr', 'carthe_lops', 'code_ogs', 'svp_ogs','svp_scripps', 'svp_shom', 'svp_bcg', 'spotter_lops', 'carthe_uwa']
 color = {'carthe_cnr': 'darkorange',
          'carthe_lops': 'orange',
          'code_ogs': 'green',
          'svp_ogs': 'darkblue',
-         'svp_shom': 'lightblue',
          'svp_scripps': 'teal',
-         'svp_bcg': 'blue'}
+         'svp_shom': 'lightblue',
+         'svp_bcg': 'blue', 
+         'spotter_lops':'yellow',
+         'carthe_uwa':'coral'
+        }
 
 """
 SYNTHETIC TRAJ GENERATION
@@ -98,7 +101,7 @@ def synthetic_traj(t, N , T, tau_eta, n_layers, U_low, U_ni, U_2, U_1, all_compo
         ## near-inertial signal: Sykulski et al. 2016
 
         f = pyn.geo.coriolis(45)*86400
-        E_ni = lambda omega: 1/( (omega+f)**2 + T**-2 )
+        E_ni = lambda omega: 1/( (omega+f)**2 + T**-2 )##CHANGE + to -
 
         uv_ni = (ts.spectral(t, spectrum=E_ni, draws=N)
                  .compute()

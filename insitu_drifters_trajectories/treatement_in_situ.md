@@ -1,8 +1,8 @@
 # Description
 
-## Download to raw files 
+## Download to L0 raw files 
 Raw files should gather all data from one type+source kind of drifters : 
-- file name : type_source_datemax_heuremax.csv
+- file name : L0_type_source_datemax_heuremax.csv
 - common variables name : id, time, lon, lat
 - time in timestamp type
 - index = id
@@ -19,7 +19,7 @@ Raw files should gather all data from one type+source kind of drifters :
 - remove extreme outliers outside the mediterranean sea (0<lon<12, 36<lat<45)
 - remove nearby time situation (identified in carthe) with 1/2 période classique
 - compute dt, velocities and accelerations
-
+- file name : L1_type_source_datemax_heuremax.csv
 (see csv_L1_files.ipynb)
 
 
