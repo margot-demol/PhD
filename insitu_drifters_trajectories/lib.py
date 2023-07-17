@@ -45,7 +45,9 @@ color = {'carthe_cnr': 'darkorange',
          'spotter_lops':'yellow',
          'carthe_uwa':'coral'
         }
-
+columns = ['time', 'lat', 'lon', 'x', 'y',
+       'velocity_east', 'velocity_north', 'velocity', 'acceleration_east',
+       'acceleration_north', 'acceleration']
 """
 SYNTHETIC TRAJ GENERATION
 ----------------------------------------------
