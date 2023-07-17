@@ -39,7 +39,6 @@ def load_eras(t, dt=None, suffix="es_", to_360=False, rkwargs=None, **kwargs):
     # LOAD
     D = []
     for _t in t:
-
         _rpath = f"{_t.year}/{_t.dayofyear:03d}/{_t.year}{_t.month:02d}{_t.day:02d}{_t.hour:02d}*.nc"
         files = glob(os.path.join(era_star_dir, _rpath))
 

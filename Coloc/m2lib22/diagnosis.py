@@ -629,7 +629,6 @@ def plot_stat_lonlat(
 
     # Loop over all of the variables
     for i in range(lv):
-
         # Contour plot
         if cmap_label != 1:
             variables[i].assign_attrs({"long_name": cmap_label[i]}).plot(
