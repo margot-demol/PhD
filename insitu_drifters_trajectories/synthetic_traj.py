@@ -168,7 +168,7 @@ def synthetic_traj(t, N , T, tau_eta, n_layers, U_low, U_ni, U_2, U_1, all_compo
     ds["time"] = t0 + ds["time"]*pd.Timedelta("1D")
     return ds
 
-def add_position_noise(ds,t,  position_noise, inplace=False):
+def add_position_noise(ds, t, position_noise, inplace=False):
     # second method: independent noise realizations
     # scale represents the noise
     N =ds.dims['draw']
@@ -222,7 +222,7 @@ def cyclic_selection(array, istart, replicate=1):
     else : 
         return np.concatenate([cyclic_array]*replicate)
 
-def time_from_dt_array(tstart, tend, dt):
+def time_from_dt_array(tstart, tend, dt, istart=None):
     """ 
     Return irregular sampled time list from the dt list. The starting dt in the dt list is randomly chosen and the list is replicated if needed
     Parameters:
@@ -235,7 +235,8 @@ def time_from_dt_array(tstart, tend, dt):
     replicate = (tend-tstart)//time_length+1
     if replicate > 1 : 
         warnings.warn('dt dasaset to small, will contain duplicated values of dt')
-    istart = random.randrange(len(dt))
+    if not istart : 
+        istart = random.randrange(len(dt))
     print(istart)
     dt_ = cyclic_selection(dt, istart, replicate)
 
@@ -244,7 +245,7 @@ def time_from_dt_array(tstart, tend, dt):
     return time  
 
 
-def irregular_time_sampling(ds, offset_type='random_uniform', t = None, dt=1/24, file=None, inplace=False, time_uniform = False):
+def irregular_time_sampling(ds, offset_type='random_uniform', t = None, dt=1/24, file=None, istart = None, inplace=False, time_uniform = False):
     """ 
     Return irregular sampled time dataset from a dt list or randomly.
     The starting dt in the dt list is randomly chosen and the list is replicated if needed.
@@ -273,7 +274,7 @@ def irregular_time_sampling(ds, offset_type='random_uniform', t = None, dt=1/24,
         path_dt = os.path.join(root_dir,'example_dt_list','dt_'+ offset_type+'.csv')
         typical_dt = pd.Timedelta('300s')
         DT = (pd.read_csv(path_dt)['dt']*pd.Timedelta("1s")).values
-        ds["time_off"] = time_from_dt_array(ds.time.min(), ds.time.max(), DT)
+        ds["time_off"] = time_from_dt_array(ds.time.min(), ds.time.max(), DT, istart)
         #time = ds.time.data
         #for frequency computation
         #time[1] = time[0]+typical_dt
@@ -384,7 +385,7 @@ def dataset2dataframe(ds, velocity=True):
     for d in ds.draw :
         df = ds.sel(draw=d).to_dataframe()
         if velocity :
-            pyn.drifters.compute_velocities(df, "x", "y", "index",names = ("velocity_east", "velocity_north", "velocity"),distance = None,inplace=True,centered=True,fill_startend =False,)
+            pyn.drifters.compute_velocities(df, "x", "y", "index",names = ("u", "v", "U"),distance = None,inplace=True,centered=True,fill_startend =False,)
         DF.append(df)
     return pd.concat(DF).rename(columns = {'draw' : 'id'})
 
