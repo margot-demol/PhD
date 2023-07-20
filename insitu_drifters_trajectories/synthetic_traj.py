@@ -244,7 +244,7 @@ def time_from_dt_array(tstart, tend, dt):
     return time  
 
 
-def irregular_time_sampling(ds, offset_type='random_uniform', t = None, dt=1/24, file=None, inplace=False):
+def irregular_time_sampling(ds, offset_type='random_uniform', t = None, dt=1/24, file=None, inplace=False, time_uniform = False):
     """ 
     Return irregular sampled time dataset from a dt list or randomly.
     The starting dt in the dt list is randomly chosen and the list is replicated if needed.
@@ -306,7 +306,8 @@ def irregular_time_sampling(ds, offset_type='random_uniform', t = None, dt=1/24,
     
     time_off = ds["time_off"].values
     ds_off = ds.interp(time=time_off)[['x', 'y', 'time_days']]#interpolate data of the new irregular sampling
-    ds_off["time_uniform"] = xr.DataArray(data=ds.time.data,dims=["time_uniform"])# keep regular dt
+    if time_uniform : 
+        ds_off["time_uniform"] = xr.DataArray(data=ds.time.data,dims=["time_uniform"])# keep regular dt
     if not inplace : 
         return ds_off
 
@@ -378,12 +379,15 @@ def add_errors(ds_true, ds_comp,
 DATASET TO DATAFRAME (MIMICS INSITU DATA TO APPLY SMOOTHING METHOD)
 ----------------------------------------------
 """      
-def dataset2dataframe(ds):
+def dataset2dataframe(ds, velocity=True):
     DF = []
     for d in ds.draw :
-        df = ds.sel(draw=d).to_dataframe().rename(columns = {'draw':'id'})
+        df = ds.sel(draw=d).to_dataframe()
+        if velocity :
+            pyn.drifters.compute_velocities(df, "x", "y", "index",names = ("velocity_east", "velocity_north", "velocity"),distance = None,inplace=True,centered=True,fill_startend =False,)
         DF.append(df)
-    return pd.concat(DF)
+    return pd.concat(DF).rename(columns = {'draw' : 'id'})
+
 
     
 """

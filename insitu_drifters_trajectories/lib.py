@@ -22,12 +22,12 @@ PATH
 """
 #images_dir = '/Users/mdemol/code/PhD/filtering/images'
 
-#data_dir='/home/datawork-lops-osi/aponte/cswot/drifters' # datarmor
-data_dir='/Users/mdemol/DATA_DRIFTERS/drifters' # local
-#root_dir = '/home1/datahome/mdemol/PhD/insitu_drifters_trajectories' #datarmor
-root_dir = '/Users/mdemol/code/PhD/insitu_drifters_trajectories'
-#images_dir = '/home1/datahome/mdemol/PhD/insitu_drifters_trajectories/images'#datarmor
-images_dir = '/Users/mdemol/ownCloud/PhD/images'#local
+data_dir='/home/datawork-lops-osi/aponte/cswot/drifters' # datarmor
+#data_dir='/Users/mdemol/DATA_DRIFTERS/drifters' # local
+root_dir = '/home1/datahome/mdemol/PhD/insitu_drifters_trajectories' #datarmor
+#root_dir = '/Users/mdemol/code/PhD/insitu_drifters_trajectories'
+images_dir = '/home1/datahome/mdemol/PhD/insitu_drifters_trajectories/images'#datarmor
+#images_dir = '/Users/mdemol/ownCloud/PhD/images'#local
 
 download_dir = data_dir +'/downloads'
 raw_dir = data_dir + '/raw'
