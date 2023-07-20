@@ -1,0 +1,128 @@
+# ------------------------------- campaign info --------------------------------------
+campaign:
+  name: drifters_UWA
+  # path to general directory:
+  path: /home/datawork-lops-osi/aponte/cswot/drifters
+  # path to raw data directory:
+  path_raw: raw/ 
+  # path to clean data  directory:
+  path_processed: clean/
+  # geographical and temporal bounds
+  lon:
+    - 116
+    - 125
+  lat:
+    - -20
+    - -12
+  start: 2023-04-21 20:20:58
+  end: 2023-07-13 02:25:32
+  # bathymetric data and configuration
+  #bathy:
+  #  path: /Users/aponte/Data/bathy/med_gebco0/gebco_2022_n43.932_s41.3124_w2.0025_e7.6744.nc
+  #  label: gebco_mediterrane_extract
+  #  levels: !!python/list [2000, 1500, 1000, 500, 100, 50]
+  #coastline: h
+# ------------------------------- general deployments / campaign parts ----------------------------------
+#
+# Deployments can also be used to mark positions or isolated events
+#
+
+# ------------------------------- platform info --------------------------------------
+#
+# Platforms data.
+# Each platform may be described by: deployments, sensors, meta data
+# Each sensor may be described by: deployments, meta data
+
+#
+platforms:
+  carthe_uwa_00:
+    deployments:
+      d0:
+        - 2023-06-03 01:45:00 122.506935 -14.604585
+        - 2023-07-13 02:23:00 122.180392 -14.491503
+    meta:
+      serial_number: '0-4696415'
+      color: coral
+      end_reason: 'update_lim'
+  carthe_uwa_01:
+    deployments:
+      d0:
+        - 2023-04-28 09:01:00 123.029429 -14.061674
+        - 2023-07-13 02:23:00 122.760114 -12.595847
+    meta:
+      serial_number: '0-4696776'
+      color: coral
+      end_reason: 'update_lim'
+  carthe_uwa_02:
+    deployments:
+      d0:
+        - 2023-05-20 02:15:00 123.164462 -14.23694
+        - 2023-07-13 02:24:00 118.560139 -13.381584
+    meta:
+      serial_number: '0-4696802'
+      color: coral
+      end_reason: 'update_lim'
+  carthe_uwa_03:
+    deployments:
+      d0:
+        - 2023-06-03 11:37:00 123.020739 -14.390566
+        - 2023-07-13 02:25:00 122.560686 -13.894712
+    meta:
+      serial_number: '0-4697026'
+      color: coral
+      end_reason: 'update_lim'
+  carthe_uwa_04:
+    deployments:
+      d0:
+        - 2023-04-24 12:08:00 123.022305 -14.052254
+        - 2023-06-05 05:43:00 118.34346 -17.28658
+    meta:
+      serial_number: '0-4697028'
+      color: coral
+      end_reason: 'battery'
+  carthe_uwa_05:
+    deployments:
+      d0:
+        - 2023-04-30 09:15:00 123.056659 -14.134136
+        - 2023-07-13 02:26:00 122.270471 -14.384344
+    meta:
+      serial_number: '0-4697143'
+      color: coral
+      end_reason: 'update_lim'
+  carthe_uwa_06:
+    deployments:
+      d0:
+        - 2023-04-24 12:10:00 123.021876 -14.052372
+        - 2023-07-08 23:02:00 120.166375 -16.26204
+    meta:
+      serial_number: '0-4697144'
+      color: coral
+      end_reason: 'battery'
+  carthe_uwa_07:
+    deployments:
+      d0:
+        - 2023-06-01 13:32:00 122.520282 -14.668422
+        - 2023-07-13 02:18:00 122.444751 -13.965501
+    meta:
+      serial_number: '0-4698195'
+      color: coral
+      end_reason: 'update_lim'
+  carthe_uwa_08:
+    deployments:
+      d0:
+        - 2023-04-21 20:20:00 123.081078 -13.971369
+        - 2023-07-13 02:25:00 119.551205 -14.667982
+    meta:
+      serial_number: '0-4698639'
+      color: coral
+      end_reason: 'update_lim'
+  carthe_uwa_09:
+    deployments:
+      d0:
+        - 2023-04-22 14:52:00 123.056981 -14.050569
+        - 2023-07-11 13:18:00 116.131024 -18.438481
+    meta:
+      serial_number: '0-4699657'
+      color: coral
+      end_reason: 'battery'
+#
