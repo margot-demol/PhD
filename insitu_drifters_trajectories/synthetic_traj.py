@@ -27,20 +27,11 @@ Default parameters
 # timeline: 100 days with 10 min sampling
 dt = 1 / 24
 t = (100, dt)
+
+ref_case = dict(T = 5, U_low =0.3, U_ni = 0.2, U_2 = 0, U_1 = 0, tau_eta=0.1, n_layers = 5)
+typical_case = dict(T = 5, U_low =0.3, U_ni = 0.2, U_2 = 0.05, U_1 = 0.02, tau_eta=2, n_layers = 5)
 # number of random draws
 N = 50
-
-# use a common decorrelation timescale, no rationale
-# T = [5,10,20,40]
-T = 10
-
-# velocity amplitudes
-U_low = 0.3
-U_ni = 0.2
-U_2 = 0.05
-U_1 = 0.02
-tau_eta = 0.1  # short timescale
-n_layers = 5  # number of layers
 
 """
 Functions
@@ -50,6 +41,29 @@ Functions
 def synthetic_traj(
     t, N, T, tau_eta, n_layers, U_low, U_ni, U_2, U_1, all_component_pos_acc=False
 ):
+    """
+    Generate a synthetic trajectory
+    Parameters:
+    -----------
+            t : tuple, ndarray or int
+                Time series
+            N : int,
+                nb of draws
+            tau_eta : float,
+                short correlation scale in days
+            n_layers : int
+                number of layers for OU process
+            U_low : float, 
+                background std m/s
+            U_ni : float
+                amplitude of the inertial term m/s
+            U_2 : float, 
+                amplitude of semi-diurnal tide component m/s
+            U_1 : float, 
+                amplitude of diurnal tide component m/s 
+            all_componenet_pos_acc : boolean
+                compute/include all positions and accelerations for all components
+    """
     list_uv = []
     list_u = []
     list_v = []
@@ -129,90 +143,48 @@ def synthetic_traj(
     ds["u"] = sum([ds[u] for u in list_u]).assign_attrs(units="m/s")
     ds["v"] = sum([ds[v] for v in list_v]).assign_attrs(units="m/s")
 
-    if all_component_pos_acc:
-        ds["x_low"] = (
-            ds["u_low"].cumulative_integrate("time").assign_attrs(units="m") * 86400
-        )
-        ds["y_low"] = (
-            ds["v_low"].cumulative_integrate("time").assign_attrs(units="m") * 86400
-        )
-        ds["ax_low"] = (
-            ds["u_low"].differentiate("time").assign_attrs(units="m/s^2") / 86400
-        )  # rescale in m/s2
-        ds["ay_low"] = (
-            ds["v_low"].differentiate("time").assign_attrs(units="m/s^2") / 86400
-        )  # rescale in m/s2
-
-        ds["x_ni"] = (
-            ds["u_ni"].cumulative_integrate("time").assign_attrs(units="m") * 86400
-        )
-        ds["y_ni"] = (
-            ds["v_ni"].cumulative_integrate("time").assign_attrs(units="m") * 86400
-        )
-        ds["ax_ni"] = (
-            ds["u_ni"].differentiate("time").assign_attrs(units="m/s^2") / 86400
-        )  # rescale in m/s2
-        ds["ay_ni"] = (
-            ds["v_ni"].differentiate("time").assign_attrs(units="m/s^2") / 86400
-        )  # rescale in m/s2
-
-        ds["x_ni"] = (
-            ds["u_ni"].cumulative_integrate("time").assign_attrs(units="m") * 86400
-        )
-        ds["y_ni"] = (
-            ds["v_ni"].cumulative_integrate("time").assign_attrs(units="m") * 86400
-        )
-        ds["ax_ni"] = (
-            ds["u_ni"].differentiate("time").assign_attrs(units="m/s^2") / 86400
-        )  # rescale in m/s2
-        ds["ay_ni"] = (
-            ds["v_ni"].differentiate("time").assign_attrs(units="m/s^2") / 86400
-        )  # rescale in m/s2
-
-        ds["x_2"] = (
-            ds["u_2"].cumulative_integrate("time").assign_attrs(units="m") * 86400
-        )
-        ds["y_2"] = (
-            ds["v_2"].cumulative_integrate("time").assign_attrs(units="m") * 86400
-        )
-        ds["ax_2"] = (
-            ds["u_2"].differentiate("time").assign_attrs(units="m/s^2") / 86400
-        )  # rescale in m/s2
-        ds["ay_2"] = (
-            ds["v_2"].differentiate("time").assign_attrs(units="m/s^2") / 86400
-        )  # rescale in m/s2
-
-        ds["x_1"] = (
-            ds["u_1"].cumulative_integrate("time").assign_attrs(units="m") * 86400
-        )
-        ds["y_1"] = (
-            ds["v_1"].cumulative_integrate("time").assign_attrs(units="m") * 86400
-        )
-        ds["ax_1"] = (
-            ds["u_1"].differentiate("time").assign_attrs(units="m/s^2") / 86400
-        )  # rescale in m/s2
-        ds["ay_1"] = (
-            ds["v_1"].differentiate("time").assign_attrs(units="m/s^2") / 86400
-        )  # rescale in m/s2
-
-    ds["time"] = ds["time"].assign_attrs(units="days")
-    ds["x"] = ds["u"].cumulative_integrate("time").assign_attrs(units="m") * 86400
-    ds["y"] = ds["v"].cumulative_integrate("time").assign_attrs(units="m") * 86400
-    ds["ax"] = (
-        ds["u"].differentiate("time").assign_attrs(units="m/s^2") / 86400
-    )  # rescale in m/s2
-    ds["ay"] = (
-        ds["v"].differentiate("time").assign_attrs(units="m/s^2") / 86400
-    )  # rescale in m/s2
-
     # transform time in actual dates
     t0 = pd.Timestamp("2000/01/01")
-    ds["time_days"] = ds["time"]
+    ds["time_days"] = ds["time"].assign_attrs(units="days")
     ds["time"] = t0 + ds["time"] * pd.Timedelta("1D")
+    
+    def pos_vel_acc(suf='') :
+        #compute position
+        ds["x"+suf] = ds["u"+suf].cumulative_integrate("time", datetime_unit = 's').assign_attrs(units="m")
+        ds["y"+suf] = ds["v"+suf].cumulative_integrate("time", datetime_unit = 's').assign_attrs(units="m")
+        #update velocities (diff cumulate_integrate vs differentiate do not give same result, numerical errors)
+        ds["u"+suf] = ds["x"+suf].differentiate("time", datetime_unit = 's').assign_attrs(units="m/s")
+        ds["v"+suf] = ds["y"+suf].differentiate("time", datetime_unit = 's').assign_attrs(units="m/s")
+        # compute acceleration
+        ds["au"+suf] = ds["u"+suf].differentiate("time", datetime_unit = 's').assign_attrs(units=r"$m/s^2$")
+        ds["av"+suf] = ds["v"+suf].differentiate("time", datetime_unit = 's').assign_attrs(units=r"$m/s^2$")
+        
+    if all_component_pos_acc:
+        pos_vel_acc(suf = '_low')
+        pos_vel_acc(suf = '_ni')
+        pos_vel_acc(suf = '_2')
+        pos_vel_acc(suf = '_1')
+    pos_vel_acc()
+    
     return ds
 
 
 def add_position_noise(ds, t, position_noise, ntype='white_noise', update_vel_acc = True, inplace=False):
+    """
+    Return  noised time dataset
+    Parameters:
+    -----------
+            ds : xarray dataset
+                offset_type : 'random_uniform', in lib.KEYS (for dt from insitu dt), 'gdp_raw', 'file' to use the file given by the file argument
+            t : tuple, ndarray or int
+            position_noise : float,
+                position noise std
+            ntype : str,
+                'white_noise' or 'red_noise' implemented
+            update_vel_acc : boolean,
+                compute velocities and accelerations from noised positions
+            inplace : boolean
+    """
 
     N = ds.dims["draw"]
     
@@ -340,11 +312,19 @@ def irregular_time_sampling(
     Parameters:
     -----------
             ds : xarray dataset
-            offset_type : 'random_uniform', in lib.KEYS (for dt from insitu dt), 'gdp_raw', 'file' to use the file given by the file argument
-            t : tuple, ndarray or int, if 'random_uniform'
-            dt : float, amplitude of the random gap if 'random_uniform'
-            file : path to file,  if offset_type='file'
-            inplace : boolean
+            offset_type : 'random_uniform',
+                in lib.KEYS (for dt from insitu dt), 'gdp_raw', 'file' to use the file given by the file argument
+            t : tuple, ndarray or int,
+                if 'random_uniform'
+            dt : float,
+                amplitude of the random gap if 'random_uniform'
+            file : path to file,
+                if offset_type='file'
+            istart : int, 
+                indice of first dt in the dt file
+            time_uniform : boolean,
+                keep time_uniform or not
+            
     """
 
     # Random sampling option
@@ -425,6 +405,30 @@ def noise_irregular_sampling(ds,
                              istart=None, 
                              time_uniform=False,
                             ):
+    """
+    Return irregular sampled and noised time dataset
+    Parameters:
+    -----------
+            ds : xarray dataset
+                offset_type : 'random_uniform', in lib.KEYS (for dt from insitu dt), 'gdp_raw', 'file' to use the file given by the file argument
+            t : tuple, ndarray or int
+            position_noise : float,
+                position noise std
+            ntype : str,
+                'white_noise' or 'red_noise' implemented
+            update_vel_acc : boolean,
+                compute velocities and accelerations from noised positions
+            offset_type : 'random_uniform',
+                in lib.KEYS (for dt from insitu dt), 'gdp_raw', 'file' to use the file given by the file argument
+            dt : float,
+                amplitude of the random gap if 'random_uniform'
+            file : path to file,
+                if offset_type='file'
+            istart : int, 
+                indice of first dt in the dt file
+            time_uniform : boolean,
+                keep time_uniform or not
+    """
     ds = ds.copy()
     add_position_noise(ds, t, position_noise, ntype, update_vel_acc, inplace=True)
     ds = irregular_time_sampling(ds, offset_type, t, dt, file, istart, time_uniform=time_uniform)
@@ -571,7 +575,7 @@ DATASET TO DATAFRAME (MIMICS INSITU DATA TO APPLY SMOOTHING METHOD)
 """
 
 
-def dataset2dataframe(ds, velocity=True):
+def dataset2dataframe(ds, velocity=True, names=("u", "v", "U")):
     DF = []
     for d in ds.draw:
         df = ds.sel(draw=d).to_dataframe()
@@ -581,7 +585,7 @@ def dataset2dataframe(ds, velocity=True):
                 "x",
                 "y",
                 "index",
-                names=("u", "v", "U"),
+                names=names,
                 distance=None,
                 inplace=True,
                 centered=True,
