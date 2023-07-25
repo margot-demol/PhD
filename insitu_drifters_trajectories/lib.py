@@ -47,6 +47,7 @@ KEYS = [
     "spotter_lops",
     "carthe_uwa",
 ]
+
 color = {
     "carthe_cnr": "darkorange",
     "carthe_lops": "orange",
@@ -71,6 +72,9 @@ columns = [
     "acceleration_north",
     "acceleration",
 ]
+
+cut_date = {'svp_scripps' : pd.to_datetime('2023-05-30 18:00:00'), 
+            'svp_ogs' : pd.to_datetime('2023-05-25 15:00:00'),}
 """
 SYNTHETIC TRAJ GENERATION
 ----------------------------------------------

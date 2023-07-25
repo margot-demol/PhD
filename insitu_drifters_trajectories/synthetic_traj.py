@@ -212,28 +212,57 @@ def synthetic_traj(
     return ds
 
 
-def add_position_noise(ds, t, position_noise, inplace=False):
-    # second method: independent noise realizations
-    # scale represents the noise
+def add_position_noise(ds, t, position_noise, ntype='white_noise', update_vel_acc = True, inplace=False):
+
     N = ds.dims["draw"]
-    time_dims = ds.dims["time"]
+    
     if not inplace:
         ds = ds.copy()
-    ds["x_noise"] = (ds.x.dims, ts.normal(t, draws=N, seed=0).data * position_noise)
-    ds["y_noise"] = (ds.x.dims, ts.normal(t, draws=N, seed=1).data * position_noise)
-    ds["x"] = ds["x"] + ds["x_noise"]
-    ds["y"] = ds["y"] + ds["y_noise"]
+    
+    if ntype == 'white_noise' : 
+        xn = ts.normal(t, draws=N, seed=0).data * position_noise
+        yn = ts.normal(t, draws=N, seed=1).data * position_noise
+        ds["x_noise"] = (ds.x.dims, xn )
+        ds["y_noise"] = (ds.x.dims, yn )
+    elif ntype == 'red_noise' :
+        def E_red(omega):
+            E = omega**(-2)
+            E= np.where(np.isinf(E),0, E)
+            return E
+        #E_red = lambda omega: 1 / (omega**2 + f ** 2)
+        xy_2 = ts.spectral(t, spectrum=E_red, draws=N).compute()
+        #normalize
+        #xm = xy_2.mean("time")
+        #std = np.sqrt(( np.real(xy_2-xm)**2 + np.imag(xy_2-xm)**2 ).mean("time"))
+        #xy_2 = xy_2/std*position_noise
+        xn = np.real(xy_2).data
+        yn = np.imag(xy_2).data
+        
+        ds['x_noise'] = (ds.x.dims, xn )
+        ds['y_noise'] = (ds.x.dims, yn )
+        rmsx = np.sqrt((ds.x_noise**2).mean('time'))
+        rmsy = np.sqrt((ds.y_noise**2).mean('time'))
+        ds['x_noise'] = ds.x_noise/rmsx*position_noise
+        ds['y_noise'] = ds.y_noise/rmsy*position_noise
+        
+    else :
+        assert False
+
+    if update_vel_acc :
+        add_velocity_acceleration(ds, ds.x, ds.y, '')
     if not inplace:
         return ds
 
-
-def add_velocity_accelerations(ds, x, y, suffix=""):
+def add_velocity_acceleration(ds, x, y, suffix="", inplace=True):
     # note: DataArray.differentiate: Differentiate the array with the second order accurate central differences.
+    if not inplace:
+        ds = ds.copy()
     ds["u" + suffix] = x.differentiate("time", datetime_unit="s")
     ds["v" + suffix] = y.differentiate("time", datetime_unit="s")
-    ds["ax" + suffix] = ds["u" + suffix].differentiate("time", datetime_unit="s")
-    ds["ay" + suffix] = ds["v" + suffix].differentiate("time", datetime_unit="s")
-
+    ds["au" + suffix] = ds["u" + suffix].differentiate("time", datetime_unit="s")
+    ds["av" + suffix] = ds["v" + suffix].differentiate("time", datetime_unit="s")
+    if not inplace:
+        return ds
 
 def add_gap(ds, t, T=1, rms=1, threshold=2.0, inplace=False):
     N = ds.dims["draw"]
@@ -302,7 +331,6 @@ def irregular_time_sampling(
     dt=1 / 24,
     file=None,
     istart=None,
-    inplace=False,
     time_uniform=False,
 ):
     """
@@ -318,8 +346,6 @@ def irregular_time_sampling(
             file : path to file,  if offset_type='file'
             inplace : boolean
     """
-    if not inplace:
-        ds = ds.copy()
 
     # Random sampling option
     if offset_type == "random_uniform":
@@ -329,7 +355,7 @@ def irregular_time_sampling(
         ds["time_off"] = (ds.time.dims, ds.time.data + offset)
 
     # Irregular dt from in situ trajectories
-    elif offset_type in KEYS:
+    elif '_'.join(offset_type.split('_')[:2]) in KEYS :
         path_dt = os.path.join(
             root_dir, "example_dt_list", "dt_" + offset_type + ".csv"
         )
@@ -370,16 +396,49 @@ def irregular_time_sampling(
     ds["time_off"] = ds["time_off"].where(ds.time_off < ds.time[-1], other=ds.time[-1])
 
     time_off = ds["time_off"].values
-    ds_off = ds.interp(time=time_off)[
-        ["x", "y", "time_days"]
-    ]  # interpolate data of the new irregular sampling
+    # interpolate data of the new irregular sampling
+    ds_off = ds.interp(time=time_off)[["x", "y", "time_days"]]  
+    # interpolate noise of the new irregular sampling
+    if 'x_noise' in ds:
+        ds_off_noise = ds.interp(time=time_off, method = 'nearest')[["x_noise", "y_noise"]] 
+    
+    ds_off = xr.merge([ds_off, ds_off_noise])
+    
     if time_uniform:
         ds_off["time_uniform"] = xr.DataArray(
             data=ds.time.data, dims=["time_uniform"]
         )  # keep regular dt
-    if not inplace:
-        return ds_off
+    return ds_off
 
+"""
+APPLY BOTH NOISE AND IRREGULAR SAMPLING
+----------------------------------------------
+"""
+def noise_irregular_sampling(ds,
+                             t,
+                             position_noise,
+                             ntype='white_noise',
+                             update_vel_acc = True,
+                             offset_type="random_uniform",
+                             dt=1 / 24,
+                             file=None,
+                             istart=None, 
+                             time_uniform=False,
+                            ):
+    ds = ds.copy()
+    add_position_noise(ds, t, position_noise, ntype, update_vel_acc, inplace=True)
+    ds = irregular_time_sampling(ds, offset_type, t, dt, file, istart, time_uniform=time_uniform)
+    
+    ds['x'] = ds['x']+ds['x_noise']
+    ds['y'] = ds['y']+ds['y_noise']
+    
+    add_velocity_acceleration(ds, ds.x, ds.y)
+    return ds
+
+"""
+OTHER
+----------------------------------------------
+"""
 
 def add_norm(ds, x="x", y="y", u="u", v="v", ax="ax", ay="ay", prefix=""):
     ds["xy" + prefix] = np.sqrt(ds["x" + prefix] ** 2 + ds["y" + prefix] ** 2)
@@ -394,6 +453,7 @@ def negpos_spectra(ds, freqkey="frequency"):
     dsneg[freqkey] = -dsneg[freqkey]
     dspos = ds.where(ds[freqkey] >= 0, drop=True)
     return dsneg, dspos
+
 
 
 """
@@ -503,6 +563,7 @@ def add_errors(
     if not inplace:
         return ds_comp
 
+    
 
 """
 DATASET TO DATAFRAME (MIMICS INSITU DATA TO APPLY SMOOTHING METHOD)
