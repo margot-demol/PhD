@@ -32,14 +32,33 @@ ref_case = dict(T = 5, U_low =0.3, U_ni = 0.2, U_2 = 0, U_1 = 0, tau_eta=0.1, n_
 typical_case = dict(T = 5, U_low =0.3, U_ni = 0.2, U_2 = 0.05, U_1 = 0.02, tau_eta=2, n_layers = 5)
 # number of random draws
 N = 50
+T =5
 
 """
 Functions
 """
+def dataset2dataframe(ds):
+    DF = []
+    for d in ds.draw:
+        df = ds.sel(draw=d).to_dataframe()
+        DF.append(df)
+    return pd.concat(DF)
 
+def pos_vel_acc(df, dt, suf='') :
+    #compute position
+    df["x"+suf] = pyn.geo.spectral_diff(df['u'+suf], dt, order = -1)
+    df["y"+suf] = pyn.geo.spectral_diff(df['u'+suf], dt, order = -1)
+    #update velocities (diff cumulate_integrate vs differentiate do not give same result, numerical errors)
+    df["u"+suf] = pyn.geo.spectral_diff(df['x'], dt, order = 1)
+    df["v"+suf] = pyn.geo.spectral_diff(df['y'], dt, order = 1)
+    df["U"+suf] = np.sqrt(df["u"+suf]**2+df["v"+suf]**2)
+    # compute acceleration
+    df["ax"+suf] = pyn.geo.spectral_diff(df['x'], dt, order = 2)
+    df["ay"+suf] = pyn.geo.spectral_diff(df['x'], dt, order = 2)
+    df["Axy"+suf] = np.sqrt(df["ax"+suf]**2+df["ay"+suf]**2)
 
 def synthetic_traj(
-    t, N, T, tau_eta, n_layers, U_low, U_ni, U_2, U_1, all_component_pos_acc=False
+    t, N, T, tau_eta, n_layers, U_low, U_ni, U_2, U_1, out_put='dataset', all_comp_pos_acc =False
 ):
     """
     Generate a synthetic trajectory
@@ -61,8 +80,8 @@ def synthetic_traj(
                 amplitude of semi-diurnal tide component m/s
             U_1 : float, 
                 amplitude of diurnal tide component m/s 
-            all_componenet_pos_acc : boolean
-                compute/include all positions and accelerations for all components
+            out_put : str,
+            all_comp_pos_acc : boolean
     """
     list_uv = []
     list_u = []
@@ -138,53 +157,47 @@ def synthetic_traj(
         list_v.append("v_1")
 
     # combine all time series
-
     ds = xr.merge(list_uv)
-    ds["u"] = sum([ds[u] for u in list_u]).assign_attrs(units="m/s")
-    ds["v"] = sum([ds[v] for v in list_v]).assign_attrs(units="m/s")
+    ds["uo"] = sum([ds[u] for u in list_u]).assign_attrs(units="m/s")
+    ds["vo"] = sum([ds[v] for v in list_v]).assign_attrs(units="m/s")
 
     # transform time in actual dates
     t0 = pd.Timestamp("2000/01/01")
     ds["time_days"] = ds["time"].assign_attrs(units="days")
     ds["time"] = t0 + ds["time"] * pd.Timedelta("1D")
+
+    # compute xy, uv and axy in fourier space
+    # dataframe
+    df = dataset2dataframe(ds)
+    dt = (df.index[1] - df.index[0])/pd.Timedelta('1s')
     
-    def pos_vel_acc(suf='') :
-        #compute position
-        ds["x"+suf] = ds["u"+suf].cumulative_integrate("time", datetime_unit = 's').assign_attrs(units="m")
-        ds["y"+suf] = ds["v"+suf].cumulative_integrate("time", datetime_unit = 's').assign_attrs(units="m")
-        #update velocities (diff cumulate_integrate vs differentiate do not give same result, numerical errors)
-        ds["u"+suf] = ds["x"+suf].differentiate("time", datetime_unit = 's').assign_attrs(units="m/s")
-        ds["v"+suf] = ds["y"+suf].differentiate("time", datetime_unit = 's').assign_attrs(units="m/s")
-        # compute acceleration
-        ds["au"+suf] = ds["u"+suf].differentiate("time", datetime_unit = 's').assign_attrs(units=r"$m/s^2$")
-        ds["av"+suf] = ds["v"+suf].differentiate("time", datetime_unit = 's').assign_attrs(units=r"$m/s^2$")
-        
-    if all_component_pos_acc:
-        pos_vel_acc(suf = '_low')
-        pos_vel_acc(suf = '_ni')
-        pos_vel_acc(suf = '_2')
-        pos_vel_acc(suf = '_1')
-    pos_vel_acc()
+    #xy
+    df['x'] = pyn.geo.spectral_diff(df['uo'], dt, order = -1)
+    df['y'] = pyn.geo.spectral_diff(df['vo'], dt, order = -1)
+    #uv
+    df['u'] = pyn.geo.spectral_diff(df['x'], dt, order = 1)
+    df['v'] = pyn.geo.spectral_diff(df['y'], dt, order = 1)
+    df['U'] = np.sqrt(df['u']**2+df['v']**2)
+    #axay
+    df['ax'] = pyn.geo.spectral_diff(df['x'], dt, order = 2)
+    df['ay'] = pyn.geo.spectral_diff(df['y'], dt, order = 2)
+    df['Axy'] = np.sqrt(df['ax']**2+df['ay']**2)
     
+    if all_comp_pos_acc:
+        pos_vel_acc(df, dt, suf = '_low')
+        pos_vel_acc(df, dt, suf = '_ni')
+        pos_vel_acc(df, dt, suf = '_2')
+        pos_vel_acc(df, dt, suf = '_1')
+    
+    if out_put == 'dataset' : 
+        df = df.reset_index().set_index(['time', 'draw'])
+        ds = df.to_xarray()
+        return ds
+    else : 
+        return df
     return ds
 
-
-def add_position_noise(ds, t, position_noise, ntype='white_noise', update_vel_acc = True, inplace=False):
-    """
-    Return  noised time dataset
-    Parameters:
-    -----------
-            ds : xarray dataset
-                offset_type : 'random_uniform', in lib.KEYS (for dt from insitu dt), 'gdp_raw', 'file' to use the file given by the file argument
-            t : tuple, ndarray or int
-            position_noise : float,
-                position noise std
-            ntype : str,
-                'white_noise' or 'red_noise' implemented
-            update_vel_acc : boolean,
-                compute velocities and accelerations from noised positions
-            inplace : boolean
-    """
+def add_position_noise(ds, t, position_noise, ntype='white_noise', update_vel_acc = False, inplace=False):
 
     N = ds.dims["draw"]
     
@@ -220,21 +233,9 @@ def add_position_noise(ds, t, position_noise, ntype='white_noise', update_vel_ac
     else :
         assert False
 
-    if update_vel_acc :
-        add_velocity_acceleration(ds, ds.x, ds.y, '')
     if not inplace:
         return ds
 
-def add_velocity_acceleration(ds, x, y, suffix="", inplace=True):
-    # note: DataArray.differentiate: Differentiate the array with the second order accurate central differences.
-    if not inplace:
-        ds = ds.copy()
-    ds["u" + suffix] = x.differentiate("time", datetime_unit="s")
-    ds["v" + suffix] = y.differentiate("time", datetime_unit="s")
-    ds["au" + suffix] = ds["u" + suffix].differentiate("time", datetime_unit="s")
-    ds["av" + suffix] = ds["v" + suffix].differentiate("time", datetime_unit="s")
-    if not inplace:
-        return ds
 
 def add_gap(ds, t, T=1, rms=1, threshold=2.0, inplace=False):
     N = ds.dims["draw"]
@@ -312,21 +313,13 @@ def irregular_time_sampling(
     Parameters:
     -----------
             ds : xarray dataset
-            offset_type : 'random_uniform',
-                in lib.KEYS (for dt from insitu dt), 'gdp_raw', 'file' to use the file given by the file argument
-            t : tuple, ndarray or int,
-                if 'random_uniform'
-            dt : float,
-                amplitude of the random gap if 'random_uniform'
-            file : path to file,
-                if offset_type='file'
-            istart : int, 
-                indice of first dt in the dt file
-            time_uniform : boolean,
-                keep time_uniform or not
-            
+            offset_type : 'random_uniform', in lib.KEYS (for dt from insitu dt), 'gdp_raw', 'file' to use the file given by the file argument
+            t : tuple, ndarray or int, if 'random_uniform'
+            dt : float, amplitude of the random gap if 'random_uniform'
+            file : path to file,  if offset_type='file'
+            inplace : boolean
     """
-
+    ds = ds.copy()
     # Random sampling option
     if offset_type == "random_uniform":
         if not t:
@@ -342,10 +335,6 @@ def irregular_time_sampling(
         typical_dt = pd.Timedelta("300s")
         DT = (pd.read_csv(path_dt)["dt"] * pd.Timedelta("1s")).values
         ds["time_off"] = time_from_dt_array(ds.time.min(), ds.time.max(), DT, istart)
-        # time = ds.time.data
-        # for frequency computation
-        # time[1] = time[0]+typical_dt
-        # ds['time'] = time
 
     # Irregular dt from GDP raw trajectories
     elif offset_type == "gdp_raw":
@@ -370,6 +359,7 @@ def irregular_time_sampling(
     else:
         assert False, "Provide a valid offset_type ( 'random_uniform', KEYS, 'file')"
 
+    
     ds["time_off"] = ds["time_off"].where(
         ds.time_off > ds.time[0], other=ds.time[0]
     )  # end and start
@@ -427,29 +417,64 @@ def noise_irregular_sampling(ds,
             istart : int, 
                 indice of first dt in the dt file
             time_uniform : boolean,
-                keep time_uniform or not
-    """
-    ds = ds.copy()
-    add_position_noise(ds, t, position_noise, ntype, update_vel_acc, inplace=True)
+    """    
+    #NOISE
+    ds = add_position_noise(ds, t, position_noise, ntype, update_vel_acc)
+    #IRREGULAR TIME SAMPLING
     ds = irregular_time_sampling(ds, offset_type, t, dt, file, istart, time_uniform=time_uniform)
     
+    #MERGE
     ds['x'] = ds['x']+ds['x_noise']
     ds['y'] = ds['y']+ds['y_noise']
     
-    add_velocity_acceleration(ds, ds.x, ds.y)
+    # COMPUTE VELOCITIES/ACCELERATIONS (default is by spectral methods)
+    ds = add_velocity_acceleration(ds)
     return ds
 
+def add_velocity_acceleration(ds, suffix="", method ='pyn', groupby = 'draw'):
+    ds = ds.copy()
+    # note: DataArray.differentiate: Differentiate the array with the second order accurate central differences.
+    if method == 'spectral' :
+        dt = ds.time.diff('time')/pd.Timedelta('1s')
+        assert (dt[1:] == dt[1]).all(), 'time must be regularly sampled to apply spectral method'
+        df = dataset2dataframe(ds)
+        df['X'+ suffix] = np.sqrt(df['x'+ suffix]**2+df['y'+ suffix]**2)
+        df["u" + suffix] = pyn.geo.spectral_diff(df['x'], dt, order = 1)
+        df["v" + suffix] = pyn.geo.spectral_diff(df['y'], dt, order = 1)
+        df['U'+ suffix] = np.sqrt(df['u'+ suffix]**2+df['v'+ suffix]**2)
+        df["ax" + suffix] = pyn.geo.spectral_diff(df['x'], dt, order = 2)
+        df["ay" + suffix] = pyn.geo.spectral_diff(df['y'], dt, order = 2)
+        df['Axy'+ suffix] = np.sqrt(df['ax'+ suffix]**2+df['ay'+ suffix]**2)
+        df = df.reset_index().set_index(['time', 'draw'])
+        ds = df.to_xarray()
+        return ds
+    elif method == 'xr':
+        ds['X'+ suffix] = np.sqrt(ds['x'+ suffix]**2+ds['y'+ suffix]**2)
+        ds["u" + suffix] = ds['x'].differentiate("time", datetime_unit="s")
+        ds["v" + suffix] = ds['y'].differentiate("time", datetime_unit="s")
+        ds['U'+ suffix] = np.sqrt(ds['u'+ suffix]**2+ds['v'+ suffix]**2)
+        ds["au" + suffix] = ds["u" + suffix].differentiate("time", datetime_unit="s")
+        ds["av" + suffix] = ds["v" + suffix].differentiate("time", datetime_unit="s")
+        ds['Auv'+ suffix] = np.sqrt(ds['au'+ suffix]**2+ds['av'+ suffix]**2)
+        return ds
+    elif method =='pyn':
+        df = dataset2dataframe(ds)
+        df['X'+ suffix] = np.sqrt(df['x'+ suffix]**2+df['y'+ suffix]**2)
+        df = df.groupby(groupby).apply(pyn.geo.compute_velocities, 'index', ("u" + suffix, "v" + suffix, "U" + suffix), centered = True, fill_startend = False, distance ='xy')
+        df['U'+ suffix] = np.sqrt(df['u'+ suffix]**2+df['v'+ suffix]**2)
+        df = df.groupby(groupby).apply(pyn.geo.compute_accelerations, from_ = ('xy', 'x'+suffix, 'y'+suffix), names = ('ax' + suffix, 'ay' + suffix, 'Axy' + suffix))
+        df['Axy'+ suffix] = np.sqrt(df['ax'+ suffix]**2+df['ay'+ suffix]**2)
+        df = df.groupby(groupby).apply(pyn.geo.compute_accelerations, from_ = ('velocities', 'u'+suffix, 'v'+suffix), names = ('au' + suffix, 'av' + suffix, 'Auv' + suffix))
+        df['Auv'+ suffix] = np.sqrt(df['au'+ suffix]**2+df['av'+ suffix]**2)
+        df = df.reset_index().set_index(['time', 'draw'])
+        ds = df.to_xarray()
+        return ds
+    else : 
+        assert False, "method smust be 'xr' or 'spectral'"
 """
 OTHER
 ----------------------------------------------
 """
-
-def add_norm(ds, x="x", y="y", u="u", v="v", ax="ax", ay="ay", prefix=""):
-    ds["xy" + prefix] = np.sqrt(ds["x" + prefix] ** 2 + ds["y" + prefix] ** 2)
-    ds["uv" + prefix] = np.sqrt(ds["u" + prefix] ** 2 + ds["v" + prefix] ** 2)
-    ds["axy" + prefix] = np.sqrt(ds["ax" + prefix] ** 2 + ds["ay" + prefix] ** 2)
-
-
 def negpos_spectra(ds, freqkey="frequency"):
     """Return two datasets with cyclonic/anticyclonic spectra"""
     ds_inv = ds.sortby(freqkey, ascending=False)
@@ -568,33 +593,6 @@ def add_errors(
         return ds_comp
 
     
-
-"""
-DATASET TO DATAFRAME (MIMICS INSITU DATA TO APPLY SMOOTHING METHOD)
-----------------------------------------------
-"""
-
-
-def dataset2dataframe(ds, velocity=True, names=("u", "v", "U")):
-    DF = []
-    for d in ds.draw:
-        df = ds.sel(draw=d).to_dataframe()
-        if velocity:
-            pyn.drifters.compute_velocities(
-                df,
-                "x",
-                "y",
-                "index",
-                names=names,
-                distance=None,
-                inplace=True,
-                centered=True,
-                fill_startend=False,
-            )
-        DF.append(df)
-    return pd.concat(DF).rename(columns={"draw": "id"})
-
-
 """
 MEAN SQUARE DATAFRAME
 ----------------------------------------------
