@@ -46,15 +46,15 @@ def dataset2dataframe(ds):
 
 def pos_vel_acc(df, dt, suf='') :
     #compute position
-    df["x"+suf] = pyn.geo.spectral_diff(df['u'+suf], dt, order = -1)
-    df["y"+suf] = pyn.geo.spectral_diff(df['u'+suf], dt, order = -1)
+    df["x"+suf] = df.groupby('draw')['u'+suf].apply(pyn.geo.spectral_diff, dt, order = -1)
+    df["y"+suf] = df.groupby('draw')['v'+suf].apply(pyn.geo.spectral_diff, dt, order = -1)
     #update velocities (diff cumulate_integrate vs differentiate do not give same result, numerical errors)
-    df["u"+suf] = pyn.geo.spectral_diff(df['x'], dt, order = 1)
-    df["v"+suf] = pyn.geo.spectral_diff(df['y'], dt, order = 1)
+    df["u"+suf] = df.groupby('draw')['x'+suf].apply(pyn.geo.spectral_diff, dt, order = 1)
+    df["v"+suf] = df.groupby('draw')['y'+suf].apply(pyn.geo.spectral_diff, dt, order = 1)
     df["U"+suf] = np.sqrt(df["u"+suf]**2+df["v"+suf]**2)
     # compute acceleration
-    df["ax"+suf] = pyn.geo.spectral_diff(df['x'], dt, order = 2)
-    df["ay"+suf] = pyn.geo.spectral_diff(df['x'], dt, order = 2)
+    df["ax"+suf] = df.groupby('draw')['x'+suf].apply(pyn.geo.spectral_diff, dt, order =2)
+    df["ay"+suf] = df.groupby('draw')['y'+suf].apply(pyn.geo.spectral_diff, dt, order =2)
     df["Axy"+suf] = np.sqrt(df["ax"+suf]**2+df["ay"+suf]**2)
 
 def synthetic_traj(
@@ -172,16 +172,23 @@ def synthetic_traj(
     dt = (df.index[1] - df.index[0])/pd.Timedelta('1s')
     
     #xy
-    df['x'] = pyn.geo.spectral_diff(df['uo'], dt, order = -1)
-    df['y'] = pyn.geo.spectral_diff(df['vo'], dt, order = -1)
+    df['x'] = df.groupby('draw')['uo'].apply(pyn.geo.spectral_diff , dt, order = -1)
+    df['y'] = df.groupby('draw')['vo'].apply(pyn.geo.spectral_diff, dt, order = -1)
+    df['X'] = np.sqrt(df['x']**2+df['y']**2)
     #uv
-    df['u'] = pyn.geo.spectral_diff(df['x'], dt, order = 1)
-    df['v'] = pyn.geo.spectral_diff(df['y'], dt, order = 1)
+    df['u'] = df.groupby('draw')['x'].apply(pyn.geo.spectral_diff, dt, order = 1)
+    df['v'] = df.groupby('draw')['y'].apply(pyn.geo.spectral_diff, dt, order = 1)
     df['U'] = np.sqrt(df['u']**2+df['v']**2)
     #axay
-    df['ax'] = pyn.geo.spectral_diff(df['x'], dt, order = 2)
-    df['ay'] = pyn.geo.spectral_diff(df['y'], dt, order = 2)
+    df['ax'] = df.groupby('draw')['x'].apply(pyn.geo.spectral_diff, dt, order = 2)
+    df['ay'] = df.groupby('draw')['y'].apply(pyn.geo.spectral_diff, dt, order = 2)
     df['Axy'] = np.sqrt(df['ax']**2+df['ay']**2)
+    #auav
+    df['au'] = df.groupby('draw')['u'].apply(pyn.geo.spectral_diff, dt, order = 1)
+    df['av'] = df.groupby('draw')['v'].apply(pyn.geo.spectral_diff, dt, order = 1)
+    df['Auv'] = np.sqrt(df['ax']**2+df['ay']**2)
+
+    df = df.groupby('draw').apply(pyn.geo.compute_dt, time='index')
     
     if all_comp_pos_acc:
         pos_vel_acc(df, dt, suf = '_low')
@@ -460,7 +467,7 @@ def add_velocity_acceleration(ds, suffix="", method ='pyn', groupby = 'draw'):
     elif method =='pyn':
         df = dataset2dataframe(ds)
         df['X'+ suffix] = np.sqrt(df['x'+ suffix]**2+df['y'+ suffix]**2)
-        df = df.groupby(groupby).apply(pyn.geo.compute_velocities, 'index', ("u" + suffix, "v" + suffix, "U" + suffix), centered = True, fill_startend = False, distance ='xy')
+        df = df.groupby(groupby).apply(pyn.geo.compute_velocities, 'index', ("u" + suffix, "v" + suffix, "U" + suffix), centered = True,fill_startend = True,  distance ='xy')
         df['U'+ suffix] = np.sqrt(df['u'+ suffix]**2+df['v'+ suffix]**2)
         df = df.groupby(groupby).apply(pyn.geo.compute_accelerations, from_ = ('xy', 'x'+suffix, 'y'+suffix), names = ('ax' + suffix, 'ay' + suffix, 'Axy' + suffix))
         df['Axy'+ suffix] = np.sqrt(df['ax'+ suffix]**2+df['ay'+ suffix]**2)
@@ -483,7 +490,86 @@ def negpos_spectra(ds, freqkey="frequency"):
     dspos = ds.where(ds[freqkey] >= 0, drop=True)
     return dsneg, dspos
 
+"""
+DIAGNOSTIC
+----------------------------------------------
+"""
+def hvplot_DF(DF, d):
+    if not var :
+        var = ['x', 'y', 'u','v','ax', 'ay', 'au', 'av']
+    Hv = []
+    for v in var :
+        init = 0
+        for l in DF :
+            df = DF[l]
+            if init == 0:
+                hvplot = df[df.id == d][v].hvplot(label = l )
+                init = 1
+            hvplot *= df[df.id == d][v].hvplot(label = l )
+        Hv.append(hvplot)
+    print(len(Hv))
+    layout = hv.Layout(Hv[0] + Hv[1] + Hv[2] + Hv[3] + Hv [4] + Hv[5]).cols(2)
+    return layout
 
+def ms_diff(DF, true_key, var = ['x', 'y', 'u','v','ax', 'ay', 'X', 'U', 'Axy']):
+    DF = DF.copy()
+    dft = DF[true_key]
+    dft_ = (dft.set_index('id')[var]**2).groupby('id').mean()
+    dfms  = pd.DataFrame(index = DF.keys(), columns = var)
+    dfmsr = pd.DataFrame(index = DF.keys(), columns = var)
+    for l in DF :
+        df = DF[l]
+        if np.all(df.index.values == dft.index.values):
+            df_ = df.set_index('id')[var]-dft.set_index('id')[var]
+            #dfr_ = (df.set_index('id')[var]-dft.set_index('id')[var])/dft.set_index('id')[var]
+            dfms.loc[l] = (df_**2).groupby('id').mean().mean()
+            dfmsr.loc[l] = ((df_**2).groupby('id').mean()/dft_).mean()
+        else : 
+            print(l + ' has not the same time index')
+            continue
+    dfms = pd.concat([dfms, dfmsr.rename(columns = {v : 'ratio_'+v for v in var})], axis=1).dropna()
+    return dfms
+
+def diff_ms(DF, true_key, var = ['x', 'y', 'u','v','ax', 'ay', 'X', 'U', 'Axy']):
+    DF = DF.copy()
+    dft = DF[true_key]
+    dfms  = pd.DataFrame(index = DF.keys(), columns = var)
+    dfmsr = pd.DataFrame(index = DF.keys(), columns = var)
+    dft_ = (dft.set_index('id')[var]**2).groupby('id').mean()#mean sur une traj
+    for l in DF :
+        df = DF[l]
+        dfms.loc[l] = ((df.set_index('id')[var]**2).groupby('id').mean()-dft_).mean()#mean sur une traj puis sur ttes
+        dfmsr.loc[l] =(((dft.set_index('id')[var]**2).groupby('id').mean()-dft_)/dft_).mean()
+    dfms = pd.concat([dfms, dfmsr.rename(columns = {v : 'ratio_'+v for v in var})], axis=1).dropna()    
+    return dfms
+
+def spectrum_df(df, nperseg=24*5):
+    if 'gap_mask' in df and len(df[df.gap_mask ==1] )!= 0 :
+        print('WARNING : INTERPOLATED HOLES')
+    ds = df.reset_index().set_index(['time', 'id']).to_xarray()
+    vc = [("x", "y"), ("u", "v"), ("ax","ay"), ("au", "av")]
+    E = []
+    for tup in vc :
+        E.append(ds.ts.spectrum(nperseg=nperseg, complex=tup))
+    return xr.merge(E)
+
+def test_regular_dt(df):
+    if df.index.name == 'time' : 
+        return np.all(np.round(df.dt.dropna().values) == np.round((df.index[3]-df.index[2])/pd.Timedelta('1s')))
+    else : 
+        return np.all(np.round(df.dt.dropna().values) == np.round((df.time[3]-df.time[2])/pd.Timedelta('1s')))
+
+def spectrum_DF(DF, nperseg=24*5) :
+    DFE = dict()
+    for l in DF :
+        df = DF[l]
+        test = test_regular_dt(df) 
+        if test_regular_dt(df) :
+            DFE[l] = spectrum_df(df, nperseg)    
+            print(l)
+        else :
+            continue
+    return DFE
 
 """
 ERRORS
