@@ -638,7 +638,7 @@ def spectrum_DF(DF, nperseg='20D', detrend = False) :
     return DSE
 
 def DSE2dse(DSE):
-    ds = xr.concat(DSE.values(), dim =list(DSE.keys()))
+    ds = xr.concat(DSE.values()[['x_y', 'u_v', 'ax_ay']], dim =list(DSE.keys()))
     return ds.rename({'concat_dim':'Trajectory'})
 
 # SPECTRA OF THE DIFF ##############################################################
