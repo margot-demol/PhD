@@ -9,8 +9,8 @@ campaign:
   path_processed: clean/
   # geographical and temporal bounds
   lon:
-    - 1
-    - 11
+    - 0
+    - 12
   lat:
     - 37
     - 45
@@ -670,11 +670,11 @@ platforms:
     deployments:
       d0:
         - 2023-04-15 10:39:00 7.1704 43.4212
-        - 2023-05-18 05:11:00 2.0008 41.194
+        - 2023-05-21 16:31:00 1.451 41.151
     meta:
       serial_number: '300534062475680'
       color: lightblue
-      end_reason: 'battery'
+      end_reason: 'land'
       depth : 15
   svp_shom_02:
     deployments:
@@ -780,11 +780,11 @@ platforms:
     deployments:
       d0:
         - 2023-03-31 14:59:00 4.7904 41.9838
-        - 2023-05-12 20:56:00 2.0008 41.0366
+        - 2023-06-29 01:36:00 0.908 39.5234
     meta:
       serial_number: '300534060211000'
       color: lightblue
-      end_reason: 'battery'
+      end_reason: 'end'
       depth : 15
   svp_shom_13:
     deployments:
@@ -810,11 +810,11 @@ platforms:
     deployments:
       d0:
         - 2023-04-05 18:34:00 4.0702 40.3936
-        - 2023-06-01 01:26:00 2.0004 40.911
+        - 2023-06-26 14:41:00 1.366 41.1228
     meta:
       serial_number: '300534060017440'
       color: lightblue
-      end_reason: 'battery'
+      end_reason: 'land'
       depth : 15
   svp_shom_16:
     deployments:
