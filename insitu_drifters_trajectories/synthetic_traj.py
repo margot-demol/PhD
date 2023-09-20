@@ -267,6 +267,7 @@ def add_position_noise(ds, t, position_noise, ntype='white_noise', inplace=False
         yn = ts.normal(t, draws=N, seed=1).data * position_noise
         ds["x_noise"] = (ds.x.dims, xn )
         ds["y_noise"] = (ds.x.dims, yn )
+        
     elif ntype == 'red_noise' :
         def E_red(omega):
             E = omega**(-2)
@@ -615,7 +616,7 @@ def spectrum_df(df, nperseg='20D', detrend=False):
         vc+=[("x_noise", "y_noise"), ("u_noise", "v_noise"), ("ax_noise","ay_noise")]
     E = []
     for tup in vc :
-        ds_ = ds.ts.spectrum(unit = '1D',nperseg=nperseg,detrend=False, complex=tup)
+        ds_ = ds.ts.spectrum(unit = '1D',nperseg=nperseg, detrend=detrend, complex=tup)
         E.append(ds_)
     return xr.merge(E)
 
@@ -631,7 +632,7 @@ def spectrum_DF(DF, nperseg='20D', detrend = False) :
         df = DF[l]
         test = test_regular_dt(df) 
         if test_regular_dt(df) :
-            DSE[l] = spectrum_df(df, nperseg)    
+            DSE[l] = spectrum_df(df, nperseg, detrend)    
             print(l)
         else :
             continue
