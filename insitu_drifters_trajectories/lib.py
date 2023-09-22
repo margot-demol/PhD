@@ -17,20 +17,22 @@ from sstats import get_cmap_colors
 import matplotlib.pyplot as plt
 import pynsitu as pyn
 
-plt.rcParams['axes.linewidth'] = 0.2 #set the value globally
+plt.rcParams["axes.linewidth"] = 0.2  # set the value globally
 
 """
 PATH
 ---------------------------------------------
 """
-platform ='local'
+platform = "local"
 
 # images_dir = '/Users/mdemol/code/PhD/filtering/images'
-if platform == 'datarmor' :
-    data_dir='/home/datawork-lops-osi/aponte/cswot/drifters' # datarmor
-    root_dir = '/home1/datahome/mdemol/PhD/insitu_drifters_trajectories' #datarmor
-    images_dir = '/home1/datahome/mdemol/PhD/insitu_drifters_trajectories/images'#datarmor
-if platform == 'local' :
+if platform == "datarmor":
+    data_dir = "/home/datawork-lops-osi/aponte/cswot/drifters"  # datarmor
+    root_dir = "/home1/datahome/mdemol/PhD/insitu_drifters_trajectories"  # datarmor
+    images_dir = (
+        "/home1/datahome/mdemol/PhD/insitu_drifters_trajectories/images"  # datarmor
+    )
+if platform == "local":
     images_dir = "/Users/mdemol/ownCloud/PhD/images"  # local
     root_dir = "/Users/mdemol/code/PhD/insitu_drifters_trajectories"
     data_dir = "/Users/mdemol/DATA_DRIFTERS/drifters"  # local
@@ -66,7 +68,7 @@ color = {
     "svp_bcg": "blue",
     "spotter_lops": "yellow",
     "carthe_uwa": "coral",
-    "melodi_eodyn":"hotpink",
+    "melodi_eodyn": "hotpink",
 }
 columns = [
     "time",
@@ -82,8 +84,10 @@ columns = [
     "acceleration",
 ]
 
-cut_date = {'svp_scripps' : pd.to_datetime('2023-05-30 18:00:00'), 
-            'svp_ogs' : pd.to_datetime('2023-05-25 15:00:00'),}
+cut_date = {
+    "svp_scripps": pd.to_datetime("2023-05-30 18:00:00"),
+    "svp_ogs": pd.to_datetime("2023-05-25 15:00:00"),
+}
 """
 SYNTHETIC TRAJ GENERATION
 ----------------------------------------------
@@ -112,6 +116,8 @@ n_layers = 5  # number of layers
 """
 SWOT plots
 """
+
+
 def load_swot_tracks(phase="calval", resolution=None, bbox=None, **kwargs):
     """Load SWOT tracks
 
@@ -123,7 +129,6 @@ def load_swot_tracks(phase="calval", resolution=None, bbox=None, **kwargs):
     resolution: str, optional
         Specify resolution, for example "10s", default is "30s"
     """
-
 
     if platform == "datarmor":
         tracks_dir = "/home/datawork-lops-osi/equinox/misc/swot"
@@ -137,14 +142,11 @@ def load_swot_tracks(phase="calval", resolution=None, bbox=None, **kwargs):
     dfiles = {f.split("_")[-1].split(".")[0]: f for f in files}
     out = {key: gpd.read_file(f, **kwargs) for key, f in dfiles.items()}
 
-
     if bbox is None:
         return out
 
-
     central_lon = (bbox[0] + bbox[1]) * 0.5
     central_lat = (bbox[2] + bbox[3]) * 0.5
-
 
     polygon = Polygon(
         [
@@ -157,8 +159,8 @@ def load_swot_tracks(phase="calval", resolution=None, bbox=None, **kwargs):
     )
     out = {key: gpd.clip(gdf, polygon) for key, gdf in out.items()}
 
-
     return out
+
 
 def plot_swot_tracks(ax, bbox):
     tracks = load_swot_tracks(bbox=bbox)["swath"]
@@ -168,7 +170,7 @@ def plot_swot_tracks(ax, bbox):
         alpha=0.2,
         zorder=-1,
     )
-    #if isinstance(swot_tracks, dict):
+    # if isinstance(swot_tracks, dict):
     #    swot_kwargs.update(swot_tracks)
     proj = ax.projection
     crs_proj4 = proj.proj4_init
@@ -177,6 +179,7 @@ def plot_swot_tracks(ax, bbox):
         crs=proj,
         **swot_kwargs,
     )
+
 
 """
 ---------------------------------------------------------------------------------
@@ -193,6 +196,7 @@ class MinorSymLogLocator(Locator):
     Dynamically find minor tick positions based on the positions of
     major ticks for a symlog scaling.
     """
+
     def __init__(self, linthresh):
         """
         Ticks will be placed between the major ticks.
@@ -202,7 +206,7 @@ class MinorSymLogLocator(Locator):
         self.linthresh = linthresh
 
     def __call__(self):
-        'Return the locations of the ticks'
+        "Return the locations of the ticks"
         majorlocs = self.axis.get_majorticklocs()
 
         # iterate through minor locs
@@ -210,17 +214,18 @@ class MinorSymLogLocator(Locator):
 
         # handle the lowest part
         for i in range(1, len(majorlocs)):
-            majorstep = majorlocs[i] - majorlocs[i-1]
-            if abs(majorlocs[i-1] + majorstep/2) < self.linthresh:
+            majorstep = majorlocs[i] - majorlocs[i - 1]
+            if abs(majorlocs[i - 1] + majorstep / 2) < self.linthresh:
                 ndivs = 10
             else:
                 ndivs = 9
             minorstep = majorstep / ndivs
-            locs = np.arange(majorlocs[i-1], majorlocs[i], minorstep)[1:]
+            locs = np.arange(majorlocs[i - 1], majorlocs[i], minorstep)[1:]
             minorlocs.extend(locs)
 
         return self.raise_if_exceeds(np.array(minorlocs))
 
     def tick_values(self, vmin, vmax):
-        raise NotImplementedError('Cannot get tick locations for a '
-                                  '%s type.' % type(self))
+        raise NotImplementedError(
+            "Cannot get tick locations for a " "%s type." % type(self)
+        )
