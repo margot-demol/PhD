@@ -88,6 +88,14 @@ cut_date = {
     "svp_scripps": pd.to_datetime("2023-05-30 18:00:00"),
     "svp_ogs": pd.to_datetime("2023-05-25 15:00:00"),
 }
+
+"""
+OPTIMIZE LOWESS
+----------------------------------------------
+"""
+param_lowess = dict(degree=2, iteration=3, T_low_pass = 10, cutoff_low_pass = 13)
+
+
 """
 SYNTHETIC TRAJ GENERATION
 ----------------------------------------------
