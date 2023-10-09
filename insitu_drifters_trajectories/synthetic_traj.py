@@ -59,7 +59,7 @@ Functions
 def dataset2dataframe(ds):
     DF = []
     for d in ds.draw:
-        df = ds.sel(draw=d).to_dataframe()
+        df = ds.sel(draw=d).dropna('time').to_dataframe()
         DF.append(df)
     return pd.concat(DF)
 
@@ -89,6 +89,16 @@ def pos_vel_acc_spectral(df, dt, suf=""):
     )
     df["Axy" + suf] = np.sqrt(df["ax" + suf] ** 2 + df["ay" + suf] ** 2)
 
+def random_time_begin(dso, dt=None):
+    if not dt :
+        dt = (dso.time.diff(dim='time').mean()/pd.Timedelta('1s')).values
+    DSO = []
+    rd = np.random.random(len(dso.draw))*dt
+    for i in range(len(dso.draw)):
+        dso_ = dso.isel(draw=i)
+        dso_['time']=dso_['time']+pd.Timedelta('1s')*rd[i]
+        DSO.append(dso_)
+    return xr.concat(DSO, dim='draw')
 
 def synthetic_traj(
     t,
