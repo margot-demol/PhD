@@ -59,7 +59,8 @@ Functions
 def dataset2dataframe(ds):
     DF = []
     for d in ds.draw:
-        df = ds.sel(draw=d).dropna('time').to_dataframe()
+        #df = ds.sel(draw=d).dropna('time').to_dataframe()
+        df = ds.sel(draw=d).to_dataframe()
         DF.append(df)
     return pd.concat(DF)
 
