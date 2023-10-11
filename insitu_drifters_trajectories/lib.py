@@ -23,7 +23,7 @@ plt.rcParams["axes.linewidth"] = 0.2  # set the value globally
 PATH
 ---------------------------------------------
 """
-platform = "datarmor"
+platform = "local"
 
 # images_dir = '/Users/mdemol/code/PhD/filtering/images'
 if platform == "datarmor":
