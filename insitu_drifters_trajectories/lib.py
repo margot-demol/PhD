@@ -23,7 +23,7 @@ plt.rcParams["axes.linewidth"] = 0.2  # set the value globally
 PATH
 ---------------------------------------------
 """
-platform = "local"
+platform = "datarmor"
 
 # images_dir = '/Users/mdemol/code/PhD/filtering/images'
 if platform == "datarmor":
@@ -32,6 +32,7 @@ if platform == "datarmor":
     images_dir = (
         "/home1/datahome/mdemol/PhD/insitu_drifters_trajectories/images"  # datarmor
     )
+    doc_dir = "/home1/datahome/mdemol/PhD/insitu_drifters_trajectories/doc"
 if platform == "local":
     images_dir = "/Users/mdemol/ownCloud/PhD/images"  # local
     root_dir = "/Users/mdemol/code/PhD/insitu_drifters_trajectories"
