@@ -60,10 +60,17 @@ def dataset2dataframe(ds):
     DF = []
     for d in ds.draw:
         #df = ds.sel(draw=d).dropna('time').to_dataframe()
-        df = ds.sel(draw=d).dropna('time').to_dataframe()
+        df = ds.sel(draw=d).to_dataframe()
         DF.append(df)
     return pd.concat(DF)
 
+def dataset2dataframe_drop(ds):
+    DF = []
+    for d in ds.draw:
+        #df = ds.sel(draw=d).dropna('time').to_dataframe()
+        df = ds.sel(draw=d).dropna('time').to_dataframe()
+        DF.append(df)
+    return pd.concat(DF)
 
 def pos_vel_acc_spectral(df, dt, suf=""):
     # compute position
@@ -91,6 +98,7 @@ def pos_vel_acc_spectral(df, dt, suf=""):
     df["Axy" + suf] = np.sqrt(df["ax" + suf] ** 2 + df["ay" + suf] ** 2)
 
 def random_time_begin(dso, dt=None):
+    """dt:en secondes"""
     if not dt :
         dt = (dso.time.diff(dim='time').mean()/pd.Timedelta('1s')).values
     DSO = []
