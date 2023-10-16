@@ -23,7 +23,7 @@ plt.rcParams["axes.linewidth"] = 0.2  # set the value globally
 PATH
 ---------------------------------------------
 """
-platform = "datarmor"
+platform = "local"
 
 # images_dir = '/Users/mdemol/code/PhD/filtering/images'
 if platform == "datarmor":
@@ -37,7 +37,7 @@ if platform == "local":
     images_dir = "/Users/mdemol/ownCloud/PhD/images"  # local
     root_dir = "/Users/mdemol/code/PhD/insitu_drifters_trajectories"
     data_dir = "/Users/mdemol/DATA_DRIFTERS/drifters"  # local
-
+    doc_dir = "/Users/mdemol/DATA_DRIFTERS/test"
 download_dir = data_dir + "/downloads"
 raw_dir = data_dir + "/raw"
 
@@ -71,6 +71,21 @@ color = {
     "carthe_uwa": "coral",
     "melodi_eodyn": "hotpink",
 }
+
+nominal_freq = {'carthe_cnr':'5min',
+                'carthe_lops':'5min',
+                'code_ogs':'10min',
+                'svp_scripps_10min':'10min',
+                'svp_scripps_1h':'1h',
+                'svp_ogs_10min':'10min',
+                'svp_ogs_1h':'1h',
+                'svp_shom':'5min',
+                'svp_bcg':'10min',
+                'spotter_lops':'30min',
+                'carthe_uwa':'5min',
+                'melodi_eodyn':'10min',
+               }
+
 columns = [
     "time",
     "lat",
