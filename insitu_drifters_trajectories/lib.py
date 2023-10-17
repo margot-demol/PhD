@@ -40,7 +40,7 @@ if platform == "local":
     doc_dir = "/Users/mdemol/DATA_DRIFTERS/test"
 download_dir = data_dir + "/downloads"
 raw_dir = data_dir + "/raw"
-
+smoothed_dir = data_dir + "/smoothed"
 
 """
 DATATYPE
