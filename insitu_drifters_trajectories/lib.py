@@ -106,11 +106,45 @@ cut_date = {
 }
 
 """
-OPTIMIZE LOWESS
+OPEN L1 or L2 FILES
 ----------------------------------------------
 """
-param_lowess = dict(degree=2, iteration=3, T_low_pass = 10, cutoff_low_pass = 13)
 
+list_type = ['carthe_cnr_5min', 'carthe_lops_5min', 'carthe_uwa_5min',
+       'code_ogs_10min', 'melodi_eodyn_10min', 'spotter_lops_30min',
+       'svp_bcg_10min', 'svp_ogs_10min', 'svp_ogs_1h',
+       'svp_scripps_10min', 'svp_scripps_1h', 'svp_shom_10min']
+
+def open_L1_dataset(raw_dir, drifter_type):
+    files_list = glob(os.path.join(raw_dir, 'L1_*.nc'))
+    l = drifter_type.split('_')
+    find=False
+    for f in files_list :
+        if '_'.join(l[0:2]) in f and l[-1]+'.nc' in f:
+            find = True
+            break
+    assert find
+    print(f)
+    ds = xr.open_dataset(f)
+    ds = ds.rename({'velocity_east':'u', 'velocity_north':'v', 'velocity':'U', 
+                   'acceleration_east':'ax', 'acceleration_north':'ay', 'acceleration':'Axy',})
+    sampling = f.split('_')[-1].replace('.nc', '')
+    ds.attrs['raw_sampling']= sampling
+    return ds
+
+def open_L2_dataset(smoothed_dir, drifter_type, method, sampling, mask=True):
+    find=False
+    files_list = glob(os.path.join(smoothed_dir, 'L2_*.nc'))
+    for f in files_list :
+        if drifter_type in f and sampling+'_v0' in f and method in f:
+            find = True
+            break
+    assert find
+    print(f)
+    ds2 = xr.open_dataset(f)
+    if mask :
+        return ds2.where(ds2.gap_mask==0) 
+    else : return ds2
 
 """
 SYNTHETIC TRAJ GENERATION
