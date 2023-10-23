@@ -132,11 +132,11 @@ def open_L1_dataset(raw_dir, drifter_type):
     ds.attrs['raw_sampling']= sampling
     return ds
 
-def open_L2_dataset(smoothed_dir, drifter_type, method, sampling, mask=True):
+def open_L2_dataset(smoothed_dir, drifter_type, method, sampling, mask=True, version='v0'):
     find=False
     files_list = glob(os.path.join(smoothed_dir, 'L2_*.nc'))
     for f in files_list :
-        if drifter_type in f and sampling+'_v0' in f and method in f:
+        if drifter_type in f and sampling+'_'+version in f and method in f:
             find = True
             break
     assert find

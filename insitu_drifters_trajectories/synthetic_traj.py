@@ -1079,3 +1079,151 @@ def ms_dataframe(D, list_var=["x", "y", "u", "v", "ax", "ay"]):
         df[var] = [float((D[l][var] ** 2).mean().values) for l in D]
     df = df.set_index("Trajectory")
     df
+
+    
+    
+    
+    
+def smooth_var_overall(
+    df,
+    method,
+    t_target,
+    maxgap=4 * 3600,
+    parameters=dict(),
+    import_columns=["id"],
+    spectral_diff=False,
+    geo=True,
+):
+    """
+    Smooth and interpolated a trajectory
+    Parameters:
+    -----------
+            df :  dataframe with raw trajectory,
+                must contain 'time','x','y', 'u', 'v', 'dt'
+            method : str
+                smoothing method among : 'spydell', 'variational' or 'lowess'
+            t_target: `pandas.core.indexes.datetimes.DatetimeIndex` or str
+                Output time series, as typically given by pd.date_range or the delta time of the output time series as str
+                In this case, t_target is then recomputed taking start-end the start end of the input trajectory and the given delta time
+            maxgap : float,
+                max gap tolerated in SECONDS
+            parameters : dict,
+                contains all parameters to give to method :
+                - variational : dict(acc_cut =, position_error=, acceleration_amplitude=, acceleration_T=,time_chunk=)
+                - lowess : dict(degree=)
+                - spydell : dict(acc_cut =, nb_pt_mean=)
+            import_columns : list of str,
+                list of df constant columns we want to import (ex: id, platform)
+            geo: boolean,
+                optional if geo obj with projection
+            acc: boolean,
+                optional compute acceleration
+    Return : interpolated dataframe with x, y, u, v, ax-ay computed from xy, au-av computed from u-v, +norms, id, platform with index time
+    """
+    # check maxgap
+    assert maxgap > df.dt.min(), "maxgap smaller than the smallest dt"
+
+    # index = time
+    if df.index.name != "time":
+        if df.index.name == None:
+            df = df.set_index("time")
+        else:
+            df = df.reset_index().set_index("time")
+
+    # check time index is sorted
+    if not df.index.is_monotonic_increasing:
+        df.sort_index(inplace=True)
+
+    # t_target
+    if isinstance(t_target, str):
+        t_target = pd.date_range(df.index.min().ceil(t_target), df.index.max(), freq=t_target) # add ceil so all drifters in smooth_all are on the same time grid
+    else:
+        # enforce t_target type
+        t_target = pd.DatetimeIndex(t_target)
+
+    # divide into blocs if gap bigger than maxgap
+    DF, DF_target, DF_target_gap = divide_blocs(df, t_target, maxgap)
+    print(f'Divided into {len(DF)} segments')
+    
+    # APPLY ON SEGMENTS
+    if method=='spydell':
+        DF_out = []
+        for i in range(len(DF)):
+            try : df_, t_target_ = DF[i], DF_target[i]
+            except : continue #if DF_target is empty
+            param = ["acc_cut", "nb_pt_mean"]
+            assert np.all(
+                    [p in param for p in parameters]
+                ), f"parameters keys must be in {param}"
+            try:
+                df_out = spydell_smooth(
+                    df_,
+                    t_target_,
+                    **parameters,
+                    import_columns=import_columns,
+                    spectral_diff=spectral_diff,
+                    geo=geo,
+                )
+            except:
+                assert False, (df_, t_target_, len(df_), len(t_target_))
+            DF_out.append(df_out)
+        dfo = pd.concat(DF_out)    
+        dfo = dfo.reindex(t_target).interpolate()# LINEAR INTERPOLATION IN GAPS
+                    
+    #APPLY ON the whole trajectory (linear interpolation in gaps already done by LOWESS)                
+    elif method == "lowess":
+        param = ["degree", "iteration", "nb","T_low_pass", "cutoff_low_pass"]
+        assert np.all(
+            [p in param for p in parameters]
+        ), f"parameters keys must be in {param}"
+        try:
+            dfo = lowess_smooth(
+                df,
+                t_target,
+                **parameters,
+                import_columns=import_columns,
+                spectral_diff=spectral_diff,
+                geo=geo,
+            )
+        except:
+            assert False, (df, t_target)
+            
+    #APPLY ON the whole trajectory (linear interpolation in gaps already done by LOWESS)                
+    elif method == "variational":
+        print('ok')
+        param = param = ["acc_cut","position_error","acceleration_amplitude","acceleration_T","time_chunk","acc_cut_key",]
+        assert np.all(
+            [p in param for p in parameters]
+        ), f"parameters keys must be in {param}"
+        try:
+            dfo = variational_smooth(
+                df,
+                t_target,
+                **parameters,
+                import_columns=import_columns,
+                spectral_diff=spectral_diff,
+                geo=geo,
+            )
+        except:
+            assert False, (df, t_target)
+            
+    else : 
+        
+        assert False, 'method must be "variational", "lowess", or "spydell"'
+        
+    # gap_mask :
+    t_target_values= pd.DatetimeIndex(pd.concat([pd.Series(dti) for dti in DF_target])).sort_values()
+    gapmask = pd.DataFrame(index = t_target_values)
+    gapmask['gap_mask'] = 0 # 0 where a value is computed
+    gapmask = gapmask.reindex(t_target, fill_value=1)# 1 in gaps = linearly interpolated data
+    dfo = pd.concat([dfo, gapmask], axis=1)
+
+    # gap value : time distance to the nearest neightbors in seconds
+    dfo["gaps"] = gap_array(df.index.values, t_target.values)
+
+    # import columns/info ex: id or time
+    if import_columns:
+        for column in import_columns:
+            dfo[column] = df[column][0]
+
+    return dfo
