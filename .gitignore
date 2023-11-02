@@ -109,3 +109,5 @@ dask-worker*
 
 #
 *.pbs #added my self
+*.csv
+*.nc
